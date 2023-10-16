@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/1', function () {
-    return view('page1');
+    return view('page1.page1');
 });
 Route::get('/2', function () {
-    return view('page2');
+    return view('page2.page2');
 });
