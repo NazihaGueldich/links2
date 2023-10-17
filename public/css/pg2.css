@@ -159,6 +159,68 @@
 
     }
 
+    .crlrd {
+        width: 7.53px;
+        height: 7.94px;
+        border: 2.73px solid #FD4343;
+    }
+
+    .chois {
+        width: 83.03px;
+        height: 10.97px;
+        top: 406px;
+        left: 183px;
+        padding: 0;
+        border: 3.27px solid #FD4343;
+    }
+
+    .pprt4 {
+        font-family: 'Noto Sans KR';
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: greenyellow;
+    }
+
+    .btnactv {
+        width: 203px;
+        height: 52px;
+        border-radius: 29.5px;
+        border: 2px solid #FD4343;
+        color: #FD4343;
+    }
+
+    .btninactv {
+        font-family: 'Noto Sans KR';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: #C4C2D4;
+    }
+
+    .ktbchng p {
+    font-family: 'Noto Sans KR';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.ktbchng span {
+    font-family: 'Noto Sans KR';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
 
     @media screen and (max-width: 768px) {
         .dnm {
