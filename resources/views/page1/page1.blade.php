@@ -31,7 +31,7 @@
                     <li class="mr-3" >
                         <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
 
-                        <button type="button" class="btn btn-outline-primary">
+                        <button type="button" class="btn btn-outline-primary" style="border-radius:8px">
                             <i class="fas fa-search"></i>
                         </button>
                     </li>
