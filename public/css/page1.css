@@ -66,6 +66,22 @@
         font-family: noto;
         color: #ffffff;
     }
+    .btn.btn-outline-primary.btn-main {
+        height: 33px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        color: #347EFF;
+        border: 1px solid #347EFF;
+        font-family: noto;
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .btn.btn-outline-primary.btn-main:hover {
+        color: #ffffff;
+        background-color: #347EFF;
+    }
+
 
     .btn1-main {
         width: 124px;
@@ -75,14 +91,41 @@
         color: #347EFF;
         border: 2px solid transparent;
         font-family: noto;
-        font-size: 20px;
+        font-size: 19px;
         transition: border-color 0.3s;
-      }
+    }
 
-      .btn1-main:hover,
-      .btn1-main:active {
-        border-color: blue;
-      }
+    .btn.btn-outline-primary.btn1-main {
+        width: 124px;
+        border-color: white !important;
+
+        height: 36px;
+        border-radius: 36px;
+        background-color: #ffffff;
+        color: #347EFF;
+        font-family: noto;
+        font-size: 20px;
+    }
+
+    .btn.btn-outline-primary.r-btn1 {
+        border-color: white !important;
+
+        width: 231px;
+        height: 54px;
+        border-radius: 36px;
+        color: #ffffff;
+        font-family: noto;
+        font-size: 20px;
+        border: 2px solid #ffffff;
+
+    }
+
+
+    .btn.btn-outline-primary:hover {
+        background-color: #ffffff;
+        color: #347EFF;
+    }
+
     .nav-item .d-flex .align-items-center {
         margin-right: 50px;
     }
@@ -139,8 +182,7 @@
     }
 
     .text2 span {
-        width: 464px;
-        height: 116px;
+
         font-weight: 400;
         font-size: 24px;
         color: #000000;
@@ -286,54 +328,24 @@
     }
 
     .r-btn1 {
-        width: 231px;
-        height: 54px;
-        border-radius: 36px;
-        color: #ffffff;
-        background-color: transparent;
-        border: 2px solid #ffffff;
-        transition: background-color 0.3s, color 0.3s;
+        width: 124px;
+        height: 36px;
+        border-radius: 35px;
+        background-color: #ffffff;
+        color: #347EFF;
+        border: 2px solid transparent;
+        font-family: noto;
+        font-size: 19px;
+        transition: border-color 0.3s;
     }
 
-    .r-btn1:hover {
-        background-color: #ffffff;
-        color: #000000;
-    }
-
-    .r-btn1:active {
-        background-color: #ffffff;
-        color: #000000;
-    }
 
     .r-text1 {
         color: #ffffff;
     }
 
-    .r-btn2 {
-        width: 231px;
-        height: 54px;
-        border-radius: 36px;
-        color: #ffffff;
-        background-color: transparent;
-        border: 2px solid #ffffff;
-        transition: background-color 0.3s, color 0.3s;
-    }
 
-    .r-btn5:hover,
-    .r-btn4:hover,
-    .r-btn3:hover,
-    .r-btn2:hover {
-        background-color: #ffffff;
-        color: #000000;
-    }
 
-    .r-btn5:active,
-    .r-btn4:active,
-    .r-btn3:active,
-    .r-btn2:active {
-        background-color: #ffffff;
-        color: #000000;
-    }
 
     .r-btn3 {
 
@@ -369,8 +381,7 @@
     }
 
     .text-3 span {
-        width: 106px;
-        height: 48px;
+
         font-size: 36px;
         font-weight: bold;
         color: white;
@@ -419,8 +430,7 @@
     }
 
     .text-p {
-        width: 266.6px;
-        height: 106px;
+
         font-size: 32px;
         font-weight: bold;
         color: #347EFF;
@@ -456,8 +466,7 @@
     }
 
     .text-p2 {
-        width: 266.6px;
-        height: 106px;
+
         font-size: 32px;
         font-weight: bold;
         color: #000;
@@ -492,8 +501,7 @@
     }
 
     .text-p3 {
-        width: 266.6px;
-        height: 106px;
+
         font-size: 32px;
         font-weight: bold;
         color: #000;
@@ -528,8 +536,7 @@
     }
 
     .text-p4 {
-        width: 266.6px;
-        height: 106px;
+
         font-size: 32px;
         font-weight: bold;
         color: #000;
@@ -644,16 +651,15 @@
 
         font-size: 57px;
         font-weight: 400;
-        height: 94px;
+
     }
 
     .show-paragraph2 span {
         font-family: noto;
-        width: 165px;
         color: #B3B3B3;
         font-size: 31px;
         font-weight: 600;
-        height: 94px;
+
     }
 
     .show-paragraph2 h5 {
@@ -662,16 +668,14 @@
         color: #B3B3B3;
         font-size: 42px;
         font-weight: bold;
-        height: 94px;
+
     }
 
     .show-paragraph span {
         font-family: noto;
-        width: 165px;
         color: #000000;
         font-size: 31px;
         font-weight: 600;
-        height: 94px;
     }
 
     .show-paragraph3 h5 {
@@ -685,11 +689,10 @@
 
     .show-paragraph3 span {
         font-family: noto;
-        width: 165px;
+
         color: #B3B3B3;
         font-size: 31px;
         font-weight: 600;
-        height: 94px;
     }
 
     .show-paragraph4 h5 {
@@ -703,18 +706,170 @@
 
     .show-paragraph4 span {
         font-family: noto;
-        width: 165px;
         color: #B3B3B3;
         font-size: 31px;
         font-weight: 600;
-        height: 94px;
     }
-.vertical-alignes {
+
+    .vertical-alignes {
         border-left: 1px solid #8C8C8C;
         height: 100px;
         margin: 0 20px;
     }
-.foot{
-    display: flex;
-}
 
+    .foot {
+        display: flex;
+    }
+
+    .btn.btn-outline-primary.r-btn2,
+    .btn.btn-outline-primary.r-btn3,
+    .btn.btn-outline-primary.r-btn4,
+    .btn.btn-outline-primary.r-btn5 {
+        border-color: white !important;
+        width: 231px;
+        height: 54px;
+        transition: none;
+        box-shadow: none;
+        border-radius: 36px;
+        color: #ffffff;
+        font-family: noto;
+        font-size: 20px;
+        border: 2px solid #ffffff;
+    }
+
+    .btn.btn-outline-primary.r-btn2:hover,
+    .btn.btn-outline-primary.r-btn3:hover,
+    .btn.btn-outline-primary.r-btn4:hover,
+    .btn.btn-outline-primary.r-btn5:hover {
+        color: #347EFF;
+        transition: none;
+        box-shadow: none;
+    }
+
+    .btn.btn-outline-primary:not(:disabled):not(.disabled):active,
+    .show>.btn.btn-outline-primary.dropdown-toggle {
+        color: #fff;
+        background-color: transparent;
+        border-color: #ffffff;
+        transition: none;
+        box-shadow: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .btn.btn-outline-primary.btn1-b1,
+    .btn.btn-outline-primary.btn3,
+    .btn.btn-outline-primary.btn2,
+    .btn.btn-outline-primary.btn1-b2,
+    .btn.btn-outline-primary.btn3,
+    .btn.btn-outline-primary.btn1-b3,
+    .btn.btn-outline-primary.btn4,
+    .btn.btn-outline-primary.btn1-b4 {
+        width: 72px;
+        height: 33px;
+        background-color: #B3B3B3;
+        transition: none;
+        box-shadow: none;
+        font-weight: bold;
+        border-radius: 30px;
+        color: #ffffff;
+        font-family: noto;
+        font-size: 15px;
+        box-shadow: none;
+
+        border-color: #ffffff !important;
+
+    }
+
+
+
+    .btn.btn-outline-primary.btn1-b:hover,
+    .btn.btn-outline-primary.btn3:hover {
+        color: #347EFF;
+        transition: none;
+        box-shadow: none;
+    }
+
+
+    .btn.btn-outline-primary.btn1-b,
+    .btn.btn-outline-primary.btn1-b1 {
+        width: 52.32px;
+        height: 33px;
+        background-color: #B3B3B3;
+        border-radius: 30px;
+        background-color: #347EFF;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        font-family: noto;
+
+        font-size: 12px;
+
+    }
+
+    .btn.btn-outline-primary.btn1-b:hover,
+    .btn.btn-outline-primary.btn3:hover {
+        color: #347EFF;
+        transition: none;
+        box-shadow: none;
+    }
+
+    .btn.btn-outline-primary.button3 {
+        width: 344px;
+        height: 41px;
+        background-color: #ffffff;
+        transition: none;
+        box-shadow: none;
+        font-weight: bold;
+
+        font-size: 19px;
+        font-family: noto;
+
+        color: #347EFF;
+        border-radius: 36px;
+
+        border-color: #347EFF !important;
+
+    }
+
+    .btn.btn-outline-primary.button3:hover {
+        color: #347EFF;
+
+    }
+
+    .btn.btn-outline-primary.button4 {
+        width: 163.49px;
+        height: 66px;
+        background-color: #ffffff;
+        transition: none;
+        box-shadow: none;
+        font-weight: bold;
+        color: #347EFF;
+        border-radius: 77px;
+
+        border: 1px solid #347EFF;
+        background-color: transparent;
+        transition: background-color 0.3s, color 0.3s;
+        align-self: center;
+        font-size: 24px;
+        font-family: noto;
+        font-weight: 400;
+
+        border-color: #347EFF !important;
+
+    }
+
+    .btn.btn-outline-primary.button4:hover {
+        color: #347EFF;
+
+    }

@@ -4,43 +4,41 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container justify-content-between">
-          <div id="myTopnav">
-            <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
-          </div>
+            <div id="myTopnav">
+                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+            </div>
 
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item d-flex align-items-center">
-                <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" style="width: 28px; object-fit: cover;" class="mr-2">
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">4:09:27 <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">튀니지에</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">보다 더</a>
-              </li>
-              <li class="nav-item">
-                <div class="input-group">
-                  <input class="input-nav" type="text" placeholder="문의하기">
-                  <div class="ml-4">
-                    <button class="btn btn-outline-primary search-nav" type="button">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" style="width:572px;height:33px">
+
+                    <li class="nav-item active d-flex align-items-center">
+                        <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" style="width: 24px; object-fit: cover;"
+                            class="mr-1">
+                        <a class="nav-link" href="#">4:09:27 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">튀니지에</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">보다 더</a>
+                    </li>
+
+                    <li class="mr-3" >
+                        <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
+
+                        <button type="button" class="btn btn-outline-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
 
     <main>
@@ -66,7 +64,8 @@
                                 튀니지
                                 <br>파란 하늘 푸른 바다
                             </span>
-                            <button type="button" class="btn1-main">더보기</button>
+
+                            <button type="button" class="btn btn-outline-primary btn1-main">더보기</button>
                         </div>
                     </div>
                     <ol class="carousel-indicators">
@@ -138,7 +137,7 @@
                 <div style="background-image: url('{{ asset('images/image 4.png') }}')" class="image-1">
                     <div class="d-flex flex-column align-items-center">
                         <div class="d-flex flex-column align-items-start mr-5">
-                            <button class="mt-4 r-btn1 mr-6">고고학 유적지</button>
+                            <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
                         </div>
                         {{--     <div class="r-text1">
                         튀니지
@@ -157,7 +156,8 @@
                             class="image-2">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class="mt-4 r-btn2">튀니지 미식 체험</button>
+                                    <button type="button" class="btn btn-outline-primary mt-4 r-btn2">튀니지 미식
+                                        체험</button>
                                 </div>
                                 {{--  <div class="r-text2">
                                 튀니지
@@ -171,7 +171,8 @@
                             class="image-3">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class=" mt-4 r-btn3">메디나 역사지구</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나
+                                        역사지구</button>
                                 </div>
                                 {{--       <div class="r-text3">
                                 튀니지
@@ -189,7 +190,7 @@
                             class="image-4">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class=" mt-4 r-btn4">즐길거리</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
                                 </div>
                                 {{--       <div class="r-text4">
                                 튀니지
@@ -203,7 +204,8 @@
                             class="image-4">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class="mt-4 r-btn5">인기 목적지</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기
+                                        목적지</button>
                                 </div>
                                 {{--                             <div class="r-text5">
                                 튀니지
@@ -267,7 +269,7 @@ justify-content: space-between;">
                         대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로
                         꼭 방문해야할 명소입니다.도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
-                    <button type="button" class="btn1-main">더보기</button>
+                    <button class="btn btn-outline-primary btn1-main">더보기</button>
                 </div>
 
             </div>
@@ -281,8 +283,8 @@ justify-content: space-between;">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p ">튀니스</span>
                         <div class=" d-flex justify-content-between">
-                            <button class="btn1-b ">수도</button>
-                            <button class="btn1-b1 ml-2">동쪽</button>
+                            <button class="btn btn-outline-primary btn1-b text-center mr">수도</button>
+                            <button class="btn btn-outline-primary btn1-b1 ml-2 text-center">동쪽</button>
                         </div>
 
                     </div>
@@ -294,8 +296,8 @@ justify-content: space-between;">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p2">두즈</span>
                         <div class=" d-flex justify-content-between">
-                            <button class="btn2 ">따뜻한</button>
-                            <button class="btn1-b2 ml-2">남쪽</button>
+                            <button class="btn btn-outline-primary btn2 text-center">따뜻한</button>
+                            <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center">남쪽</button>
                         </div>
                     </div>
                 </div>
@@ -305,19 +307,19 @@ justify-content: space-between;">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p3">카이루안</span>
                         <div class="d-flex justify-content-between">
-                            <button class="btn3 ">따뜻한</button>
-                            <button class="btn1-b3 ml-2">남쪽</button>
+                            <button class="btn btn-outline-primary   btn3 text-center">따뜻한</button>
+                            <button class="btn btn-outline-primary btn1-b3 ml-2 text-center">남쪽</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column align-items-center">
-                    <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3">
+                    <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 ">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p4">마트마타</span>
                         <div class="d-flex justify-content-between">
-                            <button class="btn4 ">따뜻한</button>
-                            <button class="btn1-b4 ml-2">해변</button>
+                            <button class="btn btn-outline-primary btn4 text-center">따뜻한</button>
+                            <button class="btn btn-outline-primary btn1-b4 ml-2 text-center">해변</button>
                         </div>
                     </div>
                 </div>
@@ -398,7 +400,7 @@ justify-content: space-between;">
             <img src="{{ asset('images/Property 1=Default.png') }}">
 
             <hr class="lignes" style="margin: 10px;">
-            <button class="button3">여기에서 더 많은 의견을 확인하세요</button>
+            <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
         </div>
 
         <div class="container mt-5">
@@ -419,7 +421,7 @@ justify-content: space-between;">
             <div style="display: flex; align-items: center; justify-content: flex-end;">
 
                 <hr class="lignes">
-                <button class="button4" >제출</button>
+                <button class="btn btn-outline-primary button4">제출</button>
             </div>
         </div>
         <div class="container mt-5">
@@ -433,10 +435,11 @@ justify-content: space-between;">
                             </a>
 
                         </li>
-                        <div class="vertical-alignes"></div>                        <li>
+                        <div class="vertical-alignes"></div>
+                        <li>
                             <a href="#" class="show-paragraph2" data-paragraph="ahla12">
                                 <h5 class="ml-5">2M</h5>
-                                <span >관광객 200만명</span>
+                                <span>관광객 200만명</span>
                             </a>
                         </li>
                         <div class="vertical-alignes"></div>
@@ -466,7 +469,7 @@ justify-content: space-between;">
             <div class="footer-column">
                 <div class="left-content">
                     <h3 style="font-size: 16px;text-align: end;">튀니지에 대해서</h3>
-                    <ul style="font-size: 16px;" >
+                    <ul style="font-size: 16px;">
                         <li><a href="#">역사</a> |</li>
                         <li><a href="#">음식</a> |</li>
                         <li style="font-weight: bold"><a href="#">문화</a> |</li>
@@ -510,10 +513,13 @@ justify-content: space-between;">
                     <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
                 </div>
                 <div>
-                    <div class="footer-images2" style="display: flex; justify-content: space-between; align-items: center;">
-                        <span class="titr" style="color: #8C8C8C;font-size: 14px;
-                        width: 159px;">All rights reserved</span>
-                        <hr class="lignes ml-1" >
+                    <div class="footer-images2"
+                        style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="titr"
+                            style="color: #8C8C8C;font-size: 14px;
+                        width: 159px;">All rights
+                            reserved</span>
+                        <hr class="lignes ml-1">
                         <div class="img12" style="display: flex;">
                             <img src="{{ asset('images/Rectangle2.svg') }}">
                             <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
@@ -521,8 +527,10 @@ justify-content: space-between;">
                         </div>
                     </div>
                     <div class="bloc2 ml-5">
-                        <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                        <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                        <img src="{{ asset('images/fb.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;">
+                        <img src="{{ asset('images/ig.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;">
                         <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
                     </div>
                 </div>
