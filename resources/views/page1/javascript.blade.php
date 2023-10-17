@@ -27,37 +27,5 @@
     }
 
 }
-document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".slideshow-image");
-    const circles = document.querySelectorAll(".circle");
-    let currentIndex = 0;
-
-    // Afficher la première image
-    images[currentIndex].style.display = "block";
-    circles[currentIndex].classList.add("active");
-
-    // Fonction pour passer à l'image suivante
-    function nextImage() {
-        images[currentIndex].style.display = "none";
-        circles[currentIndex].classList.remove("active");
-        currentIndex = (currentIndex + 1) % images.length;
-        images[currentIndex].style.display = "block";
-        circles[currentIndex].classList.add("active");
-    }
-
-    // Définir un intervalle pour passer automatiquement à l'image suivante
-    setInterval(nextImage, 5000); // Change l'image toutes les 5 secondes (5000 millisecondes)
-
-    // Gérer le clic sur les cercles de navigation
-    circles.forEach((circle, index) => {
-        circle.addEventListener("click", function () {
-            images[currentIndex].style.display = "none";
-            circles[currentIndex].classList.remove("active");
-            currentIndex = index;
-            images[currentIndex].style.display = "block";
-            circles[currentIndex].classList.add("active");
-        });
-    });
-});
 
 </script>
