@@ -255,8 +255,7 @@
 
     .text-3 p {
         margin-top: 0%;
-        /* height: 142px; */
-        /* width: 489.18px; */
+        width: 330px;
         font-family: noto;
         font-weight: 400;
         color: rgb(250, 250, 250);
@@ -278,15 +277,15 @@
     .image1-2 {
         height: 34%;
 
-        width: 106%;
-        margin-left: -3%;
+        width:100%;
+
     }
 
 
     .video-js {
-        width: 389.84px !important;
-        height: 240.89px;
-        margin-left: -4%;
+        width:100% !important;
+        height: 100%;
+
     }
     .flex-container{
         display: flex;
@@ -297,12 +296,12 @@
 
     .btn.btn-outline-primary.btn1-main2 {
         width: 101px;
-        margin-left: 45%;
+
         border-color: white !important;
         height: 27px;
         border-radius: 35px;
         background-color: #ffffff;
-        color: #ADAAA3;
+        color: #347EFF;
         font-family: noto;
         font-size: 12px;
         padding: 0;
@@ -327,8 +326,7 @@
     font-family: 'inter', sans-serif;
 }
 .img-bas{
-    width: 99%;
-    margin-left: 4%;
+    width: 100%;
 }
     .btn1-b,
     .btn1-b1,
