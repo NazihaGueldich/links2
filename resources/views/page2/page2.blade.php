@@ -1,6 +1,48 @@
 @include('page2.scriptpg2')
 @include('page2.navpg')
 
+{{-- icons --}}
+<div class="container mt-5 mb-5">
+    <div class="flex-container">
+        <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
+            <img id='img1' src="{{ asset('images/icn1.png') }}" class="imgicns">
+            <p id="p1" class="txticns">호텔</p>
+        </div>
+
+        <div class=" ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
+                id='img2' src="{{ asset('images/icn2.png') }}" class="imgicns">
+            <p id="p2" class="txticns">항공편</p>
+        </div>
+        <div class="ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
+                id='img3' src="{{ asset('images/icn3.png') }}" class="imgicns">
+            <p id="p3" class="txticns">축제</p>
+        </div>
+        <div class="ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
+                id='img4' src="{{ asset('images/icn4.png') }}" class="imgicns">
+            <p id="p4" class="txticns">활동</p>
+        </div>
+        <div class="ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
+                id='img5' src="{{ asset('images/icn5.png') }}" class="imgicns">
+            <p id="p5" class="txticns">자동차 서비스</p>
+        </div>
+        <div class="ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
+                id='img6' src="{{ asset('images/icn6.png') }}" class="imgicns">
+            <p id="p6" class="txticns">크루즈</p>
+        </div>
+        <div class="ligne1 m-4 lg">|</div>
+        <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
+                id='img7' src="{{ asset('images/icn7.png') }}" class="imgicns">
+            <p id="p7" class="txticns">박물관</p>
+        </div>
+    </div>
+</div>
+
+
 {{-- part 1 --}}
 <div>
     <div class="text-center mb-3">
@@ -59,7 +101,7 @@
 
 {{-- part 3 --}}
 <hr class="mt-5 mb-5 lignesfrk">
-<div style="height: 594px">
+<div class="scc3" >
     <div class="text-center mb-3">
         <span class="titr4">날씨</span>
     </div>
@@ -67,20 +109,17 @@
         <div class="col-lg-4 d-flex flex-column justify-content-start pt-4">
             <img src="{{ asset('images/chammousa.png') }}" class="img-fluid img3" id='imgchoose'>
 
-            <div class="d-flex justify-content-center mt-5" style="color: #FD4343;">
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
-                    style="position: relative!important;opacity: 1 !important" onclick="srllimg(-1)">
+            <div class="d-flex justify-content-center mt-5 sccgrp" >
+                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button" data-slide="prev"
+                     onclick="srllimg(-1)">
                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <span class="crlrd" id='crcl1'
-                    style="width: 20px;background-image:url({{ asset('images/point.svg') }});background-repeat: no-repeat;background-position: center;"></span>
-                <span class="crlrd" id='crcl2'
-                    style="width: 20px;background-image:url({{ asset('images/cercle.svg') }});background-repeat: no-repeat;background-position: center;"></span>
-                <span class="crlrd" id='crcl3'
-                    style="width: 20px;background-image:url({{ asset('images/cercle.svg') }});background-repeat: no-repeat;background-position: center;"></span>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
-                    style="position: relative!important;opacity: 1 !important" onclick="srllimg(1)">
+                <span  id='crcl1'></span>
+                <span  id='crcl2'></span>
+                <span  id='crcl3'></span>
+                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button" data-slide="next"
+                   onclick="srllimg(1)">
                     <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -153,9 +192,9 @@
                 <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재 남아있는
                     유대인들의 대부분은 제르바섬에 거주하고 있습니다.</p>
             </div>
-            <div class="d-flex justify-content-between" style="width: 30%" onclick="changelement()">
-                <img src="{{ asset('images/down.svg') }}" style="width: 26px">
-                <p id='txtindx' style="color: #C4C2D4;font-size: 32px;font-weight: 900" class="mb-0">유대교</p>
+            <div class="d-flex justify-content-between inx" onclick="changelement()">
+                <img id='imgindx' src="{{ asset('images/down.svg') }}" >
+                <p id='txtindx' class="mb-0">유대교</p>
             </div>
 
         </div>
@@ -174,7 +213,7 @@
                 <img src="{{ asset('images/Rectangle 16 (2).png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">올리브</button>
             </div>
-            <div class="d-flex flex-column justify-content-between" style="height: 300px">
+            <div class="d-flex flex-column justify-content-between divcrd7" >
                 <p class="p1prt7 ">튀니지는 다양한 올리브 품종으로 유명한 세계적인 올리브 생산국 중 하나입니다. 이 나라는 기후와 토양이 올리브 재배에 이상적이어서 고품질의 올리브
                     생산을 자랑합니다. 현지에서는 올리브 생산 과정을 직접 관찰하고 현지 농부로부터 전통적인 농업 기술을 배울 수 있으며, 튀니지의 올리브와 관련된 풍부한 문화를 체험할 수
                     있습니다.</p>
@@ -186,7 +225,7 @@
                 <img src="{{ asset('images/Rectangle 16.png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">쿠스쿠스</button>
             </div>
-            <div class="d-flex flex-column justify-content-between" style="height: 300px">
+            <div class="d-flex flex-column justify-content-between" >
                 <p class="p1prt7">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기, 채소, 향신료로
                     만든 풍미 있는 스튜와 함께 제공됩니다. 튀니지의 다양한 지역 스타일로 만들어진 쿠스쿠스를 현지 레스토랑이나 시장에서 맛보세요. 이렇게 튀니지의 다양한 음식문화를 경험할 수
                     있는 쿠스쿠스는 여행객에게 꼭 추천하는 메뉴입니다.
@@ -199,7 +238,7 @@
                 <img src="{{ asset('images/Rectangle 16 (1).png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">카이루안</button>
             </div>
-            <div class="d-flex flex-column justify-content-between" style="height: 300px">
+            <div class="d-flex flex-column justify-content-between divcrd7" >
                 <p class="p1prt7">튀니지의 카이루안은 유네스코에 등재된 도시로, 풍부한 역사와 문화적 유산으로 유명합니다. 카이루안의 메디나는 좁은 길과 시장이 있는 붐변한 곳으로
                     현지 생활을 경험할 수 있으며, 아글라비드 제반스와 같은 고대 기술을 보여주는 곳을 탐험할 수 있습니다. 이 도시는 역사, 문화, 그리고 현지 매력을 결합하여 튀니지의
                     독특한 경험을 제공합니다.
@@ -219,7 +258,7 @@
             이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
     </div>
     <div class="d-flex flex-row justify-content-between crd8">
-        <div style="max-width: 350px" class="d-flex flex-column  prt8hov">
+        <div  class="d-flex flex-column  prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p1.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">예술</button>
@@ -227,7 +266,7 @@
             <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등 수공예품이 유명합니다.
             </p>
         </div>
-        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
+        <div  class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p2.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">요리</button>
@@ -236,9 +275,9 @@
                 하리사를 넣어 특유의 매운맛이 특징이에요.
             </p>
         </div>
-        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
+        <div class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
-                <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6" style="z-index: -1;"
+                <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6 indxprt8" 
                     alt="Image">
                 <button class="btncrd">스포츠</button>
             </div>
