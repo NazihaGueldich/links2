@@ -245,9 +245,9 @@
 
     .scrole {
         height: 750px;
+
         margin-left: 20% !important;
         overflow-x: scroll;
-        white-space: nowrap;
         scroll-snap-type: x mandatory;
 
     }
@@ -262,8 +262,8 @@
     .image-1 {
 
         width: 572%;
-        /* height: 550%; */
-        margin-left: 543%;
+        width: 388px;
+                margin-left: 543%;
         height: 100%;
     }
 
