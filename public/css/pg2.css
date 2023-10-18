@@ -53,7 +53,15 @@ img {
 }
 
 .lignes {
-    border-left: 1px solid #ccc;
+    width: 9%;
+    border: none;
+    height: 1px;
+    background-color: #B3B3B3;
+    margin: 52px;
+}
+
+.vertical-alignes {
+    border-left: 1px solid #8C8C8C;
     height: 100px;
     margin: 0 20px;
 }
@@ -82,39 +90,7 @@ img {
     background-color: transparent;
 }
 
-/* footer */
-.mots {
-    font-size: 16px;
-    text-align: end;
-}
 
-.imgfootr {
-    width: 93px;
-    height: 62px;
-    object-fit: cover;
-}
-
-.right {
-    font-size: 14px;
-    color: #8C8C8C;
-}
-
-.imglt {
-    width: 56.51px;
-    height: 25.53px;
-    top: 6438.63px;
-    left: 1283.38px;
-}
-
-.imgltsm {
-    height: 18px;
-    max-width: 26px;
-    margin-right: 4%;
-}
-
-.dbm {
-    display: none;
-}
 
 @media screen and (max-width: 768px) {
     .dnm {
@@ -137,6 +113,9 @@ img {
     font-weight: bold;
     color: #FD4343;
     text-align: end;
+    color: #8C8C8C;
+    font-size: 14px;
+    width: 159px;
 }
 
 .img1 {
@@ -568,11 +547,34 @@ text-align: center;
 .foot {
     display: flex;
 }
+footer {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #2247dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-.footer-column {
-    border-right: 1px solid #B3B3B3;
-    margin-right: 50px;
-    padding-right: 50px;
+}
+
+footer li {
+    align-items: right;
+    display: inline;
+}
+
+a,
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h3,
+footer h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .footer-images {
@@ -583,11 +585,72 @@ text-align: center;
     flex-direction: column;
 }
 
+.footer-images2{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
 .footer-images2 img {
     width: 95%;
     height: 95%;
 }
 
+.footer-column {
+    border-right: 1px solid #B3B3B3;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+#h3ft{
+    font-size: 16px;
+    text-align: end;
+}
+
+#ulft{
+    font-size: 16px;
+}
+
+#h3ft2{
+    font-size: 32px;
+    color: #347EFF
+}
+
+#ulft2{
+    text-align: end;
+}
+
+.divft{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.imgft{
+    width: 93px;
+     height: 62px;
+}
+
+.lnpgft{
+    margin: 0;
+}
+
+.img12{
+    display: flex;
+}
+
+.imgst1ft{
+    height: 24px;
+}
+
+.imgst2ft{
+    height: 18px;
+     max-width: 17px; 
+     margin-right: 4%;
+}
+.imgst3ft{
+    height: 18px; 
+    max-width: 26px;
+}
 
 .lignesft {
     margin: 52px;
