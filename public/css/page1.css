@@ -6,11 +6,24 @@
 
     @font-face {
         font-family: noto;
-        src: url(font/NotoSansKR-Regular.ttf);
+        src: url(../font/NotoSansKR-Regular.ttf);
+    }
+
+    html {
+        width: 100%;
+        height: 100%;
     }
 
     body {
-        background-color: #B3B3B3;
+        width: 100%;
+        background-color: #F1F1F1 !important;
+        overflow-x: hidden;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
     }
 
     .img-max-height {
@@ -18,6 +31,71 @@
         object-fit: cover;
         width: 100%;
     }
+
+    .input-search {
+        width: 47px;
+        height: 33px;
+        transition: all .5s !important;
+        box-shadow: none !important;
+        position: relative;
+    }
+
+    .input-search:hover {
+        width: 147px;
+    }
+
+    .icon-search {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+    }
+
+    .parag-img{
+        font-size: 17px;
+        font-family: noto;
+        color: white;
+        opacity: 0;
+        transition: all .5s !important;
+    }
+
+    .image-2:hover .parag-img{
+        opacity: 1;
+    }
+    .image-3:hover .parag-img{
+        opacity: 1;
+    }
+    .image-4:hover .parag-img{
+        opacity: 1;
+    }
+    .image-5:hover .parag-img{
+        opacity: 1;
+    }
+
+    .image-2:hover button{
+        color: #347EFF !important;
+        transition: none;
+        box-shadow: none;
+        background-color: #ffffff;
+    }
+    .image-3:hover button{
+        color: #347EFF !important;
+        transition: none;
+        box-shadow: none;
+        background-color: #ffffff;
+    }
+    .image-4:hover button{
+        color: #347EFF !important;
+        transition: none;
+        box-shadow: none;
+        background-color: #ffffff;
+    }
+    .image-5:hover button{
+        color: #347EFF !important;
+        transition: none;
+        box-shadow: none;
+        background-color: #ffffff;
+    }
+
 
     .custom-indicator {
         width: 20px;
@@ -44,7 +122,7 @@
         color: #000;
         font-size: 17;
         font-family: noto;
-
+        margin-right: 50px;
     }
 
     .rounded-8 {
@@ -66,6 +144,7 @@
         font-family: noto;
         color: #ffffff;
     }
+
     .btn.btn-outline-primary.btn-main {
         height: 33px;
         border-radius: 8px;
@@ -153,7 +232,42 @@
 
         width: 571px;
         height: 560px;
-        border-radius: 33px
+        border-radius: 33px;
+        background-image: url("../images/image 4.png");
+    }
+        
+    .image-1:active{
+        background-image: url("../images/teste2.png");
+    }
+
+    .image-2{
+        background-image: url('../images/Rectangle (2).png');
+        background-size: cover;
+    }
+    .image-2:active{
+        background-image: url("../images/abweb.png");
+    }
+
+    .image-3{
+        background-image: url('../images/Asset 6@2x 1.png');
+        background-size: cover;
+    }
+    .image-3:active{
+        background-image: url("../images/ejja.png");
+    }
+    .image-4{
+        background-image: url('../images/tiniseeee.jpg');
+        background-size: cover;
+    }
+    .image-4:active{
+        background-image: url("../images/kant.png");
+    }
+    .image-5{
+        background-image: url('../images/Asset 5@2x 1.png');
+        background-size: cover;
+    }
+    .image-5:active{
+        background-image: url("../images/Asset 3@4x 1.png");
     }
 
     .image-2,
@@ -229,7 +343,7 @@
     }
 
     .vertical-line {
-        margin-left: 10%;
+        margin-left: 15%;
         width: 2px;
         height: 60px;
         border-right: 3px dashed #1576e4;
@@ -553,7 +667,6 @@
         width: 1088.7px;
         height: 64.5px;
         border-radius: 32.5px;
-        color: #fffcfc;
         border: 1px solid #B3B3B3;
 
         font-family: noto;
@@ -566,7 +679,6 @@
         width: 1091px;
         height: 411px;
         border-radius: 15px;
-        color: #fffcfc;
         border: 1px solid #B3B3B3;
 
         font-family: noto;
@@ -634,6 +746,9 @@
         align-self: center;
         margin-right: 13%;
     }
+.show-paragraph:hover{
+    text-decoration: none !important;
+}
 
     .card2 {
 
@@ -641,7 +756,7 @@
         height: 380px;
         border-radius: 41px;
         border: 1px solid #c9cbcb;
-
+        background-color: #ffffff;
 
     }
 
