@@ -284,10 +284,10 @@
 
 
     .video-js {
-        width: 388.84px;
+        width: 389.84px !important;
         height: 240.89px;
+        margin-left: -4%;
     }
-
     .flex-container{
         display: flex;
         justify-content: center;
@@ -512,10 +512,7 @@
       order: 1; /* Place le titre en haut sur les téléphones */
     }
 
-    #my-video {
-      order: 2; /* Place la vidéo en bas sur les téléphones */
-      width: 108%; /* Ajuste la largeur de la vidéo à 100% de l'écran sur les téléphones */
-    }
+
   }
   @media (max-width: 768px) {
     .txt1, .txt2 {

@@ -387,7 +387,7 @@
     </div>
 
 
-    <div class="container mt-5 cm" style="margin-left: 5%">
+    <div class="container mt-5 cm" style="margin-left: 3%">
 
         <div class="row justify-content-center">
             <div class="col-md-6">
