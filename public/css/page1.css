@@ -4,6 +4,10 @@
 
 }
 
+.navbar{
+    height: 95px;
+}
+
 @font-face {
     font-family: noto;
     src: url(../font/NotoSansKR-Regular.ttf);
@@ -38,16 +42,21 @@ body {
     transition: all .5s !important;
     box-shadow: none !important;
     position: relative;
+    border-radius:8px;
+    border: 1px solid #347EFF;
 }
 
-.input-search:hover {
+.input-search:focus {
     width: 147px;
+    border: 1px solid #347EFF !important;
+    outline : none !important;
 }
+
 
 .icon-search {
     position: absolute;
-    top: 8px;
-    right: 12px;
+    top: 5%;
+    right: 14px;
 }
 
 .parag-img{
@@ -988,3 +997,45 @@ text-decoration: none !important;
     color: #347EFF;
 
 }
+
+ /* naziha */
+ #myTopnav{
+    display: flex; 
+    align-items: center;
+}
+#logimg {
+    display: block;
+    margin-right: 10px;
+    width: 39.75px;
+    height: 36.69px;
+}
+#logtitre{
+    opacity: 0; 
+    transition: all .5s;
+    width: 68px;
+    height: 22px;
+}
+
+
+#myTopnav:hover #logtitre{
+    opacity: 1; 
+    width: 108px;
+}
+
+#tunis-time{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#crcltuns{
+    width: 15.09px;
+    height: 15px;
+    border-radius: 14px;
+}
+
+.txtnav{
+    font-size: 17px;
+    font-family: noto;
+    font-weight: 400;;
+}
+

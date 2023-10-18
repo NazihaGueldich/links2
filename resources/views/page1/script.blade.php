@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/mobile.css') }}">
 
-
+    <script src="{{ asset('js/ScriptPage1.js') }}"></script>
     <title></title>
 </head>
 

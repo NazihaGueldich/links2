@@ -1,14 +1,17 @@
-@include('page1.javascript')
 @include('page1.script')
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container justify-content-between">
-            <div id="myTopnav">
-                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+            <div id="myTopnav" >
+                <img id="logimg" 
+                        src="{{ asset('images/LogoProk.png') }}">
+                    <img id="logtitre" 
+                        src="{{ asset('images/logtitre.png') }}">
             </div>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -16,24 +19,25 @@
                 <ul class="navbar-nav" style="height:33px">
 
                     <li class="nav-item active d-flex align-items-center">
-                        <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" style="width: 24px; object-fit: cover;" class="mr-1">
-                        <a class="nav-link" href="#">4:09:27 <span class="sr-only">(current)</span></a>
+                        <img src="{{ asset('images/Flag_of_Tunisia.svg') }}"  class="mr-1" id='crcltuns'>
+                        <span class="nav-link" href="#"  id="tunis-time"></span>
                     </li>
-                    <li class="nav-item active d-flex align-items-center">
-                        <a class="nav-link" href="#">튀니지에</a>
+                    <li class="nav-item active d-flex align-items-center txtnav">
+                        <a class="nav-link" href="#">튀니지에 대해서</a>
                     </li>
-                    <li class="nav-item active d-flex align-items-center mr-4">
-                        <a class="nav-link" href="#">보다 더</a>
+                    <li class="nav-item active d-flex align-items-center mr-4 txtnav">
+                        <a class="nav-link" href="#">보다 더 ></a>
                     </li>
 
-                    <li>
+                    <li class="d-flex">
                         <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
 
-                        <button type="button" class="btn btn-outline-primary input-search" style="border-radius:8px">
+                        <div class="position-relative">
+                        <input type="text" class="input-search" style="border-radius:8px">
                             <i class="icon-search">
-                                <img src="{{asset('images/search.svg')}}">
+                                <img src="{{ asset('images/search.svg') }}">
                             </i>
-                        </button>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -69,11 +73,14 @@
                         </div>
                     </div>
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class=" rounded-circle" style="width: 16px;
+                        <li data-target="#myCarousel" data-slide-to="0" class=" rounded-circle"
+                            style="width: 16px;
                         height: 16px;"></li>
-                        <li data-target="#myCarousel" data-slide-to="1" class="rounded-circle" style="width: 16px;
+                        <li data-target="#myCarousel" data-slide-to="1" class="rounded-circle"
+                            style="width: 16px;
                     height: 16px;"></li>
-                        <li data-target="#myCarousel" data-slide-to="2" class="rounded-circle" style="width: 16px;
+                        <li data-target="#myCarousel" data-slide-to="2" class="rounded-circle"
+                            style="width: 16px;
                     height: 16px;"></li>
                     </ol>
                 </div>
@@ -90,27 +97,33 @@
                 <p id="p1">호텔</p>
             </div>
             <div class=" ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img2' src="{{ asset('images/atlantis_button_2_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img2'
+                    src="{{ asset('images/atlantis_button_2_state_0.svg') }}" style="height: 70px;">
                 <p id="p2">항공편</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img3' src="{{ asset('images/atlantis_button_3_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img3'
+                    src="{{ asset('images/atlantis_button_3_state_0.svg') }}" style="height: 70px;">
                 <p id="p3">축제</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img4' src="{{ asset('images/atlantis_button_4_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img4'
+                    src="{{ asset('images/atlantis_button_4_state_0.svg') }}" style="height: 70px;">
                 <p id="p4">활동</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img5' src="{{ asset('images/atlantis_button_5_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img5'
+                    src="{{ asset('images/atlantis_button_5_state_0.svg') }}" style="height: 70px;">
                 <p id="p5">자동차 서비스</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img6' src="{{ asset('images/atlantis_button_6_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img6'
+                    src="{{ asset('images/atlantis_button_6_state_0.svg') }}" style="height: 70px;">
                 <p id="p6">크루즈</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img7' src="{{ asset('images/atlantis_button_7_state_0.svg') }}" style="height: 70px;">
+            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img7'
+                    src="{{ asset('images/atlantis_button_7_state_0.svg') }}" style="height: 70px;">
                 <p id="p7">박물관</p>
             </div>
         </div>
@@ -149,7 +162,8 @@
                                 <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
                                     튀니지 미식 체험
                                 </button>
-                                <p class="p-2 parag-img">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이 곳에서 기념품도 구매할 수 있어요.</p>
+                                <p class="p-2 parag-img">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이 곳에서 기념품도 구매할 수 있어요.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -157,7 +171,8 @@
                         <div class="image-3">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
                                 <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
-                                <p class="p-2 parag-img">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요. 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
+                                <p class="p-2 parag-img">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의
+                                    영향도 많이 받았어요. 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +184,8 @@
                         <div class="image-4">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
                                 <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
-                                <p class="p-2 parag-img">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요. 과거와 현대가 공존하고 유럽과 아프리카, 아랍의 다양한 색깔이 함께하는 튀니지의 여러 도시들을 방문해보세요.</p>
+                                <p class="p-2 parag-img">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요. 과거와 현대가 공존하고 유럽과
+                                    아프리카, 아랍의 다양한 색깔이 함께하는 튀니지의 여러 도시들을 방문해보세요.</p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +210,8 @@
     <div class="container" style="display: flex;
 justify-content: space-between;">
         <div>
-            <video id="my-video" class="video-js" controls preload="auto" width="740" height="385" poster="images/sahrouch.png">
+            <video id="my-video" class="video-js" controls preload="auto" width="740" height="385"
+                poster="images/sahrouch.png">
                 <source src="images/vd.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -225,7 +242,8 @@ justify-content: space-between;">
 
     <div class="container mt-5">
         <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
-    background-position: center center;" class="image1-2" id="imageCov1">
+    background-position: center center;"
+            class="image1-2" id="imageCov1">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
@@ -240,7 +258,8 @@ justify-content: space-between;">
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-    background-position: center center;display:none" class="image1-2" id="imageCov2">
+    background-position: center center;display:none"
+            class="image1-2" id="imageCov2">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
@@ -260,7 +279,8 @@ justify-content: space-between;">
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
-    background-position: center center;display:none" class="image1-2" id="imageCov3">
+    background-position: center center;display:none"
+            class="image1-2" id="imageCov3">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
@@ -280,7 +300,8 @@ justify-content: space-between;">
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-    background-position: center center;display:none" class="image1-2" id="imageCov4">
+    background-position: center center;display:none"
+            class="image1-2" id="imageCov4">
 
             <div class="d-flex flex-column align-items-start">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
@@ -304,12 +325,14 @@ justify-content: space-between;">
         <div class="mt-3 ml-2">
             <div class="d-flex">
                 <div class="d-flex flex-column">
-                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3" id="imageB1" onclick="changeImage1()">
+                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3"
+                        id="imageB1" onclick="changeImage1()">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p ">튀니스</span>
                         <div class=" d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn1-b text-center mr" id="btn1">수도</button>
-                            <button class="btn btn-outline-primary btn1-b1 ml-2 text-center" id="btn1-b">동쪽</button>
+                            <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
+                                id="btn1-b">동쪽</button>
                         </div>
 
                     </div>
@@ -317,34 +340,40 @@ justify-content: space-between;">
                 </div>
 
                 <div class="d-flex flex-column">
-                    <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2" style="filter: grayscale(100%);" onclick="changeImage2()">
+                    <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2"
+                        style="filter: grayscale(100%);" onclick="changeImage2()">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p2">두즈</span>
                         <div class=" d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
-                            <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center" id="btn2-b">남쪽</button>
+                            <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                id="btn2-b">남쪽</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column">
-                    <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3" style="filter: grayscale(100%);" onclick="changeImage3()">
+                    <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3"
+                        style="filter: grayscale(100%);" onclick="changeImage3()">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p3">카이루안</span>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-primary   btn3 text-center" id="btn3">따뜻한</button>
-                            <button class="btn btn-outline-primary btn1-b3 ml-2 text-center" id="btn3-b">남쪽</button>
+                            <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
+                                id="btn3-b">남쪽</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column">
-                    <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4" style="filter: grayscale(100%);" onclick="changeImage4()">
+                    <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4"
+                        style="filter: grayscale(100%);" onclick="changeImage4()">
                     <div class="d-flex flex-column align-items-start">
                         <span class="text-p4">마트마타</span>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
-                            <button class="btn btn-outline-primary btn1-b4 ml-2 text-center" id="btn4-b">해변</button>
+                            <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
+                                id="btn4-b">해변</button>
                         </div>
                     </div>
                 </div>
@@ -363,25 +392,30 @@ justify-content: space-between;">
 
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="card mx-auto justify-content-center" style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
+                <div class="card mx-auto justify-content-center"
+                    style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
-                            <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" style="width: 91.88px; height: 91.88px;">
+                            <img id="imgwj1" src="{{ asset('images/BG (3).png') }}"
+                                style="width: 91.88px; height: 91.88px;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body d-flex flex-column justify-content-center">
                                 <h5 class="card-title" style="font-size: 36px;">오OO</h5>
-                                <p class="card-text text-left" style="font-size: 20px;">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
+                                <p class="card-text text-left" style="font-size: 20px;">유럽같으면서 아랍적인 독특한 매력을 가진 나라
+                                    튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="vertical-line"></div>
-                <div class="card mx-auto justify-content-center" style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
+                <div class="card mx-auto justify-content-center"
+                    style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
-                            <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" style="width: 91.88px; height: 91.88px;">
+                            <img id="imgwj1" src="{{ asset('images/BG (2).png') }}"
+                                style="width: 91.88px; height: 91.88px;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body d-flex flex-column justify-content-center">
@@ -396,10 +430,12 @@ justify-content: space-between;">
                     </div>
                 </div>
                 <div class="vertical-line"></div>
-                <div class="card mx-auto justify-content-center" style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
+                <div class="card mx-auto justify-content-center"
+                    style="width: 788px;height: 246px; border-radius: 20px; border: 1px solid #B3B3B3;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
-                            <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" style="width: 91.88px; height: 91.88px;">
+                            <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}"
+                                style="width: 91.88px; height: 91.88px;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body d-flex flex-column justify-content-center">
@@ -447,49 +483,73 @@ justify-content: space-between;">
                 <div>
                     <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
                         <li><a href="#" class="show-paragraph" data-paragraph="ahla1">
-                                <h5 id='tit1' style="font-size: 57px; color: #347EFF; text-align: Center;font-family: noto;">
+                                <h5 id='tit1'
+                                    style="font-size: 57px; color: #347EFF; text-align: Center;font-family: noto;">
                                     +12 M
                                 </h5>
-                                <h5 id='tit11' style="font-size: 31px; color: black; text-align: Center;font-family: noto;">
+                                <h5 id='tit11'
+                                    style="font-size: 31px; color: black; text-align: Center;font-family: noto;">
                                     2023년
                                     인구
                                 </h5>
                             </a></li>
                         <li><a href="#" class="show-paragraph" data-paragraph="ahla12">
-                                <h5 id='tit2' style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">
+                                <h5 id='tit2'
+                                    style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">
                                     2M
                                 </h5>
-                                <h5 id='tit22' style="font-size: 31px; color: #D9D9D9; text-align: Center;font-family: noto;">
+                                <h5 id='tit22'
+                                    style="font-size: 31px; color: #D9D9D9; text-align: Center;font-family: noto;">
                                     관광객
                                     200만명
                                 </h5>
                             </a></li>
                         <li><a href="#" class="show-paragraph" data-paragraph="ahla13">
-                                <h5 id='tit3' style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">700
+                                <h5 id='tit3'
+                                    style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">
+                                    700
                                 </h5>
-                                <h5 id='tit33' style="font-size: 31px; color: #D9D9D9; text-align: Center;font-family: noto;"> 역사적인
+                                <h5 id='tit33'
+                                    style="font-size: 31px; color: #D9D9D9; text-align: Center;font-family: noto;">
+                                    역사적인
                                     장소
                                 </h5>
                             </a></li>
                         <li><a href="#" class="show-paragraph" data-paragraph="ahla14">
-                                <h5 id='tit4' style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">1
+                                <h5 id='tit4'
+                                    style="font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;">
+                                    1
                                 </h5>
-                                <h5 id='tit44' style="font-size: 31px; color: #B3B3B3; text-align: Center;font-family: noto;"> 세계 1위
+                                <h5 id='tit44'
+                                    style="font-size: 31px; color: #B3B3B3; text-align: Center;font-family: noto;"> 세계
+                                    1위
                                     대학
                                 </h5>
                             </a></li>
                     </ul>
-                    <p id="ahla1" style="display: block;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">튀니지는 아프리카
-                        북부에 위치한 나라로, 약 2023년 현재, 약 12,000만 명의 인구를 가지고 있습니다. 이 지역은 역사적으로 다양한 문화와 역동적인 역사를 자랑하며, 지중해 연안의 아름다운
+                    <p id="ahla1"
+                        style="display: block;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">
+                        튀니지는 아프리카
+                        북부에 위치한 나라로, 약 2023년 현재, 약 12,000만 명의 인구를 가지고 있습니다. 이 지역은 역사적으로 다양한 문화와 역동적인 역사를 자랑하며, 지중해 연안의
+                        아름다운
                         해변과 역사적인 도시들이 매력적인 관광지로 알려져 있습니다.</p>
-                    <p id="ahla12" style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">2021년 튀니지는
-                        200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 이 나라의 아름다운 지중해 해안선, 역사적 유산 및 다양한 명소는 전 세계에서 온 방문객을 끌어들이며 관광업
+                    <p id="ahla12"
+                        style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">
+                        2021년 튀니지는
+                        200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 이 나라의 아름다운 지중해 해안선, 역사적 유산 및 다양한 명소는 전 세계에서 온 방문객을 끌어들이며
+                        관광업
                         부문을 부흥시켰으며 번창한 미래에 대한 희망을 심었습니다.</p>
-                    <p id="ahla13" style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">튀니지는 다양한
-                        문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 도우까와 엘 잠까까와 같은 로마 시대 유적까지, 이러한 명소들은 지중해 지역의 역사를 매력적으로
+                    <p id="ahla13"
+                        style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">
+                        튀니지는 다양한
+                        문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 도우까와 엘 잠까까와 같은 로마 시대 유적까지, 이러한 명소들은 지중해 지역의 역사를
+                        매력적으로
                         보여주어 역사 애호가와 호기심 많은 여행자들에게 감탄을 자아냅니다.</p>
-                    <p id="ahla14" style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">튀니지는 세계
-                        최초의 대학이 있는 특별한 곳으로, 859년에 설립된 알 카라위인 대학은 유네스코로부터 세계에서 가장 오래된 학위 수여 대학으로 인정받았습니다. 이 고대 대학은 튀니지가 교육과
+                    <p id="ahla14"
+                        style="display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;">
+                        튀니지는 세계
+                        최초의 대학이 있는 특별한 곳으로, 859년에 설립된 알 카라위인 대학은 유네스코로부터 세계에서 가장 오래된 학위 수여 대학으로 인정받았습니다. 이 고대 대학은 튀니지가
+                        교육과
                         지적 발전에 대한 헌신을 강조합니다.</p>
                 </div>
             </div>
@@ -542,8 +602,10 @@ justify-content: space-between;">
                     <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
                 </div>
                 <div>
-                    <div class="footer-images2" style="display: flex; justify-content: space-between; align-items: center;">
-                        <span class="titr" style="color: #8C8C8C;font-size: 14px;
+                    <div class="footer-images2"
+                        style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="titr"
+                            style="color: #8C8C8C;font-size: 14px;
                         width: 159px;">All rights
                             reserved</span>
                         <hr class="lignes ml-1 mr-3" style="margin: 0;">
@@ -554,8 +616,10 @@ justify-content: space-between;">
                         </div>
                     </div>
                     <div class="bloc2 ml-5">
-                        <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                        <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                        <img src="{{ asset('images/fb.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;">
+                        <img src="{{ asset('images/ig.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;">
                         <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
                     </div>
                 </div>
@@ -564,125 +628,6 @@ justify-content: space-between;">
 
 
 
-        <script>
-            function changeImage1() {
-                document.getElementById('imageCov1').style.display = "block";
-                document.getElementById('imageCov2').style.display = "none";
-                document.getElementById('imageCov3').style.display = "none";
-                document.getElementById('imageCov4').style.display = "none";
-                document.getElementById('imageB1').style.filter = 'none';
-                document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB4').style.filter = 'grayscale(100%)';
-                document.getElementById('btn1').style.backgroundColor = '#347EFF';
-                document.getElementById('btn1-b').style.backgroundColor = '#347EFF';
-                document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
-            }
-
-            function changeImage2() {
-                document.getElementById('imageCov1').style.display = "none";
-                document.getElementById('imageCov2').style.display = "block";
-                document.getElementById('imageCov3').style.display = "none";
-                document.getElementById('imageCov4').style.display = "none";
-                document.getElementById('imageB2').style.filter = 'none';
-                document.getElementById('imageB1').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB4').style.filter = 'grayscale(100%)';
-                document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2').style.backgroundColor = '#347EFF';
-                document.getElementById('btn2-b').style.backgroundColor = '#347EFF';
-                document.getElementById('btn3').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
-
-            }
-
-            function changeImage3() {
-                document.getElementById('imageCov1').style.display = "none";
-                document.getElementById('imageCov2').style.display = "none";
-                document.getElementById('imageCov3').style.display = "block";
-                document.getElementById('imageCov4').style.display = "none";
-                document.getElementById('imageB3').style.filter = 'none';
-                document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB1').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB4').style.filter = 'grayscale(100%)';
-                document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3').style.backgroundColor = '#347EFF';
-                document.getElementById('btn3-b').style.backgroundColor = '#347EFF';
-                document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
-
-            }
-
-            function changeImage4() {
-                document.getElementById('imageCov1').style.display = "none";
-                document.getElementById('imageCov2').style.display = "none";
-                document.getElementById('imageCov3').style.display = "none";
-                document.getElementById('imageCov4').style.display = "block";
-                document.getElementById('imageB4').style.filter = 'none';
-                document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-                document.getElementById('imageB1').style.filter = 'grayscale(100%)';
-                document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn2-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
-                document.getElementById('btn4').style.backgroundColor = '#347EFF';
-                document.getElementById('btn4-b').style.backgroundColor = '#347EFF';
-            }
-
-            document.addEventListener("DOMContentLoaded", function() {
-                const listItems = document.querySelectorAll(".show-paragraph");
-
-                listItems.forEach(function(item) {
-                    item.addEventListener("click", function(e) {
-                        e.preventDefault();
-                        const paragraphId = this.getAttribute("data-paragraph");
-                        const paragraphs = document.querySelectorAll("p");
-
-                        paragraphs.forEach(function(paragraph) {
-                            if (paragraph.id === paragraphId) {
-                                paragraph.style.display = "block";
-                            } else {
-                                paragraph.style.display = "none";
-                            }
-                        });
-
-                        const liElements = document.querySelectorAll('.card ul li');
-                        liElements.forEach(li => {
-                            const dataParagraph = li.querySelector('a').getAttribute(
-                                'data-paragraph');
-
-                            const h5Elements = li.querySelectorAll('h5');
-
-                            if (dataParagraph == item.getAttribute("data-paragraph")) {
-                                h5Elements[0].style.fontSize = "57px";
-                                h5Elements[0].style.color = "#347EFF";
-                                h5Elements[1].style.fontSize = "31px";
-                                h5Elements[1].style.color = "black";
-                            } else {
-                                h5Elements[0].style.fontSize = "42px";
-                                h5Elements[0].style.color = "#B3B3B3";
-                                h5Elements[1].style.fontSize = "31px";
-                                h5Elements[1].style.color = "#D9D9D9";
-                            }
-                        });
-                    });
-                });
-            });
-        </script>
 </body>
 
 </html>
