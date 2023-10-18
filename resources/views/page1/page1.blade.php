@@ -387,16 +387,16 @@
     </div>
 
 
-    <div class="container mt-5 cm" style="margin-left: 3%">
+    <div class="container mt-5 cm" >
 
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div>
                 <div class="card mx-auto justify-content-center card5">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center BG">
                             <img id="imgwj1" src="{{ asset('images/BG (3).png') }}">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <div class="card-body d-flex flex-column justify-content-center textecard">
                                 <h5 class="card-title title">오OO</h5>
                                 <p class="card-text text-left textecard">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는
@@ -413,9 +413,9 @@
                             <img id="imgwj1" src="{{ asset('images/BG (2).png') }}"
                                 style="width: 91.88px; height: 91.88px;">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <div class="card-body d-flex flex-column justify-content-center textecard2">
-                                <h5 class="card-title title2">오OO</h5>
+                                <h5 class="card-title title2">임OO                                </h5>
                                 <p class="card-text text-left textecard2">튀니지를 도착했을때 아 이곳이 북아프리카구나，
                                     했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요．
                                     갔다 와 보시면 아실거예요．.
@@ -432,7 +432,7 @@
                             <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}"
                                 style="width: 91.88px; height: 91.88px;">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <div class="card-body d-flex flex-column justify-content-center textecard3">
                                 <h5 class="card-title title3">오OO</h5>
                                 <p class="card-text text-left textecard3 ">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．
