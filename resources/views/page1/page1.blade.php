@@ -2,6 +2,8 @@
 @include('page1.script')
 
 <body>
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container justify-content-between">
             <div id="myTopnav">
@@ -129,7 +131,6 @@
 
 
 
-
     <div class="container mt-5">
         <div class="row">
             {{-- image 1 --}}
@@ -139,93 +140,80 @@
                         <div class="d-flex flex-column align-items-start mr-5">
                             <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
                         </div>
-                        {{--     <div class="r-text1">
-                        튀니지
-                        <br>파란 하늘 푸른 바다
+                        <div class="r-text1">
+                            튀니지
+                            <br>파란 하늘 푸른 바다
+                        </div>
                     </div>
- --}}
-                    </div>
-
                 </div>
             </div>
             {{-- bloc 1 --}}
             <div class="col-6">
                 <div class="d-flex">
                     <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Rectangle (2).png') }}');  background-size: cover;"
-                            class="image-2">
+                        <div style="background-image: url('{{ asset('images/Rectangle (2).png') }}');  background-size: cover;" class="image-2">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class="btn btn-outline-primary mt-4 r-btn2">튀니지 미식
-                                        체험</button>
+                                    <button type="button" class="btn btn-outline-primary mt-4 r-btn2">튀니지 미식 체험</button>
                                 </div>
-                                {{--  <div class="r-text2">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                                <div class="r-text2">
+                                    튀니지
+                                    <br>파란 하늘 푸른 바다
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Asset 6@2x 1.png') }}'); background-size: cover;"
-                            class="image-3">
+                        <div style="background-image: url('{{ asset('images/Asset 6@2x 1.png') }}'); background-size: cover;" class="image-3">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나
-                                        역사지구</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
                                 </div>
-                                {{--       <div class="r-text3">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                                <div class="r-text3">
+                                    튀니지
+                                    <br>파란 하늘 푸른 바다
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
                 <div class="d-flex">
                     <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/tiniseeee.jpg') }}');background-size: cover;"
-                            class="image-4">
+                        <div style="background-image: url('{{ asset('images/tiniseeee.jpg') }}');background-size: cover;" class="image-4">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
                                     <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
                                 </div>
-                                {{--       <div class="r-text4">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                                <div class="r-text4">
+                                    튀니지
+                                    <br>파란 하늘 푸른 바다
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Asset 5@2x 1.png') }}');background-size: cover;"
-                            class="image-4">
+                        <div style="background-image: url('{{ asset('images/Asset 5@2x 1.png') }}');background-size: cover;" class="image-4">
                             <div class="d-flex flex-column align-items-center">
                                 <div>
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기
-                                        목적지</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기 목적지</button>
                                 </div>
-                                {{--                             <div class="r-text5">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                                <div class="r-text5">
+                                    튀니지
+                                    <br>파란 하늘 푸른 바다
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
 
+
     <div class="mt-5 border-top mx-auto" style="width: 45.49px; height: 100px; color: #B3B3B3;"></div>
 
-    <div class="container" style="display: flex;
-justify-content: space-between;">
+    <div class="container" style="display: flex;justify-content: space-between;">
         <div>
             <video id="my-video" class="video-js" controls preload="auto" width="740" height="385"
                 poster="images/sahrouch.png">
@@ -258,8 +246,7 @@ justify-content: space-between;">
 
 
     <div class="container mt-5">
-        <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
-    background-position: center center;"
+        <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;background-position: center center;"
             class="image1-2">
 
             <div class="d-flex flex-column align-items-start  ">
