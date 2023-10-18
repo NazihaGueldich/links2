@@ -414,7 +414,13 @@ body {
     height: 384.89px;
     border-radius: 36px;
 }
-
+.text-sm{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
 .text2 h4 {
     width: 227px;
     height: 70px;

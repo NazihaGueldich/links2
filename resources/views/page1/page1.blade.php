@@ -151,7 +151,7 @@
                 <div class="d-flex">
                     <div class="pr-4">
                         <div class="image-2" onclick="handleClick(2)" id="image-2">
-                            <div class="align-items-center d-flex flex-column h-100 justify-content-between">
+                            <div class="text-sm">
 
                                 <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
                                     튀니지 미식 체험
