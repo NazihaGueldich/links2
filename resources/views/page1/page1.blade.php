@@ -2,8 +2,6 @@
 @include('page1.script')
 
 <body>
-
-
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container justify-content-between">
             <div id="myTopnav">
@@ -122,6 +120,7 @@
 
 
 
+
     <div class="container mt-5">
         <div class="row">
             {{-- image 1 --}}
@@ -131,88 +130,69 @@
                         <div class="d-flex flex-column align-items-start">
                             <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
                         </div>
-                        {{--     <div class="r-text1">
+                        {{-- <div class="r-text1">
                         튀니지
                         <br>파란 하늘 푸른 바다
                     </div>
  --}}
                     </div>
+
                 </div>
             </div>
             {{-- bloc 1 --}}
             <div class="col-6 d-flex flex-column justify-content-between">
                 <div class="d-flex">
-                    <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Rectangle (2).png') }}');  background-size: cover;"
-                            class="image-2">
-                            <div class="d-flex flex-column align-items-center">
-                                <div>
-                                    <button type="button" class="btn btn-outline-primary mt-4 r-btn2">튀니지 미식
-                                        체험</button>
-                                </div>
-                                {{--  <div class="r-text2">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                    <div class="pr-4">
+                        <div class="image-2">
+                            <div class="align-items-center d-flex flex-column h-100 justify-content-between">
+
+                                <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
+                                    튀니지 미식 체험
+                                </button>
+                                <p class="p-2 parag-img">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이 곳에서 기념품도 구매할 수 있어요.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Asset 6@2x 1.png') }}'); background-size: cover;"
-                            class="image-3">
-                            <div class="d-flex flex-column align-items-center">
-                                <div>
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나
-                                        역사지구</button>
-                                </div>
-                                {{--       <div class="r-text3">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                    <div>
+                        <div class="image-3">
+                            <div class="align-items-center d-flex flex-column h-100 justify-content-between">
+                                <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
+                                <p class="p-2 parag-img">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요. 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="d-flex">
-                    <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/tiniseeee.jpg') }}');background-size: cover;"
-                            class="image-4">
-                            <div class="d-flex flex-column align-items-center">
-                                <div>
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
-                                </div>
-                                {{--       <div class="r-text4">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                    <div class="pr-4">
+                        <div class="image-4">
+                            <div class="align-items-center d-flex flex-column h-100 justify-content-between">
+                                <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
+                                <p class="p-2 parag-img">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요. 과거와 현대가 공존하고 유럽과 아프리카, 아랍의 다양한 색깔이 함께하는 튀니지의 여러 도시들을 방문해보세요.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="m-2">
-                        <div style="background-image: url('{{ asset('images/Asset 5@2x 1.png') }}');background-size: cover;"
-                            class="image-4">
-                            <div class="d-flex flex-column align-items-center">
-                                <div>
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기
-                                        목적지</button>
-                                </div>
-                                {{--                             <div class="r-text5">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
-                            </div> --}}
+                    <div>
+                        <div class="image-5">
+                            <div class="align-items-center d-flex flex-column h-100 justify-content-between">
+                                <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기 목적지</button>
+                                <p class="p-2 parag-img">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한 액티비티를 즐길 수 있어요.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 
 
-
     <div class="mt-5 border-top mx-auto" style="width: 45.49px; height: 100px; color: #B3B3B3;"></div>
 
-    <div class="container" style="display: flex;justify-content: space-between;">
+    <div class="container" style="display: flex;
+justify-content: space-between;">
         <div>
             <video id="my-video" class="video-js" controls preload="auto" width="740" height="385" poster="images/sahrouch.png">
                 <source src="images/vd.mp4" type="video/mp4" />
@@ -245,8 +225,7 @@
 
     <div class="container mt-5">
         <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
-    background-position: center center;"
-            class="image1-2">
+    background-position: center center;" class="image1-2" id="imageCov1">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
