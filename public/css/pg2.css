@@ -26,23 +26,7 @@ body {
     width: 100%;
 }
 
-.input-search {
-    width: 47px;
-    height: 33px;
-    transition: all .5s !important;
-    box-shadow: none !important;
-    position: relative;
-}
 
-.input-search:hover {
-    width: 147px;
-}
-
-.icon-search {
-    position: absolute;
-    top: 2px;
-    right: 12px;
-}
 
 .nav-item {
     color: #000;
@@ -50,10 +34,18 @@ body {
     font-family: noto;
     margin-right: 50px;
 }
+.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #FD4343;
+}
 
 .btn.btn-outline-primary:hover {
     background-color: #ffffff;
-    color: #347EFF;
+    color: #FD4343;
 }
 
 img {
@@ -143,7 +135,7 @@ img {
 .titr {
     font-size: 32px;
     font-weight: bold;
-    color: #347EFF;
+    color: #FD4343;
     text-align: end;
 }
 
@@ -238,6 +230,39 @@ text-align: center;
 }
 
 /* part 3 */
+.scc3{
+    height: 594px;
+}
+
+.sccgrp{
+    color: #FD4343;
+}
+
+.flch{
+    position: relative!important;
+    opacity: 1 !important
+}
+
+#crcl1{
+    width: 20px;
+    background-image: url("../images/point.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl2{
+    width: 20px;
+    background-image: url("../images/cercle.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl3{
+    width: 20px;
+    background-image: url("../images/cercle.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .titr4 {
     font-family: 'noto';
     font-size: 36px;
@@ -355,6 +380,9 @@ text-align: center;
 }
 
 /* part 6 */
+.inx{
+    width: 30%
+}
 .prt6prt1 {
     width: 645px;
     height: 115px;
@@ -404,13 +432,17 @@ text-align: center;
 }
 
 #txtindx {
-    font-family: 'noto';
+    font-family: noto;
     font-size: 32px;
     font-weight: 900;
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;
     color: #C4C2D4;
+}
+
+#imgindx{
+    width: 26px;
 }
 
 #flchindx {
@@ -422,6 +454,9 @@ text-align: center;
 }
 
 /* part 7 */
+.divcrd7{
+    height: 300px;
+}
 .img5 {
     width: 412px;
     height: 279px;
@@ -511,8 +546,12 @@ text-align: center;
 
 .prt8hov:hover .btncrd{
     color: #FD4343;
+    max-width: 350px;
 }
 
+.indxprt8{
+    z-index: -1;  
+}
 
 .crd81 {width:100%;
     height:auto;
@@ -553,3 +592,126 @@ text-align: center;
 .lignesft {
     margin: 52px;
 }
+
+.cnt{
+    margin-top: 154px !important;
+}
+/* icons */
+.flex-container{
+    display: flex;  
+    justify-content: center;    
+    justify-content: space-evenly;
+}
+
+
+.icns{
+    display: flex;
+     align-items: center; 
+     flex-direction: column;
+}
+
+.imgicns{
+    max-width: 60px;
+    height: 60px;
+    opacity: 1;
+    object-fit: contain;
+}
+
+
+.txticns{
+    font-family: noto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ligne1 {
+    color: rgb(197, 196, 198);
+    min-height: 50px;
+}
+
+/* navbar */
+.navbar{
+    height: 95px;
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    height:33px !important;
+}
+
+.drptin{
+    width: 24px; 
+    object-fit: cover;
+}
+
+#myTopnav{
+    display: flex;
+    align-items: center;
+}
+
+.collapse.navbar-collapse.justify-content-center .navbar-nav li {
+    margin-right: 20px;
+
+
+}
+
+#myTopnav{
+    display: flex;
+    align-items: center;
+}
+#logimg {
+    display: block;
+    margin-right: 10px;
+    width: 39.75px;
+    height: 36.69px;
+}
+#logtitre{
+    opacity: 0;
+    transition: all .5s;
+    width: 68px;
+    height: 22px;
+}
+
+
+#myTopnav:hover #logtitre{
+    opacity: 1;
+    width: 108px;
+}
+
+#tunis-time{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#crcltuns{
+    width: 15.09px;
+    height: 15px;
+    border-radius: 14px;
+}
+
+.txtnav{
+    font-size: 17px;
+    font-family: noto;
+    font-weight: 400;;
+}
+
+.btn.btn-outline-primary.btn-main {
+    height: 33px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #FD4343;
+    border: 1px solid #FD4343;
+    font-family: noto;
+    font-size: 17px;
+    padding: 3px;
+}
+
+.btn.btn-outline-primary.btn-main:hover:hover{
+    color: #ffffff;
+    background-color: #FD4343;
+}
+
+.btn.btn-outline-primary.btn-main:focus{
+    border: 1px solid #FD4343 !important;
+}
+

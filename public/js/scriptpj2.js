@@ -22,23 +22,25 @@ function srllimg(x) {
     }
     console.log(indx);
 
+    if (indx === 0) {
+        crcl1.style.backgroundImage = "url(../images/point.svg)";
+        crcl2.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl3.style.backgroundImage = "url(../images/cercle.svg)";
+    } else if (indx === 1) {
+        crcl1.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl2.style.backgroundImage = "url(../images/point.svg)";
+        crcl3.style.backgroundImage = "url(../images/cercle.svg)";
+    } else if (indx === 2) {
+        crcl1.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl2.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl3.style.backgroundImage = "url(../images/point.svg)";
+    }
+    
     document.getElementById('imgchoose').src = img[indx];
     document.getElementById('scrlltitr').innerHTML = titr[indx];
     document.getElementById('scrllp').innerHTML = p[indx];
 
-    if (indx === 0) {
-        crcl1.style.backgroundImage = "url(../images/point.svg )";
-        crcl2.style.backgroundImage = "url(../images/cercle.svg )";
-        crcl3.style.backgroundImage = "url(../images/cercle.svg )";
-    } else if (indx === 1) {
-        crcl1.style.backgroundImage = "url(../images/cercle.svg )";
-        crcl2.style.backgroundImage = "url(../images/point.svg )";
-        crcl3.style.backgroundImage = "url(../images/cercle.svg )";
-    } else if (indx === 2) {
-        crcl1.style.backgroundImage = "url(../images/cercle.svg )";
-        crcl2.style.backgroundImage = "url(../images/cercle.svg )";
-        crcl3.style.backgroundImage = "url(../images/point.svg )";
-    }
+    
 }
 
 function changtext(indx) {
@@ -146,3 +148,42 @@ function unfade(element) {
 }
 
 
+/* icons */
+function changeImage(isMouseOver, id) {
+    var imgId = 'img' + id;
+    var pId = 'p' + id;
+    var img = document.getElementById(imgId);
+    var p = document.getElementById(pId);
+    var src;
+    if (isMouseOver) {
+        src = "../images/Icon_" + id + "_First_Animation _red.gif";
+        p.style.fontWeight = 'bolder';
+    } else {
+        src = "../images/Icon_" + id + "_Second_Animation _red.gif";
+        p.style.fontWeight = '';
+    }
+    img.src = src;
+}
+
+setInterval(updateClock, 1000);
+
+function updateClock() {
+    const tunisTimeZoneOffset = 60;
+
+    const tunisTime = new Date();
+    tunisTime.setMinutes(tunisTime.getMinutes() + tunisTimeZoneOffset);
+
+    let hours = tunisTime.getHours();
+    const minutes = tunisTime.getMinutes();
+    const seconds = tunisTime.getSeconds();
+
+    let amOrPm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+
+    const timeString =
+        `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
+
+    document.getElementById("tunis-time").textContent = timeString;
+
+}
