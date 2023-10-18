@@ -3,7 +3,109 @@
 
 
 }
+.card5 {
+    width: 788px;
+    height: 246px;
+    border-radius: 20px;
+    border: 1px solid #B3B3B3;
+}
+.card4 {
+    width: 788px;
+    height: 246px;
+    border-radius: 20px;
+    border: 1px solid #B3B3B3;
+}
+.card3 {
+    width: 788px;
+    height: 246px;
+    border-radius: 20px;
+    border: 1px solid #B3B3B3;
+}
+#tit1{
+    font-size: 57px; color: #347EFF; text-align: Center;font-family: noto;
+    }
+    #tit11{
+       font-size: 31px; color: black; text-align: Center;font-family: noto;
 
+
+    }
+    .tit2{
+       font-size: 42px; color: #B3B3B3; text-align: Center;font-family: noto;font-weight: bold;
+    }
+
+#tit11 {
+    font-size: 31px;
+    color: black;
+    text-align: center;
+    font-family: noto;
+}
+
+
+#tit22 {
+    font-size: 31px;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: noto;
+    /* Ajoutez ici les styles CSS pour cet élément */
+}
+
+/* Styles pour l'élément avec id 'tit3' */
+#tit3 {
+    font-size: 42px;
+    color: #B3B3B3;
+    text-align: center;
+    font-family: noto;
+    font-weight: bold;
+    /* Ajoutez ici les styles CSS pour cet élément */
+}
+
+/* Styles pour l'élément avec id 'tit33' */
+#tit33 {
+    font-size: 31px;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: noto;
+    /* Ajoutez ici les styles CSS pour cet élément */
+}
+
+/* Styles pour l'élément avec id 'tit4' */
+#tit4 {
+    font-size: 42px;
+    color: #B3B3B3;
+    text-align: center;
+    font-family: noto;
+    font-weight: bold;
+    /* Ajoutez ici les styles CSS pour cet élément */
+}
+
+/* Styles pour l'élément avec id 'tit44' */
+#tit44 {
+    font-size: 31px;
+    color: #B3B3B3;
+    text-align: center;
+    font-family: noto;
+}
+
+.cm{
+    margin-right: 30%;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem !important;
+}
+#imgwj1{
+
+    width: 91.88px; height: 91.88px;
+}
 .navbar{
     height: 95px;
 }
@@ -24,6 +126,20 @@ body {
     overflow-x: hidden;
 }
 
+#ahla1{
+    display: block;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;
+}
+#ahla12,#ahla13,#ahla14{
+   display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;
+
+}
 html,
 body {
     margin: 0;
@@ -228,7 +344,19 @@ body {
     color: rgb(197, 196, 198);
     min-height: 50px;
 }
+.btn.btn-outline-primary.btn1-main2 {
+    width: 101px;
+    margin-left: 10%;
+    border-color: white !important;
+    height: 27px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #347EFF;
+    font-family: noto;
+    font-size: 12px;
+    padding: 0;
 
+}
 .text2 {
 
     font-size: 50;
@@ -297,7 +425,7 @@ body {
     /* Ajoutez cette ligne */
 }
 
-.text2 span {
+.text2 p {
 
     font-weight: 400;
     font-size: 24px;
@@ -353,10 +481,10 @@ body {
 }
 
 .lignes {
-    width: 10%;
+    width: 9%;
     border: none;
-    height: 1.5px;
-    background-color: #ccc;
+    height: 1px;
+    background-color: #B3B3B3;
     margin: 55px auto;
 }
 
@@ -752,6 +880,12 @@ footer h3 {
 text-decoration: none !important;
 }
 
+.card5 {
+    width: 788px;
+    height: 246px;
+    border-radius: 20px;
+    border: 1px solid #B3B3B3;
+}
 .card2 {
 
     width: 1081px;
@@ -993,7 +1127,7 @@ text-decoration: none !important;
 
  /* naziha */
  #myTopnav{
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 #logimg {
@@ -1003,7 +1137,7 @@ text-decoration: none !important;
     height: 36.69px;
 }
 #logtitre{
-    opacity: 0; 
+    opacity: 0;
     transition: all .5s;
     width: 68px;
     height: 22px;
@@ -1011,7 +1145,7 @@ text-decoration: none !important;
 
 
 #myTopnav:hover #logtitre{
-    opacity: 1; 
+    opacity: 1;
     width: 108px;
 }
 
@@ -1033,14 +1167,14 @@ text-decoration: none !important;
 }
 
 .flex-container{
-    display: flex;  
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
     justify-content: space-evenly;
 }
 
 .icns{
     display: flex;
-     align-items: center; 
+     align-items: center;
      flex-direction: column;
 }
 
@@ -1049,7 +1183,10 @@ text-decoration: none !important;
     height: 60px;
     opacity: 1;
 }
-
+.container.vds {
+    display: flex;
+    justify-content: space-between;
+  }
 .txticns{
     font-family: noto;
     font-weight: 400;
