@@ -1199,3 +1199,6 @@ text-decoration: none !important;
     font-size: 20px;
 }
 
+.frminptstyl:focus{
+    outline: #347EFF auto 1px;
+}

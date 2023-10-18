@@ -387,7 +387,7 @@
     </div>
 
 
-    <div class="container mt-5 cm" >
+    <div class="container mt-5 cm">
 
         <div class="row justify-content-center">
             <div>
@@ -415,7 +415,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="card-body d-flex flex-column justify-content-center textecard2">
-                                <h5 class="card-title title2">임OO                                </h5>
+                                <h5 class="card-title title2">임OO </h5>
                                 <p class="card-text text-left textecard2">튀니지를 도착했을때 아 이곳이 북아프리카구나，
                                     했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요．
                                     갔다 와 보시면 아실거예요．.
@@ -457,13 +457,13 @@
 
     <div class="container mt-5 bb">
         <div class="form-group">
-            <input type="text" class="txt1 px-3" placeholder="이름">
+            <input type="text" class="txt1 px-3 frminptstyl" placeholder="이름">
         </div>
         <div class="form-group">
-            <input type="text" class="txt1 px-3" placeholder="이메일">
+            <input type="text" class="txt1 px-3 frminptstyl" placeholder="이메일">
         </div>
         <div class="form-group ">
-            <textarea type="text" class="txt2 mt-1 px-3" placeholder="문의사항 "></textarea>
+            <textarea type="text" class="txt2 mt-1 px-3 frminptstyl" placeholder="문의사항 "></textarea>
         </div>
     </div>
 
@@ -487,50 +487,40 @@
                             </h5>
                         </a></li>
                     <li><a href="#" class="show-paragraph" data-paragraph="ahla12">
-                            <h5 id='tit2'
->                                2M
+                            <h5 id='tit2'> 2M
                             </h5>
-                            <h5 id='tit22'
->                                관광객
+                            <h5 id='tit22'> 관광객
                                 200만명
                             </h5>
                         </a></li>
                     <li><a href="#" class="show-paragraph" data-paragraph="ahla13">
-                            <h5 id='tit3'
->                                700
+                            <h5 id='tit3'> 700
                             </h5>
-                            <h5 id='tit33'
->                                역사적인
+                            <h5 id='tit33'> 역사적인
                                 장소
                             </h5>
                         </a></li>
                     <li><a href="#" class="show-paragraph" data-paragraph="ahla14">
-                            <h5 id='tit4'
->                                1
+                            <h5 id='tit4'> 1
                             </h5>
-                            <h5 id='tit44'
->                                1위
+                            <h5 id='tit44'> 1위
                                 대학
                             </h5>
                         </a></li>
                 </ul>
-                <span id="ahla1"
->                    튀니지는 아프리카
+                <p id="ahla1"> 튀니지는 아프리카
                     북부에 위치한 나라로, 약 2023년 현재, 약 12,000만 명의 인구를 가지고 있습니다. 이 지역은 역사적으로 다양한 문화와 역동적인 역사를 자랑하며, 지중해 연안의
                     아름다운
-                    해변과 역사적인 도시들이 매력적인 관광지로 알려져 있습니다.</span>
-                <p id="ahla12"
->                    2021년 튀니지는
+                    해변과 역사적인 도시들이 매력적인 관광지로 알려져 있습니다.</p>
+                <p id="ahla12"> 2021년 튀니지는
                     200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 이 나라의 아름다운 지중해 해안선, 역사적 유산 및 다양한 명소는 전 세계에서 온 방문객을 끌어들이며
                     관광업
                     부문을 부흥시켰으며 번창한 미래에 대한 희망을 심었습니다.</p>
-                <p id="ahla13"
->                    튀니지는 다양한
+                <p id="ahla13"> 튀니지는 다양한
                     문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 도우까와 엘 잠까까와 같은 로마 시대 유적까지, 이러한 명소들은 지중해 지역의 역사를
                     매력적으로
                     보여주어 역사 애호가와 호기심 많은 여행자들에게 감탄을 자아냅니다.</p>
-                <p id="ahla14"
->                    튀니지는 세계
+                <p id="ahla14"> 튀니지는 세계
                     최초의 대학이 있는 특별한 곳으로, 859년에 설립된 알 카라위인 대학은 유네스코로부터 세계에서 가장 오래된 학위 수여 대학으로 인정받았습니다. 이 고대 대학은 튀니지가
                     교육과
                     지적 발전에 대한 헌신을 강조합니다.</p>
