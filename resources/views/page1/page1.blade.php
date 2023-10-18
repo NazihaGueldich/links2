@@ -108,7 +108,7 @@
             </div>
             <div class="ligne1 m-4 lg">|</div>
             <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
-                    id='img4' src="{{ asset('images/atlantis_button_4_state_0.svg') }}" class="imgicns">
+                    id='img4' src="{{ asset('images/atlantis_button_6_state_0.svg') }}" class="imgicns">
                 <p id="p4" class="txticns">활동</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
@@ -118,7 +118,7 @@
             </div>
             <div class="ligne1 m-4 lg">|</div>
             <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
-                    id='img6' src="{{ asset('images/atlantis_button_6_state_0.svg') }}" class="imgicns">
+                    id='img6' src="{{ asset('images/atlantis_button_4_state_0.svg') }}" class="imgicns">
                 <p id="p6" class="txticns">크루즈</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
@@ -199,7 +199,7 @@
     </div>
 
 
-    <div class="mt-5 border-top mx-auto" style="width: 45.49px; height: 100px; color: #B3B3B3;"></div>
+    <div class="mt-5 border-top mx-auto" style="width: 74px; height: 100px; border-top: 1px solid #B3B3B3 !important;"></div>
 
     <div class="container" style="display: flex;
 justify-content: space-between;">
@@ -241,7 +241,7 @@ justify-content: space-between;">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 튀니스</span>
+                    <span > 튀니스</span>
                     <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
                         대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로
@@ -257,7 +257,7 @@ justify-content: space-between;">
 
             <div class="d-flex flex-column align-items-start  ">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 두가</span>
+                    <span > 두가</span>
                     <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 수천
                         년의
                         세월이
@@ -299,7 +299,7 @@ justify-content: space-between;">
 
             <div class="d-flex flex-column align-items-start">
                 <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 수스</span>
+                    <span > 수스</span>
                     <p>지중해 해안에 있는 수스는 휴양도시로 유명해요. 해안을 가로지르는 긴 바닷가에 고급 리조트는 물론, 레스토랑, 호텔, 쇼핑센터 등이 잘 갖춰져 있어 튀니지 관광
                         중심지 중
                         하나로
@@ -322,7 +322,7 @@ justify-content: space-between;">
                     <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3"
                         id="imageB1" onclick="changeImage1()">
                     <div class="d-flex flex-column align-items-start">
-                        <span class="text-p ">튀니스</span>
+                        <span class="text-p " id='crd2h1'>튀니스</span>
                         <div class=" d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn1-b text-center mr" id="btn1">수도</button>
                             <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
@@ -337,7 +337,7 @@ justify-content: space-between;">
                     <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2"
                         style="filter: grayscale(100%);" onclick="changeImage2()">
                     <div class="d-flex flex-column align-items-start">
-                        <span class="text-p2">두즈</span>
+                        <span class="text-p2" id='crd2h2'>두즈</span>
                         <div class=" d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
                             <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
@@ -350,7 +350,7 @@ justify-content: space-between;">
                     <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3"
                         style="filter: grayscale(100%);" onclick="changeImage3()">
                     <div class="d-flex flex-column align-items-start">
-                        <span class="text-p3">카이루안</span>
+                        <span class="text-p3" id='crd2h3'>카이루안</span>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-primary   btn3 text-center" id="btn3">따뜻한</button>
                             <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
@@ -363,7 +363,7 @@ justify-content: space-between;">
                     <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4"
                         style="filter: grayscale(100%);" onclick="changeImage4()">
                     <div class="d-flex flex-column align-items-start">
-                        <span class="text-p4">마트마타</span>
+                        <span class="text-p4" id='crd2h4'>마트마타</span>
                         <div class="d-flex justify-content-between">
                             <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
                             <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"

@@ -103,6 +103,11 @@ function changeImage1() {
     document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
+
+    document.getElementById('crd2h1').style.color = '#347EFF';
+    document.getElementById('crd2h2').style.color = '#000000';
+    document.getElementById('crd2h3').style.color = '#000000';
+    document.getElementById('crd2h4').style.color = '#000000';
 }
 
 function changeImage2() {
@@ -122,6 +127,11 @@ function changeImage2() {
     document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
+
+    document.getElementById('crd2h2').style.color = '#347EFF';
+    document.getElementById('crd2h1').style.color = '#000000';
+    document.getElementById('crd2h3').style.color = '#000000';
+    document.getElementById('crd2h4').style.color = '#000000';
 
 }
 
@@ -143,6 +153,10 @@ function changeImage3() {
     document.getElementById('btn4').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4-b').style.backgroundColor = '#B3B3B3';
 
+    document.getElementById('crd2h3').style.color = '#347EFF';
+    document.getElementById('crd2h2').style.color = '#000000';
+    document.getElementById('crd2h1').style.color = '#000000';
+    document.getElementById('crd2h4').style.color = '#000000';
 }
 
 function changeImage4() {
@@ -162,6 +176,11 @@ function changeImage4() {
     document.getElementById('btn3-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn4').style.backgroundColor = '#347EFF';
     document.getElementById('btn4-b').style.backgroundColor = '#347EFF';
+
+    document.getElementById('crd2h4').style.color = '#347EFF';
+    document.getElementById('crd2h2').style.color = '#000000';
+    document.getElementById('crd2h3').style.color = '#000000';
+    document.getElementById('crd2h1').style.color = '#000000';
 }
 
 document.addEventListener("DOMContentLoaded", function () {
