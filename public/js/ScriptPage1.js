@@ -1,30 +1,89 @@
 function changeImage(isMouseOver, id) {
-    if (id == 0) {
-        var img = document.getElementById('logimg');
-        var logtitre = document.getElementById('logtitre');
-        if (isMouseOver) {
-            img.src = "../images/icn_tns.png";
-            logtitre.style.display = 'block';
+    var imgId = 'img' + id;
+    var pId = 'p' + id;
+    var img = document.getElementById(imgId);
+    var p = document.getElementById(pId);
+    var src;
+    if (isMouseOver) {
+        src = "../images/Icon_" + id + "_First_Animation.gif";
+        p.style.fontWeight = 'bolder';
+    } else {
+        src = "../images/Icon_" + id + "_Second_Animation.gif";
+        p.style.fontWeight = '';
+    }
+    img.src = src;
+}
+
+var img1 = 0,
+    img2 = 0,img3=0,img4=0,img5=0;
+function handleClick(crd) {
+    if (crd == 1) {
+        crd = document.getElementById('image-1');
+        if (img1 == 0) {
+            crd.style.backgroundImage = "url('../images/teste2.png')";
+            img1 = 1;
         } else {
-            img.src = "../images/LogoProk.png";
-            logtitre.style.display = 'none';
+            crd.style.backgroundImage = "url('../images/image 4.png')";
+            img1 = 0;
         }
     } else {
-        var imgId = 'img' + id;
-        var pId = 'p' + id;
-        var img = document.getElementById(imgId);
+        var pId = 'crdp' + crd;
         var p = document.getElementById(pId);
-        var src;
-        if (isMouseOver) {
-            src = "../images/atlantis_button" + "_" + id + "_state_1.svg";
-            p.style.fontWeight = 'bolder';
-        } else {
-            src = "../images/atlantis_button" + "_" + id + "_state_0.svg";
-            p.style.fontWeight = '';
+        if (crd == 2) {
+            crd = document.getElementById('image-2');
+            if (img2 == 0 ) {
+                crd.style.backgroundImage = "url('../images/abweb.png')";
+                img2 = 1;
+                p.style.display='none';
+            } else {
+                crd.style.backgroundImage = "url('../images/Rectangle (2).png')";
+                img2 = 0;
+                p.style.display='block';
+            }
+        }else if (crd == 3) {
+            crd = document.getElementById('image-3');
+            if (img3 == 0 ) {
+                crd.style.backgroundImage = "url('../images/Asset 6@2x 1.png')";
+                img3 = 1;
+                p.style.display='block';
+            } else {
+                crd.style.backgroundImage = "url('../images/ejja.png')";
+                img3 = 0;
+                p.style.display='none';
+            }
+        }else if (crd == 4) {
+            crd = document.getElementById('image-4');
+            if (img4 == 0 ) {
+                crd.style.backgroundImage = "url('../images/tiniseeee.jpg')";
+                img4 = 1;
+                p.style.display='block';
+            } else {
+                crd.style.backgroundImage = "url('../images/kant.png')";
+                img4 = 0;
+                p.style.display='none';
+            }
+        }else if (crd == 5) {
+            crd = document.getElementById('image-5');
+            if (img5 == 0 ) {
+                crd.style.backgroundImage = "url('../images/Asset 5@2x 1.png')";
+                img5 = 1;
+                p.style.display='block';
+            } else {
+                crd.style.backgroundImage = "url('../images/Asset 3@4x 1.png')";
+                img5 = 0;
+                p.style.display='none';
+            }
         }
-        img.src = src;
     }
+    
+}
 
+function click(crd) {
+    console.log('ahla');
+    if (crd == 1) {
+        crd = document.getElementById('image-1');
+        crd.style.backgroundImage = "url('../images/image 4.png')";
+    }
 }
 
 function changeImage1() {
@@ -105,16 +164,16 @@ function changeImage4() {
     document.getElementById('btn4-b').style.backgroundColor = '#347EFF';
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const listItems = document.querySelectorAll(".show-paragraph");
 
-    listItems.forEach(function(item) {
-        item.addEventListener("click", function(e) {
+    listItems.forEach(function (item) {
+        item.addEventListener("click", function (e) {
             e.preventDefault();
             const paragraphId = this.getAttribute("data-paragraph");
             const paragraphs = document.querySelectorAll("p");
 
-            paragraphs.forEach(function(paragraph) {
+            paragraphs.forEach(function (paragraph) {
                 if (paragraph.id === paragraphId) {
                     paragraph.style.display = "block";
                 } else {
@@ -148,6 +207,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //naziha
 setInterval(updateClock, 1000);
+
 function updateClock() {
     const tunisTimeZoneOffset = 60;
 

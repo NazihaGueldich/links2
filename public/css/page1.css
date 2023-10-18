@@ -209,7 +209,7 @@ body {
 }
 
 
-.btn.btn-outline-primary:hover {
+.r-image1:hover .btn.btn-outline-primary{
     background-color: #ffffff;
     color: #347EFF;
 }
@@ -245,39 +245,32 @@ body {
     background-image: url("../images/image 4.png");
 }
 
-.image-1:active{
-    background-image: url("../images/teste2.png");
-}
+
 
 .image-2{
     background-image: url('../images/Rectangle (2).png');
     background-size: cover;
-}
-.image-2:active{
-    background-image: url("../images/abweb.png");
 }
 
 .image-3{
     background-image: url('../images/Asset 6@2x 1.png');
     background-size: cover;
 }
-.image-3:active{
-    background-image: url("../images/ejja.png");
-}
+
 .image-4{
     background-image: url('../images/tiniseeee.jpg');
     background-size: cover;
 }
-.image-4:active{
-    background-image: url("../images/kant.png");
-}
+
 .image-5{
     background-image: url('../images/Asset 5@2x 1.png');
     background-size: cover;
 }
-.image-5:active{
-    background-image: url("../images/Asset 3@4x 1.png");
+
+#crdp2,#crdp3,#crdp4,#crdp5{
+    display: block;
 }
+
 
 .image-2,
 .image-3,
@@ -1037,5 +1030,29 @@ text-decoration: none !important;
     font-size: 17px;
     font-family: noto;
     font-weight: 400;;
+}
+
+.flex-container{
+    display: flex;  
+    justify-content: center;    
+    justify-content: space-evenly;
+}
+
+.icns{
+    display: flex;
+     align-items: center; 
+     flex-direction: column;
+}
+
+.imgicns{
+    max-width: 60px;
+    height: 60px;
+    opacity: 1;
+}
+
+.txticns{
+    font-family: noto;
+    font-weight: 400;
+    font-size: 20px;
 }
 

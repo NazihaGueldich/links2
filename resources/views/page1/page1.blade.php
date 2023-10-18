@@ -1,13 +1,11 @@
 @include('page1.script')
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;">
         <div class="container justify-content-between">
-            <div id="myTopnav" >
-                <img id="logimg" 
-                        src="{{ asset('images/LogoProk.png') }}">
-                    <img id="logtitre" 
-                        src="{{ asset('images/logtitre.png') }}">
+            <div id="myTopnav">
+                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+                <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
             </div>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -19,8 +17,8 @@
                 <ul class="navbar-nav" style="height:33px">
 
                     <li class="nav-item active d-flex align-items-center">
-                        <img src="{{ asset('images/Flag_of_Tunisia.svg') }}"  class="mr-1" id='crcltuns'>
-                        <span class="nav-link" href="#"  id="tunis-time"></span>
+                        <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns'>
+                        <span class="nav-link" href="#" id="tunis-time"></span>
                     </li>
                     <li class="nav-item active d-flex align-items-center txtnav">
                         <a class="nav-link" href="#">튀니지에 대해서</a>
@@ -33,7 +31,7 @@
                         <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
 
                         <div class="position-relative">
-                        <input type="text" class="input-search" style="border-radius:8px">
+                            <input type="text" class="input-search" style="border-radius:8px">
                             <i class="icon-search">
                                 <img src="{{ asset('images/search.svg') }}">
                             </i>
@@ -69,7 +67,8 @@
                                 <br>파란 하늘 푸른 바다
                             </span>
 
-                            <button type="button" class="btn btn-outline-primary btn1-main">더보기</button>
+                            <button type="button"
+                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                     <ol class="carousel-indicators">
@@ -91,40 +90,41 @@
 
 
     <div class="container mt-5">
-        <div class="flex-container" style="display: flex;  justify-content: center;    justify-content: space-evenly;">
-            <div class="flex-item">
-                <img id='img1' src="{{ asset('images/atlantis_button_1_state_0.svg') }}" style="height: 70px;">
-                <p id="p1">호텔</p>
+        <div class="flex-container">
+            <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
+                <img id='img1' src="{{ asset('images/atlantis_button_1_state_0.svg') }}" class="imgicns">
+                <p id="p1" class="txticns">호텔</p>
             </div>
+
             <div class=" ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img2'
-                    src="{{ asset('images/atlantis_button_2_state_0.svg') }}" style="height: 70px;">
-                <p id="p2">항공편</p>
+            <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
+                    id='img2' src="{{ asset('images/atlantis_button_2_state_0.svg') }}" class="imgicns">
+                <p id="p2" class="txticns">항공편</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img3'
-                    src="{{ asset('images/atlantis_button_3_state_0.svg') }}" style="height: 70px;">
-                <p id="p3">축제</p>
+            <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
+                    id='img3' src="{{ asset('images/atlantis_button_3_state_0.svg') }}" class="imgicns">
+                <p id="p3" class="txticns">축제</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img4'
-                    src="{{ asset('images/atlantis_button_4_state_0.svg') }}" style="height: 70px;">
-                <p id="p4">활동</p>
+            <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
+                    id='img4' src="{{ asset('images/atlantis_button_4_state_0.svg') }}" class="imgicns">
+                <p id="p4" class="txticns">활동</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img5'
-                    src="{{ asset('images/atlantis_button_5_state_0.svg') }}" style="height: 70px;">
-                <p id="p5">자동차 서비스</p>
+            <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
+                    id='img5' src="{{ asset('images/atlantis_button_5_state_0.svg') }}" class="imgicns">
+                <p id="p5" class="txticns">자동차 서비스</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img6'
-                    src="{{ asset('images/atlantis_button_6_state_0.svg') }}" style="height: 70px;">
-                <p id="p6">크루즈</p>
+            <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
+                    id='img6' src="{{ asset('images/atlantis_button_6_state_0.svg') }}" class="imgicns">
+                <p id="p6" class="txticns">크루즈</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div style="display: flex; align-items: center; flex-direction: column;"><img id='img7'
-                    src="{{ asset('images/atlantis_button_7_state_0.svg') }}" style="height: 70px;">
-                <p id="p7">박물관</p>
+            <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
+                    id='img7' src="{{ asset('images/atlantis_button_7_state_0.svg') }}" class="imgicns">
+                <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
     </div>
@@ -137,41 +137,35 @@
     <div class="container mt-5">
         <div class="row">
             {{-- image 1 --}}
-            <div class="col-6 r-image1">
-                <div class="image-1">
+            <div class="col-6 r-image1" >
+                <div class="image-1" onclick="handleClick(1)" id="image-1">
                     <div class="ml-4">
                         <div class="d-flex flex-column align-items-start">
                             <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
                         </div>
-                        {{-- <div class="r-text1">
-                        튀니지
-                        <br>파란 하늘 푸른 바다
                     </div>
- --}}
-                    </div>
-
-                </div>
+                </div>         
             </div>
             {{-- bloc 1 --}}
             <div class="col-6 d-flex flex-column justify-content-between">
                 <div class="d-flex">
                     <div class="pr-4">
-                        <div class="image-2">
+                        <div class="image-2"  onclick="handleClick(2)" id="image-2">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
 
                                 <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
                                     튀니지 미식 체험
                                 </button>
-                                <p class="p-2 parag-img">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이 곳에서 기념품도 구매할 수 있어요.
+                                <p class="p-2 parag-img" id='crdp2'>메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이 곳에서 기념품도 구매할 수 있어요.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class="image-3">
+                        <div class="image-3" onclick="handleClick(3)" id="image-3">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
                                 <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
-                                <p class="p-2 parag-img">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의
+                                <p class="p-2 parag-img" id='crdp3'>튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의
                                     영향도 많이 받았어요. 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
                             </div>
                         </div>
@@ -181,19 +175,19 @@
 
                 <div class="d-flex">
                     <div class="pr-4">
-                        <div class="image-4">
+                        <div class="image-4" onclick="handleClick(4)" id="image-4">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
                                 <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
-                                <p class="p-2 parag-img">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요. 과거와 현대가 공존하고 유럽과
+                                <p class="p-2 parag-img" id='crdp4'>시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요. 과거와 현대가 공존하고 유럽과
                                     아프리카, 아랍의 다양한 색깔이 함께하는 튀니지의 여러 도시들을 방문해보세요.</p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class="image-5">
+                        <div class="image-5" onclick="handleClick(5)" id="image-5">
                             <div class="align-items-center d-flex flex-column h-100 justify-content-between">
                                 <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기 목적지</button>
-                                <p class="p-2 parag-img">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한 액티비티를 즐길 수 있어요.</p>
+                                <p class="p-2 parag-img" id='crdp5'>사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한 액티비티를 즐길 수 있어요.</p>
                             </div>
                         </div>
                     </div>
