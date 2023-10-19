@@ -476,7 +476,7 @@
         </div>
     </div>
     <div class="container my-5 mb-5">
-        <div class="card2 pt-5">
+        <div class="card2 pt-3">
             <div class="op">
                 <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
                     <li onclick="changContai(1)"><a  class="show-paragraph" data-paragraph="ahla1">

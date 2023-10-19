@@ -843,9 +843,7 @@ footer h3 {
     margin-right: 13%;
 }
 
-.show-paragraph:hover {
-    text-decoration: none !important;
-}
+
 
 .card5 {
     width: 788px;
@@ -868,7 +866,7 @@ footer h3 {
     font-family: noto;
     width: 171px;
 
-    font-size: 57px;
+    font-size: 40px;
     font-weight: 400;
     color: #B3B3B3;
     text-align: center;

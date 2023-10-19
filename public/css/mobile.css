@@ -55,9 +55,7 @@
     }
 
 
-    .cardul li h5 {
-        font-size: 24px;
-    }
+ 
 
     .btn.btn-outline-primary.button3 {
         width: 126px;
@@ -489,13 +487,7 @@
         /* Ajustez la hauteur automatiquement en fonction du contenu */
     }
 
-    .cardul {
-        display: flex;
-        font-size: 5%;
-        margin-left: 18%;
-        flex-direction: column;
-        margin-top: -11%;
-    }
+   
 }
 
 
@@ -578,46 +570,72 @@
         border-radius: 10px;
     }
 
-
-    .tit1actv {
-        font-size: 20px !important;
-        color: #347EFF !important;
-        text-align: Center !important;
-        font-family: noto !important;
-    }
-
-    .tit2actv {
-        font-size: 14px !important;
-        color: black !important;
-        text-align: Center !important;
-        font-family: noto !important;
-    }
-
-    .txtactv {
-        margin-top: -1% !important;
-        display: block !important;
-        text-align: start !important;
-        font-size: 13px !important;
-        margin: 37px 43px !important;
-        font-family: noto !important;
-    }
-
-    .tit1inactv {
-        font-size: 10px !important;
-        color: #B3B3B3 !important;
-        text-align: center !important;
-        font-family: noto !important;
-        font-weight: bold !important;
-    }
-
-    .tit2inactv {
-        font-size: 20px !important;
-        color: #D9D9D9 !important;
-        text-align: center !important;
-        font-family: noto !important;
-    }
-
-    .txtinactv {
-        display: none !important;
-    }
 }
+
+
+@media (max-width: 769px) {
+    .card2 {
+      overflow: hidden;
+      height: 145px;
+      width: 356px;
+    }
+  
+    .cardul {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      list-style-type: none;
+      padding: 0;
+      max-width: 100%;
+      overflow: hidden;
+    }
+  
+    .cardul li {
+      flex: 0 0 auto;
+      max-width: 30%;
+      margin-left: -31px;
+    }
+  
+    .tit1actv {
+      font-size: 15px !important;
+      color: #347EFF !important;
+      text-align: center !important;
+      font-family: noto !important;
+    }
+  
+    .tit2actv {
+      font-size: 11px !important;
+      color: black !important;
+      text-align: center !important;
+      font-family: noto !important;
+    }
+  
+    .txtactv {
+      margin-top: -1% !important;
+      display: block !important;
+      text-align: start !important;
+      font-size: 9px !important;
+      font-family: noto !important;
+    }
+  
+    .tit1inactv {
+      font-size: 12px !important;
+      color: #B3B3B3 !important;
+      text-align: center !important;
+      font-family: noto !important;
+      font-weight: bold !important;
+    }
+  
+    .tit2inactv {
+      font-size: 10px !important;
+      color: #D9D9D9 !important;
+      text-align: center !important;
+      font-family: noto !important;
+    }
+  
+    .txtinactv {
+      display: none !important;
+    }
+
+  }
+  
