@@ -537,6 +537,7 @@ text-align: center;
     transform-origin: 60% 50%;
     display: block;
     overflow: hidden; 
+    border-radius: 20px;
 }
 .prt8hov:hover img{
     transform: scale(1.3) rotate(12deg);
