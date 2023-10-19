@@ -603,7 +603,7 @@
         // Code JavaScript pour gérer l'affichage/cachage du menu
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
-    
+
         toggleButton.addEventListener('click', function () {
             navbarNav.classList.toggle('show');
         });

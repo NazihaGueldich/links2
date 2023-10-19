@@ -137,14 +137,14 @@
     }
 
     .btn.btn-outline-primary.button3 {
-        width: 344px;
+        width: 126px;
         height: 41px;
         background-color: #ffffff;
         transition: none;
         box-shadow: none;
         font-weight: 400;
 
-        font-size: 7px;
+        font-size: 10px;
         font-family: noto;
 
         color: #347EFF;
@@ -153,13 +153,34 @@
         border-color: #347EFF !important;
 
     }
+    .btn.btn-outline-primary.button4 {
+        width: 163.49px;
+        width: 180px;
+        height: 52px;
+        background-color: #ffffff;
+        transition: none;
+        box-shadow: none;
+        font-weight: bold;
+        color: #347EFF;
+        border-radius: 77px;
+        border: 1px solid #347EFF;
+        background-color: transparent;
+        transition: background-color 0.3s, color 0.3s;
+        align-self: center;
+        font-size: 24px;
+        font-family: noto;
+        font-weight: 400;
+        border-color: #347EFF !important;
+
+    }
 
     .textbas {
 
-        width: 89%;
+        width: 109%;
         font-family: noto;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 10px;
+        margin-top: 17%;
 
     }
 
@@ -191,7 +212,11 @@
         padding-left: 0;
     }
 
-
+    .divundf {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .text-center {
         margin-left: 50%;
     }
@@ -461,7 +486,7 @@
 
     .footer-column {
         display: none;
-        background-color: white; 
+        background-color: white;
     }
 
     .foot {
