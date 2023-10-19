@@ -225,9 +225,9 @@
 
     .reverse {
         height: 100%;
-
         display: flex;
         flex-direction: row-reverse;
+        align-content: flex-start;
     }
 
     .image-1 {
@@ -244,9 +244,29 @@
     .image-3,
     .image-4,
     .image-5 {
-        width: 276.66px;
-        height: 375px;
+        width: 210px;
+        height: 210px;
         border-radius: 15px;
+    }
+    
+    .btn.btn-outline-primary.r-btn2,
+.btn.btn-outline-primary.r-btn3,
+.btn.btn-outline-primary.r-btn4,
+.btn.btn-outline-primary.r-btn5 {
+    border-color: white !important;
+    width: 169px;
+    height: 34px;
+    transition: none;
+    box-shadow: none;
+    border-radius: 36px;
+    color: #ffffff;
+    font-family: noto;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+}
+
+    .txticns{
+        display: none;
     }
 
     .border-top {

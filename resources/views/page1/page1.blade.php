@@ -87,7 +87,7 @@
 
 
     <div class="container mt-5 ">
-        <div class="flex-container ">
+        <div class="flex-container pt-1">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                 <img id='img1' src="{{ asset('images/atlantis_button_1_state_0.svg') }}" class="imgicns">
                 <p id="p1" class="txticns">호텔</p>
