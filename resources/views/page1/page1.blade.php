@@ -8,7 +8,8 @@
                 <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
             </div>
 
-            <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation" onclick="toggleNavbarBackground()">
+            <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation"
+                onclick="toggleNavbarBackground()">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -430,7 +431,8 @@
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
                             <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}"
                                 style="width: 91.88px; height: 91.88px;">
-                                <img id="imgwj12" src="{{ asset('images/imgwj3.png') }}" style="width: 115px; height: 125px;">
+                            <img id="imgwj12" src="{{ asset('images/imgwj3.png') }}"
+                                style="width: 115px; height: 125px;">
                         </div>
                         <div class="col-md-10">
                             <div class="card-body d-flex flex-column justify-content-center textecard3">
@@ -449,8 +451,8 @@
     </div>
     <div class="container mt-5  " style="display: flex; align-items: center; justify-content: space-around;">
         <div class="divundf">
-        <span class="textbas">여기에 더 많은 의견</span>
-        <img src="{{ asset('images/Property 1=Default.png') }}">
+            <span class="textbas">여기에 더 많은 의견</span>
+            <img src="{{ asset('images/Property 1=Default.png') }}">
         </div>
         <hr class="lignes" style="margin: 10px;">
         <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
@@ -479,7 +481,7 @@
         <div class="card2 pt-3">
             <div class="op">
                 <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
-                    <li onclick="changContai(1)"><a  class="show-paragraph" data-paragraph="ahla1">
+                    <li onclick="changContai(1)"><a class="show-paragraph" data-paragraph="ahla1">
                             <h5 id='tit1' class="tit1actv">
                                 +12 M
                             </h5>
@@ -487,7 +489,7 @@
                                 인구
                             </h5>
                         </a></li>
-                    <li onclick="changContai(2)"><a  class="show-paragraph" data-paragraph="ahla12">
+                    <li onclick="changContai(2)"><a class="show-paragraph" data-paragraph="ahla12">
                             <h5 id='tit2' class="tit1inactv"> 2M
                             </h5>
                             <h5 id='tit22' class="tit2inactv"> 관광객
@@ -509,18 +511,22 @@
                             </h5>
                         </a></li>
                 </ul>
+                <img id='img1Cnt' class='imgactv' src="{{ asset('images/tmp_1697673121691.jpg') }}">
                 <p id="txt1" class="txtactv"> 튀니지는 아프리카
                     북부에 위치한 나라로, 약 2023년 현재, 약 12,000만 명의 인구를 가지고 있습니다. 이 지역은 역사적으로 다양한 문화와 역동적인 역사를 자랑하며, 지중해 연안의
                     아름다운
                     해변과 역사적인 도시들이 매력적인 관광지로 알려져 있습니다.</p>
+                <img id='img2Cnt' class='imginactv' src="{{ asset('images/tmp_1697673154452.jpg') }}">
                 <p id="txt2" class="txtinactv"> 2021년 튀니지는
                     200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 이 나라의 아름다운 지중해 해안선, 역사적 유산 및 다양한 명소는 전 세계에서 온 방문객을 끌어들이며
                     관광업
                     부문을 부흥시켰으며 번창한 미래에 대한 희망을 심었습니다.</p>
+                <img id='img3Cnt' class='imginactv' src="{{ asset('images/tmp_1697673169545.jpg') }}">
                 <p id="txt3" class="txtinactv"> 튀니지는 다양한
                     문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 도우까와 엘 잠까까와 같은 로마 시대 유적까지, 이러한 명소들은 지중해 지역의 역사를
                     매력적으로
                     보여주어 역사 애호가와 호기심 많은 여행자들에게 감탄을 자아냅니다.</p>
+                <img id='img4Cnt' class='imginactv' src="{{ asset('images/tmp_1697673183049.jpg') }}">
                 <p id="txt4" class="txtinactv"> 튀니지는 세계
                     최초의 대학이 있는 특별한 곳으로, 859년에 설립된 알 카라위인 대학은 유네스코로부터 세계에서 가장 오래된 학위 수여 대학으로 인정받았습니다. 이 고대 대학은 튀니지가
                     교육과
@@ -604,24 +610,24 @@
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
 
-        toggleButton.addEventListener('click', function () {
+        toggleButton.addEventListener('click', function() {
             navbarNav.classList.toggle('show');
         });
     </script>
     <script>
-        $(document).ready(function () {
-          $("#toggleButton").click(function () {
-            $(".custom-navbar").toggleClass("toggled");
-          });
+        $(document).ready(function() {
+            $("#toggleButton").click(function() {
+                $(".custom-navbar").toggleClass("toggled");
+            });
         });
-      </script>
+    </script>
     <script>
         function toggleNavbarBackground() {
             var body = document.querySelector('body');
             body.classList.toggle('navbar-toggled');
         }
-        </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>

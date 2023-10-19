@@ -861,9 +861,7 @@ footer h3 {
 }
 
 .card2 {
-
     width: 1081px;
-    height: 380px;
     border-radius: 41px;
     border: 1px solid #c9cbcb;
     background-color: #ffffff;
@@ -1256,6 +1254,14 @@ footer h3 {
     font-family: noto !important;
 }
 
+.imgactv{
+    display: block;
+    width: 95%;
+    margin: 37px 43px !important;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 .tit1inactv{
     font-size: 42px !important;
     color: #B3B3B3 !important;
@@ -1277,4 +1283,9 @@ footer h3 {
     color: #B3B3B3 !important;
     text-align: center !important;
     font-family: noto !important;
+}
+
+
+.imginactv{
+    display: none;
 }

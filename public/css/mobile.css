@@ -608,7 +608,6 @@
 @media (max-width: 769px) {
     .card2 {
         overflow: hidden;
-        height: 145px;
         width: 356px;
     }
 
@@ -656,6 +655,14 @@
         text-align: center !important;
         font-family: noto !important;
         font-weight: bold !important;
+    }
+
+    .imgactv{
+        display: block;
+        width: 78%;
+        margin: 13px 43px !important;
+        object-fit: cover;
+        border-radius: 20px;
     }
 
     .tit2inactv {
