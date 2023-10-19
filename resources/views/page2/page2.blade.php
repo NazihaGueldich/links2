@@ -1,8 +1,8 @@
 @include('page2.scriptpg2')
 @include('page2.navpg')
-
+<body>
 {{-- icons --}}
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5 icon">
     <div class="flex-container">
         <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
             <img id='img1' src="{{ asset('images/icn1.png') }}" class="imgicns">
@@ -45,11 +45,13 @@
 
 {{-- part 1 --}}
 <div>
-    <div class="text-center mb-3">
+    <div class="text-center mb-3 texte1">
         <span class="titr1">튀니지 개관 </span>
     </div>
-    <div class="row">
-        <div class="col-lg-7">
+</div>
+<div class=" scroll-container">
+    <div class="row texte2 " >
+        <div class="col-lg-7  ">
             <img src="{{ asset('images/Group 39572.png') }}" class="img-fluid img1">
         </div>
 
@@ -70,14 +72,15 @@
         </div>
     </div>
 </div>
+
 {{-- part 2 --}}
 <div>
     <div class="mt-4 crd2">
-        <img src="{{ asset('images/Untitled-2 1.png') }}" class="img2">
+        <img src="{{ asset('images/Untitled-2 1 (1).png') }}" class="img2">
         <span class="titr2 titr1">위치</span>
     </div>
 
-    <div class="d-flex justify-content-between mt-2">
+    <div class="ttcard">
         <div class="card text-center">
             <div class="card-body d-flex flex-column justify-content-between">
                 <h5 class="titr3">아프리카 최북단</h5>
@@ -152,8 +155,8 @@
 </div>
 
 {{-- part 5 --}}
-<div class="mt-5 d-flex flex-column align-items-center">
-    <div class="col-12 d-flex justify-content-around ">
+<div class="mt-5 d-flex flex-column align-items-center button1">
+    <div class="col-12 d-flex justify-content-around button1">
         <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
         <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
         <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
@@ -175,7 +178,7 @@
 <hr class="mt-5 mb-5 lignesfrk">
 <div class="mt-5 text-center crd6">
     <div class="d-flex flex-column align-items-center">
-        <p class="titr4">종교</p>
+        <p class="titr5">종교</p>
         <div class="prt6prt1">
             <span class='titrsghyr'>튀니지의 공용어는 아랍어예요.</span><br>
             <span class='pgsghyra'>표준 아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요. 프랑스 식민 지배의 영향으로 프랑스어가 상용어로 쓰여요. </span>
@@ -205,10 +208,11 @@
 <hr class="mt-5 mb-5 lignesfrk">
 <div>
     <div>
-        <p class="titr4">튀니지는 어떤 것으로 <br>유명한가요?</p>
+        <p class="titr5">튀니지는 어떤 것으로 <br>유명한가요?</p>
     </div>
-    <div class="d-flex flex-row justify-content-around">
-        <div class="d-flex flex-column justify-content-between prt7hov">
+    <div class="card21">
+        <div class="d-flex flex-row  images-container">
+        <div class=" d-flex flex-column justify-content-between prt7hov">
             <div class="crd2  crd7 pb-4">
                 <img src="{{ asset('images/Rectangle 16 (2).png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">올리브</button>
@@ -247,6 +251,7 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
 
 {{-- part 8 --}}
@@ -257,8 +262,9 @@
         <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
             이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
     </div>
+    <div class="crdd">
     <div class="d-flex flex-row justify-content-between crd8">
-        <div style="max-width: 350px" class="d-flex flex-column  prt8hov">
+        <div  class="d-flex flex-column  prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p1.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">예술</button>
@@ -266,7 +272,7 @@
             <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등 수공예품이 유명합니다.
             </p>
         </div>
-        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
+        <div  class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p2.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">요리</button>
@@ -275,7 +281,7 @@
                 하리사를 넣어 특유의 매운맛이 특징이에요.
             </p>
         </div>
-        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
+        <div  class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6" style="z-index: -1;"
                     alt="Image">
@@ -286,6 +292,9 @@
             </p>
         </div>
     </div>
+    </div>
 </div>
+</body>
+
 
 @include('page2.footerpg2')

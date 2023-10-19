@@ -14,11 +14,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="{{ asset('css/pg2.css') }}">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" />
 
     <script src="{{ asset('js/scriptpj2.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/mobilePage2.css') }}">
 
     <title>Tunisiatrip By Atlantis</title>
         <meta name="description" content=" | 아틀란티스 여행사
@@ -26,4 +28,3 @@
 </head>
 
 <body>
-   
