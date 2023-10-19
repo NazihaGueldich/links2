@@ -8,28 +8,24 @@
                 <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
             </div>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation" onclick="toggleNavbarBackground()">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav" style="height:33px">
-
-                    <li class="nav-item active d-flex align-items-center">
+                    <li class="nav-item active d-flex align-items-center " id="tun-time">
                         <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns'>
                         <span class="nav-link" href="#" id="tunis-time"></span>
                     </li>
                     <li class="nav-item active d-flex align-items-center txtnav">
-                        <a class="nav-link" href="#">튀니지에 대해서</a>
+                        <a class="nav-link" href="#" id="tun-time">튀니지에 대해서</a>
                     </li>
-                    <li class="nav-item active d-flex align-items-center mr-4 txtnav">
-                        <a class="nav-link" href="#">보다 더 ></a>
+                    <li class="nav-item active d-flex align-items-center  txtnav">
+                        <a class="nav-link" href="#" id="tun-time">보다 더 ></a>
                     </li>
-
-                    <li class="d-flex">
+                    <li class=" nav-item d-flex" id="tun-time">
                         <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
-
                         <div class="position-relative">
                             <input type="text" class="input-search" style="border-radius:8px">
                             <i class="icon-search">
@@ -38,6 +34,7 @@
                         </div>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -598,7 +595,29 @@
     </footer>
 
 
-
+    <script>
+        // Code JavaScript pour gérer l'affichage/cachage du menu
+        const toggleButton = document.getElementById('toggleButton');
+        const navbarNav = document.getElementById('navbarNav');
+    
+        toggleButton.addEventListener('click', function () {
+            navbarNav.classList.toggle('show');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+          $("#toggleButton").click(function () {
+            $(".custom-navbar").toggleClass("toggled");
+          });
+        });
+      </script>
+    <script>
+        function toggleNavbarBackground() {
+            var body = document.querySelector('body');
+            body.classList.toggle('navbar-toggled');
+        }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>

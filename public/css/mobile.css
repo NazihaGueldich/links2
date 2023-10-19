@@ -1,4 +1,27 @@
 @media all and (max-width: 767px) {
+    .navbar-toggled .nav-item {
+        margin-left: 20%;
+        border-radius: 4%;
+        text-align: center;
+        background-color: white;
+    }
+    .nav-item {
+        text-align: center; /* Centrer le texte */
+        margin-left: 20%;
+    }
+    #tun-time{
+        margin-left:  20%;
+    }
+    #tunis-time{
+        margin-left: 2%;
+    }
+    #crcltuns{
+        margin-left:  20%;
+    }
+    .btn-main{
+        margin-left:  3%;
+    padding: 40%;
+    }
     #tit1 {
         font-size: 20px;
         color: #347EFF;
@@ -438,6 +461,7 @@
 
     .footer-column {
         display: none;
+        background-color: white; 
     }
 
     .foot {
