@@ -1153,15 +1153,6 @@ text-decoration: none !important;
     margin-right: 10px;
     width: 39.75px;
     height: 36.69px;
-    opacity: 1;
-}
-#logimg2{
-    display: block;
-    margin-right: 10px;
-    width: 47px;
-    height: 36.69px;
-    opacity: 0;
-    position: absolute;
 }
 #logtitre{
     opacity: 0;
@@ -1176,12 +1167,6 @@ text-decoration: none !important;
     width: 108px;
 }
 
-#myTopnav:hover #logimg{
-    opacity: 0;
-}
-#myTopnav:hover #logimg2{
-    opacity: 1;
-}
 
 #tunis-time{
     font-size: 14px;

@@ -5,7 +5,6 @@
         <div class="container justify-content-between">
             <div id="myTopnav">
                 <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
-                <img id="logimg2" src="{{ asset('images/logtn.png') }}">
                 <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
             </div>
 
