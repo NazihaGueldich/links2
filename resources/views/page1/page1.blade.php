@@ -238,7 +238,7 @@
 
 
     <div class="container mt-5 img-bas">
-        <div style="background-image: url('{{ asset('images/slide auto tunis.png') }}');   background-size: cover;
+        <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
     background-position: center center;"
             class="image1-2" id="imageCov1">
 
