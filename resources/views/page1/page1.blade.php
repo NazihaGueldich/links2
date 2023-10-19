@@ -479,49 +479,49 @@
         <div class="card2 pt-5">
             <div class="op">
                 <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
-                    <li><a href="#" class="show-paragraph" data-paragraph="ahla1">
-                            <h5 id='tit1'>
+                    <li onclick="changContai(1)"><a  class="show-paragraph" data-paragraph="ahla1">
+                            <h5 id='tit1' class="tit1actv">
                                 +12 M
                             </h5>
-                            <h5 id='tit11'> 2023년
+                            <h5 id='tit11' class="tit2actv"> 2023년
                                 인구
                             </h5>
                         </a></li>
-                    <li><a href="#" class="show-paragraph" data-paragraph="ahla12">
-                            <h5 id='tit2'> 2M
+                    <li onclick="changContai(2)"><a  class="show-paragraph" data-paragraph="ahla12">
+                            <h5 id='tit2' class="tit1inactv"> 2M
                             </h5>
-                            <h5 id='tit22'> 관광객
+                            <h5 id='tit22' class="tit2inactv"> 관광객
                                 200만명
                             </h5>
                         </a></li>
-                    <li><a href="#" class="show-paragraph" data-paragraph="ahla13">
-                            <h5 id='tit3'> 700
+                    <li onclick="changContai(3)"><a class="show-paragraph" data-paragraph="ahla13">
+                            <h5 id='tit3' class="tit1inactv"> 700
                             </h5>
-                            <h5 id='tit33'> 역사적인
+                            <h5 id='tit33' class="tit2inactv"> 역사적인
                                 장소
                             </h5>
                         </a></li>
-                    <li><a href="#" class="show-paragraph" data-paragraph="ahla14">
-                            <h5 id='tit4'> 1
+                    <li onclick="changContai(4)"><a class="show-paragraph" data-paragraph="ahla14">
+                            <h5 id='tit4' class="tit1inactv"> 1
                             </h5>
-                            <h5 id='tit44'> 1위
+                            <h5 id='tit44' class="tit2inactv"> 1위
                                 대학
                             </h5>
                         </a></li>
                 </ul>
-                <p id="ahla1"> 튀니지는 아프리카
+                <p id="txt1" class="txtactv"> 튀니지는 아프리카
                     북부에 위치한 나라로, 약 2023년 현재, 약 12,000만 명의 인구를 가지고 있습니다. 이 지역은 역사적으로 다양한 문화와 역동적인 역사를 자랑하며, 지중해 연안의
                     아름다운
                     해변과 역사적인 도시들이 매력적인 관광지로 알려져 있습니다.</p>
-                <p id="ahla12"> 2021년 튀니지는
+                <p id="txt2" class="txtinactv"> 2021년 튀니지는
                     200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 이 나라의 아름다운 지중해 해안선, 역사적 유산 및 다양한 명소는 전 세계에서 온 방문객을 끌어들이며
                     관광업
                     부문을 부흥시켰으며 번창한 미래에 대한 희망을 심었습니다.</p>
-                <p id="ahla13"> 튀니지는 다양한
+                <p id="txt3" class="txtinactv"> 튀니지는 다양한
                     문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 도우까와 엘 잠까까와 같은 로마 시대 유적까지, 이러한 명소들은 지중해 지역의 역사를
                     매력적으로
                     보여주어 역사 애호가와 호기심 많은 여행자들에게 감탄을 자아냅니다.</p>
-                <p id="ahla14"> 튀니지는 세계
+                <p id="txt4" class="txtinactv"> 튀니지는 세계
                     최초의 대학이 있는 특별한 곳으로, 859년에 설립된 알 카라위인 대학은 유네스코로부터 세계에서 가장 오래된 학위 수여 대학으로 인정받았습니다. 이 고대 대학은 튀니지가
                     교육과
                     지적 발전에 대한 헌신을 강조합니다.</p>

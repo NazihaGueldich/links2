@@ -3,96 +3,35 @@
 
 
 }
+
 .card5 {
     width: 788px;
     height: 246px;
     border-radius: 20px;
     border: 1px solid #B3B3B3;
 }
+
 .card4 {
     width: 788px;
     height: 246px;
     border-radius: 20px;
     border: 1px solid #B3B3B3;
 }
+
 .card3 {
     width: 788px;
     height: 246px;
     border-radius: 20px;
     border: 1px solid #B3B3B3;
 }
-#tit1{
-    font-size: 57px; color: #347EFF; text-align: Center;font-family: noto;
-    }
-    #tit11{
-       font-size: 31px; color: black; text-align: Center;font-family: noto;
 
 
-    }
-    .tit2{
-        font-size: 42px;
-    color: #B3B3B3;
-    text-align: center;
-    font-family: noto;
-    font-weight: bold;
-    }
-
-#tit11 {
-    font-size: 31px;
-    color: black;
-    text-align: center;
-    font-family: noto;
-}
 
 
-#tit22 {
-    font-size: 31px;
-    color: #D9D9D9;
-    text-align: center;
-    font-family: noto;
-    /* Ajoutez ici les styles CSS pour cet élément */
-}
-
-/* Styles pour l'élément avec id 'tit3' */
-#tit3 {
-    font-size: 42px;
-    color: #B3B3B3;
-    text-align: center;
-    font-family: noto;
-    font-weight: bold;
-    /* Ajoutez ici les styles CSS pour cet élément */
-}
-
-/* Styles pour l'élément avec id 'tit33' */
-#tit33 {
-    font-size: 31px;
-    color: #D9D9D9;
-    text-align: center;
-    font-family: noto;
-    /* Ajoutez ici les styles CSS pour cet élément */
-}
-
-/* Styles pour l'élément avec id 'tit4' */
-#tit4 {
-    font-size: 42px;
-    color: #B3B3B3;
-    text-align: center;
-    font-family: noto;
-    font-weight: bold;
-    /* Ajoutez ici les styles CSS pour cet élément */
-}
-
-/* Styles pour l'élément avec id 'tit44' */
-#tit44 {
-    font-size: 31px;
-    color: #B3B3B3;
-    text-align: center;
-    font-family: noto;
-}
-
-.cm{
+.cm {
     margin-right: 30%;
 }
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -103,18 +42,22 @@
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: 1.25rem !important;
 }
-#imgwj1{
+
+#imgwj1 {
     opacity: 1;
-    width: 91.88px; height: 91.88px;
+    width: 91.88px;
+    height: 91.88px;
 }
-#imgwj12{
-   opacity: 0;
-   position: absolute;
+
+#imgwj12 {
+    opacity: 0;
+    position: absolute;
 }
-.navbar{
+
+.navbar {
     height: 95px;
 }
 
@@ -134,12 +77,7 @@ body {
     overflow-x: hidden;
 }
 
-#ahla1{
-    display: block;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;
-}
-#ahla12,#ahla13,#ahla14{
-   display: none;text-align: start;font-size: 25px;margin:37px 43px;font-family: noto;
-}
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -148,6 +86,7 @@ body {
     margin-right: 15px;
 
 }
+
 html,
 body {
     margin: 0;
@@ -166,14 +105,14 @@ body {
     transition: all .5s !important;
     box-shadow: none !important;
     position: relative;
-    border-radius:8px;
+    border-radius: 8px;
     border: 1px solid #347EFF;
 }
 
 .input-search:focus {
     width: 147px;
     border: 1px solid #347EFF !important;
-    outline : none !important;
+    outline: none !important;
 }
 
 
@@ -183,7 +122,7 @@ body {
     right: 14px;
 }
 
-.parag-img{
+.parag-img {
     font-size: 17px;
     font-family: noto;
     color: white;
@@ -191,38 +130,44 @@ body {
     transition: all .5s !important;
 }
 
-.image-2:hover .parag-img{
-    opacity: 1;
-}
-.image-3:hover .parag-img{
-    opacity: 1;
-}
-.image-4:hover .parag-img{
-    opacity: 1;
-}
-.image-5:hover .parag-img{
+.image-2:hover .parag-img {
     opacity: 1;
 }
 
-.image-2:hover button{
+.image-3:hover .parag-img {
+    opacity: 1;
+}
+
+.image-4:hover .parag-img {
+    opacity: 1;
+}
+
+.image-5:hover .parag-img {
+    opacity: 1;
+}
+
+.image-2:hover button {
     color: #347EFF !important;
     transition: none;
     box-shadow: none;
     background-color: #ffffff;
 }
-.image-3:hover button{
+
+.image-3:hover button {
     color: #347EFF !important;
     transition: none;
     box-shadow: none;
     background-color: #ffffff;
 }
-.image-4:hover button{
+
+.image-4:hover button {
     color: #347EFF !important;
     transition: none;
     box-shadow: none;
     background-color: #ffffff;
 }
-.image-5:hover button{
+
+.image-5:hover button {
     color: #347EFF !important;
     transition: none;
     box-shadow: none;
@@ -333,7 +278,7 @@ body {
 }
 
 
-.r-image1:hover .btn.btn-outline-primary{
+.r-image1:hover .btn.btn-outline-primary {
     background-color: #ffffff;
     color: #347EFF;
 }
@@ -352,6 +297,7 @@ body {
     color: rgb(197, 196, 198);
     min-height: 50px;
 }
+
 .btn.btn-outline-primary.btn1-main2 {
     width: 101px;
     margin-left: 10%;
@@ -365,6 +311,7 @@ body {
     padding: 0;
 
 }
+
 .text2 {
 
     font-size: 50;
@@ -383,27 +330,30 @@ body {
 
 
 
-.image-2{
+.image-2 {
     background-image: url('../images/Rectangle (2).png');
     background-size: cover;
 }
 
-.image-3{
+.image-3 {
     background-image: url('../images/Asset 6@2x 1.png');
     background-size: cover;
 }
 
-.image-4{
+.image-4 {
     background-image: url('../images/tiniseeee.jpg');
     background-size: cover;
 }
 
-.image-5{
+.image-5 {
     background-image: url('../images/Asset 5@2x 1.png');
     background-size: cover;
 }
 
-#crdp2,#crdp3,#crdp4,#crdp5{
+#crdp2,
+#crdp3,
+#crdp4,
+#crdp5 {
     display: block;
 }
 
@@ -422,13 +372,15 @@ body {
     height: 384.89px;
     border-radius: 36px;
 }
-.text-sm{
+
+.text-sm {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
 }
+
 .text2 h4 {
     width: 227px;
     height: 70px;
@@ -436,7 +388,7 @@ body {
     font-size: 50px;
     color: #347EFF;
     display: inline-block;
-   
+
 }
 
 .text2 p {
@@ -890,8 +842,9 @@ footer h3 {
     align-self: center;
     margin-right: 13%;
 }
-.show-paragraph:hover{
-text-decoration: none !important;
+
+.show-paragraph:hover {
+    text-decoration: none !important;
 }
 
 .card5 {
@@ -900,6 +853,7 @@ text-decoration: none !important;
     border-radius: 20px;
     border: 1px solid #B3B3B3;
 }
+
 .card2 {
 
     width: 1081px;
@@ -1143,18 +1097,20 @@ text-decoration: none !important;
     padding-left: 4%;
 }
 
- /* naziha */
- #myTopnav{
+/* naziha */
+#myTopnav {
     display: flex;
     align-items: center;
 }
+
 #logimg {
     display: block;
     margin-right: 10px;
     width: 39.75px;
     height: 36.69px;
 }
-#logtitre{
+
+#logtitre {
     opacity: 0;
     transition: all .5s;
     width: 68px;
@@ -1162,51 +1118,54 @@ text-decoration: none !important;
 }
 
 
-#myTopnav:hover #logtitre{
+#myTopnav:hover #logtitre {
     opacity: 1;
     width: 108px;
 }
 
 
-#tunis-time{
+#tunis-time {
     font-size: 14px;
     font-weight: 400;
 }
 
-#crcltuns{
+#crcltuns {
     width: 15.09px;
     height: 15px;
     border-radius: 14px;
 }
 
-.txtnav{
+.txtnav {
     font-size: 17px;
     font-family: noto;
-    font-weight: 400;;
+    font-weight: 400;
+    ;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
 }
 
-.icns{
+.icns {
     display: flex;
-     align-items: center;
-     flex-direction: column;
+    align-items: center;
+    flex-direction: column;
 }
 
-.imgicns{
+.imgicns {
     max-width: 60px;
     height: 60px;
     opacity: 1;
 }
+
 .container.vds {
     display: flex;
     justify-content: space-between;
-  }
-.txticns{
+}
+
+.txticns {
     font-family: noto;
     font-weight: 400;
     font-size: 20px;
@@ -1214,24 +1173,25 @@ text-decoration: none !important;
 
 
 
-.frminptstyl:focus{
+.frminptstyl:focus {
     outline: #347EFF auto 1px;
 }
 
 .frminptstyl:focus::placeholder {
     color: transparent;
-  }
+}
 
 
 .card5:hover,
 .card4:hover,
-.card3:hover  {
+.card3:hover {
     border: 3px solid #347EFF;
 }
 
 .card5:hover #imgwj1 {
     opacity: 0;
 }
+
 .card5:hover #imgwj12 {
     opacity: 1;
 }
@@ -1239,6 +1199,7 @@ text-decoration: none !important;
 .card4:hover #imgwj1 {
     opacity: 0;
 }
+
 .card4:hover #imgwj12 {
     opacity: 1;
 }
@@ -1246,22 +1207,68 @@ text-decoration: none !important;
 .card3:hover #imgwj1 {
     opacity: 0;
 }
+
 .card3:hover #imgwj12 {
     opacity: 1;
 }
 
-.title{
+.title {
     font-family: noto;
     font-size: 36px;
     font-weight: 400;
 }
 
-.card-text{
+.card-text {
     font-family: noto;
     font-size: 20px;
 }
 
-.divundf:hover .textbas{
+.divundf:hover .textbas {
     font-weight: 900;
 }
 
+
+.tit1actv{
+    font-size: 57px !important;
+    color: #347EFF !important;
+    text-align: Center !important;
+    font-family: noto !important;
+}
+
+.tit2actv{
+    font-size: 31px !important;
+    color: black !important;
+    text-align: Center !important;
+    font-family: noto !important;
+}
+
+.txtactv{
+    display: block !important;
+    text-align: start !important;
+    font-size: 25px !important;
+    margin: 37px 43px !important;
+    font-family: noto !important;
+}
+
+.tit1inactv{
+    font-size: 42px !important;
+    color: #B3B3B3 !important;
+    text-align: center !important;
+    font-family: noto !important;
+    font-weight: bold !important;
+}
+
+.tit2inactv{
+    font-size: 31px !important;
+    color: #D9D9D9 !important;
+    text-align: center !important;
+    font-family: noto !important;
+}
+
+.txtinactv{
+    display: none !important;
+    font-size: 31px !important;
+    color: #B3B3B3 !important;
+    text-align: center !important;
+    font-family: noto !important;
+}

@@ -15,7 +15,11 @@ function changeImage(isMouseOver, id) {
 }
 
 var img1 = 0,
-    img2 = 0,img3=0,img4=0,img5=0;
+    img2 = 0,
+    img3 = 0,
+    img4 = 0,
+    img5 = 0;
+
 function handleClick(crd) {
     if (crd == 1) {
         crd = document.getElementById('image-1');
@@ -31,51 +35,51 @@ function handleClick(crd) {
         var p = document.getElementById(pId);
         if (crd == 2) {
             crd = document.getElementById('image-2');
-            if (img2 == 0 ) {
+            if (img2 == 0) {
                 crd.style.backgroundImage = "url('../images/abweb.png')";
                 img2 = 1;
-                p.style.display='none';
+                p.style.display = 'none';
             } else {
                 crd.style.backgroundImage = "url('../images/Rectangle (2).png')";
                 img2 = 0;
-                p.style.display='block';
+                p.style.display = 'block';
             }
-        }else if (crd == 3) {
+        } else if (crd == 3) {
             crd = document.getElementById('image-3');
-            if (img3 == 0 ) {
+            if (img3 == 0) {
                 crd.style.backgroundImage = "url('../images/Asset 6@2x 1.png')";
                 img3 = 1;
-                p.style.display='block';
+                p.style.display = 'block';
             } else {
                 crd.style.backgroundImage = "url('../images/ejja.png')";
                 img3 = 0;
-                p.style.display='none';
+                p.style.display = 'none';
             }
-        }else if (crd == 4) {
+        } else if (crd == 4) {
             crd = document.getElementById('image-4');
-            if (img4 == 0 ) {
+            if (img4 == 0) {
                 crd.style.backgroundImage = "url('../images/tiniseeee.jpg')";
                 img4 = 1;
-                p.style.display='block';
+                p.style.display = 'block';
             } else {
                 crd.style.backgroundImage = "url('../images/kant.png')";
                 img4 = 0;
-                p.style.display='none';
+                p.style.display = 'none';
             }
-        }else if (crd == 5) {
+        } else if (crd == 5) {
             crd = document.getElementById('image-5');
-            if (img5 == 0 ) {
+            if (img5 == 0) {
                 crd.style.backgroundImage = "url('../images/Asset 5@2x 1.png')";
                 img5 = 1;
-                p.style.display='block';
+                p.style.display = 'block';
             } else {
                 crd.style.backgroundImage = "url('../images/Asset 3@4x 1.png')";
                 img5 = 0;
-                p.style.display='none';
+                p.style.display = 'none';
             }
         }
     }
-    
+
 }
 
 function click(crd) {
@@ -183,129 +187,6 @@ function changeImage4() {
     document.getElementById('crd2h1').style.color = '#000000';
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const listItems = document.querySelectorAll(".show-paragraph");
-
-    listItems.forEach(function (item) {
-        item.addEventListener("click", function (e) {
-            e.preventDefault();
-            const paragraphId = this.getAttribute("data-paragraph");
-
-            const ahla1 = document.getElementById('ahla1');
-            const ahla12 = document.getElementById('ahla12');
-            const ahla13 = document.getElementById('ahla13');
-            const ahla14 = document.getElementById('ahla14');
-
-            if (paragraphId === 'ahla1') {
-                ahla1.style.display = "block";
-                ahla12.style.display = "none";
-                ahla13.style.display = "none";
-                ahla14.style.display = "none";
-            } else if (paragraphId === 'ahla12') {
-                ahla1.style.display = "none";
-                ahla12.style.display = "block";
-                ahla13.style.display = "none";
-                ahla14.style.display = "none";
-            } else if (paragraphId === 'ahla13') {
-                ahla1.style.display = "none";
-                ahla12.style.display = "none";
-                ahla13.style.display = "block";
-                ahla14.style.display = "none";
-            } else if (paragraphId === 'ahla14') {
-                ahla1.style.display = "none";
-                ahla12.style.display = "none";
-                ahla13.style.display = "none";
-                ahla14.style.display = "block";
-            }
-
-            const tit1 = document.getElementById('tit1');
-            const tit2 = document.getElementById('tit2');
-            const tit3 = document.getElementById('tit3');
-            const tit4 = document.getElementById('tit4');
-
-            const tit11 = document.getElementById('tit11');
-            const tit22 = document.getElementById('tit22');
-            const tit33 = document.getElementById('tit33');
-            const tit44 = document.getElementById('tit44');
-
-            if (paragraphId === 'ahla1') {
-                tit1.style.fontSize = "57px";
-                tit1.style.color = "#347EFF";
-                tit2.style.fontSize = "42px";
-                tit2.style.color = "#B3B3B3";
-                tit3.style.fontSize = "42px";
-                tit3.style.color = "#B3B3B3";
-                tit4.style.fontSize = "42px";
-                tit4.style.color = "#B3B3B3";
-
-                tit11.style.fontSize = "31px";
-                tit11.style.color = "black";
-                tit22.style.fontSize = "31px";
-                tit22.style.color = "#D9D9D9";
-                tit33.style.fontSize = "31px";
-                tit33.style.color = "#D9D9D9";
-                tit44.style.fontSize = "31px";
-                tit44.style.color = "#D9D9D9";
-            } else if (paragraphId === 'ahla12') {
-                tit1.style.fontSize = "42px";
-                tit1.style.color = "#B3B3B3";
-                tit2.style.fontSize = "57px";
-                tit2.style.color = "#347EFF";
-                tit3.style.fontSize = "42px";
-                tit3.style.color = "#B3B3B3";
-                tit4.style.fontSize = "42px";
-                tit4.style.color = "#B3B3B3";
-
-                tit11.style.fontSize = "31px";
-                tit11.style.color = "#D9D9D9";
-                tit22.style.fontSize = "31px";
-                tit22.style.color = "black";
-                tit33.style.fontSize = "31px";
-                tit33.style.color = "#D9D9D9";
-                tit44.style.fontSize = "31px";
-                tit44.style.color = "#D9D9D9";
-            } else if (paragraphId === 'ahla13') {
-                tit1.style.fontSize = "42px";
-                tit1.style.color = "#B3B3B3";
-                tit2.style.fontSize = "42px";
-                tit2.style.color = "#B3B3B3";
-                tit3.style.fontSize = "57px";
-                tit3.style.color = "#347EFF";
-                tit4.style.fontSize = "42px";
-                tit4.style.color = "#B3B3B3";
-
-                tit11.style.fontSize = "31px";
-                tit11.style.color = "#D9D9D9";
-                tit22.style.fontSize = "31px";
-                tit22.style.color = "#D9D9D9";
-                tit33.style.fontSize = "31px";
-                tit33.style.color = "black";
-                tit44.style.fontSize = "31px";
-                tit44.style.color = "#D9D9D9";
-            } else if (paragraphId === 'ahla14') {
-                tit1.style.fontSize = "42px";
-                tit1.style.color = "#B3B3B3";
-                tit2.style.fontSize = "42px";
-                tit2.style.color = "#B3B3B3";
-                tit3.style.fontSize = "42px";
-                tit3.style.color = "#B3B3B3";
-                tit4.style.fontSize = "57px";
-                tit4.style.color = "#347EFF";
-
-                tit11.style.fontSize = "31px";
-                tit11.style.color = "#D9D9D9";
-                tit22.style.fontSize = "31px";
-                tit22.style.color = "#D9D9D9";
-                tit33.style.fontSize = "31px";
-                tit33.style.color = "#D9D9D9";
-                tit44.style.fontSize = "31px";
-                tit44.style.color = "black";
-            }
-        });
-    });
-});
-
-
 
 //naziha
 setInterval(updateClock, 1000);
@@ -329,4 +210,174 @@ function updateClock() {
 
     document.getElementById("tunis-time").textContent = timeString;
 
+}
+
+
+function changContai(indx) {
+
+    var tit1 = document.getElementById('tit1');
+    var tit11 = document.getElementById('tit11');
+    var p1 = document.getElementById('txt1');
+
+    var tit2 = document.getElementById('tit2');
+    var tit22 = document.getElementById('tit22');
+    var p2 = document.getElementById('txt2');
+
+    var tit3 = document.getElementById('tit3');
+    var tit33 = document.getElementById('tit33');
+    var p3 = document.getElementById('txt3');
+
+    var tit4 = document.getElementById('tit4');
+    var tit44 = document.getElementById('tit44');
+    var p4 = document.getElementById('txt4');
+
+    if (indx == 1) {
+        if (tit1.classList.contains('tit1inactv')) {
+            tit1.classList.replace('tit1inactv', 'tit1actv');
+        }
+        if (tit11.classList.contains('tit2inactv')) {
+            tit11.classList.replace('tit2inactv', 'tit2actv');
+        }
+        if (p1.classList.contains('txtinactv')) {
+            p1.classList.replace('txtinactv', 'txtactv');
+        }
+        if (tit2.classList.contains('tit1actv')) {
+            tit2.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit22.classList.contains('tit2actv')) {
+            tit22.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p2.classList.contains('txtactv')) {
+            p2.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit3.classList.contains('tit1actv')) {
+            tit3.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit33.classList.contains('tit2actv')) {
+            tit33.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p3.classList.contains('txtactv')) {
+            p3.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit4.classList.contains('tit1actv')) {
+            tit4.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit44.classList.contains('tit2actv')) {
+            tit44.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p4.classList.contains('txtactv')) {
+            p4.classList.replace('txtactv', 'txtinactv');
+        }
+    }else  if (indx == 2) {
+        if (tit2.classList.contains('tit1inactv')) {
+            tit2.classList.replace('tit1inactv', 'tit1actv');
+        }
+        if (tit22.classList.contains('tit2inactv')) {
+            tit22.classList.replace('tit2inactv', 'tit2actv');
+        }
+        if (p2.classList.contains('txtinactv')) {
+            p2.classList.replace('txtinactv', 'txtactv');
+        }
+        if (tit1.classList.contains('tit1actv')) {
+            tit1.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit11.classList.contains('tit2actv')) {
+            tit11.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p1.classList.contains('txtactv')) {
+            p1.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit3.classList.contains('tit1actv')) {
+            tit3.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit33.classList.contains('tit2actv')) {
+            tit33.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p3.classList.contains('txtactv')) {
+            p3.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit4.classList.contains('tit1actv')) {
+            tit4.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit44.classList.contains('tit2actv')) {
+            tit44.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p4.classList.contains('txtactv')) {
+            p4.classList.replace('txtactv', 'txtinactv');
+        }
+    } else if (indx == 3) {
+        if (tit3.classList.contains('tit1inactv')) {
+            tit3.classList.replace('tit1inactv', 'tit1actv');
+        }
+        if (tit33.classList.contains('tit2inactv')) {
+            tit33.classList.replace('tit2inactv', 'tit2actv');
+        }
+        if (p3.classList.contains('txtinactv')) {
+            p3.classList.replace('txtinactv', 'txtactv');
+        }
+        if (tit1.classList.contains('tit1actv')) {
+            tit1.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit11.classList.contains('tit2actv')) {
+            tit11.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p1.classList.contains('txtactv')) {
+            p1.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit2.classList.contains('tit1actv')) {
+            tit2.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit22.classList.contains('tit2actv')) {
+            tit22.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p2.classList.contains('txtactv')) {
+            p2.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit4.classList.contains('tit1actv')) {
+            tit4.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit44.classList.contains('tit2actv')) {
+            tit44.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p4.classList.contains('txtactv')) {
+            p4.classList.replace('txtactv', 'txtinactv');
+        }
+    }else{
+        if (tit4.classList.contains('tit1inactv')) {
+            tit4.classList.replace('tit1inactv', 'tit1actv');
+        }
+        if (tit44.classList.contains('tit2inactv')) {
+            tit44.classList.replace('tit2inactv', 'tit2actv');
+        }
+        if (p4.classList.contains('txtinactv')) {
+            p4.classList.replace('txtinactv', 'txtactv');
+        }
+        if (tit1.classList.contains('tit1actv')) {
+            tit1.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit11.classList.contains('tit2actv')) {
+            tit11.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p1.classList.contains('txtactv')) {
+            p1.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit2.classList.contains('tit1actv')) {
+            tit2.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit22.classList.contains('tit2actv')) {
+            tit22.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p2.classList.contains('txtactv')) {
+            p2.classList.replace('txtactv', 'txtinactv');
+        }
+        if (tit3.classList.contains('tit1actv')) {
+            tit3.classList.replace('tit1actv', 'tit1inactv');
+        }
+        if (tit33.classList.contains('tit2actv')) {
+            tit33.classList.replace('tit2actv', 'tit2inactv');
+        }
+        if (p3.classList.contains('txtactv')) {
+            p3.classList.replace('txtactv', 'txtinactv');
+        }
+    }
 }
