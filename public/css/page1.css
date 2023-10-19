@@ -27,6 +27,14 @@
 
 
 
+.cardul a:hover{
+    text-decoration: none !important;
+}
+
+.cardul li{
+    cursor: pointer;
+}
+
 
 .cm {
     margin-right: 30%;

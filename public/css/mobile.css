@@ -55,7 +55,7 @@
     }
 
 
- 
+
 
     .btn.btn-outline-primary.button3 {
         width: 126px;
@@ -193,7 +193,6 @@
     .ttcard {
         margin-right: -88%;
         overflow-x: auto;
-        white-space: nowrap;
         /* Éviter les sauts de ligne */
         direction: rtl;
         /* Inverser la direction du texte pour le défilement vers la droite */
@@ -217,7 +216,6 @@
     .scrole {
         height: 750px;
 
-        margin-left: 20% !important;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
 
@@ -228,14 +226,15 @@
         display: flex;
         flex-direction: row-reverse;
         align-content: flex-start;
+        padding-left: 63px;
     }
 
     .image-1 {
-
-        width: 572%;
-        width: 388px;
-        margin-left: 543%;
-        height: 100%;
+        background-position: 40% 21%;
+        height: 210px;
+        width: 210px;
+        margin-left: 495%;
+        border-radius: 15px;
     }
 
 
@@ -248,24 +247,38 @@
         height: 210px;
         border-radius: 15px;
     }
-    
-    .btn.btn-outline-primary.r-btn2,
-.btn.btn-outline-primary.r-btn3,
-.btn.btn-outline-primary.r-btn4,
-.btn.btn-outline-primary.r-btn5 {
-    border-color: white !important;
-    width: 169px;
-    height: 34px;
-    transition: none;
-    box-shadow: none;
-    border-radius: 36px;
-    color: #ffffff;
-    font-family: noto;
-    font-size: 12px;
-    border: 2px solid #ffffff;
-}
 
-    .txticns{
+    .btn.btn-outline-primary.r-btn1 {
+        border-color: white !important;
+        width: 169px;
+        height: 34px;
+        transition: none;
+        box-shadow: none;
+        border-radius: 36px;
+        color: #ffffff;
+        font-family: noto;
+        font-size: 12px;
+        border: 2px solid #ffffff;
+        margin-left: -6%;
+    }
+
+    .btn.btn-outline-primary.r-btn2,
+    .btn.btn-outline-primary.r-btn3,
+    .btn.btn-outline-primary.r-btn4,
+    .btn.btn-outline-primary.r-btn5{
+        border-color: white !important;
+        width: 169px;
+        height: 34px;
+        transition: none;
+        box-shadow: none;
+        border-radius: 36px;
+        color: #ffffff;
+        font-family: noto;
+        font-size: 12px;
+        border: 2px solid #ffffff;
+    }
+
+    .txticns {
         display: none;
     }
 
@@ -387,7 +400,6 @@
 
     .scroll-container {
         overflow-x: auto;
-        white-space: nowrap;
     }
 
     .scroll-container>div {
@@ -507,7 +519,7 @@
         /* Ajustez la hauteur automatiquement en fonction du contenu */
     }
 
-   
+
 }
 
 
@@ -595,67 +607,66 @@
 
 @media (max-width: 769px) {
     .card2 {
-      overflow: hidden;
-      height: 145px;
-      width: 356px;
-    }
-  
-    .cardul {
-      display: flex !important;
-      flex-wrap: nowrap !important;
-      justify-content: center !important;
-      list-style-type: none;
-      padding: 0;
-      max-width: 100%;
-      overflow: hidden;
-    }
-  
-    .cardul li {
-      flex: 0 0 auto;
-      max-width: 30%;
-      margin-left: -31px;
-    }
-  
-    .tit1actv {
-      font-size: 15px !important;
-      color: #347EFF !important;
-      text-align: center !important;
-      font-family: noto !important;
-    }
-  
-    .tit2actv {
-      font-size: 11px !important;
-      color: black !important;
-      text-align: center !important;
-      font-family: noto !important;
-    }
-  
-    .txtactv {
-      margin-top: -1% !important;
-      display: block !important;
-      text-align: start !important;
-      font-size: 9px !important;
-      font-family: noto !important;
-    }
-  
-    .tit1inactv {
-      font-size: 12px !important;
-      color: #B3B3B3 !important;
-      text-align: center !important;
-      font-family: noto !important;
-      font-weight: bold !important;
-    }
-  
-    .tit2inactv {
-      font-size: 10px !important;
-      color: #D9D9D9 !important;
-      text-align: center !important;
-      font-family: noto !important;
-    }
-  
-    .txtinactv {
-      display: none !important;
+        overflow: hidden;
+        height: 145px;
+        width: 356px;
     }
 
-  }
-  
+    .cardul {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
+        list-style-type: none;
+        padding: 0;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .cardul li {
+        flex: 0 0 auto;
+        max-width: 30%;
+        margin-left: -31px;
+    }
+
+    .tit1actv {
+        font-size: 15px !important;
+        color: #347EFF !important;
+        text-align: center !important;
+        font-family: noto !important;
+    }
+
+    .tit2actv {
+        font-size: 11px !important;
+        color: black !important;
+        text-align: center !important;
+        font-family: noto !important;
+    }
+
+    .txtactv {
+        margin-top: -1% !important;
+        display: block !important;
+        text-align: start !important;
+        font-size: 9px !important;
+        font-family: noto !important;
+    }
+
+    .tit1inactv {
+        font-size: 12px !important;
+        color: #B3B3B3 !important;
+        text-align: center !important;
+        font-family: noto !important;
+        font-weight: bold !important;
+    }
+
+    .tit2inactv {
+        font-size: 10px !important;
+        color: #D9D9D9 !important;
+        text-align: center !important;
+        font-family: noto !important;
+    }
+
+    .txtinactv {
+        display: none !important;
+    }
+
+}
