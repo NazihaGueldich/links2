@@ -258,7 +258,7 @@
             이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
     </div>
     <div class="d-flex flex-row justify-content-between crd8">
-        <div  class="d-flex flex-column  prt8hov">
+        <div style="max-width: 350px" class="d-flex flex-column  prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p1.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">예술</button>
@@ -266,7 +266,7 @@
             <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등 수공예품이 유명합니다.
             </p>
         </div>
-        <div  class="d-flex flex-column prt8hov">
+        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
                 <img src="{{ asset('images/img8p2.png') }}" class="img-fluid img6" alt="Image">
                 <button class="btncrd">요리</button>
@@ -275,9 +275,9 @@
                 하리사를 넣어 특유의 매운맛이 특징이에요.
             </p>
         </div>
-        <div class="d-flex flex-column prt8hov">
+        <div style="max-width: 350px" class="d-flex flex-column prt8hov">
             <div class="crd2 crd81">
-                <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6 indxprt8" 
+                <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6" style="z-index: -1;"
                     alt="Image">
                 <button class="btncrd">스포츠</button>
             </div>
