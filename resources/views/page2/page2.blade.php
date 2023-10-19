@@ -183,7 +183,7 @@
     </div>
     <div class="row mt-5 crd66">
         <div class="col-lg-6">
-            <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img4'>
+            <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'>
         </div>
 
         <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-5 pt-4">

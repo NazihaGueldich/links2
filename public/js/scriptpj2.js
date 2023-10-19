@@ -103,7 +103,7 @@ function changelement() {
     var txtindx = ['유대교', '기독교', '이슬람'];
 
 
-    fade(document.getElementById('img4'), img[elm],0);
+    fade(document.getElementById('img44'), img[elm],0);
     fade(document.getElementById('h4prt6'), h[elm],1);
     fade(document.getElementById('pprt6'), p[elm],1);
     fade(document.getElementById('txtindx'), txtindx[elm],1);
@@ -122,6 +122,7 @@ function fade(element, value,type) {
             element.style.display = 'none';
             if(type==0){
                 element.src = value;
+                console.log(element);
             }else{
                 element.innerHTML = value;
             }

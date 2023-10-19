@@ -224,21 +224,21 @@ text-align: center;
 
 #crcl1{
     width: 20px;
-    background-image: url("../images/point.svg") !important;
+    background-image: url("../images/point.svg") ;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl2{
     width: 20px;
-    background-image: url("../images/cercle.svg") !important;
+    background-image: url("../images/cercle.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl3{
     width: 20px;
-    background-image: url("../images/cercle.svg") !important;
+    background-image: url("../images/cercle.svg") ;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -747,9 +747,9 @@ footer h3 {
 }
 
 #crcltuns{
-    width: 15.09px;
-    height: 15px;
-    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .txtnav{
