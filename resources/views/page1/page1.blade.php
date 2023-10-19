@@ -389,7 +389,7 @@
 
         <div class="row justify-content-center">
             <div>
-                <div class="card mx-auto justify-content-center card5">
+                <div class="card mx-auto justify-content-center card5" style="border: 3px solid transparent;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center BG">
                             <img id="imgwj1" src="{{ asset('images/BG (3).png') }}">
@@ -400,13 +400,13 @@
                                 <h5 class="card-title title">오OO</h5>
                                 <p class="card-text text-left textecard">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는
                                     시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
-                                </p>
+                                </p>    
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="vertical-line"></div>
-                <div class="card mx-auto justify-content-center card4">
+                <div class="card mx-auto justify-content-center card4" style="border: 3px solid transparent;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
                             <img id="imgwj1" src="{{ asset('images/BG (2).png') }}"
@@ -426,7 +426,7 @@
                     </div>
                 </div>
                 <div class="vertical-line"></div>
-                <div class="card mx-auto justify-content-center card3">
+                <div class="card mx-auto justify-content-center card3" style="border: 3px solid transparent;">
                     <div class="row no-gutters">
                         <div class="col-md-2 d-flex align-items-center justify-content-center">
                             <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}"

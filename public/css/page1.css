@@ -1189,7 +1189,7 @@ footer h3 {
 .card5:hover,
 .card4:hover,
 .card3:hover {
-    border: 3px solid #347EFF;
+    border: 3px solid #347EFF !important;
 }
 
 .card5:hover #imgwj1 {
