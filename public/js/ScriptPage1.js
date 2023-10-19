@@ -190,38 +190,121 @@ document.addEventListener("DOMContentLoaded", function () {
         item.addEventListener("click", function (e) {
             e.preventDefault();
             const paragraphId = this.getAttribute("data-paragraph");
-            const paragraphs = document.querySelectorAll("p");
 
-            paragraphs.forEach(function (paragraph) {
-                if (paragraph.id === paragraphId) {
-                    paragraph.style.display = "block";
-                } else {
-                    paragraph.style.display = "none";
-                }
-            });
+            const ahla1 = document.getElementById('ahla1');
+            const ahla12 = document.getElementById('ahla12');
+            const ahla13 = document.getElementById('ahla13');
+            const ahla14 = document.getElementById('ahla14');
 
-            const liElements = document.querySelectorAll('.card ul li');
-            liElements.forEach(li => {
-                const dataParagraph = li.querySelector('a').getAttribute(
-                    'data-paragraph');
+            if (paragraphId === 'ahla1') {
+                ahla1.style.display = "block";
+                ahla12.style.display = "none";
+                ahla13.style.display = "none";
+                ahla14.style.display = "none";
+            } else if (paragraphId === 'ahla12') {
+                ahla1.style.display = "none";
+                ahla12.style.display = "block";
+                ahla13.style.display = "none";
+                ahla14.style.display = "none";
+            } else if (paragraphId === 'ahla13') {
+                ahla1.style.display = "none";
+                ahla12.style.display = "none";
+                ahla13.style.display = "block";
+                ahla14.style.display = "none";
+            } else if (paragraphId === 'ahla14') {
+                ahla1.style.display = "none";
+                ahla12.style.display = "none";
+                ahla13.style.display = "none";
+                ahla14.style.display = "block";
+            }
 
-                const h5Elements = li.querySelectorAll('h5');
+            const tit1 = document.getElementById('tit1');
+            const tit2 = document.getElementById('tit2');
+            const tit3 = document.getElementById('tit3');
+            const tit4 = document.getElementById('tit4');
 
-                if (dataParagraph == item.getAttribute("data-paragraph")) {
-                    h5Elements[0].style.fontSize = "57px";
-                    h5Elements[0].style.color = "#347EFF";
-                    h5Elements[1].style.fontSize = "31px";
-                    h5Elements[1].style.color = "black";
-                } else {
-                    h5Elements[0].style.fontSize = "42px";
-                    h5Elements[0].style.color = "#B3B3B3";
-                    h5Elements[1].style.fontSize = "31px";
-                    h5Elements[1].style.color = "#D9D9D9";
-                }
-            });
+            const tit11 = document.getElementById('tit11');
+            const tit22 = document.getElementById('tit22');
+            const tit33 = document.getElementById('tit33');
+            const tit44 = document.getElementById('tit44');
+
+            if (paragraphId === 'ahla1') {
+                tit1.style.fontSize = "57px";
+                tit1.style.color = "#347EFF";
+                tit2.style.fontSize = "42px";
+                tit2.style.color = "#B3B3B3";
+                tit3.style.fontSize = "42px";
+                tit3.style.color = "#B3B3B3";
+                tit4.style.fontSize = "42px";
+                tit4.style.color = "#B3B3B3";
+
+                tit11.style.fontSize = "31px";
+                tit11.style.color = "black";
+                tit22.style.fontSize = "31px";
+                tit22.style.color = "#D9D9D9";
+                tit33.style.fontSize = "31px";
+                tit33.style.color = "#D9D9D9";
+                tit44.style.fontSize = "31px";
+                tit44.style.color = "#D9D9D9";
+            } else if (paragraphId === 'ahla12') {
+                tit1.style.fontSize = "42px";
+                tit1.style.color = "#B3B3B3";
+                tit2.style.fontSize = "57px";
+                tit2.style.color = "#347EFF";
+                tit3.style.fontSize = "42px";
+                tit3.style.color = "#B3B3B3";
+                tit4.style.fontSize = "42px";
+                tit4.style.color = "#B3B3B3";
+
+                tit11.style.fontSize = "31px";
+                tit11.style.color = "#D9D9D9";
+                tit22.style.fontSize = "31px";
+                tit22.style.color = "black";
+                tit33.style.fontSize = "31px";
+                tit33.style.color = "#D9D9D9";
+                tit44.style.fontSize = "31px";
+                tit44.style.color = "#D9D9D9";
+            } else if (paragraphId === 'ahla13') {
+                tit1.style.fontSize = "42px";
+                tit1.style.color = "#B3B3B3";
+                tit2.style.fontSize = "42px";
+                tit2.style.color = "#B3B3B3";
+                tit3.style.fontSize = "57px";
+                tit3.style.color = "#347EFF";
+                tit4.style.fontSize = "42px";
+                tit4.style.color = "#B3B3B3";
+
+                tit11.style.fontSize = "31px";
+                tit11.style.color = "#D9D9D9";
+                tit22.style.fontSize = "31px";
+                tit22.style.color = "#D9D9D9";
+                tit33.style.fontSize = "31px";
+                tit33.style.color = "black";
+                tit44.style.fontSize = "31px";
+                tit44.style.color = "#D9D9D9";
+            } else if (paragraphId === 'ahla14') {
+                tit1.style.fontSize = "42px";
+                tit1.style.color = "#B3B3B3";
+                tit2.style.fontSize = "42px";
+                tit2.style.color = "#B3B3B3";
+                tit3.style.fontSize = "42px";
+                tit3.style.color = "#B3B3B3";
+                tit4.style.fontSize = "57px";
+                tit4.style.color = "#347EFF";
+
+                tit11.style.fontSize = "31px";
+                tit11.style.color = "#D9D9D9";
+                tit22.style.fontSize = "31px";
+                tit22.style.color = "#D9D9D9";
+                tit33.style.fontSize = "31px";
+                tit33.style.color = "#D9D9D9";
+                tit44.style.fontSize = "31px";
+                tit44.style.color = "black";
+            }
         });
     });
 });
+
 
 
 //naziha
