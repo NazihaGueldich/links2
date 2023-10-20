@@ -212,7 +212,7 @@
     </div>
     <div class="card21">
         <div class="d-flex flex-row  images-container">
-        <div class=" d-flex flex-column justify-content-between prt7hov">
+        <div class=" d-flex flex-column prt7hov">
             <div class="crd2  crd7 pb-4">
                 <img src="{{ asset('images/Rectangle 16 (2).png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">올리브</button>
@@ -224,7 +224,7 @@
                 <p class="p2prt7">더 읽어보세요..</p>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-between prt7hov">
+        <div class="d-flex flex-column prt7hov">
             <div class="crd2 crd7 pb-4">
                 <img src="{{ asset('images/Rectangle 16.png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">쿠스쿠스</button>
@@ -237,7 +237,7 @@
                 <p class="p2prt7">더 읽어보세요..</p>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-between prt7hov">
+        <div class="d-flex flex-column prt7hov">
             <div class="crd2 crd7 pb-4">
                 <img src="{{ asset('images/Rectangle 16 (1).png') }}" class="img-fluid img5" alt="Image">
                 <button class="btncrd">카이루안</button>
