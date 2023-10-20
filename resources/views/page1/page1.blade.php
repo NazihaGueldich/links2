@@ -218,7 +218,7 @@
         </div>
         <div class=" text2">
             <div>
-                <h4 >홍보 영상</h4>
+                <h4>홍보 영상</h4>
             </div>
 
             <p>
@@ -229,16 +229,16 @@
         </div>
     </div>
 
-    <div class="mt-5 border-top mx-auto" style="width: 45.49px; height:70px; color: #B3B3B3;"></div>
-
-    <div class=" mx-auto text3">
-        <span>튀니지 주요 도시</span>
+    <div class="border-top mx-auto" style="width: 45.49px; height:70px; color: #B3B3B3;"></div>
+<div class="sess3">
+    <div>
+        <span class="sess3h">튀니지 주요 도시</span>
     </div>
 
 
-    <div class="container mt-5 img-bas">
+    <div class="container img-bas">
         <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
-    background-position: center center;"
+        background-position: center center;"
             class="image1-2" id="imageCov1">
 
             <div class="d-flex flex-column align-items-start  ">
@@ -255,7 +255,7 @@
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-    background-position: center center;display:none"
+        background-position: center center;display:none"
             class="image1-2" id="imageCov2">
 
             <div class="d-flex flex-column align-items-start  ">
@@ -276,7 +276,7 @@
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
-    background-position: center center;display:none"
+         background-position: center center;display:none"
             class="image1-2" id="imageCov3">
 
             <div class="d-flex flex-column align-items-start  ">
@@ -297,7 +297,7 @@
             </div>
         </div>
         <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-    background-position: center center;display:none"
+        background-position: center center;display:none"
             class="image1-2" id="imageCov4">
 
             <div class="d-flex flex-column align-items-start">
@@ -321,7 +321,7 @@
 
         <div class="mt-3 ml-2 scroll-container">
             <div class="d-flex">
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column affmob">
                     <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3"
                         id="imageB1" onclick="changeImage1()">
                     <div class="d-flex flex-column align-items-start">
@@ -336,7 +336,7 @@
 
                 </div>
 
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column affmob">
                     <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2"
                         style="filter: grayscale(100%);" onclick="changeImage2()">
                     <div class="d-flex flex-column align-items-start">
@@ -349,7 +349,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column affmob">
                     <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3"
                         style="filter: grayscale(100%);" onclick="changeImage3()">
                     <div class="d-flex flex-column align-items-start">
@@ -362,7 +362,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column affmob">
                     <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4"
                         style="filter: grayscale(100%);" onclick="changeImage4()">
                     <div class="d-flex flex-column align-items-start">
@@ -378,6 +378,7 @@
         </div>
 
     </div>
+</div>
     <div class="mt-5 border-top mx-auto" style="width: 45.49px; height:70px; color: #B3B3B3;"></div>
 
 
@@ -401,7 +402,7 @@
                                 <h5 class="card-title title">오OO</h5>
                                 <p class="card-text text-left textecard">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는
                                     시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
-                                </p>    
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -453,7 +454,7 @@
     <div class="container mt-5  " style="display: flex; align-items: center; justify-content: space-around;">
         <div class="divundf">
             <span class="textbas">여기에 더 많은 의견</span>
-            <img src="{{ asset('images/Property 1=Default.png') }}">
+            <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}">
         </div>
         <hr class="lignes" style="margin: 10px;">
         <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>

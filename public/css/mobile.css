@@ -10,9 +10,10 @@
         padding-bottom: 10px;
     }
 
-    .li1{
+    .li1 {
         margin-top: 5px;
     }
+
     .nav-item {
         text-align: center;
         margin-left: 20%;
@@ -23,7 +24,7 @@
         margin-left: 2%;
     }
 
-   
+
 
     .btn-main {
         padding: 40%;
@@ -96,14 +97,37 @@
 
     }
 
-    .textbas {
+    .imageB1,
+    .imageB2,
+    .imageB3,
+    .imageB4 {
+        width: 165.11px;
+        height: 97.02px;
+        border-radius: 25px;
+        background-size: 100% 100%;
+    }
 
+    .text-p {
+        font-size: 21px;
+        font-weight: bold;
+        color: #347EFF;
+    }
+
+    .text-p2,
+    .text-p3,
+    .text-p4 {
+        font-size: 21px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .textbas {
         width: 109%;
         font-family: noto;
         font-weight: 400;
-        font-size: 10px;
-        margin-top: 17%;
-
+        font-size: 14px;
+        margin-top: 8%;
+        font-weight: bold;
     }
 
     .lignes {
@@ -263,7 +287,7 @@
     .btn.btn-outline-primary.r-btn2,
     .btn.btn-outline-primary.r-btn3,
     .btn.btn-outline-primary.r-btn4,
-    .btn.btn-outline-primary.r-btn5{
+    .btn.btn-outline-primary.r-btn5 {
         border-color: white !important;
         width: 169px;
         height: 34px;
@@ -308,10 +332,8 @@
     }
 
     .image1-2 {
-        height: 34%;
-
+        height: 204px;
         width: 100%;
-
     }
 
 
@@ -355,18 +377,19 @@
         display: none;
     }
 
-    .sess3h4mob{
+    .sess3h4mob {
         font-weight: bold;
         font-size: 42px;
         color: #347EFF;
         display: inline-block;
     }
 
-    .sess3mobvid{
+    .sess3mobvid {
         display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
+        flex-direction: column-reverse;
+        align-items: center;
     }
+
     #btn1,
     #btn1-b,
     #btn2,
@@ -428,6 +451,8 @@
 
     }
 
+    
+
 
 
     .card5 {
@@ -449,7 +474,8 @@
         height: 79.88px !important;
         margin-top: 8%;
     }
-    #imgwj12{
+
+    #imgwj12 {
         margin-right: 75%;
         width: 78px !important;
         height: 96px !important;
@@ -674,7 +700,7 @@
         font-weight: bold !important;
     }
 
-    .imgactv{
+    .imgactv {
         display: block;
         width: 78%;
         margin: 13px 43px !important;
@@ -693,6 +719,25 @@
         display: none !important;
     }
 
-    
-    
+
+    .imgwjhmob {
+        height: 29px;
+    }
+
+    .affmob {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .sess3{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .sess3h{
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
