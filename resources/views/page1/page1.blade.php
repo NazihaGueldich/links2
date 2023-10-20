@@ -15,7 +15,7 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav" style="height:33px">
-                    <li class="nav-item active d-flex align-items-center " id="tun-time">
+                    <li class="nav-item active d-flex align-items-center li1" id="tun-time">
                         <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns'>
                         <span class="nav-link" href="#" id="tunis-time"></span>
                     </li>

@@ -1,31 +1,31 @@
 @media all and (max-width: 767px) {
     .navbar-toggled .nav-item {
-        margin-left: 20%;
+        margin-left: 0%;
         border-radius: 4%;
         text-align: center;
         background-color: white;
+        width: 125%;
+        padding-left: 6%;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
+    .li1{
+        margin-top: 5px;
+    }
     .nav-item {
         text-align: center;
-        /* Centrer le texte */
         margin-left: 20%;
     }
 
-    #tun-time {
-        margin-left: 20%;
-    }
 
     #tunis-time {
         margin-left: 2%;
     }
 
-    #crcltuns {
-        margin-left: 20%;
-    }
+   
 
     .btn-main {
-        margin-left: 3%;
         padding: 40%;
     }
 

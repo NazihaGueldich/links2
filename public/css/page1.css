@@ -861,7 +861,6 @@ footer h3 {
 }
 
 .card2 {
-    width: 1081px;
     border-radius: 41px;
     border: 1px solid #c9cbcb;
     background-color: #ffffff;
@@ -1256,8 +1255,8 @@ footer h3 {
 
 .imgactv{
     display: block;
-    width: 95%;
-    margin: 37px 43px !important;
+    width: 98%;
+    margin: 0 1% !important;
     object-fit: cover;
     border-radius: 20px;
 }
