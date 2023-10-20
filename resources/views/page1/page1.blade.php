@@ -204,7 +204,8 @@
     <div class="mt-5 lignes mx-auto"></div>
 
     <div class="container vds">
-        <div>
+        <div class="sess3mobvid">
+            <h4 class="sess3h4mob">홍보 영상</h4>
             <video id="my-video" class="video-js" controls preload="auto" width="740" height="385"
                 poster="images/sahrouch.png">
                 <source src="images/vd.mp4" type="video/mp4" />
@@ -215,9 +216,9 @@
             </video>
 
         </div>
-        <div class=" ml-5 text2">
+        <div class=" text2">
             <div>
-                <h4>홍보 영상</h4>
+                <h4 >홍보 영상</h4>
             </div>
 
             <p>

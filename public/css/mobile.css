@@ -111,7 +111,7 @@
         border: none;
         height: 1px;
         background-color: #B3B3B3;
-        margin: 55px auto;
+        margin: 33px auto;
     }
 
 
@@ -352,13 +352,21 @@
     }
 
     .text2 h4 {
+        display: none;
+    }
+
+    .sess3h4mob{
         font-weight: bold;
         font-size: 42px;
         color: #347EFF;
         display: inline-block;
-        margin-left: 62px;
     }
 
+    .sess3mobvid{
+        display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    }
     #btn1,
     #btn1-b,
     #btn2,
@@ -378,6 +386,8 @@
         margin-top: 20px;
         font-weight: bold;
         font-family: 'inter', sans-serif;
+        text-align: center;
+        margin-bottom: 6%;
     }
 
     .img-bas {
@@ -683,4 +693,6 @@
         display: none !important;
     }
 
+    
+    
 }
