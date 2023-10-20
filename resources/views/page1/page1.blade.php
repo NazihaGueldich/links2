@@ -540,7 +540,7 @@
         <div class="footer-column">
             <div class="left-content">
                 <h3 style="font-size: 16px;text-align: end;">튀니지에 대해서</h3>
-                <ul style="font-size: 16px;">
+                <ul style="font-size: 16px;text-align: end">
                     <li><a href="#">역사</a> |</li>
                     <li><a href="#">음식</a> |</li>
                     <li style="font-weight: bold"><a href="#">문화</a> |</li>
@@ -584,6 +584,7 @@
                 <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
             </div>
             <div>
+
                 <div class="footer-images2"
                     style="display: flex; justify-content: space-between; align-items: center;">
                     <span class="titr"
@@ -604,6 +605,7 @@
                 </div>
             </div>
         </div>
+        
     </footer>
 
 
