@@ -528,8 +528,26 @@ text-align: center;
 
 .prt8hov:hover .btncrd{
     color: #FD4343;
-
+.icon-search{
+    color: #FD4343;
 }
+}
+.input-search {
+    width: 47px;
+    height: 33px;
+    transition: all .5s !important;
+    box-shadow: none !important;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #FD4343;
+}
+
+.input-search:focus {
+    width: 147px;
+    border: 1px solid #FD4343 !important;
+    outline: none !important;
+}
+
 
 .prt8hov{
     max-width: 350px;

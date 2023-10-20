@@ -1,15 +1,40 @@
 @media all and (max-width: 767px) {
     .navbar-toggled .nav-item {
-        margin-left: 0%;
-        border-radius: 4%;
+        margin-left: 5%;
         text-align: center;
         background-color: white;
-        width: 125%;
-        padding-left: 6%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        width: 143%;
+        padding-left: 23%;
+        padding-top: 5px;
+        padding-bottom: 12px;
+    }
+    #myTopnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    #logimg {
+        margin-left: 22%;
+        margin-top: 11%;
+        display: block;
+        margin-right: 14px;
+        width: 39.75px;
+        height: 36.69px;
     }
 
+    #toggleButton {
+        margin-top: 2%;
+        position: fixed;
+        top: 0;
+        margin-right: 4%;
+        right: 0;
+        z-index: 999;
+    }
+    .navbar-nav {
+        margin: 17%;
+        height: 33px !important;
+    }
     .li1 {
         margin-top: 5px;
     }
@@ -399,7 +424,6 @@
     #btn4,
     #btn4-b {
         display: none;
-        /* Masquer les éléments avec les ID spécifiés pour les écrans étroits */
     }
 
     .text2 {
@@ -455,7 +479,7 @@
 
     }
 
-    
+
 
 
 
@@ -563,7 +587,6 @@
     .cradd {
         width: 107%;
         height: auto;
-        /* Ajustez la hauteur automatiquement en fonction du contenu */
     }
 
 
@@ -634,7 +657,7 @@
     .txt1,
     .txt2 {
         width: 100%;
-        /* font-size: 20px; */
+
 
     }
 
