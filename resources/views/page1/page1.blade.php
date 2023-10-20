@@ -1,7 +1,7 @@
 @include('page1.script')
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
         <div class="container justify-content-between">
             <div id="myTopnav">
                 <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
