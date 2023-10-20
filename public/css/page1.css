@@ -331,7 +331,7 @@ body {
 
     width: 571px;
     height: 560px;
-    border-radius: 33px;
+    border-radius: 20px;
     background-image: url("../images/image 4.png");
 }
 
@@ -380,13 +380,13 @@ body {
 .image-5 {
     width: 276.66px;
     height: 265.5px;
-    border-radius: 15px;
+    border-radius:20px;
 }
 
 .video-js {
     width: 740.84px;
     height: 384.89px;
-    border-radius: 36px;
+    border-radius:20px;
 }
 
 .text-sm {
@@ -428,7 +428,7 @@ body {
 .image1-2 {
     width: 1136px;
     height: 480px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-size: 100% 100%;
 }
 
@@ -438,7 +438,7 @@ body {
 .imageB4 {
     width: 269.11px;
     height: 207.02px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-size: 100% 100%;
 
 

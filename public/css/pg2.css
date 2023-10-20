@@ -650,9 +650,14 @@ footer h3 {
     display: flex;
     justify-content: space-between;
 }
-
+dl, ol, ul {
+    text-align: end;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 .imgft{
     width: 93px;
+    border-radius: 20px;
      height: 62px;
 }
 

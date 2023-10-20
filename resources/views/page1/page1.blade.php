@@ -230,155 +230,156 @@
     </div>
 
     <div class="border-top mx-auto" style="width: 45.49px; height:70px; color: #B3B3B3;"></div>
-<div class="sess3">
-    <div>
-        <span class="sess3h">튀니지 주요 도시</span>
-    </div>
+    <div class="sess3">
+        <div>
+            <span class="sess3h">튀니지 주요 도시</span>
+        </div>
 
 
-    <div class="container img-bas">
-        <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
+        <div class="container img-bas">
+            <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
         background-position: center center;"
-            class="image1-2" id="imageCov1">
+                class="image1-2" id="imageCov1">
 
-            <div class="d-flex flex-column align-items-start  ">
-                <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 튀니스</span>
-                    <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
-                        대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
-                        외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로
-                        꼭 방문해야할 명소입니다.도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
+                <div class="d-flex flex-column align-items-start  ">
+                    <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                        <span> 튀니스</span>
+                        <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
+                            대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
+                            외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로
+                            꼭 방문해야할 명소입니다.도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
-                    <button class="btn btn-outline-primary btn1-main2">더보기</button>
+                        <button class="btn btn-outline-primary btn1-main2">더보기</button>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-        <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
+            <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
         background-position: center center;display:none"
-            class="image1-2" id="imageCov2">
+                class="image1-2" id="imageCov2">
 
-            <div class="d-flex flex-column align-items-start  ">
-                <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 두가</span>
-                    <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 수천
-                        년의
-                        세월이
-                        담긴
-                        역사성과
-                        보존의 탁월함을 인정받아 1997년 유네스코 문화유산에 등재되었고요. 의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는
-                        인상적인
-                        유적들을
-                        확인할 수
-                        있습니다.</p>
+                <div class="d-flex flex-column align-items-start  ">
+                    <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                        <span> 두가</span>
+                        <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 수천
+                            년의
+                            세월이
+                            담긴
+                            역사성과
+                            보존의 탁월함을 인정받아 1997년 유네스코 문화유산에 등재되었고요. 의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는
+                            인상적인
+                            유적들을
+                            확인할 수
+                            있습니다.</p>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-        <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
+            <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
          background-position: center center;display:none"
-            class="image1-2" id="imageCov3">
+                class="image1-2" id="imageCov3">
 
-            <div class="d-flex flex-column align-items-start  ">
-                <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span>토주르</span>
-                    <p>토주르는 튀니지 서남부의 도시로, 베르베르인의 색채가 가장 강한 곳이에요. 리조트 단지와 노천 온천이 있어 여행자들이 쉬어가는 경우가 많아요. 야자수, 무화과나무,
-                        석류나무,
-                        바나나 숲이
-                        있는
-                        크고 아름다운 오아시스 도시로 매년 12월에는 오아시스 국제 페스티벌이 열리기도 합니다. 또한 아프리카 최대의 소금호수이자 스타워즈 촬영지로 유명한 쇼트 엘 제리드는
-                        유명
-                        관광지
-                        중
-                        하나예요.
-                        토주르 일대에서 생산되는 대추야자가 특산물이니 꼭 한 번 맛보시길 추천해 드려요.</p>
+                <div class="d-flex flex-column align-items-start  ">
+                    <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                        <span>토주르</span>
+                        <p>토주르는 튀니지 서남부의 도시로, 베르베르인의 색채가 가장 강한 곳이에요. 리조트 단지와 노천 온천이 있어 여행자들이 쉬어가는 경우가 많아요. 야자수, 무화과나무,
+                            석류나무,
+                            바나나 숲이
+                            있는
+                            크고 아름다운 오아시스 도시로 매년 12월에는 오아시스 국제 페스티벌이 열리기도 합니다. 또한 아프리카 최대의 소금호수이자 스타워즈 촬영지로 유명한 쇼트 엘 제리드는
+                            유명
+                            관광지
+                            중
+                            하나예요.
+                            토주르 일대에서 생산되는 대추야자가 특산물이니 꼭 한 번 맛보시길 추천해 드려요.</p>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-        <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
+            <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
         background-position: center center;display:none"
-            class="image1-2" id="imageCov4">
+                class="image1-2" id="imageCov4">
 
-            <div class="d-flex flex-column align-items-start">
-                <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
-                    <span> 수스</span>
-                    <p>지중해 해안에 있는 수스는 휴양도시로 유명해요. 해안을 가로지르는 긴 바닷가에 고급 리조트는 물론, 레스토랑, 호텔, 쇼핑센터 등이 잘 갖춰져 있어 튀니지 관광
-                        중심지 중
-                        하나로
-                        꼽혀요.
-                        특히
-                        수스의 메디나는 유네스코 세계 문화유산으로 지정됐을 정도로, 마그레브 이슬람 건축물의 전형적인 모습을 잘 보여주는 관광명소입니다. 수스 메디나에 방문하여 수스 고고학
-                        박물관과
-                        카스바, 대
-                        모스크
-                        등을 구경해 보세요.</p>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="mt-3 ml-2 scroll-container">
-            <div class="d-flex">
-                <div class="d-flex flex-column affmob">
-                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3"
-                        id="imageB1" onclick="changeImage1()">
-                    <div class="d-flex flex-column align-items-start">
-                        <span class="text-p " id='crd2h1'>튀니스</span>
-                        <div class=" d-flex justify-content-between">
-                            <button class="btn btn-outline-primary btn1-b text-center mr" id="btn1">수도</button>
-                            <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
-                                id="btn1-b">동쪽</button>
-                        </div>
-
+                <div class="d-flex flex-column align-items-start">
+                    <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                        <span> 수스</span>
+                        <p>지중해 해안에 있는 수스는 휴양도시로 유명해요. 해안을 가로지르는 긴 바닷가에 고급 리조트는 물론, 레스토랑, 호텔, 쇼핑센터 등이 잘 갖춰져 있어 튀니지 관광
+                            중심지 중
+                            하나로
+                            꼽혀요.
+                            특히
+                            수스의 메디나는 유네스코 세계 문화유산으로 지정됐을 정도로, 마그레브 이슬람 건축물의 전형적인 모습을 잘 보여주는 관광명소입니다. 수스 메디나에 방문하여 수스 고고학
+                            박물관과
+                            카스바, 대
+                            모스크
+                            등을 구경해 보세요.</p>
                     </div>
 
-                </div>
-
-                <div class="d-flex flex-column affmob">
-                    <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2"
-                        style="filter: grayscale(100%);" onclick="changeImage2()">
-                    <div class="d-flex flex-column align-items-start">
-                        <span class="text-p2" id='crd2h2'>두즈</span>
-                        <div class=" d-flex justify-content-between">
-                            <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
-                            <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
-                                id="btn2-b">남쪽</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column affmob">
-                    <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3"
-                        style="filter: grayscale(100%);" onclick="changeImage3()">
-                    <div class="d-flex flex-column align-items-start">
-                        <span class="text-p3" id='crd2h3'>카이루안</span>
-                        <div class="d-flex justify-content-between">
-                            <button class="btn btn-outline-primary   btn3 text-center" id="btn3">따뜻한</button>
-                            <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
-                                id="btn3-b">남쪽</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column affmob">
-                    <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4"
-                        style="filter: grayscale(100%);" onclick="changeImage4()">
-                    <div class="d-flex flex-column align-items-start">
-                        <span class="text-p4" id='crd2h4'>마트마타</span>
-                        <div class="d-flex justify-content-between">
-                            <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
-                            <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
-                                id="btn4-b">해변</button>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
 
+
+            <div class="mt-3 ml-2 scroll-container">
+                <div class="d-flex">
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1 mr-3"
+                            id="imageB1" onclick="changeImage1()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p " id='crd2h1'>튀니스</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn1-b text-center mr"
+                                    id="btn1">수도</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
+                                    id="btn1-b">동쪽</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2 mr-3" id="imageB2"
+                            style="filter: grayscale(100%);" onclick="changeImage2()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p2" id='crd2h2'>두즈</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3 mr-3" id="imageB3"
+                            style="filter: grayscale(100%);" onclick="changeImage3()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p3" id='crd2h3'>카이루안</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary   btn3 text-center" id="btn3">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
+                                    id="btn3-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/ooi.png') }}" class="imageB4 mr-3 " id="imageB4"
+                            style="filter: grayscale(100%);" onclick="changeImage4()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>마트마타</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
+                                    id="btn4-b">해변</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
     <div class="mt-5 border-top mx-auto" style="width: 45.49px; height:70px; color: #B3B3B3;"></div>
 
 
@@ -536,76 +537,69 @@
             </div>
         </div>
     </div>
-    <footer class="foot mt-5">
-        <div class="footer-column">
-            <div class="left-content">
-                <h3 style="font-size: 16px;text-align: end;">튀니지에 대해서</h3>
-                <ul style="font-size: 16px;text-align: end">
-                    <li><a href="#">역사</a> |</li>
-                    <li><a href="#">음식</a> |</li>
-                    <li style="font-weight: bold"><a href="#">문화</a> |</li>
-                    <li><a href="#">목적지</a> |</li>
-                    <li><a href="#">활동</a> |</li>
-                    <li><a href="#">경제</a> |</li>
-                    <li><a href="#">업적</a></li>
-                </ul>
-            </div>
-
-            <div class="right-content">
-                <h3 style="font-size: 32px;color: #347EFF"> 여행 정보</h3>
-                <ul style="
-                    text-align: end;
-                ">
-
-                    <li><a href="#">공항</a> |</li>
-                    <li><a href="#">호텔</a> |</li>
-                    <li><a href="#">통화</a> |</li>
-                    <li><a href="#">계절</a></li>
-                    <bR>
-                    <li class="ml-5"><a href="#">최고의 제안</a> |</li>
-                    <li style="font-weight: bold"><a href="#">우리가 도울 수 있는 방법</a> |</li>
-                    <li><a href="#">비상</a></li>
-                </ul>
-            </div>
-        </div>
+    <footer class=" mt-5" style="display: flex;
+    flex-direction: column;
+    align-items: center;">
+        <div class=" container row" >
 
 
-
-
-        <div class="footer-images" style="display: flex; justify-content: space-between; height: 230px;">
-            <div style="display: flex; justify-content: space-between;">
-                <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;">
-                <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;">
-                <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;">
-            </div>
-            <div style="display: flex; justify-content: space-between;">
-                <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;">
-                <img src="{{ asset('images/Group 63.png') }}" style="width: 93px; height: 62px;">
-                <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
-            </div>
-            <div>
-
-                <div class="footer-images2"
-                    style="display: flex; justify-content: space-between; align-items: center;">
-                    <span class="titr"
-                        style="color: #8C8C8C;font-size: 14px;
-                        width: 159px;">All rights
-                        reserved</span>
-                    <hr class="lignes ml-1 mr-3" style="margin: 0;">
-                    <div class="img12" style="display: flex;">
-                        <img src="{{ asset('images/Rectangle2.svg') }}">
-                        <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
-                        <img src="{{ asset('images/MicrosoftTeams-image_(1).png') }}" style="height: 24px;">
-                    </div>
+            <div class="col-lg-6 text-end" style="border-right:1px solid #B3B3B3">
+                <div class="col-lg-12">
+                    <h3 style="font-size: 16px;">튀니지에 대해서</h3>
+                    <ul>
+                        <li><a href="#">역사</a> |</li>
+                        <li><a href="#">음식</a> |</li>
+                        <li style="font-weight: bold"><a href="#">문화</a> |</li>
+                        <li><a href="#">목적지</a> |</li>
+                        <li><a href="#">활동</a> |</li>
+                        <li><a href="#">경제</a> |</li>
+                        <li><a href="#">업적</a></li>
+                    </ul>
                 </div>
-                <div class="bloc2 ml-5">
-                    <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                    <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                    <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+                <div class="col-lg-12">
+                    <h3 style="font-size: 32px;color: #347EFF"> 여행 정보</h3>
+                    <ul>
+                        <li><a href="#">공항</a> |</li>
+                        <li><a href="#">호텔</a> |</li>
+                        <li><a href="#">통화</a> |</li>
+                        <li><a href="#">계절</a></li>
+                        <bR>
+                        <li class="ml-5"><a href="#">최고의 제안</a> |</li>
+                        <li style="font-weight: bold"><a href="#">우리가 도울 수 있는 방법</a> |</li>
+                        <li><a href="#">비상</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="d-flex justify-content-evenly mb-4">
+                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;">
+                </div>
+                <div class="d-flex justify-content-evenly mb-4">
+                    <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group 63.png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
                 </div>
             </div>
+
         </div>
-        
+        <div class="w-100 mt-3 row" style="border-top:1px solid #B3B3B3">
+            <div class="w-100 text-center col-lg-4">
+                <span style="color: black;font-wight:bold">All rights reserved ©</span>
+            </div>
+            <div class="w-100 text-center col-lg-4" >
+                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+            </div>
+            <div class="w-100 text-center col-lg-4">
+                <img src="{{ asset('images/Rectangle2.svg') }}">
+                <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
+                <img src="{{ asset('images/MicrosoftTeams-image_(1).png') }}" style="height: 24px;">
+            </div>
+        </div>
     </footer>
 
 
