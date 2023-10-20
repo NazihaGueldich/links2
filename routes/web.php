@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('page1.page1');
 });
 
 Route::get('/1', function () {
@@ -22,4 +22,8 @@ Route::get('/1', function () {
 });
 Route::get('/2', function () {
     return view('page2.page2');
+});
+
+Route::get('/3', function () {
+    return view('page3.page3');
 });
