@@ -1,4 +1,8 @@
 @media all and (max-width: 767px) {
+    .gap-20 {
+        gap: 5px;
+    }
+
     .navbar-toggled .nav-item {
         text-align: center;
         background-color: white;
@@ -123,14 +127,15 @@
     .imageB2,
     .imageB3,
     .imageB4 {
-        width: 165.11px;
-        height: 97.02px;
-        border-radius: 25px;
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
         background-size: 100% 100%;
+        object-fit: cover;
     }
 
     .text-p {
-        font-size: 21px;
+        font-size: 1rem;
         font-weight: bold;
         color: #347EFF;
     }
@@ -138,7 +143,7 @@
     .text-p2,
     .text-p3,
     .text-p4 {
-        font-size: 21px;
+        font-size: 1rem;
         font-weight: bold;
         color: #000000;
     }
@@ -184,10 +189,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-    }
-
-    .text-center {
-        margin-left: 50%;
     }
 
     .btn.btn-outline-primary.btn1-main {
@@ -333,17 +334,8 @@
 
 
     .text-3 p {
-        margin-top: 0%;
-        width: 330px;
-        font-family: noto;
-        font-weight: 400;
-        color: rgb(250, 250, 250);
-        margin-left: -5%;
+        width: 100%;
         font-size: 10px;
-        display: block;
-        word-wrap: break-word;
-        word-break: break-all;
-
     }
 
     .text-3 span {
@@ -354,8 +346,12 @@
     }
 
     .image1-2 {
-        height: 204px;
+        height: 290px;
         width: 100%;
+    }
+
+    .links_box-shadox::before {
+        opacity: 1;
     }
 
 
@@ -463,7 +459,14 @@
 
     .scroll-container>div {
         display: inline-block;
-        margin-right: 10px;
+    }
+
+    .sess3 > .container  {
+        padding: 0;
+    }
+
+    .sess3 > .container .mt-4 {
+        margin-top: .5rem !important;
     }
 
     .text4 {
@@ -675,7 +678,8 @@
 @media (max-width: 769px) {
     .card2 {
         overflow: hidden;
-        width: 356px;
+        width: 100%;
+        border-radius: 15px;
     }
 
     .cardul {
@@ -689,9 +693,8 @@
     }
 
     .cardul li {
-        flex: 0 0 auto;
-        max-width: 30%;
-        margin-left: -31px;
+        flex: 0 0 25%;
+        height: 50px;
     }
 
     .tit1actv {
@@ -709,7 +712,7 @@
     }
 
     .txtactv {
-        margin-top: -1% !important;
+        margin: 15px 25px !important;
         display: block !important;
         text-align: start !important;
         font-size: 9px !important;
@@ -726,10 +729,14 @@
 
     .imgactv {
         display: block;
-        width: 78%;
-        margin: 13px 43px !important;
+        width: 90%;
+        margin: 5px auto!important;
         object-fit: cover;
-        border-radius: 20px;
+        border-radius: 10px;
+    }
+
+    .show-paragraph h5 {
+        width: auto;
     }
 
     .tit2inactv {
@@ -763,5 +770,9 @@
     .sess3h {
         font-size: 30px;
         font-weight: bold;
+    }
+
+    footer {
+       padding: 15px;
     }
 }
