@@ -95,10 +95,8 @@ function changeImage1() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
-    document.getElementById('imageB1').style.filter = 'none';
-    document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB4').style.filter = 'grayscale(100%)';
+    $('.affmob img').css('border', 'none');
+    document.getElementById('imageB1').style.border = '2px solid #347eff';
     document.getElementById('btn1').style.backgroundColor = '#347EFF';
     document.getElementById('btn1-b').style.backgroundColor = '#347EFF';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -119,10 +117,8 @@ function changeImage2() {
     document.getElementById('imageCov2').style.display = "block";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
-    document.getElementById('imageB2').style.filter = 'none';
-    document.getElementById('imageB1').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB4').style.filter = 'grayscale(100%)';
+    $('.affmob img').css('border', 'none');
+    document.getElementById('imageB2').style.border = '2px solid #347eff';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#347EFF';
@@ -144,10 +140,8 @@ function changeImage3() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "block";
     document.getElementById('imageCov4').style.display = "none";
-    document.getElementById('imageB3').style.filter = 'none';
-    document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB1').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB4').style.filter = 'grayscale(100%)';
+    $('.affmob img').css('border', 'none');
+    document.getElementById('imageB3').style.border = '2px solid #347eff';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -168,10 +162,8 @@ function changeImage4() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "block";
-    document.getElementById('imageB4').style.filter = 'none';
-    document.getElementById('imageB2').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB3').style.filter = 'grayscale(100%)';
-    document.getElementById('imageB1').style.filter = 'grayscale(100%)';
+    $('.affmob img').css('border', 'none');
+    document.getElementById('imageB4').style.border = '2px solid #347eff';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -358,7 +350,7 @@ function changContai(indx) {
         if (p1.classList.contains('txtactv')) {
             p1.classList.replace('txtactv', 'txtinactv');
         }
-        
+
         if (img1.classList.contains('imgactv')) {
             img1.classList.replace('imgactv', 'imginactv');
         }
