@@ -11,6 +11,8 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
                 </div>
+                <a class="p-6 text-gray-900 dark:text-gray-100" href="{{ route('blogs.index') }}">
+                    Blogs</a>
             </div>
         </div>
     </div>

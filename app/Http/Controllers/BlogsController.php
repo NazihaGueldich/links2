@@ -7,12 +7,10 @@ use Illuminate\Http\Request;
 
 class BlogsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        //
+        $blogs=Blogs::all();
+        return view("dashboard.blogs",compact('blogs'));
     }
 
     /**
