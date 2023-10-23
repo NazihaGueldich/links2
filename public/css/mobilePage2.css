@@ -4,6 +4,22 @@
         overflow-x: hidden !important;
     }
 
+    #section-1 .links_box{
+        height: 400px;
+    }
+
+    section .slick-slide{
+        display: block;
+    }
+
+    section .block-cards{
+        display: none;
+    }
+
+    body section {
+        padding: 50px 0;
+    }
+
     .navbar {
         height: 59px;
         padding: 0 !important;
@@ -280,9 +296,7 @@
     }
 
     .col-lg-6.d-flex {
-        margin-top: -86%;
-        margin-left: 90%;
-        flex: 0 0 auto;
+        margin-top: 15px;
     }
 
     #pprt6 {

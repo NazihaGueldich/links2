@@ -1,4 +1,12 @@
 
+
+$('section .slick-slide').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+              
 var indx = 0;
 
 function srllimg(x) {
