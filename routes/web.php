@@ -31,6 +31,10 @@ Route::get('/3', function () {
     return view('page3.page3');
 });
 
+Route::get('/blog', function () {
+    return view('blogs.blogs');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
