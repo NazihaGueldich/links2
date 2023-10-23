@@ -1,6 +1,11 @@
 :root {
     --main-color: #347eff;
 }
+
+main{
+    margin-top:60px ;
+}
+
 body.tunisiatrip {
     font-family: 'noto', sans-serif;
 }
@@ -406,7 +411,7 @@ body {
     width: 100%;
     height: 560px;
     border-radius: 20px;
-    background-image: url("../images/image 4.png");
+    background-image: url("../images/2.png");
     background-size: cover;
 }
 
@@ -466,6 +471,7 @@ body {
 .video-js {
     height: auto;
     width: 100%;
+    border-radius: 20px;
 }
 
 .text-sm {
@@ -1214,8 +1220,8 @@ body.tunisiatrip .card5 {
 }
 
 .imgicns {
-    max-width: 60px;
-    height: 60px;
+    max-width: 70px;
+    height: 70px;
     opacity: 1;
 }
 

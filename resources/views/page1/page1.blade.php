@@ -43,20 +43,19 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('images/image (2).png') }}" class="img1">
+                    <img src="{{ asset('images/1.png') }}" class="img1">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="img1">
+                    <img src="{{ asset('images/2.png') }}" class="img1">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('images/sergey-pesterev-_VqyrvQi6do-unsplash.jpg') }}" class="img1">
+                    <img src="{{ asset('images/3.png') }}" class="img1">
                 </div>
                 <div class="align-items-center d-flex h-100 justify-content-center position-absolute w-100">
                     <div class="text-center">
                         <div class="d-flex flex-column align-items-center">
                             <span class="text1">
-                                튀니지
-                                <br>파란 하늘 푸른 바다
+                                튀니지 파란 하늘 푸른 바다
                             </span>
 
                             <button type="button" class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
@@ -80,32 +79,32 @@
     <div class="container mt-5 icons-none">
         <div class="flex-container pt-1">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
-                <img id='img1' src="{{ asset('images/atlantis_button_1_state_0.svg') }}" class="imgicns">
+                <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                 <p id="p1" class="txticns">호텔</p>
             </div>
 
             <div class=" ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img id='img2' src="{{ asset('images/atlantis_button_2_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
                 <p id="p2" class="txticns">항공편</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img id='img3' src="{{ asset('images/atlantis_button_3_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
                 <p id="p3" class="txticns">축제</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img id='img4' src="{{ asset('images/atlantis_button_6_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
                 <p id="p4" class="txticns">활동</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img id='img5' src="{{ asset('images/atlantis_button_5_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
                 <p id="p5" class="txticns">자동차 서비스</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img id='img6' src="{{ asset('images/atlantis_button_4_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
                 <p id="p6" class="txticns">크루즈</p>
             </div>
             <div class="ligne1 m-4 lg">|</div>
-            <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img id='img7' src="{{ asset('images/atlantis_button_7_state_0.svg') }}" class="imgicns">
+            <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
                 <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
@@ -267,10 +266,10 @@
                     <div class="links_position-bottom">
                         <div class="text-3 order-last">
                             <span> 튀니스</span>
-                            <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
-                                대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
-                                외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로
-                                꼭 방문해야할 명소입니다.도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
+                            <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요. 
+                                대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요. 
+                                외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다. 
+                                도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
                             <button class="btn btn-outline-primary btn1-main2">더보기</button>
                         </div>
@@ -283,16 +282,9 @@
                     <div class="links_position-bottom  ">
                         <div class="text-3 order-last" style="margin-top: 18% !important ">
                             <span> 두가</span>
-                            <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 수천
-                                년의
-                                세월이
-                                담긴
-                                역사성과
-                                보존의 탁월함을 인정받아 1997년 유네스코 문화유산에 등재되었고요. 의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는
-                                인상적인
-                                유적들을
-                                확인할 수
-                                있습니다.</p>
+                            <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 
+                                수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요. 
+                                의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
                         </div>
 
                     </div>
@@ -302,17 +294,12 @@
 
                     <div class="links_position-bottom  ">
                         <div class="text-3 order-last" style="margin-top: 18% !important ">
-                            <span>토주르</span>
-                            <p>토주르는 튀니지 서남부의 도시로, 베르베르인의 색채가 가장 강한 곳이에요. 리조트 단지와 노천 온천이 있어 여행자들이 쉬어가는 경우가 많아요. 야자수, 무화과나무,
-                                석류나무,
-                                바나나 숲이
-                                있는
-                                크고 아름다운 오아시스 도시로 매년 12월에는 오아시스 국제 페스티벌이 열리기도 합니다. 또한 아프리카 최대의 소금호수이자 스타워즈 촬영지로 유명한 쇼트 엘 제리드는
-                                유명
-                                관광지
-                                중
-                                하나예요.
-                                토주르 일대에서 생산되는 대추야자가 특산물이니 꼭 한 번 맛보시길 추천해 드려요.</p>
+                            <span>카이로우안</span>
+                            <p>튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요. 
+                                메카, 메디나, 예루살렘에 이어 이슬람교에서 네 번째 성지로 매우 중요한 지위를 차지합니다. 
+                                카이루안 대모스크는 북아프리카 이슬람 사원 중 가장 오래되었으며 튀니지에서 가장 큰 사원이자 건축사적으로 중요한 건축물이에요. 
+                                모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요. 
+                                카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
                         </div>
 
                     </div>
@@ -322,17 +309,11 @@
 
                     <div class="links_position-bottom">
                         <div class="text-3 order-last" style="margin-top: 18% !important ">
-                            <span> 수스</span>
-                            <p>지중해 해안에 있는 수스는 휴양도시로 유명해요. 해안을 가로지르는 긴 바닷가에 고급 리조트는 물론, 레스토랑, 호텔, 쇼핑센터 등이 잘 갖춰져 있어 튀니지 관광
-                                중심지 중
-                                하나로
-                                꼽혀요.
-                                특히
-                                수스의 메디나는 유네스코 세계 문화유산으로 지정됐을 정도로, 마그레브 이슬람 건축물의 전형적인 모습을 잘 보여주는 관광명소입니다. 수스 메디나에 방문하여 수스 고고학
-                                박물관과
-                                카스바, 대
-                                모스크
-                                등을 구경해 보세요.</p>
+                            <span>마트마타</span>
+                            <p>과거 베르베르인들이 과거 침략으로부터 자신들을 보호하기 위해 건설했던 세계에서 가장 큰 지하마을이에요. 
+                                돌을 깎아 만든 독특한 구조의 동굴가옥은 태양을 차단하고 온도를 조절하여 일년 내내 기온이 상대적으로 시원하게 유지돼요. 
+                                현재 많은 주택들은 호텔로 개조되어 베르베르인들의 생활 방식을 경험하기 위해 찾는 관광객들을 맞이하고 있어요. 
+                                특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
                         </div>
 
                     </div>

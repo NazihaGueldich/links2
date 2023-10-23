@@ -12,8 +12,11 @@ body.tunisiatrip a {
     text-decoration: none;
 }
 
-.row {
+main {
+    margin-top: 100px;
+}
 
+.row {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -115,7 +118,6 @@ body.tunisiatrip .card-body {
 }
 
 .titre-2 {
-    font-family: 'noto';
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -133,9 +135,7 @@ body.tunisiatrip .card-body {
     text-align: center;
 }
 #section-5 .parghraphe{
-    font-family: 'noto';
     font-size: 20px;
-
     text-align: left;
 }
 #section-8 .parghraphe {
@@ -177,7 +177,7 @@ section .slick-slide{
     display: none;
 }
 section .block-cards{
-    display: block;
+    display: flex;
 }
 
 #section-8 .links_box {
@@ -402,6 +402,8 @@ body {
     display: block;
     width: 100%;
     border-radius: 20px;
+    height: 460px;
+    object-fit: cover;
 }
 
 
@@ -717,15 +719,17 @@ body {
 
 /* part 8 */
 #pprt8 {
-    width: 765px;
-    height: 125px;
-    font-family: 'noto';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
     text-align: center;
-    color: #8C8C8C;
+}
+
+body #section-10 .slick-block-section-10{
+    display: flex;
+}
+
+body #section-10 .slick-section-10{
+    display: none;
 }
 
 .img6 {
