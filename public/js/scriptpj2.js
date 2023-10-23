@@ -4,15 +4,13 @@
 $('section .slick-slide').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true
+    slidesToScroll: 1
   });
 
   $('.slick-section-10').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true
+    slidesToScroll: 1
   });
               
 var indx = 0;

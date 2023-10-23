@@ -19,7 +19,7 @@
                         <span class="nav-link" href="#" id="tunis-time"></span>
                     </li>
                     <li class="nav-item active d-flex align-items-center txtnav">
-                        <a class="nav-link" href="#" id="tun-time">튀니지에 대해서</a>
+                        <a class="nav-link" href="/2" id="tun-time">튀니지에 대해서</a>
                     </li>
                     <li class="nav-item active d-flex align-items-center  txtnav">
                         <a class="nav-link" href="#" id="tun-time">보다 더 ></a>

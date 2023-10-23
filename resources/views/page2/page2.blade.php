@@ -267,7 +267,7 @@
                             style="object-fit: contain;">
                     </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-5 ">
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 ">
                         <div>
                             <h4 id='h4prt6'>이슬람</h4>
                             <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
