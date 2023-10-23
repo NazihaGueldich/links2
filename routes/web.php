@@ -17,7 +17,7 @@ use App\Http\Controllers\BlogsController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('page1.page1');
 });
 
 Route::get('/1', function () {
