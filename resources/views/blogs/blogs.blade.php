@@ -29,17 +29,17 @@
         </section>
         <section id="section-3">
             <div class="row pt-5 pb-3">
-                <div class="col-sm-6 pl-5">
+                <div class="col-lg-6 pl-lg-5">
                     <span>
                         Want to stay up to date with our content? <strong>Subscribe Now!</strong>
                     </span>
                 </div>
-                <div class="col-sm-6 form-group pb-3 pr-5 section-3-pat2">
+                <div class="col-lg-6 form-group pb-3 pr-lg-5 section-3-pat2">
                     <div class="row pb-3">
-                        <input class="col-sm-9" type="email" class="form-control" aria-describedby="emailHelp"
+                        <input class="col-lg-9" type="email" class="form-control" aria-describedby="emailHelp"
                             placeholder="Enter your email">
 
-                        <button class="btn radius-20 btn-color col-sm-3 btn-subscrib">Suscribe<img
+                        <button class="btn radius-20 btn-color col-lg-3 btn-subscrib">Suscribe<img
                                 src="{{ asset('images/Arrow Right whit.png') }}"></button>
                     </div>
                     <div class="lign-in-sectuion-3"></div>
@@ -69,7 +69,7 @@
 
         <section id="section-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="partie-1 radius-20 p-5">
                         <h1>A catchy title for
                             another video</h1>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="partie-2 radius-20 p-5">
                         <h1>A catchy title for
                             another video</h1>
