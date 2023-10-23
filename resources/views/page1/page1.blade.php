@@ -146,7 +146,7 @@
                         </div>
                         <div class="w-50">
                             <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
-                                <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                                <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                                     <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
                                     <p class="p-2 parag-img" id='crdp3'>튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아,
                                         로마, 오스만제국을 거쳐 프랑스의
@@ -160,7 +160,7 @@
                     <div class="d-flex gap-30">
                         <div class="w-50">
                             <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
-                                <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                                <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                                     <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
                                     <p class="p-2 parag-img" id='crdp4'>시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요.
                                         과거와 현대가 공존하고 유럽과
@@ -170,7 +170,7 @@
                         </div>
                         <div class="w-50">
                             <div class="image-5 links_box-shadox" onclick="handleClick(5)" id="image-5">
-                                <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                                <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                                     <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기 목적지</button>
                                     <p class="p-2 parag-img" id='crdp5'>사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한 액티비티를 즐길
                                         수 있어요.</p>
@@ -185,15 +185,15 @@
             <div class="row slick-slide1">
                 <div class="col-md-4" >
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
-                        <div class="d-flex flex-column align-items-start">
+                        <div class="d-flex flex-column align-items-center">
                             <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 my-1" style="display: flex;gap: 5px;">
+                <div class="col-md-4 my-2" style="display: flex;gap: 10px;">
                     <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
-                        <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                        <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                             <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
                             <p class="p-2 parag-img" id='crdp4'>시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가 있어요.
                                 과거와 현대가 공존하고 유럽과
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <div class="image-5 links_box-shadox" onclick="handleClick(5)" id="image-5">
-                        <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                        <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                             <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기 목적지</button>
                             <p class="p-2 parag-img" id='crdp5'>사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한 액티비티를 즐길
                                 수 있어요.</p>
@@ -209,10 +209,10 @@
                     </div>
                 </div>
 
-                <div class="col-md-4" style="display: flex;gap: 5px;">
+                <div class="col-md-4" style="display: flex;gap: 10px;">
 
                     <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
-                        <div class="align-items-center d-flex flex-column h-100 justify-content-between inner-wrap-block-image">
+                        <div class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
                             <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나 역사지구</button>
                             <p class="p-2 parag-img" id='crdp3'>튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대 페니키아,
                                 로마, 오스만제국을 거쳐 프랑스의
@@ -236,27 +236,26 @@
 
 
 
-    <div class="lignes"></div>
+{{--    <div class="lignes"></div>--}}
 
-    <section id="section-3">
+    <section id="section-3" class="background-section">
         <div class="container sess3mobvid text-center">
             <div class="text2">
                 <h2 class="main-title">홍보 영상</h2>
                 <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
-            <video id="my-video" class="video-js" controls preload="auto" width="740" height="385" poster="images/sahrouch.png">
-                <source src="images/vd.mp4" type="video/mp4" />
-                <p class="vjs-no-js">
-                    To view this video please enable JavaScript, and consider upgrading to a web browser that
-                    supports HTML5 video
-                </p>
-            </video>
+            <div class="wrap-video">
+                <video id="my-video" class="video-js" controls preload="auto" poster="images/sahrouch.png">
+                    <source src="images/vd.mp4" type="video/mp4" />
+                </video>
+            </div>
+
 
         </div>
 
     </section>
 
-    <div class="lignes"></div>
+{{--    <div class="lignes"></div>--}}
 
     <section id="section-4">
         <div class="container sess3">
@@ -279,10 +278,10 @@
                     </div>
                 </div>
                 <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-        background-position: center center;display:none" class="image1-2" id="imageCov2">
+        background-position: center center;display:none" class="image1-2 links_box-shadox" id="imageCov2">
 
-                    <div class="d-flex flex-column align-items-start  ">
-                        <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                    <div class="links_position-bottom  ">
+                        <div class="text-3 order-last" style="margin-top: 18% !important ">
                             <span> 두가</span>
                             <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다. 수천
                                 년의
@@ -299,10 +298,10 @@
                     </div>
                 </div>
                 <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
-         background-position: center center;display:none" class="image1-2" id="imageCov3">
+         background-position: center center;display:none" class="image1-2 links_box-shadox" id="imageCov3">
 
-                    <div class="d-flex flex-column align-items-start  ">
-                        <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                    <div class="links_position-bottom  ">
+                        <div class="text-3 order-last" style="margin-top: 18% !important ">
                             <span>토주르</span>
                             <p>토주르는 튀니지 서남부의 도시로, 베르베르인의 색채가 가장 강한 곳이에요. 리조트 단지와 노천 온천이 있어 여행자들이 쉬어가는 경우가 많아요. 야자수, 무화과나무,
                                 석류나무,
@@ -319,10 +318,10 @@
                     </div>
                 </div>
                 <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-        background-position: center center;display:none" class="image1-2" id="imageCov4">
+        background-position: center center;display:none" class="image1-2 links_box-shadox" id="imageCov4">
 
-                    <div class="d-flex flex-column align-items-start">
-                        <div class="text-3 mt-5 ml-5 order-last" style="margin-top: 18% !important ">
+                    <div class="links_position-bottom">
+                        <div class="text-3 order-last" style="margin-top: 18% !important ">
                             <span> 수스</span>
                             <p>지중해 해안에 있는 수스는 휴양도시로 유명해요. 해안을 가로지르는 긴 바닷가에 고급 리조트는 물론, 레스토랑, 호텔, 쇼핑센터 등이 잘 갖춰져 있어 튀니지 관광
                                 중심지 중
@@ -356,7 +355,7 @@
                         </div>
 
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2" style="filter: grayscale(100%);" onclick="changeImage2()">
+                            <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2" onclick="changeImage2()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p2" id='crd2h2'>두즈</span>
                                 <div class=" d-flex justify-content-between">
@@ -367,7 +366,7 @@
                         </div>
 
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3" id="imageB3" style="filter: grayscale(100%);" onclick="changeImage3()">
+                            <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3" id="imageB3" onclick="changeImage3()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p3" id='crd2h3'>카이루안</span>
                                 <div class="d-flex justify-content-between">
@@ -378,7 +377,7 @@
                         </div>
 
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/ooi.png') }}" class="imageB4" id="imageB4" style="filter: grayscale(100%);" onclick="changeImage4()">
+                            <img src="{{ asset('images/ooi.png') }}" class="imageB4" id="imageB4"  onclick="changeImage4()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p4" id='crd2h4'>마트마타</span>
                                 <div class="d-flex justify-content-between">
@@ -394,15 +393,15 @@
         </div>
     </section>
 
-    <div class="lignes"></div>
+{{--    <div class="lignes"></div>--}}
 
     <section id="section-5">
         <div class="container">
             <h2 class="main-title text-center">튀니지 주요 도시</h2>
             <div class="container mt-5 cm">
                 <div class="row justify-content-center">
-                    <div>
-                        <div class="card mx-auto justify-content-center card5" style="border: 3px solid transparent;">
+                    <div class="wrap-avis">
+                        <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center BG">
                                     <img id="imgwj1" src="{{ asset('images/BG (3).png') }}">
@@ -419,7 +418,7 @@
                             </div>
                         </div>
                         <div class="vertical-line"></div>
-                        <div class="card mx-auto justify-content-center card4" style="border: 3px solid transparent;">
+                        <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
                                     <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" style="width: 91.88px; height: 91.88px;">
@@ -438,7 +437,7 @@
                             </div>
                         </div>
                         <div class="vertical-line"></div>
-                        <div class="card mx-auto justify-content-center card3" style="border: 3px solid transparent;">
+                        <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
                                     <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" style="width: 91.88px; height: 91.88px;">
@@ -463,7 +462,7 @@
     </section>
 
     <section id="section-6">
-        <div class="container mt-5  " style="display: flex; align-items: center; justify-content: space-around;">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-around;">
             <div class="divundf">
                 <span class="textbas">여기에 더 많은 의견</span>
                 <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}">
@@ -473,7 +472,7 @@
         </div>
     </section>
 
-    <section id="section-7">
+    <section id="section-7" class="background-section">
         <div class="container mt-5 bb">
             <div class="row">
                 <div class="col-md-8 offset-lg-2">
@@ -485,7 +484,7 @@
                             <input type="text" class="txt1 px-3 frminptstyl" placeholder="이메일">
                         </div>
                         <div class="form-group ">
-                            <textarea type="text" class="txt2 mt-1 px-3 frminptstyl" placeholder="문의사항 "></textarea>
+                            <textarea type="text" class="txt2 mt-1 px-3 pt-2 frminptstyl" placeholder="문의사항 "></textarea>
                         </div>
                         <div class="form-group text-right mt-4">
                             <button type="submit" class="btn btn-outline-primary button4 m-0">제출</button>
@@ -498,7 +497,7 @@
     </section>
 
     <section id="section-8">
-        <div class="container my-5 mb-5">
+        <div class="container">
             <div class="card2 pt-3">
                 <div class="op">
                     <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
@@ -557,7 +556,7 @@
         </div>
     </section>
 
-    <footer class=" mt-5" style="display: flex;flex-direction: column;align-items: center;">
+    <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
         <div class=" container">
             <div class="row my-5">
                 <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
@@ -605,18 +604,18 @@
 
         <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
             <div class="row">
-                <div class="col-lg-4 text-center text-lg-left w-100">
-                    <span>All rights reserved ©</span>
-                </div>
-                <div class="w-100 text-center col-lg-4">
-                    <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                    <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                    <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
-                </div>
-                <div class="col-lg-4 text-center text-lg-right w-100">
+                <div class="text-left col-lg-4">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
                     <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
                     <img src="{{ asset('images/MicrosoftTeams-image_(1).png') }}" style="height: 24px;">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <span>All rights reserved ©</span>
+                </div>
+                <div class="col-lg-4 text-right">
+                    <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                    <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                    <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
                 </div>
             </div>
         </div>
@@ -624,11 +623,12 @@
 
 
 
-    <script src="{{asset('js/slick.js')}}" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{asset('js/slick.js')}}" type="text/javascript" charset="utf-8"></script>
 
     <script src="{{ asset('js/ScriptPage1.js') }}"></script>
     <script type="text/javascript">
@@ -641,9 +641,9 @@
         });
     </script>
     <script>
-        $(document).ready(function() {
-            $("#toggleButton").click(function() {
-                $(".custom-navbar").toggleClass("toggled");
+        jQuery(document).ready(function() {
+            jQuery("#toggleButton").click(function() {
+                jQuery(".custom-navbar").toggleClass("toggled");
             });
         });
     </script>
@@ -652,8 +652,17 @@
             var body = document.querySelector('body');
             body.classList.toggle('navbar-toggled');
         }
+        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
+            if ( $(this).find('.parag-img').css('opacity', '0') ) {
+                $(this).find('.parag-img').css('opacity', '1')
+                console.log("h1")
+            } else {
+                $(this).find('.parag-img').css('opacity', '0');
+                console.log("h2")
+            }
+        })
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 </body>
 
