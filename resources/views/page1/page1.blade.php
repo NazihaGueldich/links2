@@ -1,4 +1,16 @@
 @include('page1.script')
+<style>
+    .slick-slide {
+        position: relative;
+    }
+
+    .text1 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
 
 <body id="index" class="tunisiatrip">
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
@@ -45,26 +57,47 @@
             <div class="slick-slider">
                 <div class="slick-slide">
                     <img src="{{ asset('images/1.png') }}" class="img1">
+                    <div class="overlay-content">
+                        <div class="text-center">
+                            <span class="text1">hi</span>
+                            <button type="button"
+                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="slick-slide">
                     <img src="{{ asset('images/2.png') }}" class="img1">
+                    <div class="overlay-content">
+                        <div class="text-center">
+                            <span class="text1">hello</span>
+                            <button type="button"
+                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="slick-slide">
                     <img src="{{ asset('images/3.png') }}" class="img1">
+                    <div class="overlay-content">
+                        <div class="text-center">
+                            <span class="text1">sallem</span>
+                            <button type="button"
+                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="overlay-content">
-                <div class="text-center">
-                    <div class="d-flex flex-column align-items-center">
-                        <span class="text1">
-                            튀니지 파란 하늘 푸른 바다
-                        </span>
-                        <button type="button" class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
+                <div class="slick-slide">
+                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="img1">
+                    <div class="overlay-content">
+                        <div class="text-center">
+                            <span class="text1">kkkk</span>
+                            <button type="button"
+                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </main>
 
 
@@ -672,17 +705,19 @@
             }
         })
     </script>
-<script>
-    $('#mySlickCarousel .slick-slider').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true, 
-        autoplay: true,
-  autoplaySpeed: 2000,
-        appendArrows: $('#mySlickCarousel'),
-    });
-</script>
+    <script>
+        $('#mySlickCarousel .slick-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: null,
+            nextArrow: null,
+            appendArrows: $('#mySlickCarousel'),
+        });
+    </script>
 
 
 </body>

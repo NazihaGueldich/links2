@@ -167,7 +167,10 @@
     #h4prt6{
         font-size: 1.3rem;
     }
-
+.img6{
+    padding-left: 5%;
+    width: 97%;
+}
     .img2 {
         margin-top: 40px;
         display: block;
@@ -411,10 +414,7 @@
 
 
 
-    .crdd {
-        overflow-x: scroll;
 
-    }
 
     .prt8hov {
         min-width: 270px;

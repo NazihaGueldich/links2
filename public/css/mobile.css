@@ -25,7 +25,7 @@
 
     main {
         height: 300px;
-        margin-top: 0;
+        margin-top: 60px;
     }
 
     body .main-title {
@@ -221,12 +221,11 @@
 
 
     .text1 {
-        text-align: end;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: noto;
+
+        font-size: 1.55rem;
+
+
         color: #ffffff;
-        margin-top: 50%;
     }
 
     .navbar-expand-lg>.container,

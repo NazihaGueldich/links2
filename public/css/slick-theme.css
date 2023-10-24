@@ -5,11 +5,11 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 .slick-prev {
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
 .slick-next{
-    margin-right: 4%;
+    margin-right:5%;
 }
 @font-face
 {
@@ -72,7 +72,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1;
 
     opacity: .75;
