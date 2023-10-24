@@ -210,7 +210,7 @@
 
 
             <div class="row slick-slide1">
-                <div class="col-md-4">
+                <div class="col-md-4 my-4">
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
                         <div class="d-flex flex-column align-items-center">
                             <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
@@ -218,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 my-2" style="display: flex;gap: 10px;">
+                <div class="col-md-4 my-2" >
                     <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
                         <div
                             class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
@@ -238,7 +238,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4" style="display: flex;gap: 10px;">
+                <div class="col-md-4 my-2" >
 
                     <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
                         <div
