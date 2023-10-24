@@ -24,6 +24,28 @@ body {
     align-items: center;
     justify-content: center;
 }
+#section-7 {
+    text-align: center;
+    margin: 40px 0;
+    padding-left: 50%;
+
+}
+section {
+    margin-bottom: 20px;
+}
+#section-7 .pagination .page-link {
+    border: 0.5px solid transparent;
+    color: #5D5A88;
+}
+
+#section-7 .pagination .page-item.active .page-link,
+#section-7 .pagination .page-item:not(.disabled):not(.active) .page-link:hover {
+    background-color: #5D5A88; 
+    color: white; 
+    border-radius: 5px; 
+    border: 1px solid #5D5A88; 
+}
+
 
 .text-in-img {
     position: absolute;
