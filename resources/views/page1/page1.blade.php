@@ -59,7 +59,7 @@
                     <img src="{{ asset('images/1.png') }}" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">hi</span>
+                            <span class="text1">사하라 사막의 시작</span>
                             <button type="button"
                                 class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
@@ -69,7 +69,7 @@
                     <img src="{{ asset('images/2.png') }}" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">hello</span>
+                            <span class="text1">살아 숨쉬는 고대 역사</span>
                             <button type="button"
                                 class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
@@ -79,7 +79,7 @@
                     <img src="{{ asset('images/3.png') }}" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">sallem</span>
+                            <span class="text1">스타워즈의 발자취를 찾아</span>
                             <button type="button"
                                 class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
@@ -89,7 +89,7 @@
                     <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">kkkk</span>
+                            <span class="text1">파란 하늘, 푸른 바다</span>
                             <button type="button"
                                 class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
