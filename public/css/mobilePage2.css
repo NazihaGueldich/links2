@@ -441,4 +441,8 @@
     .pprt4 {
         display: none;
     }
+
+    .inx {
+        width: 50%;
+    }
 }

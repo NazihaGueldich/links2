@@ -277,8 +277,22 @@
 
 
 
-                        <div class="d-flex justify-content-between inx" onclick="changelement()">
-                            <img id='imgindx' src="{{ asset('images/down.svg') }}">
+                        <div class="d-flex justify-content-between inx">
+                            <div class="d-flex justify-content-center sccgrp">
+                                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev" onclick="changelement(-1)">
+                                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <span id='crcl11'></span>
+                                <span id='crcl22'></span>
+                                <span id='crcl33'></span>
+                                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next" onclick="changelement(1)">
+                                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
 
                             <p id='txtindx' class="mb-0">유대교</p>
                         </div>

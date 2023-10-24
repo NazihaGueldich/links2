@@ -34,7 +34,6 @@ function srllimg(x) {
     } else if (x == 1 && indx < 2) {
         indx++;
     }
-    console.log(indx);
 
     if (indx === 0) {
         crcl1.style.backgroundImage = "url(../images/point.svg)";
@@ -98,12 +97,13 @@ function changtext(indx) {
 
 var elm = 0;
 
-function changelement() {
-    if (elm < 2) {
+function changelement(x) {
+    if (x == -1 && elm > 0) {
+        elm--;
+    } else if (x == 1 && elm < 2) {
         elm++;
-    } else {
-        elm = 0;
     }
+
     var img = ["../images/img1.png ",
         "../images/img2.png",
         "../images/img3.png"
@@ -116,6 +116,23 @@ function changelement() {
     ];
     var txtindx = ['유대교', '기독교', '이슬람'];
 
+    var crcl11=document.getElementById('crcl11');
+    var crcl22=document.getElementById('crcl22');
+    var crcl33=document.getElementById('crcl33');
+
+    if (elm === 0) {
+        crcl11.style.backgroundImage = "url(../images/point.svg)";
+        crcl22.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl33.style.backgroundImage = "url(../images/cercle.svg)";
+    } else if (elm === 1) {
+        crcl11.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl22.style.backgroundImage = "url(../images/point.svg)";
+        crcl33.style.backgroundImage = "url(../images/cercle.svg)";
+    } else if (elm === 2) {
+        crcl11.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl22.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl33.style.backgroundImage = "url(../images/point.svg)";
+    }
 
     fade(document.getElementById('img44'), img[elm],0);
     fade(document.getElementById('h4prt6'), h[elm],1);

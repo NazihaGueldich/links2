@@ -583,7 +583,7 @@ body {
 
 /* part 6 */
 .inx {
-    width: 30%
+    width: 33%
 }
 
 
@@ -1042,4 +1042,25 @@ ul {
 
 .height-p-card{
     min-height: 285px;
+}
+
+#crcl11 {
+    width: 20px;
+    background-image: url("../images/point.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl22 {
+    width: 20px;
+    background-image: url("../images/cercle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl33 {
+    width: 20px;
+    background-image: url("../images/cercle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
