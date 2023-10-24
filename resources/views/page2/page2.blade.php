@@ -90,23 +90,23 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-8 links_box">
+                <div class="col-lg-7 links_box">
                     <button type="button" class="btn btn-outline-primary button-main">수도</button>
                 </div>
-                <div class="col-lg-4">
-                    <span class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </span><br>
-                    <span class="txt1"><strong>수도: </strong>튀니스(Tunis)</span><br>
-                    <span class="txt1"><strong>면적:</strong>163,610km2(세계 93위. 한반도의 3/4) </span><br>
-                    <span class="txt1"><strong>인구: </strong>약 1,248만 명(2023년)</span><br>
-                    <span class="txt1"><strong>GDP: </strong>약 466억$(2023년. 세계 88위)</span><br>
-                    <span class="txt1"><strong>언어: </strong>아랍어(공용어), 프랑스어(상용어)</span><br>
-                    <span class="txt1"><strong>주요민족: </strong>아랍인(98%), 유태인, 유럽인 </span><br>
-                    <span class="txt1"><strong>기후: </strong>지중해성 기후 </span><br>
-                    <span class="txt1"><strong>정부/의회형태: </strong>공화제 / 다당제&단원제</span><br>
-                    <span class="txt1"><strong>종교: </strong>수니파 이슬람교(98%), 그리스도교(1%), 유대교</span><br>
-                    <span class="txt1"><strong>국가번호: </strong>216 </span><br>
-                    <span class="txt1"><strong>화폐: </strong>튀니지 디나르(TND) </span><br>
-                    <span class="txt1"><strong>전압: </strong>220~230V / 50Hz</span>
+                <div class="col-lg-5">
+                    <p class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </p>
+                    <p class="txt1"><strong>수도: </strong>튀니스(Tunis)</p>
+                    <p class="txt1"><strong>면적:</strong>163,610km2(세계 93위. 한반도의 3/4) </p>
+                    <p class="txt1"><strong>인구: </strong>약 1,248만 명(2023년)</p>
+                    <p class="txt1"><strong>GDP: </strong>약 466억$(2023년. 세계 88위)</p>
+                    <p class="txt1"><strong>언어: </strong>아랍어(공용어), 프랑스어(상용어)</p>
+                    <p class="txt1"><strong>주요민족: </strong>아랍인(98%), 유태인, 유럽인 </p>
+                    <p class="txt1"><strong>기후: </strong>지중해성 기후 </p>
+                    <p class="txt1"><strong>정부/의회형태: </strong>공화제 / 다당제&단원제</p>
+                    <p class="txt1"><strong>종교: </strong>수니파 이슬람교(98%), 그리스도교(1%), 유대교</p>
+                    <p class="txt1"><strong>국가번호: </strong>216 </p>
+                    <p class="txt1"><strong>화폐: </strong>튀니지 디나르(TND) </p>
+                    <p class="txt1"><strong>전압: </strong>220~230V / 50Hz</p>
                 </div>
             </div>
         </section>
@@ -350,7 +350,7 @@
             <h2 class="main-title">튀니지는 어떤 것으로 유명한가요?</h2>
 
             <div class="row block-cards">
-                <div class="col-lg-4">
+                <div class="col-lg-4 section-9-hover">
                     <div class="links_box-1">
                         <button type="button" class="btn btn-outline-primary button-main">올리브</button>
                     </div>
@@ -363,12 +363,12 @@
                         <p class="p2prt7">더 읽어보세요..</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="links_box-2 ">
+                <div class="col-lg-4 section-9-hover">
+                    <div class="links_box-2">
 
                         <button type="button" class="btn btn-outline-primary button-main">쿠스쿠스</button>
                     </div>
-                    <div class="height-p-card">
+                    <div class="height-p-card ">
                         <p class="p1prt7">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기,
                             채소, 향신료로
                             만든 풍미 있는 스튜와 함께 제공됩니다. 튀니지의 다양한 지역 스타일로 만들어진 쿠스쿠스를 현지 레스토랑이나 시장에서 맛보세요. 이렇게 튀니지의 다양한
@@ -378,7 +378,7 @@
                         <p class="p2prt7">더 읽어보세요..</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 section-9-hover">
                     <div class="links_box-3">
                         <button type="button" class="btn btn-outline-primary button-main">카이루안</button>
                     </div>

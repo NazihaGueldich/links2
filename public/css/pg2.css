@@ -103,11 +103,23 @@ body.tunisiatrip .card-body {
 
 .card:hover .titre-2 {
     font-family: 'noto';
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.section-9-hover:hover {
+    cursor: pointer;
+} 
+
+.section-9-hover:hover .links_box-1 button,.section-9-hover:hover .links_box-2 button,.section-9-hover:hover .links_box-3 button{
+    color: #FD4343;
+}
+
+.section-9-hover:hover .links_box-1,.section-9-hover:hover .links_box-2,.section-9-hover:hover .links_box-3{
+    border: 2px solid #FD4343;
 }
 
 .gap-20 {
@@ -305,10 +317,10 @@ body {
     color: #FD4343;
 }
 
-.btn.btn-outline-primary:hover {
+/* .btn.btn-outline-primary:hover {
     background-color: #ffffff;
     color: #000000;
-}
+} */
 
 
 .lignes {
@@ -422,7 +434,7 @@ body {
 }
 
 .card:hover {
-    border: 2px solid #FD4343;
+    border: 2px solid #FD4343 !important;
 }
 
 
@@ -1024,20 +1036,21 @@ ul {
     height: 33px;
     border-radius: 8px;
     background-color: #ffffff;
-    color: #000000;
-    border: 1px solid #000000;
+    color: #FD4343;
+    border: 1px solid #FD4343;
     font-family: noto;
     font-size: 17px;
     padding: 3px;
+    box-shadow: none;
 }
 
-.btn.btn-outline-primary.btn-main:hover:hover {
+.btn.btn-outline-primary.btn-main:hover {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #FD4343;
 }
 
 .btn.btn-outline-primary.btn-main:focus {
-    border: 1px solid #000000 !important;
+    border: 1px solid #FD4343 !important;
 }
 
 .height-p-card{
