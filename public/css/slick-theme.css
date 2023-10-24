@@ -4,8 +4,13 @@
 {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
+.slick-prev {
+    margin-left: 4%;
+}
 
-/* Icons */
+.slick-next{
+    margin-right: 4%;
+}
 @font-face
 {
     font-family: 'slick';
@@ -71,7 +76,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #6c757d;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

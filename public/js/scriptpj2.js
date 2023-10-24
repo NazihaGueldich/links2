@@ -4,7 +4,12 @@
 $('section .slick-slide').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
   });
 
   $('.slick-section-10').slick({
@@ -12,7 +17,7 @@ $('section .slick-slide').slick({
     slidesToShow: 1,
     slidesToScroll: 1
   });
-              
+
 var indx = 0;
 
 function srllimg(x) {
@@ -48,12 +53,12 @@ function srllimg(x) {
         crcl2.style.backgroundImage = "url(../images/cercle.svg)";
         crcl3.style.backgroundImage = "url(../images/point.svg)";
     }
-    
+
     document.getElementById('imgchoose').src = img[indx];
     document.getElementById('scrlltitr').innerHTML = titr[indx];
     document.getElementById('scrllp').innerHTML = p[indx];
 
-    
+
 }
 
 function changtext(indx) {
@@ -146,7 +151,7 @@ function changelement(x) {
 }
 
 function fade(element, value,type) {
-    var op = 1; 
+    var op = 1;
     var timer = setInterval(function() {
         if (op <= 0.1) {
             clearInterval(timer);
@@ -157,7 +162,7 @@ function fade(element, value,type) {
             }else{
                 element.innerHTML = value;
             }
-            
+
             unfade(element);
         }
         element.style.opacity = op;
