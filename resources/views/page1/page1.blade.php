@@ -268,7 +268,7 @@
 
     <section id="section-4">
         <div class="container sess3">
-            <h2 class="main-title">튀니지 주요 도시</h2>
+            <h2 class="main-title">방문객 후기</h2>
             <div class="container">
                 <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
         background-position: center center;"
@@ -537,9 +537,7 @@
                         <li onclick="changContai(4)"><a class="show-paragraph" data-paragraph="ahla14">
                                 <h5 id='tit4' class="tit1inactv"> 1
                                 </h5>
-                                <h5 id='tit44' class="tit2inactv"> 1위
-                                    대학
-                                </h5>
+                                <h5 id='tit44' class="tit2inactv">1번째 대학</h5>
                             </a></li>
                     </ul>
                     <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg">
@@ -618,8 +616,8 @@
             <div class="row">
                 <div class="text-left col-lg-4">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
-                    <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
-                    <img src="{{ asset('images/MicrosoftTeams-image_(1).png') }}" style="height: 24px;">
+                    <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
+                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
                 </div>
                 <div class="col-lg-4 text-center">
                     <span>All rights reserved ©</span>
