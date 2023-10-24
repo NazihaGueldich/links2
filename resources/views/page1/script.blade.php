@@ -14,7 +14,9 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
     <link rel="stylesheet" href="{{ asset('css/page1.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mobile.css') }}">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
+   
     <title>Tunisiatrip By Atlantis</title>
     <meta name="description" content=" | 아틀란티스 여행사
     튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
