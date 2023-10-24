@@ -491,8 +491,8 @@
             <div class="row">
                 <div class="text-left col-lg-4">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
-                    <img src="{{ asset('images/MicrosoftTeams-image.png') }}" style="height: 24px;">
-                    <img src="{{ asset('images/MicrosoftTeams-image_(1).png') }}" style="height: 24px;">
+                    <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
+                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
                 </div>
                 <div class="col-lg-4 text-center">
                     <span>All rights reserved ©</span>
