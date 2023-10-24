@@ -1,16 +1,4 @@
 @include('page1.script')
-<style>
-    .slick-slide {
-        position: relative;
-    }
-
-    .text1 {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-</style>
 
 <body id="index" class="tunisiatrip">
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
