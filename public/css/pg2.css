@@ -25,8 +25,8 @@ main {
 }
 
 .main-title {
-    font-size: 2.25rem;
-    color: var(--main-color);
+    font-size: 1.55rem;
+    color:black;
     font-weight: 600;
     margin: 5px 0 30px 0;
     text-align: center;
@@ -112,7 +112,7 @@ body.tunisiatrip .card-body {
 
 .section-9-hover:hover {
     cursor: pointer;
-} 
+}
 
 .section-9-hover:hover .links_box-1 button,.section-9-hover:hover .links_box-2 button,.section-9-hover:hover .links_box-3 button{
     color: #FD4343;
@@ -130,29 +130,29 @@ body.tunisiatrip .card-body {
 }
 
 .titre-2 {
-    font-size: 36px;
+    font-size: 1.10rem;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FD4343;
+    color: black;
     transition: all .5s;
 }
 
 
 .parghraphe1 {
     font-family: 'noto';
-    font-size: 20px;
+    font-size: 16px;
 
     text-align: center;
 }
 #section-5 .parghraphe{
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
 }
 #section-8 .parghraphe {
     font-family: 'noto';
-    font-size: 20px;
+    font-size: 16px;
 width: 55%;
     text-align: center;
 }
@@ -390,7 +390,7 @@ body {
 
 .txt1 {
     font-family: 'noto';
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     height: 29px;
     letter-spacing: 0em;
@@ -404,9 +404,9 @@ body {
 }
 
 .titre-1 {
-    font-size: 38px;
+    font-size: 21px;
     font-weight: 600;
-    color: #FD4343;
+    color: #212529;
 }
 
 .img2 {
@@ -577,7 +577,7 @@ body {
 
 .ktbchng p {
     font-family: 'noto';
-    font-size: 28px;
+    font-size: 1.55rem;
     font-weight: 700;
     line-height: 41px;
     letter-spacing: 0em;
@@ -586,14 +586,14 @@ body {
 
 .ktbchng span {
     font-family: 'noto';
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0;
     text-align: center;
 }
 
-/* part 6 */
+
 .inx {
     width: 33%
 }
@@ -625,17 +625,17 @@ body {
 
 #h4prt6 {
     font-family: 'noto';
-    font-size: 40px;
+    font-size: 1.55rem;
     font-weight: 900;
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FD4343;
+    color:black;
 }
 
 #pprt6 {
     font-family: 'noto';
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0em;
@@ -644,7 +644,7 @@ body {
 
 #txtindx {
     font-family: noto;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 900;
     line-height: 46px;
     letter-spacing: 0em;
@@ -673,7 +673,7 @@ body {
 
 .p1prt7 {
     font-family: 'noto';
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
@@ -682,12 +682,12 @@ body {
 
 .p2prt7 {
     font-family: 'noto';
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FD4343;
+    color: black;
     bottom: 0;
     position: absolute;
 }
@@ -731,7 +731,7 @@ body {
 
 /* part 8 */
 #pprt8 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
@@ -753,7 +753,7 @@ body #section-10 .slick-section-10{
 
 .p1prt8 {
     font-family: 'noto';
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 33px;
     letter-spacing: 0em;

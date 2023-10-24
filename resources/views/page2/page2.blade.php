@@ -294,7 +294,7 @@
                                 </a>
                             </div>
 
-                            <p id='txtindx' class="mb-0">유대교</p>
+                            <p id='txtindx' class="mb-0 main-title">유대교</p>
                         </div>
 
                     </div>

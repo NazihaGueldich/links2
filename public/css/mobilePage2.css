@@ -22,7 +22,7 @@
 
     body .main-title {
         margin-bottom: 35px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     body section {
@@ -165,7 +165,7 @@
     }
 
     #h4prt6{
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 
     .img2 {
@@ -246,13 +246,13 @@
     }
 
     .titre-2, .titre-1{
-        font-size: 1.25rem;
         line-height: 50px;
         letter-spacing: 0em;
         text-align: center;
-        color: #FD4343;
+        color: black;
         transition: all .5s;
     }
+
 
     .ttcard {
         /* display: flex; */
