@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('css/blog.css') }}">
 
+    <script src="{{ asset('js/scriptblog.js') }}"></script>
+
+
     <title>Tunisiatrip By Atlantis</title>
     <meta name="description" content=" | 아틀란티스 여행사
     튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
