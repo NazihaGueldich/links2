@@ -154,7 +154,6 @@
         font-family: 'noto';
         font-size: 12px;
         font-weight: 400;
-        /* line-height: 41px; */
         letter-spacing: 0em;
         text-align: start;
     }
@@ -163,9 +162,20 @@
         display: none;
         background-color: white;
     }
+    .p2prt7 {
+        font-family: 'noto';
+        font-size: 1.10rem;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+        bottom: 0;
+        position: absolute;
+    }
 
     #h4prt6{
-        font-size: 1.3rem;
+        font-size: 1.10rem;
     }
 .img6{
     padding-left: 5%;
@@ -249,6 +259,7 @@
     }
 
     .titre-2, .titre-1{
+        font-size: 1.10rem;
         line-height: 50px;
         letter-spacing: 0em;
         text-align: center;
@@ -302,7 +313,7 @@
     }
 
     .ktbchng p {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         font-weight: 700;
         text-align: center;
     }
