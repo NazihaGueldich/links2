@@ -272,6 +272,7 @@
         <div class="container sess3mobvid text-center">
             <div class="text2">
                 <h2 class="main-title">홍보 영상</h2>
+                <div class="ligne-separtion"></div>
                 <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
             <div class="wrap-video">
