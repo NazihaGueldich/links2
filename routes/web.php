@@ -20,11 +20,9 @@ use App\Http\Controllers\MailingController;
 
 Route::get('/', function () {
     return view('page1.page1');
-});
+})->name('page1');
 
-Route::get('/1', function () {
-    return view('page1.page1');
-});
+
 Route::get('/2', function () {
     return view('page2.page2');
 });
