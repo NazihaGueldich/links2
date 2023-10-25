@@ -184,8 +184,10 @@
 
         <section id="section-5">
             <div class="text-center mb-3">
-                <span class="main-title">날씨</span>
+                <span class="main-title" >날씨</span>
+                <div class="ligne-separtion"></div>
             </div>
+
             <div class="row">
                 <div class="col-lg-4 d-flex flex-column justify-content-start pt-4">
                     <img src="{{ asset('images/chammousa.png') }}" class="img-fluid img3" id='imgchoose'>
@@ -228,6 +230,7 @@
         <section id="section-6">
             <div class="text-center mb-3 d-flex flex-column align-items-center">
                 <h2 class="main-title">언어</h2>
+                <div class="ligne-separtion4"></div>
                 <p class=" parghraphe1">
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
                 </p>
@@ -241,6 +244,7 @@
                 </div>
                 <div class="ktbchng text-center">
                     <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
+                    <div class="ligne-separtion"></div>
                     <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
                         아랍어 사용
                         교육의 보편화가 규정되어
@@ -255,6 +259,7 @@
             <div class="text-center ">
                 <div class="d-flex flex-column align-items-center">
                     <p class="main-title">종교</p>
+                    <div class="ligne-separtion"></div>
                     <div class="parghraphe">
                         <span>튀니지의 공용어는 아랍어예요.<br>
                             표준 아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요. 프랑스 식민 지배의 영향으로 프랑스어가 상용어로 쓰여요.
@@ -270,6 +275,7 @@
                     <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 ">
                         <div>
                             <h4 id='h4prt6'>이슬람</h4>
+                            <div class="ligne-separtion8"></div>
                             <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
                                 남아있는
                                 유대인들의 대부분은 제르바섬에 거주하고 있습니다.</p>
@@ -402,6 +408,7 @@
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">튀니지 문화</h2>
+
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
