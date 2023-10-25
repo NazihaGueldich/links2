@@ -237,7 +237,7 @@
             </div>
             <div class="mt-5 d-flex flex-column align-items-center button1">
                 <div class="col-12 d-flex justify-content-around button1">
-                    <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
+                    <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)" >아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
