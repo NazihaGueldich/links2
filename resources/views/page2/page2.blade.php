@@ -209,7 +209,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 pt-4">
+                <div class="col-lg-8 pt-4" style="padding: 0px">
                     <p class="parghraphe">
                         튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월 평균
                         최고 기온은 33 ̊C입니다.
@@ -267,12 +267,12 @@
                     </div>
                 </div>
                 <div class="row mt-5 ">
-                    <div class="col-lg-6 ">
+                    <div class="col-lg-6 " style="padding: 0px">
                         <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'
                             style="object-fit: contain;">
                     </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 ">
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 " style="padding: 0px">
                         <div>
                             <h4 id='h4prt6'>이슬람</h4>
                             <div class="ligne-separtion8"></div>
@@ -448,7 +448,7 @@
                     </div>
                 </div>
                 <div class="row slick-section-10">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" style="padding: 4px;width: 100%;display: inline-block;">
 
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81 ">

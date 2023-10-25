@@ -202,13 +202,8 @@ function changeImage(isMouseOver, id) {
     img.src = src;
 }
 
-setInterval(updateClock, 1000);
-
 function updateClock() {
-    const tunisTimeZoneOffset = 60;
-
     const tunisTime = new Date();
-    tunisTime.setMinutes(tunisTime.getMinutes() + tunisTimeZoneOffset);
 
     let hours = tunisTime.getHours();
     const minutes = tunisTime.getMinutes();
@@ -216,11 +211,16 @@ function updateClock() {
 
     let amOrPm = hours >= 12 ? 'pm' : 'am';
     hours = hours % 12;
-    hours = hours ? hours : 12; // the hour '0' should be '12'
+    hours = hours ? hours : 12;
 
     const timeString =
         `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
 
     document.getElementById("tunis-time").textContent = timeString;
-
 }
+
+
+updateClock();
+
+
+setInterval(updateClock, 1000);
