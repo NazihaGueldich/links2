@@ -512,24 +512,23 @@
                         @csrf
                         <div class="form-group">
                             <input type="text" name="nom" id="nom" class="txt1 px-3 frminptstyl"
-                                placeholder="이름">
+                                placeholder="이름" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="email" id="email" class="txt1 px-3 frminptstyl"
-                                placeholder="이메일">
+                            <input type="email" name="email" id="email" class="txt1 px-3 frminptstyl"
+                                placeholder="이메일" required>
                         </div>
                         <div class="form-group">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl"
-                                placeholder="문의사항 "></textarea>
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl" placeholder="문의사항 "
+                                required></textarea>
                         </div>
                         <div class="form-group text-right mt-4">
-                            <button type="submit" class="btn btn-outline-primary button4 m-0"
-                                onclick="modaleMail()">제출</button>
+                            <button type="submit" class="btn btn-outline-primary button4 m-0">제출</button>
                         </div>
                     </form>
                 </div>
             </div>
-
+            <input hidden type="number" id='success' value="<?php echo isset($success) ? $success : ''; ?>">
         </div>
     </section>
 
@@ -657,26 +656,19 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="modalemail" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="modalemailsucc" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h4> </h4>
-                    <h3 class="modal-title" id="titre"> E-mail envoyer</h3>
-                    <h4> </h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div class="modal-body">
+                    <p>E-mail envoyer</p>
                 </div>
-
             </div>
         </div>
     </div>
-    <script>
-        function modaleMail() {
-            $('#modalemail').modal("show");
-        }
-    </script>
+
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
@@ -685,6 +677,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var success = document.getElementById('success').value;
+            if (success !== '') {
+                $('#modalemailsucc').modal("show");
+                setTimeout(function() {
+                    $('#modalemailsucc').modal('hide');
+            }, 2000);
+            }
+        });
+    </script>
     <script src="{{ asset('js/ScriptPage1.js') }}"></script>
     <script type="text/javascript">
         // Code JavaScript pour gérer l'affichage/cachage du menu
@@ -723,7 +727,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
-          autoplay: true,
+            autoplay: true,
             autoplaySpeed: 4000,
             prevArrow: null,
             nextArrow: null,

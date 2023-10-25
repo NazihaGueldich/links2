@@ -19,15 +19,26 @@
                     <tbody>
                         @foreach ($mailings as $mailing)
                             <tr>
-                                <td>{{ $mailing->email }}</td>
-                                <td>{{ $mailing->created_at->format('Y-m-d') }}</td>
+                                @if ($mailing->etat == 0)
+                                    <td class="font-weight-bold">
+                                    @else
+                                    <td>
+                                @endif
+                                {{ $mailing->email }}</td>
+                                @if ($mailing->etat == 0)
+                                    <td class="font-weight-bold">
+                                    @else
+                                    <td>
+                                @endif{{ $mailing->created_at->format('Y-m-d') }}</td>
                                 <td class="text-center">
                                     @if ($mailing->etat == 0)
-                                        <a class="btn btn-danger btn-circle" href="{{ route('mailings.show', ['mailing' => $mailing->id]) }}">
-                                            <i class="bi bi-eye-slash"></i>
+                                        <a class="btn btn-danger btn-circle"
+                                            href="{{ route('mailings.show', ['mailing' => $mailing->id]) }}">
+                                            <i class="bi bi-eye"></i>
                                         </a>
                                     @else
-                                        <a class="btn btn-info btn-circle" href="{{ route('mailings.show', ['mailing' => $mailing->id]) }}" >
+                                        <a class="btn btn-info btn-circle"
+                                            href="{{ route('mailings.show', ['mailing' => $mailing->id]) }}">
                                             <i class="bi bi-eye"></i>
                                         </a>
                                     @endif

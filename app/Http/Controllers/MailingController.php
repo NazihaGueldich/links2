@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Mailing;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Confirmation;
 use Illuminate\Http\Request;
 
 class MailingController extends Controller
@@ -13,7 +15,8 @@ class MailingController extends Controller
     public function index()
     {
         $mailings=Mailing::all();
-        return view("dashboard.mailing.mailing",compact('mailings'));
+        $success=null;
+        return view("dashboard.mailing.mailing",compact('mailings','success'));
     }
 
     public function create()
@@ -23,8 +26,10 @@ class MailingController extends Controller
 
     public function store(Request $request)
     {
-       // Mailing::create($request->all());
-        return view('page1.page1');
+        Mailing::create($request->all());
+        Mail::to($request->email)->send(new Confirmation());
+        $success=1;
+        return view('page1.page1',compact('success'));
     }
 
     /**
@@ -33,6 +38,8 @@ class MailingController extends Controller
     public function show($id)
     {
         $mailing=Mailing::find($id);
+        $mailing->etat = 1;
+        $mailing->update();
         return view("dashboard.mailing.affichmail",compact('mailing'));
     }
 
