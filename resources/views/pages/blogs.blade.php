@@ -9,14 +9,14 @@
                     <p class="col-lg-6">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit
                         nullam neque ultrices.</p>
                     <div>
-                        <button class="btn radius-20 btn-white mr-3">Play Video <img
+                        <button class="btn radius-20 btn-white mr-lg-3">Play Video <img
                                 src="{{ asset('images/Arrow Right.png') }}"></button>
                         <button class="btn radius-20 btn-transparant">See more like this</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="section-2" class="pt-5 pb-5">
+        <section id="section-2" class="pt-lg-5 pb-lg-5">
             <div class="items">
                 <span id='itm0' class="item-actv" onclick="changSection6(0)">Popular</span>
                 <span id='itm1' class="item-inactv" onclick="changSection6(1)">News</span>
@@ -28,14 +28,14 @@
             </div>
         </section>
         <section id="section-3">
-            <div class="row pt-5 pb-3">
+            <div class="row pt-lg-5 pb-lg-3">
                 <div class="col-lg-6 pl-lg-5">
                     <span>
                         Want to stay up to date with our content? <strong>Subscribe Now!</strong>
                     </span>
                 </div>
-                <div class="col-lg-6 form-group pb-3 pr-lg-5 section-3-pat2">
-                    <div class="row pb-3">
+                <div class="col-lg-6 form-group pb-lg-3 pr-lg-5 section-3-pat2">
+                    <div class="row pb-lg-3">
                         <input class="col-lg-9" type="email" class="form-control" aria-describedby="emailHelp"
                             placeholder="Enter your email">
 
@@ -53,7 +53,7 @@
             </div>
         </section>
         <section id="section-4">
-            <div class="d-flex justify-content-between pt-5">
+            <div class="d-flex justify-content-between pt-lg-5">
                 <div class=" patie-1">
                     <h1>Videos from Creators</h1>
                     <p class="col-lg-8">Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum
@@ -93,22 +93,22 @@
                 </div>
             </div>
         </section>
-        <section id="section-6" class="pt-5">
+        <section id="section-6" class="pt-lg-5">
             <div class="head">
                 <h1>
                     Popular Topics
                 </h1>
-                <p class="col-lg-5 pl-0">
+                <p class="col-lg-5 pl-lg-0">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus
                     libero
                 </p>
             </div>
             <div class="cards">
-                <div class="row pt-5">
-                    <div class="col-lg-6 pl-5">
+                <div class="row pt-lg-5">
+                    <div class="col-lg-6 pl-lg-5">
                         <img src="{{ asset('images/Container (1).png') }}" class="card-imag">
                     </div>
-                    <div class="col-lg-6 description pl-5">
+                    <div class="col-lg-6 description pl-lg-5">
                         <h3>Catchy Title:<br>
                             The main point behind it</h3>
                         <p class="col-lg-8">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor semper at ac
@@ -116,11 +116,11 @@
                         <button class="btn radius-20 btn-color col-lg-3">Read Full Article</button>
                     </div>
                 </div>
-                <div class="row pt-5">
-                    <div class="col-lg-6 pl-5">
+                <div class="row pt-lg-5">
+                    <div class="col-lg-6 pl-lg-5">
                         <img src="{{ asset('images/Container (1).png') }}" class="card-imag">
                     </div>
-                    <div class="col-lg-6 description pl-5">
+                    <div class="col-lg-6 description pl-lg-5">
                         <h3>Catchy Title:<br>
                             The main point behind it</h3>
                         <p class="col-lg-8">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor semper at ac
@@ -128,11 +128,11 @@
                         <button class="btn radius-20 btn-color col-lg-3">Read Full Article</button>
                     </div>
                 </div>
-                <div class="row pt-5">
-                    <div class="col-lg-6 pl-5">
+                <div class="row pt-lg-5">
+                    <div class="col-lg-6 pl-lg-5">
                         <img src="{{ asset('images/Container (1).png') }}" class="card-imag">
                     </div>
-                    <div class="col-lg-6 description pl-5">
+                    <div class="col-lg-6 description pl-lg-5">
                         <h3>Catchy Title:<br>
                             The main point behind it</h3>
                         <p class="col-lg-8">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor semper at ac
