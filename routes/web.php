@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogsController;
+use App\Http\Controllers\MailingController;
+
 
 
 /*
@@ -47,7 +49,6 @@ Route::middleware('auth')->group(function () {
 
 
 Route::resource("blogs",BlogsController::class)->middleware(['auth']);
-
-
+Route::resource("mailings",MailingController::class)->middleware(['auth']);
 
 require __DIR__.'/auth.php';

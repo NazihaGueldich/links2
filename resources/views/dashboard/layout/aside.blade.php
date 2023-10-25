@@ -13,9 +13,15 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="{{ route('blogs.index') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-blog"></i>
             <span>Blogs</span></a>
     </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('mailings.index') }}">
+            <i class="fas fa-envelope"></i>
+            <span>Mailings</span></a>
+    </li>
+
 
    {{--  <!-- Divider -->
     <hr class="sidebar-divider">

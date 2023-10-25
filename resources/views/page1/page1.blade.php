@@ -218,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 my-2" >
+                <div class="col-md-4 my-2">
                     <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
                         <div
                             class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
@@ -238,7 +238,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 my-2" >
+                <div class="col-md-4 my-2">
 
                     <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
                         <div
@@ -508,18 +508,23 @@
         <div class="container mt-5 bb">
             <div class="row">
                 <div class="col-md-8 offset-lg-2">
-                    <form action="">
+                    <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
+                        @csrf
                         <div class="form-group">
-                            <input type="text" class="txt1 px-3 frminptstyl" placeholder="이름">
+                            <input type="text" name="nom" id="nom" class="txt1 px-3 frminptstyl"
+                                placeholder="이름">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="txt1 px-3 frminptstyl" placeholder="이메일">
+                            <input type="text" name="email" id="email" class="txt1 px-3 frminptstyl"
+                                placeholder="이메일">
                         </div>
-                        <div class="form-group ">
-                            <textarea type="text" class="txt2 mt-1 px-3 pt-2 frminptstyl" placeholder="문의사항 "></textarea>
+                        <div class="form-group">
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl"
+                                placeholder="문의사항 "></textarea>
                         </div>
                         <div class="form-group text-right mt-4">
-                            <button type="submit" class="btn btn-outline-primary button4 m-0">제출</button>
+                            <button type="submit" class="btn btn-outline-primary button4 m-0"
+                                onclick="modaleMail()">제출</button>
                         </div>
                     </form>
                 </div>
@@ -652,7 +657,26 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="modalemail" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4> </h4>
+                    <h3 class="modal-title" id="titre"> E-mail envoyer</h3>
+                    <h4> </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <script>
+        function modaleMail() {
+            $('#modalemail').modal("show");
+        }
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
