@@ -70,7 +70,7 @@ body.tunisiatrip button, body.tunisiatrip a {
 .main-title {
     font-size: 1.55rem;
     font-weight: 600;
-    margin: 5px 0 30px 0;
+    margin: 5px 0 20px 0;
 }
 body.tunisiatrip .card {
     transition: all .3s ease;
@@ -350,6 +350,14 @@ body {
 .btn.btn-outline-primary.btn-main:hover {
     color: #ffffff;
     background-color: #347EFF;
+}
+.ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    margin: 0px auto;
+    width: 4%;
+
+    margin-bottom: 19px;
 }
 
 
