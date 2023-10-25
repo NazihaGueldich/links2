@@ -530,9 +530,9 @@
                 </div>
             </div>
             @if (session('success'))
-                <input id="success" value="{{ session('success') }}">
+                <input hidden id="success" value="{{ session('success') }}">
             @else
-                <input id="success" value=0>
+                <input hidden id="success" value=0>
             @endif
 
 
