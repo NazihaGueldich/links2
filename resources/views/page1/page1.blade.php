@@ -529,7 +529,13 @@
                     </form>
                 </div>
             </div>
-            <input hidden type="number" id='success' value="<?php echo isset($success) ? $success : ''; ?>">
+            @if (session('success'))
+                <input hidden id="success" value="{{ session('success') }}">
+            @else
+                <input hidden id="success" value=0>
+            @endif
+
+
         </div>
     </section>
 
@@ -678,18 +684,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            var success = document.getElementById('success').value;
-            if (success !== '') {
-                $('#modalemailsucc').modal("show");
-                setTimeout(function() {
-                    $('#modalemailsucc').modal('hide');
-            }, 2000);
-            }
-        });
-    </script>
     <script src="{{ asset('js/ScriptPage1.js') }}"></script>
     <script type="text/javascript">
         // Code JavaScript pour gérer l'affichage/cachage du menu
@@ -705,6 +699,15 @@
             jQuery("#toggleButton").click(function() {
                 jQuery(".custom-navbar").toggleClass("toggled");
             });
+
+            var success = document.getElementById('success').value;
+            console.log(success);
+            if (success == 1) {
+                $('#modalemailsucc').modal("show");
+                setTimeout(function() {
+                    $('#modalemailsucc').modal('hide');
+                }, 2000);
+            }
         });
     </script>
     <script>

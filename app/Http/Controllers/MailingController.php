@@ -15,8 +15,7 @@ class MailingController extends Controller
     public function index()
     {
         $mailings=Mailing::all();
-        $success=null;
-        return view("dashboard.mailing.mailing",compact('mailings','success'));
+        return view("dashboard.mailing.mailing",compact('mailings'));
     }
 
     public function create()
@@ -24,12 +23,12 @@ class MailingController extends Controller
         //
     }
 
-    public function store(Request $request)
+    function store(Request $request)
     {
         Mailing::create($request->all());
         Mail::to($request->email)->send(new Confirmation());
-        $success=1;
-        return view('page1.page1',compact('success'));
+        $success = 1;
+        return redirect()->route('page1')->with('success', $success);
     }
 
     /**
