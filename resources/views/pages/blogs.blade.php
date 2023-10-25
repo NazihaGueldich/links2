@@ -1,4 +1,4 @@
-@include('blogs.header')
+@include('pages.header')
 
 <body>
     <div class="container">
