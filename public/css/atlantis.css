@@ -7,6 +7,7 @@ body.tunisiatrip {
     font-family: 'noto', sans-serif;
 }
 
+
 .radius-20 {
     border-radius: 20px;
 }
@@ -169,8 +170,12 @@ body p {
 }
 
 .card-session1 {
-    border: 1.99px solid #77A7FB;
-    height: 600px;
+    height: auto;
+}
+@media (max-width: 576px) {
+    .card-session1 {
+        border: 1.99px solid #77A7FB;
+    }
 }
 
 
@@ -182,3 +187,9 @@ body p {
     color: #515151;
 }
 
+.ligne-separtion {
+    border: 1px solid #B5D0FF;
+    position: relative;
+    margin: 90px auto;
+    width: 221px;
+}

@@ -106,10 +106,14 @@
                             튀니지 곳곳을 탐험해 보시는 건 어떨까요?</p>
                     </div>
                     <div class="col-lg-6 h-100">
-                        <img src="{{ asset('images/at_sect1.png') }}" class="h-100">
+                        <img src="{{ asset('images/at_sect1.png') }}" class="h-100 w-100">
                     </div>
                 </div>
             </div>
         </section>
+
+        <div class="ligne-separtion"></div>
+
+
     </div>
 </body>
