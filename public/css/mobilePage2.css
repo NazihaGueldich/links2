@@ -8,26 +8,39 @@
         margin-top: 35px;
     }
 
-    #section-1 .links_box{
+    #section-1 .links_box {
         height: 400px;
     }
 
-    section .slick-slide{
+    section .slick-slide {
         display: block;
     }
 
-    section .block-cards{
+    section .block-cards {
         display: none;
     }
 
     body .main-title {
-        margin-bottom: 35px;
         font-size: 1.3rem;
     }
 
     body section {
         padding:36px 0;
     }
+
+
+    #section-5 .ligne-separtion {
+        display: none;
+    }
+
+    #section-6 .ligne-separtion4 ,#section-8 .ligne-separtion{
+        width: 6%;
+    }
+
+    #section-6 .ligne-separtion {
+        width: 30%;
+    }
+
 
     body #section-3 {
         padding: 40px 0;
@@ -41,10 +54,11 @@
         flex-direction: column-reverse;
     }
 
-    #section-5 .parghraphe{
+    #section-5 .parghraphe {
         font-size: 1rem;
     }
-    .parghraphe1{
+
+    .parghraphe1 {
         font-size: 1rem;
     }
 
@@ -162,6 +176,7 @@
         display: none;
         background-color: white;
     }
+
     .p2prt7 {
         font-family: 'noto';
         font-size: 1.10rem;
@@ -174,13 +189,15 @@
         position: absolute;
     }
 
-    #h4prt6{
+    #h4prt6 {
         font-size: 1.10rem;
     }
-.img6{
 
-    width:100%;
-}
+    .img6 {
+
+        width: 100%;
+    }
+
     .img2 {
         margin-top: 40px;
         display: block;
@@ -224,10 +241,12 @@
         right: 0;
         z-index: 999;
     }
+
     .navbar-nav {
         margin: 17%;
         height: 33px !important;
     }
+
     .navbar-toggled .nav-item {
         margin-left: -4%;
         text-align: center;
@@ -258,7 +277,8 @@
         color: #FD4343;
     }
 
-    .titre-2, .titre-1{
+    .titre-2,
+    .titre-1 {
         font-size: 1.10rem;
         line-height: 50px;
         letter-spacing: 0em;
@@ -318,12 +338,14 @@
         text-align: center;
     }
 
-    body #section-10 .slick-block-section-10{
+    body #section-10 .slick-block-section-10 {
         display: none !important;
     }
-    body #section-10 .slick-section-10{
+
+    body #section-10 .slick-section-10 {
         display: block;
     }
+
     #section-8 .parghraphe {
         font-size: 1rem;
         width: 100%;
@@ -337,9 +359,11 @@
         text-align: center;
 
     }
+
     #section-3 .links_box {
         padding: 0 0 30px 0;
     }
+
     .crd6 {
 
         margin-top: 10%;
@@ -394,9 +418,10 @@
         overflow-x: auto;
     }
 
-    #pprt8 {
-        display: none;
+    #section-10 .ligne-separtion {
+       width: 20%;
     }
+
 
     .crd81 {
         width: 100%;

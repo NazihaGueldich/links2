@@ -23,7 +23,7 @@ Route::get('/', function () {
 })->name('page1');
 
 
-Route::get('/2', function () {
+Route::get('/about', function () {
     return view('page2.page2');
 });
 
@@ -32,7 +32,7 @@ Route::get('/3', function () {
 });
 
 Route::get('/blog', function () {
-    return view('blogs.blogs');
+    return view('pages.blogs');
 });
 
 Route::get('/dashboard', function () {

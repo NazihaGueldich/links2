@@ -275,7 +275,6 @@
                     <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 " style="padding: 0px">
                         <div>
                             <h4 id='h4prt6'>이슬람</h4>
-                            <div class="ligne-separtion8"></div>
                             <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
                                 남아있는
                                 유대인들의 대부분은 제르바섬에 거주하고 있습니다.</p>
@@ -408,7 +407,7 @@
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">튀니지 문화</h2>
-
+<div class="ligne-separtion"></div>
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>

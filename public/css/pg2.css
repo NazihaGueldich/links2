@@ -28,11 +28,19 @@ main {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
     margin: 0 auto;
-    width: 2%;
+    width: 3%;
     margin-top: 1%;
 }
 
 #section-6 .ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    width: 7%;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+#section-10 .ligne-separtion {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
     width: 7%;
@@ -53,7 +61,7 @@ main {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
     margin: 0px auto;
-    width: 2%;
+    width: 3%;
 
     margin-bottom: 19px;
 }
@@ -592,7 +600,7 @@ body {
     border: 2px solid #FD4343;
     color: #FD4343;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
@@ -624,8 +632,7 @@ body {
 
 
 .ktbchng p {
-    font-family: 'noto';
-    font-size: 1.55rem;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
