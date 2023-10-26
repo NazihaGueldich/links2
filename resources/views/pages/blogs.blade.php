@@ -8,7 +8,7 @@
                     <h1 class="col-lg-8">Hear from the Korean Amassador in Tunisia</h1>
                     <p class="col-lg-6">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit
                         nullam neque ultrices.</p>
-                    <div>
+                    <div class='btns'>
                         <button class="btn radius-20 btn-white mr-lg-3">Play Video <img
                                 src="{{ asset('images/Arrow Right.png') }}"></button>
                         <button class="btn radius-20 btn-transparant">See more like this</button>
@@ -29,7 +29,7 @@
         </section>
         <section id="section-3">
             <div class="row pt-lg-5 pb-lg-3">
-                <div class="col-lg-6 pl-lg-5">
+                <div class="col-lg-6 pl-lg-5 sect3-partie1">
                     <span>
                         Want to stay up to date with our content? <strong>Subscribe Now!</strong>
                     </span>
@@ -38,6 +38,8 @@
                     <div class="row pb-lg-3">
                         <input class="col-lg-9" type="email" class="form-control" aria-describedby="emailHelp"
                             placeholder="Enter your email">
+
+                            <div class="lign-in-sectuion-3-mobil"></div>
 
                         <button class="btn radius-20 btn-color col-lg-3 btn-subscrib">Suscribe<img
                                 src="{{ asset('images/Arrow Right whit.png') }}"></button>
@@ -70,7 +72,7 @@
         <section id="section-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="partie-1 radius-20 p-5">
+                    <div class="partie-1 radius-20 p-lg-5">
                         <h1 class="col-lg-6">A catchy title for
                             another video</h1>
                         <p class="col-lg-9">
