@@ -116,16 +116,17 @@
 
         {{-- section 2 --}}
         <section id="section-2 mt-5">
-            <div class="text-center pt-5">
+            <div class="pt-lg-5 text-center">
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
             <div class="card card-session2 radius-20 mt-lg-5">
-                <div class="card-body  row">
+                <div class="card-body  row card-img">
                     <div class="col-lg-6 sect2-prt1">
                         <img src="{{ asset('images/at-sess2-img2.png') }}">
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
                         <h2 class="sub-title">"튀니지로 여러분을 초대합니다"</h2>
+
                         <p>반갑습니다,</p>
                         <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
                         <p>유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>

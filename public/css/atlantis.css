@@ -15,11 +15,13 @@ body.tunisiatrip {
 body p {
     font-size: 1rem;
 }
+
 .main-title {
     font-size: 1.55rem;
     font-weight: 600;
     margin: 5px 0 20px 0;
 }
+
 .sub-title {
     font-size: 1.3rem;
     font-weight: 700;
@@ -183,7 +185,7 @@ body p {
     height: auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .card-session1 {
         border: 1.99px solid #77A7FB;
     }
@@ -197,6 +199,15 @@ body p {
     width: 221px;
 }
 
+@media (max-width: 912px) {
+    .ligne-separtion {
+        border: 1px solid #B5D0FF;
+        position: relative;
+        margin: 40px auto;
+        width: 220px;
+    }
+
+}
 
 /* section 2 */
 .card-session2 {
@@ -207,11 +218,18 @@ body p {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    height:570px ;
+    height: 570px;
 }
 
+@media (max-width: 912px) {
+    .card-session2 .card-body {
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+}
 
-.sect2-prt1{
+.sect2-prt1 {
     background-image: url("../images/atltn_ses2.png");
     background-size: cover;
     display: flex;
@@ -220,9 +238,24 @@ body p {
     justify-content: flex-end;
 }
 
-.sect2-prt2{
+@media (max-width: 912px) {
+    .sect2-prt1 {
+        padding: 0;
+        border-radius: 20px 20px 0 0;
+        height: 330px;
+    }
+}
+
+.sect2-prt2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
+
+.sub-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
