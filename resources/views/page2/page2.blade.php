@@ -5,7 +5,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
         <div class="container justify-content-between">
             <div id="myTopnav">
-                <img id="logimg" src="{{ asset('images/logo2.png') }}">
+                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
                 <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
             </div>
 
@@ -31,7 +31,7 @@
                         <div class="position-relative">
                             <input type="text" class="input-search" style="border-radius:8px">
                             <i class="icon-search">
-                                <img src="{{ asset('images/search2.svg') }}">
+                                <img src="{{ asset('images/search.svg') }}">
                             </i>
                         </div>
                     </li>
@@ -41,41 +41,41 @@
         </div>
     </nav>
     <main>
-        <div class="container mt-5 mb-5 icon">
-            <div class="flex-container">
+        <div class="container mt-5 icons-none">
+            <div class="flex-container pt-1">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
-                    <img id='img1' src="{{ asset('images/Icon_1_Second_Animation _red.gif') }}" class="imgicns">
+                    <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                     <p id="p1" class="txticns">호텔</p>
                 </div>
 
                 <div class=" ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
-                        id='img2' src="{{ asset('images/Icon_2_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
                     <p id="p2" class="txticns">항공편</p>
                 </div>
                 <div class="ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
-                        id='img3' src="{{ asset('images/Icon_3_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
                     <p id="p3" class="txticns">축제</p>
                 </div>
                 <div class="ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
-                        id='img4' src="{{ asset('images/Icon_4_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
                     <p id="p4" class="txticns">활동</p>
                 </div>
                 <div class="ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
-                        id='img5' src="{{ asset('images/Icon_5_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
                     <p id="p5" class="txticns">자동차 서비스</p>
                 </div>
                 <div class="ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
-                        id='img6' src="{{ asset('images/Icon_6_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
                     <p id="p6" class="txticns">크루즈</p>
                 </div>
                 <div class="ligne1 m-4 lg">|</div>
                 <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
-                        id='img7' src="{{ asset('images/Icon_7_Second_Animation _red.gif') }}" class="imgicns">
+                        id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
                     <p id="p7" class="txticns">박물관</p>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-5 links_box">
+            <div class="text-center  links_box">
                 <h2 class="main-title">위치</h2>
                 <img src="{{ asset('images/new_map2.jpeg') }}" class="img2">
             </div>
@@ -245,12 +245,20 @@
                 <div class="ktbchng text-center">
                     <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
                     <div class="ligne-separtion"></div>
-                    <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
-                        아랍어 사용
-                        교육의 보편화가 규정되어
-                        있기도 합니다.
-                        <br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가 있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
-                        표준아랍어와 프랑스어, 그리고 이탈리아어 등 다양한 언어가 많이 섞인 형태예요. </span>
+                    <div class="row">
+                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3">
+                            <div class="pt-lg-3">
+                                <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
+                                    아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가 있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
+                                    표준아랍어와 프랑스어, 그리고 이탈리아어 등 다양한 언어가 많이 섞인 형태예요. </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <img src="{{ asset('images/arabe-langue.png') }}"
+                                style="object-fit: contain;" id="img-langue">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -267,13 +275,13 @@
                     </div>
                 </div>
                 <div class="row mt-5 ">
-                    <div class="col-lg-6 " style="padding: 0px">
+                    <div class="col-lg-6 ">
                         <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'
                             style="object-fit: contain;">
                     </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 " style="padding: 0px">
-                        <div>
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3" >
+                        <div class="pt-lg-3">
                             <h4 id='h4prt6'>이슬람</h4>
                             <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
                                 남아있는
@@ -489,7 +497,7 @@
 
     </div>
     <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
-        <div class=" container">
+        <div class=" container " >
             <div class="row my-5">
                 <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
                     <div class="col-lg-12">
@@ -536,15 +544,15 @@
 
         <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
             <div class="row">
-                <div class="text-left col-lg-4">
+                <div class="text-left col-lg-4 image-1">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
                     <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
                     <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 text-center image-2">
                     <span>All rights reserved ©</span>
                 </div>
-                <div class="col-lg-4 text-right">
+                <div class="col-lg-4 text-right image-3">
                     <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
                     <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
                     <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
@@ -561,7 +569,46 @@
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
     <script src="{{ asset('js/scriptpj2.js') }}"></script>
+    <script type="text/javascript">
+        // Code JavaScript pour gérer l'affichage/cachage du menu
+        const toggleButton = document.getElementById('toggleButton');
+        const navbarNav = document.getElementById('navbarNav');
 
+        toggleButton.addEventListener('click', function() {
+            navbarNav.classList.toggle('show');
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function() {
+            jQuery("#toggleButton").click(function() {
+                jQuery(".custom-navbar").toggleClass("toggled");
+            });
+
+            var success = document.getElementById('success').value;
+            console.log(success);
+            if (success == 1) {
+                $('#modalemailsucc').modal("show");
+                setTimeout(function() {
+                    $('#modalemailsucc').modal('hide');
+                }, 2000);
+            }
+        });
+    </script>
+    <script>
+        function toggleNavbarBackground() {
+            var body = document.querySelector('body');
+            body.classList.toggle('navbar-toggled');
+        }
+        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
+            if ($(this).find('.parag-img').css('opacity', '0')) {
+                $(this).find('.parag-img').css('opacity', '1')
+                console.log("h1")
+            } else {
+                $(this).find('.parag-img').css('opacity', '0');
+                console.log("h2")
+            }
+        })
+    </script>
 </body>
 
 </html

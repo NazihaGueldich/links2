@@ -38,20 +38,24 @@ function srllimg(x) {
         indx--;
     } else if (x == 1 && indx < 2) {
         indx++;
+    }else if(x == -1 && indx ==0){
+        indx= 2;
+    }else{
+        indx= 0;
     }
 
     if (indx === 0) {
-        crcl1.style.backgroundImage = "url(../images/point.svg)";
-        crcl2.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl3.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl1.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl2.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl3.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (indx === 1) {
-        crcl1.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl2.style.backgroundImage = "url(../images/point.svg)";
-        crcl3.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl1.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl2.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl3.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (indx === 2) {
-        crcl1.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl2.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl3.style.backgroundImage = "url(../images/point.svg)";
+        crcl1.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl2.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl3.style.backgroundImage = "url(../images/ptbl.svg)";
     }
 
     document.getElementById('imgchoose').src = img[indx];
@@ -69,8 +73,16 @@ function changtext(indx) {
         "젊은 튀니지인들은 영어를 상당히 잘하고, 프랑스어보다 영어를 선호하는 경향을 보입니다.",
         "베르베르인들이 쓰는 언어로 베르베르어라고도 불립니다. 중세에 아랍어가 퍼지기 전 북아프리카 지역에서 사용되었던 언어예요."
     ];
+    var img = [
+        "../images/arabe-langue.png",
+        "../images/Francais-langur.png",
+        "../images/anglais-langue.png",
+        "../images/amzigh-langue.png",
+    ];
+
     document.getElementById('titrp5').innerHTML = titr[indx];
     document.getElementById('spnprt5').innerHTML = p[indx];
+    document.getElementById('img-langue').src = img[indx];
 
     var btn0 = document.getElementById('btn0');
     var btn1 = document.getElementById('btn1');
@@ -107,6 +119,10 @@ function changelement(x) {
         elm--;
     } else if (x == 1 && elm < 2) {
         elm++;
+    }else if(x == -1 && elm ==0){
+        elm= 2;
+    }else{
+        elm= 0;
     }
 
     var img = ["../images/img1.png ",
@@ -126,17 +142,17 @@ function changelement(x) {
     var crcl33=document.getElementById('crcl33');
 
     if (elm === 0) {
-        crcl11.style.backgroundImage = "url(../images/point.svg)";
-        crcl22.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl33.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl11.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl22.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl33.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (elm === 1) {
-        crcl11.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl22.style.backgroundImage = "url(../images/point.svg)";
-        crcl33.style.backgroundImage = "url(../images/cercle.svg)";
+        crcl11.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl22.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl33.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (elm === 2) {
-        crcl11.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl22.style.backgroundImage = "url(../images/cercle.svg)";
-        crcl33.style.backgroundImage = "url(../images/point.svg)";
+        crcl11.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl22.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl33.style.backgroundImage = "url(../images/ptbl.svg)";
     }
 
     fade(document.getElementById('img44'), img[elm],0);
@@ -193,10 +209,10 @@ function changeImage(isMouseOver, id) {
     var p = document.getElementById(pId);
     var src;
     if (isMouseOver) {
-        src = "../images/Icon_" + id + "_First_Animation _red.gif";
+        src = "../images/Icon_" + id + "_First_Animation.gif";
         p.style.fontWeight = 'bolder';
     } else {
-        src = "../images/Icon_" + id + "_Second_Animation _red.gif";
+        src = "../images/Icon_" + id + "_Second_Animation.gif";
         p.style.fontWeight = '';
     }
     img.src = src;

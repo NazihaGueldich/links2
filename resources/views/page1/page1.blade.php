@@ -323,8 +323,8 @@
 
                     </div>
                 </div>
-                <div style="background-image: url('{{ asset('images/Rectangle 82456.png') }}');   background-size: cover;
-         background-position: center center;display:none"
+                <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
+         background-position: bottom center;display:none"
                     class="image1-2 links_box-shadox" id="imageCov3">
 
                     <div class="links_position-bottom  ">
@@ -646,15 +646,15 @@
 
         <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
             <div class="row">
-                <div class="text-left col-lg-4">
+                <div class="text-left col-lg-4 image-footer-1">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
                     <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
                     <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 text-center image-footer-1">
                     <span>All rights reserved ©</span>
                 </div>
-                <div class="col-lg-4 text-right">
+                <div class="col-lg-4 text-right image-footer-1">
                     <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
                     <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
                     <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
