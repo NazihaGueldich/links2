@@ -1,0 +1,184 @@
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSansKR-Regular.ttf);
+}
+
+body.tunisiatrip {
+    font-family: 'noto', sans-serif;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+body p {
+    font-size: 1.2rem;
+}
+
+/* navbar */
+.navbar {
+    height: 95px;
+}
+
+#myTopnav {
+    display: flex;
+    align-items: center;
+}
+
+.collapse.navbar-collapse.justify-content-center .navbar-nav li {
+    margin-right: 20px;
+}
+
+.nav-item {
+    color: #000;
+    font-size: 17;
+    font-family: noto;
+    margin-right: 50px;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #347EFF;
+}
+
+.nav-item .d-flex .align-items-center {
+    margin-right: 50px;
+}
+
+#logimg {
+    display: block;
+    margin-right: 10px;
+    width: 39.75px;
+    height: 36.69px;
+}
+
+#logtitre {
+    opacity: 0;
+    transition: all .5s;
+    width: 68px;
+    height: 22px;
+}
+
+
+#myTopnav:hover #logtitre {
+    opacity: 1;
+    width: 108px;
+}
+
+
+#tunis-time {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#crcltuns {
+    width: 15.09px;
+    height: 15px;
+    border-radius: 14px;
+}
+
+.btn.btn-outline-primary.btn-main {
+    height: 33px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #347EFF;
+    border: 1px solid #347EFF;
+    font-family: noto;
+    font-size: 17px;
+    padding: 3px;
+}
+
+.btn.btn-outline-primary.btn-main:hover {
+    color: #ffffff;
+    background-color: #347EFF;
+}
+
+.input-search {
+    width: 47px;
+    height: 33px;
+    transition: all .5s !important;
+    box-shadow: none !important;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #347EFF;
+    color: transparent;
+    cursor: pointer;
+    padding: 2px 35px 2px 10px;
+    font-size: 0.85rem;
+}
+
+.input-search:focus {
+    width: 147px;
+    border: 1px solid #347EFF !important;
+    outline: none !important;
+    color: #347EFF;
+}
+
+.icon-search {
+    position: absolute;
+    top: 5%;
+    right: 14px;
+    pointer-events: none;
+}
+
+/* icons */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.icns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgicns {
+    max-width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+
+.img1 {
+    width: 100%;
+    max-height: 690px;
+    object-fit: cover;
+}
+
+.txticns {
+    font-family: noto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ligne1 {
+    color: rgb(197, 196, 198);
+    min-height: 50px;
+}
+
+/* section 1 */
+.main-title {
+    font-size: 1.55rem;
+    font-weight: 600;
+    margin: 5px 0 20px 0;
+}
+
+.card-session1 {
+    border: 1.99px solid #77A7FB;
+    height: 600px;
+}
+
+
+.card-session1 .card-body .col-lg-6 p {
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #515151;
+}
+
