@@ -101,22 +101,25 @@ section {
     text-align: left;
 }
 
+
 #section-3 span {
     font-size: 30px;
     color: #5D5A88;
 }
 
+.lign-in-sectuion-3-mobil{
+    display: none;
+}
+.lign-in-sectuion-3{
+    display: block;
+}
+
 .section-3-pat2 input {
     background-color: #EFEFEF;
     border: 1px solid transparent;
-     font-size: 15px;
+    font-size: 15px;
     color: #8D8BA7; 
 }
-
-/* .section-3-pat2 input:focus-visible{
-    background-color: #EFEFEF !important;
-    border: 1px solid transparent !important;
-} */
 
 .section-3-pat2 input::placeholder {
     color: #8D8BA7;
