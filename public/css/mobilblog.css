@@ -82,10 +82,10 @@
 }
 
 #section-5 .partie-1 , #section-5 .partie-2{
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 13%;
-    padding-bottom: 13%;
+    padding-right: 3% !important;
+    padding-left: 3% !important;
+    padding-top: 13% !important;
+    padding-bottom: 13% !important;
 }
 
 #section-5 .partie-1 h1 ,#section-5 .partie-2 h1 {
@@ -98,7 +98,7 @@
     text-align: center;
 }
 
-.partie-1 button, .partie-1 button:hover ,.partie-2 button, .partie-2 button:hover{
+.partie-1 button, .partie-1 button:hover ,#section-5 .partie-2 button,#section-5 .partie-2 button:hover{
     font-size: 16px;
     height: 54px;
     width: 100%;
