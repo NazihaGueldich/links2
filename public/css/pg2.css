@@ -1,5 +1,5 @@
 :root {
-    --main-color: #FD4343;
+    --main-color: #347EFF;
 }
 
 body.tunisiatrip {
@@ -130,13 +130,13 @@ section {
 .titre-1 {
     font-size: 38px;
     font-weight: 600;
-    color: #FD4343;
+    color: #347EFF;
 }
 
 body.tunisiatrip .card {
     transition: all .3s ease;
     cursor: pointer;
-    border: 2px solid #f1f1f1bf;
+    border: 3px solid #f1f1f1bf;
     padding: 5px 15px;
 }
 
@@ -166,13 +166,13 @@ body.tunisiatrip .card-body {
 .section-9-hover:hover .links_box-1 button,
 .section-9-hover:hover .links_box-2 button,
 .section-9-hover:hover .links_box-3 button {
-    color: #FD4343;
+    color: #347EFF;
 }
 
 .section-9-hover:hover .links_box-1,
 .section-9-hover:hover .links_box-2,
 .section-9-hover:hover .links_box-3 {
-    border: 2px solid #FD4343;
+    border: 2px solid #347EFF;
 }
 
 .gap-20 {
@@ -338,7 +338,7 @@ html {
 
 body {
     width: 100%;
-    background-color: #F1F1F1 !important;
+    background-color: white !important;
     overflow-x: hidden;
 }
 
@@ -369,7 +369,7 @@ body {
 }
 
 .navbar-nav li.nav-item a.nav-link:hover {
-    color: #FD4343;
+    color: #347EFF;
 }
 
 /* .btn.btn-outline-primary:hover {
@@ -398,14 +398,14 @@ body {
     width: 84.6px;
     height: 33.64px;
     border-radius: 8px;
-    border: 1px solid #FD4343;
+    border: 1px solid #347EFF;
     font-family: 'noto';
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FD4343;
+    color: #347EFF;
     background-color: transparent;
 }
 
@@ -430,7 +430,7 @@ body {
 .titr {
     font-size: 32px;
     font-weight: bold;
-    color: #FD4343;
+    color: #347EFF;
     text-align: end;
     color: #8C8C8C;
     font-size: 14px;
@@ -454,7 +454,7 @@ body {
 }
 
 .txt1:hover {
-    color: #FD4343;
+    color: #347EFF;
     padding-left: 20px;
 }
 
@@ -489,7 +489,7 @@ body {
 }
 
 .card:hover {
-    border: 2px solid #FD4343 !important;
+    border: 2px solid #347EFF !important;
 }
 
 
@@ -497,7 +497,7 @@ body {
 
 
 .sccgrp {
-    color: #FD4343;
+    color: #347EFF;
 }
 
 .flch {
@@ -507,21 +507,21 @@ body {
 
 #crcl1 {
     width: 20px;
-    background-image: url("../images/point.svg");
+    background-image: url("../images/ptbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl2 {
     width: 20px;
-    background-image: url("../images/cercle.svg");
+    background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl3 {
     width: 20px;
-    background-image: url("../images/cercle.svg");
+    background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -561,7 +561,7 @@ body {
 }
 
 .carousel-control-prev-icon-gauche {
-    background-image: url("../images/gauche.svg") !important;
+    background-image: url("../images/lftbl.svg") !important;
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
@@ -570,7 +570,7 @@ body {
 }
 
 .carousel-control-prev-icon-droite {
-    background-image: url("../images/droit.svg") !important;
+    background-image: url("../images/rgtbl.svg") !important;
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
@@ -597,8 +597,8 @@ body {
 
 .btnactv {
     border-radius: 20px;
-    border: 2px solid #FD4343;
-    color: #FD4343;
+    border: 2px solid #347EFF;
+    color: #347EFF;
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 20px;
@@ -611,8 +611,8 @@ body {
 }
 
 .btnactv:hover {
-    color: #FD4343 !important;
-    border: 2px solid #FD4343 !important;
+    color: #347EFF !important;
+    border: 2px solid #347EFF !important;
 }
 
 .btninactv {
@@ -650,7 +650,7 @@ body {
 
 
 .inx {
-    width: 33%
+    width: 40%
 }
 
 
@@ -682,7 +682,6 @@ body {
     font-family: 'noto';
     font-size: 1.20rem;
     font-weight: 900;
-    line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
     color: black;
@@ -692,7 +691,6 @@ body {
     font-family: 'noto';
     font-size: 16px;
     font-weight: 400;
-    line-height: 33px;
     letter-spacing: 0em;
     text-align: start;
 }
@@ -701,8 +699,8 @@ body {
     font-family: noto;
     font-size: 22px;
     font-weight: 900;
-    line-height: 46px;
-    letter-spacing: 0em;
+
+
     text-align: left;
     color: #C4C2D4;
 }
@@ -716,7 +714,7 @@ body {
     height: 17.92px;
     top: 14.16px;
     left: 0.6px;
-    color: #FD4343;
+    color: #347EFF;
 }
 
 
@@ -772,11 +770,11 @@ body {
 }
 
 .prt7hov:hover .img5 {
-    border: 2px solid #FD4343;
+    border: 2px solid #347EFF;
 }
 
 .prt7hov:hover .btncrd {
-    color: #FD4343;
+    color: #347EFF;
 }
 
 .images-container {
@@ -1022,6 +1020,8 @@ ul {
 .navbar {
     height: 95px;
     padding: 0 !important;
+    -webkit-box-shadow: 0 2px 5px rgba(182, 182, 182,0.25)
+
 }
 
 .navbar-nav {
@@ -1091,8 +1091,8 @@ ul {
     height: 33px;
     border-radius: 8px;
     background-color: #ffffff;
-    color: #FD4343;
-    border: 1px solid #FD4343;
+    color: #347EFF;
+    border: 1px solid #347EFF;
     font-family: noto;
     font-size: 17px;
     padding: 3px;
@@ -1101,11 +1101,11 @@ ul {
 
 .btn.btn-outline-primary.btn-main:hover {
     color: #ffffff;
-    background-color: #FD4343;
+    background-color: #347EFF;
 }
 
 .btn.btn-outline-primary.btn-main:focus {
-    border: 1px solid #FD4343 !important;
+    border: 1px solid #347EFF !important;
 }
 
 .height-p-card {
@@ -1113,22 +1113,22 @@ ul {
 }
 
 #crcl11 {
-    width: 20px;
-    background-image: url("../images/point.svg");
+    width: 33px;
+    background-image: url("../images/ptbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl22 {
-    width: 20px;
-    background-image: url("../images/cercle.svg");
+    width: 33px;
+    background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl33 {
-    width: 20px;
-    background-image: url("../images/cercle.svg");
+    width: 33px;
+    background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }

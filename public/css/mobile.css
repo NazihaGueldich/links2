@@ -73,6 +73,20 @@
     .carousel-inner {
         height: 100%;
     }
+    dl, ol, ul {
+        padding-left: 0;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .justify-content-center {
+        justify-content: left !important;
+    }
+    .image-footer-1{
+
+        padding-bottom: 15px;
+        text-align: center !important;
+    }
 
     #crcltuns {
         width: 20px;
@@ -87,12 +101,10 @@
     }
 
     #logimg {
-        margin-left: 14%;
-        margin-top: 11%;
+        margin-left:16%;
+        margin-top: 2%;
         display: block;
-        margin-right: 14px;
-        width: 39.75px;
-        height: 36.69px;
+
     }
 
     #toggleButton {
@@ -494,6 +506,7 @@
     }
 
     .text2 p {
+        max-width: 100%;
         font-weight: 400;
         font-size: 16px;
         color: #000000;
