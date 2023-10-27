@@ -146,13 +146,13 @@
         <div class="ligne-separtion"></div>
 
         {{-- section 3 --}}
-        <section id="section-2 mt-5">
+        <section id="section-3 mt-5">
             <div class="pt-lg-5 text-center">
                 <h2 class="main-title">Meet our Team Members</h2>
             </div>
             <div class="row">
-                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
-                    <div class="card-body  row card-img">
+                <div class="card card-session3  mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img radius-20">
                         <div class="col-lg-6 sect3-crd1-prt1" id='sect3-crd1-prt1'>
                         </div>
                         <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
@@ -160,12 +160,13 @@
                             <h2 class="sub-title" id='crd1h1F'>Kamel Lagha</h2>
                             <p id='crd1Pst'>CEO of the agency</p>
                             <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id='crd1eml'>Kamel@atlantis.tn</span></p>
+                                    src="{{ asset('images/emil.png') }}"><span
+                                    id='crd1eml'>Kamel@atlantis.tn</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
-                    <div class="card-body  row card-img">
+                <div class="card card-session3  mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img radius-20">
                         <div class="col-lg-6 sect3-crd2-prt1" id='sect3-crd2-prt1'>
                         </div>
                         <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
@@ -173,40 +174,43 @@
                             <h2 class="sub-title" id='crd2h1F'>Heidi Jung</h2>
                             <p id="crd2Pst">Korean department</p>
                             <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id="crd2eml"> jh.heidi.j@gmail.com</span></p>
+                                    src="{{ asset('images/emil.png') }}"><span id="crd2eml">
+                                    jh.heidi.j@gmail.com</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
-                    <div class="card-body  row card-img">
+                <div class="card card-session3 pt-lg-4 col-lg-6">
+                    <div class="card-body   radius-20 row card-img">
                         <div class="col-lg-6 sect3-crd3-prt1" id='sect3-crd3-prt1'>
                         </div>
                         <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
-                            <h2 class="sub-title" id="crd3h1k">마리엠 조그라미  </h2>
+                            <h2 class="sub-title" id="crd3h1k">마리엠 조그라미 </h2>
                             <h2 class="sub-title" id="crd3h1F">Meriem Zoghlami</h2>
                             <p id="crd3Pst">executive management</p>
                             <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id="crd3eml">atlantis@atlantis.tn</span></p>
+                                    src="{{ asset('images/emil.png') }}"><span
+                                    id="crd3eml">atlantis@atlantis.tn</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
-                    <div class="card-body  row card-img">
+                <div class="card card-session3 pt-lg-4 col-lg-6">
+                    <div class="card-body radius-20 row card-img">
                         <div class="col-lg-6 sect3-crd4-prt1" id='sect3-crd4-prt1'>
                         </div>
                         <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
-                            <h2 class="sub-title" id="crd4h1k">소니아 벤 아모르   </h2>
+                            <h2 class="sub-title" id="crd4h1k">소니아 벤 아모르 </h2>
                             <h2 class="sub-title" id="crd4h1F">Sonia Ben Amor</h2>
                             <p id="crd4Pst">Tiketing Department</p>
                             <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id="crd4eml"> Sonia.Benamor@atlantis.tn</span></p>
+                                    src="{{ asset('images/emil.png') }}"><span id="crd4eml">
+                                    Sonia.Benamor@atlantis.tn</span></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp">
                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
-                    data-slide="prev" onclick="srllcrds(-1)" >
+                    data-slide="prev" onclick="srllcrds(-1)">
                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
@@ -223,5 +227,43 @@
 
         <div class="ligne-separtion"></div>
 
+        {{-- section 4 --}}
+        <section id="section-4 mt-5">
+            <div class="pt-lg-5 text-center">
+                <h2 class="main-title">TRANSPORTATION</h2>
+            </div>
+            <div class="card card-session4-spns radius-20 mt-lg-5">
+                <div class="card-body">
+                    <span class='spnactv' onclick="chngcontsess4(0)">Car</span>
+                    <span class='spninactv' onclick="chngcontsess4(1)">Mini-Bus</span>
+                    <span class='spninactv' onclick="chngcontsess4(2)">Bus</span>
+                    <span class='spninactv' onclick="chngcontsess4(3)">Van</span>
+                </div>
+            </div>
+            <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
+                <div class="card-body p-lg-5 row">
+                    <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
+                        <p class="mb-lg-4 psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
+
+                            공항-호텔 간 운행 및 비즈니스 미팅을 위한 다수의 회의 장소로 여러번의 이동이 가능하며 원하는 시간에 예약할 수 있습니다.
+
+                            포함사항
+                            - 운전기사 이용 요금, 주차비, 연료비, 통행료
+
+                            불포함사항
+                            - 투어 가이드, 개인 여행자 보험
+
+
+                            places 1-4
+                            Fee 상담 후 메일 안내</p>
+                        <h5 class="sub-sub-title">places 1-4</h5>
+                        <h5 class="sub-sub-title">Fee 상담 후 메일 안내</h5>
+                    </div>
+                    <div class="col-lg-6 h-100">
+                        <img src="{{ asset('images/sess4img1.png') }}" class="h-100 w-100 imgsess4 radius-20">
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
