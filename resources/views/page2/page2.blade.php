@@ -294,7 +294,7 @@
 
 
                         <div class="d-flex justify-content-between  pb-5">
-                            <div class="d-flex  mr-lg-5 sccgrp">
+                            <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
                                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
                                     role="button" data-slide="prev" onclick="changelement(-1)">
                                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>

@@ -221,7 +221,11 @@
     }
     #logtitre {
         margin-left: 5%;
-       
+
+    }
+    .sccgrp{
+
+        padding: 1rem!important;
     }
     #myTopnav {
         position: fixed;
