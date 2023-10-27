@@ -219,7 +219,10 @@
         display: block;
 
     }
-
+    #logtitre {
+        margin-left: 5%;
+       
+    }
     #myTopnav {
         position: fixed;
         top: 10px;
