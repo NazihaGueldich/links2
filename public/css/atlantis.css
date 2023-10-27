@@ -214,24 +214,8 @@ body p {
     border: 2px solid #77A7FB;
 }
 
-.card-session2 .card-body {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    height: 570px;
-}
-
-@media (max-width: 912px) {
-    .card-session2 .card-body {
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
-}
 
 .sect2-prt1 {
-    background-image: url("../images/atltn_ses2.png");
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,6 +247,7 @@ body p {
 /* section 3 */
 .card-session3{
     border: 2px solid transparent; 
+    padding: 20px;
 }
 .card-session3 .card-body {
     border: 2px solid #77A7FB;
@@ -272,7 +257,7 @@ body p {
     height: 320px;
 }
 @media (max-width: 912px) {
-    .card-session2 .card-body {
+    .card-session3 .card-body {
         height: auto;
         margin: 0;
         padding: 0;
