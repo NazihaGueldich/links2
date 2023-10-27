@@ -45,7 +45,7 @@
     </nav>
     <main>
         <div class="container mt-5 icons-none">
-            <div class="flex-container pt-1">
+            <div class="flex-container pt-4">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                     <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                     <p id="p1" class="txticns">호텔</p>
@@ -283,8 +283,8 @@
                             style="object-fit: contain;">
                     </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3" >
-                        <div class="pt-lg-3">
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum" >
+                        <div class="pt-lg-5">
                             <h4 id='h4prt6'>이슬람</h4>
                             <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
                                 남아있는
@@ -293,7 +293,7 @@
 
 
 
-                        <div class="d-flex justify-content-between inx">
+                        <div class="d-flex justify-content-between  pb-5">
                             <div class="d-flex justify-content-center sccgrp">
                                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
                                     role="button" data-slide="prev" onclick="changelement(-1)">
