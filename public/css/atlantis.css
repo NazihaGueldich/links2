@@ -230,8 +230,6 @@ body p {
 }
 
 .sect2-prt1 {
-    background-image: url("../images/atltn_ses2.png");
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,6 +261,7 @@ body p {
 /* section 3 */
 .card-session3{
     border: 2px solid transparent; 
+    padding: 20px;
 }
 .card-session3 .card-body {
     border: 2px solid #77A7FB;

@@ -122,6 +122,7 @@
             <div class="card card-session2 radius-20 mt-lg-5">
                 <div class="card-body  row card-img">
                     <div class="col-lg-6 sect2-prt1">
+                        <img src="{{ asset('images/atltn_ses2.png') }}">
                         <img src="{{ asset('images/at-sess2-img2.png') }}">
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
