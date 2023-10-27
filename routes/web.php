@@ -55,6 +55,6 @@ Route::middleware('auth')->group(function () {
 
 
 Route::resource("blogs",BlogsController::class)->middleware(['auth']);
-Route::resource("mailings",MailingController::class)->middleware(['auth']);
-
+Route::resource("mailings", MailingController::class)->middleware(['auth'])->except(['store']);
+Route::post('mailings', [MailingController::class, 'store'])->name('mailings.store');
 require __DIR__.'/auth.php';

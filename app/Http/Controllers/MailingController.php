@@ -29,6 +29,7 @@ class MailingController extends Controller
         Mail::to($request->email)->send(new Confirmation());
         $success = 1;
         return redirect()->route('page1')->with('success', $success);
+       // return view('page1.page1')->with('success', $success);
     }
 
     /**
