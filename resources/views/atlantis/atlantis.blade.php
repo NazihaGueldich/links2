@@ -119,11 +119,11 @@
             <div class="pt-lg-5 text-center">
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
-            <div class="card card-session2 radius-20 mt-lg-5">
-                <div class="card-body  row card-img">
-                    <div class="col-lg-6 sect2-prt1">
-                        <img src="{{ asset('images/atltn_ses2.png') }}">
-                        <img src="{{ asset('images/at-sess2-img2.png') }}">
+            <div class="card-session2  radius-20 mt-lg-5">
+                <div class=" row  p-0 my-0 w-100">
+                    <div class="col-lg-6 sect2-prt1 px-0">
+                        <img src="{{ asset('images/atltn_ses2.png') }}" class="w-100">
+                        <img src="{{ asset('images/at-sess2-img2.png') }}" class='position-absolute'>
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
                         <h2 class="sub-title">"튀니지로 여러분을 초대합니다"</h2>
