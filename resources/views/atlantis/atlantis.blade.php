@@ -145,5 +145,83 @@
 
         <div class="ligne-separtion"></div>
 
+        {{-- section 3 --}}
+        <section id="section-2 mt-5">
+            <div class="pt-lg-5 text-center">
+                <h2 class="main-title">Meet our Team Members</h2>
+            </div>
+            <div class="row">
+                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img">
+                        <div class="col-lg-6 sect3-crd1-prt1">
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title">카멜 라가 </h2>
+                            <h2 class="sub-title">Kamel Lagha</h2>
+                            <p>CEO of the agency</p>
+                            <p class="d-flex flex-row align-items-center"><img
+                                    src="{{ asset('images/emil.png') }}">Kamel@atlantis.tn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img">
+                        <div class="col-lg-6 sect3-crd2-prt1">
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title">정지혜 </h2>
+                            <h2 class="sub-title">Heidi Jung</h2>
+                            <p>Korean department</p>
+                            <p class="d-flex flex-row align-items-center"><img
+                                    src="{{ asset('images/emil.png') }}">jh.heidi.j@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img">
+                        <div class="col-lg-6 sect3-crd3-prt1">
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title">마리엠 조그라미  </h2>
+                            <h2 class="sub-title">Meriem Zoghlami</h2>
+                            <p>executive management</p>
+                            <p class="d-flex flex-row align-items-center"><img
+                                    src="{{ asset('images/emil.png') }}">atlantis@atlantis.tn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3 radius-20 mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img">
+                        <div class="col-lg-6 sect3-crd4-prt1">
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title">소니아 벤 아모르   </h2>
+                            <h2 class="sub-title">Sonia Ben Amor</h2>
+                            <p>Tiketing Department</p>
+                            <p class="d-flex flex-row align-items-center"><img
+                                    src="{{ asset('images/emil.png') }}">Sonia.Benamor@atlantis.tn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 sccgrp">
+                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="prev" >
+                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <span id='crcl1'></span>
+                <span id='crcl2'></span>
+                <span id='crcl3'></span>
+                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="next" >
+                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <div class="ligne-separtion"></div>
+
     </div>
 </body>
