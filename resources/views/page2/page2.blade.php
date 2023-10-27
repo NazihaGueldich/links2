@@ -45,7 +45,7 @@
     </nav>
     <main>
         <div class="container mt-5 icons-none">
-            <div class="flex-container pt-4">
+            <div class="flex-container pt-1">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                     <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                     <p id="p1" class="txticns">호텔</p>
