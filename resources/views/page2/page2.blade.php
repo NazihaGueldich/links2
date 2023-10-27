@@ -294,7 +294,7 @@
 
 
                         <div class="d-flex justify-content-between  pb-5">
-                            <div class="d-flex justify-content-center mr-lg-5 sccgrp">
+                            <div class="d-flex  mr-lg-5 sccgrp">
                                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
                                     role="button" data-slide="prev" onclick="changelement(-1)">
                                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
@@ -458,7 +458,7 @@
                     </div>
                 </div>
                 <div class="row slick-section-10">
-                    <div class="col-lg-4" style="padding: 4px;width: 100%;display: inline-block;">
+                    <div class="col-lg-4">
 
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81 ">

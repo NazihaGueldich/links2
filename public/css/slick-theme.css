@@ -5,6 +5,7 @@
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 .slick-prev {
+    z-index: 5;
     margin-left: 5%;
 }
 
@@ -71,6 +72,7 @@
 .slick-prev:before,
 .slick-next:before
 {
+    z-index: 5;
     font-family: 'slick';
     font-size: 19px;
     line-height: 1;
