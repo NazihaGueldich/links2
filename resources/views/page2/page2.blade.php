@@ -5,8 +5,11 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
         <div class="container justify-content-between">
             <div id="myTopnav">
+<a  href="/">
                 <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+</a>
                 <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
+
             </div>
 
             <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation"
@@ -93,7 +96,7 @@
                 <div class="col-lg-7 links_box">
                     <button type="button" class="btn btn-outline-primary button-main">수도</button>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-4 ml-lg-3 pt-lg-3">
                     <p class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </p>
                     <p class="txt1"><strong>수도: </strong>튀니스(Tunis)</p>
                     <p class="txt1"><strong>면적:</strong>163,610km2(세계 93위. 한반도의 3/4) </p>
@@ -246,8 +249,8 @@
                     <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
                     <div class="ligne-separtion"></div>
                     <div class="row">
-                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3">
-                            <div class="pt-lg-3">
+                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
+                            <div class="">
                                 <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
                                     아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가 있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
                                     표준아랍어와 프랑스어, 그리고 이탈리아어 등 다양한 언어가 많이 섞인 형태예요. </span>
@@ -255,7 +258,7 @@
                         </div>
                         <div class="col-lg-6 ">
                             <img src="{{ asset('images/arabe-langue.png') }}"
-                                style="object-fit: contain;" id="img-langue">
+                                style="object-fit: contain;width: 50%;" id="img-langue">
                         </div>
                     </div>
 

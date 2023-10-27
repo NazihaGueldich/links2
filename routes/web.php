@@ -23,7 +23,7 @@ Route::get('/', function () {
 })->name('page1');
 
 
-Route::get('/about', function () {
+Route::get('/about-Tunisie', function () {
     return view('page2.page2');
 });
 
