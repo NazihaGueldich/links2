@@ -245,10 +245,11 @@ body p {
 }
 
 /* section 3 */
-.card-session3{
-    border: 2px solid transparent; 
+.card-session3 {
+    border: 2px solid transparent;
     padding: 20px;
 }
+
 .card-session3 .card-body {
     border: 2px solid #77A7FB;
     padding-top: 0;
@@ -256,6 +257,7 @@ body p {
     padding-left: 0;
     height: 320px;
 }
+
 @media (max-width: 912px) {
     .card-session3 .card-body {
         height: auto;
@@ -263,21 +265,25 @@ body p {
         padding: 0;
     }
 }
+
 .sect3-crd1-prt1 {
     background-image: url("../images/crd1frst.png");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
+
 .sect3-crd2-prt1 {
     background-image: url("../images/crd2frst.png");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
+
 .sect3-crd3-prt1 {
     background-image: url("../images/crd3frst.png");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
+
 .sect3-crd4-prt1 {
     background-image: url("../images/crd4frst.png");
     background-size: cover;
@@ -285,7 +291,11 @@ body p {
 }
 
 @media (max-width: 912px) {
-    .sect3-crd1-prt1,.sect3-crd2-prt1,.sect3-crd3-prt1,.sect3-crd4-prt1  {
+
+    .sect3-crd1-prt1,
+    .sect3-crd2-prt1,
+    .sect3-crd3-prt1,
+    .sect3-crd4-prt1 {
         padding: 0;
         border-radius: 20px 20px 0 0;
         height: 330px;
@@ -307,7 +317,8 @@ body p {
     margin: 0px 15px;
 }
 
-#crcl2,#crcl3 {
+#crcl2,
+#crcl3 {
     width: 20px;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
@@ -341,7 +352,7 @@ body p {
 }
 
 /* section 4 */
-.card-session4{
+.card-session4 {
     border: 1px solid #C8C8C8;
     height: auto;
 }
@@ -351,7 +362,8 @@ body p {
         border: 1px solid #C8C8C8;
     }
 }
-.card-session4-spns .card-body{
+
+.card-session4-spns .card-body {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -359,24 +371,45 @@ body p {
     cursor: pointer;
 }
 
-.spnactv{
+.spnactv {
     font-size: 1.2rem;
     color: #347EFF;
 }
 
-.spninactv{
+.spninactv {
     font-size: 1.1rem;
     color: #B3B3B3;
 }
 
-.card-session4-cnt{
+.card-session4-cnt {
     border: 1.98px solid #347EFF;
 }
 
-.imgsess4{
+.imgsess4 {
     border: 1.98px solid #5492FF;
+    position: relative; 
+    z-index: 1;
+    height: 600px;
+    object-fit: cover;
 }
 
-.psess4{
+.psess4 {
     line-height: 40px;
 }
+
+.card-session4-cnt-imgs {
+    position: relative;
+}
+
+.dirct {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+.dirct img{
+    margin-right: 10px;
+}
+

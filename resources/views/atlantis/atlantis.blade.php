@@ -120,7 +120,7 @@
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
             <div class="card-session2  radius-20 mt-lg-5">
-                <div class=" row  p-0 my-0 w-100">
+                <div class=" row mx-0  p-0 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0">
                         <img src="{{ asset('images/atltn_ses2.png') }}" class="w-100">
                         <img src="{{ asset('images/at-sess2-img2.png') }}" class='position-absolute'>
@@ -235,16 +235,17 @@
             </div>
             <div class="card card-session4-spns radius-20 mt-lg-5">
                 <div class="card-body">
-                    <span class='spnactv' onclick="chngcontsess4(0)">Car</span>
-                    <span class='spninactv' onclick="chngcontsess4(1)">Mini-Bus</span>
-                    <span class='spninactv' onclick="chngcontsess4(2)">Bus</span>
-                    <span class='spninactv' onclick="chngcontsess4(3)">Van</span>
+                    <span class='spnactv' id='choix0' onclick="chngcontsess4(0)">Car</span>
+                    <span class='spninactv' id='choix1' onclick="chngcontsess4(1)">Mini-Bus</span>
+                    <span class='spninactv' id='choix2' onclick="chngcontsess4(2)">Bus</span>
+                    <span class='spninactv' id='choix3' onclick="chngcontsess4(3)">Van</span>
                 </div>
             </div>
             <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
                 <div class="card-body p-lg-5 row">
                     <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
-                        <p class="mb-lg-4 psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
+                        <input hidden value=0 id='numcrd'>
+                        <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
 
                             공항-호텔 간 운행 및 비즈니스 미팅을 위한 다수의 회의 장소로 여러번의 이동이 가능하며 원하는 시간에 예약할 수 있습니다.
 
@@ -257,12 +258,20 @@
 
                             places 1-4
                             Fee 상담 후 메일 안내</p>
-                        <h5 class="sub-sub-title">places 1-4</h5>
-                        <h5 class="sub-sub-title">Fee 상담 후 메일 안내</h5>
+                        <h5 class="sub-sub-title" id='h1sess4'>places 1-4</h5>
+                        <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
-                    <div class="col-lg-6 h-100">
-                        <img src="{{ asset('images/sess4img1.png') }}" class="h-100 w-100 imgsess4 radius-20">
+                    <div class="col-lg-6 h-100 card-session4-cnt-imgs px-0">
+                        <img src="{{ asset('images/sess4img1.png') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb" >
+                        <div class="dirct" style="">
+                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess4(-1)">
+                            <img id='crcl11' src="{{ asset('images/pt.png') }}" >
+                            <img id='crcl22' src="{{ asset('images/crcl.png') }}" >
+                            <img id='crcl33' src="{{ asset('images/crcl.png') }}" >
+                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess4(1)">
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
