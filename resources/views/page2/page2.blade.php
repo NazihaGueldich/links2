@@ -245,10 +245,10 @@
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
                 </div>
-                <div class="ktbchng text-center">
+                <div class="ktbchng text-center" style="width: 100%">
                     <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
                     <div class="ligne-separtion"></div>
-                    <div class="row">
+                    <div class="row" style="height:312px">
                         <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
                             <div class="">
                                 <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
@@ -294,7 +294,7 @@
 
 
                         <div class="d-flex justify-content-between  pb-5">
-                            <div class="d-flex justify-content-center sccgrp">
+                            <div class="d-flex justify-content-center mr-5 sccgrp">
                                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
                                     role="button" data-slide="prev" onclick="changelement(-1)">
                                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>

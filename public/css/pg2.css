@@ -641,6 +641,7 @@ body {
 .ktbchng p {
     font-size: 1.3rem;
     font-weight: 700;
+    width: 100%;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -681,7 +682,8 @@ body {
 
 .img4 {
     width: 724px;
-    height: 623px;
+
+    height: 100%;
     border-radius: 20px;
 }
 
