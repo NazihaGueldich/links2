@@ -9,8 +9,8 @@
                     <p class="col-lg-6">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit
                         nullam neque ultrices.</p>
                     <div class='btns'>
-                        <button class="btn radius-20 btn-white mr-lg-3">Play Video <img
-                                src="{{ asset('images/Arrow Right.png') }}"></button>
+                        <button class="btn radius-20 btn-white mr-lg-3">Play Video
+                             <img  src="{{ asset('images/Arrow Right.png') }}"></button>
                         <button class="btn radius-20 btn-transparant">See more like this</button>
                     </div>
                 </div>
@@ -145,24 +145,26 @@
             </div>
         </section>
         <section id="section-7">
-            <div class="container">
-                <ul class="pagination">
-                   {{--  <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
-                    </li> --}}
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item active" aria-current="page">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">next</a>
-                    </li>
-                </ul>
+            <div class="pagination  mt-lg-5" id="pagination">
+                <a  class="page">1</a>
+                <a  class="page active">2</a>
+                <a  class="page">3</a>
+                <a  class="page">4</a>
+                <a  class="page">5</a>
             </div>
         </section>
+
     </div>
-    
+
 </body>
 
 </html>
+<script>const pages = document.querySelectorAll(".page");
+
+    pages.forEach(page => {
+        page.addEventListener("click", () => {
+            pages.forEach(p => p.classList.remove("active"));
+            page.classList.add("active");
+        });
+    });
+    </script>

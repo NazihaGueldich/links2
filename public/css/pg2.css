@@ -119,7 +119,7 @@ main {
 }
 
 section {
-    padding:27px 0;
+    padding:60px 0;
 }
 
 #section-4 {
@@ -509,14 +509,14 @@ body {
 }
 
 #crcl1 {
-    width: 20px;
+    width: 8%;
     background-image: url("../images/ptbl.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #crcl2 {
-    width: 20px;
+    width: 8%;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -527,7 +527,7 @@ body {
     margin: 0;
 }
 #crcl3 {
-    width: 20px;
+    width: 8%;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -986,6 +986,10 @@ ul {
 
 .lignesft {
     margin: 52px;
+}
+.ktbchng .row{
+
+    height: 312px;
 }
 
 .cnt {
