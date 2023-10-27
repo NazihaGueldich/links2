@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
 
-    <script src="{{ asset('js/atlantis.js') }}"></script>
     <title>Atlantis Page</title>
 </head>
 

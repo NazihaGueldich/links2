@@ -300,7 +300,14 @@ body p {
         border-radius: 20px 20px 0 0;
         height: 330px;
     }
+    .sect3-crd-prt2 {
+        display: block !important;
+        text-align: center;
+    }
+   
 }
+
+
 
 .sect3-crd-prt2 {
     display: flex;
@@ -309,7 +316,19 @@ body p {
     align-items: flex-start;
 }
 
-#crcl1 {
+
+body .session3-slick-mobile{
+    display: none;
+}
+@media (max-width: 912px) {
+    .session3-slick-web{
+        display: none;
+    }
+    body .session3-slick-mobile{
+        display: block;
+    }
+}
+#crcl1 ,#crcl1sess5{
     width: 20px;
     background-image: url("../images/ptbl.svg");
     background-repeat: no-repeat;
@@ -318,7 +337,7 @@ body p {
 }
 
 #crcl2,
-#crcl3 {
+#crcl3 ,#crcl2sess5,#crcl3sess5{
     width: 20px;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
@@ -387,7 +406,7 @@ body p {
 
 .imgsess4 {
     border: 1.98px solid #5492FF;
-    position: relative; 
+    position: relative;
     z-index: 1;
     height: 600px;
     object-fit: cover;
@@ -409,7 +428,99 @@ body p {
     text-align: center;
 }
 
-.dirct img{
+.dirct img {
     margin-right: 10px;
 }
 
+/* session 5 */
+
+.sess4crd {
+    border: 4.72px solid #347EFF;
+    background-color: #77A7FB;
+    height: 430px;
+    padding: 0;
+}
+
+.sess4crd img {
+    width: 100%;
+}
+
+.sess5-crds {
+    gap: 56px;
+}
+
+.cercle-img {
+    position: absolute;
+    left: 14%;
+    top: 45%;
+    width: 70px !important;
+}
+
+
+@media (max-width: 767px) {
+    .cercle-img {
+        left: 16%;
+        top: 54%;
+    }
+}
+
+.text-img {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .text-img {
+        left: 21%;
+        top: 60%;
+    }
+}
+
+.posit {
+    position: absolute;
+    left: 53%;
+    top: 51%;
+    width: 25px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .posit {
+        left: 55%;
+        top: 57%;
+    }
+}
+
+.note {
+    position: absolute;
+    left: 19%;
+    top: 72%;
+    width: 200px !important;
+}
+
+@media (max-width: 767px) {
+    .note {
+        left: 27%;
+        top: 80%;
+        width: 165px !important;
+    }
+}
+
+.sess5h2{
+    position: absolute;
+    left: 21%;
+    top: 84%;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .sess5h2 {
+        left: 24%;
+        top: 89%;
+    }
+}

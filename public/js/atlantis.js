@@ -221,3 +221,35 @@ function chngimgsess4(x) {
         images.src = '../images/' + crd4[elm];
     }
 }
+
+z=0;
+function srllcrdssess5(x){
+    if (x == -1 && z > 0) {
+        z--;
+    } else if (x == 1 && z < 2) {
+        z++;
+    }else if(x == -1 && z ==0){
+        z= 2;
+    }else{
+        z= 0;
+    }
+
+    var crcl1sess5=document.getElementById('crcl1sess5');
+    var crcl2sess5=document.getElementById('crcl2sess5');
+    var crcl3sess5=document.getElementById('crcl3sess5');
+    if (z === 0) {
+        crcl1sess5.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl2sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl3sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+    } else if (z === 1) {
+        crcl1sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl2sess5.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl3sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+    } else if (z === 2) {
+        crcl1sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl2sess5.style.backgroundImage = "url(../images/ftbl.svg)";
+        crcl3sess5.style.backgroundImage = "url(../images/ptbl.svg)";
+    }
+
+    
+}

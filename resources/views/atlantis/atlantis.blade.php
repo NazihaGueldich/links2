@@ -151,7 +151,7 @@
             <div class="pt-lg-5 text-center">
                 <h2 class="main-title">Meet our Team Members</h2>
             </div>
-            <div class="row">
+            <div class="row session3-slick-web">
                 <div class="card card-session3  mt-lg-5 col-lg-6">
                     <div class="card-body  row card-img radius-20">
                         <div class="col-lg-6 sect3-crd1-prt1" id='sect3-crd1-prt1'>
@@ -160,9 +160,8 @@
                             <h2 class="sub-title" id='crd1h1k'>카멜 라가 </h2>
                             <h2 class="sub-title" id='crd1h1F'>Kamel Lagha</h2>
                             <p id='crd1Pst'>CEO of the agency</p>
-                            <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span
-                                    id='crd1eml'>Kamel@atlantis.tn</span></p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
+                                    id='crd1eml'>Kamel@atlantis.tn</span></div>
                         </div>
                     </div>
                 </div>
@@ -174,9 +173,8 @@
                             <h2 class="sub-title" id='crd2h1k'>정지혜 </h2>
                             <h2 class="sub-title" id='crd2h1F'>Heidi Jung</h2>
                             <p id="crd2Pst">Korean department</p>
-                            <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id="crd2eml">
-                                    jh.heidi.j@gmail.com</span></p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2"><span id="crd2eml">
+                                    jh.heidi.j@gmail.com</span></div>
                         </div>
                     </div>
                 </div>
@@ -188,9 +186,8 @@
                             <h2 class="sub-title" id="crd3h1k">마리엠 조그라미 </h2>
                             <h2 class="sub-title" id="crd3h1F">Meriem Zoghlami</h2>
                             <p id="crd3Pst">executive management</p>
-                            <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span
-                                    id="crd3eml">atlantis@atlantis.tn</span></p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
+                                    id="crd3eml">atlantis@atlantis.tn</span></div>
                         </div>
                     </div>
                 </div>
@@ -202,9 +199,62 @@
                             <h2 class="sub-title" id="crd4h1k">소니아 벤 아모르 </h2>
                             <h2 class="sub-title" id="crd4h1F">Sonia Ben Amor</h2>
                             <p id="crd4Pst">Tiketing Department</p>
-                            <p class="d-flex flex-row align-items-center"><img
-                                    src="{{ asset('images/emil.png') }}"><span id="crd4eml">
-                                    Sonia.Benamor@atlantis.tn</span></p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2"><span id="crd4eml">
+                                    Sonia.Benamor@atlantis.tn</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row session3-slick-mobile">
+                <div class="card card-session3  mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img radius-20">
+                        <div class="col-lg-6 sect3-crd1-prt1" id='sect3-crd1-prt1'>
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title" id='crd1h1k'>카멜 라가 </h2>
+                            <h2 class="sub-title" id='crd1h1F'>Kamel Lagha</h2>
+                            <p id='crd1Pst'>CEO of the agency</p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2 d-inline"><span
+                                    id='crd1eml'>Kamel@atlantis.tn</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3  mt-lg-5 col-lg-6">
+                    <div class="card-body  row card-img radius-20">
+                        <div class="col-lg-6 sect3-crd2-prt1" id='sect3-crd2-prt1'>
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title" id='crd2h1k'>정지혜 </h2>
+                            <h2 class="sub-title" id='crd2h1F'>Heidi Jung</h2>
+                            <p id="crd2Pst">Korean department</p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2 d-inline"><span id="crd2eml">
+                                    jh.heidi.j@gmail.com</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3 pt-lg-4 col-lg-6">
+                    <div class="card-body   radius-20 row card-img">
+                        <div class="col-lg-6 sect3-crd3-prt1" id='sect3-crd3-prt1'>
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title" id="crd3h1k">마리엠 조그라미 </h2>
+                            <h2 class="sub-title" id="crd3h1F">Meriem Zoghlami</h2>
+                            <p id="crd3Pst">executive management</p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2 d-inline"><span
+                                    id="crd3eml">atlantis@atlantis.tn</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-session3 pt-lg-4 col-lg-6">
+                    <div class="card-body radius-20 row card-img">
+                        <div class="col-lg-6 sect3-crd4-prt1" id='sect3-crd4-prt1'>
+                        </div>
+                        <div class="col-lg-6 h-100 py-3 sect3-crd-prt2 pl-lg-4">
+                            <h2 class="sub-title" id="crd4h1k">소니아 벤 아모르 </h2>
+                            <h2 class="sub-title" id="crd4h1F">Sonia Ben Amor</h2>
+                            <p id="crd4Pst">Tiketing Department</p>
+                            <div><img src="{{ asset('images/emil.png') }}" class="pr-2 d-inline"><span id="crd4eml">
+                                    Sonia.Benamor@atlantis.tn</span></div>
                         </div>
                     </div>
                 </div>
@@ -262,18 +312,122 @@
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
                     <div class="col-lg-6 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/sess4img1.png') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb" >
-                        <div class="dirct" style="">
+                        <img src="{{ asset('images/sess4img1.png') }}" class=" w-100 imgsess4 radius-20"
+                            id="imgsess4kb">
+                        <div class="dirct" >
                             <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess4(-1)">
-                            <img id='crcl11' src="{{ asset('images/pt.png') }}" >
-                            <img id='crcl22' src="{{ asset('images/crcl.png') }}" >
-                            <img id='crcl33' src="{{ asset('images/crcl.png') }}" >
+                            <img id='crcl11' src="{{ asset('images/pt.png') }}">
+                            <img id='crcl22' src="{{ asset('images/crcl.png') }}">
+                            <img id='crcl33' src="{{ asset('images/crcl.png') }}">
                             <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess4(1)">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
+
+        <div class="ligne-separtion"></div>
+
+        {{-- section 5 --}}
+        <section id="section-5 mt-5">
+            <div class="pt-lg-5 text-center">
+                <h2 class="main-title">TRANSPORTATION</h2>
+            </div>
+            <div class="row sess5-crds">
+                <div class="col-lg-3 offset-lg-1 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 offset-lg-1 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess4crd radius-20">
+                    <img src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <p class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> hammamet, tunisia
+                    </p>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 sccgrp">
+                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="prev" onclick="srllcrdssess5(-1)">
+                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <span id='crcl1sess5'></span>
+                <span id='crcl2sess5'></span>
+                <span id='crcl3sess5'></span>
+                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="next" onclick="srllcrdssess5(1)">
+                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
+
+    <script src="{{ asset('js/atlantis.js') }}"></script>
+    <script>
+            $('.session3-slick-mobile').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+    </script>
 </body>
+
+</html>
