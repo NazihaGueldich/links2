@@ -39,6 +39,10 @@ Route::get('/atlantis', function () {
     return view('atlantis.atlantis');
 });
 
+Route::get('/info', function () {
+    return view('info.info');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
