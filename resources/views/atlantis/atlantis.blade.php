@@ -337,7 +337,7 @@
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
             <div class="row sess5-crds">
-                <div class="col-lg-3 offset-lg-1 sess4crd radius-20">
+                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <img id='sess5crd1img' src="{{ asset('images/sess5crd1.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -347,7 +347,7 @@
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
                 </div>
-                <div class="col-lg-3 sess4crd radius-20">
+                <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd2img' src="{{ asset('images/sess5crd2.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -357,7 +357,7 @@
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
-                <div class="col-lg-3 sess4crd radius-20">
+                <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd3img' src="{{ asset('images/sess5crd3.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -367,7 +367,7 @@
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
-                <div class="col-lg-3 offset-lg-1 sess4crd radius-20">
+                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <img id='sess5crd4img'  src="{{ asset('images/sess5crd4.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -377,7 +377,7 @@
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
                 </div>
-                <div class="col-lg-3 sess4crd radius-20">
+                <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd5img' src="{{ asset('images/sess5crd5.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -387,7 +387,7 @@
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
-                <div class="col-lg-3 sess4crd radius-20">
+                <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd6img' src="{{ asset('images/sess5crd6.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -416,6 +416,45 @@
         </section>
 
         <div class="ligne-separtion"></div>
+
+         {{-- section 6 --}}
+         <section id="section-6 mt-5">
+            <div class="text-center pb-lg-5">
+                <h2 class="main-title">Guest houses</h2>
+            </div>
+            <div class="row sess6-crds">
+                <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+                <div class="col-lg-3 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+                <div class="col-lg-3 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+            </div>
+         </section>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

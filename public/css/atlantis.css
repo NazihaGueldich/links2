@@ -434,18 +434,18 @@ body .session3-slick-mobile{
 
 /* session 5 */
 
-.sess4crd {
+.sess5crd{
     border: 4.72px solid #347EFF;
     background-color: #77A7FB;
     height: 430px;
     padding: 0;
 }
 
-.sess4crd img {
+.sess5crd img ,.sess6crd img {
     width: 100%;
 }
 
-.sess5-crds {
+.sess5-crds ,.sess6-crds{
     gap: 56px;
 }
 
@@ -511,7 +511,7 @@ body .session3-slick-mobile{
     }
 }
 
-.sess5h2{
+.sess5h2,.sess6h2{
     position: absolute;
     left: 21%;
     top: 84%;
@@ -519,8 +519,17 @@ body .session3-slick-mobile{
 }
 
 @media (max-width: 767px) {
-    .sess5h2 {
+    .sess5h2 ,.sess6h2{
         left: 24%;
         top: 89%;
     }
+}
+
+/* section 6 */
+
+.sess6crd{
+    border: 4.72px solid #FFFFFF;
+    background-color: #347EFF;
+    height: 430px;
+    padding: 0;
 }
