@@ -344,6 +344,9 @@ body .session6-slick-mobile {
 }
 
 @media (max-width: 912px) {
+    .sccgrp{
+        display: none !important;
+    }
 
     .session3-slick-web,
     .session5-slick-web,
