@@ -122,7 +122,7 @@
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-0 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0">
-                        <img src="{{ asset('images/atltn_ses2.png') }}" class="w-100">
+                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100">
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
                         <h2 class="sub-title pt-lg-5">"튀니지로 여러분을 초대합니다"</h2>
@@ -294,7 +294,7 @@
             </div>
             <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
                 <div class="card-body p-lg-5 row">
-                    <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
+                    <div class="col-lg-5 pt-lg-5 h-100 pr-lg-5">
                         <input hidden value=0 id='numcrd'>
                         <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
 
@@ -312,8 +312,8 @@
                         <h5 class="sub-sub-title" id='h1sess4'>places 1-4</h5>
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
-                    <div class="col-lg-6 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/sess4img1.png') }}" class=" w-100 imgsess4 radius-20"
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
+                        <img src="{{ asset('images/van1.jpg') }}" class=" w-100 imgsess4 radius-20"
                             id="imgsess4kb">
                         <div class="dirct">
                             <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess4(-1)">
@@ -341,7 +341,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd1p">hammamet, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
@@ -351,7 +351,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd2p"> tOZEUR, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
@@ -361,7 +361,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd3p">  SOUSSE, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd3p">  SOUSSE, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
@@ -371,7 +371,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd4p"> tunis, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd4p"> TUNIS, Tunisia</p>
                         </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
@@ -381,7 +381,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd5p"> Kairouan, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd5p">  KAIROUAN, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
@@ -391,7 +391,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd6p"> Tunis, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd6p">  TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">SHERATON TUNIS</h2>
@@ -403,7 +403,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd1p">hammamet, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
@@ -413,7 +413,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd2p"> tOZEUR, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
@@ -423,7 +423,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd3p">  SOUSSE, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd3p">  SOUSSE, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
@@ -433,7 +433,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd4p"> tunis, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd4p"> TUNIS, Tunisia</p>
                         </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
@@ -443,7 +443,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd5p"> Kairouan, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
@@ -453,7 +453,7 @@
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd6p"> Tunis, tunisia</p>
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">SHERATON TUNIS</h2>
