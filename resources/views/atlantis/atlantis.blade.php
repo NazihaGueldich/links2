@@ -88,7 +88,7 @@
             <div class="card card-session1 radius-20 mt-lg-5">
                 <div class="card-body p-lg-5 row">
                     <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
-                        <p class="mb-lg-4">
+                        <p class="mb-lg-4 pt-lg-5">
                             아틀란티스 여행사는 1991년에 시작하여,
                             현재 한국을 포함해 아시아 및 유럽 각지의 여행사들과
                             협력하여 일하고 있습니다.</p>
@@ -116,19 +116,18 @@
 
         {{-- section 2 --}}
         <section id="section-2 mt-5">
-            <div class="pt-lg-5 text-center">
+            <div class="text-center">
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-0 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0">
                         <img src="{{ asset('images/atltn_ses2.png') }}" class="w-100">
-                        <img src="{{ asset('images/at-sess2-img2.png') }}" class='position-absolute'>
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
-                        <h2 class="sub-title">"튀니지로 여러분을 초대합니다"</h2>
+                        <h2 class="sub-title pt-lg-5">"튀니지로 여러분을 초대합니다"</h2>
 
-                        <p>반갑습니다,</p>
+                        <p class="pt-lg-5">반갑습니다,</p>
                         <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
                         <p>유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
                         <p>튀니지는 프랑스 및 이탈리아에 인접하여,
@@ -137,7 +136,7 @@
                             튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
                             최고의 여행을 안내해 드립니다.</p>
                         <p>곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
-                        <h5 class="sub-sub-title">카멜 라가,</h5>
+                        <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
                         <p>아틀란티스 여행사 대표</p>
                     </div>
                 </div>
@@ -148,7 +147,7 @@
 
         {{-- section 3 --}}
         <section id="section-3 mt-5">
-            <div class="pt-lg-5 text-center">
+            <div class="text-center">
                 <h2 class="main-title">Meet our Team Members</h2>
             </div>
             <div class="row session3-slick-web">
@@ -575,6 +574,21 @@
             slidesToShow: 1,
             slidesToScroll: 1
         });
+    </script>
+    <script>
+        function toggleNavbarBackground() {
+            var body = document.querySelector('body');
+            body.classList.toggle('navbar-toggled');
+        }
+        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
+            if ($(this).find('.parag-img').css('opacity', '0')) {
+                $(this).find('.parag-img').css('opacity', '1')
+                console.log("h1")
+            } else {
+                $(this).find('.parag-img').css('opacity', '0');
+                console.log("h2")
+            }
+        })
     </script>
 </body>
 
