@@ -294,7 +294,7 @@
             </div>
             <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
                 <div class="card-body p-lg-5 row">
-                    <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
+                    <div class="col-lg-5 pt-lg-5 h-100 pr-lg-5">
                         <input hidden value=0 id='numcrd'>
                         <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
 
@@ -312,7 +312,7 @@
                         <h5 class="sub-sub-title" id='h1sess4'>places 1-4</h5>
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
-                    <div class="col-lg-6 h-100 card-session4-cnt-imgs px-0">
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
                         <img src="{{ asset('images/sess4img1.png') }}" class=" w-100 imgsess4 radius-20"
                             id="imgsess4kb">
                         <div class="dirct">
