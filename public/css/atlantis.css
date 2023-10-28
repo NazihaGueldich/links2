@@ -440,11 +440,11 @@ body .session6-slick-mobile {
 }
 
 .card-session4-cnt {
-    border: 1.98px solid #347EFF;
+    border: 2px solid #347EFF;
 }
 
 .imgsess4 {
-    border: 1.98px solid #5492FF;
+    border: 2px solid #5492FF;
     position: relative;
     z-index: 1;
     height: 600px;
@@ -484,7 +484,6 @@ body .session6-slick-mobile {
 /* session 5 */
 
 .sess5crd {
-    border: 4.72px solid #347EFF;
     background-color: #77A7FB;
     height: 430px;
     padding: 0;

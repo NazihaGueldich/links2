@@ -75,17 +75,17 @@ function srllcrds(x){
     var eml0=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
     var img0=['crd1frst.png','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
     //seconde crcl
-    var h1K1=['Zhouhour','정지혜','마리엠 조그라미','소니아 벤 아모르'];
+    var h1K1=['카멜 라가','정지혜','마리엠 조그라미','소니아 벤 아모르'];
     var h1F1=['Kamel Lagha','Heidi Jung','Meriem Zoghlami','Sonia Ben Amor'];
     var pst1=['CEO of the agency','Korean department','executive management','Tiketing Department'];
     var eml1=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
-    var img1=['teste2.png','crd2frst.jpg','testett.png','crd4frst.jpg'];
+    var img1=['crd1frst.png','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
     //third crcl
-    var h1K2=['nzouh','정지혜','마리엠 조그라미','소니아 벤 아모르'];
+    var h1K2=['카멜 라가','정지혜','마리엠 조그라미','소니아 벤 아모르'];
     var h1F2=['Kamel Lagha','Heidi Jung','Meriem Zoghlami','Sonia Ben Amor'];
     var pst2=['CEO of the agency','Korean department','executive management','Tiketing Department'];
     var eml2=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
-    var img2=['testett.png','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
+    var img2=['crd1frst.png','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
 
     var j=0;
     //action sur les card 
@@ -163,7 +163,7 @@ function chngcontsess4(x){
     ];
     var h1 =['places 1-4', "placesMax 22 (최대 22명)","PlacesMax 53 (최대 53명)","PlacesMax 8 "];
     var h2 =['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ","Fee 상담 후 메일 안내","Fee 상담 후 메일 안내"];
-    var img=['sess4img1.png','Mini bus 2.jpg','sahrouch.png','Van 2.jpg',];
+    var img=['van1.jpg','Mini bus 2.jpg','bus.png','Van 2.jpg',];
 
     document.getElementById('psess4').innerHTML=p[x];
     document.getElementById('h1sess4').innerHTML=h1[x];
@@ -207,9 +207,9 @@ function chngimgsess4(x) {
     var numcrd=document.getElementById('numcrd').value;
     var images=document.getElementById('imgsess4kb');
 
-    var crd1=['sess4img1.png','van1.jpg','van1.jpg'];
+    var crd1=['van1.jpg','van1.jpg','van1.jpg'];
     var crd2=['Mini bus 2.jpg','Mini bus 3.jpg','Mini bus 5.jpg'];
-    var crd3=['sahrouch.png','splash screen.png','Rectangle.png'];
+    var crd3=['bus.png','bus.png','bus.png'];
     var crd4=['Van 2.jpg','van1.jpg','van1.jpg'];
     if(numcrd==0){
         images.src = '../images/' + crd1[elm];
@@ -254,16 +254,16 @@ function srllcrdssess5(x){
      //declaration des cnst
     //first crcl
     var h20=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
-    var p0=['hammamet, tunisia','tOZEUR, tunisia','tOZEUR, tunisia','tunis, tunisia','CEO of the agency','Tunis, tunisia'];
+    var p0=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
     var img0=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
     //seconde crcl
-    var h21=['SHERATON TUNIS','Le Kasbah Kairouan','The residence Tunis','Movenpick Sousse','Anantara Tozeur','Four seasons Tunis'];
-    var p1=['Tunis, tunisia','tunis, tunisia',' SOUSSE, tunisia','tOZEUR, tunisia','tOZEUR, tunisia','hammamet, tunisia'];
-    var img1=['sess5crd6.png','sess5crd5.png','sess5crd4.png','sess5crd3.png','sess5crd2.png','sess5crd1.png'];
+    var h21=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
+    var p1=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
+    var img1=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
     //third crcl
-    var h22=['Movenpick Sousse','Anantara Tozeur','SHERATON TUNIS','The residence Tunis','Four seasons Tunis','Le Kasbah Kairouan'];
-    var p2=['tOZEUR, tunisia','Tunis, tunisia','tOZEUR, tunisia',' SOUSSE, tunisia','hammamet, tunisia','tunis, tunisia'];
-    var img2=['sess5crd3.png','sess5crd6.png','sess5crd2.png','sess5crd4.png','sess5crd1.png','sess5crd5.png'];
+    var h22=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
+    var p2=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
+    var img2=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
 
     var ind=0;
     //action sur les card 
