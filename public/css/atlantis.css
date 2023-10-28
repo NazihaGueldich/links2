@@ -228,6 +228,10 @@ body p {
     justify-content: flex-end;
 }
 
+.sect2-prt1 img{
+    border-radius: 20px 0 0 20px;
+}
+
 @media (max-width: 912px) {
     .sect2-prt1 {
         padding: 0;
@@ -284,19 +288,19 @@ body p {
 }
 
 .sect3-crd2-prt1 {
-    background-image: url("../images/crd2frst.png");
+    background-image: url("../images/crd2frst.jpg");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
 
 .sect3-crd3-prt1 {
-    background-image: url("../images/crd3frst.png");
+    background-image: url("../images/crd3frst.jpg");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
 
 .sect3-crd4-prt1 {
-    background-image: url("../images/crd4frst.png");
+    background-image: url("../images/crd4frst.jpg");
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }

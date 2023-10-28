@@ -122,7 +122,7 @@
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-0 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0">
-                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100 radius-20">
+                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100">
                     </div>
                     <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
                         <h2 class="sub-title pt-lg-5">"튀니지로 여러분을 초대합니다"</h2>
