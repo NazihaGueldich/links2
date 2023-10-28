@@ -73,19 +73,19 @@ function srllcrds(x){
     var h1F0=['Kamel Lagha','Heidi Jung','Meriem Zoghlami','Sonia Ben Amor'];
     var pst0=['CEO of the agency','Korean department','executive management','Tiketing Department'];
     var eml0=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
-    var img0=['crd1frst.png','crd2frst.png','crd3frst.png','crd4frst.png'];
+    var img0=['crd1frst.jpg','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
     //seconde crcl
     var h1K1=['Zhouhour','정지혜','마리엠 조그라미','소니아 벤 아모르'];
     var h1F1=['Kamel Lagha','Heidi Jung','Meriem Zoghlami','Sonia Ben Amor'];
     var pst1=['CEO of the agency','Korean department','executive management','Tiketing Department'];
     var eml1=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
-    var img1=['teste2.png','crd2frst.png','testett.png','crd4frst.png'];
+    var img1=['teste2.png','crd2frst.jpg','testett.png','crd4frst.jpg'];
     //third crcl
     var h1K2=['nzouh','정지혜','마리엠 조그라미','소니아 벤 아모르'];
     var h1F2=['Kamel Lagha','Heidi Jung','Meriem Zoghlami','Sonia Ben Amor'];
     var pst2=['CEO of the agency','Korean department','executive management','Tiketing Department'];
     var eml2=['Kamel@atlantis.tn','jh.heidi.j@gmail.com','atlantis@atlantis.tn','Sonia.Benamor@atlantis.tn'];
-    var img2=['testett.png','crd2frst.png','crd3frst.png','crd4frst.png'];
+    var img2=['testett.png','crd2frst.jpg','crd3frst.jpg','crd4frst.jpg'];
 
     var j=0;
     //action sur les card 
