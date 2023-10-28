@@ -18,6 +18,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }}">
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('images/LogoProk.png') }}">
+    <link rel="icon" href="/Tunisiatrip.ico" type="image/x-icon">
     <title>Atlantis Page</title>
 </head>
