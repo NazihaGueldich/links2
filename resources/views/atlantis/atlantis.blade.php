@@ -43,7 +43,7 @@
     </nav>
     <div class="container mt-5">
         {{-- icons --}}
-        <div class="flex-container pt-5">
+        <div class="flex-container pt-5 sessicn">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                 <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                 <p id="p1" class="txticns">호텔</p>
@@ -336,7 +336,69 @@
             <div class="text-center pb-lg-5">
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
-            <div class="row sess5-crds">
+            <div class="row sess5-crds  session5-slick-web">
+                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                    <img id='sess5crd1img' src="{{ asset('images/sess5crd1.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd1p">hammamet, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <img id='sess5crd2img' src="{{ asset('images/sess5crd2.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd2p"> tOZEUR, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <img id='sess5crd3img' src="{{ asset('images/sess5crd3.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd3p">  SOUSSE, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
+                </div>
+                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                    <img id='sess5crd4img'  src="{{ asset('images/sess5crd4.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd4p"> tunis, tunisia</p>
+                        </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <img id='sess5crd5img' src="{{ asset('images/sess5crd5.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"><p id="sess5crd5p"> Kairouan, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <img id='sess5crd6img' src="{{ asset('images/sess5crd6.png') }}">
+                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p id="sess5crd6p"> Tunis, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">SHERATON TUNIS</h2>
+                </div>
+            </div>
+            <div class="row sess5-crds  session5-slick-mobile">
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <img id='sess5crd1img' src="{{ asset('images/sess5crd1.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
@@ -422,7 +484,39 @@
             <div class="text-center pb-lg-5">
                 <h2 class="main-title">Guest houses</h2>
             </div>
-            <div class="row sess6-crds">
+            <div class="row sess6-crds session6-slick-web">
+                <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+                <div class="col-lg-3 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+                <div class="col-lg-3 sess6crd radius-20">
+                    <img  src="{{ asset('images/sess6crd.png') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2"> <p>Bizerte, tunisia</p>
+                    </div>
+                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <h2  class="sub-title sess6h2">Dar el-emma</h2>
+                </div>
+            </div>
+            <div class="row sess6-crds session6-slick-mobile">
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
                     <img  src="{{ asset('images/sess6crd.png') }}">
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
@@ -467,6 +561,16 @@
     <script src="{{ asset('js/atlantis.js') }}"></script>
     <script>
         $('.session3-slick-mobile').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+        $('.session5-slick-mobile').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+        $('.session6-slick-mobile').slick({
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1

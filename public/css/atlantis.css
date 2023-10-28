@@ -179,6 +179,12 @@ body p {
     min-height: 50px;
 }
 
+@media (max-width: 767px) {
+    .sessicn {
+        display: none;
+    }
+}
+
 /* section 1 */
 
 .card-session1 {
@@ -317,14 +323,14 @@ body p {
 }
 
 
-body .session3-slick-mobile{
+body .session3-slick-mobile,body .session5-slick-mobile,body .session6-slick-mobile{
     display: none;
 }
 @media (max-width: 912px) {
-    .session3-slick-web{
+    .session3-slick-web,.session5-slick-web,.session6-slick-web{
         display: none;
     }
-    body .session3-slick-mobile{
+    body .session3-slick-mobile,body .session5-slick-mobile,body .session6-slick-mobile{
         display: block;
     }
 }
@@ -533,3 +539,4 @@ body .session3-slick-mobile{
     height: 430px;
     padding: 0;
 }
+
