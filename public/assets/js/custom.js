@@ -1,7 +1,7 @@
 $('.list-culinary-card').slick({
-    infinite: true,
+    infinite: false,
     speed: 300,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     responsive: [
@@ -24,6 +24,8 @@ $('.list-culinary-card').slick({
       {
         breakpoint: 480,
         settings: {
+          arrows: false,
+          dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -32,16 +34,27 @@ $('.list-culinary-card').slick({
   });
 
   $('.list-museums-card').slick({
-    infinite: true,
+    infinite: false,
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    dot: true
+    dots: false,
+      responsive: [
+          {
+              breakpoint: 480,
+              settings: {
+                  arrows: false,
+                  dots: true,
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+              }
+          }
+      ]
   });
 
   $('.list-souvenir-card').slick({
-    infinite: true,
+    infinite: false,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -66,6 +79,8 @@ $('.list-culinary-card').slick({
       {
         breakpoint: 480,
         settings: {
+          arrows: false,
+          dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }

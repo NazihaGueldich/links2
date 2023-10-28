@@ -1,28 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ @include('info.script')
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-
-    <!-- Slick slider CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Style CSS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Noto+Sans+KR:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
-
-    <title>Tunisiatrip By Atlantis</title>
-  </head>
-  <body>
+<body id="page-info">
+  @include('layouts.front.header')
     <main>
         <div class="wrapper">
             <section id="p3-section1">
@@ -30,9 +9,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">Common Expressions</h2>
+                                <h2 class="main-title dm-sans text-center">Common Expressions</h2>
                                 <p class="sub-title text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                     <div class="row wrap-custom-card">
@@ -78,8 +57,8 @@
                                 <img class="custom-card-img" src="{{asset('assets/img/Mahlek_icon.svg')}}" alt="Aslema">
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
             </section>
@@ -90,10 +69,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">Culinary Recommendations</h2>
+                                <h2 class="main-title dm-sans text-center">Culinary Recommendations</h2>
                                 <p class="sub-title text-center">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요.<br>
                                     역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.<br>
-                                    올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.                                    
+                                    올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.
                                 </p>
                                 <br>
                                 <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
@@ -169,7 +148,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">TRANSPORTATION</h2>
+                                <h2 class="main-title dm-sans text-center">Transportation</h2>
                             </div>
                         </div>
                     </div>
@@ -182,23 +161,23 @@
                                 <li><a data-toggle="tab" href="#airplane">Airplane</a></li>
                                 <li><a data-toggle="tab" href="#rentcar">Rent Car</a></li>
                             </ul>
-                              
+
                             <div class="tab-content">
                                 <div id="taxi" class="tab-pane fade in active show">
                                     <div class="row">
-                                        <div class="col-md-6 pr-0 pr-md-5">
-                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이  
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이
                                                 있어요.<br>
-                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 
+                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금
                                                 지급 방식이 달라요</p>
-                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를 
-                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색 
-                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 
-                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 
-                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이 
+                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를
+                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색
+                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져
+                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽
+                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이
                                                 적용돼요.</p>
-                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더 
-                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리 
+                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더
+                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리
                                                 사용되는 앱은 ‘Bolt’예요. 이동 장소를 입력하면 가격이 앱에 연결되어 자동으로 책정되고, 도착 예정 시간과 현재 위치 등도 실시간으로 확인할 수 있어요.</p>
                                         </div>
                                         <div class="col-md-6">
@@ -208,20 +187,13 @@
                                 </div>
                                 <div id="louage" class="tab-pane fade">
                                     <div class="row">
-                                        <div class="col-md-6 pr-0 pr-md-5">
-                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이  
-                                                있어요.<br>
-                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 
-                                                지급 방식이 달라요</p>
-                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를 
-                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색 
-                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 
-                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 
-                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이 
-                                                적용돼요.</p>
-                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더 
-                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리 
-                                                사용되는 앱은 ‘Bolt’예요. 이동 장소를 입력하면 가격이 앱에 연결되어 자동으로 책정되고, 도착 예정 시간과 현재 위치 등도 실시간으로 확인할 수 있어요.</p>
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>루아지는 시외 이동 시 이용하는 합동 승합 택시 개념의 미니버스예요.<br>
+                                                경로와 요금이 정해져 있어요. 8명의 승객이 다 찰 때까지 기다렸다가 출발하기 때문에 시간표는 없습니다.</p>
+                                            <p>시외 이동을 위한 루아지 탑승 정류장은 아래를 확인하세요.</p>
+                                            <p>Station louage Beb Alioua ; 서남부 (Hammamet, Nabeul 등)</p>
+                                            <p>Station louage Beb Saadoun ; 북부 (Bizerte, Tabarka 등)</p>
+                                            <p>Station louage Moncef Bey ; 남부 (Sousse, Sfax, Djerba)    </p>
                                         </div>
                                         <div class="col-md-6">
                                             <img src="{{asset('assets/img/taxi.png')}}" class="img-fluid" alt="taxi">
@@ -230,20 +202,13 @@
                                 </div>
                                 <div id="train" class="tab-pane fade">
                                     <div class="row">
-                                        <div class="col-md-6 pr-0 pr-md-5">
-                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이  
-                                                있어요.<br>
-                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 
-                                                지급 방식이 달라요</p>
-                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를 
-                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색 
-                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 
-                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 
-                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이 
-                                                적용돼요.</p>
-                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더 
-                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리 
-                                                사용되는 앱은 ‘Bolt’예요. 이동 장소를 입력하면 가격이 앱에 연결되어 자동으로 책정되고, 도착 예정 시간과 현재 위치 등도 실시간으로 확인할 수 있어요.</p>
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>수도 튀니스에는 메트로라고 불리는 경전철 시스템이 있어요.<br>
+                                                총 6개 선의 노선을 운영하며 튀니스 시내와 도심을 연결해요.<br>
+                                                지하철역에 있는 매표소에서 목적지를 말하면, 부스에 있는 직원을 통해 금액을 안내받고 종이 표를 받아요. 요금은 거리에 따라 달라지지만 보통 2TND 내외입니다.</p>
+                                            <p>TGM이라고 불리는 트램도 운행합니다.</p>
+                                            <p>튀니스 시내 중심부터 유명 관광지 카르타고, 시디 부 사이드, 라 마르사 등을 연결해요.</p>
+                                            <p>또한 교외 도시를 연결하는 기차도 있어요.</p>
                                         </div>
                                         <div class="col-md-6">
                                             <img src="{{asset('assets/img/taxi.png')}}" class="img-fluid" alt="taxi">
@@ -252,20 +217,10 @@
                                 </div>
                                 <div id="airplane" class="tab-pane fade">
                                     <div class="row">
-                                        <div class="col-md-6 pr-0 pr-md-5">
-                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이  
-                                                있어요.<br>
-                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 
-                                                지급 방식이 달라요</p>
-                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를 
-                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색 
-                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 
-                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 
-                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이 
-                                                적용돼요.</p>
-                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더 
-                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리 
-                                                사용되는 앱은 ‘Bolt’예요. 이동 장소를 입력하면 가격이 앱에 연결되어 자동으로 책정되고, 도착 예정 시간과 현재 위치 등도 실시간으로 확인할 수 있어요.</p>
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>가장 큰 공항의 이름은 고대 로마 도시 카르타고의 이름을 따 ‘튀니스 카르타고 국제공항’으로 명명됐어요.</p>
+                                            <p>매일 수십 개의 주요 유럽 도시를 지원하는 항공편이 있고, 튀니스, 제르바, 모나스티르 등 주요 도시를 효율적으로 오갈 수 있는 비행편도 운영 중입니다.</p>
+                                            <p>튀니스 카르타고 국제공항과 도시 간의 직행열차나 버스는 없지만, 터미널 밖을 나오면 택시 정류장이 있고 여러 렌터카 업체도 상주해 있어요.</p>
                                         </div>
                                         <div class="col-md-6">
                                             <img src="{{asset('assets/img/taxi.png')}}" class="img-fluid" alt="taxi">
@@ -274,20 +229,10 @@
                                 </div>
                                 <div id="rentcar" class="tab-pane fade">
                                     <div class="row">
-                                        <div class="col-md-6 pr-0 pr-md-5">
-                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이  
-                                                있어요.<br>
-                                                택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 
-                                                지급 방식이 달라요</p>
-                                            <p>미터 택시는 빈 택시를 잡아서 타는 방식이고, 미터기를 
-                                                통해 요금을 지급해요. 차량 오른쪽 아래에 빨간색 
-                                                표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 
-                                                있으면 이미 운행 중이라는 의미에요.기본요금은 우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 
-                                                5시까지는 야간 할증이 적용되어 약 40% 높은 금액이 
-                                                적용돼요.</p>
-                                            <p>앱 택시를 이용하면 가격은 미터 택시보다 조금 더 
-                                                비싸지만 편하게 튀니지를 다닐 수 있어요. 가장 널리 
-                                                사용되는 앱은 ‘Bolt’예요. 이동 장소를 입력하면 가격이 앱에 연결되어 자동으로 책정되고, 도착 예정 시간과 현재 위치 등도 실시간으로 확인할 수 있어요.</p>
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>자동차 렌트를 통해 자유롭게 튀니지를 여행할 수도 있어요.</p>
+                                            <p>우리나라와 같이 운전석은 왼쪽에, 조수석은 오른쪽에 있고 국제 고속도로 법규가 적용됩니다. 도로 대부분의 표지판에는 아랍어와 프랑스어로 이중언어 표기가 돼 있어요.</p>
+                                            <p>공항이나 현지 자동차 대여소에서 차를 빌릴 수 있으니, 차를 빌릴 여행객들은 미리 알아보는 걸 추천해 드려요.다만 주차 공간이 부족하고 도로가 좁아 첫 방문 시 운전은 쉽지 않으니 주의하세요.</p>
                                         </div>
                                         <div class="col-md-6">
                                             <img src="{{asset('assets/img/taxi.png')}}" class="img-fluid" alt="taxi">
@@ -306,9 +251,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">Museums</h2>
+                                <h2 class="main-title dm-sans text-center">Museums</h2>
                                 <p class="sub-title text-center">튀니지 박물관은 대부분 월요일이 휴관일이에요.<br>
-                                    영업시간은 계절에 따라 차이가 있으므로 확인 후 방문하시길 추천해 드립니다.                                    
+                                    영업시간은 계절에 따라 차이가 있으므로 확인 후 방문하시길 추천해 드립니다.
                                 </p>
                                 <br>
                                 <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
@@ -323,9 +268,10 @@
                                         <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
                                         <div class="card-body p-0">
                                           <h5 class="card-title">바르도 박물관</h5>
-                                          <p class="card-text">바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.<br>
-                                            특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어<br>
-                                            세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                                          <div class="card-text">
+                                              <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
+                                              <p>특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어<br>세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                                          </div>
                                         </div>
                                       </div>
                                 </li>
@@ -333,23 +279,87 @@
                                     <div class="museums-card">
                                         <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
                                         <div class="card-body p-0">
-                                          <h5 class="card-title">바르도 박물관 2</h5>
-                                          <p class="card-text">바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.<br>
-                                            특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어<br>
-                                            세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                                          <h5 class="card-title">카르타고 박물관</h5>
+                                          <div class="card-text">
+                                            <p>카르타고 중심부, 비르사 언덕 꼭대기에 위치해요.</p>
+                                            <p>1875년에 설립된 박물관은 포에니 시대를 포함하여<br>여러 시대를 거친 고고학 유물을 보존하고 전시하고 있어요.</p>
+                                            <p>많은 유물 중에서도 카르타고 묘지에서 발굴된 기원전 3세기의 대리석 석관이 유명해요.</p>
+                                          </div>
                                         </div>
-                                      </div>
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="museums-card">
                                         <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
                                         <div class="card-body p-0">
-                                          <h5 class="card-title">바르도 박물관 3</h5>
-                                          <p class="card-text">바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.<br>
-                                            특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어<br>
-                                            세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                                          <h5 class="card-title">하비브 부르기바 박물관</h5>
+                                          <div class="card-text">
+                                              <p>1957년부터 1987년 집권한  튀니지 공화국의 초대 대통령
+                                                  하비브 부르기바 사망 13주년을 기념하여 2013년에 개장했어요.</p>
+                                              <p>하비브 부르기바의 고향인 모나스티르에 자리 잡고 있고
+                                                  카르타고 대통령궁에서 발견된
+                                                  개인 소지품과 사진 앨범, 연설 녹음, 승마 동상 등을 확인할 수 있어요.</p>
+                                          </div>
                                         </div>
                                       </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="museums-card">
+                                        <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
+                                        <div class="card-body p-0">
+                                            <h5 class="card-title">다르 애시드 박물관</h5>
+                                            <div class="card-text">
+                                                <p>튀니지 수스 지역에 있는 박물관으로,
+                                                    19세기 오스만 시대 전형적인 부유층의 저택이
+                                                    당시 사용했던 가구와 도구 등이 그대로 전시돼있어</p>
+                                                <p>중세 시대 중산층의 생활상을 확인할 수 있어요.</p>
+                                                <p>꼭대기 층에서 메디나와 바다 전경을 볼 수 있어요.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="museums-card">
+                                        <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
+                                        <div class="card-body p-0">
+                                            <h5 class="card-title">수스 고고학 박물관</h5>
+                                            <div class="card-text">
+                                                <p>바르도 국립 박물관 다음으로 광범위한 모자이크 컬렉션을 자랑하는 박물관이에요.</p>
+                                                <p>사냥, 오락 등과 관련된 많은 작품을 통해 당시의 삶을 엿볼 수 있습니다.</p>
+                                                <p>모자이크 외에도 시대를 망라하는 여러 조각품을 소장하고 있어요.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="museums-card">
+                                        <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
+                                        <div class="card-body p-0">
+                                            <h5 class="card-title">다르 체라이트 박물관</h5>
+                                            <div class="card-text">
+                                                <p>튀니지 최초의 사설 박물관이에요.</p>
+                                                <p>1990년 튀니지 유산 홍보를 위한 여러 문화 프로젝트를 시작했던 당시 토주르의 시장,
+                                                    압델라자크 체레이트(Abderrazak Cherait)에 의해 설립됐어요.</p>
+                                                <p>과거 생활 장면을 엿볼 수 있는 전형적인 부엌, 터키식 목욕탕 등을 볼 수 있어요.</p>
+                                                <p>도자기, 보석, 의복, 기타 골동품 등의 전시물도 확인할 수 있습니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="museums-card">
+                                        <img class="card-img-top" src="{{asset('assets/img/museums1.png')}}" alt="Museums">
+                                        <div class="card-body p-0">
+                                            <h5 class="card-title">엘젬 고고학 박물관</h5>
+                                            <div class="card-text">
+                                                <p>엘젬 박물관은 엘젬 원형 극장 근처에 위치해있습니다.</p>
+                                                <p>로마시대 번성했던 귀족의 가옥에 공간 구성을 복원하여, 1970년 처음 문을 열었습니다.</p>
+                                                <p>로마 가옥은 물론 모자이크, 조각품, 도자기 등의 전시물을 볼 수 있습니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -363,8 +373,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">festivals coming soon</h2>
-                            </div>                            
+                                <h2 class="main-title dm-sans text-center">festivals coming soon</h2>
+                            </div>
                         </div>
                     </div>
                     <div class="row wrap-festival-card">
@@ -374,7 +384,7 @@
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
                                     <li class="icone-place">축제의 장소</li>
-                                </ul>                                
+                                </ul>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -432,7 +442,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="dm-sans text-center">Souvenir Items We Recommend</h2>
+                                <h2 class="main-title dm-sans text-center">Souvenir Items We Recommend</h2>
                             </div>
                         </div>
                     </div>
@@ -474,20 +484,7 @@
                     </div>
                 </div>
             </section>
-            <div class="separateur"></div>
+            <div class="my-5"></div>
         </div>
     </main>
-
-
-   
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="{{asset('assets/js/custom.js')}}"></script>
-
-  </body>
-</html>
+  @include('layouts.front.footer')

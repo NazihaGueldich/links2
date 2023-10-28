@@ -23,6 +23,18 @@ ul {
   color: #347EFF;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
 .slick-list .slick-track {
   display: flex;
   gap: 30px;
@@ -56,37 +68,49 @@ ul {
   transform: translateY(-50%);
 }
 
+#page-info section {
+  padding: 0;
+}
+#page-info .slick-next {
+  right: -30px;
+  margin: 0;
+}
+#page-info .slick-prev {
+  left: -35px;
+  margin: 0;
+}
+
+#p3-section1 {
+  margin-top: 120px;
+}
+
 body {
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   color: #515151;
   line-height: 1.15;
   background: #F7F8FB;
-}
-body h2 {
-  font-size: 50px;
-  font-weight: 700;
-  color: #347EFF;
-  text-transform: uppercase;
-  line-height: 1.13;
-  margin: 0 0 20px;
-}
-@media screen and (max-width: 768px) {
-  body h2 {
-    font-size: 30px;
-  }
-}
-body .sub-title {
-  font-feature-settings: "clig" off, "liga" off;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 500;
-  margin: 5px 0;
-}
-@media screen and (max-width: 768px) {
-  body .sub-title {
-    font-size: 20px;
-  }
+  /* h2 {
+       font-size: 50px;
+       font-weight: 700;
+       color: $main-color;
+       text-transform: uppercase;
+       line-height: 1.13;
+       margin: 0 0 20px;
+       @media screen and (max-width: 768px) {
+           font-size: 30px;
+       }
+   } */
+  /*.sub-title {
+       font-feature-settings: 'clig' off, 'liga' off;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 500;
+       margin: 5px 0;
+       @media screen and (max-width: 768px) {
+           font-size: 20px;
+       }
+   }*/
 }
 body .separateur {
   position: relative;
@@ -94,7 +118,7 @@ body .separateur {
   width: 100%;
   float: left;
   clear: both;
-  margin: 80px 0;
+  margin: 50px 0;
 }
 body .separateur:before {
   content: "";
@@ -107,18 +131,26 @@ body .separateur:before {
   transform: translateX(-50%);
 }
 body .wrap-custom-card {
-  margin-top: 50px;
+  width: 830px;
+  margin: 30px auto 0;
+  max-width: 100%;
+}
+body .wrap-custom-card > .col-md-4 {
+  display: flex;
+  justify-content: center;
 }
 body .wrap-custom-card .custom-card {
   text-align: center;
   border: 2px solid #347EFF;
   border-radius: 20px;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  width: 250px;
+  max-width: 100%;
 }
 body .wrap-custom-card .custom-card .custom-card-title {
   display: inline-block;
-  font-size: 45px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.15;
@@ -132,23 +164,26 @@ body .wrap-custom-card .custom-card .custom-card-title {
   }
 }
 body .wrap-custom-card .custom-card .custom-card-text {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.15;
+  margin-bottom: 0;
 }
 body .wrap-culinary-card {
-  margin-top: 60px;
+  width: 860px;
+  max-width: 100%;
+  margin: 60px auto 0;
 }
-body .wrap-culinary-card .list-culinary-card {
-  display: flex;
+body .wrap-culinary-card .slick-list .slick-track {
+  gap: 15px;
 }
 body .wrap-culinary-card .culinary-card {
   padding: 16px 16px 32px 16px;
   border-radius: 10px;
   border: 2px solid #347EFF;
   background: #FFF;
-  min-height: 400px;
+  min-height: 370px;
 }
 body .wrap-culinary-card .culinary-card .card-img-top {
   width: auto;
@@ -156,14 +191,14 @@ body .wrap-culinary-card .culinary-card .card-img-top {
   height: auto;
 }
 body .wrap-culinary-card .culinary-card .card-body {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 body .wrap-culinary-card .culinary-card .card-body h5 {
   color: #347EFF;
-  font-size: 22px;
+  font-size: 1.15rem;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 body .wrap-culinary-card .culinary-card .card-body .card-text {
   color: #515151;
@@ -171,11 +206,28 @@ body .wrap-culinary-card .culinary-card .card-body .card-text {
   font-style: normal;
   font-weight: 100;
 }
+body #p3-section3,
+body #p3-section4,
+body #p3-section5 {
+  width: 830px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+body #p3-section3 > .container,
+body #p3-section4 > .container,
+body #p3-section5 > .container {
+  width: 830px;
+}
+body #p3-section3 > .container > .row,
+body #p3-section4 > .container > .row,
+body #p3-section5 > .container > .row {
+  margin: 0 -15px;
+}
 body .wrap-nav-transportation {
   margin-top: 40px;
 }
 body .wrap-nav-transportation .nav-tabs {
-  padding: 0 60px;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +255,7 @@ body .wrap-nav-transportation .nav-tabs li:last-child:after {
 body .wrap-nav-transportation .nav-tabs li a {
   color: #B3B3B3;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -213,19 +265,32 @@ body .wrap-nav-transportation .nav-tabs li.active {
 }
 body .wrap-nav-transportation .nav-tabs li.active a {
   color: #347EFF;
-  font-size: 36px;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 body .wrap-nav-transportation .tab-content {
   margin-top: 50px;
-  padding: 60px;
+  padding: 35px 25px;
   border-radius: 20px;
   border: 2px solid #347EFF;
 }
+body .wrap-nav-transportation .tab-content .tab-pane > .row {
+  margin: 0;
+}
+body .wrap-nav-transportation .tab-content .tab-pane > .row .col-md-6:first-child {
+  height: 315px;
+  overflow: auto;
+}
+body .wrap-nav-transportation .tab-content .tab-pane > .row img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 body .wrap-nav-transportation .tab-content p {
   text-align: justify;
-  font-size: 20px;
-  line-height: 1.15;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 @media screen and (max-width: 768px) {
   body .wrap-nav-transportation .nav-tabs {
@@ -244,9 +309,15 @@ body .wrap-nav-transportation .tab-content p {
 body .wrap-museums-card {
   margin-top: 60px;
 }
+body .wrap-museums-card .slick-list .slick-track {
+  gap: 0;
+}
+body .wrap-museums-card ul.list-museums-card {
+  margin-top: 25px;
+}
 body .wrap-museums-card ul.list-museums-card li .museums-card {
   display: flex;
-  padding: 65px;
+  padding: 35px;
   border: 2px solid #347EFF;
   border-radius: 20px;
 }
@@ -256,14 +327,14 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
 }
 body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
   color: #347EFF;
-  font-size: 30px;
+  font-size: 1.3rem;
   font-weight: 700;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-text {
   color: #515151;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 1.25;
 }
 @media screen and (max-width: 768px) {
@@ -286,7 +357,7 @@ body .wrap-festival-card .col-md-4 {
   justify-content: center;
 }
 body .wrap-festival-card .custom-card {
-  height: 440px;
+  height: 320px;
   width: 345px;
   max-width: 100%;
   position: relative;
@@ -297,21 +368,27 @@ body .wrap-festival-card .custom-card {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
   color: #FFF;
   box-shadow: inset 0 0 0px 2px #fff;
 }
 body .wrap-festival-card .custom-card .custom-card-title {
   font-family: DM Sans;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 body .wrap-festival-card .custom-card .custom-card-text {
   position: absolute;
   right: 15px;
-  top: 220px;
-  font-size: 1rem;
-  line-height: 2;
+  top: 50%;
+  font-size: 0.8rem;
+  line-height: 2.15;
+}
+@media screen and (max-width: 768px) {
+  body .wrap-festival-card .custom-card {
+    width: 250px;
+  }
 }
 body .wrap-souvenir-card {
   margin-top: 40px;
@@ -334,4 +411,13 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
   background: #fff;
   padding: 5px 20px;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    height: auto;
+  }
+  .slick-dots li button::before {
+    top: 10px;
+  }
 }/*# sourceMappingURL=custom.css.map */
