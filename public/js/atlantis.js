@@ -257,12 +257,12 @@ function srllcrdssess5(x){
     var p0=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
     var img0=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
     //seconde crcl
-    var h21=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
-    var p1=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
+    var h21=['Pansy KSAR Ghilene','Radisson Sfax','Sheraton','Africa','Movenpick Lac 2','Mouradi Gammarth'];
+    var p1=['HAMMAMET, Tunisia','SFAX, Tunisia','HAMMAMET, Tunisia','TUNIS, Tunisia','TUNIS, Tunisia','TUNIS, Tunisia'];
     var img1=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
     //third crcl
-    var h22=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
-    var p2=['HAMMAMET, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
+    var h22=['guesthouse: bizerte- dar Ellamma','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
+    var p2=['Ksar Ghilane, Tunisia','TOZEUR, Tunisia','SOUSSE, Tunisia','TUNIS, Tunisia','KAIROUAN, Tunisia','TUNIS, Tunisia'];
     var img2=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
 
     var ind=0;
