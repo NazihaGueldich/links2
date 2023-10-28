@@ -19,12 +19,39 @@
     }
 }
 @media all and (max-width: 767px) {
+
+    .ligne-separtion{
+        border-bottom: 1.5px solid #b1afaf;
+        position: relative;
+        margin: 0px auto;
+        width: 20%;
+        margin-bottom: 19px;
+    }
+
     .gap-20 {
         gap: 5px;
     }
 
     main {
         height: 300px;
+        margin-top: 60px;
+    }
+
+    body .main-title {
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    body section {
+        padding: 20px 0;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    #section-2 {
+        padding-top: 0;
     }
 
     body .main-title {
@@ -63,6 +90,20 @@
     .carousel-inner {
         height: 100%;
     }
+    dl, ol, ul {
+        padding-left: 0;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .justify-content-center {
+        justify-content: left !important;
+    }
+    .image-footer-1{
+
+        padding-bottom: 15px;
+        text-align: center !important;
+    }
 
     #crcltuns {
         width: 20px;
@@ -77,12 +118,10 @@
     }
 
     #logimg {
-        margin-left: 14%;
-        margin-top: 11%;
+        margin-left:18%;
+        margin-top: 10%;
         display: block;
-        margin-right: 14px;
-        width: 39.75px;
-        height: 36.69px;
+
     }
 
     #toggleButton {
@@ -220,12 +259,11 @@
 
 
     .text1 {
-        text-align: end;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: noto;
+
+        font-size: 1.55rem;
+
+
         color: #ffffff;
-        margin-top: 56%;
     }
 
     .navbar-expand-lg>.container,
@@ -246,16 +284,13 @@
 
     .btn.btn-outline-primary.btn1-main {
         width: 81px;
-        margin-left: 49%;
         border-color: white !important;
         height: 18px;
         border-radius: 36px;
         background-color: #ffffff;
         color: #000000;
-        font-family: noto;
         font-size: 12px;
         padding: 0;
-        margin-top: 4%;
     }
 
     .carousel-indicators {
@@ -313,7 +348,14 @@
         background-repeat: no-repeat;
     }
 
+    .my-2{
+        display: flex;
+        gap: 10px;padding:0px
+    }
+    .my-4{
 
+        padding:0px
+    }
 
     .image-2,
     .image-3,
@@ -376,7 +418,7 @@
     .video-js {
         width: 100% !important;
         height: 100%;
-
+        border-radius: 20px;
     }
 
     .ligne1 {
@@ -461,7 +503,7 @@
 
     .sess3mobvid {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -481,6 +523,7 @@
     }
 
     .text2 p {
+        max-width: 100%;
         font-weight: 400;
         font-size: 16px;
         color: #000000;

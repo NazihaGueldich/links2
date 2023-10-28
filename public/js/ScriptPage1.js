@@ -1,3 +1,5 @@
+
+
 function changeImage(isMouseOver, id) {
     var imgId = 'img' + id;
     var pId = 'p' + id;
@@ -95,8 +97,7 @@ function changeImage1() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
-    $('.affmob img').css('border', 'none');
-    document.getElementById('imageB1').style.border = '2px solid #347eff';
+    document.getElementById('imageB1').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#347EFF';
     document.getElementById('btn1-b').style.backgroundColor = '#347EFF';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -117,8 +118,7 @@ function changeImage2() {
     document.getElementById('imageCov2').style.display = "block";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
-    $('.affmob img').css('border', 'none');
-    document.getElementById('imageB2').style.border = '2px solid #347eff';
+    document.getElementById('imageB2').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#347EFF';
@@ -140,8 +140,7 @@ function changeImage3() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "block";
     document.getElementById('imageCov4').style.display = "none";
-    $('.affmob img').css('border', 'none');
-    document.getElementById('imageB3').style.border = '2px solid #347eff';
+    document.getElementById('imageB3').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -162,8 +161,7 @@ function changeImage4() {
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "block";
-    $('.affmob img').css('border', 'none');
-    document.getElementById('imageB4').style.border = '2px solid #347eff';
+    document.getElementById('imageB4').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn2').style.backgroundColor = '#B3B3B3';
@@ -180,14 +178,10 @@ function changeImage4() {
 }
 
 
-//naziha
-setInterval(updateClock, 1000);
+
 
 function updateClock() {
-    const tunisTimeZoneOffset = 60;
-
     const tunisTime = new Date();
-    tunisTime.setMinutes(tunisTime.getMinutes() + tunisTimeZoneOffset);
 
     let hours = tunisTime.getHours();
     const minutes = tunisTime.getMinutes();
@@ -195,14 +189,17 @@ function updateClock() {
 
     let amOrPm = hours >= 12 ? 'pm' : 'am';
     hours = hours % 12;
-    hours = hours ? hours : 12; // the hour '0' should be '12'
+    hours = hours ? hours : 12;
 
     const timeString =
         `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
 
     document.getElementById("tunis-time").textContent = timeString;
-
 }
+
+updateClock();
+
+setInterval(updateClock, 1000);
 
 
 function changContai(indx) {
