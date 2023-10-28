@@ -251,5 +251,46 @@ function srllcrdssess5(x){
         crcl3sess5.style.backgroundImage = "url(../images/ptbl.svg)";
     }
 
-    
+     //declaration des cnst
+    //first crcl
+    var h20=['Four seasons Tunis','Anantara Tozeur','Movenpick Sousse','The residence Tunis','Le Kasbah Kairouan','SHERATON TUNIS'];
+    var p0=['hammamet, tunisia','tOZEUR, tunisia','tOZEUR, tunisia','tunis, tunisia','CEO of the agency','Tunis, tunisia'];
+    var img0=['sess5crd1.png','sess5crd2.png','sess5crd3.png','sess5crd4.png','sess5crd5.png','sess5crd6.png'];
+    //seconde crcl
+    var h21=['SHERATON TUNIS','Le Kasbah Kairouan','The residence Tunis','Movenpick Sousse','Anantara Tozeur','Four seasons Tunis'];
+    var p1=['Tunis, tunisia','tunis, tunisia',' SOUSSE, tunisia','tOZEUR, tunisia','tOZEUR, tunisia','hammamet, tunisia'];
+    var img1=['sess5crd6.png','sess5crd5.png','sess5crd4.png','sess5crd3.png','sess5crd2.png','sess5crd1.png'];
+    //third crcl
+    var h22=['Movenpick Sousse','Anantara Tozeur','SHERATON TUNIS','The residence Tunis','Four seasons Tunis','Le Kasbah Kairouan'];
+    var p2=['tOZEUR, tunisia','Tunis, tunisia','tOZEUR, tunisia',' SOUSSE, tunisia','hammamet, tunisia','tunis, tunisia'];
+    var img2=['sess5crd3.png','sess5crd6.png','sess5crd2.png','sess5crd4.png','sess5crd1.png','sess5crd5.png'];
+
+    var ind=0;
+    //action sur les card 
+    for (i=1; i < 7; i++) {
+        var imgId = 'sess5crd' + i+'img';
+        var pId = 'sess5crd' + i+'p';
+        var h2Id = 'sess5crd' + i+'h2';
+
+        var img=document.getElementById(imgId);
+        var p=document.getElementById(pId);
+        var h2=document.getElementById(h2Id);
+
+        if (z === 0) {
+            h2.innerHTML=h20[ind];
+            p.innerHTML=p0[ind];
+            img.src='../images/'+img0[ind];
+            ind++;
+        } else if (z === 1) {
+            h2.innerHTML=h21[ind];
+            p.innerHTML=p1[ind];
+            img.src='../images/'+img1[ind];
+            ind++;
+        } else if (z === 2) {
+            h2.innerHTML=h22[ind];
+            p.innerHTML=p2[ind];
+            img.src='../images/'+img2[ind];
+            ind++;
+        } 
+    }
 }
