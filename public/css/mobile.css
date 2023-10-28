@@ -96,9 +96,6 @@
         margin-top: 0;
         margin-bottom: 1rem;
     }
-    .justify-content-center {
-        justify-content: left !important;
-    }
     .image-footer-1{
 
         padding-bottom: 15px;
@@ -259,11 +256,9 @@
 
 
     .text1 {
-
         font-size: 1.55rem;
-
-
         color: #ffffff;
+        top: 30%;
     }
 
     .navbar-expand-lg>.container,
