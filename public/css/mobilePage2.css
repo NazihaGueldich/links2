@@ -213,12 +213,6 @@
         margin-top: 0;
     }
 
-    #logimg {
-        margin-left:26%;
-        margin-top: 10%;
-        display: block;
-
-    }
     #logtitre {
         margin-left: 5%;
 
@@ -229,12 +223,37 @@
     }
     #myTopnav {
         position: fixed;
-        top: 10px;
+        top: 0;
         left: 0;
         z-index: 999;
     }
 
-    dl, ol, ul {
+    #logimg {
+        margin-left:6%;
+        margin-top: 3%;
+        display: block;
+
+    }
+
+    #toggleButton {
+        margin-top: 2%;
+        position: fixed;
+        top: 0;
+        margin-right: 4%;
+        right: 0;
+        z-index: 999;
+    }
+
+    .navbar-nav {
+        margin-top: 16%;
+    }
+
+
+    #tunis-time {
+        margin-left: 2%;
+    }
+
+  dl, ol, ul {
         padding-left: 0;
         text-align: left;
         margin-top: 0;
@@ -255,26 +274,16 @@
 .image-3{
     text-align: center !important;
 }
-    #toggleButton {
-        margin-top: 2%;
-        position: fixed;
-        top: 0;
-        margin-right: 4%;
-        right: 0;
-        z-index: 999;
-    }
 
-    .navbar-nav {
-        margin: 17%;
-        height: 33px !important;
-    }
+
+
 
     .navbar-toggled .nav-item {
         margin-left: -4%;
         text-align: center;
         background-color: white;
         width: 125%;
-        padding-left: 23%;
+        padding-left: 6%;
         padding-top: 5px;
         padding-bottom: 12px;
     }
