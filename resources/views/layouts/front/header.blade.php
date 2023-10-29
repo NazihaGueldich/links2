@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
     <div class="container justify-content-between">
         <div id="myTopnav">
-            <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
-            <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
+            <a href="/">
+                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+            </a>
         </div>
 
         <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation"

@@ -8,7 +8,6 @@
 <a  href="/">
                 <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
 </a>
-                <img id="logtitre" src="{{ asset('images/logtitre.png') }}">
 
             </div>
 

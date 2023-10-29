@@ -6,3 +6,9 @@
     width: auto;
     height: auto;
 }
+#logimg {
+    display: block;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+}
