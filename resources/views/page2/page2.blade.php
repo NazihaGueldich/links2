@@ -5,10 +5,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
         <div class="container justify-content-between">
             <div id="myTopnav">
-<a  href="/">
                 <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
-</a>
-
             </div>
 
             <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation"
@@ -23,7 +20,7 @@
                         <span class="nav-link" href="#" id="tunis-time"></span>
                     </li>
                     <li class="nav-item active d-flex align-items-center txtnav">
-                        <a class="nav-link" href="#" id="tun-time">튀니지에 대해서</a>
+                        <a class="nav-link" href="/about-tunisie" id="tun-time">튀니지에 대해서</a>
                     </li>
                     <li class="nav-item active d-flex align-items-center  txtnav">
                         <a class="nav-link" href="#" id="tun-time">보다 더 ></a>
