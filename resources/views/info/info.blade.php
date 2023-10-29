@@ -373,13 +373,16 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="main-title dm-sans text-center">festivals coming soon</h2>
+                                <h2 class="main-title dm-sans text-center">Festivals coming soon</h2>
                             </div>
                         </div>
                     </div>
                     <div class="row wrap-festival-card">
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/carthage.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
@@ -389,6 +392,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/dune-electro.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
@@ -398,6 +404,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/jazz-tabarka.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
@@ -407,6 +416,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/jcc.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
@@ -416,6 +428,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/jmc.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>
@@ -425,6 +440,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="custom-card">
+                                <div class="mask-image">
+                                    <img src="{{asset('images/dj-symphony.png')}}" class="img-fluid" alt="Carthage">
+                                </div>
                                 <h5 class="custom-card-title dm-sans">축제 이름</h5>
                                 <ul class="custom-card-text">
                                     <li class="icone-date">축제일</li>

@@ -343,17 +343,24 @@ body .wrap-festival-card .custom-card {
   width: 345px;
   max-width: 100%;
   position: relative;
-  background: url("../img/Vector 1.png") center top no-repeat;
   background-size: 100% auto;
   background-color: #347EFF;
   border-radius: 15px;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 15px;
   margin-bottom: 0;
   color: #FFF;
-  box-shadow: inset 0 0 0px 2px #fff;
+}
+body .wrap-festival-card .custom-card .mask-image {
+  -webkit-mask-image: url("../img/masque.svg");
+          mask-image: url("../img/masque.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
 }
 body .wrap-festival-card .custom-card .custom-card-title {
   font-family: DM Sans;
