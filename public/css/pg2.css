@@ -1078,19 +1078,6 @@ ul {
     height: 36.69px;
 }
 
-#logtitre {
-    opacity: 0;
-    transition: all .5s;
-    width: 68px;
-    height: 22px;
-}
-
-
-#myTopnav:hover #logtitre {
-    opacity: 1;
-    width: 108px;
-}
-
 #tunis-time {
     font-size: 14px;
     font-weight: 400;

@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/page1.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mobile.css') }}">
     <link rel="stylesheet" href="{{ asset('css/atlantis.css') }}">
