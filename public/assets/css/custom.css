@@ -90,27 +90,9 @@ body {
   color: #515151;
   line-height: 1.15;
   background: #F7F8FB;
-  /* h2 {
-       font-size: 50px;
-       font-weight: 700;
-       color: $main-color;
-       text-transform: uppercase;
-       line-height: 1.13;
-       margin: 0 0 20px;
-       @media screen and (max-width: 768px) {
-           font-size: 30px;
-       }
-   } */
-  /*.sub-title {
-       font-feature-settings: 'clig' off, 'liga' off;
-       font-size: 25px;
-       font-style: normal;
-       font-weight: 500;
-       margin: 5px 0;
-       @media screen and (max-width: 768px) {
-           font-size: 20px;
-       }
-   }*/
+  /*
+  * PAGE Atlantis
+  */
 }
 body .separateur {
   position: relative;
@@ -412,7 +394,6 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
   padding: 5px 20px;
   border-radius: 25px;
 }
-
 @media screen and (max-width: 768px) {
   main {
     height: auto;
