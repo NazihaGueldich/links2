@@ -26,7 +26,7 @@ class MailingController extends Controller
     function store(Request $request)
     {
         Mailing::create($request->all());
-        Mail::to($request->email)->send(new Confirmation());
+        //Mail::to($request->email)->send(new Confirmation());
         $success = 1;
         return redirect()->route('page1')->with('success', $success);
        // return view('page1.page1')->with('success', $success);
