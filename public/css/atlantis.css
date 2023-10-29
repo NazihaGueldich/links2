@@ -254,7 +254,7 @@ body#page-atlantis .card-session3 .card-body {
 }
 
 @media (max-width: 912px) {
-    .card-session3 .card-body {
+    body#page-atlantis .card-session3 .card-body {
         height: auto;
         margin: 0;
         padding: 0;

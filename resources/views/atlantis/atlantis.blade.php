@@ -3,7 +3,6 @@
 <body id="page-atlantis" class="tunisiatrip">
     {{-- nav bar --}}
     @include('layouts.front.header')
-    <main id="main">
         <div class="container mt-5">
             {{-- icons --}}
             <div class="flex-container pt-5 sessicn">
@@ -513,7 +512,6 @@
             </section>
 
         </div>
-    </main>
     @include('layouts.front.footer')
 
     <script src="{{ asset('js/atlantis.js') }}"></script>
