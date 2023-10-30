@@ -66,7 +66,7 @@
 
             <section id="p3-section2">
                 <div class="container">
-                    <div class="row">
+<!--                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
                                 <h2 class="main-title dm-sans text-center">Culinary Recommendations</h2>
@@ -78,7 +78,7 @@
                                 <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row wrap-culinary-card">
                         <div class="col-md-12">
                             <ul class="list-culinary-card p-0">
