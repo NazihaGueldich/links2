@@ -168,12 +168,13 @@ body p {
 
 body#page-atlantis .card-session1 {
     height: auto;
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: 2px solid #77A7FB;
 }
+
 
 @media (max-width: 767px) {
     body#page-atlantis .card-session1 {
-        border: 1.99px solid #77A7FB;
+        border: 2px solid #77A7FB;
     }
 }
 
@@ -470,8 +471,23 @@ body#page-atlantis .card-session4-spns .card-body {
     background-color: #77A7FB;
     height: 430px;
     padding: 0;
+    border: 4.72px solid #347EFF;
 }
 
+.mask-image {
+    -webkit-mask-image: url("../assets/img/masque.svg");
+            mask-image: url("../assets/img/masque.svg");
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+            mask-size: contain;
+  }
+
+#sess5crd1img,#sess5crd2img,#sess5crd3img,
+#sess5crd4img,#sess5crd5img,#sess5crd6img{
+    height: 285px;
+    object-fit: cover;
+}
 .sess5crd img,
 .sess6crd img {
     width: 100%;
