@@ -48,25 +48,25 @@ function chngcontsess4(x){
     var choix2=document.getElementById('choix2');
     var choix3=document.getElementById('choix3');
     if(x==0){
-        choix0.classList.replace("spninactv", "spnactv");
-        choix1.classList.replace("spnactv", "spninactv");
-        choix2.classList.replace("spnactv", "spninactv");
-        choix3.classList.replace("spnactv", "spninactv");
+        choix0.classList = 'p-2 btn btnactv';
+        choix1.classList = 'p-2 btninactv';
+        choix2.classList = 'p-2 btninactv';
+        choix3.classList = 'p-2 btninactv';
     }else if(x==1){
-        choix1.classList.replace("spninactv", "spnactv");
-        choix0.classList.replace("spnactv", "spninactv");
-        choix2.classList.replace("spnactv", "spninactv");
-        choix3.classList.replace("spnactv", "spninactv");
+        choix1.classList = 'p-2 btn btnactv';
+        choix0.classList = 'p-2 btninactv';
+        choix2.classList = 'p-2 btninactv';
+        choix3.classList = 'p-2 btninactv';
     }else if(x==2){
-        choix2.classList.replace("spninactv", "spnactv");
-        choix1.classList.replace("spnactv", "spninactv");
-        choix0.classList.replace("spnactv", "spninactv");
-        choix3.classList.replace("spnactv", "spninactv");
+        choix2.classList = 'p-2 btn btnactv';
+        choix0.classList = 'p-2 btninactv';
+        choix1.classList = 'p-2 btninactv';
+        choix3.classList = 'p-2 btninactv';
     }else if(x==3){
-        choix3.classList.replace("spninactv", "spnactv");
-        choix1.classList.replace("spnactv", "spninactv");
-        choix2.classList.replace("spnactv", "spninactv");
-        choix0.classList.replace("spnactv", "spninactv");
+        choix3.classList = 'p-2 btn btnactv';
+        choix0.classList = 'p-2 btninactv';
+        choix1.classList = 'p-2 btninactv';
+        choix2.classList = 'p-2 btninactv';
     }
 
     var p =[
