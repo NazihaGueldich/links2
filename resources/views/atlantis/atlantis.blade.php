@@ -217,7 +217,7 @@
             </div>
             <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
                 <div class="card-body p-lg-5 row">
-                    <div class="col-lg-5 pt-lg-5 h-100 pr-lg-5">
+                    <div class="col-lg-5  h-100 pr-lg-5">
                         <input hidden value=0 id='numcrd'>
                         <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
 
