@@ -117,7 +117,8 @@
                                 <div class="text-sm inner-wrap-block-image">
 
                                     <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
-                                        튀니지 미식 체험
+                                        고고학 유적지
+
                                     </button>
                                     <p class="p-2 parag-img" id='crdp2'>메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
                                         곳에서
@@ -147,7 +148,7 @@
                             <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
                                 <div
                                     class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">즐길거리</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">인기 목적지</button>
                                     <p class="p-2 parag-img" id='crdp4'>시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
                                         있어요.
                                         과거와 현대가 공존하고 유럽과
@@ -159,8 +160,7 @@
                             <div class="image-5 links_box-shadox" onclick="handleClick(5)" id="image-5">
                                 <div
                                     class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">인기
-                                        목적지</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn5">즐길거리</button>
                                     <p class="p-2 parag-img" id='crdp5'>사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한
                                         액티비티를 즐길
                                         수 있어요.</p>
