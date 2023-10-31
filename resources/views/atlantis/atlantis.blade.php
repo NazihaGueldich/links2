@@ -48,8 +48,15 @@
                 <h2 class="main-title">ATLANTIS : Who are we?</h2>
             </div>
             <div class="card card-session1 radius-20 mt-lg-5">
-                <div class="card-body p-lg-5 row">
-                    <div class="col-lg-5 pt-lg-5 h-100 pr-lg-5">
+                <div class="card-body mr-0 py-lg-4 row">
+                    <div class="col-lg-5 h-100 pr-lg-5">
+                        <div class="d-flex justify-content-center">
+                            <img src="{{ asset('images/Untitled-1.png') }}" class="w-100 mr-3" style="max-width: 150px;">
+                            <div class="separator"></div>
+                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3" style="max-width: 130px;">
+                        </div>
+
+
                         <p class="mb-lg-4 pt-lg-3">
                             아틀란티스 여행사는 1991년에 시작하여,
                             현재 한국을 포함해 아시아 및 유럽 각지의 여행사들과

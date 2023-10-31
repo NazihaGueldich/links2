@@ -222,6 +222,11 @@ body#page-atlantis .sect2-prt1 img {
         border-radius: 20px 20px 0 0;
     }
 }
+.separator {
+    border-left: 1px solid #383737;
+    height: 60px;
+    margin: 0 10px;
+}
 
 body#page-atlantis .sect2-prt2 {
     display: flex;
