@@ -218,7 +218,7 @@ body .wrap-nav-transportation .nav-tabs {
   background: #FFF;
 }
 body .wrap-nav-transportation .nav-tabs li {
-  padding: 10px 2.5vw;
+  padding: 10px 2.3vw;
   position: relative;
 }
 body .wrap-nav-transportation .nav-tabs li:after {
@@ -237,17 +237,17 @@ body .wrap-nav-transportation .nav-tabs li:last-child:after {
 body .wrap-nav-transportation .nav-tabs li a {
   color: #B3B3B3;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 body .wrap-nav-transportation .nav-tabs li.active {
-  border-bottom: 6px solid #347EFF;
+  border-bottom: 2px solid #347EFF;
 }
 body .wrap-nav-transportation .nav-tabs li.active a {
   color: #347EFF;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 body .wrap-nav-transportation .tab-content {
@@ -262,6 +262,9 @@ body .wrap-nav-transportation .tab-content .tab-pane > .row {
 body .wrap-nav-transportation .tab-content .tab-pane > .row .col-md-6:first-child {
   height: 315px;
   overflow: auto;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 body .wrap-nav-transportation .tab-content .tab-pane > .row img {
   width: 100%;
