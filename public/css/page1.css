@@ -1040,7 +1040,8 @@ body.tunisiatrip .card5 {
 .btn.btn-outline-primary.r-btn3,
 .btn.btn-outline-primary.r-btn4,
 .btn.btn-outline-primary.r-btn5 {
-    width: 90%;
+    max-width: 94%;
+
     height: auto;
     min-height: 54px;
     transition: none;
