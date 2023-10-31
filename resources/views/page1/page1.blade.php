@@ -117,7 +117,7 @@
                                 <div class="text-sm inner-wrap-block-image">
 
                                     <button type="button" class="btn btn-outline-primary mt-4 r-btn2">
-                                        고고학 유적지
+                                        메디나 역사지구
 
                                     </button>
                                     <p class="p-2 parag-img" id='crdp2'>메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
@@ -131,8 +131,7 @@
                             <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
                                 <div
                                     class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">메디나
-                                        역사지구</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">튀니지 미식 체험</button>
                                     <p class="p-2 parag-img" id='crdp3'>튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
                                         페니키아,
                                         로마, 오스만제국을 거쳐 프랑스의
@@ -253,7 +252,7 @@
 
     <section id="section-4">
         <div class="container sess3">
-            <h2 class="main-title">튀니지 주요 도시</h2>
+            <h2 class="main-title">방문객 후기</h2>
             <div class="container esapce">
                 <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
         background-position: center center;"
@@ -389,7 +388,7 @@
 
     <section id="section-5">
         <div class="container">
-            <h2 class="main-title text-center">방문객 후기</h2>
+            <h2 class="main-title text-center">튀니지 주요 도시</h2>
             <div class="container mt-5 cm">
                 <div class="row justify-content-center">
                     <div class="wrap-avis">
