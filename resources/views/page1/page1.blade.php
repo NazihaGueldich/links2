@@ -253,8 +253,8 @@
 
     <section id="section-4">
         <div class="container sess3">
-            <h2 class="main-title">방문객 후기</h2>
-            <div class="container">
+            <h2 class="main-title">튀니지 주요 도시</h2>
+            <div class="container esapce">
                 <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
         background-position: center center;"
                     class="image1-2 links_box-shadox" id="imageCov1">
@@ -389,7 +389,7 @@
 
     <section id="section-5">
         <div class="container">
-            <h2 class="main-title text-center">튀니지 주요 도시</h2>
+            <h2 class="main-title text-center">방문객 후기</h2>
             <div class="container mt-5 cm">
                 <div class="row justify-content-center">
                     <div class="wrap-avis">
