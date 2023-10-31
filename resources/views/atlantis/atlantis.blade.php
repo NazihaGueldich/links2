@@ -49,8 +49,8 @@
             </div>
             <div class="card card-session1 radius-20 mt-lg-5">
                 <div class="card-body p-lg-5 row">
-                    <div class="col-lg-6 pt-lg-5 h-100 pr-lg-5">
-                        <p class="mb-lg-4 pt-lg-5">
+                    <div class="col-lg-5 pt-lg-5 h-100 pr-lg-5">
+                        <p class="mb-lg-4 pt-lg-3">
                             아틀란티스 여행사는 1991년에 시작하여,
                             현재 한국을 포함해 아시아 및 유럽 각지의 여행사들과
                             협력하여 일하고 있습니다.</p>
@@ -67,8 +67,15 @@
                         <p class="mb-lg-4"> 명실상부 튀니지를 대표하는 여행사인 아틀란티스와
                             튀니지 곳곳을 탐험해 보시는 건 어떨까요?</p>
                     </div>
-                    <div class="col-lg-6 h-100">
-                        <img src="{{ asset('images/at_sect1.png') }}" class="h-100 w-100">
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
+                        <img src="{{ asset('images/O3.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb">
+                        <div class="dirct">
+                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)">
+                            <img id='crclsess1' src="{{ asset('images/pt.png') }}">
+                            <img id='crclsess2' src="{{ asset('images/crcl.png') }}">
+                            <img id='crclsess3' src="{{ asset('images/crcl.png') }}">
+                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess1(1)">
+                        </div>
                     </div>
                 </div>
             </div>
