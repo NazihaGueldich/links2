@@ -269,7 +269,7 @@
             <div class="text-center pb-lg-5">
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
-            <div class="row sess5-crds  session5-slick-web">
+            <div class="row sess5-crds  session5-slick-web"  id='sess5-crds'>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd1img' src="{{ asset('images/sess5crd1.jpeg') }}" class="img-fluid"
@@ -282,7 +282,7 @@
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
+                    <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
@@ -324,7 +324,7 @@
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
+                    <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
@@ -351,7 +351,7 @@
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd6h2" class="sub-title sess5h2">SHERATON TUNIS</h2>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
             <div class="row sess5-crds  session5-slick-mobile">
@@ -364,7 +364,7 @@
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd1h2" class="sub-title sess5h2">Four seasons Tunis</h2>
+                    <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd2img' src="{{ asset('images/sess5crd2.png') }}">
@@ -397,7 +397,7 @@
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd4h2" class="sub-title sess5h2">The residence Tunis</h2>
+                    <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd5img' src="{{ asset('images/sess5crd5.png') }}">
@@ -419,7 +419,7 @@
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
                     <img src="{{ asset('images/note.png') }}" class="note">
-                    <h2 id="sess5crd6h2" class="sub-title sess5h2">SHERATON TUNIS</h2>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp">
@@ -430,7 +430,6 @@
                 </a>
                 <span id='crcl1sess5'></span>
                 <span id='crcl2sess5'></span>
-                <span id='crcl3sess5'></span>
                 <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
                     data-slide="next" onclick="srllcrdssess5(1)">
                     <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
