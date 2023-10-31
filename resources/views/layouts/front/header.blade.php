@@ -21,10 +21,10 @@
                     <a class="nav-link" href="/about-tunisie" >튀니지에 대해서</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/atlantis" >아틀란티스 여행사</a>
+                    <a class="nav-link" href="/about-atlantis" >아틀란티스 여행사</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/info" >튀니지 여행정보</a>
+                    <a class="nav-link" href="/travel-information" >튀니지 여행정보</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center  txtnav">
                     <a class="nav-link" href="#" id="tun-time">보다 더 ></a>

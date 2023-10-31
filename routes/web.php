@@ -35,11 +35,11 @@ Route::get('/blog', function () {
     return view('pages.blogs');
 });
 
-Route::get('/atlantis', function () {
+Route::get('/about-atlantis', function () {
     return view('atlantis.atlantis');
 });
 
-Route::get('/info', function () {
+Route::get('/travel-information', function () {
     return view('info.info');
 });
 
