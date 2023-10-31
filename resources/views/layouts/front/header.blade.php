@@ -18,7 +18,7 @@
                     <span class="nav-link" href="#" id="tunis-time"></span>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/about-tunisie" >튀니지에 대해서</a>
+                    <a class="nav-link" href="/about-tunisia" >튀니지에 대해서</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
                     <a class="nav-link" href="/about-atlantis" >아틀란티스 여행사</a>
