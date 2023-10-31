@@ -218,7 +218,7 @@ body .wrap-nav-transportation .nav-tabs {
   background: #FFF;
 }
 body .wrap-nav-transportation .nav-tabs li {
-  padding: 10px 2.3vw;
+  padding: 10px 30px;
   position: relative;
 }
 body .wrap-nav-transportation .nav-tabs li:after {
