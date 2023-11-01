@@ -283,7 +283,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -297,7 +303,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -311,7 +323,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
@@ -325,7 +343,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -339,7 +363,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -352,7 +382,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
@@ -365,7 +401,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -376,7 +418,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -387,7 +435,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
@@ -398,7 +452,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -409,7 +469,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -420,7 +486,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
@@ -456,7 +528,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -467,7 +545,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -478,7 +562,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
             </div>
@@ -491,7 +581,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -502,7 +598,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -513,7 +615,13 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <img src="{{ asset('images/note.png') }}" class="note">
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" >
+                    </div>
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
             </div>

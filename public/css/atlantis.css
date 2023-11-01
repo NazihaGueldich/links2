@@ -546,9 +546,11 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .note {
     position: absolute;
-    left: 19%;
+    left: 26%;
     top: 72%;
-    width: 200px !important;
+    width: 30px !important;
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width: 767px) {

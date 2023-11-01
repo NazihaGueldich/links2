@@ -138,11 +138,12 @@ function chngimgsess4(x) {
 }
 
 z = 0;
+
 function srllcrdssess5(x) {
-    if (x == -1 && z==1 ) {
-        z=0;
-    } else if(z==0 && x==1){
-        z=1;
+    if (x == -1 && z == 1) {
+        z = 0;
+    } else if (z == 0 && x == 1) {
+        z = 1;
     } else if (x == -1 && z == 0) {
         z = 1;
     } else {
@@ -157,39 +158,39 @@ function srllcrdssess5(x) {
     } else if (z === 1) {
         crcl1sess5.style.backgroundImage = "url(../images/ftbl.svg)";
         crcl2sess5.style.backgroundImage = "url(../images/ptbl.svg)";
-    } 
+    }
 
     //declaration des cnst
     //first crcl
-    var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan','Pansy KSAR Ghilene'];
+    var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan', 'Pansy KSAR Ghilene'];
     var p0 = ['Hammamet, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Hammamet, Tunisia'];
-    var img0 = ['sess5crd1.jpeg', 'sess5crd2.jpeg', 'sess5crd3.jpeg', 'sess5crd4.jpeg', 'sess5crd5.jpeg','pansy ksar ghilane.jpeg' ];
+    var img0 = ['sess5crd1.jpeg', 'sess5crd2.jpeg', 'sess5crd3.jpeg', 'sess5crd4.jpeg', 'sess5crd5.jpeg', 'pansy ksar ghilane.jpeg'];
     //seconde crcl
-    var h21 = [ 'Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
-    var p1 = [ 'Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
-    var img1 = [ 'Radisson Sfax.jpeg', 'Mouradi gammarth 2.jpeg', 'Africa 2.jpeg', 'Movenpick Lac 2.jpeg', 'guesthouse- bizerte- dar Ellamma 2.jpeg'];
+    var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
+    var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
+    var img1 = ['Radisson Sfax.jpeg', 'Mouradi gammarth 2.jpeg', 'Africa 2.jpeg', 'Movenpick Lac 2.jpeg', 'guesthouse- bizerte- dar Ellamma 2.jpeg'];
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
     section.innerHTML = '';
     var ind = 0;
-    var tailltab=0;
+    var tailltab = 0;
     if (z === 0) {
-        tailltab=h20.length;
+        tailltab = h20.length;
     } else if (z === 1) {
-        tailltab=h21.length;
-    } 
+        tailltab = h21.length;
+    }
     //action sur les card 
     for (i = 0; i < tailltab; i++) {
         if (z === 0) {
-            h2=h20[ind];
-            p=p0[ind];
-            img='../images/'+img0[ind];
+            h2 = h20[ind];
+            p = p0[ind];
+            img = '../images/' + img0[ind];
         } else if (z === 1) {
-            h2=h21[ind];
-            p=p1[ind];
-            img='../images/'+img1[ind];
-        } 
+            h2 = h21[ind];
+            p = p1[ind];
+            img = '../images/' + img1[ind];
+        }
         ind++;
 
         var divElement = document.createElement('div');
@@ -205,7 +206,7 @@ function srllcrdssess5(x) {
         // hna 7atit itaswira
         const imgElement = document.createElement('img');
         imgElement.setAttribute('id', 'sess5crd1img');
-        imgElement.setAttribute('src',img);
+        imgElement.setAttribute('src', img);
         imgElement.classList.add('img-fluid');
         imgElement.setAttribute('alt', 'Carthage');
         maskDivElement.appendChild(imgElement);
@@ -237,10 +238,14 @@ function srllcrdssess5(x) {
         //zstha lil div position
         divElement.appendChild(divElement2);
         //inejmet
-        const imgElement3 = document.createElement('img');
-        imgElement3.setAttribute('src', "../images/note.png");
-        imgElement3.classList.add('note');
-        divElement.appendChild(imgElement3);
+        const divnote = document.createElement('div');
+        divnote.classList.add('note');
+        for (j = 0; j < 5; j++) {
+            var imgElement3 = document.createElement('img');
+            imgElement3.setAttribute('src', "../images/review_Star.svg");
+            divnote.appendChild(imgElement3);
+            divElement.appendChild(divnote);
+        }
         //ism l'hotel
         const h2Element = document.createElement('h2');
         h2Element.setAttribute('id', 'sess5crd1h2');
