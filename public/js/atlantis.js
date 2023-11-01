@@ -168,7 +168,7 @@ function srllcrdssess5(x) {
     //seconde crcl
     var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
     var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
-    var img1 = ['Radisson Sfax.jpeg', 'Mouradi gammarth 2.jpeg', 'Africa 2.jpeg', 'Movenpick Lac 2.jpeg', 'guesthouse- bizerte- dar Ellamma 2.jpeg'];
+    var img1 = ['Radisson Sfax.jpeg', 'sess5crd6.jpeg', 'Africa 2.jpeg', 'Movenpick Lac 2.jpeg', 'Mouradi gammarth 2.jpeg'];
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
