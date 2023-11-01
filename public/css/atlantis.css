@@ -195,7 +195,14 @@ body#page-atlantis .card-session1 {
 body#page-atlantis .card-session2 {
     border: 2px solid #f1f1f1bf;
 }
-
+body#page-atlantis .card-session2 .row{
+    height: 570px;
+}
+@media (max-width: 767px) {
+    body#page-atlantis .card-session2 .row{
+        height: auto;
+    }
+}
 
 body#page-atlantis .sect2-prt1 {
     display: flex;
@@ -205,9 +212,7 @@ body#page-atlantis .sect2-prt1 {
 }
 
 body#page-atlantis .sect2-prt1 img {
-    padding: 54px;
     object-fit: cover;
-    border-radius: 20px 20px 20px 20px;
 }
 
 @media (max-width: 912px) {

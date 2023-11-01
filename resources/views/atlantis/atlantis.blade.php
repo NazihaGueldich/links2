@@ -97,11 +97,12 @@
             </div>
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-0 my-0 w-100">
-                    <div class="col-lg-6 sect2-prt1 px-0">
-                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100">
+                    <div class="col-lg-6 sect2-prt1 px-0 h-100 p-lg-3">
+                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100 h-100 radius-20">
                     </div>
-                    <div class="col-lg-6 h-100 py-3 sect2-prt2 pl-lg-5">
-                        <h2 class="sub-title pt-lg-5">"튀니지로 여러분을 초대합니다"</h2>
+                    <div class="col-lg-6 h-100 py-3 pl-lg-5">
+                        <div class="sect2-prt2 ">
+                        <h2 class="sub-title pt-lg-3">"튀니지로 여러분을 초대합니다"</h2>
 
                         <p class="pt-lg-5">반갑습니다,</p>
                         <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
@@ -114,6 +115,7 @@
                         <p>곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
                         <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
                         <p>아틀란티스 여행사 대표</p>
+                        </div>
                     </div>
                 </div>
             </div>
