@@ -232,8 +232,8 @@
                     <p class="main-title">종교</p>
                     <div class="ligne-separtion"></div>
                     <div class="parghraphe">
-                        <span>튀니지의 공용어는 아랍어예요.<br>
-                            표준 아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요. 프랑스 식민 지배의 영향으로 프랑스어가 상용어로 쓰여요.
+                        <span>튀니지의 국교는 이슬람교!<br>
+                            튀니지는 헌법에서 종교가 이슬람교임을 명시적으로 밝히고 있는 이슬람교 국가예요.
                         </span>
                     </div>
                 </div>
@@ -246,9 +246,7 @@
                     <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum" >
                         <div class="pt-lg-5">
                             <h4 id='h4prt6'>이슬람</h4>
-                            <p id='pprt6'>튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재
-                                남아있는
-                                유대인들의 대부분은 제르바섬에 거주하고 있습니다.</p>
+                            <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.</p>
                         </div>
 
 
@@ -270,7 +268,7 @@
                                 </a>
                             </div>
 
-                            <p id='txtindx' class="mb-0 main-title">유대교</p>
+                            <p id='txtindx' class="mb-0 main-title">이슬람</p>
                         </div>
 
                     </div>

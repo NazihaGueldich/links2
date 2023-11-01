@@ -131,11 +131,12 @@ function changelement(x) {
     ];
     var h = ['이슬람', '유대교', '기독교'];
     var p = [
+        '국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.',
         '튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재 남아있는 유대인들의 대부분은 제르바섬에 거주하고 있습니다.',
         '튀니지 내 기독교 공동체도 있습니다. 공동체는 대부분 외국인들로 구성되어 있어요. 이들은 자유롭게 교회 예배를 드리며 소수의 학교를 운영하기도 합니다.',
-        '국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.'
+
     ];
-    var txtindx = ['유대교', '기독교', '이슬람'];
+    var txtindx = ['이슬람', '유대교', '기독교'];
 
     var crcl11=document.getElementById('crcl11');
     var crcl22=document.getElementById('crcl22');
@@ -154,7 +155,7 @@ function changelement(x) {
         crcl22.style.backgroundImage = "url(../images/ftbl.svg)";
         crcl33.style.backgroundImage = "url(../images/ptbl.svg)";
     }
-
+    console.log(elm);
     fade(document.getElementById('img44'), img[elm],0);
     fade(document.getElementById('h4prt6'), h[elm],1);
     fade(document.getElementById('pprt6'), p[elm],1);
