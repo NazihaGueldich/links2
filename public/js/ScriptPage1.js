@@ -426,3 +426,10 @@ function changContai(indx) {
         }
     }
 }
+
+function viderchapm() {
+    $("#nom").val('');
+    $("#email").val('');
+    $("#contenue").val('');
+}
+

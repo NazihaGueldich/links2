@@ -486,7 +486,8 @@
                                 required></textarea>
                         </div>
                         <div class="form-group text-right mt-4">
-                            <button type="submit" class="btn btn-outline-primary button4 m-0">제출</button>
+                            <button type="buttom" class="btn btn-outline-primary button4 m-0" onclick="viderchapm()" >취소</button>
+                            <button type="submit" class="btn btn-outline-primary button4 m-0">문의하기</button>
                         </div>
                     </form>
                 </div>
