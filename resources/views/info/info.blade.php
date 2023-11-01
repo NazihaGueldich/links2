@@ -79,6 +79,12 @@
                             </div>
                         </div>
                     </div> -->
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2 class="main-title dm-sans text-center">Culinary recomendation</h2>
+                            <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
+                        </div>
+                    </div>
                     <div class="row wrap-culinary-card">
                         <div class="col-md-12">
                             <ul class="list-culinary-card p-0">
@@ -249,7 +255,6 @@
                                     영업시간은 계절에 따라 차이가 있으므로 확인 후 방문하시길 추천해 드립니다.
                                 </p>
                                 <br>
-                                <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                             </div>
                         </div>
                     </div>
