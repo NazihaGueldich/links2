@@ -195,11 +195,13 @@ body#page-atlantis .card-session1 {
 body#page-atlantis .card-session2 {
     border: 2px solid #f1f1f1bf;
 }
-body#page-atlantis .card-session2 .row{
+
+body#page-atlantis .card-session2 .row {
     height: 570px;
 }
+
 @media (max-width: 767px) {
-    body#page-atlantis .card-session2 .row{
+    body#page-atlantis .card-session2 .row {
         height: auto;
     }
 }
@@ -227,6 +229,7 @@ body#page-atlantis .sect2-prt1 img {
         border-radius: 20px 20px 0 0;
     }
 }
+
 .separator {
     border-left: 1px solid #383737;
     height: 60px;
@@ -278,9 +281,7 @@ body#page-atlantis .card-session3 .card-body .imgface {
     }
 }
 
-@media (max-width: 912px) {
-
-}
+@media (max-width: 912px) {}
 
 
 body#page-atlantis .session3-slick-mobile,
@@ -290,7 +291,7 @@ body#page-atlantis .session6-slick-mobile {
 }
 
 @media (max-width: 912px) {
-    body#page-atlantis .sccgrp{
+    body#page-atlantis .sccgrp {
         display: none !important;
     }
 
@@ -475,18 +476,23 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .mask-image {
     -webkit-mask-image: url("../assets/img/masque.svg");
-            mask-image: url("../assets/img/masque.svg");
+    mask-image: url("../assets/img/masque.svg");
     -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     -webkit-mask-size: contain;
-            mask-size: contain;
-  }
+    mask-size: contain;
+}
 
-#sess5crd1img,#sess5crd2img,#sess5crd3img,
-#sess5crd4img,#sess5crd5img,#sess5crd6img{
+#sess5crd1img,
+#sess5crd2img,
+#sess5crd3img,
+#sess5crd4img,
+#sess5crd5img,
+#sess5crd6img {
     height: 285px;
     object-fit: cover;
 }
+
 .sess5crd img,
 .sess6crd img {
     width: 100%;
@@ -507,8 +513,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .cercle-img {
-        left: 16%;
-        top: 54%;
+        left: 14%;
+        top: 43%;
     }
 }
 
@@ -523,7 +529,7 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .text-img {
         left: 21%;
-        top: 60%;
+        top: 49%;
     }
 }
 
@@ -540,24 +546,32 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .posit {
         left: 55%;
-        top: 57%;
+        top: 46%;
     }
 }
 
 .note {
     position: absolute;
-    left: 26%;
+    left: 24%;
     top: 72%;
-    width: 30px !important;
+    width: 38px !important;
     display: flex;
     flex-direction: row;
 }
 
+.note img {
+    padding-right: 33%;
+}
+
 @media (max-width: 767px) {
     .note {
-        left: 27%;
+        left: 26%;
         top: 80%;
-        width: 165px !important;
+        width: 38px !important;
+    }
+
+    .note img {
+        padding-right: 33%;
     }
 }
 
