@@ -234,7 +234,7 @@
                                             <p>튀니지는 이탈리아, 프랑스 등 유럽행 페리 노선을 운영합니다. 국제노선뿐만 아니라, 튀니지 내 유명 관광지인 제르바섬과 케르케나섬 이동을 지원하는 정기 페리 노선이 있습니다. 주로 스팍스 항구에서 케르케나 섬 이동을 지원하거나, 남부의 자르지스 항구에서 제르바섬으로 이동하는 노선을 운영합니다.</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="{{asset('assets/img/taxi.png')}}" class="img-fluid" alt="taxi">
+                                            <img src="{{ asset('images/image-20231030-140304.png')}}" class="img-fluid" alt="taxi">
                                         </div>
                                     </div>
                                 </div>

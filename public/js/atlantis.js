@@ -47,37 +47,26 @@ function chngcontsess4(x) {
     var choix1 = document.getElementById('choix1');
     var choix2 = document.getElementById('choix2');
     var choix3 = document.getElementById('choix3');
-    var choix4 = document.getElementById('choix4');
     if (x == 0) {
         choix0.classList = 'p-2 btn btnactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        choix4.classList = 'p-2 btninactv';
     } else if (x == 1) {
         choix1.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        choix4.classList = 'p-2 btninactv';
     } else if (x == 2) {
         choix2.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        choix4.classList = 'p-2 btninactv';
     } else if (x == 3) {
         choix3.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
-        choix4.classList = 'p-2 btninactv';
-    }else if (x == 4) {
-        choix4.classList = 'p-2 btn btnactv';
-        choix0.classList = 'p-2 btninactv';
-        choix1.classList = 'p-2 btninactv';
-        choix2.classList = 'p-2 btninactv';
-        choix3.classList = 'p-2 btninactv';
     }
 
 
@@ -85,12 +74,11 @@ function chngcontsess4(x) {
         "고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다. 공항-호텔 간 운행 및 비즈니스 미팅을 위한 다수의 회의 장소로여러번의 이동이 가능하며 원하는 시간에 예약할 수 있습니다. 포함사항 - 운전기사 이용 요금, 주차비, 연료비, 통행료불포함사항- 투어 가이드, 개인 여행자 보험",
         "동호회, 소규모 단체의 행사 등의 목적으로 미니버스+운전기사 서비스를 이용할 수 있습니다. 기업 워크샵, 대가족 단체 여행, 유적지 답사, 연수 등의편안하고 안전한 일정을 아틀란티스가 도와드립니다.포함사항- 운전기사 이용 요금, 주차비, 연료비, 통행료불포함사항- 투어 가이드, 개인 여행자 보험",
         "단체의 편안하고 쾌적한 여행을 위한 중대형버스+운전기사 서비스를 제공합니다. 넓직한 실내공간에서 편안한 이동을 하고 싶은 단체고객들의 여행에 품격을 더합니다. 포함사항- 운전기사 이용 요금, 주차비, 연료비, 통행료불포함사항- 투어 가이드, 개인 여행자 보험",
-        "의전차량고급 럭셔리 차량으로 VIP 고객 의전을 수행합니다. 국제 행사 혹은 기업 만찬 등을 위해 방문한 VIP고객들이 고품격 의전서비스를 누릴 수 있습니다.포함사항- 운전기사 이용 요금, 주차비, 연료비, 통행료불포함사항- 투어 가이드, 개인 여행자 보험",
-        "튀니지는 이탈리아, 프랑스 등 유럽행 페리 노선을 운영합니다. 국제노선뿐만 아니라, 튀니지 내 유명 관광지인 제르바섬과 케르케나섬 이동을 지원하는 정기 페리 노선이 있습니다. 주로 스팍스 항구에서 케르케나 섬 이동을 지원하거나, 남부의 자르지스 항구에서 제르바섬으로 이동하는 노선을 운영합니다."
+        "의전차량고급 럭셔리 차량으로 VIP 고객 의전을 수행합니다. 국제 행사 혹은 기업 만찬 등을 위해 방문한 VIP고객들이 고품격 의전서비스를 누릴 수 있습니다.포함사항- 운전기사 이용 요금, 주차비, 연료비, 통행료불포함사항- 투어 가이드, 개인 여행자 보험"
     ];
-    var h1 = ['places 1-4', "placesMax 22 (최대 22명)", "PlacesMax 53 (최대 53명)", "PlacesMax 8 ",''];
-    var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내",''];
-    var img = ['van1.jpg', 'Mini bus 2.jpg', 'bus.png', 'Van 2.jpg','image-20231030-140304.png' ];
+    var h1 = ['places 1-4', "placesMax 22 (최대 22명)", "PlacesMax 53 (최대 53명)", "PlacesMax 8 "];
+    var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내"];
+    var img = ['van1.jpg', 'Mini bus 2.jpg', 'bus.png', 'Van 2.jpg' ];
 
     document.getElementById('psess4').innerHTML = p[x];
     document.getElementById('h1sess4').innerHTML = h1[x];
