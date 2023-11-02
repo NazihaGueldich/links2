@@ -273,8 +273,8 @@
         window.dispatchEvent(new Event('resize'));
         $('.slick-sess2').slick({
             infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 5,
+  slidesToScroll: 5,
             dots: true,
             arrows: false,
             infinite: true,
