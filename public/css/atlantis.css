@@ -578,17 +578,18 @@ body#page-atlantis .card-session4-spns .card-body {
 .sess5h2,
 .sess6h2 {
     position: absolute;
-    left: 21%;
-    top: 84%;
+    left: 7%;
+    top: 76%;
     color: #FFFFFF;
+    font-size: 29px !important;
 }
 
 @media (max-width: 767px) {
 
     .sess5h2,
     .sess6h2 {
-        left: 24%;
-        top: 89%;
+        left: 7%;
+        top: 74%;
     }
 }
 

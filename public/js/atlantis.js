@@ -180,7 +180,7 @@ function srllcrdssess5(x) {
     } else if (z === 1) {
         tailltab = h21.length;
     }
-    //action sur les card 
+    //action sur les card
     for (i = 0; i < tailltab; i++) {
         if (z === 0) {
             h2 = h20[ind];
@@ -237,15 +237,6 @@ function srllcrdssess5(x) {
         divElement2.appendChild(pElement2);
         //zstha lil div position
         divElement.appendChild(divElement2);
-        //inejmet
-        const divnote = document.createElement('div');
-        divnote.classList.add('note');
-        for (j = 0; j < 5; j++) {
-            var imgElement3 = document.createElement('img');
-            imgElement3.setAttribute('src', "../images/review_Star.svg");
-            divnote.appendChild(imgElement3);
-            divElement.appendChild(divnote);
-        }
         //ism l'hotel
         const h2Element = document.createElement('h2');
         h2Element.setAttribute('id', 'sess5crd1h2');

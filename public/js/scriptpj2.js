@@ -1,21 +1,25 @@
 
-
-
 $('section .slick-slide').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-
+    dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
-    fade: true,
     cssEase: 'linear'
   });
+
 
   $('.slick-section-10').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
   });
 
 var indx = 0;

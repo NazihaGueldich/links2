@@ -51,9 +51,11 @@
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center">
-                            <img src="{{ asset('images/Untitled-1.png') }}" class="w-100 mr-3" style="max-width: 150px;">
+                            <img src="{{ asset('images/Untitled-1.png') }}" class="w-100 mr-3"
+                                style="max-width: 150px;">
                             <div class="separator"></div>
-                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3" style="max-width: 130px;">
+                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
+                                style="max-width: 130px;">
                         </div>
 
 
@@ -102,19 +104,19 @@
                     </div>
                     <div class="col-lg-6 h-100 py-3 pl-lg-5">
                         <div class="sect2-prt2 ">
-                        <h2 class="sub-title pt-lg-3">"튀니지로 여러분을 초대합니다"</h2>
+                            <h2 class="sub-title pt-lg-3">"튀니지로 여러분을 초대합니다"</h2>
 
-                        <p class="pt-lg-5">반갑습니다,</p>
-                        <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
-                        <p>유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
-                        <p>튀니지는 프랑스 및 이탈리아에 인접하여,
-                            아프리카와 유럽을 이어주는 다리 역할을 하고 있습니다.</p>
-                        <p>아틀란티스는 진실한 마음과 오랜 경험을 토대로
-                            튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
-                            최고의 여행을 안내해 드립니다.</p>
-                        <p>곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
-                        <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
-                        <p>아틀란티스 여행사 대표</p>
+                            <p class="pt-lg-5">반갑습니다,</p>
+                            <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
+                            <p>유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
+                            <p>튀니지는 프랑스 및 이탈리아에 인접하여,
+                                아프리카와 유럽을 이어주는 다리 역할을 하고 있습니다.</p>
+                            <p>아틀란티스는 진실한 마음과 오랜 경험을 토대로
+                                튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
+                                최고의 여행을 안내해 드립니다.</p>
+                            <p>곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
+                            <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
+                            <p>아틀란티스 여행사 대표</p>
                         </div>
                     </div>
                 </div>
@@ -135,8 +137,9 @@
                         <h2 class="sub-title">카멜 라가 </h2>
                         <h2 class="sub-title">Kamel Lagha</h2>
                         <p>CEO of the agency</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
-                              >Kamel@atlantis.tn</span></div>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>Kamel@atlantis.tn</span>
+                        </div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
@@ -145,18 +148,20 @@
                         <h2 class="sub-title">정지혜</h2>
                         <h2 class="sub-title">Heidi Jung</h2>
                         <p>Korean department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
-                                class="pr-2"> <span>jh.heidi.j@gmail.com</span></div>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2">
+                            <span>jh.heidi.j@gmail.com</span></div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/Mariem.png') }}" class="imgface">
-                        <h2 class="sub-title" >마리엠 조그라미</h2>
-                        <h2 class="sub-title" >Meriem Zoghlami</h2>
-                        <p >Executive management</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
-                                class="pr-2"><span>atlantis@atlantis.tn</span></div>
+                        <h2 class="sub-title">마리엠 조그라미</h2>
+                        <h2 class="sub-title">Meriem Zoghlami</h2>
+                        <p>Executive management</p>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>atlantis@atlantis.tn</span>
+                        </div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3 mt-lg-4">
@@ -165,8 +170,8 @@
                         <h2 class="sub-title">소니아 벤 아모르 </h2>
                         <h2 class="sub-title">Sonia Ben Amor</h2>
                         <p>Tiketing Department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"> <span
-                               >Sonia.Benamor@atlantis.tn</span></div>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}"> <span>Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
             </div>
@@ -178,7 +183,8 @@
                         <h2 class="sub-title">카멜 라가 </h2>
                         <h2 class="sub-title">Kamel Lagha</h2>
                         <p>CEO of the agency</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2"><span
                                 id='crd1eml'>Kamel@atlantis.tn</span></div>
                     </div>
                 </div>
@@ -188,18 +194,20 @@
                         <h2 class="sub-title">정지혜</h2>
                         <h2 class="sub-title">Heidi Jung</h2>
                         <p>Korean department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
-                                class="pr-2"> <span>jh.heidi.j@gmail.com</span></div>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2">
+                            <span>jh.heidi.j@gmail.com</span></div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/Mariem.png') }}" class="imgface">
-                        <h2 class="sub-title" >마리엠 조그라미</h2>
-                        <h2 class="sub-title" >Meriem Zoghlami</h2>
-                        <p >Executive management</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
-                                class="pr-2"><span>atlantis@atlantis.tn</span></div>
+                        <h2 class="sub-title">마리엠 조그라미</h2>
+                        <h2 class="sub-title">Meriem Zoghlami</h2>
+                        <p>Executive management</p>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>atlantis@atlantis.tn</span>
+                        </div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
@@ -208,8 +216,8 @@
                         <h2 class="sub-title">소니아 벤 아모르 </h2>
                         <h2 class="sub-title">Sonia Ben Amor</h2>
                         <p>Tiketing Department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"> <span
-                               >Sonia.Benamor@atlantis.tn</span></div>
+                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                                src="{{ asset('images/emil.png') }}"> <span>Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
             </div>
@@ -224,7 +232,7 @@
                 <h2 class="main-title">Car services</h2>
             </div>
             <div class="col-12 d-flex justify-content-around button1 mt-lg-5">
-                <button id='choix0' class="p-2 btn btnactv" onclick="chngcontsess4(0)" >Car</button>
+                <button id='choix0' class="p-2 btn btnactv" onclick="chngcontsess4(0)">Car</button>
                 <button id='choix1' class="p-2 btninactv" onclick="chngcontsess4(1)">Mini-Bus</button>
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
@@ -271,25 +279,19 @@
             <div class="text-center pb-lg-5">
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
-            <div class="row sess5-crds  session5-slick-web"  id='sess5-crds'>
+            <div class="row sess5-crds  session5-slick-web" id='sess5-crds'>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd1img' src="{{ asset('images/sess5crd1.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -297,19 +299,13 @@
                         <img id='sess5crd2img' src="{{ asset('images/sess5crd2.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -317,19 +313,13 @@
                         <img id='sess5crd3img' src="{{ asset('images/sess5crd3.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
@@ -337,19 +327,13 @@
                         <img id='sess5crd4img' src="{{ asset('images/sess5crd4.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
@@ -357,142 +341,94 @@
                         <img id='sess5crd5img' src="{{ asset('images/sess5crd5.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd6img' src="{{ asset('images/sess5crd6.jpeg') }}" class="img-fluid"
                             alt="Carthage">
-                    </div> <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
             <div class="row sess5-crds  session5-slick-mobile">
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <img id='sess5crd7img' src="{{ asset('images/sess5crd1.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd2img' src="{{ asset('images/sess5crd2.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd3img' src="{{ asset('images/sess5crd3.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <img id='sess5crd4img' src="{{ asset('images/sess5crd4.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd5img' src="{{ asset('images/sess5crd5.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <img id='sess5crd6img' src="{{ asset('images/sess5crd6.png') }}">
-                    <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
                 </div>
             </div>
@@ -528,13 +464,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -545,13 +475,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -562,13 +486,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
             </div>
@@ -581,13 +499,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -598,13 +510,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
                 <div class="col-lg-3 sess6crd radius-20">
@@ -615,13 +521,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                    </div>
+
                     <h2 class="sub-title sess6h2">Dar el-emma</h2>
                 </div>
             </div>
@@ -635,17 +535,32 @@
         $('.session3-slick-mobile').slick({
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
         });
         $('.session5-slick-mobile').slick({
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
         });
         $('.session6-slick-mobile').slick({
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
         });
     </script>
     <script>
