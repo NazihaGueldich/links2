@@ -374,7 +374,7 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd6img' src="{{ asset('images/sess5crd6.jpeg') }}" class="img-fluid"
+                        <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div> <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -479,7 +479,7 @@
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
-                    <img id='sess5crd6img' src="{{ asset('images/sess5crd6.png') }}">
+                    <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
