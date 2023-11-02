@@ -382,7 +382,7 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd6img' src="{{ asset('images/sess5crd6.jpeg') }}" class="img-fluid"
+                        <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}" class="img-fluid"
                             alt="Carthage">
                     </div> <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -390,6 +390,7 @@
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
+<<<<<<< HEAD
                     <div class="note">
                         <img src="{{ asset('images/review_Star.svg') }}">
                         <img src="{{ asset('images/review_Star.svg') }}">
@@ -398,6 +399,10 @@
                         <img src="{{ asset('images/review_Star.svg') }}">
                     </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
+=======
+
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
+>>>>>>> c5cff198493e2b74632829cd5c36d3f069ec3e47
                 </div>
             </div>
             <div class="row sess5-crds  session5-slick-mobile">
@@ -487,13 +492,19 @@
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
+<<<<<<< HEAD
                     <img id='sess5crd6img' src="{{ asset('images/sess5crd6.png') }}">
                     <img src="{{ asset('images/sess5crd1crcl.png') }}" class="cercle-img">
+=======
+                    <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+>>>>>>> c5cff198493e2b74632829cd5c36d3f069ec3e47
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
+<<<<<<< HEAD
                     <div class="note">
                         <img src="{{ asset('images/review_Star.svg') }}">
                         <img src="{{ asset('images/review_Star.svg') }}">
@@ -502,6 +513,10 @@
                         <img src="{{ asset('images/review_Star.svg') }}">
                     </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton Tunis</h2>
+=======
+
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
+>>>>>>> c5cff198493e2b74632829cd5c36d3f069ec3e47
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp">
