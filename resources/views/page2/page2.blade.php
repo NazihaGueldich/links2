@@ -238,9 +238,8 @@
                     </div>
                 </div>
                 <div class="row mt-5 ">
-                    <div class="col-lg-6 ">
-                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'
-                            style="object-fit: contain;">
+                    <div class="col-lg-6 section-8-prt1">
+                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'>
                     </div>
 
                     <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum" >
@@ -248,9 +247,6 @@
                             <h4 id='h4prt6'>이슬람</h4>
                             <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.</p>
                         </div>
-
-
-
                         <div class="d-flex justify-content-between  pb-5">
                             <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
                                 <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
