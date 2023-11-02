@@ -2,7 +2,7 @@
 
 
 <body id="index" class="tunisiatrip">
-@include('layouts.front.header')
+    @include('layouts.front.header')
     <main>
         <div class="container mt-5 icons-none">
             <div class="flex-container pt-1">
@@ -147,29 +147,17 @@
 
         <section id="section-5">
             <div class="text-center mb-3">
-                <span class="main-title" >날씨</span>
+                <span class="main-title">날씨</span>
                 <div class="ligne-separtion"></div>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 d-flex flex-column justify-content-start pt-4">
-                    <img src="{{ asset('images/chammousa.png') }}" class="img-fluid img3" id='imgchoose'>
+                <div class="col-lg-4 d-flex flex-column justify-content-start pt-4 variable-width">
+                    <img src="{{ asset('images/chammousa.png') }}" class="img-fluid img3">
+                    <img src="{{ asset('images/mtarr.png') }}" class="img-fluid img3">
+                    <img src="{{ asset('images/msa77ba.png') }}" class="img-fluid img3">
 
-                    <div class="d-flex justify-content-center mt-5 sccgrp">
-                        <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
-                            data-slide="prev" onclick="srllimg(-1)">
-                            <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <span id='crcl1'></span>
-                        <span id='crcl2'></span>
-                        <span id='crcl3'></span>
-                        <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
-                            data-slide="next" onclick="srllimg(1)">
-                            <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+
                 </div>
 
                 <div class="col-lg-8 pt-4" style="padding: 0px">
@@ -200,7 +188,7 @@
             </div>
             <div class="mt-5 d-flex flex-column align-items-center button1">
                 <div class="col-12 d-flex justify-content-around button1">
-                    <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)" >아랍어</button>
+                    <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
@@ -208,17 +196,19 @@
                 <div class="ktbchng text-center" style="width: 100%">
                     <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
                     <div class="ligne-separtion"></div>
-                    <div class="row" >
+                    <div class="row">
                         <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
                             <div class="">
-                                <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법 제39조에는 아랍 정체성과
-                                    아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가 있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
+                                <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법
+                                    제39조에는 아랍 정체성과
+                                    아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가
+                                    있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
                                     표준아랍어와 프랑스어, 그리고 이탈리아어 등 다양한 언어가 많이 섞인 형태예요. </span>
                             </div>
                         </div>
                         <div class="col-lg-6 ">
-                            <img src="{{ asset('images/arabe-langue.png') }}"
-                                style="object-fit: contain;width: 50%;" id="img-langue">
+                            <img src="{{ asset('images/arabe-langue.png') }}" style="object-fit: contain;width: 50%;"
+                                id="img-langue">
                         </div>
                     </div>
 
@@ -238,31 +228,27 @@
                     </div>
                 </div>
                 <div class="row mt-5 ">
-                    <div class="col-lg-6 section-8-prt1">
-                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'>
+                    <div class="col-lg-6 variable-width">
+                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4"
+                            style="object-fit: contain;">
+                            <img src="{{ asset('images/img2.png') }}" class="img-fluid img4"
+                            style="object-fit: contain;">
+                            <img src="{{ asset('images/img3.png') }}" class="img-fluid img4"
+                            style="object-fit: contain;">
                     </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum" >
+                    <div
+                        class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum">
                         <div class="pt-lg-5">
                             <h4 id='h4prt6'>이슬람</h4>
-                            <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.</p>
+                            <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종
+                                권유, 포교는 법적 제한을 받아요.</p>
                         </div>
+
+
+
                         <div class="d-flex justify-content-between  pb-5">
-                            <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
-                                <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
-                                    role="button" data-slide="prev" onclick="changelement(-1)">
-                                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <span id='crcl11'></span>
-                                <span id='crcl22'></span>
-                                <span id='crcl33'></span>
-                                <a class="carousel-control-next flch" href="#carouselExampleIndicators"
-                                    role="button" data-slide="next" onclick="changelement(1)">
-                                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
+
 
                             <p id='txtindx' class="mb-0 main-title">이슬람</p>
                         </div>
@@ -372,7 +358,7 @@
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">튀니지 문화</h2>
-<div class="ligne-separtion"></div>
+                <div class="ligne-separtion"></div>
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
@@ -454,7 +440,7 @@
 
     </div>
     <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
-        <div class=" container " >
+        <div class=" container ">
             <div class="row my-5">
                 <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
                     <div class="col-lg-12">
@@ -527,7 +513,13 @@
 
     <script src="{{ asset('js/scriptpj2.js') }}"></script>
     <script type="text/javascript">
-        // Code JavaScript pour gérer l'affichage/cachage du menu
+$('.variable-width').slick({
+    dots: true,
+    infinite: true,
+    adaptiveHeight: true,
+    appendArrows:false,
+});
+
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
 

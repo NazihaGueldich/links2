@@ -130,7 +130,7 @@ function changelement(x) {
     }
 
     var img = ["../images/img1.png ",
-        "../images/image-20231102-083934.png",
+        "../images/img2.png",
         "../images/img3.png"
     ];
     var h = ['이슬람', '유대교', '기독교'];
