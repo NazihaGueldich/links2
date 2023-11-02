@@ -236,6 +236,7 @@
                 <button id='choix1' class="p-2 btninactv" onclick="chngcontsess4(1)">Mini-Bus</button>
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
+                <button id='choix4' class="p-2 btninactv" onclick="chngcontsess4(4)">Ferry</button>
             </div>
             <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5 mt-3">
                 <div class="card-body p-lg-5 row">
