@@ -22,7 +22,7 @@
             </div>
         </section>
         <section id="section-2" class="pt-lg-5 pb-lg-5">
-            <div class="items">
+            <div class="items" id="items">
                 <span id='itm0' class="item-actv" onclick="changSection6(0)">Popular</span>
                 <span id='itm1' class="item-inactv" onclick="changSection6(1)">News</span>
                 <span id='itm2' class="item-inactv" onclick="changSection6(2)">Travel Tips</span>
@@ -254,6 +254,32 @@
 
         toggleButton.addEventListener('click', function() {
             navbarNav.classList.toggle('show');
+        });
+    </script>
+     <script>
+        window.addEventListener('resize', function() {
+            if (window.innerWidth <= 767) {
+                var itemsDiv = document.getElementById('items');
+                if (!itemsDiv.classList.contains('slick-sess2')) {
+                    itemsDiv.classList.add('slick-sess2');
+                }
+            } else {
+                var itemsDiv = document.getElementById('items');
+                if (itemsDiv.classList.contains('slick-sess2')) {
+                    itemsDiv.classList.remove('slick-sess2');
+                }
+            }
+        });
+        window.dispatchEvent(new Event('resize'));
+        $('.slick-sess2').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
         });
     </script>
     <script>
