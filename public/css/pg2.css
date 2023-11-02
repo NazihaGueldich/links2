@@ -895,7 +895,16 @@ body #section-10 .slick-section-10 {
     display: block;
     height: 530px;
 }
+.section-8-prt1{
+    height: 531px;
+}
 
+.section-8-prt1 img{
+    object-fit: cover;
+    opacity: 1.08347;
+    display: block;
+    height: 530px;
+}
 /* footer */
 footer {
     padding: 40px;
