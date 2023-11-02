@@ -50,7 +50,7 @@
             <div class="card card-session1 radius-20 mt-lg-5">
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center pb-3 pt-2">
                             <img src="{{ asset('images/Untitled-1.png') }}" class="w-100 mr-3" style="max-width: 150px;">
                             <div class="separator"></div>
                             <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3" style="max-width: 130px;">
@@ -96,23 +96,23 @@
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
             <div class="card-session2  radius-20 mt-lg-5">
-                <div class=" row mx-0  p-0 my-0 w-100">
+                <div class=" row mx-0  p-4 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0 h-100 p-lg-3">
                         <img src="{{ asset('images/crd1frst.png') }}" class="w-100 h-100 radius-20">
                     </div>
                     <div class="col-lg-6 h-100 py-3 pl-lg-5">
                         <div class="sect2-prt2 ">
-                        <h2 class="sub-title pt-lg-3">"튀니지로 여러분을 초대합니다"</h2>
+                        <h2 class="sub-title mb-lg-3">"튀니지로 여러분을 초대합니다"</h2>
 
-                        <p class="pt-lg-5">반갑습니다,</p>
-                        <p>튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
-                        <p>유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
-                        <p>튀니지는 프랑스 및 이탈리아에 인접하여,
+                        <p class="m-0 pt-lg-5 pt-3">반갑습니다,</p>
+                        <p class="m-0">튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
+                        <p class="m-0">유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
+                        <p class="m-0">튀니지는 프랑스 및 이탈리아에 인접하여,
                             아프리카와 유럽을 이어주는 다리 역할을 하고 있습니다.</p>
-                        <p>아틀란티스는 진실한 마음과 오랜 경험을 토대로
+                        <p class="m-0">아틀란티스는 진실한 마음과 오랜 경험을 토대로
                             튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
                             최고의 여행을 안내해 드립니다.</p>
-                        <p>곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
+                        <p class="m-0">곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
                         <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
                         <p>아틀란티스 여행사 대표</p>
                         </div>
@@ -171,44 +171,44 @@
                 </div>
             </div>
 
-            <div class="row session3-slick-mobile">
+            <div class="row session3-slick-mobile ">
                 <div class="card card-session3  mt-lg-5 col-lg-3">
-                    <div class="card-body  row radius-20 text-center ">
+                    <div class="card-body  row radius-20 text-center p-3 ">
                         <img src="{{ asset('images/Kamel.png') }}" class="imgface">
-                        <h2 class="sub-title">카멜 라가 </h2>
-                        <h2 class="sub-title">Kamel Lagha</h2>
-                        <p>CEO of the agency</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
+                        <h2 class="sub-title p-1">카멜 라가 </h2>
+                        <h2 class="sub-title p-1">Kamel Lagha</h2>
+                        <p class="p-1 mb-0">CEO of the agency</p>
+                        <div class="d-flex align-items-center justify-content-center "><img src="{{ asset('images/emil.png') }}" class="pr-2"><span
                                 id='crd1eml'>Kamel@atlantis.tn</span></div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
-                    <div class="card-body  row radius-20 text-center ">
+                    <div class="card-body  row radius-20 text-center p-3">
                         <img src="{{ asset('images/Heidi.png') }}" class="imgface">
-                        <h2 class="sub-title">정지혜</h2>
-                        <h2 class="sub-title">Heidi Jung</h2>
-                        <p>Korean department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
+                        <h2 class="sub-title p-1">정지혜</h2>
+                        <h2 class="sub-title p-1">Heidi Jung</h2>
+                        <p class="p-1 mb-0">Korean department</p>
+                        <div class="d-flex align-items-center justify-content-center "><img src="{{ asset('images/emil.png') }}"
                                 class="pr-2"> <span>jh.heidi.j@gmail.com</span></div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
-                    <div class="card-body  row radius-20 text-center ">
+                    <div class="card-body  row radius-20 text-center p-3">
                         <img src="{{ asset('images/Mariem.png') }}" class="imgface">
-                        <h2 class="sub-title" >마리엠 조그라미</h2>
-                        <h2 class="sub-title" >Meriem Zoghlami</h2>
-                        <p >Executive management</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"
+                        <h2 class="sub-title p-1" >마리엠 조그라미</h2>
+                        <h2 class="sub-title p-1" >Meriem Zoghlami</h2>
+                        <p class="p-1 mb-0">Executive management</p>
+                        <div class="d-flex align-items-center justify-content-center "><img src="{{ asset('images/emil.png') }}"
                                 class="pr-2"><span>atlantis@atlantis.tn</span></div>
                     </div>
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
-                    <div class="card-body  row radius-20 text-center ">
+                    <div class="card-body  row radius-20 text-center p-3">
                         <img src="{{ asset('images/dunno.png') }}" class="imgface">
-                        <h2 class="sub-title">소니아 벤 아모르 </h2>
-                        <h2 class="sub-title">Sonia Ben Amor</h2>
-                        <p>Tiketing Department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img src="{{ asset('images/emil.png') }}"> <span
+                        <h2 class="sub-title p-1">소니아 벤 아모르 </h2>
+                        <h2 class="sub-title p-1">Sonia Ben Amor</h2>
+                        <p class="p-1 mb-0">Tiketing Department</p>
+                        <div class="d-flex align-items-center justify-content-center "><img src="{{ asset('images/emil.png') }}"> <span
                                >Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
             </div>
-            <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5">
+            <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5 mt-3">
                 <div class="card-body p-lg-5 row">
                     <div class="col-lg-5  h-100 pr-lg-5">
                         <input hidden value=0 id='numcrd'>
