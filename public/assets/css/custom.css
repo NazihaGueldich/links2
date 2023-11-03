@@ -449,6 +449,11 @@ body .wrap-festival-card .col-md-4 {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  body .wrap-festival-card .col-md-4 {
+    padding-left: 13%;
+  }
+}
 
 body .wrap-festival-card .custom-card {
     height: 320px;

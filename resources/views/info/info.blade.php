@@ -423,8 +423,8 @@
                              </div>
                          </div>
                      </div>
-                     <div class="row wrap-festival-card">
-                         <div class="col-md-4">
+                     <div class="row wrap-festival-card" id='crdssess5'>
+                         <div class="col-md-4" >
                              <div class="custom-card">
                                  <div class="mask-image">
                                      <img src="{{ asset('images/carthage.png') }}" class="img-fluid" alt="Carthage">
@@ -604,23 +604,29 @@
 
 
          window.addEventListener('resize', function() {
+            var itemsDiv = document.getElementById('btns');
+            var crds = document.getElementById('crdssess1');
+            var crdssess5 = document.getElementById('crdssess5');
+
              if (window.innerWidth <= 767) {
-                 var itemsDiv = document.getElementById('btns');
                  if (!itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.add('slick-sess3');
                  }
-                 var crds = document.getElementById('crdssess1');
                  if (!crds.classList.contains('slick-sess1')) {
                     crds.classList.add('slick-sess1');
                  }
+                 if (!crdssess5.classList.contains('slick-sess5')) {
+                    crdssess5.classList.add('slick-sess5');
+                 }
              } else {
-                 var itemsDiv = document.getElementById('items');
                  if (itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.remove('slick-sess3');
                  }
-                 var crds = document.getElementById('crdssess1');
                  if (!crds.classList.contains('slick-sess1')) {
-                    crds.classList.add('slick-sess1');
+                    crds.classList.remove('slick-sess1');
+                 }
+                 if (!crdssess5.classList.contains('slick-sess5')) {
+                    crdssess5.classList.remove('slick-sess5');
                  }
              }
          });
@@ -636,6 +642,16 @@
              cssEase: 'linear'
          });
          $('.slick-sess1').slick({
+             infinite: true,
+             slidesToShow: 1,
+             slidesToScroll: 1,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
+         $('.slick-sess5').slick({
              infinite: true,
              slidesToShow: 1,
              slidesToScroll: 1,
