@@ -18,6 +18,11 @@ ul {
     list-style: none;
 }
 
+
+#page-info  h1{
+  color: #000000;
+}
+
 .slick-next::before,
 .slick-prev::before {
     font-size: 28px;
