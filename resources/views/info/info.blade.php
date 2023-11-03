@@ -181,15 +181,14 @@
                      </div>
                      <div class="row wrap-nav-transportation">
                          <div class="col-md-12">
-                             <ul class="nav nav-tabs">
-                                 <li class="active"><a data-toggle="tab" href="#domav">Domestic Aviation</a></li>
-                                 <li><a data-toggle="tab" href="#carnt">Car Rent</a></li>
-                                 <li><a data-toggle="tab" href="#taxi">Taxi</a></li>
-                                 <li><a data-toggle="tab" href="#loug">Louage</a></li>
-                                 <li><a data-toggle="tab" href="#trnmet">Train/Metro</a></li>
-                                 <li><a data-toggle="tab" href="#ferr">Ferry</a></li>
-                             </ul>
-
+                             <div class="col-12 d-flex justify-content-around button1">
+                                <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btn btnactv" onclick="changbtn(0)" >Domestic Aviation</button>
+                                <button id='btn1' data-toggle="tab" href="#carnt" class="p-2 btninactv" onclick="changbtn(1)" >Car Rent</button>
+                                <button id='btn2' data-toggle="tab" href="#taxi" class="p-2 btninactv" onclick="changbtn(2)">Taxi</button>
+                                <button id='btn3' data-toggle="tab" href="#loug" class="p-2 btninactv" onclick="changbtn(3)">Louage</button>
+                                <button id='btn4' data-toggle="tab" href="#trnmet" class="p-2 btninactv" onclick="changbtn(4)">Train/Metro</button>
+                                <button id='btn5' data-toggle="tab" href="#ferr" class="p-2 btninactv" onclick="changbtn(5)">Ferry</button>
+                            </div>
                              <div class="tab-content">
                                  <div id="domav" class="tab-pane fade in active show">
                                      <div class="row">
@@ -574,5 +573,22 @@
          updateClock();
 
          setInterval(updateClock, 1000);
+
+         function changbtn(x) {
+    var btn;
+    var btnId;
+    for (var index = 0; index < 6; index++) {
+        btnId = 'btn' + index;
+        btn = document.getElementById(btnId);
+        if (x == index) {
+            btn.classList.remove("btninactv");
+            btn.classList.add("p-2", "btn", "btnactv");
+        } else {
+            btn.classList.remove("btnactv");
+            btn.classList.add("p-2", "btninactv");
+        }
+    }
+}
+
      </script>
      @include('layouts.front.footer')

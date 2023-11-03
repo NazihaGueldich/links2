@@ -273,6 +273,7 @@ body#page-atlantis .card-session3 .card-body .imgface {
     object-fit: contain;
 }
 
+
 @media (max-width: 912px) {
     body#page-atlantis .card-session3 .card-body {
         height: auto;
