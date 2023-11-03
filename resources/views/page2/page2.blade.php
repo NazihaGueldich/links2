@@ -518,7 +518,12 @@
 
     <script src="{{ asset('js/scriptpj2.js') }}"></script>
     <script type="text/javascript">
-        
+         $('.variable-width').slick({
+            dots: true,
+            infinite: true,
+            adaptiveHeight: true,
+            appendArrows: false,
+        });
 
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
