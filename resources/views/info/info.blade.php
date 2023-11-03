@@ -5,7 +5,7 @@
      <main>
          <div class="wrapper">
              <section id="p3-section1">
-                 <div class="container">
+                 <div class="container" >
                      <div class="row">
                          <div class="col-md-12">
                              <div class="section-header">
@@ -14,7 +14,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="row wrap-custom-card">
+                     <div class="row wrap-custom-card" id='crdssess1'>
                          <div class="col-md-4">
                              <div class="custom-card">
                                  <h5 class="custom-card-title dm-sans">‘Aslema!’</h5>
@@ -180,7 +180,7 @@
                          </div>
                      </div>
                      <div class="row wrap-nav-transportation">
-                         <div class="col-md-12" >
+                         <div class="col-md-12">
                              <div class="col-12 d-flex justify-content-around button1" id="btns">
                                  <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btn btnactv"
                                      onclick="changbtn(0)">Domestic Aviation</button>
@@ -555,11 +555,11 @@
          </div>
      </main>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
      <script>
          /* navbar */
          function updateClock() {
@@ -609,10 +609,18 @@
                  if (!itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.add('slick-sess3');
                  }
+                 var crds = document.getElementById('crdssess1');
+                 if (!crds.classList.contains('slick-sess1')) {
+                    crds.classList.add('slick-sess1');
+                 }
              } else {
                  var itemsDiv = document.getElementById('items');
                  if (itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.remove('slick-sess3');
+                 }
+                 var crds = document.getElementById('crdssess1');
+                 if (!crds.classList.contains('slick-sess1')) {
+                    crds.classList.add('slick-sess1');
                  }
              }
          });
@@ -621,6 +629,16 @@
              infinite: true,
              slidesToShow: 3,
              slidesToScroll: 3,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
+         $('.slick-sess1').slick({
+             infinite: true,
+             slidesToShow: 1,
+             slidesToScroll: 1,
              dots: true,
              arrows: false,
              infinite: true,
