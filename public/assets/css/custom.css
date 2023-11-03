@@ -358,6 +358,13 @@ body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child 
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
+    height: auto;
+  }
+}
+
+
 body .wrap-nav-transportation .tab-content .tab-pane>.row img {
     width: 100%;
     height: 100%;
