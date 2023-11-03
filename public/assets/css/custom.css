@@ -169,7 +169,7 @@ body .wrap-culinary-card .culinary-card {
 }
 body .wrap-culinary-card .culinary-card .card-img-top {
   width: auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 body .wrap-culinary-card .culinary-card .card-body {
