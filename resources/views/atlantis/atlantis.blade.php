@@ -249,11 +249,7 @@
                             - 운전기사 이용 요금, 주차비, 연료비, 통행료
 
                             불포함사항
-                            - 투어 가이드, 개인 여행자 보험
-
-
-                            places 1-4
-                            Fee 상담 후 메일 안내</p>
+                            - 투어 가이드, 개인 여행자 보험</p>
                         <h5 class="sub-sub-title" id='h1sess4'>places 1-4</h5>
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
