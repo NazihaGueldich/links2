@@ -271,9 +271,9 @@
                                                  제르바섬으로 이동하는 노선을 운영합니다.</p>
                                          </div>
                                          <div class="col-md-6">
-                                             <img src="{{ asset('images/image-20231030-140304.png') }}"
-                                                 class="img-fluid" alt="taxi">
-                                         </div>
+                                            <img src="{{ asset('images/image-20231030-140304.png') }}" class="img-fluid custom-image" alt="taxi">
+                                          </div>
+
                                      </div>
                                  </div>
                              </div>
