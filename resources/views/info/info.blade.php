@@ -46,7 +46,7 @@
                         <div class="col-md-4">
                             <div class="custom-card">
                                 <h5 class="custom-card-title dm-sans">‘Beslema!’</h5>
-                                <p class="custom-card-text">안안녕히 가세요/계세요 (헤어질 때)</p>
+                                <p class="custom-card-text">안녕히 가세요/ 계세요(헤어질 때)</p>
                                 <img class="custom-card-img" src="{{asset('assets/img/Beslema_icon.svg')}}" alt="Aslema">
                             </div>
                         </div>
