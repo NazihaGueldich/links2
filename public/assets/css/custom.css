@@ -121,7 +121,7 @@ body .separateur:before {
 }
 
 body .wrap-custom-card {
-    width: 830px;
+    /*   width: 830px; */
     margin: 30px auto 0;
     max-width: 100%;
 }
@@ -137,7 +137,7 @@ body .wrap-custom-card .custom-card {
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 25px;
-    width: 250px;
+    width: 359px;
     max-width: 100%;
 }
 
@@ -173,7 +173,7 @@ body .wrap-custom-card .custom-card .custom-card-text {
 }
 
 body .wrap-culinary-card {
-    width: 860px;
+    /*  width: 860px; */
     max-width: 100%;
     margin: 60px auto 0;
 }
@@ -201,9 +201,9 @@ body .wrap-culinary-card .culinary-card .card-body {
 }
 
 @media screen and (max-width: 768px) {
-  body .wrap-culinary-card .culinary-card .card-body {
-    text-align: center;
-  }
+    body .wrap-culinary-card .culinary-card .card-body {
+        text-align: center;
+    }
 }
 
 body .wrap-culinary-card .culinary-card .card-body h5 {
@@ -221,19 +221,19 @@ body .wrap-culinary-card .culinary-card .card-body .card-text {
     font-weight: 100;
 }
 
-body #p3-section3,
+/* body #p3-section3,
 body #p3-section4,
 body #p3-section5 {
     width: 830px;
     max-width: 100%;
     margin: 0 auto;
-}
+} */
 
-body #p3-section3>.container,
+/* body #p3-section3>.container,
 body #p3-section4>.container,
 body #p3-section5>.container {
     width: 830px;
-}
+} */
 
 body #p3-section3>.container>.row,
 body #p3-section4>.container>.row,
@@ -351,7 +351,7 @@ body .wrap-nav-transportation .tab-content .tab-pane>.row {
 }
 
 body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
-    height: 315px;
+    height: 380px;
     overflow: auto;
     display: flex;
     flex-direction: column;
@@ -359,9 +359,9 @@ body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child 
 }
 
 @media screen and (max-width: 768px) {
-  body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
-    height: auto;
-  }
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
+        height: auto;
+    }
 }
 
 
@@ -425,6 +425,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 25px;
+    padding-top: 140px;
 }
 
 body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-text {
@@ -456,15 +457,16 @@ body .wrap-festival-card .col-md-4 {
     align-items: center;
     justify-content: center;
 }
+
 @media screen and (max-width: 768px) {
-  body .wrap-festival-card .col-md-4 {
-    padding-left: 13%;
-  }
+    body .wrap-festival-card .col-md-4 {
+        padding-left: 13%;
+    }
 }
 
 body .wrap-festival-card .custom-card {
-    height: 320px;
-    width: 345px;
+    height: 424px;
+    width: 353px;
     max-width: 100%;
     position: relative;
     background-size: 100% auto;
@@ -490,15 +492,15 @@ body .wrap-festival-card .custom-card .mask-image {
 
 body .wrap-festival-card .custom-card .custom-card-title {
     font-family: DM Sans;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 body .wrap-festival-card .custom-card .custom-card-text {
     position: absolute;
-    right: 15px;
+    right: 33px;
     top: 50%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 2.15;
 }
 
