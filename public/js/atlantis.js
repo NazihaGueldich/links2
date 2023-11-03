@@ -47,26 +47,31 @@ function chngcontsess4(x) {
     var choix1 = document.getElementById('choix1');
     var choix2 = document.getElementById('choix2');
     var choix3 = document.getElementById('choix3');
+    var dirct =document.getElementById('dirct');
     if (x == 0) {
         choix0.classList = 'p-2 btn btnactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
+        dirct.style.display='none';
     } else if (x == 1) {
         choix1.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
+        dirct.style.display='block';
     } else if (x == 2) {
         choix2.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
+        dirct.style.display='none';
     } else if (x == 3) {
         choix3.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
+        dirct.style.display='block';
     }
 
 
@@ -119,14 +124,17 @@ function chngimgsess4(x) {
         elm = 0;
     }
 
+
+    var crd1 = ['van1.jpg'];
+    var crd2 = ['Mini bus 2.jpg', 'Mini bus 3.jpg', 'Mini bus 5.jpg'];
+    var crd3 = ['bus.png'];
+    var crd4 = ['Van 2.jpg', 'van1.jpg','Van 2.jpg'];
+
     changeCircl(elm);
     var numcrd = document.getElementById('numcrd').value;
     var images = document.getElementById('imgsess4kb');
+    var dirct = document.getElementById('dirct');
 
-    var crd1 = ['van1.jpg', 'van1.jpg', 'van1.jpg'];
-    var crd2 = ['Mini bus 2.jpg', 'Mini bus 3.jpg', 'Mini bus 5.jpg'];
-    var crd3 = ['bus.png', 'bus.png', 'bus.png'];
-    var crd4 = ['Van 2.jpg', 'van1.jpg', 'van1.jpg'];
     if (numcrd == 0) {
         images.src = '../images/' + crd1[elm];
     } else if (numcrd == 1) {

@@ -458,6 +458,7 @@ body#page-atlantis .card-session4-spns .card-body {
     width: 100%;
     z-index: 1;
     text-align: center;
+    display: none;
 }
 
 .dirct img {
