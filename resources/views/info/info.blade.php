@@ -180,15 +180,21 @@
                          </div>
                      </div>
                      <div class="row wrap-nav-transportation">
-                         <div class="col-md-12">
-                             <div class="col-12 d-flex justify-content-around button1">
-                                <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btn btnactv" onclick="changbtn(0)" >Domestic Aviation</button>
-                                <button id='btn1' data-toggle="tab" href="#carnt" class="p-2 btninactv" onclick="changbtn(1)" >Car Rent</button>
-                                <button id='btn2' data-toggle="tab" href="#taxi" class="p-2 btninactv" onclick="changbtn(2)">Taxi</button>
-                                <button id='btn3' data-toggle="tab" href="#loug" class="p-2 btninactv" onclick="changbtn(3)">Louage</button>
-                                <button id='btn4' data-toggle="tab" href="#trnmet" class="p-2 btninactv" onclick="changbtn(4)">Train/Metro</button>
-                                <button id='btn5' data-toggle="tab" href="#ferr" class="p-2 btninactv" onclick="changbtn(5)">Ferry</button>
-                            </div>
+                         <div class="col-md-12" >
+                             <div class="col-12 d-flex justify-content-around button1" id="btns">
+                                 <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btn btnactv"
+                                     onclick="changbtn(0)">Domestic Aviation</button>
+                                 <button id='btn1' data-toggle="tab" href="#carnt" class="p-2 btninactv"
+                                     onclick="changbtn(1)">Car Rent</button>
+                                 <button id='btn2' data-toggle="tab" href="#taxi" class="p-2 btninactv"
+                                     onclick="changbtn(2)">Taxi</button>
+                                 <button id='btn3' data-toggle="tab" href="#loug" class="p-2 btninactv"
+                                     onclick="changbtn(3)">Louage</button>
+                                 <button id='btn4' data-toggle="tab" href="#trnmet" class="p-2 btninactv"
+                                     onclick="changbtn(4)">Train/Metro</button>
+                                 <button id='btn5' data-toggle="tab" href="#ferr" class="p-2 btninactv"
+                                     onclick="changbtn(5)">Ferry</button>
+                             </div>
                              <div class="tab-content">
                                  <div id="domav" class="tab-pane fade in active show">
                                      <div class="row">
@@ -548,6 +554,12 @@
              <div class="my-5"></div>
          </div>
      </main>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
      <script>
          /* navbar */
          function updateClock() {
@@ -575,20 +587,45 @@
          setInterval(updateClock, 1000);
 
          function changbtn(x) {
-    var btn;
-    var btnId;
-    for (var index = 0; index < 6; index++) {
-        btnId = 'btn' + index;
-        btn = document.getElementById(btnId);
-        if (x == index) {
-            btn.classList.remove("btninactv");
-            btn.classList.add("p-2", "btn", "btnactv");
-        } else {
-            btn.classList.remove("btnactv");
-            btn.classList.add("p-2", "btninactv");
-        }
-    }
-}
+             var btn;
+             var btnId;
+             for (var index = 0; index < 6; index++) {
+                 btnId = 'btn' + index;
+                 btn = document.getElementById(btnId);
+                 if (x == index) {
+                     btn.classList.remove("btninactv");
+                     btn.classList.add("p-2", "btn", "btnactv");
+                 } else {
+                     btn.classList.remove("btnactv");
+                     btn.classList.add("p-2", "btninactv");
+                 }
+             }
+         }
 
+
+         window.addEventListener('resize', function() {
+             if (window.innerWidth <= 767) {
+                 var itemsDiv = document.getElementById('btns');
+                 if (!itemsDiv.classList.contains('slick-sess3')) {
+                     itemsDiv.classList.add('slick-sess3');
+                 }
+             } else {
+                 var itemsDiv = document.getElementById('items');
+                 if (itemsDiv.classList.contains('slick-sess3')) {
+                     itemsDiv.classList.remove('slick-sess3');
+                 }
+             }
+         });
+         window.dispatchEvent(new Event('resize'));
+         $('.slick-sess3').slick({
+             infinite: true,
+             slidesToShow: 3,
+             slidesToScroll: 3,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
      </script>
      @include('layouts.front.footer')

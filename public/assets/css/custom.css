@@ -240,6 +240,14 @@ body #p3-section3  .btninactv {
   background-color: transparent;
   height: 61px;
 }
+@media screen and (max-width: 768px) {
+  body #p3-section3 .btnactv {
+    font-size: 1rem;
+  }
+  body #p3-section3  .btninactv {
+    font-size: 0.9rem;
+  }
+}
 
 body .wrap-nav-transportation {
   margin-top: 40px;
