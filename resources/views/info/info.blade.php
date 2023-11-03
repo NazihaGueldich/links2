@@ -9,6 +9,9 @@
                      <div class="row">
                          <div class="col-md-12">
                              <div class="section-header">
+                                <h1 class="text-center mt-5 mb-5 pt-5 pb-5">
+                                    Travel Information
+                                </h1>
                                  <h2 class="main-title dm-sans text-center">Common Expressions</h2>
                                  <p class="sub-title text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
                              </div>
