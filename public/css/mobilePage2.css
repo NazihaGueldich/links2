@@ -23,6 +23,7 @@
 
     body .main-title {
         font-size: 1.3rem;
+        text-align: center;
     }
 
     body section {
@@ -176,6 +177,16 @@
         display: none;
         background-color: white;
     }
+    .variable-width .row {
+        flex-direction: column;
+    }
+
+    .gg {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1.25rem  !important;
+      }
 
     .p2prt7 {
         font-family: 'noto';

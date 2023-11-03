@@ -82,7 +82,13 @@ main {
     margin: 5px 0 15px 0;
     text-align: center;
 }
-
+.variable-width .main-title {
+    font-size: 1.55rem;
+    color: black;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+    text-align: left;
+}
 .links_box-shadox {
     position: relative;
     cursor: pointer;
@@ -241,6 +247,12 @@ body.tunisiatrip .card-body {
 section .slick-slide {
     display: none;
 }
+.gg {
+    display: flex  !important;
+    justify-content: space-between  !important;
+    padding-bottom: 1.25rem  !important;
+  }
+
 
 section .block-cards {
     display: flex;
