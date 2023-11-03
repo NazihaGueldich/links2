@@ -93,7 +93,7 @@
                                  역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.
 
                                  올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
-                             <p class="sub-title text-center pt-lg-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
+                             <p class="sub-title text-center pt-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                          </div>
                      </div>
                      <div class="row wrap-culinary-card">

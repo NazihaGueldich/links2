@@ -200,6 +200,12 @@ body .wrap-culinary-card .culinary-card .card-body {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  body .wrap-culinary-card .culinary-card .card-body {
+    text-align: center;
+  }
+}
+
 body .wrap-culinary-card .culinary-card .card-body h5 {
     color: #347EFF;
     font-size: 1.15rem;
