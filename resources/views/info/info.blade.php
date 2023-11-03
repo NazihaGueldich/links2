@@ -5,16 +5,19 @@
      <main>
          <div class="wrapper">
              <section id="p3-section1">
-                 <div class="container">
+                 <div class="container" >
                      <div class="row">
                          <div class="col-md-12">
                              <div class="section-header">
+                                <h1 class="text-center mt-5 mb-5 pt-5 pb-5">
+                                    Travel Information
+                                </h1>
                                  <h2 class="main-title dm-sans text-center">Common Expressions</h2>
                                  <p class="sub-title text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
                              </div>
                          </div>
                      </div>
-                     <div class="row wrap-custom-card">
+                     <div class="row wrap-custom-card" id='crdssess1'>
                          <div class="col-md-4">
                              <div class="custom-card">
                                  <h5 class="custom-card-title dm-sans">‘Aslema!’</h5>
@@ -93,7 +96,7 @@
                                  역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.
 
                                  올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
-                             <p class="sub-title text-center pt-lg-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
+                             <p class="sub-title text-center pt-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                          </div>
                      </div>
                      <div class="row wrap-culinary-card">
@@ -181,15 +184,14 @@
                      </div>
                      <div class="row wrap-nav-transportation">
                          <div class="col-md-12">
-                             <ul class="nav nav-tabs">
-                                 <li class="active"><a data-toggle="tab" href="#domav">Domestic Aviation</a></li>
-                                 <li><a data-toggle="tab" href="#carnt">Car Rent</a></li>
-                                 <li><a data-toggle="tab" href="#taxi">Taxi</a></li>
-                                 <li><a data-toggle="tab" href="#loug">Louage</a></li>
-                                 <li><a data-toggle="tab" href="#trnmet">Train/Metro</a></li>
-                                 <li><a data-toggle="tab" href="#ferr">Ferry</a></li>
-                             </ul>
-
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#domav">Domestic Aviation</a></li>
+                                <li><a data-toggle="tab" href="#carnt">Car Rent</a></li>
+                                <li><a data-toggle="tab" href="#taxi">Taxi</a></li>
+                                <li><a data-toggle="tab" href="#loug">Louage</a></li>
+                                <li><a data-toggle="tab" href="#trnmet">Train/Metro</a></li>
+                                <li><a data-toggle="tab" href="#ferr">Ferry</a></li>
+                            </ul>
                              <div class="tab-content">
                                  <div id="domav" class="tab-pane fade in active show">
                                      <div class="row">
@@ -418,8 +420,8 @@
                              </div>
                          </div>
                      </div>
-                     <div class="row wrap-festival-card">
-                         <div class="col-md-4">
+                     <div class="row wrap-festival-card" id='crdssess5'>
+                         <div class="col-md-4" >
                              <div class="custom-card">
                                  <div class="mask-image">
                                      <img src="{{ asset('images/carthage.png') }}" class="img-fluid" alt="Carthage">
@@ -549,6 +551,12 @@
              <div class="my-5"></div>
          </div>
      </main>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
      <script>
          /* navbar */
          function updateClock() {
@@ -574,5 +582,64 @@
          updateClock();
 
          setInterval(updateClock, 1000);
+
+         window.addEventListener('resize', function() {
+            var itemsDiv = document.getElementById('btns');
+            var crds = document.getElementById('crdssess1');
+            var crdssess5 = document.getElementById('crdssess5');
+
+             if (window.innerWidth <= 767) {
+                 if (!itemsDiv.classList.contains('slick-sess3')) {
+                     itemsDiv.classList.add('slick-sess3');
+                 }
+                 if (!crds.classList.contains('slick-sess1')) {
+                    crds.classList.add('slick-sess1');
+                 }
+                 if (!crdssess5.classList.contains('slick-sess5')) {
+                    crdssess5.classList.add('slick-sess5');
+                 }
+             } else {
+                 if (itemsDiv.classList.contains('slick-sess3')) {
+                     itemsDiv.classList.remove('slick-sess3');
+                 }
+                 if (!crds.classList.contains('slick-sess1')) {
+                    crds.classList.remove('slick-sess1');
+                 }
+                 if (!crdssess5.classList.contains('slick-sess5')) {
+                    crdssess5.classList.remove('slick-sess5');
+                 }
+             }
+         });
+         window.dispatchEvent(new Event('resize'));
+         $('.slick-sess3').slick({
+             infinite: true,
+             slidesToShow: 3,
+             slidesToScroll: 3,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
+         $('.slick-sess1').slick({
+             infinite: true,
+             slidesToShow: 1,
+             slidesToScroll: 1,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
+         $('.slick-sess5').slick({
+             infinite: true,
+             slidesToShow: 1,
+             slidesToScroll: 1,
+             dots: true,
+             arrows: false,
+             infinite: true,
+             speed: 500,
+             cssEase: 'linear'
+         });
      </script>
      @include('layouts.front.footer')

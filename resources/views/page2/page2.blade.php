@@ -111,7 +111,7 @@
             </div>
             <div class="text-center  links_box">
                 <h2 class="main-title">위치</h2>
-                <img src="{{ asset('images/new_map2.jpeg') }}" class="img2">
+                <img src="{{ asset('images/MAP_SVG.svg') }}" class="img2">
             </div>
             <div class="row block-cards">
                 <div class="col-lg-4">

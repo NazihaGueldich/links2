@@ -224,13 +224,13 @@ body.tunisiatrip .card-body {
 }
 
 .btn.btn-outline-primary.button-main {
+    display: none;
     position: absolute;
     font-weight: bold;
     background-color: #ffffff;
     box-shadow: none;
     border-radius: 36px;
     color: #000000;
-
     font-size: 20px;
     border: 1px solid #fff;
 }
