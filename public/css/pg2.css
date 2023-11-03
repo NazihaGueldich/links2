@@ -906,17 +906,10 @@ body #section-10 .slick-section-10 {
     opacity: 1.08347;
     display: block;
     height: 530px;
-}
-.section-8-prt1{
-    height: 531px;
+    border-radius: 20px;
 }
 
-.section-8-prt1 img{
-    object-fit: cover;
-    opacity: 1.08347;
-    display: block;
-    height: 530px;
-}
+
 /* footer */
 footer {
     padding: 40px;

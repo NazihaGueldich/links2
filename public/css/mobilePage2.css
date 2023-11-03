@@ -561,4 +561,15 @@ display:none;
 
     }
 
+    .section-8-prt1 img {
+        height: 294px;
+    }
+    .section-8-prt1 {
+        height: 316px;
+    }
+
+    .section-8-prt1-p{
+        height: 97px;
+    }
+
 }
