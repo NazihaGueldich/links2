@@ -216,8 +216,9 @@
             </div>
         </section>
 
+       
         <section id="section-8">
-            <div class="text-center">
+            <div class="text-center ">
                 <div class="d-flex flex-column align-items-center">
                     <p class="main-title">종교</p>
                     <div class="ligne-separtion"></div>
@@ -227,42 +228,40 @@
                         </span>
                     </div>
                 </div>
-                <div class="variable-width mt-5">
-                    <div class="gg">
-                        <div class="section-8-prt1"><img src="{{ asset('images/img4.png') }}" class="img-fluid "></div>
-                        <div class="d-flex flex-column justify-content-between pl-lg-4 text-left">
-                            <p class=" section-8-prt1-p">
-                                국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.
-                            </p>
-                            <h4 class="main-title">이슬람</h4>
-                        </div>
+                <div class="row mt-5 ">
+                    <div class="col-lg-6 section-8-prt1">
+                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'>
                     </div>
-                    <div class="gg">
-                        <div class="section-8-prt1"><img src="{{ asset('images/image-20231102-083934.png') }}" class="img-fluid "></div>
 
-                        <div class="d-flex flex-column justify-content-between pl-lg-4 text-left">
-                            <p class="section-8-prt1-p"> 튀니지에는 아주 오래 전부터 유대교 소수민족이 있었습니다. 1967년 이후 대부분의 유대인들이 프랑스나 이스라엘로 이주했고, 현재 남아있는 유대인들의 대부분은 제르바섬에 거주하고 있습니다.
-                            </p>
-                            <h4 class="main-title">유대교</h4>
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum" >
+                        <div class="pt-lg-5">
+                            <h4 id='h4prt6'>이슬람</h4>
+                            <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.</p>
                         </div>
-                    </div>
-                    <div class="gg">
-                        <div class="section-8-prt1"><img src="{{ asset('images/img3.png') }}" class="img-fluid "></div>
+                        <div class="d-flex justify-content-between  pb-5">
+                            <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
+                                <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
+                                    role="button" data-slide="prev" onclick="changelement(-1)">
+                                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <span id='crcl11'></span>
+                                <span id='crcl22'></span>
+                                <span id='crcl33'></span>
+                                <a class="carousel-control-next flch" href="#carouselExampleIndicators"
+                                    role="button" data-slide="next" onclick="changelement(1)">
+                                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
 
-                        <div class="d-flex flex-column justify-content-between pl-lg-4 text-left">
-                            <p class=" section-8-prt1-p"> 튀니지 내 기독교 공동체도 있습니다. 공동체는 대부분 외국인들로 구성되어 있어요. 이들은 자유롭게 교회 예배를 드리며 소수의 학교를 운영하기도 합니다.
-                            </p>
-                          <h4 class="main-title ">기독교</h4>
+                            <p id='txtindx' class="mb-0 main-title">이슬람</p>
                         </div>
+
                     </div>
                 </div>
-
-
-
-
             </div>
-
-    </section>
+        </section>
 
     <section id="section-9">
         <div class="row slick-slide">
@@ -519,12 +518,7 @@
 
     <script src="{{ asset('js/scriptpj2.js') }}"></script>
     <script type="text/javascript">
-        $('.variable-width').slick({
-            dots: true,
-            infinite: true,
-            adaptiveHeight: true,
-            appendArrows: false,
-        });
+        
 
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');

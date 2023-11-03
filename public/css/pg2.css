@@ -82,13 +82,7 @@ main {
     margin: 5px 0 15px 0;
     text-align: center;
 }
-.variable-width .main-title {
-    font-size: 1.55rem;
-    color: black;
-    font-weight: 600;
-    margin: 5px 0 15px 0;
-    text-align: left;
-}
+
 .links_box-shadox {
     position: relative;
     cursor: pointer;
