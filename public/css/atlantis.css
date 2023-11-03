@@ -578,7 +578,7 @@ body#page-atlantis .card-session4-spns .card-body {
 .sess5h2,
 .sess6h2 {
     position: absolute;
-    left: 26%;
+    width: 100%;
     top: 76%;
     color: #FFFFFF;
     font-size: 29px !important;
