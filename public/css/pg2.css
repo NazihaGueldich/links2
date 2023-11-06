@@ -315,7 +315,7 @@ section .block-cards {
 
 
 #section-3 .links_box {
-    padding:2px 24px 30px 0px;
+    padding:2px 0px 30px 0px;
 
 }
 
@@ -1060,7 +1060,7 @@ ul {
 .navbar {
     height: 95px;
     padding: 0 !important;
-    -webkit-box-shadow: 0 2px 5px rgba(182, 182, 182,0.25)
+
 
 }
 
@@ -1093,13 +1093,11 @@ ul {
     font-size: 14px;
     font-weight: 400;
 }
-
 #crcltuns {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-}
+    width: 15.09px;
+    height: 15px;
 
+}
 .txtnav {
     font-size: 17px;
     font-family: noto;

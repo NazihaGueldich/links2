@@ -297,7 +297,7 @@
                          </div>
                      </div>
                      <div class="row wrap-museums-card">
-                         <div class="col-md-12">
+                         <div class="col-md-12 " style="margin: 60px auto 0;">
                              <ul class="list-museums-card p-0">
                                  <li>
                                      <div class="museums-card">
