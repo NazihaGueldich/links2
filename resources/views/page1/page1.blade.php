@@ -1,7 +1,7 @@
 @include('page1.script')
 
 <body id="index" class="tunisiatrip">
-@include('layouts.front.header')
+    @include('layouts.front.header')
 
     <main>
         <div id="mySlickCarousel">
@@ -131,7 +131,8 @@
                             <div class="image-3 links_box-shadox" onclick="handleClick(3)" id="image-3">
                                 <div
                                     class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">튀니지 미식 체험</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn3">튀니지 미식
+                                        체험</button>
                                     <p class="p-2 parag-img" id='crdp3'>튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
                                         페니키아,
                                         로마, 오스만제국을 거쳐 프랑스의
@@ -147,7 +148,8 @@
                             <div class="image-4 links_box-shadox" onclick="handleClick(4)" id="image-4">
                                 <div
                                     class="align-items-center d-flex flex-column justify-content-between inner-wrap-block-image">
-                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">인기 목적지</button>
+                                    <button type="button" class="btn btn-outline-primary  mt-4 r-btn4">인기
+                                        목적지</button>
                                     <p class="p-2 parag-img" id='crdp4'>시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
                                         있어요.
                                         과거와 현대가 공존하고 유럽과
@@ -474,7 +476,7 @@
             <div class="row pt-lg-4">
                 <div class="col-md-4">
                     <div id='logform'>
-                    <img  class="w-100" src="{{ asset('images/Untitled-1.png') }}">
+                        <img class="w-100" src="{{ asset('images/Untitled-1.png') }}">
                     </div>
                     <p><strong> 주소: </strong>, Japan St, Imm Fatma</p>
                     <p><strong> 이메일:</strong> atlantis@atlantis.tn</p>
@@ -493,11 +495,12 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl" style="resize: none;" placeholder="문의사항 "
-                                required></textarea>
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl"
+                                style="resize: none;" placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group text-right mt-lg-4">
-                            <button type="buttom" class="btn btn-outline-primary button4 m-0 mb-2" onclick="viderchapm()" >취소</button>
+                            <button type="buttom" class="btn btn-outline-primary button4 m-0 mb-2"
+                                onclick="viderchapm()">취소</button>
                             <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
                         </div>
                     </form>
@@ -548,14 +551,18 @@
                             </a></li>
                     </ul>
                     <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg">
-                    <p id="txt1" class="txtactv"> 튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로 이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
+                    <p id="txt1" class="txtactv"> 튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로 이루어져있어요. 이 중
+                        이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
                     <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg">
-                    <p id="txt2" class="txtinactv">2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 아름다운 지중해 해안, 역사적 유산 및 다양한 명소로 전 세계의 방문객들을 끌어들이고 있습니다.</p>
+                    <p id="txt2" class="txtinactv">2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 아름다운 지중해 해안,
+                        역사적 유산 및 다양한 명소로 전 세계의 방문객들을 끌어들이고 있습니다.</p>
                     <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg">
-                    <p id="txt3" class="txtinactv">튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 로마 시대 유적까지, 다양한 문화와 역동적인 역사를 자랑하는 매력적인 관광지로 알려져 있습니다.</p>
+                    <p id="txt3" class="txtinactv">튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 로마 시대
+                        유적까지, 다양한 문화와 역동적인 역사를 자랑하는 매력적인 관광지로 알려져 있습니다.</p>
 
                     <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg">
-                    <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적 발전에 대한 헌신을 보여줍니다.</p>
+                    <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적
+                        발전에 대한 헌신을 보여줍니다.</p>
                 </div>
             </div>
         </div>
@@ -629,8 +636,10 @@
     <div class="modal fade" id="modalemailsucc" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-body">
-                    <p>E-mail envoyer</p>
+                <div class="modal-body text-center">
+                    <h2 class="main-title">고객님의 문의가 성공적으로 접수됐습니다.</h2>
+                    <p class=" text-center">기재하신 연락처로 곧 답변드리겠습니다.</p>
+                    <button type="buttom" class="btn btn-primary btnmodal">Oay, Thanks</button>
                 </div>
             </div>
         </div>
@@ -699,7 +708,7 @@
             prevArrow: null,
             nextArrow: null,
             fade: true,
-  cssEase: 'linear'
+            cssEase: 'linear'
             appendArrows: $('#mySlickCarousel'),
         });
     </script>

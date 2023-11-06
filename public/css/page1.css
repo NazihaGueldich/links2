@@ -1358,3 +1358,7 @@ body .slick-slide1{
     width: 66%;
     margin: 0 auto;
 }
+
+.btnmodal{
+    border-radius: 20px;
+}
