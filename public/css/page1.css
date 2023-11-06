@@ -1362,3 +1362,19 @@ body .slick-slide1{
 .btnmodal{
     border-radius: 20px;
 }
+
+.btnmodal{
+    width: 250px;
+    height: 73px;
+    border-radius: 80px;
+    font-size: 1.55rem;
+}
+
+.img1mod{
+    position: absolute;
+    padding-left: 38%;
+}
+
+.img2mod{
+    position: relative;
+}

@@ -467,11 +467,10 @@ body#page-atlantis .card-session4-spns .card-body {
 
 /* session 5 */
 
-.sess5crd {
-    background-color: #347EFF;
-    height: 430px;
+.sess5crd,.sess6crd {
+    height:346px;
     padding: 0;
-    border: 4.72px solid #347EFF;
+    border: 2px solid #77A7FB;
 }
 
 .mask-image {
@@ -506,7 +505,7 @@ body#page-atlantis .card-session4-spns .card-body {
 .cercle-img {
     position: absolute;
     left: 14%;
-    top: 45%;
+    top: 55%;
     width: 70px !important;
 }
 
@@ -521,7 +520,7 @@ body#page-atlantis .card-session4-spns .card-body {
 .text-img {
     position: absolute;
     left: 20%;
-    top: 50%;
+    top: 62%;
     font-weight: 700;
     color: #ffffff;
 }
@@ -535,8 +534,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .posit {
     position: absolute;
-    left: 55%;
-    top: 49%;
+    left: 53%;
+    top: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -587,8 +586,8 @@ body#page-atlantis .card-session4-spns .card-body {
 .sess6h2 {
     position: absolute;
     width: 100%;
-    top: 76%;
-    color: #FFFFFF;
+    top: 90%;
+    color: #000;
     font-size: 29px !important;
 }
 
@@ -603,12 +602,7 @@ body#page-atlantis .card-session4-spns .card-body {
 
 /* section 6 */
 
-.sess6crd {
-    border: 4.72px solid #FFFFFF;
-    background-color: #347EFF;
-    height: 430px;
-    padding: 0;
-}
+
 
 /* **** */
 section {

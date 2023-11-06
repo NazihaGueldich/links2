@@ -636,9 +636,13 @@
     <div class="modal fade" id="modalemailsucc" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-body text-center">
+                <div class="py-5 modal-body text-center">
                     <h2 class="main-title">고객님의 문의가 성공적으로 접수됐습니다.</h2>
                     <p class=" text-center">기재하신 연락처로 곧 답변드리겠습니다.</p>
+                    <img  src="{{ asset('images/tick.png') }}" class="img-fluid mt-4 img1mod"
+                            alt="Carthage">
+                    <img  src="{{ asset('images/imgmod.png') }}" class="img-fluid img2mod"
+                            alt="Carthage">
                     <button type="buttom" class="btn btn-primary btnmodal">Oay, Thanks</button>
                 </div>
             </div>
@@ -676,9 +680,9 @@
             console.log(success);
             if (success == 1) {
                 $('#modalemailsucc').modal("show");
-                setTimeout(function() {
+               /*  setTimeout(function() {
                     $('#modalemailsucc').modal('hide');
-                }, 2000);
+                }, 3000); */
             }
         });
     </script>
