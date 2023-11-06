@@ -452,30 +452,41 @@
                 <h2 class="main-title">Guest houses</h2>
             </div>
             <div class="row sess6-crds session6-slick-web mb-5">
+               
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>Bizerte, tunisia</p>
+                        <p>Medina of Tunis</p>
                     </div>
 
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
+                    <h2  class="sub-title sess6h2">Dar Ben Gacem </h2>
                 </div>
-                <div class="col-lg-3 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
+                
+                <div class="col-lg-3  sess6crd radius-20">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>Bizerte, tunisia</p>
+                        <p>HAMMAMET, Tunisia</p>
                     </div>
 
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
+                    <h2  class="sub-title sess6h2">Dar Fatma</h2>
                 </div>
-                <div class="col-lg-3 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
+                <div class="col-lg-3  sess6crd radius-20">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
@@ -483,12 +494,44 @@
                         <p>Bizerte, tunisia</p>
                     </div>
 
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
+                    <h2  class="sub-title sess6h2">Dar ellamma</h2>
                 </div>
             </div>
             <div class="row sess6-crds session6-slick-mobile">
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <p>Medina of Tunis</p>
+                    </div>
+
+                    <h2  class="sub-title sess6h2">Dar Ben Gacem </h2>
+                </div>
+                
+                <div class="col-lg-3  sess6crd radius-20">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <p>HAMMAMET, Tunisia</p>
+                    </div>
+
+                    <h2  class="sub-title sess6h2">Dar Fatma</h2>
+                </div>
+                <div class="col-lg-3  sess6crd radius-20">
+                    <div class="mask-image">
+                        <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
+                            alt="Carthage">
+                    </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
@@ -496,30 +539,9 @@
                         <p>Bizerte, tunisia</p>
                     </div>
 
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
+                    <h2  class="sub-title sess6h2">Dar ellamma</h2>
                 </div>
-                <div class="col-lg-3 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
-                    <p class="text-img">링크</p>
-                    <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>Bizerte, tunisia</p>
-                    </div>
-
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
-                </div>
-                <div class="col-lg-3 sess6crd radius-20">
-                    <img src="{{ asset('images/sess6crd.png') }}">
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
-                    <p class="text-img">링크</p>
-                    <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>Bizerte, tunisia</p>
-                    </div>
-
-                    <h2 class="sub-title sess6h2">Dar el-emma</h2>
-                </div>
+            </div>
             </div>
         </section>
 

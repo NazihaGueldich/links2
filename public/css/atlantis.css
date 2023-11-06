@@ -488,7 +488,7 @@ body#page-atlantis .card-session4-spns .card-body {
 #sess5crd3img,
 #sess5crd4img,
 #sess5crd5img,
-#sess5crd6img {
+#sess5crd6img ,.sess6crdimg{
     height: 285px;
     object-fit: cover;
 }
@@ -535,12 +535,20 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .posit {
     position: absolute;
-    left: 53%;
-    top: 51%;
-    width: 25px !important;
+    left: 55%;
+    top: 49%;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.posit img{
+    width: 20px;
+}
+
+.posit p{
+    width: 90px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
