@@ -17,7 +17,7 @@ main {
 }
 
 .row {
-    display: flex;
+    display: flex !important;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0;
