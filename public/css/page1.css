@@ -12,6 +12,9 @@ main{
     position: relative;
 }
 
+#section-7 p{
+    font-size: 1.3rem;
+}
 .overlay-content {
     position: absolute;
     top:50px;
@@ -884,6 +887,13 @@ footer h3 {
     font-weight: 400;
     font-size: 28px;
 }
+#logform{
+    width: 200px;
+    padding-bottom: 110px;
+}
+#contenue{
+    resize: none;
+}
 
 .button3 {
     width: 344px;
@@ -1345,4 +1355,8 @@ body .slick-slide1{
 #section-8 .card2 {
     width: 66%;
     margin: 0 auto;
+}
+
+.btnmodal{
+    border-radius: 20px;
 }

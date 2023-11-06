@@ -19,7 +19,13 @@
     }
 }
 @media all and (max-width: 767px) {
-
+    #logform {
+        width: 100%;
+        padding-bottom: 31px;
+    }
+    #logform img{
+        object-fit: contain;
+    }
     .ligne-separtion{
         border-bottom: 1.5px solid #b1afaf;
         position: relative;
