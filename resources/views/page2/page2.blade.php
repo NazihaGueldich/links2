@@ -53,10 +53,14 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-7 links_box">
-                    <button type="button" class="btn btn-outline-primary button-main">수도</button>
+                <div class="col-lg-7  one-time-slide">
+                    <img src="{{ asset('images/0405a5ee29097c5fb149aa921a4e4f59.jpg') }}" >
+                    <img src="{{ asset('images/8482b040627099.jpg') }}">
+                    <img src="{{ asset('images/C6A7E6CA7F0001011CD9F9B19CDA46F1.jpg') }}" >
+                    <img src="{{ asset('images/djerba_5.jpg') }}" >
+                    <img src="{{ asset('images/Tamerza-oasis.jpg') }}" >
                 </div>
-                <div class="col-lg-4 ml-lg-3 pt-lg-3">
+                <div class="col-lg-4 ml-lg-3 pt-3">
                     <p class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </p>
                     <p class="txt1"><strong>수도: </strong>튀니스(Tunis)</p>
                     <p class="txt1"><strong>면적:</strong>163,610km2(세계 93위. 한반도의 3/4) </p>
@@ -572,6 +576,15 @@
             fade: true,
   cssEase: 'linear'
         });
+        $('.one-time-slide').slick({
+            dots: true,
+            infinite: true,
+            adaptiveHeight: true,
+            appendArrows: false,
+            fade: true,
+  cssEase: 'linear'
+
+});
 
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');

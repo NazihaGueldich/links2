@@ -8,13 +8,17 @@
         margin-top: 35px;
     }
 
+
     #section-1 .links_box {
         margin-bottom: 30px;
         height: 400px;
     }
+    #section-6 .parghraphe1 {
+        width: 100%;
+    }
 
-    section .slick-slide {
-        display: block;
+    body section .slick-slide {
+        display: block !important;
     }
 
     section .block-cards {
@@ -54,7 +58,11 @@
         display: flex;
         flex-direction: column-reverse;
     }
-
+    .para-section{
+        padding-bottom: 29px;
+        padding-left:0;
+        width: auto;
+    }
     #section-5 .parghraphe {
         font-size: 1rem;
     }
@@ -383,7 +391,11 @@ display:none;
         margin: 0 auto;
         height: 100%;
     }
+    .btnactv {
 
+        padding: 0px 10px !important;
+      
+    }
     .ktbchng p {
 
         font-size: 1.3rem;

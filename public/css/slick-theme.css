@@ -156,19 +156,44 @@
 }
 @media all and (max-width: 767px) {
 
+    #about-tunisia .slick-dots {
+        position: absolute;
+        bottom: -23px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        left: 0;
+        margin: 0;
+        text-align: center;
+    }
 
-#about-tunisia .slick-dots {
-    position: absolute;
-    bottom: -82px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    left: 154px;
-
-    margin: 0;
-    list-style: none;
-
+    #about-tunisia #section-3 .slick-dots {
+        position: absolute;
+        bottom: -80px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        left: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #about-tunisia #section-5 .slick-dots {
+        position: absolute;
+        bottom: -70px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        left: 0;
+        margin: 0;
+        text-align: center;
+    }
 }
+#section-1 .slick-list .draggable{
+    height: 100%;
+}
+#section-1.slick-track
+{
+    height: 100%;
 }
 #about-tunisia .slick-dots li.slick-active button:before
 {
@@ -255,4 +280,55 @@
 {
     opacity: 1;
     color: #ffffff;
+}
+
+
+#about-tunisia #section-1 .slick-dots
+{
+    position: absolute;
+    bottom: -90px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    left: 0px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+@media all and (max-width: 767px) {
+
+
+#about-tunisia #section-1  .slick-dots {
+    position: absolute;
+    bottom: -82px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+}
+
+#about-tunisia #section-1 .slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    color: #615c5c;
+}
+#about-tunisia  .slick-dots li button:before
+{
+    font-family: 'slick';
+
+    font-size: 14px;
+    left: 15px;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #5d5a5a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
