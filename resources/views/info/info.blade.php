@@ -3,16 +3,56 @@
  <body id="page-info">
      @include('layouts.front.header')
      <main>
+
          <div class="wrapper">
              <section id="p3-section1">
-                 <div class="container" >
+                 <div class="container">
+                     {{-- icons --}}
+                     <div class="flex-container pt-5 sessicn">
+                         <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
+                             <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p1" class="txticns">호텔</p>
+                         </div>
+
+                         <div class=" ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
+                                 id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p2" class="txticns">항공편</p>
+                         </div>
+                         <div class="ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
+                                 id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p3" class="txticns">축제</p>
+                         </div>
+                         <div class="ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
+                                 id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p4" class="txticns">활동</p>
+                         </div>
+                         <div class="ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
+                                 id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p5" class="txticns">자동차 서비스</p>
+                         </div>
+                         <div class="ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
+                                 id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p6" class="txticns">크루즈</p>
+                         </div>
+                         <div class="ligne1 m-4 lg">|</div>
+                         <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
+                                 id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
+                             <p id="p7" class="txticns">박물관</p>
+                         </div>
+                     </div>
                      <div class="row">
                          <div class="col-md-12">
                              <div class="section-header">
-                                <h1 class="text-center mt-5 mb-5 pt-5 pb-5">
-                                    Travel Information
-                                </h1>
-                                 <h2 class="main-title dm-sans text-center">Common Expressions</h2>
+                                 <h1 class="text-center mt-5 mb-5 pt-5 pb-5">
+                                     Travel Information
+                                 </h1>
+
+                                 <h2 class="main-title dm-sans text-center mt-lg-5">Common Expressions</h2>
                                  <p class="sub-title text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
                              </div>
                          </div>
@@ -119,7 +159,8 @@
                                              alt="Card image cap">
                                          <div class="card-body p-0">
                                              <h5 class="card-title">브릭</h5>
-                                             <p class="card-text">얇은 반죽 피에 달걀, 양파, 참치, 감자, 파슬리 등을 속으로 채워 튀긴 튀니지의 대표적인 튀김
+                                             <p class="card-text">얇은 반죽 피에 달걀, 양파, 참치, 감자, 파슬리 등을 속으로 채워 튀긴 튀니지의 대표적인
+                                                 튀김
                                                  요리예요.</p>
                                          </div>
                                      </div>
@@ -140,7 +181,8 @@
                                              alt="Card image cap">
                                          <div class="card-body p-0">
                                              <h5 class="card-title">오짜</h5>
-                                             <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선 등을
+                                             <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선
+                                                 등을
                                                  넣기도 해요.</p>
                                          </div>
                                      </div>
@@ -184,14 +226,14 @@
                      </div>
                      <div class="row wrap-nav-transportation">
                          <div class="col-md-12">
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a data-toggle="tab" href="#domav">Domestic Aviation</a></li>
-                                <li><a data-toggle="tab" href="#carnt">Car Rent</a></li>
-                                <li><a data-toggle="tab" href="#taxi">Taxi</a></li>
-                                <li><a data-toggle="tab" href="#loug">Louage</a></li>
-                                <li><a data-toggle="tab" href="#trnmet">Train/Metro</a></li>
-                                <li><a data-toggle="tab" href="#ferr">Ferry</a></li>
-                            </ul>
+                             <ul class="nav nav-tabs">
+                                 <li class="active"><a data-toggle="tab" href="#domav">Domestic Aviation</a></li>
+                                 <li><a data-toggle="tab" href="#carnt">Car Rent</a></li>
+                                 <li><a data-toggle="tab" href="#taxi">Taxi</a></li>
+                                 <li><a data-toggle="tab" href="#loug">Louage</a></li>
+                                 <li><a data-toggle="tab" href="#trnmet">Train/Metro</a></li>
+                                 <li><a data-toggle="tab" href="#ferr">Ferry</a></li>
+                             </ul>
                              <div class="tab-content">
                                  <div id="domav" class="tab-pane fade in active show">
                                      <div class="row">
@@ -271,8 +313,9 @@
                                                  제르바섬으로 이동하는 노선을 운영합니다.</p>
                                          </div>
                                          <div class="col-md-6">
-                                            <img src="{{ asset('images/image-20231030-140304.png') }}" class="img-fluid custom-image" alt="taxi">
-                                          </div>
+                                             <img src="{{ asset('images/image-20231030-140304.png') }}"
+                                                 class="img-fluid custom-image" alt="taxi">
+                                         </div>
 
                                      </div>
                                  </div>
@@ -421,7 +464,7 @@
                          </div>
                      </div>
                      <div class="row wrap-festival-card" id='crdssess5'>
-                         <div class="col-md-4" >
+                         <div class="col-md-4">
                              <div class="custom-card">
                                  <div class="mask-image">
                                      <img src="{{ asset('images/carthage.png') }}" class="img-fluid" alt="Carthage">
@@ -583,30 +626,48 @@
 
          setInterval(updateClock, 1000);
 
+         /* icons */
+         function changeImage(isMouseOver, id) {
+             var imgId = 'img' + id;
+             var pId = 'p' + id;
+             var img = document.getElementById(imgId);
+             var p = document.getElementById(pId);
+             var src;
+             if (isMouseOver) {
+                 src = "../images/Icon_" + id + "_First_Animation.gif";
+                 p.style.fontWeight = 'bolder';
+             } else {
+                 src = "../images/Icon_" + id + "_Second_Animation.gif";
+                 p.style.fontWeight = '';
+             }
+             img.src = src;
+         }
+
+
          window.addEventListener('resize', function() {
-            var itemsDiv = document.getElementById('btns');
-            var crds = document.getElementById('crdssess1');
-            var crdssess5 = document.getElementById('crdssess5');
+             var itemsDiv = document.getElementById('btns');
+             var crds = document.getElementById('crdssess1');
+             var crdssess5 = document.getElementById('crdssess5');
 
              if (window.innerWidth <= 767) {
                  if (!itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.add('slick-sess3');
                  }
                  if (!crds.classList.contains('slick-sess1')) {
-                    crds.classList.add('slick-sess1');
+                     crds.classList.add('slick-sess1');
                  }
                  if (!crdssess5.classList.contains('slick-sess5')) {
-                    crdssess5.classList.add('slick-sess5');
+                     crdssess5.classList.add('slick-sess5');
                  }
              } else {
                  if (itemsDiv.classList.contains('slick-sess3')) {
                      itemsDiv.classList.remove('slick-sess3');
                  }
                  if (!crds.classList.contains('slick-sess1')) {
-                    crds.classList.remove('slick-sess1');
+                     crds.classList.remove('slick-sess1');
                  }
                  if (!crdssess5.classList.contains('slick-sess5')) {
-                    crdssess5.classList.remove('slick-sess5');
+                     crdssess5.classList.remove('slick-sess5');
                  }
              }
          });
