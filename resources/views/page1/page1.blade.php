@@ -712,7 +712,7 @@
             prevArrow: null,
             nextArrow: null,
             fade: true,
-            cssEase: 'linear'
+            cssEase: 'linear',
             appendArrows: $('#mySlickCarousel'),
         });
     </script>

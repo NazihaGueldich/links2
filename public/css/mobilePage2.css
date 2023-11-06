@@ -394,7 +394,7 @@ display:none;
     .btnactv {
 
         padding: 0px 10px !important;
-      
+
     }
     .ktbchng p {
 
@@ -570,7 +570,9 @@ display:none;
         width: 7%;
 
     }
-
+    .ktbchng {
+        height: 659px;
+    }
     #crcl3 {
         width: 7%;
 
