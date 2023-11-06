@@ -461,6 +461,7 @@ body#page-atlantis .card-session4-spns .card-body {
     display: none;
 }
 
+
 .dirct img {
     margin-right: 10px;
 }
@@ -553,7 +554,7 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .posit {
         left: 55%;
-        top: 46%;
+        top: 58%;
     }
 }
 
@@ -591,14 +592,6 @@ body#page-atlantis .card-session4-spns .card-body {
     font-size: 29px !important;
 }
 
-@media (max-width: 767px) {
-
-    .sess5h2,
-    .sess6h2 {
-        left: 7%;
-        top: 74%;
-    }
-}
 
 /* section 6 */
 

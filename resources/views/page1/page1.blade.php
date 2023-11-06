@@ -643,7 +643,7 @@
                             alt="Carthage">
                     <img  src="{{ asset('images/imgmod.png') }}" class="img-fluid img2mod"
                             alt="Carthage">
-                    <button type="buttom" class="btn btn-primary btnmodal">Oay, Thanks</button>
+                    <button id="model-close" type="buttom" class="btn btn-primary btnmodal">Okay, Thanks!</button>
                 </div>
             </div>
         </div>
@@ -684,6 +684,11 @@
                     $('#modalemailsucc').modal('hide');
                 }, 3000); */
             }
+
+            $("#model-close").on('click',function(){
+                $('#modalemailsucc').modal('hide');
+            });
+
         });
     </script>
     <script>

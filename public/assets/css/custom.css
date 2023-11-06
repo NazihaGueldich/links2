@@ -65,7 +65,7 @@ ul {
 .icone-date:before {
     content: "";
     position: absolute;
-    background: url("../img/icone_date.svg") no-repeat center/contain;
+    background: url("../img/calendar.svg") no-repeat center/contain;
     width: 22px;
     height: 22px;
     left: -30px;
@@ -144,9 +144,6 @@ ul {
     }
 }
 
-#p3-section1 {
-    margin-top: 120px;
-}
 
 body {
     font-family: "Noto Sans KR", sans-serif;
@@ -297,6 +294,7 @@ body #p3-section3>.container>.row,
 body #p3-section4>.container>.row,
 body #p3-section5>.container>.row {
     margin: 0 -15px;
+    gap: 55px;
 }
 
 
@@ -488,20 +486,18 @@ body .wrap-festival-card .col-md-4 {
 }
 
 body .wrap-festival-card .custom-card {
-    height: 424px;
-    width: 353px;
+    height: 380px;
+    width: 330px;
     max-width: 100%;
     position: relative;
     background-size: 100% auto;
-    background-color: #347EFF;
-    border-radius: 15px;
+    border-radius: 19px;
+    border: 2px solid #77A7FB;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 15px;
     margin-bottom: 0;
-    color: #FFF;
 }
 
 body .wrap-festival-card .custom-card .mask-image {
@@ -511,6 +507,7 @@ body .wrap-festival-card .custom-card .mask-image {
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     mask-size: contain;
+    width: 100%;
 }
 
 body .wrap-festival-card .custom-card .custom-card-title {
@@ -525,6 +522,12 @@ body .wrap-festival-card .custom-card .custom-card-text {
     top: 50%;
     font-size: 1rem;
     line-height: 2.15;
+}
+
+@media screen and (max-width: 768px) {
+    body .wrap-festival-card .custom-card .custom-card-text {
+        top: 60%;
+    }
 }
 
 @media screen and (max-width: 1280px) {

@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
                         <img src="{{ asset('images/O3.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb">
-                        <div class="dirct">
+                        <div class="dirct" style="display: block">
                             <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)">
                             <img id='crclsess1' src="{{ asset('images/pt.png') }}">
                             <img id='crclsess2' src="{{ asset('images/crcl.png') }}">
