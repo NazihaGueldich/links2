@@ -472,6 +472,11 @@ display:none;
         object-fit: cover;
         border-radius: 20px;
     }
+
+    #section-1 .one-time-slide{
+        margin-bottom: 50px;
+    }
+
     #txtindx {
         font-family: noto;
         font-size: 22px;
