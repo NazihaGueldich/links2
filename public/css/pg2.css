@@ -11,7 +11,9 @@ body.tunisiatrip a {
     transition: all .3s ease;
     text-decoration: none;
 }
-
+#section-6 .parghraphe1{
+    width: 55%;
+}
 main {
     margin-top: 100px;
 }
@@ -40,6 +42,9 @@ main {
     margin-bottom: 19px;
 }
 
+#section-6 {
+background: #d6dfef17;
+}
 #section-10 .ligne-separtion {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
@@ -617,29 +622,11 @@ body {
 
 /* part 5 */
 
-.btnactv {
-    border-radius: 20px;
-    border: 2px solid #347EFF;
-    color: #347EFF;
+.btninactv {
+    width: 14%;
+    border-radius:20px;
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    box-shadow: none !important;
-    outline: none !important;
-    background-color: transparent;
-    height: 61px;
-}
-
-.btnactv:hover {
-    color: #347EFF !important;
-    border: 2px solid #347EFF !important;
-}
-
-.btninactv {
-    font-size: 1.2rem;
-    font-weight: 400;
     line-height: 41px;
     letter-spacing: 0em;
     text-align: center;
@@ -652,25 +639,56 @@ body {
 }
 
 
+.btninactv:hover {
+    color: #347EFF !important;
+    border: 2px solid #347EFF !important;
+}
+
+
+.btnactv {
+    width: 14%;
+    font-size: 1.3rem;
+    border-radius:20px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0em;
+    padding: 0px 39px !important;
+    text-align: center;
+    color: #347EFF !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 2px solid #347EFF !important;
+    background-color: #ffffff !important;
+    height: 61px;
+}
+
+
+
 
 .ktbchng p {
+    padding-bottom: 3%;
+
     font-size: 1.3rem;
     font-weight: 700;
     width: 100%;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
 }
 
 .ktbchng span {
     font-family: 'noto';
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0;
     text-align: center;
 }
-
+.para-section{
+    padding-bottom: 29px;
+    padding-left: 23%;
+    width: 681px;
+}
 
 .inx {
     width: 40%
@@ -1016,9 +1034,13 @@ ul {
     margin: 52px;
 }
 .ktbchng .row{
+    margin-top: 3%;
+    background: white;
+    border-radius: 3%;
 
-    height: 312px;
+
 }
+
 
 .cnt {
     margin-top: 100px !important;
