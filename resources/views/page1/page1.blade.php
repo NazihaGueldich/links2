@@ -698,6 +698,8 @@
             autoplaySpeed: 4000,
             prevArrow: null,
             nextArrow: null,
+            fade: true,
+  cssEase: 'linear'
             appendArrows: $('#mySlickCarousel'),
         });
     </script>
