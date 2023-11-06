@@ -1209,7 +1209,8 @@ body.tunisiatrip .card5 {
 .flex-container {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 }
 
 .icns {

@@ -98,7 +98,7 @@
 
     <section id="section-2">
         <div class="container mt-5">
-            <div class="row reverse">
+            <div class="row reverse m-0">
                 {{-- image 1 --}}
                 <div class="col-6 r-image1">
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 {{-- bloc 1 --}}
-                <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="col-6 d-flex flex-column justify-content-between p-0 pr-0">
                     <div class="d-flex gap-30">
                         <div class="w-50">
                             <div class="image-2 links_box-shadox" onclick="handleClick(2)" id="image-2">
@@ -253,7 +253,7 @@
     <section id="section-4">
         <div class="container sess3">
             <h2 class="main-title">튀니지 주요 도시</h2>
-            <div class="container esapce">
+            <div class="w-100 esapce">
                 <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
         background-position: center center;"
                     class="image1-2 links_box-shadox" id="imageCov1">
@@ -466,7 +466,6 @@
             <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
         </div>
     </section>
-
     <section id="section-7" class="background-section">
         <div class="container mt-5 bb">
             <div class="row">
@@ -501,6 +500,7 @@
 
         </div>
     </section>
+
 
     <section id="section-8">
         <div class="container">

@@ -29,7 +29,7 @@
                 <li class="nav-item active d-flex align-items-center  txtnav">
                     <a class="nav-link" href="#" id="tun-time">보다 더 ></a>
                 </li>
-                <li class=" nav-item d-flex" id="tun-time">
+                <li class=" nav-item mr-0 d-flex" id="tun-time">
                     <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
                     <div class="position-relative">
                         <input type="text" class="input-search" style="border-radius:8px">
