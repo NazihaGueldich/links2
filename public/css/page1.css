@@ -12,6 +12,9 @@ main{
     position: relative;
 }
 
+#section-7 p{
+    font-size: 1.3rem;
+}
 .overlay-content {
     position: absolute;
     top:50px;
@@ -885,6 +888,13 @@ footer h3 {
     border: 1px solid #B3B3B3;
     font-weight: 400;
     font-size: 28px;
+}
+#logform{
+    width: 200px;
+    padding-bottom: 110px;
+}
+#contenue{
+    resize: none;
 }
 
 .button3 {

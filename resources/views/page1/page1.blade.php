@@ -468,8 +468,20 @@
     </section>
     <section id="section-7" class="background-section">
         <div class="container mt-5 bb">
-            <div class="row">
-                <div class="col-md-8 offset-lg-2">
+            <h2 class="main-title text-center">문의하기</h2>
+            <div class="ligne-separtion"></div>
+            <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
+            <div class="row pt-lg-4">
+                <div class="col-md-4">
+                    <div id='logform'>
+                    <img  class="w-100" src="{{ asset('images/Untitled-1.png') }}">
+                    </div>
+                    <p><strong> 주소: </strong>, Japan St, Imm Fatma</p>
+                    <p><strong> 이메일:</strong> atlantis@atlantis.tn</p>
+                    <p><strong> 이메일: </strong>@atlantis.tn</p>
+
+                </div>
+                <div class="col-md-8">
                     <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
                         @csrf
                         <div class="form-group">
@@ -481,12 +493,12 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl" placeholder="문의사항 "
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl" style="resize: none;" placeholder="문의사항 "
                                 required></textarea>
                         </div>
-                        <div class="form-group text-right mt-4">
-                            <button type="submit" class="btn btn-outline-primary button4 m-0">문의하기</button>
-                            <button type="buttom" class="btn btn-outline-primary button4 m-0" onclick="viderchapm()" >취소</button>
+                        <div class="form-group text-right mt-lg-4">
+                            <button type="buttom" class="btn btn-outline-primary button4 m-0 mb-2" onclick="viderchapm()" >취소</button>
+                            <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
                         </div>
                     </form>
                 </div>
