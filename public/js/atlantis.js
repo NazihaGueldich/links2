@@ -83,7 +83,7 @@ function chngcontsess4(x) {
     ];
     var h1 = ['places 1-4', "places Max 22 (최대 22명)", "Places Max 53 (최대 53명)", "Places Max 8 "];
     var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내"];
-    var img = ['Van 2.jpg', 'Mini bus 2.jpg', 'bus.png', 'van1.jpg' ];
+    var img = ['Car.jpg', 'Mini bus 2.jpg', 'bus.png', 'van1.jpg' ];
 
     document.getElementById('psess4').innerHTML = p[x];
     document.getElementById('h1sess4').innerHTML = h1[x];
@@ -173,11 +173,13 @@ function srllcrdssess5(x) {
     //first crcl
     var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan', 'Pansy KSAR Ghilene'];
     var p0 = ['Hammamet, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Hammamet, Tunisia'];
-    var img0 = ['sess5crd1.jpeg', 'sess5crd2.jpeg', 'sess5crd3.jpeg', 'sess5crd4.jpeg', 'sess5crd5.jpeg', 'pansy ksar ghilane.jpeg'];
+    var img0 = ['Four-Seasons-Tunis.jpeg', 'Anantara-Tozeur.jpeg', 'Movenpick-Sousse.jpeg', 'The-Residence-Tunis.jpeg', 'Le-Kasbah-Kairouan.jpeg', 'Pansy-KSAR-Ghilene.jpeg'];
+    var alt0=['Four Seasons Tunis',"Anantara Tozeur","Movenpick Sousse","The Residence Tunis","Le Kasbah Kairouan","Pansy KSAR Ghilene"]
     //seconde crcl
     var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
     var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
-    var img1 = ['Radisson Sfax.jpeg', 'sess5crd6.jpeg', 'Africa 2.jpeg', 'Movenpick Lac 2.jpeg', 'Mouradi gammarth 2.jpeg'];
+    var img1 = ['Radisson-Sfax.jpeg', 'Sheraton.jpeg', 'Africa.jpeg', 'Movenpick-Lac-2.jpeg', 'Mouradi-gammarth-2.jpeg'];
+    var alt1=['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth']
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
@@ -195,10 +197,12 @@ function srllcrdssess5(x) {
             h2 = h20[ind];
             p = p0[ind];
             img = '../images/' + img0[ind];
+            alt =alt0[ind];
         } else if (z === 1) {
             h2 = h21[ind];
             p = p1[ind];
             img = '../images/' + img1[ind];
+            alt =alt1[ind];
         }
         ind++;
 
@@ -216,6 +220,7 @@ function srllcrdssess5(x) {
         const imgElement = document.createElement('img');
         imgElement.setAttribute('id', 'sess5crd1img');
         imgElement.setAttribute('src', img);
+        imgElement.setAttribute('alt', alt);
         imgElement.classList.add('img-fluid');
         imgElement.setAttribute('alt', 'Carthage');
         maskDivElement.appendChild(imgElement);
@@ -270,10 +275,12 @@ var idimg = 0;
 
 function chngimgsess1(x) {
     var img = [
-        "../images/O3.jpg",
-        "../images/T1.jpg",
-        "../images/O7.jpg",
+        "../images/Atlantis-Space.jpg",
+        "../images/Teems-Atlantis.jpg",
+        "../images/Bureau-Atlantis.jpg",
     ];
+
+    var alt=['Atlantis Space','Teems Atlantis','Bureau Atlantis']
 
     if (x == -1 && idimg > 0) {
         idimg--;
@@ -303,7 +310,7 @@ function chngimgsess1(x) {
     }
 
     document.getElementById('imgsess1kb').src = img[idimg];
-
+    document.getElementById('imgsess1kb').alt=alt[idimg];
 
 
 }

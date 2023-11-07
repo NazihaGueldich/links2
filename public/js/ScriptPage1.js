@@ -71,7 +71,7 @@ function handleClick(crd) {
         } else if (crd == 5) {
             crd = document.getElementById('image-5');
             if (img5 == 0) {
-                crd.style.backgroundImage = "url('../images/Asset 5@2x 1.png')";
+                crd.style.backgroundImage = "url('../images/sahhara.png')";
                 img5 = 1;
                 p.style.display = 'block';
             } else {
