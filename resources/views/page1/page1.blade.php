@@ -235,7 +235,7 @@
     <section id="section-3" class="background-section">
         <div class="container sess3mobvid text-center">
             <div class="text2">
-                <h2 class="main-title">홍보 영상</h2>
+                <h2 class="main-title">Promotional video</h2>
                 <div class="ligne-separtion"></div>
                 <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
@@ -254,7 +254,7 @@
 
     <section id="section-4">
         <div class="container sess3">
-            <h2 class="main-title">튀니지 주요 도시</h2>
+            <h2 class="main-title">Tunisia's main cities</h2>
             <div class="w-100 esapce">
                 <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
         background-position: center center;"
@@ -390,7 +390,7 @@
 
     <section id="section-5">
         <div class="container">
-            <h2 class="main-title text-center">방문객 후기</h2>
+            <h2 class="main-title text-center">Visitor Reviews</h2>
             <div class="container mt-5 cm">
                 <div class="row justify-content-center">
                     <div class="wrap-avis">
@@ -470,7 +470,7 @@
     </section>
     <section id="section-7" class="background-section">
         <div class="container mt-5 bb">
-            <h2 class="main-title text-center">문의하기</h2>
+            <h2 class="main-title text-center">Contact Us</h2>
             <div class="ligne-separtion"></div>
             <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
             <div class="row pt-lg-4">
@@ -519,6 +519,7 @@
 
     <section id="section-8">
         <div class="container">
+            <h2 class="main-title text-center">Tunisia in numbers</h2>
             <div class="card2 pt-3">
                 <div class="op">
                     <ul class="cardul d-flex justify-content-around" style="list-style-type: none">

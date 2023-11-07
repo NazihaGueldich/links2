@@ -12,6 +12,39 @@ main{
     position: relative;
 }
 
+#mySlickCarousel .slick-dots {
+    position: absolute;
+    bottom: -26px;
+    display: block;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#mySlickCarousel .slick-dots li button:before {
+    font-family: 'slick';
+    margin-top: -242%;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#mySlickCarousel .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffffff;
+}
+
 #section-7 p{
     font-size: 1.3rem;
 }

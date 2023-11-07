@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h1 class="text-center mt-5 pt-5 ">
+                                <h1 class="text-center pt-5 ">
                                     Travel Information
                                 </h1>
 
@@ -464,7 +464,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="main-title dm-sans text-center">Festivals coming soon</h2>
+                                <h2 class="main-title dm-sans text-center">Festivals</h2>
                             </div>
                         </div>
                     </div>
@@ -593,13 +593,14 @@
 
             <section id="p3-section6">
                 <div class="container">
-                    <div class="row">
+                    <div class="row w-100">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="main-title dm-sans text-center">Souvenir Items We Recommend</h2>
+                                <h2 class="main-title dm-sans text-center">What to buy in Tunisia</h2>
                             </div>
                         </div>
                     </div>
+                   
                     <div class="row wrap-souvenir-card">
                         <div class="col-md-12">
                             <ul class="list-souvenir-card p-0">

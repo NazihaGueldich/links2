@@ -49,7 +49,7 @@
     <div class="container">
         <section id="section-1">
             <div class="text-center">
-                <h2 class="main-title">튀니지 개관</h2>
+                <h2 class="main-title">Tunisia overview</h2>
             </div>
 
             <div class="row">
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="text-center  links_box">
-                <h2 class="main-title">위치</h2>
+                <h2 class="main-title">Location</h2>
                 <img src="{{ asset('images/MAP_SVG.svg') }}" class="img2">
             </div>
             <div class="row block-cards">
@@ -156,7 +156,7 @@
 
         <section id="section-5">
             <div class="text-center mb-3">
-                <span class="main-title">날씨</span>
+                <span class="main-title">Weather</span>
                 <div class="ligne-separtion"></div>
             </div>
             <div class="variable-width">
@@ -285,7 +285,7 @@
         <section id="section-8">
             <div class="text-center ">
                 <div class="d-flex flex-column align-items-center">
-                    <p class="main-title">종교</p>
+                    <p class="main-title">Religion</p>
                     <div class="ligne-separtion"></div>
                     <div class="parghraphe">
                         <span>튀니지의 국교는 이슬람교!<br>
@@ -375,7 +375,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="main-title">튀니지는 어떤 것으로 유명한가요?</h2>
+            <h2 class="main-title">튀What is Tunisia famous for?</h2>
 
             <div class="row block-cards">
                 <div class="col-lg-4 section-9-hover">
@@ -429,7 +429,7 @@
         {{-- part 8 --}}
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
-                <h2 class="main-title">튀니지 문화</h2>
+                <h2 class="main-title">Tunisian culture</h2>
                 <div class="ligne-separtion"></div>
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>

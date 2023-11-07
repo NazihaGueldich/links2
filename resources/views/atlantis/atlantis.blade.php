@@ -45,7 +45,7 @@
         {{-- section 1 --}}
         <section id="section-1 mt-5">
             <div class="text-center pt-5">
-                <h2 class="main-title">ATLANTIS : Who are we?</h2>
+                <h2 class="main-title">Atlantis agency</h2>
             </div>
             <div class="card card-session1 radius-20 mt-lg-5">
                 <div class="card-body mr-0 py-lg-4 row">
