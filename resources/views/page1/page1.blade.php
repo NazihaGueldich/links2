@@ -7,7 +7,7 @@
         <div id="mySlickCarousel">
             <div class="slick-slider">
                 <div class="slick-slide">
-                    <img src="{{ asset('images/1.png') }}" class="img1">
+                    <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">사하라 사막의 시작</span>
@@ -499,7 +499,7 @@
                                 style="resize: none;" placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group text-right mt-lg-4">
-                            <button type="buttom" class="btn btn-outline-primary button4 m-0 mb-2"
+                            <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
                                 onclick="viderchapm()">취소</button>
                             <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
                         </div>
