@@ -478,9 +478,9 @@
                     <div id='logform'>
                         <img class="w-100" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
                     </div>
-                    <p><strong> 주소: </strong>, Japan St, Imm Fatma</p>
-                    <p><strong> 이메일:</strong> atlantis@atlantis.tn</p>
-                    <p><strong> 이메일: </strong>@atlantis.tn</p>
+                    <p><strong> 주소: </strong>Tunis, Japan St, Imm Fatma</p>
+                    <p><strong> 이메일:</strong>  atlantis@atlantis.tn</p>
+                    <p><strong> 연락처: </strong> +216 52 924 322</p>
 
                 </div>
                 <div class="col-md-8">

@@ -544,7 +544,7 @@
 
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
                     <div class="mask-image">
-                        <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
+                        <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
@@ -566,14 +566,14 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>HAMMAMET, Tunisia</p>
+                        <p>Sidi bou said</p>
                     </div>
 
                     <h2  class="sub-title sess6h2">Dar Fatma</h2>
                 </div>
                 <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
-                        <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
+                        <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
@@ -611,7 +611,7 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>HAMMAMET, Tunisia</p>
+                        <p>Sidi bou said</p>
                     </div>
 
                     <h2  class="sub-title sess6h2">Dar Fatma</h2>
