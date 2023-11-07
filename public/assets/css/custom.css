@@ -276,7 +276,11 @@ body .wrap-culinary-card .culinary-card .card-body .card-text {
     font-style: normal;
     font-weight: 100;
 }
+#logimg{
 
+    height: auto;
+    width:150px;
+}
 /* body #p3-section3,
 body #p3-section4,
 body #p3-section5 {

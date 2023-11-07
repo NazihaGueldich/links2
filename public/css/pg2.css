@@ -742,7 +742,11 @@ body {
     letter-spacing: 0em;
     text-align: start;
 }
+#logimg{
 
+    height: auto;
+    width:150px;
+}
 #txtindx {
     font-family: noto;
     font-size: 27px;

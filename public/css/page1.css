@@ -1200,7 +1200,11 @@ body.tunisiatrip .card5 {
     font-size: 14px;
     font-weight: 400;
 }
+#logimg{
 
+    height: auto;
+    width:150px;
+}
 #crcltuns {
     width: 15px;
     height: 15px;

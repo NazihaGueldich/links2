@@ -88,7 +88,11 @@ body p {
     font-size: 17px;
     padding: 3px;
 }
+#logimg{
 
+    height: auto;
+    width:150px;
+}
 .btn.btn-outline-primary.btn-main:hover {
     color: #ffffff;
     background-color: #347EFF;

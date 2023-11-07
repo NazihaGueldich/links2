@@ -2,7 +2,8 @@
     <div class="container justify-content-between">
         <div id="myTopnav">
             <a href="/">
-                <img id="logimg" src="{{ asset('images/LogoProk.png') }}">
+                <img id="logimg" src="{{ asset('images/LogoProk.svg') }}">
+
             </a>
         </div>
 
