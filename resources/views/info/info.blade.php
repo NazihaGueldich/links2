@@ -187,27 +187,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="culinary-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/culinary3.png') }}"
-                                            alt="Card image cap">
-                                        <div class="card-body p-0">
-                                            <h5 class="card-title">라블라비</h5>
-                                            <p class="card-text">마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="culinary-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/culinary4.png') }}"
-                                            alt="Card image cap">
-                                        <div class="card-body p-0">
-                                            <h5 class="card-title">오짜</h5>
-                                            <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선
-                                                등을 넣기도 해요.</p>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
