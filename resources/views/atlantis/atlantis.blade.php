@@ -253,6 +253,8 @@
                         <h5 class="sub-sub-title" id='h1sess4'>places 1-4</h5>
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
+
+                    
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
                         <img src="{{ asset('images/Van 2.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb">
                         <div class="dirct" id="dirct">

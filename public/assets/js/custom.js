@@ -36,7 +36,7 @@ $('.list-culinary-card').slick({
   $('.list-museums-card').slick({
     infinite: true,
     speed: 600,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
