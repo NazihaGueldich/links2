@@ -77,7 +77,7 @@
                             튀니지 곳곳을 탐험해 보시는 건 어떨까요?</p>
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/O3.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb">
+                        <img src="{{ asset('images/Atlantis-Space.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb">
                         <div class="dirct" style="display: block">
                             <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)">
                             <img id='crclsess1' src="{{ asset('images/pt.png') }}">
@@ -100,7 +100,7 @@
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-4 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0 h-100 p-lg-3">
-                        <img src="{{ asset('images/crd1frst.png') }}" class="w-100 h-100 radius-20">
+                        <img src="{{ asset('images/Kamel Lagha.png') }}" class="w-100 h-100 radius-20" alt='Kamel Lagha'>
                     </div>
                     <div class="col-lg-6 h-100 py-3 pl-lg-5">
                         <div class="sect2-prt2 ">
@@ -133,7 +133,7 @@
             <div class="row session3-slick-web">
                 <div class="card card-session3  mt-lg-5 col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
-                        <img src="{{ asset('images/Kamel.png') }}" class="imgface">
+                        <img src="{{ asset('images/Kamel.png') }}" class="imgface" alt="Kamel Lagha">
                         <h2 class="sub-title">카멜 라가 </h2>
                         <h2 class="sub-title">Kamel Lagha</h2>
                         <p>CEO of the agency</p>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
-                        <img src="{{ asset('images/Heidi.png') }}" class="imgface">
+                        <img src="{{ asset('images/Heidi.png') }}" class="imgface" alt="Heidi Jung">
                         <h2 class="sub-title">정지혜</h2>
                         <h2 class="sub-title">Heidi Jung</h2>
                         <p>Korean department</p>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
-                        <img src="{{ asset('images/Mariem.png') }}" class="imgface">
+                        <img src="{{ asset('images/Mariem.png') }}" class="imgface" alt="Meriem Zoghlami">
                         <h2 class="sub-title">마리엠 조그라미</h2>
                         <h2 class="sub-title">Meriem Zoghlami</h2>
                         <p>Executive management</p>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="card card-session3  mt-lg-5 col-lg-3 mt-lg-4">
                     <div class="card-body  row radius-20 text-center ">
-                        <img src="{{ asset('images/dunno.png') }}" class="imgface">
+                        <img src="{{ asset('images/dunno.png') }}" class="imgface" alt="Sonia Ben Amor">
                         <h2 class="sub-title">소니아 벤 아모르 </h2>
                         <h2 class="sub-title">Sonia Ben Amor</h2>
                         <p>Tiketing Department</p>
@@ -254,7 +254,7 @@
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/Van 2.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb">
+                        <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb"  alt="Car">
                         <div class="dirct" id="dirct">
                             <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess4(-1)">
                             <img id='crcl11' src="{{ asset('images/pt.png') }}">
@@ -278,8 +278,8 @@
             <div class="row sess5-crds  session5-slick-web" id='sess5-crds'>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd1img' src="{{ asset('images/sess5crd1.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
+                            alt="Four Seasons Tunis">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -298,8 +298,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd2img' src="{{ asset('images/sess5crd2.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
+                            alt="Anantara Tozeur">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -318,8 +318,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd3img' src="{{ asset('images/sess5crd3.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
+                            alt="Movenpick Sousse">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -338,8 +338,8 @@
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd4img' src="{{ asset('images/sess5crd4.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}" class="img-fluid"
+                            alt="The Residence Tunis">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -358,8 +358,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd5img' src="{{ asset('images/sess5crd5.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
+                            alt="Le Kasbah Kairouan">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -378,8 +378,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
+                            alt="Pansy KSAR Ghilene">
                     </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
@@ -399,8 +399,8 @@
             <div class="row sess5-crds  session5-slick-mobile">
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd1img' src="{{ asset('images/sess5crd1.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
+                            alt="Four Seasons Tunis">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -419,8 +419,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd2img' src="{{ asset('images/sess5crd2.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
+                            alt="Anantara Tozeur">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -439,8 +439,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd3img' src="{{ asset('images/sess5crd3.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
+                            alt="Movenpick Sousse">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -459,8 +459,8 @@
                 </div>
                 <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd4img' src="{{ asset('images/sess5crd4.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}" class="img-fluid"
+                            alt="The Residence Tunis">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -479,8 +479,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd5img' src="{{ asset('images/sess5crd5.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
+                            alt="Le Kasbah Kairouan">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -499,8 +499,8 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <img id='sess5crd6img' src="{{ asset('images/pansy ksar ghilane.jpeg') }}" class="img-fluid"
-                            alt="Carthage">
+                        <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
+                            alt="Pansy KSAR Ghilene">
                     </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
@@ -545,7 +545,7 @@
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
-                            alt="Carthage">
+                            alt="Dar Ben Gacem">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
@@ -560,12 +560,12 @@
                 <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
-                            alt="Carthage">
+                            alt="Sidi bou said">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" class="mr-2" alt="">
                         <p>Sidi bou said</p>
                     </div>
 
@@ -574,7 +574,7 @@
                 <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
-                            alt="Carthage">
+                            alt="Dar ellamma">
                     </div>
                     <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
                     <p class="text-img">링크</p>
