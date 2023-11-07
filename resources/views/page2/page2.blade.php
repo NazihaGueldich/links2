@@ -54,7 +54,7 @@
 
             <div class="row">
                 <div class="col-lg-7  one-time-slide">
-                    <img src="{{ asset('images/0405a5ee29097c5fb149aa921a4e4f59.jpg') }}" class="w-100" id='imgsess1'>
+                    <img src="{{ asset('images/Matmata.jpg') }}" class="w-100" id='imgsess1' alt="Matmata Tunisie">
                     <div class="d-flex sccgrp p-lg-3 sess1direct align-items-center" id="dirct">
                         <img src="{{ asset('images/flr.png') }}" onclick="ChangImgSess1(-1)">
                         <img id='sess1crc1' src="{{ asset('images/pt.png') }}">
@@ -295,7 +295,7 @@
                 </div>
                 <div class="row mt-5 ">
                     <div class="col-lg-6 section-8-prt1">
-                        <img src="{{ asset('images/img4.png') }}" class="img-fluid img4" id='img44'>
+                        <img src="{{ asset('images/Kairouan-Great.png') }}" class="img-fluid img4" id='img44' alt="Kairouan Great Tunisia">
                     </div>
 
                     <div
@@ -439,7 +439,7 @@
                     <div class="d-flex flex-column  prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">예술</button>
-                            <img src="{{ asset('images/img8p1.png') }}" class="img-fluid img6" alt="Image">
+                            <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6" alt="Culture Tunisia">
                         </div>
                         <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등 수공예품이
                             유명합니다.
@@ -448,7 +448,7 @@
                     <div class="d-flex flex-column prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">요리</button>
-                            <img src="{{ asset('images/img8p2.png') }}" class="img-fluid img6" alt="Image">
+                            <img src="{{ asset('images/Ojja.png') }}" class="img-fluid img6" alt="Food Tubisie">
 
                         </div>
                         <p class="p1prt8 pt-4">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 올리브 오일, 향신료, 토마토, 해산물, 고기를 기반으로 한 요리가 많아요.
@@ -459,8 +459,8 @@
                     <div class="d-flex flex-column prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">스포츠</button>
-                            <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6" style="z-index: -1;"
-                                alt="Image">
+                            <img src="{{ asset('images/football.png') }}" class="img-fluid img6" style="z-index: -1;"
+                                alt="Football Tunisie">
 
                         </div>
                         <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구 국가대표팀은

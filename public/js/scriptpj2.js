@@ -129,10 +129,11 @@ function changelement(x) {
         elm= 0;
     }
 
-    var img = ["../images/img1.png ",
-        "../images/image-20231102-083934.png",
-        "../images/img3.png"
+    var img = ["../images/Kairouan-Great.png ",
+        "../images/Judaism.png",
+        "../images/Christianity.png"
     ];
+    var alt=['Kairouan Great Tunisia','Judaism Tunisia','Christianity Tunisia'];
     var h = ['이슬람', '유대교', '기독교'];
     var p = [
         '국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.',
@@ -168,7 +169,7 @@ function changelement(x) {
     document.getElementById('h4prt6').innerHTML = h[elm];
     document.getElementById('pprt6').innerHTML = p[elm];
     document.getElementById('txtindx').innerHTML = txtindx[elm];
-
+    document.getElementById('img44').alt=alt[elm];
 }
 
 function fade(element, value,type) {
@@ -260,12 +261,14 @@ function ChangImgSess1(x){
         indimgsess1= 0;
     }
 
-    var img = ["../images/0405a5ee29097c5fb149aa921a4e4f59.jpg",
-        "../images/8482b040627099.jpg",
-        "../images/C6A7E6CA7F0001011CD9F9B19CDA46F1.jpg",
+    var img = ["../images/Matmata.jpg",
+        "../images/Douz.jpg",
+        "../images/Historic-Tour-Bardo-Museum.jpg",
         "../images/djerba_5.jpg",
         "../images/Tamerza-oasis.jpg"
     ];
+
+    var alt=['Matmata Tunisie','Douz Tunisia','Historic Tour Bardo Museum Tunisia','Djerba Tunisia','Tamerza Tunisia']
 
     var sess1crc1=document.getElementById('sess1crc1');
     var sess1crc2=document.getElementById('sess1crc2');
@@ -305,5 +308,7 @@ function ChangImgSess1(x){
         sess1crc1.src = "../images/crcl.png";
     }
 
-    fade(document.getElementById('imgsess1'), img[indimgsess1],0);
+    var imgchn=document.getElementById('imgsess1');
+    fade(imgchn, img[indimgsess1],0);
+    imgchn.alt=alt[indimgsess1];
 }
