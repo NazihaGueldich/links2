@@ -468,8 +468,9 @@ body#page-atlantis .card-session4-spns .card-body {
 
 /* session 5 */
 
-.sess5crd,.sess6crd {
-    height:370px;
+.sess5crd,
+.sess6crd {
+    height: 370px;
     padding: 0;
     border: 2px solid #77A7FB;
 }
@@ -488,7 +489,8 @@ body#page-atlantis .card-session4-spns .card-body {
 #sess5crd3img,
 #sess5crd4img,
 #sess5crd5img,
-#sess5crd6img ,.sess6crdimg{
+#sess5crd6img,
+.sess6crdimg {
     height: 285px;
     object-fit: cover;
 }
@@ -542,11 +544,11 @@ body#page-atlantis .card-session4-spns .card-body {
     align-items: center;
 }
 
-.posit img{
+.posit img {
     width: 20px;
 }
 
-.posit p{
+.posit p {
     width: 90px;
     margin-bottom: 0px;
 }
@@ -575,12 +577,12 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .note {
         left: 26%;
-        top: 80%;
-        width: 38px !important;
+    top: 80%;
+    width: 38px !important;
     }
 
     .note img {
-        padding-right: 33%;
+        padding-right: 15%;
     }
 }
 
