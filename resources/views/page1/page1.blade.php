@@ -476,7 +476,7 @@
             <div class="row pt-lg-4">
                 <div class="col-md-4">
                     <div id='logform'>
-                        <img class="w-100" src="{{ asset('images/Untitled-1.png') }}">
+                        <img class="w-100" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
                     </div>
                     <p><strong> 주소: </strong>, Japan St, Imm Fatma</p>
                     <p><strong> 이메일:</strong> atlantis@atlantis.tn</p>
