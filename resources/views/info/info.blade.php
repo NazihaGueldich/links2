@@ -467,7 +467,7 @@
                          <div class="col-md-3 offset-lg-1">
                              <div class="custom-card">
                                  <div class="mask-image">
-                                     <img src="{{ asset('images/carthage.png') }}" class="img-fluid w-100" alt="Carthage">
+                                     <img src="{{ asset('images/JCC (1).png') }}" class="img-fluid w-100" alt="Carthage">
                                  </div>
                                  <div class="note">
                                     <img src="{{ asset('images/review_Star.svg') }}" >
@@ -476,7 +476,7 @@
                                     <img src="{{ asset('images/review_Star.svg') }}" >
                                     <img src="{{ asset('images/review_Star.svg') }}" >
                                 </div>
-                                 <h5 class="custom-card-title dm-sans">타바르카 국제 재즈 페스티벌</h5>
+                                 <h5 class="custom-card-title dm-sans">JCC 카르타고 영화제</h5>
                                  <ul class="custom-card-text">
                                      <li class="icone-date">축제일</li>
                                      <li class="icone-place">축제의 장소</li>
@@ -486,7 +486,7 @@
                          <div class="col-md-3">
                              <div class="custom-card">
                                  <div class="mask-image">
-                                     <img src="{{ asset('images/dune-electro.png') }}" class="img-fluid w-100"
+                                     <img src="{{ asset('images/carthage.png') }}" class="img-fluid w-100"
                                          alt="Carthage">
                                  </div>
                                  <div class="note">
@@ -506,7 +506,7 @@
                          <div class="col-md-3">
                              <div class="custom-card">
                                  <div class="mask-image">
-                                     <img src="{{ asset('images/jazz-tabarka.png') }}" class="img-fluid w-100"
+                                     <img src="{{ asset('images/el_Djem_Symphony.png') }}" class="img-fluid w-100"
                                          alt="Carthage">
                                  </div>
                                  <div class="note">
@@ -526,7 +526,26 @@
                          <div class="col-md-3 offset-lg-1">
                              <div class="custom-card">
                                  <div class="mask-image">
-                                     <img src="{{ asset('images/jcc.png') }}" class="img-fluid w-100" alt="Carthage">
+                                     <img src="{{ asset('images/Jazz_Tabarka.png') }}" class="img-fluid w-100" alt="Carthage">
+                                 </div>
+                                 <div class="note">
+                                    <img src="{{ asset('images/review_Star.svg') }}" >
+                                    <img src="{{ asset('images/review_Star.svg') }}" >
+                                    <img src="{{ asset('images/review_Star.svg') }}" >
+                                    <img src="{{ asset('images/review_Star.svg') }}" >
+                                    <img src="{{ asset('images/review_Star.svg') }}" >
+                                </div>
+                                 <h5 class="custom-card-title dm-sans">타바르카 재즈 페스티벌</h5>
+                                 <ul class="custom-card-text">
+                                     <li class="icone-date">축제일</li>
+                                     <li class="icone-place">축제의 장소</li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="col-md-3">
+                             <div class="custom-card">
+                                 <div class="mask-image">
+                                     <img src="{{ asset('images/Douz_Sahara_Fest.png') }}" class="img-fluid w-100" alt="Carthage">
                                  </div>
                                  <div class="note">
                                     <img src="{{ asset('images/review_Star.svg') }}" >
@@ -545,26 +564,7 @@
                          <div class="col-md-3">
                              <div class="custom-card">
                                  <div class="mask-image">
-                                     <img src="{{ asset('images/jmc.png') }}" class="img-fluid w-100" alt="Carthage">
-                                 </div>
-                                 <div class="note">
-                                    <img src="{{ asset('images/review_Star.svg') }}" >
-                                    <img src="{{ asset('images/review_Star.svg') }}" >
-                                    <img src="{{ asset('images/review_Star.svg') }}" >
-                                    <img src="{{ asset('images/review_Star.svg') }}" >
-                                    <img src="{{ asset('images/review_Star.svg') }}" >
-                                </div>
-                                 <h5 class="custom-card-title dm-sans">제르바 국제 율리스 페스티벌</h5>
-                                 <ul class="custom-card-text">
-                                     <li class="icone-date">축제일</li>
-                                     <li class="icone-place">축제의 장소</li>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="col-md-3">
-                             <div class="custom-card">
-                                 <div class="mask-image">
-                                     <img src="{{ asset('images/dj-symphony.png') }}" class="img-fluid w-100"
+                                     <img src="{{ asset('images/Tozeur_oasis_fest.png') }}" class="img-fluid w-100"
                                          alt="Carthage">
                                  </div>
                                  <div class="note">
