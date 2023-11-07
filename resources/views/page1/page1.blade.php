@@ -7,7 +7,7 @@
         <div id="mySlickCarousel">
             <div class="slick-slider">
                 <div class="slick-slide">
-                    <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1">
+                    <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1" alt="Tunisie Sahara">
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">사하라 사막의 시작</span>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="slick-slide">
-                    <img src="{{ asset('images/2.png') }}" class="img1">
+                    <img src="{{ asset('images/El-Jem.png') }}" alt="El Jem Tunisie" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">살아 숨쉬는 고대 역사</span>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="slick-slide">
-                    <img src="{{ asset('images/3.png') }}" class="img1">
+                    <img src="{{ asset('images/Tataouine.png') }}" class="img1" alt="Tataouine Tunisie">
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">스타워즈의 발자취를 찾아</span>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="slick-slide">
-                    <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="img1">
+                    <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" alt="Sidi Bou Saïd Tunisie" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">파란 하늘, 푸른 바다</span>
@@ -256,7 +256,7 @@
         <div class="container sess3">
             <h2 class="main-title">튀니지 주요 도시</h2>
             <div class="w-100 esapce">
-                <div style="background-image: url('{{ asset('images/MicrosoftTeams-image (3).png') }}');   background-size: cover;
+                <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
         background-position: center center;"
                     class="image1-2 links_box-shadox" id="imageCov1">
 
@@ -323,7 +323,7 @@
                 <div class="mt-3 scroll-container">
                     <div class="d-flex gap-20 mt-4">
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/MicrosoftTeams-image (3).png') }}" class="imageB1"
+                            <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1"
                                 id="imageB1" onclick="changeImage1()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p " id='crd2h1'>튀니스</span>
@@ -353,7 +353,7 @@
                         </div>
 
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Rectangle 822.png') }}" class="imageB3" id="imageB3"
+                            <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3" alt='The Great Mosque of Kairouan'
                                 onclick="changeImage3()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p3" id='crd2h3'>카이루안</span>
@@ -367,7 +367,7 @@
                         </div>
 
                         <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/ooi.png') }}" class="imageB4" id="imageB4"
+                            <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4" alt='Matmata Tunisie'
                                 onclick="changeImage4()">
                             <div class="d-flex flex-column align-items-start">
                                 <span class="text-p4" id='crd2h4'>마트마타</span>
