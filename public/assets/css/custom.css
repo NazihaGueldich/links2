@@ -492,7 +492,7 @@ body .wrap-festival-card .col-md-4 {
 }
 
 body .wrap-festival-card .custom-card {
-    height: 380px;
+    height: 346px;
     width: 330px;
     max-width: 100%;
     position: relative;
@@ -525,7 +525,7 @@ body .wrap-festival-card .custom-card .custom-card-title {
 body .wrap-festival-card .custom-card .custom-card-text {
     position: absolute;
     right: 33px;
-    top: 50%;
+    top: 57%;
     font-size: 1rem;
     line-height: 2.15;
 }

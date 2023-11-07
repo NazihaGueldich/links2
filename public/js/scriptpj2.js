@@ -245,3 +245,65 @@ updateClock();
 
 
 setInterval(updateClock, 1000);
+
+
+/* session 1 change img */
+var indimgsess1=0;
+function ChangImgSess1(x){
+    if (x == -1 && indimgsess1 > 0) {
+        indimgsess1--;
+    } else if (x == 1 && indimgsess1 < 4) {
+        indimgsess1++;
+    }else if(x == -1 && indimgsess1 ==0){
+        indimgsess1= 4;
+    }else{
+        indimgsess1= 0;
+    }
+
+    var img = ["../images/0405a5ee29097c5fb149aa921a4e4f59.jpg",
+        "../images/8482b040627099.jpg",
+        "../images/C6A7E6CA7F0001011CD9F9B19CDA46F1.jpg",
+        "../images/djerba_5.jpg",
+        "../images/Tamerza-oasis.jpg"
+    ];
+
+    var sess1crc1=document.getElementById('sess1crc1');
+    var sess1crc2=document.getElementById('sess1crc2');
+    var sess1crc3=document.getElementById('sess1crc3');
+    var sess1crc4=document.getElementById('sess1crc4');
+    var sess1crc5=document.getElementById('sess1crc5');
+
+    if (indimgsess1 === 0) {
+        sess1crc1.style.backgroundImage = "url(../images/ptbl.svg)";
+        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+    } else if (indimgsess1 === 1) {
+        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc2.style.backgroundImage = "url(../images/ptbl.svg)";
+        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+    } else if (indimgsess1 === 2) {
+        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc3.style.backgroundImage = "url(../images/ptbl.svg)";
+        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+    }else if (indimgsess1 === 3) {
+        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc4.style.backgroundImage = "url(../images/ptbl.svg)";
+        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+    }else if (indimgsess1 === 4) {
+        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc5.style.backgroundImage = "url(../images/ptbl.svg)";
+    }
+
+    fade(document.getElementById('imgsess1'), img[indimgsess1],0);
+}

@@ -54,11 +54,24 @@
 
             <div class="row">
                 <div class="col-lg-7  one-time-slide">
-                    <img src="{{ asset('images/0405a5ee29097c5fb149aa921a4e4f59.jpg') }}" >
-                    <img src="{{ asset('images/8482b040627099.jpg') }}">
-                    <img src="{{ asset('images/C6A7E6CA7F0001011CD9F9B19CDA46F1.jpg') }}" >
-                    <img src="{{ asset('images/djerba_5.jpg') }}" >
-                    <img src="{{ asset('images/Tamerza-oasis.jpg') }}" >
+                    <img src="{{ asset('images/0405a5ee29097c5fb149aa921a4e4f59.jpg') }}" class="w-100" id='imgsess1'>
+                    <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
+                        <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
+                            role="button" data-slide="prev" onclick="ChangImgSess1(-1)">
+                            <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <span id='sess1crc1'></span>
+                        <span id='sess1crc2'></span>
+                        <span id='sess1crc3'></span>
+                        <span id='sess1crc4'></span>
+                        <span id='sess1crc5'></span>
+                        <a class="carousel-control-next flch" href="#carouselExampleIndicators"
+                            role="button" data-slide="next" onclick="ChangImgSess1(1)">
+                            <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 ml-lg-3 pt-3">
                     <p class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </p>
@@ -576,15 +589,7 @@
             fade: true,
   cssEase: 'linear'
         });
-        $('.one-time-slide').slick({
-            dots: true,
-            infinite: true,
-            adaptiveHeight: true,
-            appendArrows: false,
-            fade: true,
-  cssEase: 'linear'
-
-});
+        
 
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
