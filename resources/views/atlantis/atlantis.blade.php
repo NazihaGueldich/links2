@@ -566,7 +566,7 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>HAMMAMET, Tunisia</p>
+                        <p>Sidi bou said</p>
                     </div>
 
                     <h2  class="sub-title sess6h2">Dar Fatma</h2>
@@ -611,7 +611,7 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p>HAMMAMET, Tunisia</p>
+                        <p>Sidi bou said</p>
                     </div>
 
                     <h2  class="sub-title sess6h2">Dar Fatma</h2>
