@@ -274,35 +274,35 @@ function ChangImgSess1(x){
     var sess1crc5=document.getElementById('sess1crc5');
 
     if (indimgsess1 === 0) {
-        sess1crc1.style.backgroundImage = "url(../images/ptbl.svg)";
-        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc1.src = "../images/pt.png";
+        sess1crc2.src = "../images/crcl.png";
+        sess1crc3.src = "../images/crcl.png";
+        sess1crc4.src = "../images/crcl.png";
+        sess1crc5.src = "../images/crcl.png";
     } else if (indimgsess1 === 1) {
-        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc2.style.backgroundImage = "url(../images/ptbl.svg)";
-        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc2.src = "../images/pt.png";
+        sess1crc1.src = "../images/crcl.png";
+        sess1crc3.src = "../images/crcl.png";
+        sess1crc4.src = "../images/crcl.png";
+        sess1crc5.src = "../images/crcl.png";
     } else if (indimgsess1 === 2) {
-        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc3.style.backgroundImage = "url(../images/ptbl.svg)";
-        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc3.src = "../images/pt.png";
+        sess1crc2.src = "../images/crcl.png";
+        sess1crc1.src = "../images/crcl.png";
+        sess1crc4.src = "../images/crcl.png";
+        sess1crc5.src = "../images/crcl.png";
     }else if (indimgsess1 === 3) {
-        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc4.style.backgroundImage = "url(../images/ptbl.svg)";
-        sess1crc5.style.backgroundImage = "url(../images/ftbl.svg)";
+        sess1crc4.src = "../images/pt.png";
+        sess1crc2.src = "../images/crcl.png";
+        sess1crc3.src = "../images/crcl.png";
+        sess1crc1.src = "../images/crcl.png";
+        sess1crc5.src = "../images/crcl.png";
     }else if (indimgsess1 === 4) {
-        sess1crc1.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc2.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc3.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc4.style.backgroundImage = "url(../images/ftbl.svg)";
-        sess1crc5.style.backgroundImage = "url(../images/ptbl.svg)";
+        sess1crc5.src = "../images/pt.png";
+        sess1crc2.src = "../images/crcl.png";
+        sess1crc3.src = "../images/crcl.png";
+        sess1crc4.src = "../images/crcl.png";
+        sess1crc1.src = "../images/crcl.png";
     }
 
     fade(document.getElementById('imgsess1'), img[indimgsess1],0);
