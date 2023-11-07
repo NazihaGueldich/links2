@@ -469,7 +469,7 @@ body#page-atlantis .card-session4-spns .card-body {
 /* session 5 */
 
 .sess5crd,.sess6crd {
-    height:346px;
+    height:370px;
     padding: 0;
     border: 2px solid #77A7FB;
 }
@@ -560,15 +560,16 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .note {
     position: absolute;
-    left: 24%;
-    top: 72%;
+    left: 27%;
+    top: 81%;
     width: 38px !important;
     display: flex;
     flex-direction: row;
 }
 
 .note img {
-    padding-right: 33%;
+    padding-right: 10%;
+    width: 77%;
 }
 
 @media (max-width: 767px) {
