@@ -227,7 +227,7 @@
                     <div class="row wrap-nav-transportation">
                         <div class="col-md-12">
                             <div class="col-12 d-flex justify-content-around button1" id="btns">
-                                <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btn btnactv"
+                                <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btnactv"
                                     onclick="changbtn(0)">Domestic Aviation</button>
                                 <button id='btn1' data-toggle="tab" href="#carnt" class="p-2 btninactv"
                                     onclick="changbtn(1)">Car Rent</button>
@@ -244,18 +244,86 @@
                                 <div id="domav" class="tab-pane fade in active show">
                                     <div class="row">
                                         <div class="col-md-6 pr-0 pr-md-3">
-                                            <input hidden value=0 id='numcrd'>
-                                            <p class="mb-lg-4 psess4" id="psess4" >가장 큰 공항의 이름은 고대 로마 도시 카르타고의 이름을 따 ‘튀니스 카르타고 국제공항’으로 명명됐어요. 매일 수십 개의 주요
+                                            <p>가장 큰 공항의 이름은 고대 로마 도시 카르타고의 이름을 따 ‘튀니스 카르타고 국제공항’으로 명명됐어요. 매일 수십 개의 주요
                                                 유럽 도시를 지원하는 항공편이 있고, 튀니스, 제르바, 모나스티르 등 주요 도시를 효율적으로 오갈 수 있는 비행편도 운영
                                                 중입니다.</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="{{ asset('img/Trans_Taxi.jpg') }}" class="img-fluid"
-                                                alt="taxi" id=" id='h2sess4'">
+                                            <img src="{{ asset('img/Trans_Aviation.jpg') }}" class="img-fluid"
+                                                alt="taxi">
                                         </div>
                                     </div>
                                 </div>
-
+                                <div id="carnt" class="tab-pane fade">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>자동차 렌트를 통해 자유롭게 튀니지를 여행할 수도 있어요. 도로 대부분의 표지판에는 아랍어와 프랑스어로 이중언어 표기가 돼
+                                                있어요.</p>
+                                            <p>주차 공간이 부족하고 도로가 좁아 첫 방문 시 운전은 쉽지 않으니 주의하세요.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('img/Trans_Rental.jpg') }}" class="img-fluid"
+                                                alt="taxi">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="taxi" class="tab-pane fade">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.</p>
+                                            <p>차량 오른쪽 아래에 빨간색 표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 있으면 이미 운행 중이라는 의미에요. 기본요금은
+                                                우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 5시까지는 야간 할증이 적용돼요.</p>
+                                            <p>‘Bolt’ 앱을 통해 택시를 이용하면 일반 택시보다 조금 더 비싸지만 편하게 튀니지를 다닐 수 있어요.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('img/Trans_Taxi.jpg') }}" class="img-fluid"
+                                                alt="taxi">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="loug" class="tab-pane fade">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>루아지는 시외 이동 시 이용하는 합동 승합 택시 개념의 미니버스예요. 이동경로와 요금이 정해져 있어요. 8명의 승객이 다 찰
+                                                때까지 기다렸다가 출발하기 때문에 시간표는 없습니다.</p>
+                                            <p>시외 이동을 위한 루아지 탑승 정류장은 아래를 확인하세요.</p>
+                                            <p>Station louage Beb Alioua ; 서남부 (Hammamet, Nabeul 등)</p>
+                                            <p>Station louage Beb Saadoun ; 북부 (Bizerte, Tabarka 등)</p>
+                                            <p>Station louage Moncef Bey ; 남부 (Sousse, Sfax, Djerba)</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('img/Trans_Louage.jpg') }}" class="img-fluid"
+                                                alt="taxi">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="trnmet" class="tab-pane fade">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>수도 튀니스에는 메트로라고 불리는 경전철 시스템이 있어요. 총 6개 선의 노선을 운영하며 튀니스 시내와 도심을 연결해요. 요금은
+                                                거리에 따라 달라지지만 보통 2TND 내외입니다.</p>
+                                            <p>TGM이라고 불리는 트램도 운행합니다. 튀니스 시내 중심부터 유명 관광지 카르타고, 시디 부 사이드, 라 마르사 등을 연결해요.
+                                                또한 교외 도시를 연결하는 기차도 있어요.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('img/Trans_Metro.jpg') }}" class="img-fluid"
+                                                alt="taxi">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="ferr" class="tab-pane fade">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-0 pr-md-3">
+                                            <p>튀니지는 이탈리아, 프랑스 등 유럽행 페리 노선을 운영합니다. 국제노선뿐만 아니라, 튀니지 내 유명 관광지인 제르바섬과 케르케나섬
+                                                이동을 지원하는 정기 페리 노선이 있습니다. 주로 스팍스 항구에서 케르케나 섬 이동을 지원하거나, 남부의 자르지스 항구에서
+                                                제르바섬으로 이동하는 노선을 운영합니다.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('img/Trans_Ferry.jpg') }}"
+                                                class="img-fluid" alt="taxi">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -724,6 +792,7 @@ function changbtn(x) {
                      btn.classList.replace("btninactv","btnactv");
                  } else {
                      btn.classList.replace("btnactv",'btninactv');
+                     btn.classList.remove("active");
                  }
              }
          }
