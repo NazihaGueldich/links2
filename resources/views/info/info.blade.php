@@ -349,8 +349,8 @@
                             <ul class="list-museums-card p-0">
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/Bardo_museum.jpg') }}" alt="Bardo Museum Tunisia"
+                                           >
                                         <div class="card-body p-0">
                                             <h5 class="card-title">바르도 박물관</h5>
                                             <div class="card-text">
@@ -362,8 +362,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/Carthage_Museum.jpg') }}" alt="Carthage Museum Tunisia"
+                                           >
                                         <div class="card-body p-0">
                                             <h5 class="card-title">카르타고 박물관</h5>
                                             <div class="card-text">
@@ -376,8 +376,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/Borguiba_museum.jpg') }}" alt="Borguiba Museum Tunisia"
+                                          >
                                         <div class="card-body p-0">
                                             <h5 class="card-title">하비브 부르기바 박물관</h5>
                                             <div class="card-text">
@@ -394,8 +394,8 @@
 
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/Dar_elSid_museum.jpg') }}"
+                                            alt="Dar ElSid Museum">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">다르 애시드 박물관</h5>
                                             <div class="card-text">
@@ -410,8 +410,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/sousse_museum.JPG.jpg') }}"
+                                            alt="Sousse Museum">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">수스 고고학 박물관</h5>
                                             <div class="card-text">
@@ -424,8 +424,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/darCherait_museum.jpg') }}"
+                                            alt="Dar Cherait Museum">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">다르 체라이트 박물관</h5>
                                             <div class="card-text">
@@ -440,8 +440,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('assets/img/museums1.png') }}"
-                                            alt="Museums">
+                                        <img class="card-img-top" src="{{ asset('images/elDjme_museum.jpg') }}"
+                                            alt="El Djme Museum">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">엘젬 고고학 박물관</h5>
                                             <div class="card-text">

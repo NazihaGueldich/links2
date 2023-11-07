@@ -326,7 +326,9 @@ body #p3-section5>.container>.row {
     margin: 0 -15px;
     gap: 55px;
 }
-
+#p3-section4 img{
+    border-radius: 20px;
+}
 
 @media screen and (max-width: 1280px) {
     body #p3-section3 .btnactv {
