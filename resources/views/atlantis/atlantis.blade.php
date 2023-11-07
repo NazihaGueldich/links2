@@ -51,7 +51,7 @@
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
-                            <img src="{{ asset('images/Untitled-1.png') }}" class="w-100 mr-3"
+                            <img src="{{ asset('images/Atlantis_logo_temporary.png') }}" class="w-100 mr-3"
                                 style="max-width: 150px;">
                             <div class="separator"></div>
                             <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
@@ -488,7 +488,7 @@
                 <h2 class="main-title">Guest houses</h2>
             </div>
             <div class="row sess6-crds session6-slick-web mb-5">
-               
+
                 <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
@@ -503,7 +503,7 @@
 
                     <h2  class="sub-title sess6h2">Dar Ben Gacem </h2>
                 </div>
-                
+
                 <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
@@ -548,7 +548,7 @@
 
                     <h2  class="sub-title sess6h2">Dar Ben Gacem </h2>
                 </div>
-                
+
                 <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
