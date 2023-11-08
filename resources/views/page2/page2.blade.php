@@ -429,7 +429,7 @@
         {{-- part 8 --}}
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
-                <h2 class="main-title">Tunisian culture</h2>
+                <h2 class="main-title">튀니지 문화</h2>
                 <div class="ligne-separtion"></div>
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
@@ -475,7 +475,7 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81 ">
                                 <button class="btn btn-outline-primary button-main">예술</button>
-                                <img src="{{ asset('images/img8p1.png') }}" class="img-fluid img6" alt="Image">
+                                <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6" alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등
                                 수공예품이 유명합니다.</p>
@@ -486,7 +486,7 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81">
                                 <button class="btn btn-outline-primary button-main">요리</button>
-                                <img src="{{ asset('images/img8p2.png') }}" class="img-fluid img6" alt="Image">
+                                <img src="{{ asset('images/Ojja.png') }}" class="img-fluid img6" alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 올리브 오일, 향신료, 토마토, 해산물, 고기를 기반으로 한 요리가
                                 많아요. 칠리고추 향신료인 하리사를 넣어 특유의 매운맛이 특징이에요.</p>
@@ -498,7 +498,7 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81">
                                 <button class="btn btn-outline-primary button-main">스포츠</button>
-                                <img src="{{ asset('images/img8p3.png') }}" class="img-fluid img6"
+                                <img src="{{ asset('images/football.png') }}" class="img-fluid img6"
                                     style="z-index: -1;" alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구
