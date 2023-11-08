@@ -100,7 +100,7 @@
             <div class="card-session2  radius-20 mt-lg-5">
                 <div class=" row mx-0  p-4 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0 h-100 p-lg-3">
-                        <img src="{{ asset('images/Kamel Lagha.png') }}" class="w-100 h-100 radius-20" alt='Kamel Lagha'>
+                        <img src="{{ asset('images/Kamel-Lagha.jpg') }}" class="w-100 h-100 radius-20" alt='Kamel Lagha'>
                     </div>
                     <div class="col-lg-6 h-100 py-3 pl-lg-5">
                         <div class="sect2-prt2 ">

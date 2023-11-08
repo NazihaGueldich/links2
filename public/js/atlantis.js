@@ -83,7 +83,7 @@ function chngcontsess4(x) {
     ];
     var h1 = ['places 1-4', "places Max 22 (최대 22명)", "Places Max 53 (최대 53명)", "Places Max 8 "];
     var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내"];
-    var img = ['Car.jpg', 'Mini bus 2.jpg', 'bus.png', 'van1.jpg' ];
+    var img = ['Car.jpg', 'Mini-bus-2.jpg', 'bus.png', 'van1.jpg' ];
 
     document.getElementById('psess4').innerHTML = p[x];
     document.getElementById('h1sess4').innerHTML = h1[x];
@@ -126,7 +126,7 @@ function chngimgsess4(x) {
 
 
     var crd1 = ['Van 2.jpg'];
-    var crd2 = ['Mini bus 2.jpg', 'Mini bus 3.jpg', 'Mini bus 5.jpg'];
+    var crd2 = ['Mini-bus-2.jpg', 'Mini-bus-3.jpg', 'Mini bus 5.jpg'];
     var crd3 = ['bus.png'];
     var crd4 = ['van1.jpg'];
 
