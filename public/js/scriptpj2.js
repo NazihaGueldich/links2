@@ -141,7 +141,7 @@ function changelement(x) {
         '튀니지 내 기독교 공동체도 있습니다. 공동체는 대부분 외국인들로 구성되어 있어요. 이들은 자유롭게 교회 예배를 드리며 소수의 학교를 운영하기도 합니다.',
 
     ];
-    var txtindx = ['이슬람', '유대교', '기독교'];
+    var txtindx = ['유대교', '기독교', '이슬람'];
 
     var crcl11=document.getElementById('crcl11');
     var crcl22=document.getElementById('crcl22');

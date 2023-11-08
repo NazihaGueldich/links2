@@ -496,8 +496,26 @@ body {
     font-weight: 600;
     color: #212529;
 }
-
+.img1-section3 {
+    display: block;
+    width: 35%;
+    margin: auto;
+}
+.img2-section3{
+    display: block;
+    width:35%;
+    margin: auto;
+}
+.par1{
+    width: 322px;
+}
+.img3-section3{
+    display: block;
+    width: 35%;
+    margin: auto;
+}
 .img2 {
+    border: 1px solid #347EFF !important;
 
     display: block;
     width: 100%;
@@ -707,6 +725,7 @@ body {
     padding-bottom: 29px;
     padding-left: 23%;
     width: 681px;
+    text-align: left;
 }
 
 .inx {
