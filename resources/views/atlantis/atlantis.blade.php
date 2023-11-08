@@ -254,7 +254,7 @@
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
 
-                    
+
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
                         <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb"  alt="Car">
                         <div class="dirct" id="dirct">
@@ -287,7 +287,7 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p id="sess5crd1p">HAMMAMET, Tunisia</p>
+                        <p id="sess5crd1p">Tunis, Tunisia</p>
                     </div>
                     <div class="note">
                         <img src="{{ asset('images/review_Star.svg') }}" >
@@ -386,7 +386,7 @@
                     <p class="text-img">링크</p>
                     <div class="posit">
                         <img src="{{ asset('images/gps.png') }}" class="mr-2">
-                        <p id="sess5crd6p"> TUNIS, Tunisia</p>
+                        <p id="sess5crd6p"> Douz, Tunisia</p>
                     </div>
                     <div class="note">
                         <img src="{{ asset('images/review_Star.svg') }}" >

@@ -172,7 +172,7 @@ function srllcrdssess5(x) {
     //declaration des cnst
     //first crcl
     var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan', 'Pansy KSAR Ghilene'];
-    var p0 = ['Hammamet, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Hammamet, Tunisia'];
+    var p0 = ['Tunis, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Douz, Tunisia'];
     var img0 = ['Four-Seasons-Tunis.jpeg', 'Anantara-Tozeur.jpeg', 'Movenpick-Sousse.jpeg', 'The-Residence-Tunis.jpeg', 'Le-Kasbah-Kairouan.jpeg', 'Pansy-KSAR-Ghilene.jpeg'];
     var alt0=['Four Seasons Tunis',"Anantara Tozeur","Movenpick Sousse","The Residence Tunis","Le Kasbah Kairouan","Pansy KSAR Ghilene"]
     //seconde crcl

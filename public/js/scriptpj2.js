@@ -309,6 +309,7 @@ function ChangImgSess1(x){
     }
 
     var imgchn=document.getElementById('imgsess1');
-    fade(imgchn, img[indimgsess1],0);
+    imgchn.src="../images/"+img[indimgsess1];
+    //fade(imgchn, img[indimgsess1],0);
     imgchn.alt=alt[indimgsess1];
 }
