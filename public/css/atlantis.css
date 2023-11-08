@@ -189,7 +189,7 @@ body#page-atlantis .card-session1 {
     .ligne-separtion {
         border: 1px solid #B5D0FF;
         position: relative;
-        margin: 40px auto;
+        margin: 20px auto;
         width: 220px;
     }
 
@@ -521,7 +521,7 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .cercle-img {
         left: 14%;
-        top: 43%;
+        top: 50%;
     }
 }
 
@@ -535,8 +535,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .text-img {
-        left: 21%;
-        top: 49%;
+        left: 20%;
+        top: 56%;
     }
 }
 
