@@ -243,7 +243,7 @@
         <div class="container">
 
             <div class="text-center mb-3 d-flex flex-column align-items-center">
-                <h2 class="main-title " >LANGUAGE</h2>
+                <h2 class="main-title " >Language</h2>
 
                 <p class=" parghraphe1">
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
