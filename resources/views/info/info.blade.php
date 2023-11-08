@@ -141,7 +141,7 @@
                     </div>
                     <div class="row wrap-culinary-card">
                         <div class="col-md-12">
-                            <ul class="list-culinary-card p-0">
+                            <ul class="list-culinary-card p-0 mb-lg-0">
                                 <li>
                                     <div class="culinary-card">
                                         <img class="card-img-top" src="{{ asset('assets/img/culinary1.png') }}"
@@ -316,7 +316,7 @@
                         <div class="col-md-12">
                             <div class="section-header">
                                 <h2 class="main-title dm-sans text-center">Museums</h2>
-                                <p class="sub-title text-center">튀니지 박물관은 대부분 월요일이 휴관일이에요.<br>
+                                <p class="sub-title text-center mb-lg-0">튀니지 박물관은 대부분 월요일이 휴관일이에요.<br>
                                     영업시간은 계절에 따라 차이가 있으므로 확인 후 방문하시길 추천해 드립니다.
                                 </p>
                                 <br>
@@ -324,8 +324,8 @@
                         </div>
                     </div>
                     <div class="row wrap-museums-card">
-                        <div class="col-md-12 " style="margin: 60px auto 0;">
-                            <ul class="list-museums-card p-0">
+                        <div class="col-md-12 " >
+                            <ul class="list-museums-card p-0 mb-lg-0">
                                 <li>
                                     <div class="museums-card">
                                         <img class="card-img-top" src="{{ asset('images/Bardo_museum.jpg') }}" alt="Bardo Museum Tunisia"

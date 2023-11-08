@@ -334,6 +334,7 @@ body#page-atlantis .session6-slick-mobile {
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     margin: 0px 15px;
 }
 
@@ -348,6 +349,7 @@ body#page-atlantis .session6-slick-mobile {
     background-image: url("../images/lftbl.svg") !important;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     width: 20px;
     height: 20px;
     opacity: 1 !important;
@@ -357,6 +359,7 @@ body#page-atlantis .session6-slick-mobile {
     background-image: url("../images/rgtbl.svg") !important;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     width: 20px;
     height: 20px;
     opacity: 1 !important;
