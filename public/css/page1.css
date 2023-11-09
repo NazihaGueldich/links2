@@ -440,11 +440,12 @@ body {
     min-height: 50px;
 }
 .sub-title {
-    padding-bottom: 40px;
+
     font-size: 1.2rem !important;
     font-weight: 700;
     margin: 0px 0 0px 0;
     text-align: left;
+    padding: 0px 0px 40px 0px;
 }
 .btn.btn-outline-primary.btn1-main2 {
 
