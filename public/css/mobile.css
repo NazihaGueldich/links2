@@ -29,7 +29,7 @@
 @media all and (max-width: 767px) {
     #logform {
         width: 100%;
-        padding-bottom: 31px;
+        padding-bottom: 35px;
     }
 
     #logform img {
@@ -540,14 +540,24 @@
     .text2 h4 {
         display: none;
     }
-
+    .img-Contact {
+        padding-bottom: 11%;
+        margin-top: 27px;
+        width: 188px;
+        float: right;
+    }
     .sess3h4mob {
         font-weight: bold;
         font-size: 42px;
         color: #347EFF;
         display: inline-block;
     }
-
+    .right-Contact {
+        padding-left: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .sess3mobvid {
         display: flex;
         flex-direction: column;

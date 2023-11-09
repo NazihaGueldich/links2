@@ -95,6 +95,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">아프리카 최북단</h5>
+                            <img src="{{ asset('images/afrique.png') }}" class="img2-section3 mt-n3">
                             <p class="parghraphe1">아프리카 대륙의 최북단에 위치하며, 아틀라스 산맥을 따라 자리 잡은 나라들 중 가장 작은 국가예요.</p>
                         </div>
                     </div>
@@ -103,6 +104,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">북아프리카</h5>
+                            <img src="{{ asset('images/PointAfrique.png') }}" class="img1-section3 mt-n3">
                             <p class="parghraphe1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와 국경을
                                 접하고
                                 있어요.</p>
@@ -113,6 +115,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">지중해</h5>
+                            <img src="{{ asset('images/Mer-image.png') }}"class="img3-section3 mt-n3" >
                             <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 관문이기도 해요.</p>
                         </div>
                     </div>
