@@ -498,12 +498,12 @@ body {
 }
 .img1-section3 {
     display: block;
-    width: 35%;
+    height: 100px;
     margin: auto;
 }
 .img2-section3{
     display: block;
-    width:35%;
+    height: 100px;
     margin: auto;
 }
 .par1{
@@ -511,7 +511,7 @@ body {
 }
 .img3-section3{
     display: block;
-    width: 35%;
+    height: 100px;
     margin: auto;
 }
 .img2 {

@@ -93,7 +93,11 @@ function click(crd) {
 }
 
 function changeImage1() {
-    document.getElementById('imageCov1').style.display = "block";
+    document.getElementById('paragraph1').style.display = "block";
+    document.getElementById('paragraph2').style.display = "none";
+    document.getElementById('paragraph3').style.display = "none";
+    document.getElementById('paragraph4').style.display = "none";
+    document.getElementById('imageCov1').style.display = "flex";
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
@@ -114,8 +118,12 @@ function changeImage1() {
 }
 
 function changeImage2() {
+    document.getElementById('paragraph1').style.display = "none";
+    document.getElementById('paragraph2').style.display = "block";
+    document.getElementById('paragraph3').style.display = "none";
+    document.getElementById('paragraph4').style.display = "none";
     document.getElementById('imageCov1').style.display = "none";
-    document.getElementById('imageCov2').style.display = "block";
+    document.getElementById('imageCov2').style.display = "flex";
     document.getElementById('imageCov3').style.display = "none";
     document.getElementById('imageCov4').style.display = "none";
     document.getElementById('imageB2').style.filter = 'none';
@@ -136,9 +144,14 @@ function changeImage2() {
 }
 
 function changeImage3() {
+    document.getElementById('paragraph1').style.display = "none";
+    document.getElementById('paragraph2').style.display = "none";
+    document.getElementById('paragraph3').style.display = "block";
+    document.getElementById('paragraph4').style.display = "none"
+    document.getElementById('paragraph1').style.display = "none";
     document.getElementById('imageCov1').style.display = "none";
     document.getElementById('imageCov2').style.display = "none";
-    document.getElementById('imageCov3').style.display = "block";
+    document.getElementById('imageCov3').style.display = "flex";
     document.getElementById('imageCov4').style.display = "none";
     document.getElementById('imageB3').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
@@ -157,10 +170,15 @@ function changeImage3() {
 }
 
 function changeImage4() {
+    document.getElementById('paragraph1').style.display = "none";
+    document.getElementById('paragraph2').style.display = "none";
+    document.getElementById('paragraph3').style.display = "none";
+    document.getElementById('paragraph4').style.display = "block"
+    document.getElementById('paragraph1').style.display = "none";
     document.getElementById('imageCov1').style.display = "none";
     document.getElementById('imageCov2').style.display = "none";
     document.getElementById('imageCov3').style.display = "none";
-    document.getElementById('imageCov4').style.display = "block";
+    document.getElementById('imageCov4').style.display = "flex";
     document.getElementById('imageB4').style.filter = 'none';
     document.getElementById('btn1').style.backgroundColor = '#B3B3B3';
     document.getElementById('btn1-b').style.backgroundColor = '#B3B3B3';
@@ -179,6 +197,19 @@ function changeImage4() {
 
 
 
+// JavaScript pour afficher/masquer les descriptions lorsque le bouton est cliqué
+const images = document.querySelectorAll('.image1-2');
+const buttons = document.querySelectorAll('.btn');
+
+buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        if (images[index].style.display === 'none') {
+            images[index].style.display = 'block';
+        } else {
+            images[index].style.display = 'none';
+        }
+    });
+});
 
 function updateClock() {
     const tunisTime = new Date();

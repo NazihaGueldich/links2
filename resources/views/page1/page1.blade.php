@@ -254,135 +254,113 @@
 
     <section id="section-4">
         <div class="container sess3">
-            <h2 class="main-title">Tunisia's main cities</h2>
-            <div class="w-100 esapce">
-                <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
-        background-position: center center;"
-                    class="image1-2 links_box-shadox" id="imageCov1">
+            <div class="city-section">
+                <div class="w-100 esapce">
 
-                    <div class="links_position-bottom">
-                        <div class="text-3 order-last">
-                            <span> 튀니스</span>
-                            <p> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
-                                대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
-                                외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
-                                도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
-
-                            <button class="btn btn-outline-primary btn1-main2">더보기</button>
-                        </div>
-
+                    <h2 class="main-title12">Tunisia's main cities</h2>
+                    <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
+                        background-position: center center;"
+                        class="image1-2 links_box-shadox" id="imageCov1">
+                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
-                </div>
-                <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-        background-position: center center;display:none"
-                    class="image1-2 links_box-shadox" id="imageCov2">
+                    <p id="paragraph1" class="links_box-p"> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
+                        대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
+                        외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
+                        도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
-                    <div class="links_position-bottom  ">
-                        <div class="text-3 order-last" style="margin-top: 18% !important ">
-                            <span> 두가</span>
-                            <p>튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은 북아프리카에서 가장 잘 보존된 것으로 꼽힙니다.
-                                수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
-                                의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
-                        </div>
-
+                    <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
+                            background-position: center center;display:none"
+                        class="image1-2 links_box-shadox" id="imageCov2">
+                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
-                </div>
-                <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
-         background-position: bottom center;display:none"
-                    class="image1-2 links_box-shadox" id="imageCov3">
+                    <p id="paragraph2" class="links_box-p">튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은
+                        북아프리카에서 가장 잘 보존된 것으로 꼽힙니다.
+                        수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
+                        의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
 
-                    <div class="links_position-bottom  ">
-                        <div class="text-3 order-last" style="margin-top: 18% !important ">
-                            <span>카이로우안</span>
-                            <p>튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
-                                메카, 메디나, 예루살렘에 이어 이슬람교에서 네 번째 성지로 매우 중요한 지위를 차지합니다.
-                                카이루안 대모스크는 북아프리카 이슬람 사원 중 가장 오래되었으며 튀니지에서 가장 큰 사원이자 건축사적으로 중요한 건축물이에요.
-                                모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요.
-                                카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
-                        </div>
-
+                    <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
+                        background-position: bottom center;display:none"
+                        class="image1-2 links_box-shadox" id="imageCov3">
+                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
-                </div>
-                <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-        background-position: center center;display:none"
-                    class="image1-2 links_box-shadox" id="imageCov4">
+                    <p id="paragraph3" class="links_box-p">튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
+                        메카, 메디나, 예루살렘에 이어 이슬람교에서 네 번째 성지로 매우 중요한 지위를 차지합니다.
+                        카이루안 대모스크는 북아프리카 이슬람 사원 중 가장 오래되었으며 튀니지에서 가장 큰 사원이자 건축사적으로 중요한 건축물이에요.
+                        모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요.
+                        카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
 
-                    <div class="links_position-bottom">
-                        <div class="text-3 order-last" style="margin-top: 18% !important ">
-                            <span>마트마타</span>
-                            <p>과거 베르베르인들이 과거 침략으로부터 자신들을 보호하기 위해 건설했던 세계에서 가장 큰 지하마을이에요.
-                                돌을 깎아 만든 독특한 구조의 동굴가옥은 태양을 차단하고 온도를 조절하여 일년 내내 기온이 상대적으로 시원하게 유지돼요.
-                                현재 많은 주택들은 호텔로 개조되어 베르베르인들의 생활 방식을 경험하기 위해 찾는 관광객들을 맞이하고 있어요.
-                                특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
-                        </div>
-
+                    <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
+                        background-position: center center;display:none"
+                        class="image1-2 links_box-shadox" id="imageCov4">
+                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
-                </div>
 
-
-                <div class="mt-3 scroll-container">
-                    <div class="d-flex gap-20 mt-4">
-                        <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1"
-                                id="imageB1" onclick="changeImage1()">
-                            <div class="d-flex flex-column align-items-start">
-                                <span class="text-p " id='crd2h1'>튀니스</span>
-                                <div class=" d-flex justify-content-between">
-                                    <button class="btn btn-outline-primary btn1-b text-center mr"
-                                        id="btn1">수도</button>
-                                    <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
-                                        id="btn1-b">동쪽</button>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
-                                onclick="changeImage2()">
-                            <div class="d-flex flex-column align-items-start">
-                                <span class="text-p2" id='crd2h2'>두즈</span>
-                                <div class=" d-flex justify-content-between">
-                                    <button class="btn btn-outline-primary btn2 text-center"
-                                        id="btn2">따뜻한</button>
-                                    <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
-                                        id="btn2-b">남쪽</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3" alt='The Great Mosque of Kairouan'
-                                onclick="changeImage3()">
-                            <div class="d-flex flex-column align-items-start">
-                                <span class="text-p3" id='crd2h3'>카이루안</span>
-                                <div class="d-flex justify-content-between">
-                                    <button class="btn btn-outline-primary btn3 text-center"
-                                        id="btn3">따뜻한</button>
-                                    <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
-                                        id="btn3-b">남쪽</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-column affmob">
-                            <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4" alt='Matmata Tunisie'
-                                onclick="changeImage4()">
-                            <div class="d-flex flex-column align-items-start">
-                                <span class="text-p4" id='crd2h4'>마트마타</span>
-                                <div class="d-flex justify-content-between">
-                                    <button class="btn btn-outline-primary btn4 text-center"
-                                        id="btn4">따뜻한</button>
-                                    <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
-                                        id="btn4-b">남쪽</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                    <p id="paragraph4" class="links_box-p">과거 베르베르인들이 과거 침략으로부터 자신들을 보호하기 위해 건설했던 세계에서 가장 큰 지하마을이에요.
+                        돌을 깎아 만든 독특한 구조의 동굴가옥은 태양을 차단하고 온도를 조절하여 일년 내내 기온이 상대적으로 시원하게 유지돼요.
+                        현재 많은 주택들은 호텔로 개조되어 베르베르인들의 생활 방식을 경험하기 위해 찾는 관광객들을 맞이하고 있어요.
+                        특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
             </div>
+            </div>
+            <div class="mt-3 scroll-container">
+                <div class="d-flex gap-20 mt-4">
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
+                            onclick="changeImage1()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p " id='crd2h1'>튀니스</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn1-b text-center mr"
+                                    id="btn1">수도</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
+                                    id="btn1-b">동쪽</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
+                            onclick="changeImage2()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p2" id='crd2h2'>두즈</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3"
+                            alt='The Great Mosque of Kairouan' onclick="changeImage3()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p3" id='crd2h3'>카이루안</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn3 text-center" id="btn3">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
+                                    id="btn3-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4"
+                            alt='Matmata Tunisie' onclick="changeImage4()">
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>마트마타</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
+                                    id="btn4-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         </div>
     </section>
 
@@ -471,18 +449,24 @@
     <section id="section-7" class="background-section">
         <div class="container mt-5 bb">
             <h2 class="main-title text-center">Contact Us</h2>
-            <div class="ligne-separtion"></div>
-            <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
-            <div class="row pt-lg-4">
-                <div class="col-md-4">
-                    <div id='logform'>
-                        <img class="w-100" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
-                    </div>
-                    <p><strong> 주소: </strong>Tunis, Japan St, Imm Fatma</p>
-                    <p><strong> 이메일:</strong>  atlantis@atlantis.tn</p>
-                    <p><strong> 연락처: </strong> +216 52 924 322</p>
 
+            {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
+            <div class="row pt-lg-4">
+                <div class="col-md-4 right-Conta">
+                    <div id="logform" class="pr-lg-4">
+                        <div class="sub-title">1:1 문의하기</div>
+                        <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
+                    </div>
+                    <div class="PContact">
+                        <p><strong>주소:</strong> Tunis, Japan St, Imm Fatma</p>
+                        <p><strong>이메일:</strong> atlantis@atlantis.tn</p>
+                        <p><strong>연락처:</strong> +216 52 924 322</p>
+                    </div>
+                    <div class="img-Contact">
+                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
+                    </div>
                 </div>
+
                 <div class="col-md-8">
                     <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
                         @csrf
@@ -640,10 +624,8 @@
                 <div class="py-5 modal-body text-center">
                     <h2 class="main-title">고객님의 문의가 성공적으로 접수됐습니다.</h2>
                     <p class=" text-center">기재하신 연락처로 곧 답변드리겠습니다.</p>
-                    <img  src="{{ asset('images/tick.png') }}" class="img-fluid mt-4 img1mod"
-                            alt="Carthage">
-                    <img  src="{{ asset('images/imgmod.png') }}" class="img-fluid img2mod"
-                            alt="Carthage">
+                    <img src="{{ asset('images/tick.png') }}" class="img-fluid mt-4 img1mod" alt="Carthage">
+                    <img src="{{ asset('images/imgmod.png') }}" class="img-fluid img2mod" alt="Carthage">
                     <button id="model-close" type="buttom" class="btn btn-primary btnmodal">Okay, Thanks!</button>
                 </div>
             </div>
@@ -681,14 +663,19 @@
             console.log(success);
             if (success == 1) {
                 $('#modalemailsucc').modal("show");
-               /*  setTimeout(function() {
-                    $('#modalemailsucc').modal('hide');
-                }, 3000); */
+                /*  setTimeout(function() {
+                     $('#modalemailsucc').modal('hide');
+                 }, 3000); */
             }
 
-            $("#model-close").on('click',function(){
+            $("#model-close").on('click', function() {
                 $('#modalemailsucc').modal('hide');
             });
+
+            document.getElementById('paragraph1').style.display = "block";
+    document.getElementById('paragraph2').style.display = "none";
+    document.getElementById('paragraph3').style.display = "none";
+    document.getElementById('paragraph4').style.display = "none";
 
         });
     </script>
