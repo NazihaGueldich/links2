@@ -259,7 +259,7 @@
 
                     <h2 class="main-title12">Tunisia's main cities</h2>
                     <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
-                        background-position: center center;"
+                        background-position: 50% 55%;"
                         class="image1-2 links_box-shadox" id="imageCov1">
                         <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
@@ -269,7 +269,7 @@
                         도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
                     <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-                            background-position: center center;display:none"
+                            background-position: 50% 71%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov2">
                         <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
@@ -279,7 +279,7 @@
                         의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
 
                     <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
-                        background-position: bottom center;display:none"
+                        background-position: 30% 82%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov3">
                         <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
@@ -290,7 +290,7 @@
                         카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
 
                     <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-                        background-position: center center;display:none"
+                        background-position: 43% 48%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov4">
                         <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
                     </div>
