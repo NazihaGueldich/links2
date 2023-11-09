@@ -452,7 +452,7 @@
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
             <div class="row pt-lg-4">
-                <div class="col-md-4 right-Conta">
+                <div class="col-md-4 right-Contact">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
                         <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>

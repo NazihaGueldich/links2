@@ -966,9 +966,7 @@ footer h3 {
     width: 200px;
      float: left;
 }
-.right-Contact
-
-{
+.right-Contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
