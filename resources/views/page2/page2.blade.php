@@ -120,7 +120,7 @@
             </div>
             <div class="text-center  links_box">
                 <h2 class="main-title">Location</h2>
-                <img src="{{ asset('images/map_final.svg') }}" class="img2">
+                <img src="{{ asset('images/Final_Map.svg') }}" class="img2">
             </div>
             <div class="row block-cards">
                 <div class="col-lg-4">
