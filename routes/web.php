@@ -43,6 +43,10 @@ Route::get('/travel-information', function () {
     return view('info.info');
 });
 
+Route::get('/sub-page', function () {
+    return view('pages.subpage');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

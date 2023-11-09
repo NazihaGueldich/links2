@@ -629,50 +629,7 @@
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
     <script>
-        /* navbar */
-        function updateClock() {
-            const tunisTime = new Date();
-
-            let hours = tunisTime.getHours();
-            const minutes = tunisTime.getMinutes();
-            const seconds = tunisTime.getSeconds();
-
-            let amOrPm = hours >= 12 ? 'pm' : 'am';
-            hours = hours % 12;
-            hours = hours ? hours : 12;
-
-            const timeString =
-                `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
-
-            const tunisTimeElement = document.getElementById("tunis-time");
-            if (tunisTimeElement) {
-                tunisTimeElement.textContent = timeString;
-            }
-        }
-
-        updateClock();
-
-        setInterval(updateClock, 1000);
-
-        /* icons */
-        function changeImage(isMouseOver, id) {
-            var imgId = 'img' + id;
-            var pId = 'p' + id;
-            var img = document.getElementById(imgId);
-            var p = document.getElementById(pId);
-            var src;
-            if (isMouseOver) {
-                src = "../images/Icon_" + id + "_First_Animation.gif";
-                p.style.fontWeight = 'bolder';
-            } else {
-                src = "../images/Icon_" + id + "_Second_Animation.gif";
-                p.style.fontWeight = '';
-            }
-            img.src = src;
-        }
-
-
-        window.addEventListener('resize', function() {
+               window.addEventListener('resize', function() {
             var itemsDiv = document.getElementById('btns');
             var crds = document.getElementById('crdssess1');
             var crdssess5 = document.getElementById('crdssess5');
@@ -730,37 +687,7 @@
             speed: 500,
             cssEase: 'linear'
         });
-      /*   function changbtn(x) {
-    var choix0 = document.getElementById('choix0');
-    var choix1 = document.getElementById('choix1');
-    var choix2 = document.getElementById('choix2');
-    var choix3 = document.getElementById('choix3');
-    var choix4 = document.getElementById('choix4'); // Ajout de cette ligne
-    var choix5 = document.getElementById('choix5'); // Ajout de cette ligne
-    var p = [
-        "자동차 렌트를 통해 자유롭게 튀니지를 여행할 수도 있어요. 도로 대부분의 표지판에는 아랍어와 프랑스어로 이중언어 표기가 있어요.주차 공간이 부족하고 도로가 좁아 첫 방문 시 운전은 쉽지 않으니 주의하세요.",
-        "튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.차량 오른쪽 아래에 빨간색 표시등이 켜져 있으면 빈 택시, 초록색 표시등이 켜져 있으면 이미 운행 중이라는 의미에요. 기본요금은우리나라 기본요금의 약 1/10에서 시작합니다. 밤 9시부터 새벽 5시까지는 야간 할증이 적용돼요.‘Bolt’ 앱을 통해 택시를 이용하면 일반 택시보다 조금 더 비싸지만 편하게 튀니지를 다닐 수 있어요.",
-        "루아지는 시외 이동 시 이용하는 합동 승합 택시 개념의 미니버스예요. 이동경로와 요금이 정해져 있어요. 8명의 승객이 다 찰때까지 기다렸다가 출발하기 때문에 시간표는 없습니다.시외 이동을 위한 루아지 탑승 정류장은 아래를 확인하세요.Station louage Beb Alioua ; 서남부 (Hammamet, Nabeul 등)Station louage Beb Saadoun ; 북부 (Bizerte, Tabarka 등)Station louage Moncef Bey ; 남부 (Sousse, Sfax, Djerba)",
-        "수도 튀니스에는 메트로라고 불리는 경전철 시스템이 있어요. 총 6개 선의 노선을 운영하며 튀니스 시내와 도심을 연결해요. 요금은거리에 따라 달라지지만 보통 2TND 내외입니다. TGM이라고 불리는 트램도 운행합니다. 튀니스 시내 중심부터 유명 관광지 카르타고, 시디 부 사이드, 라 마르사 등을 연결해요. 또한 교외 도시를 연결하는 기차도 있어요.",
-        "튀니지는 이탈리아, 프랑스 등 유럽행 페리 노선을 운영합니다. 국제노선뿐만 아니라, 튀니지 내 유명 관광지인 제르바섬과 케르케나섬이동을 지원하는 정기 페리 노선이 있습니다. 주로 스팍스 항구에서 케르케나 섬 이동을 지원하거나, 남부의 자르지스 항구에서제르바섬으로 이동하는 노선을 운영합니다."
-    ];
-
-    var img = ['Trans_Rental.jpg', 'Trans_Aviation.jpg', 'Trans_Louage.jpg', 'Trans_Metro.jpg', 'Trans_Ferry.jpg'];
-
-    choix0.classList = 'p-2 btninactv'; // Remettre le bouton 0 en état inactif
-    choix1.classList = 'p-2 btninactv'; // Remettre le bouton 1 en état inactif
-    choix2.classList = 'p-2 btninactv'; // Remettre le bouton 2 en état inactif
-    choix3.classList = 'p-2 btninactv'; // Remettre le bouton 3 en état inactif
-    choix4.classList = 'p-2 btninactv'; // Remettre le bouton 4 en état inactif
-    choix5.classList = 'p-2 btninactv'; // Remettre le bouton 5 en état inactif
-
-
-
-    document.getElementById('psess4').innerHTML = p[x];
-
-
-    document.getElementById('numcrd').value = x;
-} */
+      
 
 function changbtn(x) {
              var btn;

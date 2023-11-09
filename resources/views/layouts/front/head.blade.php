@@ -28,4 +28,5 @@
     <link rel="stylesheet" href="{{ asset('css/page1.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mobile.css') }}">
     <link rel="stylesheet" href="{{ asset('css/atlantis.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/subpage.css') }}">
 </head>
