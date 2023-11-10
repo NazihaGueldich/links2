@@ -32,7 +32,7 @@
             <h2 class="main-title text-center">How to get from korea to tunisia</h2>
             <p class="text-center">한국에서 튀니지로 여행하는 주요 3가지 방법은 다음과 같습니다</p>
             <div id='slick-section3-web' class="slick-section3-web">
-                <div class="px-3">
+                <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Qatar Airways</p>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Turkish airlines</p>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Airfrance</p>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Emirates</p>
