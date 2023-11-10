@@ -228,7 +228,7 @@
 
         {{-- section 4 --}}
         <section id="section-4 mt-5">
-            <div class="pt-lg-5 text-center">
+            <div class="text-center">
                 <h2 class="main-title">Car services</h2>
             </div>
             <div class="col-12 d-flex justify-content-around button1 mt-lg-5">
