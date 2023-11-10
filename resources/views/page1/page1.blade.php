@@ -11,8 +11,6 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">사하라 사막의 시작</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                 </div>
@@ -21,9 +19,7 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">살아 숨쉬는 고대 역사</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
-                        </div>
+                             </div>
                     </div>
                 </div>
                 <div class="slick-slide">
@@ -31,9 +27,7 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">스타워즈의 발자취를 찾아</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
-                        </div>
+                           </div>
                     </div>
                 </div>
                 <div class="slick-slide">
@@ -41,9 +35,7 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">파란 하늘, 푸른 바다</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
-                        </div>
+                             </div>
                     </div>
                 </div>
             </div>
@@ -253,16 +245,14 @@
     {{--    <div class="lignes"></div> --}}
 
     <section id="section-4">
+        <h2 class="main-title12">Tunisia's main cities</h2>
         <div class="container sess3">
             <div class="city-section">
-                <div class="w-100 esapce">
-
-                    <h2 class="main-title12">Tunisia's main cities</h2>
+                <div class="w-100">
                     <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
                         background-position: 50% 55%;"
                         class="image1-2 links_box-shadox" id="imageCov1">
-                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
-                    </div>
+                           </div>
                     <p id="paragraph1" class="links_box-p"> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
                         대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
@@ -271,8 +261,7 @@
                     <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
                             background-position: 50% 71%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov2">
-                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
-                    </div>
+                         </div>
                     <p id="paragraph2" class="links_box-p">튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의 로마유적은
                         북아프리카에서 가장 잘 보존된 것으로 꼽힙니다.
                         수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
@@ -281,8 +270,7 @@
                     <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
                         background-position: 30% 82%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov3">
-                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
-                    </div>
+                        </div>
                     <p id="paragraph3" class="links_box-p">튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
                         메카, 메디나, 예루살렘에 이어 이슬람교에서 네 번째 성지로 매우 중요한 지위를 차지합니다.
                         카이루안 대모스크는 북아프리카 이슬람 사원 중 가장 오래되었으며 튀니지에서 가장 큰 사원이자 건축사적으로 중요한 건축물이에요.
@@ -292,8 +280,7 @@
                     <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
                         background-position: 43% 48%;display:none"
                         class="image1-2 links_box-shadox" id="imageCov4">
-                        <button class="btn btn-outline-primary btn1-main2 mb-2">더보기</button>
-                    </div>
+                         </div>
 
                     <p id="paragraph4" class="links_box-p">과거 베르베르인들이 과거 침략으로부터 자신들을 보호하기 위해 건설했던 세계에서 가장 큰 지하마을이에요.
                         돌을 깎아 만든 독특한 구조의 동굴가옥은 태양을 차단하고 온도를 조절하여 일년 내내 기온이 상대적으로 시원하게 유지돼요.
@@ -301,7 +288,7 @@
                         특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
             </div>
             </div>
-            <div class="mt-3 scroll-container">
+            <div class=" scroll-container">
                 <div class="d-flex gap-20 mt-4">
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
@@ -452,7 +439,7 @@
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
             <div class="row pt-lg-4">
-                <div class="col-md-4 right-Contact">
+                <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
                         <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
@@ -467,7 +454,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-md-6 m-lg-0 pl-lg-3 form-mobil">
                     <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
                         @csrf
                         <div class="form-group">
@@ -478,16 +465,16 @@
                             <input type="email" name="email" id="email" class="txt1 px-3 frminptstyl"
                                 placeholder="이메일" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mb-lg-0 form-textaria">
                             <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl"
                                 style="resize: none;" placeholder="문의사항 " required></textarea>
                         </div>
-                        <div class="form-group text-right mt-lg-4">
-                            <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
-                                onclick="viderchapm()">취소</button>
-                            <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
-                        </div>
                     </form>
+                </div>
+                <div class="form-group text-right mt-lg-4">
+                    <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
+                        onclick="viderchapm()">취소</button>
+                    <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
                 </div>
             </div>
             @if (session('success'))

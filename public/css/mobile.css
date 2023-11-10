@@ -70,7 +70,7 @@
         border-radius: 20px;
         border: 2px solid #347EFF;
         width: 100%;
-        height: 670px;
+        height: 501px;
     }
 
     #section-2 {
@@ -218,9 +218,8 @@
     }
 
     .btn.btn-outline-primary.button4 {
-        width: 163.49px;
-        width: 180px;
-        height: 52px;
+        width: 163px;
+        height: 41px;
         background-color: #ffffff;
         transition: none;
         box-shadow: none;
@@ -231,11 +230,15 @@
         background-color: transparent;
         transition: background-color 0.3s, color 0.3s;
         align-self: center;
-        font-size: 24px;
+        font-size: 1.2rem;
         font-family: noto;
         font-weight: 400;
         border-color: #347EFF !important;
 
+    }
+    .form-mobil{
+        padding: 0;
+        margin-top: 1rem;
     }
 
     .imageB1,
@@ -449,7 +452,6 @@
 
     .image1-2 {
         height: 239px;
-        width: 93%;
     }
 
     .links_box-shadox::before {
@@ -546,6 +548,10 @@
         width: 188px;
         float: right;
     }
+
+    .form-textaria {
+        height: 306px;
+    }
     .sess3h4mob {
         font-weight: bold;
         font-size: 42px;
@@ -553,7 +559,8 @@
         display: inline-block;
     }
     .right-Contact {
-        padding-left: 6%;
+        padding-left: 0;
+        margin-left: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -830,6 +837,18 @@
         width: 100%;
         border-radius: 15px;
     }
+
+    .cm{
+        padding: 0;
+    }
+
+    body.tunisiatrip .wrap-avis {
+        padding: 0;
+    }
+    .vertical-line{
+        margin-left: 50%;
+    }
+
 
     .cardul {
         display: flex !important;
