@@ -105,7 +105,9 @@
     body .slick-slide1 {
         display: block !important;
     }
-
+    .button-formulaire{
+        padding-right: 7%;
+    }
     #myCarousel {
         height: 100%;
     }
