@@ -487,6 +487,17 @@
                 </div>
             </div>
         </section>
+
+
+        <div class="ligne-separtion"></div>
+
+        {{-- session 5 --}}
+        <section id='section5'>
+            <h2 class="main-title text-center">Our Trips’ main routes</h2>
+            <p class="text-center">튀니지 내 필수 방문도시들과 경로를 확인해보세요.</p>
+        </section>
+
+        <div class="ligne-separtion"></div>
     </div>
 
     @include('layouts.front.footer')
