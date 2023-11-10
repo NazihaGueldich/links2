@@ -1,7 +1,8 @@
 #page-subpage section {
     padding: 50px 0;
 }
-.sec-con{
+
+.sec-con {
     background-color: #F2F7FF;
 }
 
@@ -9,14 +10,15 @@
 #page-subpage .ligne-separtion {
     border: 1px solid #B5D0FF;
     position: relative;
-    margin: 70px auto;
+    margin: 40px auto;
     width: 221px;
 }
 
 @media all and (max-width: 767px) {
     #page-subpage .sub-title {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
+
     #page-subpage p {
         font-size: 0.8rem;
     }
@@ -73,13 +75,14 @@
 }
 
 /* section 2 */
-#page-subpage #section2{
+#page-subpage #section2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 0;
     background-color: #F2F7FF;
 }
+
 @media all and (max-width: 767px) {
     #page-subpage #section2 {
         flex-direction: column;
@@ -112,10 +115,10 @@
     background-position: center;
     border-radius: 20px;
     height: 222.23px;
-    box-shadow: inset 0 0 0 1000px rgb(52, 126, 255,.6);
+    box-shadow: inset 0 0 0 1000px rgb(52, 126, 255, .6);
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt1 p{
+#page-subpage #section3 .crdsess3 .crdsess3prt1 p {
     padding-top: 88px;
 }
 
@@ -127,7 +130,7 @@
     align-items: center;
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt2 img{
+#page-subpage #section3 .crdsess3 .crdsess3prt2 img {
     width: 45px;
     z-index: 1;
 }
@@ -144,39 +147,119 @@
     border-top: 2px dashed;
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt2 .route div{
+#page-subpage #section3 .crdsess3 .crdsess3prt2 .route div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt2 .route div p{
+#page-subpage #section3 .crdsess3 .crdsess3prt2 .route div p {
     position: absolute;
     bottom: -20px;
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt2 p{
+#page-subpage #section3 .crdsess3 .crdsess3prt2 p {
     display: flex;
     flex-direction: column;
     font-size: 0.8rem;
 }
 
-#page-subpage #section3 .slick-section3-web{
+#page-subpage #section3 .slick-section3-web {
     display: block;
     padding-top: 20px;
 }
 
-#page-subpage #section3 .slick-section3-mobil{
+#page-subpage #section3 .slick-section3-mobil {
     display: none;
 }
 
 @media all and (max-width: 767px) {
-    #page-subpage #section3 .slick-section3-web{
+    #page-subpage #section3 .slick-section3-web {
         display: none;
     }
-    
-    #page-subpage #section3 .slick-section3-mobil{
+
+    #page-subpage #section3 .slick-section3-mobil {
         display: block;
     }
 }
 
+/* section 4 */
+#page-subpage #section4 #section4-part1 {
+    border: 2px solid #347EFF;
+    border-radius: 20px;
+}
+
+#page-subpage #section4 #section4-part1 #imgsesss4 {
+    height: 471.8px;
+    width: 100%;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section4 #section4-part1 #imgsesss4 {
+        height: 266.8px;
+    }
+}
+
+#page-subpage #section4 #section4-part1 .section4-part1-part1 {
+    padding-left: 94px;
+    padding-top: 100px !important;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section4 #section4-part1 .section4-part1-part1 {
+        padding-left: 7%;
+        padding-top: 0 !important;
+    }
+
+    #page-subpage #section4 #section4-part1 .section4-part1-part1 .sub-title {
+        margin-bottom: 0;
+        padding-bottom: 7%;
+    }
+}
+
+#page-subpage #section4 .section4-part2-web {
+    display: block;
+}
+
+#page-subpage #section4  .section4-part2-mobil {
+    display: none;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section4 .section4-part2-web {
+        display: none;
+    }
+
+    #page-subpage #section4  .section4-part2-mobil {
+        display: block;
+    }
+}
+
+#page-subpage #section4 .section4-part2 .row .col-lg-6 {
+    margin-bottom: 1%;
+    height: 63px !important;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section4 .section4-part2 .row .col-lg-6 {
+        height: 76px !important;
+    }
+}
+
+#page-subpage #section4 .section4-part2 .sect4crd {
+    border: 1.06px solid #B5D0FF;
+    border-radius: 20px;
+    display: flex;
+    height: 100%;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section4 .section4-part2-mobil .sect4crd {
+        margin-left: 2%;
+    }
+
+    #page-subpage #section4 .section4-part2-mobil .sect4crd .pl-lg-3{
+        padding-left: 4%;
+        padding-top: 3%;
+    }
+}
