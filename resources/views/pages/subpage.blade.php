@@ -498,6 +498,36 @@
         </section>
 
         <div class="ligne-separtion"></div>
+
+        {{-- session 6 --}}
+        <section id='section6'>
+            <h2 class="main-title text-center">Tips before trips</h2>
+            <p class="text-center">자주 하는 질문을 확인하고 여행을 준비해 보세요.</p>
+
+            <div id="section6cont" class="mt-lg-5">
+                <h2 class="sub-title" id='section6h2'>어떤 어댑터를 사용하나요?</h2>
+                <p id="section6p">튀니지에서는 한국과 동일한 220v 전압을 사용합니다. 따로 변환 플러그나 어댑터가 없어도 된다는 게 장점이에요.</p>
+            </div>
+
+            <div class="d-flex justify-content-center mt-5 ">
+                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="prev" onclick="srllcrdssess6(-1)">
+                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <span id='crcl1sess6'></span>
+                <span id='crcl2sess6'></span>
+                <span id='crcl3sess6'></span>
+                <span id='crcl4sess6'></span>
+                <span id='crcl5sess6'></span>
+                <span id='crcl6sess6'></span>
+                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
+                    data-slide="next" onclick="srllcrdssess6(1)">
+                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
     </div>
 
     @include('layouts.front.footer')

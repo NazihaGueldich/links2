@@ -221,7 +221,7 @@
     display: block;
 }
 
-#page-subpage #section4  .section4-part2-mobil {
+#page-subpage #section4 .section4-part2-mobil {
     display: none;
 }
 
@@ -230,7 +230,7 @@
         display: none;
     }
 
-    #page-subpage #section4  .section4-part2-mobil {
+    #page-subpage #section4 .section4-part2-mobil {
         display: block;
     }
 }
@@ -258,8 +258,86 @@
         margin-left: 2%;
     }
 
-    #page-subpage #section4 .section4-part2-mobil .sect4crd .pl-lg-3{
+    #page-subpage #section4 .section4-part2-mobil .sect4crd .pl-lg-3 {
         padding-left: 4%;
         padding-top: 3%;
+    }
+}
+
+/* section 6 */
+#page-subpage #section6 #section6cont {
+    border: 2px solid #347EFF;
+    border-radius: 20px;
+    height: 452.94px;
+    padding: 8%;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section6 #section6cont {
+        height: 205.94px;
+    }
+}
+
+#page-subpage #section6 .flch {
+    position: relative !important;
+    opacity: 1 !important;
+    width: 30px;
+}
+
+#page-subpage #section6 .carousel-control-prev-icon-gauche {
+    background-image: url("../images/lftbl.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1 !important;
+}
+
+#page-subpage #section6 .carousel-control-prev-icon-droite {
+    background-image: url("../images/rgtbl.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1 !important;
+}
+
+#page-subpage #section6 #crcl1sess6 {
+    width: 20px;
+    background-image: url("../images/ptbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 15px;
+}
+
+#page-subpage #section6 #crcl2sess6,
+#page-subpage #section6 #crcl3sess6,
+#page-subpage #section6 #crcl4sess6,
+#page-subpage #section6 #crcl5sess6,
+#page-subpage #section6 #crcl6sess6,
+#page-subpage #section6 #crcl7sess6 {
+    width: 20px;
+    background-image: url("../images/ftbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0px 15px;
+}
+
+@media all and (max-width: 767px) {
+    #page-subpage #section6 #section6cont {
+        height: 205.94px;
+    }
+
+    #page-subpage #section6 #crcl1sess6,
+    #page-subpage #section6 #crcl2sess6,
+    #page-subpage #section6 #crcl3sess6,
+    #page-subpage #section6 #crcl4sess6,
+    #page-subpage #section6 #crcl5sess6,
+    #page-subpage #section6 #crcl6sess6,
+    #page-subpage #section6 #crcl7sess6 {
+        margin: 0px 3px;
     }
 }
