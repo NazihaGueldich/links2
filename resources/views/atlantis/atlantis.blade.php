@@ -5,6 +5,7 @@
     @include('layouts.front.header')
     <div class="container mt-5">
         {{-- icons --}}
+        <main>
         <div class="flex-container pt-5 sessicn">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                 <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
@@ -42,6 +43,7 @@
                 <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
+        <main>
         {{-- section 1 --}}
         <section id="section-1 mt-5">
             <div class="text-center pt-5">
