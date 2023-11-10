@@ -296,7 +296,7 @@
                         특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
             </div>
             </div>
-            <div class=" scroll-container">
+            <div class=" scroll-container w-100">
                 <div class="d-flex gap-20 mt-4">
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
@@ -474,7 +474,7 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group mb-lg-0 form-textaria">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 mt-1 px-3 pt-2 frminptstyl"
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl"
                                 style="resize: none;" placeholder="문의사항 " required></textarea>
                         </div>
                     </form>
