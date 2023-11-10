@@ -275,6 +275,42 @@
     }
 }
 
+/* section 5 */
+.wrap-trips-routes {
+    display: flex;
+    gap: 35px;
+}
+.wrap-trips-routes .img-container {
+    position: relative;
+}
+.wrap-trips-routes .img-container a {
+    opacity: 1;
+    background: #494949b0;
+    color: transparent;
+    padding: 7px 10px;
+    line-height: 1.15;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .3s ease;
+    border: 2px solid #d3ee10;
+}
+
+.wrap-trips-routes .img-container a:hover {
+    opacity: 1;
+    width: 170px;
+    height: 220px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.zone-long-description {
+    display: none!important;
+}
+
 /* section 6 */
 #page-subpage #section6 #section6cont {
     border: 2px solid #347EFF;

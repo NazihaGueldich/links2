@@ -497,6 +497,17 @@
         <section id='section5'>
             <h2 class="main-title text-center">Our Trips’ main routes</h2>
             <p class="text-center">튀니지 내 필수 방문도시들과 경로를 확인해보세요.</p>
+            <div class="wrap-trips-routes">
+                <div class="img-container" style="display: inline-block; position: relative;">
+                    <img src="{{ asset('images/trips-routes/map-tour1.jpg') }}" alt="trips-routes" usemap="#map-tour1" width="596" height="842">
+                    <a href="#" title="Tunis" style="left: 57.07%; top: 17.58%;">@include('pages.zones.tunis-zone')</a>
+                    <a href="#" title="Kerkouane" style="left: 69.57%; top: 15.1%;">@include('pages.zones.kerkouane-zone')</a>
+                    <a href="#" title="Sousse" style="left: 63.07%; top: 28.7%;">@include('pages.zones.sousse-zone')</a>
+                </div>
+                <div class="wrap-trips-routes-infos">
+                    <div class="content"></div>
+                </div>
+            </div>
         </section>
 
         <div class="ligne-separtion"></div>

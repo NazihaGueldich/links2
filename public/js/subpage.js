@@ -67,5 +67,24 @@ function srllcrdssess6(x){
         j++;
     }
     document.getElementById('section6h2').innerHTML=h[indses6];
-    document.getElementById('section6p').innerHTML=p[indses6];  
+    document.getElementById('section6p').innerHTML=p[indses6];
 }
+
+// Section 5
+$(document).ready(function(){
+   $('.wrap-trips-routes .img-container a').on('click', function(e){
+       e.preventDefault();
+       let longDescriptionZone = $(this).find('.zone-long-description').html();
+       $('.wrap-trips-routes-infos .content').html(longDescriptionZone);
+   }).on('mouseenter', function(e){
+       let position = $(this);
+       $('.wrap-trips-routes .img-container a').css('z-index', '2');
+       position.css('z-index', '9');
+       setTimeout(function() {
+           position.css('color', '#fff');
+       }, 400)
+   }).on('mouseleave', function (){
+       let position = $(this);
+       position.css('color', 'transparent');
+   });
+});
