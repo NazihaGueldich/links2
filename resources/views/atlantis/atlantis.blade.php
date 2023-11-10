@@ -43,7 +43,7 @@
                 <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
-        <main>
+    </main>
         {{-- section 1 --}}
         <section id="section-1 mt-5">
             <div class="text-center pt-5">
