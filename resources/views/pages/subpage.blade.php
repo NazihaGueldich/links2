@@ -164,7 +164,7 @@
                 </div>
             </div>
             <div id='slick-section3-mobil' class="slick-section3-mobil">
-                <div class="px-3">
+                <div >
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Qatar Airways</p>
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div >
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Turkish airlines</p>
@@ -228,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div >
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Airfrance</p>
@@ -260,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-3">
+                <div >
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Emirates</p>

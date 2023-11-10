@@ -239,6 +239,11 @@
     #page-subpage #section4 .section4-part2-mobil {
         display: block;
     }
+
+    #page-subpage #section4 .section4-part2-mobil .slick-section4 .row .col-lg-6{
+        padding-left: 0;
+        padding-right: 1%;
+    }
 }
 
 #page-subpage #section4 .section4-part2 .row .col-lg-6 {
