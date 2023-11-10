@@ -139,7 +139,7 @@
                         <h2 class="sub-title">카멜 라가 </h2>
                         <h2 class="sub-title">Kamel Lagha</h2>
                         <p>CEO of the agency</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                        <div class="d-flex align-items-center justify-content-center mt-lg-2 "><img
                                 src="{{ asset('images/emil.png') }}" class="pr-2"><span>Kamel@atlantis.tn</span>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                         <h2 class="sub-title">정지혜</h2>
                         <h2 class="sub-title">Heidi Jung</h2>
                         <p>Korean department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                        <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
                                 src="{{ asset('images/emil.png') }}" class="pr-2">
                             <span>jh.heidi.j@gmail.com</span></div>
                     </div>
@@ -161,7 +161,7 @@
                         <h2 class="sub-title">마리엠 조그라미</h2>
                         <h2 class="sub-title">Meriem Zoghlami</h2>
                         <p>Executive management</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                        <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
                                 src="{{ asset('images/emil.png') }}" class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                         <h2 class="sub-title">소니아 벤 아모르 </h2>
                         <h2 class="sub-title">Sonia Ben Amor</h2>
                         <p>Tiketing Department</p>
-                        <div class="d-flex align-items-center justify-content-center mt-lg-4"><img
+                        <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
                                 src="{{ asset('images/emil.png') }}"> <span>Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
