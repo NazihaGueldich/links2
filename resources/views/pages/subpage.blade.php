@@ -503,6 +503,7 @@
                     <a href="#" title="Tunis" style="left: 57.07%; top: 17.58%;">@include('pages.zones.tunis-zone')</a>
                     <a href="#" title="Kerkouane" style="left: 69.57%; top: 15.1%;">@include('pages.zones.kerkouane-zone')</a>
                     <a href="#" title="Sousse" style="left: 63.07%; top: 28.7%;">@include('pages.zones.sousse-zone')</a>
+                    <a href="#" title="Sousse" style="left: 55.57%; top: 30.7%;">@include('pages.zones.kairouane-zone')</a>
                 </div>
                 <div class="wrap-trips-routes-infos">
                     <div class="content"></div>
