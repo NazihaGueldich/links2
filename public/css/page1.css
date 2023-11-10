@@ -78,21 +78,7 @@ body.tunisiatrip button, body.tunisiatrip a {
     position: relative;
     cursor: pointer;
 }
-.links_box-shadox:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.25);
-    border-radius: 20px;
-    opacity: 0;
-    transition: all .3s ease;
-}
-.links_box-shadox:hover:before {
-    opacity: 1;
-}
+
 .links_position-bottom {
 
     padding: 15px 30px 30px;
@@ -155,7 +141,7 @@ body.tunisiatrip .card-body {
 
 .cardul li{
     cursor: pointer;
-    height: 110px;
+    height: 90px;
 }
 
 
@@ -181,6 +167,10 @@ body.tunisiatrip .card-body {
     opacity: 1;
     width: 91.88px;
     height: 91.88px;
+}
+
+.op ul{
+    margin-bottom: 0;
 }
 
 #imgwj12 {
@@ -569,11 +559,10 @@ body {
 
   .city-section {
     text-align: center;
-    padding: 20px;
     border-radius: 20px;
     border: 2px solid #347EFF;
     width: 100%;
-    height: 630px;
+    height: 435px;
 }
 
 
@@ -582,16 +571,14 @@ body {
 .links_box-p{
     text-align: left;
     margin: auto;
-    padding-top: 4%;
+    padding-top: 2%;
     width: 90%;
 }
 
 .image1-2 {
     margin: auto;
-    border: 2px solid #347EFF;
-    width: 90%;
-    height: 324px;
-    border-radius: 20px;
+    height: 310px;
+    border-radius: 20px 20px 0 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -936,26 +923,26 @@ footer h3 {
 
 .txt1 {
     width: 100%;
-    height: 64.5px;
-    border-radius: 32.5px;
+    height: 45px;
+    border-radius: 20px;
     border: 1px solid #B3B3B3;
-
     font-family: noto;
-
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.2rem;
 }
 
 .txt2 {
     width: 100%;
-    height: 411px;
-    border-radius: 32.5px;
+    height: 100%;
+    border-radius: 20px;
     border: 1px solid #B3B3B3;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.2rem;
+}
+.form-textaria{
+    height: 410px;
 }
 #logform{
-
     padding-bottom: 34px;
 }
 #contenue{
@@ -970,7 +957,9 @@ footer h3 {
 .right-Contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid #B3B3B3;
+    border-radius: 20px;
 }
 .button3 {
     width: 344px;
@@ -1024,14 +1013,14 @@ footer h3 {
     margin-right: 13%;
 }
 .button4-cancel{
-    width: 163.49px;
-    height: 66px;
-    font-size: 24px;
+    width: 160px;
+    height: 41px;
+    font-size: 1.2rem;
     font-family: noto;
     font-weight: 400;
     background-color: #fff;
     border-radius: 77px;
-    color:rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
     border: 1px solid rgb(179, 179, 179);
     transition: background-color 0.3s, color 0.3s;
     align-self: center;
@@ -1259,25 +1248,22 @@ body.tunisiatrip .card5 {
 }
 
 .btn.btn-outline-primary.button4 {
-    width: 163.49px;
-    height: 66px;
+    width: 163px;
+    height: 41px;
     background-color: #ffffff;
     transition: none;
     box-shadow: none;
     font-weight: bold;
     color: #347EFF;
     border-radius: 77px;
-
     border: 1px solid #347EFF;
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     align-self: center;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-family: noto;
     font-weight: 400;
-
     border-color: #347EFF !important;
-
 }
 
 .btn.btn-outline-primary.button4:hover {
