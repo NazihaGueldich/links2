@@ -163,10 +163,12 @@ function srllcrdssess5(x) {
     var crcl2sess5 = document.getElementById('crcl2sess5');
     if (z === 0) {
         crcl1sess5.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl1sess5.style.backgroundSize="auto";
         crcl2sess5.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (z === 1) {
         crcl1sess5.style.backgroundImage = "url(../images/ftbl.svg)";
         crcl2sess5.style.backgroundImage = "url(../images/ptbl.svg)";
+        crcl2sess5.style.backgroundSize="auto";
     }
 
     //declaration des cnst
