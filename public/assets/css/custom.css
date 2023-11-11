@@ -656,3 +656,11 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 }
 
 /*# sourceMappingURL=custom.css.map */
+
+
+.icon-search {
+    position: absolute;
+    top: 13%;
+    right: 14px;
+    pointer-events: none;
+}
