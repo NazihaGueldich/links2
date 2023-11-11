@@ -72,6 +72,9 @@ function srllcrdssess6(x){
 
 // Section 5
 $(document).ready(function(){
+    let firstLongContent = $('.wrap-trips-routes .img-container a[title="Tunis"]').find('.zone-long-description').html();
+    $('.wrap-trips-routes-infos .content').html(firstLongContent);
+
    $('.wrap-trips-routes .img-container a').on('click', function(e){
        e.preventDefault();
        let longDescriptionZone = $(this).find('.zone-long-description').html();
@@ -82,7 +85,7 @@ $(document).ready(function(){
        position.css('z-index', '9');
        setTimeout(function() {
            position.css('color', '#fff');
-       }, 400)
+       }, 320)
    }).on('mouseleave', function (){
        let position = $(this);
        position.css('color', 'transparent');
