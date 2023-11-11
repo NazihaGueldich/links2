@@ -169,6 +169,21 @@ body.tunisiatrip .card-body {
     height: 91.88px;
 }
 
+.dropdown-menu{
+    position: absolute;
+    top: 50px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+}
+
+#dropdownMenuButton{
+    color: #000;
+}
+
+#dropdownMenuButton:hover{
+    color: #347EFF;
+}
+
 .op ul{
     margin-bottom: 0;
 }

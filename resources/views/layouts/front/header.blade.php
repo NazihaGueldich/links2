@@ -8,7 +8,7 @@
         </div>
 
         <button class="navbar-toggler ml-auto" type="button" id="toggleButton" aria-label="Toggle navigation"
-                onclick="toggleNavbarBackground()">
+            onclick="toggleNavbarBackground()">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -19,16 +19,25 @@
                     <span class="nav-link" href="#" id="tunis-time"></span>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/about-tunisia" >튀니지에 대해서</a>
+                    <a class="nav-link" href="/about-tunisia">튀니지에 대해서</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/about-atlantis" >아틀란티스 여행사</a>
+                    <a class="nav-link" href="/about-atlantis">아틀란티스 여행사</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/travel-information" >튀니지 여행정보</a>
+                    <a class="nav-link" href="/travel-information">튀니지 여행정보</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center  txtnav">
-                    <a class="nav-link" href="#" id="tun-time">보다 더 ></a>
+                    <div class="dropdown">
+                        <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            보다 더
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/sub-page">Sub-Page</a>
+                           
+                        </div>
+                    </div>
                 </li>
                 <li class=" nav-item mr-0 d-flex" id="tun-time">
                     <button type="button" class="btn btn-outline-primary  btn-main mr-2">문의하기</button>
