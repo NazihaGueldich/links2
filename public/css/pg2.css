@@ -1233,3 +1233,20 @@ ul {
     border-radius: 20px;
     object-fit: cover;
 }
+
+
+#about-tunisia .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 14px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #347EFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
