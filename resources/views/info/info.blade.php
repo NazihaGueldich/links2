@@ -584,32 +584,32 @@
                         <div class="col-md-12">
                             <ul class="list-souvenir-card p-0">
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd1" >
                                         <h5 class="card-title">쿠스쿠스</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd2" >
                                         <h5 class="card-title">도자기</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd3">
                                         <h5 class="card-title">올리브오일</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd4" >
                                         <h5 class="card-title">튀니지산 와인</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd1" >
                                         <h5 class="card-title">쿠스쿠스</h5>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card">
+                                    <div class="souvenir-card crd2" >
                                         <h5 class="card-title">도자기</h5>
                                     </div>
                                 </li>

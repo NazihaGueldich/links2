@@ -580,7 +580,30 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: blue;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd1{
+    background-image: url("../../images/Couscous.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd2{
+    background-image: url("../../images/ceramic.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd3{
+    background-image: url("../../images/Olive_oil.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd4{
+    background-image: url("../../images/Wine.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
@@ -593,6 +616,8 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     padding: 5px 20px;
     border-radius: 25px;
 }
+
+
 
 @media screen and (max-width: 1280px) {
     main {
