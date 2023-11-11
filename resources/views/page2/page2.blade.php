@@ -313,7 +313,7 @@
                         </div>
                         <div class="d-flex justify-content-between  pb-5">
                             <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
-                                <a class="carousel-control-prev flch" href="#carouselExampleIndicators"
+                                <a class="carousel-control-prev flch" 
                                     role="button" data-slide="prev" onclick="changelement(-1)">
                                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
@@ -321,7 +321,7 @@
                                 <span id='crcl11'></span>
                                 <span id='crcl22'></span>
                                 <span id='crcl33'></span>
-                                <a class="carousel-control-next flch" href="#carouselExampleIndicators"
+                                <a class="carousel-control-next flch"
                                     role="button" data-slide="next" onclick="changelement(1)">
                                     <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>

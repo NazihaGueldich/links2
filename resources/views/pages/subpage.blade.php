@@ -524,7 +524,7 @@
             </div>
 
             <div class="d-flex justify-content-center mt-5 ">
-                <a class="carousel-control-prev flch" href="#carouselExampleIndicators" role="button"
+                <a class="carousel-control-prev flch"  role="button"
                     data-slide="prev" onclick="srllcrdssess6(-1)">
                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -535,7 +535,7 @@
                 <span id='crcl4sess6'></span>
                 <span id='crcl5sess6'></span>
                 <span id='crcl6sess6'></span>
-                <a class="carousel-control-next flch" href="#carouselExampleIndicators" role="button"
+                <a class="carousel-control-next flch"  role="button"
                     data-slide="next" onclick="srllcrdssess6(1)">
                     <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
