@@ -72,16 +72,16 @@ function srllcrdssess6(x){
 
 // Section 5
 $(document).ready(function(){
-    let firstLongContent = $('.wrap-trips-routes .img-container a[title="Tunis"]').find('.zone-long-description').html();
+    let firstLongContent = $('.wrap-trips-routes .wrap-single-zone.zone-tunis').find('.zone-long-description').html();
     $('.wrap-trips-routes-infos .content').html(firstLongContent);
 
-   $('.wrap-trips-routes .img-container a').on('click', function(e){
+   $('.wrap-trips-routes .img-container .wrap-single-zone').on('click', function(e){
        e.preventDefault();
        let longDescriptionZone = $(this).find('.zone-long-description').html();
        $('.wrap-trips-routes-infos .content').html(longDescriptionZone);
    }).on('mouseenter', function(e){
        let position = $(this);
-       $('.wrap-trips-routes .img-container a').css('z-index', '2');
+       $('.wrap-trips-routes .wrap-single-zone').css('z-index', '2');
        position.css('z-index', '9');
        setTimeout(function() {
            position.css('color', '#fff');

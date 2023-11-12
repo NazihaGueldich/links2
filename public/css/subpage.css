@@ -278,28 +278,38 @@
 /* section 5 */
 .wrap-trips-routes {
     display: flex;
-    gap: 35px;
+    gap: 50px;
+    padding: 50px;
+    border: 1px solid #347EFF;
+    border-radius: 20px;
+    margin-top: 65px;
 }
 .wrap-trips-routes .img-container {
     position: relative;
+
 }
-.wrap-trips-routes .img-container a {
-    opacity: 1;
-    background: #494949b0;
-    color: transparent;
-    padding: 7px 10px;
-    line-height: 1.15;
+.wrap-trips-routes .img-container img {
+    border-radius: 20px;
+}
+.wrap-trips-routes .wrap-single-zone {
     position: absolute;
     width: 24px;
     height: 24px;
+    background: #494949b0;
     z-index: 2;
     overflow: hidden;
     border-radius: 20px;
     transition: all .3s ease;
     border: 2px solid #d3ee10;
+    opacity: 1;
+    background: #494949b0;
+    color: transparent;
+    padding: 7px 10px;
+    line-height: 1.15;
+    cursor: pointer;
 }
 
-.wrap-trips-routes .img-container a:hover {
+.wrap-trips-routes .wrap-single-zone:hover {
     opacity: 1;
     width: 170px;
     height: 220px;
@@ -309,6 +319,76 @@
 
 .zone-long-description {
     display: none!important;
+}
+
+.wrap-trips-routes .wrap-trips-routes-infos .main-title {
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.wrap-trips-routes .wrap-trips-routes-infos p {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.wrap-trips-routes-infos .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.wrap-trips-routes-infos .top-long-description .wrap-btn-action {
+    margin-top: 30px;
+}
+
+.wrap-trips-routes-infos .top-long-description .wrap-btn-action .tag-info {
+    margin-right: 10px;
+}
+
+.wrap-trips-routes-infos .bottom-long-description .wrap-img-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.wrap-trips-routes-infos .bottom-long-description img {
+    border-radius: 10px;
+    border: 1px solid #347EFF;
+}
+
+.tag-info {
+    border: 1px solid #B5D0FF;
+    border-radius: 50px;
+    padding: 10px 20px 12px;
+    background: #669dff;
+    color: #f1f1f1;
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 1;
+}
+
+@media all and (max-width: 767px) {
+    .wrap-trips-routes {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .wrap-trips-routes .img-container img {
+        max-width: 100%;
+        height: auto;
+    }
+    .wrap-trips-routes .wrap-trips-routes-infos {
+        padding: 15px;
+    }
+    .wrap-trips-routes-infos .top-long-description {
+        margin-bottom: 35px;
+    }
+    .wrap-trips-routes-infos .bottom-long-description .wrap-img-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 /* section 6 */
