@@ -83,6 +83,7 @@
 
 <script src="{{asset('assets/js/custom.js')}}"></script>
 <script src="{{ asset('js/subpage.js') }}"></script>
+<script src="{{ asset('js/blogpage.js') }}"></script>
 
 
 {{--<script src="{{ asset('js/ScriptPage1.js') }}"></script>--}}

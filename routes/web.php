@@ -35,6 +35,10 @@ Route::get('/blog', function () {
     return view('pages.blogs');
 });
 
+Route::get('/blog-page', function () {
+    return view('pages.blogpage');
+});
+
 Route::get('/about-atlantis', function () {
     return view('atlantis.atlantis');
 });
