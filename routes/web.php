@@ -51,6 +51,10 @@ Route::get('/sub-page', function () {
     return view('pages.subpage');
 });
 
+Route::get('/partners', function () {
+    return view('pages.partners');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

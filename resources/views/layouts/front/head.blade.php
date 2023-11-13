@@ -30,4 +30,5 @@
     <link rel="stylesheet" href="{{ asset('css/atlantis.css') }}">
     <link rel="stylesheet" href="{{ asset('css/subpage.css') }}">
     <link rel="stylesheet" href="{{ asset('css/blogpage.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/partners.css') }}">
 </head>
