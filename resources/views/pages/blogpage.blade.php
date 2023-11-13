@@ -47,4 +47,18 @@
             <img src="{{ asset('images/Play.png') }}" class="w-100">
         </section>
     </div>
+    {{-- section 2 --}}
+    <div class="sec2-col">
+        <section id='section2' class="container">
+            <div>
+                <p class="mt-4">꿈에 그리던 튀니지 여행을 맞춤화하려면 저희에게 연락하세요.</p>
+                <p class="sub-title sub-title2-3">아틀란티스가 함께합니다.</p>
+            </div>
+            <div class="button-sub">
+            <button type="button"
+                class="btn btn-outline-primary d-flex align-items-center btnsect2 radius-20 pr-lg-4 pl-lg-4">
+                <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">문의하기</button>
+            </div>
+        </section>
+    </div>
     @include('layouts.front.footer')
