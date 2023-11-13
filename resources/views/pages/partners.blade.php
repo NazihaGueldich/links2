@@ -1,6 +1,6 @@
 @include('layouts.front.head')
 
-<body id="blog-page">
+<body id="partners">
     @include('layouts.front.header')
     <div class="container mt-5">
         {{-- icons --}}
@@ -41,5 +41,27 @@
                 <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
+        <section id='partners-cont'>
+            <div class="p-lg-5 row">
+                <div class="col-lg-6 paragraphe">
+                    <h2 class="main-title ">We work with the best partners</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus
+                        libero accumsan. dalar elementum tempus hac tellus libero accumsan. </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus
+                        libero accumsan. dalar elementum tempus hac tellus libero accumsan. </p>
+                    <div class="btn">
+                        <button class="btn">Play Video <img
+                                src="{{ asset('images/Arrow Right white.png') }}"></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 imgs">
+                    <img id="img1" src="{{ asset('images/casa-de-una planta-vector.png') }}" alt="Casa de una planta vector">
+                    <div class="pt-lg-3" id='img2'>
+                        <img class="img2" src="{{ asset('images/JSM.png') }}" alt="JSM">
+                        <img class="img2" src="{{ asset('images/wonderful-tours-laos.png') }}" alt="Wonderful tours laos">
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     @include('layouts.front.footer')
