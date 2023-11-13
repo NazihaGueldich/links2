@@ -61,4 +61,18 @@
             </div>
         </section>
     </div>
+    <div class="container">
+        {{-- section 3 --}}
+        <section id='section3'>
+            <div class="items" id="items">
+                <button id='itm0' class="item-actv" onclick="changSection6(0)">Popular</button>
+                <button id='itm1' class="item-inactv" onclick="changSection6(1)">News</button>
+                <button id='itm2' class="item-inactv" onclick="changSection6(2)">Travel Tips</button>
+                <button id='itm3' class="item-inactv" onclick="changSection6(3)">Food</button>
+                <button id='itm4' class="item-inactv" onclick="changSection6(4)">Life Style</button>
+                <button id='itm5' class="item-inactv" onclick="changSection6(5)">Art</button>
+                <button id='itm6' class="item-inactv" onclick="changSection6(6)">Knowledge</button>
+            </div>
+        </section>
+    </div>
     @include('layouts.front.footer')
