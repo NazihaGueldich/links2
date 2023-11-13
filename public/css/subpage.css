@@ -327,7 +327,6 @@
 }
 
 .wrap-trips-routes .wrap-trips-routes-infos p {
-    font-size: 1.25rem;
     line-height: 2;
 }
 
@@ -364,7 +363,7 @@
     padding: 10px 20px 12px;
     background: #669dff;
     color: #f1f1f1;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 600;
     display: inline-block;
     line-height: 1;
