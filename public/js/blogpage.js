@@ -1,142 +1,82 @@
-function changSection6(index) {console.log('ccc');
-   /*  //bch nbadal fel activation nta3 il items
-    var itm0 = document.getElementById('itm0');
-    var itm1 = document.getElementById('itm1');
-    var itm2 = document.getElementById('itm2');
-    var itm3 = document.getElementById('itm3');
-    var itm4 = document.getElementById('itm4');
-    var itm5 = document.getElementById('itm5');
-    var itm6 = document.getElementById('itm6');
-
-    if (index == 0) {
-        itm0.classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 1) {
-        itm1.classList = 'item-actv';
-        itm0.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 2) {
-        itm2.classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm0.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 3) {
-        itm3.classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm0.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 4) {
-        itm4.classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm0.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 5) {
-        itm5.classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm0.classList = 'item-inactv';
-        itm6.classList = 'item-inactv';
-    } else if (index == 6) {
-        itm6classList = 'item-actv';
-        itm1.classList = 'item-inactv';
-        itm2.classList = 'item-inactv';
-        itm3.classList = 'item-inactv';
-        itm4.classList = 'item-inactv';
-        itm5.classList = 'item-inactv';
-        itm0.classList = 'item-inactv';
+function changSection6(index) {
+    //bch nbadal il itm actv
+    for (var i = 0; i < 6; i++) {
+        var itmdId = 'itm' + i;
+        var itm = document.getElementById(itmdId);
+        if (index == i) {
+            itm.classList.add('item-actv');
+            itm.classList.remove('item-inactv');
+        } else {
+            itm.classList.add('item-inactv');
+            itm.classList.remove('item-actv');
+        }
     }
 
 
-    var titr = ["Popular", "News", "Travel Tips", "Food", 'Life Style', 'Art', 'Knowledge'];
+    var section5Cont = document.getElementById('section5-cont');
+    section5Cont.innerHTML = '';
 
-    //3ayatt lil section ili bch n5dm aliha wfara8tha
-    var section = document.getElementById('section-6');
-    section.innerHTML = '';
-    //linna badalt il 3nwen de section
-    var grand_titre = titr[index];
-
-    //linna bch nsna3 les partie mte3i statique wba3ed ywalliw dynamique
-    //hna sna3t il parite head de section
-    var divElement = document.createElement('div');
-    divElement.className = 'head';
-
-    var h1Element = document.createElement('h1');
-    h1Element.textContent = grand_titre + ' Topics';
-
-    var pElement = document.createElement('p');
-    pElement.className = 'col-lg-5 pl-0';
-    pElement.textContent = 'Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero';
-    //bch nzidhom lil div head 
-    divElement.appendChild(h1Element);
-    divElement.appendChild(pElement);
-    //hna sna3t div cards ili bch n7ott fiha les cards nte3i 
-    var divCards = document.createElement('div');
-    divCards.className = 'cards';
-    //linna bch n3abbi les cards
-    for (let i = 0; i < 3; i++) {
-        var divRow = document.createElement('div');
-        divRow.className = 'row pt-5';
-
-        var divCol1 = document.createElement('div');
-        divCol1.className = 'col-lg-6 pl-5';
-
-        var imgElement = document.createElement('img');
-        imgElement.src = "../images/Container (1).png";
-        imgElement.className = 'card-imag';
-
-        var divCol2 = document.createElement('div');
-        divCol2.className = 'col-lg-6 description pl-5';
-
-        var h3Element = document.createElement('h3');
-        h3Element.innerHTML = 'Catchy Title:<br>The main point behind it';
-
-        var pElement = document.createElement('p');
-        pElement.className = 'col-lg-8';
-        pElement.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipiscing elit dolor semper at ac tempus enim.';
-
-        var buttonElement = document.createElement('button');
-        buttonElement.className = 'btn radius-20 btn-color col-lg-3';
-        buttonElement.innerHTML = 'Read Full Article';
-
-        // zdt les elements nta3 il card ili sna3tha lil div cards
-        divCol1.appendChild(imgElement);
-        divCol2.appendChild(h3Element);
-        divCol2.appendChild(pElement);
-        divCol2.appendChild(buttonElement);
-        divRow.appendChild(divCol1);
-        divRow.appendChild(divCol2);
-        divCards.appendChild(divRow);
+    for (var i = 0; i < 4; i++) {
+        section5Cont.innerHTML += `
+            <div class="crdsess5 p-lg-5 mt-lg-5">
+                <div class="row">
+                    <div class="col-lg-6 crdsess5-prt1">
+                        <img class='crdsess5-img' src="../images/bardo-national-museum.png" alt="Bardo National Museum">
+                    </div>
+                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                        <p class="sub-title">바르도 박물관</p>
+                        <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
+                        <p>특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어 세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                        <div>
+                            <button class="btn">Play Video <img src="../images/Arrow Right white.png"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
     }
-    //hna 3awedt 3abbit secrion 6
-    section.appendChild(divElement);
-    section.appendChild(divCards); */
+    /* section5Cont.innerHTML += ` <div class="d-flex justify-content-center mt-5 ">
+    <a class="carousel-control-prev flch"  role="button"
+        data-slide="prev" onclick="BPsrllcrdssess5(-1)">
+        <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <span id='crcl1sess5'></span>
+    <span id='crcl2sess5'></span>
+    <span id='crcl3sess5'></span>
+    <a class="carousel-control-next flch"  role="button"
+        data-slide="next" onclick="BPsrllcrdssess5(1)">
+        <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>`; */
+
+}
+
+function BPsrllcrdssess5(indx) {
+    var j=1;
+    for(var i=0;i<3;i++){
+        var idcrcl='crcl'+j+'sess5';
+        var crcl = document.getElementById(idcrcl);
+        console.log(crcl    );
+        if(i==indx){
+            crcl.style.backgroundImage = "url(../images/ptbl.svg)";
+            crcl.style.backgroundSize="auto";
+            console.log(crcl);
+        }else{
+            crcl.style.backgroundImage = "url(../images/ftbl.svg)";
+            console.log(crcl);
+        }
+        j++;
+    }
+
 }
 
 
 function addClassBasedOnWidth() {
     var section3 = document.getElementById('items');
     var section5 = document.getElementById('section5-cont');
-    
+
     if (window.innerWidth <= 767) {
         section3.classList.add('section3-mobil');
         section5.classList.add('section5-mobil');
@@ -153,7 +93,7 @@ window.addEventListener('resize', addClassBasedOnWidth);
 $('#blog-page #section3 .section3-mobil').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3  ,
+    slidesToScroll: 3,
     dots: true,
     arrows: false,
     infinite: true,
@@ -163,7 +103,7 @@ $('#blog-page #section3 .section3-mobil').slick({
 $('#blog-page #section5 .section5-mobil').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1 ,
+    slidesToScroll: 1,
     dots: true,
     arrows: false,
     infinite: true,

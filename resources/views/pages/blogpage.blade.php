@@ -65,13 +65,12 @@
         {{-- section 3 --}}
         <section id='section3'>
             <div class="items" id="items">
-                <button id='itm0' class="item-actv" onclick="changSection6(0)">Popular</button>
-                <button id='itm1' class="item-inactv" onclick="changSection6(1)">News</button>
-                <button id='itm2' class="item-inactv" onclick="changSection6(2)">Travel Tips</button>
-                <button id='itm3' class="item-inactv" onclick="changSection6(3)">Food</button>
-                <button id='itm4' class="item-inactv" onclick="changSection6(4)">Life Style</button>
-                <button id='itm5' class="item-inactv" onclick="changSection6(5)">Art</button>
-                <button id='itm6' class="item-inactv" onclick="changSection6(6)">Knowledge</button>
+                <button id='itm0' class="item-actv" onclick="changSection6(0)">All</button>
+                <button id='itm1' class="item-inactv" onclick="changSection6(1)">Popular</button>
+                <button id='itm2' class="item-inactv" onclick="changSection6(2)">News</button>
+                <button id='itm3' class="item-inactv" onclick="changSection6(3)">Travel Tips</button>
+                <button id='itm4' class="item-inactv" onclick="changSection6(4)">Food</button>
+                <button id='itm5' class="item-inactv" onclick="changSection6(5)">Archeological Sites</button>
             </div>
         </section>
         {{-- section 4 --}}
@@ -151,7 +150,7 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <img class='crdsess5-img' src="{{ asset('images/lablebi.png') }}" alt="Lablebi">
+                            <img  class='crdsess5-img' src="{{ asset('images/lablebi.png') }}" alt="Lablebi">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">라블라비</p>
@@ -163,6 +162,21 @@
                         </div>
                     </div>
                 </div>
+                {{-- <div class="d-flex justify-content-center mt-5 ">
+                    <a class="carousel-control-prev flch"  role="button"
+                        data-slide="prev" onclick="BPsrllcrdssess5(-1)">
+                        <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <span id='crcl1sess5'></span>
+                    <span id='crcl2sess5'></span>
+                    <span id='crcl3sess5'></span>
+                    <a class="carousel-control-next flch"  role="button"
+                        data-slide="next" onclick="BPsrllcrdssess5(1)">
+                        <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> --}}
             </div>
         </section>
     </div>

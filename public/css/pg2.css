@@ -1,6 +1,9 @@
 :root {
     --main-color: #347EFF;
 }
+.container{
+    max-width: 1400px;
+}
 
 body.tunisiatrip {
     font-family: 'noto', sans-serif;

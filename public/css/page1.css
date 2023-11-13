@@ -2,6 +2,10 @@
     --main-color: #347eff;
 }
 
+.container{
+    max-width: 1400px;
+}
+
 main{
     margin-top:60px ;
 }
