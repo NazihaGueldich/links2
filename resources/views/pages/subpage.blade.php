@@ -31,7 +31,7 @@
     <div class="container">
         {{-- session 3 --}}
         <section id='section3'>
-            <h2 class="main-title text-center">How to get from korea to tunisia</h2>
+            <h2 class="main-title text-center">How to get from KOREA to TUNISIA</h2>
             <p class="text-center">한국에서 튀니지로 여행하는 주요 3가지 방법은 다음과 같습니다</p>
             <div id='slick-section3-web' class="slick-section3-web">
                 <div class="pr-lg-3">
