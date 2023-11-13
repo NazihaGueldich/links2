@@ -74,5 +74,25 @@
                 <button id='itm6' class="item-inactv" onclick="changSection6(6)">Knowledge</button>
             </div>
         </section>
+        {{-- section 4 --}}
+        <section id='section4'>
+            <h2 class="main-title text-center">Videos from Creators Talking about Tunisia</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id='crd1'>
+                        <p class="sub-title">Discover Tunisia</p>
+                        <button class="btn">Play Video <img
+                            src="{{ asset('images/Arrow Right Blue.png') }}"></button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id='crd2'>
+                        <p class="sub-title">Korean Content Creator Visits Tunisia</p>
+                        <button class="btn">Play Video <img
+                            src="{{ asset('images/Arrow Right white.png') }}"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     @include('layouts.front.footer')

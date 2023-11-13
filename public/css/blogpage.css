@@ -13,6 +13,12 @@
     }
 }
 
+.sub-title {
+    font-size: 1.3rem !important;
+    font-weight: 700;
+    margin: 5px 0 20px 0;
+}
+
 /* section 1 */
 #blog-page #section1 img {
     height: 602.15px;
@@ -51,11 +57,11 @@
     margin-right: 10px;
 }
 
-#blog-page #section2 .btnsect2{
+#blog-page #section2 .btnsect2 {
     background-color: #FFF;
 }
 
-#blog-page #section2 .btnsect2:hover{
+#blog-page #section2 .btnsect2:hover {
     color: #347EFF;
 }
 
@@ -65,7 +71,7 @@
         margin-right: 5px;
     }
 
-    #blog-page #section2 .btnsect2{
+    #blog-page #section2 .btnsect2 {
         margin-bottom: 15%;
     }
 }
@@ -80,8 +86,8 @@
 }
 
 
-#blog-page #section3 .items button{
-   border-radius: 20px;
+#blog-page #section3 .items button {
+    border-radius: 20px;
 }
 
 #blog-page #section3 .item-actv {
@@ -101,13 +107,90 @@
 }
 
 @media all and (max-width: 767px) {
-    #blog-page #section3 .item-inactv{
+    #blog-page #section3 .item-inactv {
         width: 100px !important;
         font-size: 0.9rem;
-     }
+    }
 
-     #blog-page #section3 .item-actv{
+    #blog-page #section3 .item-actv {
         width: 100px !important;
         font-size: 1rem;
+    }
+}
+
+/* section 4 */
+#blog-page #section4 #crd1 {
+    background-image: url("../images/Creator-Talking-Tunisia.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: 475px;
+}
+
+#blog-page #section4 #crd1 .sub-title {
+    color: #FFF;
+    padding-top: 15%;
+    margin-right: 34%;
+    padding-left: 18%;
+}
+
+#blog-page #section4 #crd1 button {
+    background-color: #FFF;
+    height: 51px;
+    border: 1px solid #347EFF;
+    border-radius: 20px;
+    margin-left: 18%;
+    color: #347EFF;
+    font-size: 1rem;
+    margin-top: 23%;
+}
+
+#blog-page #section4 #crd2 {
+    background-image: url("../images/Creator-Talking-Tunisia 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: 475px;
+}
+
+
+#blog-page #section4 #crd2 .sub-title {
+    color: #347EFF;
+    padding-top: 15%;
+    margin-right: 34%;
+    padding-left: 18%;
+}
+
+#blog-page #section4 #crd2 button {
+    color: #FFF !important;
+    height: 51px;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    margin-left: 18%;
+    color: #347EFF;
+    font-size: 1rem;
+    margin-top: 19%;
+    background-color: #347EFF;
+}
+
+@media all and (max-width: 767px) {
+    #blog-page #section4 #crd1,#blog-page #section4 #crd2 {
+        height: 240px;
+    }
+
+    #blog-page #section4 #crd2 {
+        margin-top: 3%;
+    }
+
+    #blog-page #section4 #crd1 button,#blog-page #section4 #crd2 button {
+        height: 35px;
+        font-size: 0.8rem;
+    }
+
+    #blog-page #section4 #crd2 button {
+        margin-top: 9%;
+    }
+    #blog-page #section4 #crd1 button img,#blog-page #section4 #crd2 button img {
+        width: 15px;
     }
 }
