@@ -55,9 +55,9 @@
                 <p class="sub-title sub-title2-3">아틀란티스가 함께합니다.</p>
             </div>
             <div class="button-sub">
-            <button type="button"
-                class="btn btn-outline-primary d-flex align-items-center btnsect2 radius-20 pr-lg-4 pl-lg-4">
-                <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">문의하기</button>
+                <button type="button"
+                    class="btn btn-outline-primary d-flex align-items-center btnsect2 radius-20 pr-lg-4 pl-lg-4">
+                    <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">문의하기</button>
             </div>
         </section>
     </div>
@@ -82,14 +82,85 @@
                     <div id='crd1'>
                         <p class="sub-title">Discover Tunisia</p>
                         <button class="btn">Play Video <img
-                            src="{{ asset('images/Arrow Right Blue.png') }}"></button>
+                                src="{{ asset('images/Arrow Right Blue.png') }}"></button>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div id='crd2'>
                         <p class="sub-title">Korean Content Creator Visits Tunisia</p>
                         <button class="btn">Play Video <img
-                            src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                src="{{ asset('images/Arrow Right white.png') }}"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="ligne-separtion"></div>
+        {{-- section 5 --}}
+        <section id='section5'>
+            <h2 class="main-title text-center">Articles</h2>
+            <div id='section5-cont'>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/bardo-national-museum.png') }}"
+                                alt="Bardo National Museum">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">바르도 박물관</p>
+                            <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
+                            <p> 특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                            <div>
+                                <button class="btn">Play Video <img
+                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/hot hatch.png') }}" alt="Hot hatch">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">택시</p>
+                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.</p>
+                            <p> 택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 지급 방식이 달라요..</p>
+                            <div>
+                                <button class="btn">Play Video <img
+                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/kouskous-with-osban.png') }}"
+                                alt="kouskous with osban">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">쿠스쿠스</p>
+                            <p>듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
+                            <div>
+                                <button class="btn">Play Video <img
+                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/lablebi.png') }}" alt="Lablebi">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">라블라비</p>
+                            <p>마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
+                            <div>
+                                <button class="btn">Play Video <img
+                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

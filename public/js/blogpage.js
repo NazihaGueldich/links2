@@ -135,11 +135,14 @@ function changSection6(index) {console.log('ccc');
 
 function addClassBasedOnWidth() {
     var section3 = document.getElementById('items');
+    var section5 = document.getElementById('section5-cont');
     
     if (window.innerWidth <= 767) {
         section3.classList.add('section3-mobil');
+        section5.classList.add('section5-mobil');
     } else {
         section3.classList.remove('section3-mobil');
+        section5.classList.remove('section5-mobil');
     }
 }
 
@@ -151,6 +154,16 @@ $('#blog-page #section3 .section3-mobil').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3  ,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
+$('#blog-page #section5 .section5-mobil').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1 ,
     dots: true,
     arrows: false,
     infinite: true,
