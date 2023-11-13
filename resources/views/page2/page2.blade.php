@@ -381,7 +381,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="main-title">What is Tunisia famous for?</h2>
+            <h2 class="main-title">Spotlight</h2>
 
             <div class="row block-cards">
                 <div class="col-lg-4 section-9-hover">
@@ -435,7 +435,7 @@
         {{-- part 8 --}}
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
-                <h2 class="main-title">Tunisian culture</h2>
+                <h2 class="main-title">Culture</h2>
                 <div class="ligne-separtion"></div>
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며, 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
