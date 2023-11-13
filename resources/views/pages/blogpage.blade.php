@@ -2,9 +2,9 @@
 
 <body id="blog-page">
     @include('layouts.front.header')
-    {{-- icons --}}
-    <div class="container mt-5 icons-none">
-        <div class="flex-container pt-1">
+    <div class="container mt-5">
+        {{-- icons --}}
+        <div class="flex-container pt-5 sessicn">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                 <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                 <p id="p1" class="txticns">호텔</p>
@@ -41,6 +41,10 @@
                 <p id="p7" class="txticns">박물관</p>
             </div>
         </div>
+        {{-- section 1 --}}
+        <section id='section1'>
+            <h2 class="main-title text-center">Hear from the Korean Ambassador in Tunisia</h2>
+            <img src="{{ asset('images/Play.png') }}" class="w-100">
+        </section>
     </div>
-
-@include('layouts.front.footer')
+    @include('layouts.front.footer')
