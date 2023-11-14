@@ -500,36 +500,36 @@
             <div class="wrap-trips-routes">
                 <div class="img-container" style="display: inline-block; position: relative;">
                     <img src="{{ asset('images/trips-routes/map-tour1.jpg') }}" alt="trips-routes" width="596" height="842">
-                    <div class="wrap-single-zone zone-tunis" style="left: 57.07%; top: 17.58%;">
+                    <div class="wrap-single-zone zone-tunis" style="left: 57.07%; top: 17.58%;" href='tunis-zone'>
                         @include('pages.zones.tunis-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kerkouane" style="left: 69.57%; top: 15.1%;">
+                    <div class="wrap-single-zone zone-kerkouane" style="left: 69.57%; top: 15.1%;" >
                         <a href="#" title=""></a>
                         @include('pages.zones.kerkouane-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 28.7%;">
+                    <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 28.7%;" href='zone-sousse'>
                         @include('pages.zones.sousse-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 30.7%;">
+                    <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 30.7%;" href='zone-kairouane'>
                         @include('pages.zones.kairouane-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sufetela" style="left: 42.37%; top: 35.78%;">
+                    <div class="wrap-single-zone zone-sufetela" style="left: 42.37%; top: 35.78%;" href='zone-sufetela'>
                         @include('pages.zones.sufetela-zone')
                     </div>
-                    <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;">
+                    <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur'>
                         <a href="#" title="Tozeur"></a>
                         @include('pages.zones.tozeur-zone')
                     </div>
-                    <div class="wrap-single-zone zone-matmata" style="left: 51.17%; top: 56.6%;">
+                    <div class="wrap-single-zone zone-matmata" style="left: 51.17%; top: 56.6%;" href='zone-matmata'>
                         @include('pages.zones.matmata-zone')
                     </div>
-                    <div class="wrap-single-zone zone-djerba" style="left: 66.17%; top: 52.8%;">
+                    <div class="wrap-single-zone zone-djerba" style="left: 66.17%; top: 52.8%;" href='zone-djerba'>
                         @include('pages.zones.djerba-zone')
                     </div>
 
                 </div>
                 <div class="wrap-trips-routes-infos">
-                    <div class="content"></div>
+                    <div class="content" id="sadok"></div>
                 </div>
             </div>
         </section>

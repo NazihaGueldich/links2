@@ -954,8 +954,6 @@ footer h3 {
     resize: none;
 }
 .img-Contact{
-    margin-top: 31px;
-
     width: 200px;
      float: left;
 }
@@ -965,6 +963,7 @@ footer h3 {
     justify-content: space-between;
     border: 1px solid #B3B3B3;
     border-radius: 20px;
+    height: 532px;
 }
 .button3 {
     width: 344px;

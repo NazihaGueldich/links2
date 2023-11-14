@@ -453,13 +453,13 @@
                         <div class="sub-title">1:1 문의하기</div>
                         <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
                     </div>
+                    <div class="img-Contact">
+                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
+                    </div>
                     <div class="PContact">
                         <p><strong>주소:</strong> Tunis, Japan St, Imm Fatma</p>
                         <p><strong>이메일:</strong> atlantis@atlantis.tn</p>
                         <p><strong>연락처:</strong> +216 52 924 322</p>
-                    </div>
-                    <div class="img-Contact">
-                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
                     </div>
                     <div class="form-group text-right mt-lg-4 button-formulaire">
                     </div>
