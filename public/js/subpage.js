@@ -91,3 +91,16 @@ $(document).ready(function(){
        position.css('color', 'transparent');
    });
 });
+// JavaScript pour afficher/masquer les descriptions lorsque le bouton est cliqué
+const images = document.querySelectorAll('.image1-2');
+const buttons = document.querySelectorAll('.btn');
+
+buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        if (images[index].style.display === 'none') {
+            images[index].style.display = 'block';
+        } else {
+            images[index].style.display = 'none';
+        }
+    });
+});
