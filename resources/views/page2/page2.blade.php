@@ -255,21 +255,21 @@
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
                 </p>
             </div>
-            <div class="mt-5 d-flex flex-column align-items-center button1">
-                <div class="col-12 d-flex justify-content-around button1">
+            <div class="mt-5 d-flex flex-column  align-items-center button1">
+                <div class="col-10 d-flex justify-content-evenly button1 align-items-center">
                     <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
                 </div>
-                <div class="ktbchng text-center" style="width: 100%">
+                <div class="ktbchng text-center" >
 
 
                     <div class="row">
                         <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
                             <div class="para-section">
                                 <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
-                                <span id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법
+                                <p id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법
                                     제39조에는 아랍 정체성과
                                     아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가
                                     있어서 튀니지에서는 튀니지어를 사용한다는 농담도 있어요. 튀니지 아랍어는
@@ -313,7 +313,7 @@
                         </div>
                         <div class="d-flex justify-content-between  pb-5">
                             <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
-                                <a class="carousel-control-prev flch" 
+                                <a class="carousel-control-prev flch"
                                     role="button" data-slide="prev" onclick="changelement(-1)">
                                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>

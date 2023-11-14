@@ -523,7 +523,7 @@ body {
     display: block;
     width: 100%;
     border-radius: 20px;
- 
+
 }
 
 
@@ -663,7 +663,7 @@ body {
 
 .btninactv {
     width: 14%;
-    border-radius:20px;
+    border-radius:30px;
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 41px;
@@ -687,24 +687,31 @@ body {
 .btnactv {
     width: 14%;
     font-size: 1.1rem;
-    border-radius:20px;
+    border-radius:30px;
     font-weight: 600;
     line-height: 41px;
     letter-spacing: 0em;
-    padding: 0px 39px !important;
+    padding: 0px 36px !important;
     text-align: center;
     color: #347EFF !important;
     box-shadow: none !important;
     outline: none !important;
     border: 2px solid #347EFF !important;
     background-color: #ffffff !important;
-    height: 61px;
+    height: 45px;
+}
+
+.ktbchng{
+    width: 75%;
+}
+
+.ktbchng .row{
+    height: 387px;
 }
 
 
+.ktbchng #titrp5 {
 
-
-.ktbchng p {
     padding-bottom: 3%;
 
     font-size: 1.3rem;
@@ -725,8 +732,8 @@ body {
 }
 .para-section{
     padding-bottom: 29px;
-    padding-left: 23%;
-    width: 681px;
+    padding-left: 6%;
+    width: 100%;
     text-align: left;
 }
 
@@ -1079,7 +1086,7 @@ ul {
 }
 .ktbchng .row{
     margin-top: 3%;
-    border: 1px solid #347EFF !important;
+    background-color: white;
     border-radius: 20px;
 
 
