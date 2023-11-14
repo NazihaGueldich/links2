@@ -402,6 +402,10 @@
     .wrap-trips-routes-infos .top-long-description {
         margin-bottom: 35px;
     }
+    #page-subpage #section5 #imgsess1 {
+        height: 235px;
+        margin-top: 0;
+    }
 }
 
 /* section 6 */
