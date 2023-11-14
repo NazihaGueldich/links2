@@ -4,91 +4,100 @@ $('.list-culinary-card').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
     ]
-  });
+});
 
-  $('.list-museums-card').slick({
+$('.list-museums-card').slick({
     infinite: true,
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
-      responsive: [
-          {
-              breakpoint: 480,
-              settings: {
-                  arrows: false,
-                  dots: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-              }
-          }
-      ]
-  });
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});
 
-  $('.list-souvenir-card').slick({
+$('.list-souvenir-card').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
     ]
-  });
+});
 
-  $('.wrap-nav-transportation .nav-tabs li').on('click', function(){
+$('.wrap-nav-transportation .nav-tabs li').on('click', function () {
     $('.wrap-nav-transportation .nav-tabs li').removeClass('active');
     $(this).addClass('active');
-  });
+});
+
+//dropdown show
+var dropdown = document.getElementById('dropdownMenuButton');
+
+dropdown.onclick = function () {
+  var dropdownMenu = document.querySelector('.dropdown-menu');
+    var hasShowClass = dropdownMenu.classList.contains('show');
+    if (hasShowClass) {
+        dropdownMenu.classList.remove('show');
+    } else {
+        dropdownMenu.classList.add('show');
+    }
+};

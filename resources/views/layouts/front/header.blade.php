@@ -36,7 +36,7 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             보다 더
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="/sub-page">추천일정</a>
                             <a class="dropdown-item" href="/blog-page">뉴스레터</a>
                             <a class="dropdown-item" href="/partners">파트너</a>                           
