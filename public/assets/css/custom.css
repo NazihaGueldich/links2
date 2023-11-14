@@ -91,7 +91,7 @@ ul {
 .icone-date:before {
     content: "";
     position: absolute;
-    background: url("../img/calendar.svg") no-repeat center/contain;
+    background: url("../img/calendar.png") no-repeat center/contain;
     width: 22px;
     height: 22px;
     left: -30px;
@@ -106,7 +106,7 @@ ul {
 .icone-place:before {
     content: "";
     position: absolute;
-    background: url("../img/icone_place.svg") no-repeat center/contain;
+    background: url("../img/icone_place.png") no-repeat center/contain;
     width: 22px;
     height: 22px;
     left: -30px;
@@ -552,7 +552,7 @@ body .wrap-festival-card .custom-card .custom-card-title {
 body .wrap-festival-card .custom-card .custom-card-text {
     position: absolute;
     right: 33px;
-    top: 57%;
+    top: 60%;
     font-size: 1rem;
     line-height: 2.15;
 }
