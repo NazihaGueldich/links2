@@ -255,8 +255,8 @@
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
                 </p>
             </div>
-            <div class="mt-5 d-flex flex-column  align-items-center button1">
-                <div class="col-10 d-flex justify-content-evenly button1 align-items-center">
+            <div class="mt-5 d-flex flex-column  align-items-center ">
+                <div class=" buttons ">
                     <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
@@ -277,7 +277,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 ">
-                            <img src="{{ asset('images/arabe-langue.png') }}" style="object-fit: contain;width: 59%;"
+                            <img src="{{ asset('images/arabe-langue.png') }}" 
                                 id="img-langue">
                         </div>
                     </div>

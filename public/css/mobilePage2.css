@@ -1,616 +1,658 @@
     @media all and (max-width: 767px) {
-    body {
-        width: 100% !important;
-        overflow-x: hidden !important;
-    }
-    body.tunisiatrip .card-body {
-        padding: 0px;
-    }
-    main {
-        margin-top: 35px;
-    }
-
-
-    #section-1 .links_box {
-        margin-bottom: 30px;
-        height: 400px;
-    }
-    #section-6 .parghraphe1 {
-        width: 100%;
-    }
-
-    body section .slick-slide {
-        display: block !important;
-    }
-
-    section .block-cards {
-        display: none !important;
-    }
-
-    body .main-title {
-        font-size: 1.3rem;
-        text-align: center;
-    }
-
-    body section {
-        padding:34px 0;
-    }
-
-
-    #section-5 .ligne-separtion {
-        display: none;
-    }
-
-    #section-6 .ligne-separtion4 ,#section-8 .ligne-separtion{
-        width: 6%;
-    }
-
-    #section-6 .ligne-separtion {
-        width: 30%;
-    }
-
-
-    body #section-3 {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    body #section-9 {
-        padding: 50px 0;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .para-section{
-        padding: 0px 3px 31px 6px;
-
-        width: 98%;
-    }
-    #section-5 .parghraphe {
-        font-size: 1rem;
-    }
-
-    .parghraphe1 {
-        text-align: left;
-        font-size: 1rem;
-    }.img2-section3 {
-    text-align: left;
-    padding: 0;
-    height: 33%;
-    }
-    .img1-section3 {
-        display: block;
-        height: 49px;
-        margin: auto;
-        padding-bottom: 1%;
-    }
-    .img3-section3 {
-        display: block;
-        height: 56px;
-        margin: auto;
-
-    }
-    .navbar {
-        height: 59px;
-        padding: 0 !important;
-    }
-    #scrllp{
-        height: 240px;
-    }
-
-    .navbar-expand-lg .container,
-    .navbar-expand-lg .container-fluid,
-    .navbar-expand-lg .container-lg,
-    .navbar-expand-lg .container-md,
-    .navbar-expand-lg .container-sm,
-    .navbar-expand-lg .container-xl {
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-
-    .icon {
-        display: none;
-    }
-
-    .texte1 {
-        display: none;
-    }
-
-    .texte2 {
-        font-size: 89%;
-        height: 155%;
-        display: flex;
-        flex-direction: row;
-        width: 146%;
-        font-weight: 900;
-    }
-
-
-    .texte2 .col-lg-7,
-    .texte2 .col-lg-5 {
-        flex: 1;
-        width: auto;
-    }
-
-    .col-lg-5 span {
-        font-family: 'noto';
-        width: 50% !important;
-        font-size: 74%;
-        text-align: center;
-    }
-
-    .scroll-container {
-        overflow-x: scroll;
-    }
-
-    .img1 {
-        object-fit: cover;
-        margin-top: 1%;
-        width: 496px;
-        height: 312px;
-        border-radius: 20px;
-
-    }
-
-    .titr3 {
-        margin: 0 auto;
-        font-family: 'noto';
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 52px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #FD4343;
-        transition: all .5s;
-
-    }
-
-    .titr5 {
-        margin-top: 5%;
-        font-family: 'noto';
-        font-size: 35px;
-        font-weight: 700;
-        line-height: 52px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
-
-    .prt7hov {
-        min-width: 270px;
-        margin-right: .5rem !important;
-        margin-left: .5rem !important;
-    }
-
-    .card:hover .titr3 {
-        font-family: 'noto';
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
-
-    .img3 {
-        height: 163px;
-        object-fit: contain;
-    }
-
-    .pg3 {
-        font-family: 'noto';
-        font-size: 12px;
-        font-weight: 400;
-        letter-spacing: 0em;
-        text-align: start;
-    }
-
-    .footer-column {
-        display: none;
-        background-color: white;
-    }
-    .variable-width .row {
-        flex-direction: column;
-    }
-
-    .gg {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 1.25rem  !important;
-      }
-
-    .p2prt7 {
-        font-family: 'noto';
-        font-size: 1.10rem;
-        font-weight: 700;
-        line-height: 35px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: black;
-        bottom: 0;
-        position: absolute;
-    }
-
-    #h4prt6 {
-        font-size: 1.10rem;
-    }
-
-
-    .img2 {
-
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .titr2 {
-        position: absolute;
-        top: 26%;
-        left: 64%;
-        transform: translate(-50%, -50%);
-    }
-
-    .col-lg-8 .titr1 {
-        display: block;
-        margin-top: 0;
-    }
-
-    #logimg {
-        margin-left:26%;
-        display: block;
-
-    }
-    #logtitre {
-        margin-left: 5%;
-
-    }
-    .sccgrp{
-
-        padding: 1rem!important;
-    }
-    #myTopnav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-    }
-
-    #logimg {
-        margin-left:6%;
-        margin-top: 8%;
-        display: block;
-
-    }
-
-    #toggleButton {
-        margin-top: 2%;
-        position: fixed;
-        top: 0;
-        margin-right: 4%;
-        right: 0;
-        z-index: 999;
-    }
-
-    .navbar-nav {
-        margin-top: 16%;
-    }
-
-
-    #tunis-time {
-        margin-left: 2%;
-    }
-
-  dl, ol, ul {
-        padding-left: 0;
-        text-align: left;
-        margin-top: 0;
-        margin-bottom: 1rem;
-    }
-    .justify-content-center {
-        width: 100%;
-        justify-content: center ;
-    }
-.image-1{
-    padding-bottom: 15px;
-    text-align: center !important;
-}
-.image-2{
-    padding-bottom: 15px;
-    text-align: center !important;
-}
-.image-3{
-    text-align: center !important;
-}
-
-
-
-
-    .navbar-toggled .nav-item {
-        margin-left: -4%;
-        text-align: center;
-        background-color: white;
-        width: 125%;
-        padding-left: 6%;
-        padding-top: 5px;
-        padding-bottom: 12px;
-    }
-
-    .prt3p {
-        margin: 0 auto;
-        font-weight: 500;
-        font-family: 'noto';
-        font-size: 16px;
-        text-align: center;
-        margin-top: 0%;
-    }
+        body {
+            width: 100% !important;
+            overflow-x: hidden !important;
+        }
+
+        body.tunisiatrip .card-body {
+            padding: 0px;
+        }
+
+        main {
+            margin-top: 35px;
+        }
+
+        #img-langue {
+            height: 177px;
+        }
+
+
+        #section-1 .links_box {
+            margin-bottom: 30px;
+            height: 400px;
+        }
+
+        #section-6 .parghraphe1 {
+            width: 100%;
+        }
+
+        body section .slick-slide {
+            display: block !important;
+        }
+
+        section .block-cards {
+            display: none !important;
+        }
+
+        body .main-title {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        body section {
+            padding: 34px 0;
+        }
+
+
+        #section-5 .ligne-separtion {
+            display: none;
+        }
+
+        #section-6 .ligne-separtion4,
+        #section-8 .ligne-separtion {
+            width: 6%;
+        }
+
+        #section-6 .ligne-separtion {
+            width: 30%;
+        }
+
+
+        body #section-3 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        body #section-9 {
+            padding: 50px 0;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .para-section {
+            padding: 0px 10px 31px 10px;
+
+            width: 100%;
+        }
+
+        #section-5 .parghraphe {
+            font-size: 1rem;
+        }
+
+        .parghraphe1 {
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .img2-section3 {
+            text-align: left;
+            padding: 0;
+            height: 33%;
+        }
+
+        .img1-section3 {
+            display: block;
+            height: 49px;
+            margin: auto;
+            padding-bottom: 1%;
+        }
+
+        .img3-section3 {
+            display: block;
+            height: 56px;
+            margin: auto;
+
+        }
+
+        .navbar {
+            height: 59px;
+            padding: 0 !important;
+        }
+
+        #scrllp {
+            height: 240px;
+        }
+
+        .navbar-expand-lg .container,
+        .navbar-expand-lg .container-fluid,
+        .navbar-expand-lg .container-lg,
+        .navbar-expand-lg .container-md,
+        .navbar-expand-lg .container-sm,
+        .navbar-expand-lg .container-xl {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        .texte1 {
+            display: none;
+        }
+
+        .texte2 {
+            font-size: 89%;
+            height: 155%;
+            display: flex;
+            flex-direction: row;
+            width: 146%;
+            font-weight: 900;
+        }
+
+
+        .texte2 .col-lg-7,
+        .texte2 .col-lg-5 {
+            flex: 1;
+            width: auto;
+        }
+
+        .col-lg-5 span {
+            font-family: 'noto';
+            width: 50% !important;
+            font-size: 74%;
+            text-align: center;
+        }
+
+        .scroll-container {
+            overflow-x: scroll;
+        }
+
+        .img1 {
+            object-fit: cover;
+            margin-top: 1%;
+            width: 496px;
+            height: 312px;
+            border-radius: 20px;
+
+        }
+
+        .titr3 {
+            margin: 0 auto;
+            font-family: 'noto';
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FD4343;
+            transition: all .5s;
+
+        }
+
+        .titr5 {
+            margin-top: 5%;
+            font-family: 'noto';
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .prt7hov {
+            min-width: 270px;
+            margin-right: .5rem !important;
+            margin-left: .5rem !important;
+        }
+
+        .card:hover .titr3 {
+            font-family: 'noto';
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .img3 {
+            height: 163px;
+            object-fit: contain;
+        }
+
+        .pg3 {
+            font-family: 'noto';
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: start;
+        }
+
+        .footer-column {
+            display: none;
+            background-color: white;
+        }
+
+        .variable-width .row {
+            flex-direction: column;
+        }
+
+        .gg {
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 1.25rem !important;
+        }
+
+        .p2prt7 {
+            font-family: 'noto';
+            font-size: 1.10rem;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: black;
+            bottom: 0;
+            position: absolute;
+        }
+
+        #h4prt6 {
+            font-size: 1.10rem;
+        }
+
+
+        .img2 {
+
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .titr2 {
+            position: absolute;
+            top: 26%;
+            left: 64%;
+            transform: translate(-50%, -50%);
+        }
+
+        .col-lg-8 .titr1 {
+            display: block;
+            margin-top: 0;
+        }
+
+        #logimg {
+            margin-left: 26%;
+            display: block;
+
+        }
+
+        #logtitre {
+            margin-left: 5%;
+
+        }
+
+        .sccgrp {
+
+            padding: 1rem !important;
+        }
+
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        #logimg {
+            margin-left: 6%;
+            margin-top: 8%;
+            display: block;
+
+        }
+
+        #toggleButton {
+            margin-top: 2%;
+            position: fixed;
+            top: 0;
+            margin-right: 4%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-nav {
+            margin-top: 16%;
+        }
+
+
+        #tunis-time {
+            margin-left: 2%;
+        }
+
+        dl,
+        ol,
+        ul {
+            padding-left: 0;
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .justify-content-center {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .image-1 {
+            padding-bottom: 15px;
+            text-align: center !important;
+        }
+
+        .image-2 {
+            padding-bottom: 15px;
+            text-align: center !important;
+        }
+
+        .image-3 {
+            text-align: center !important;
+        }
+
+
+
+
+        .navbar-toggled .nav-item {
+            margin-left: -4%;
+            text-align: center;
+            background-color: white;
+            width: 125%;
+            padding-left: 6%;
+            padding-top: 5px;
+            padding-bottom: 12px;
+        }
+
+        .prt3p {
+            margin: 0 auto;
+            font-weight: 500;
+            font-family: 'noto';
+            font-size: 16px;
+            text-align: center;
+            margin-top: 0%;
+        }
+
+
+        .titr1 {
+            font-family: 'noto';
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 58px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FD4343;
+        }
+
+        .titre-2,
+        .titre-1 {
+            font-size: 1.10rem;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: black;
+            transition: all .5s;
+        }
+
+
+        .ttcard {
+            /* display: flex; */
+            overflow-x: scroll;
+            width: 100%;
+            margin-top: 10px;
+            margin-top: 12%;
+            width: 103%;
+        }
+
+
+
+        .card {
+            height: 200px;
+        }
+
+        .lignesfrk {
+            display: none;
+        }
+
+
+
+        .titr4 {
+            margin-top: 90%;
+            font-family: 'noto';
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: none;
+        }
+
+        .buttons{
+            padding-right: 0;
+            padding-left: 0;
+            width: 100%;
+        }
+
+        .btninactv,
+        .btnactv,
+        .btninactv,
+        .btninactv {
+
+            padding: 0;
+            width: 100%;
+            font-size: 0.8rem;
+
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .btnactv {
+
+            padding: 0px 10px !important;
+
+        }
+
+        .ktbchng #titrp5 {
+
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        body #section-10 .slick-block-section-10 {
+            display: none !important;
+        }
+
+        body #section-10 .slick-section-10 {
+            display: block;
+        }
+
+        #section-8 .parghraphe {
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .ktbchng .row {
+
+            height: auto;
+        }
+
+        .ktbchng span {
+            font-size: 1rem;
+            font-weight: 600;
+            font-weight: 500;
+            text-align: center;
+
+        }
+
+        #section-3 .links_box {
+            padding: 0 0 30px 0;
+        }
+
+        .crd6 {
+
+            margin-top: 10%;
+        }
+
+        .crd66 {
+            display: flex;
+            flex-direction: row;
+            overflow-x: auto;
+        }
+
+        .col-lg-6 {
+            flex: 0 0 auto;
+        }
+
+        .col-lg-6.d-flex {
+            flex: 0 0 auto;
+        }
+
+        .img4 {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        .col-lg-6.d-flex {
+            margin-top: 0px;
+        }
+
+        #pprt6 {
+            font-size: 1rem;
+            font-weight: 500;
+
+        }
+
+        .img6 {
+            width: 413.17px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        #section-1 .one-time-slide {
+            margin-bottom: 50px;
+        }
+
+        #txtindx {
+            font-family: noto;
+            font-size: 22px;
+            font-weight: 900;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #C4C2D4;
+            margin-top: 0;
+            margin-left: 20px;
+        }
+
+        .images-container {
+
+            justify-content: flex-start;
+        }
+
+        .card21 {
+            overflow-x: auto;
+        }
+
+        #section-10 .ligne-separtion {
+            width: 20%;
+        }
+
+
+        .crd81 {
+            width: 100%;
+            height: auto;
+            transform-origin: 60% 50%;
+            display: block;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .p1prt7 {
+            font-family: 'noto';
+            font-size: 16px;
+            font-weight: 400;
+
+        }
+
+        .card2 {
+            overflow-x: scroll;
+
+
+        }
+
+        .p1prt8 {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+
+
+
+
+        .prt8hov {
+            min-width: 270px;
+            margin-right: .5rem !important;
+            margin-left: .5rem !important;
+        }
+
+
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .titr {
+            font-size: 32px;
+            font-weight: bold;
+            color: #FD4343;
+            color: #8C8C8C;
+            font-size: 12px;
+            width: 164px;
+
+        }
+
+        .pprt4 {
+            display: none;
+        }
+
+        .inx {
+            width: 50%;
+        }
+
+
+
+
+        #crcl1 {
+            width: 7%;
+
+        }
+
+        #crcl2 {
+            width: 7%;
+
+        }
+
+        .ktbchng {
+            height: 659px;
+            width: 100%;
+        }
+
+        #crcl3 {
+            width: 7%;
+
+        }
+
+        .section-8-prt1 img {
+            height: 294px;
+        }
+
+        .section-8-prt1 {
+            height: 316px;
+        }
+
+        .section-8-prt1-p {
+            height: 97px;
+        }
 
-
-    .titr1 {
-        font-family: 'noto';
-        font-size: 40px;
-        font-weight: 900;
-        line-height: 58px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #FD4343;
-    }
-
-    .titre-2,
-    .titre-1 {
-        font-size: 1.10rem;
-        line-height: 50px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: black;
-        transition: all .5s;
-    }
-
-
-    .ttcard {
-        /* display: flex; */
-        overflow-x: scroll;
-        width: 100%;
-        margin-top: 10px;
-        margin-top: 12%;
-        width: 103%;
-    }
-
-
-
-    .card {
-        height: 200px;
-    }
-
-    .lignesfrk {
-        display: none;
-    }
-
-
-
-    .titr4 {
-        margin-top: 90%;
-        font-family: 'noto';
-        font-size: 35px;
-        font-weight: 700;
-        line-height: 52px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
-.flex-container {
-display:none;
-}
-    .btninactv,
-    .btnactv,
-    .btninactv,
-    .btninactv {
-
-        padding: 0;
-        width: 100%;
-        font-size: 72%;
-
-        margin: 0 auto;
-        height: 100%;
-    }
-    .btnactv {
-
-        padding: 0px 10px !important;
-
-    }
-    .ktbchng #titrp5 {
-
-        font-size: 1.3rem;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    body #section-10 .slick-block-section-10 {
-        display: none !important;
-    }
-
-    body #section-10 .slick-section-10 {
-        display: block;
-    }
-
-    #section-8 .parghraphe {
-        font-size: 1rem;
-        width: 100%;
-    }
-
-.ktbchng .row{
-
-    height: auto;
-}
-    .ktbchng span {
-        font-size: 1rem;
-        font-weight: 600;
-        font-weight: 500;
-        text-align: center;
-
-    }
-
-    #section-3 .links_box {
-        padding: 0 0 30px 0;
-    }
-
-    .crd6 {
-
-        margin-top: 10%;
-    }
-
-    .crd66 {
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-    }
-
-    .col-lg-6 {
-        flex: 0 0 auto;
-    }
-
-    .col-lg-6.d-flex {
-        flex: 0 0 auto;
-    }
-
-    .img4 {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
-
-    .col-lg-6.d-flex {
-        margin-top: 15px;
-    }
-
-    #pprt6 {
-        font-size: 1rem;
-        font-weight: 500;
-
-    }
-    .img6 {
-        width: 413.17px;
-        height: auto;
-        object-fit: cover;
-        border-radius: 20px;
-    }
-
-    #section-1 .one-time-slide{
-        margin-bottom: 50px;
-    }
-
-    #txtindx {
-        font-family: noto;
-        font-size: 22px;
-        font-weight: 900;
-        line-height: 46px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #C4C2D4;
-        margin-top: 0;
-        margin-left: 20px;
-    }
-
-    .images-container {
-
-        justify-content: flex-start;
-    }
-
-    .card21 {
-        overflow-x: auto;
-    }
-
-    #section-10 .ligne-separtion {
-       width: 20%;
-    }
-
-
-    .crd81 {
-        width: 100%;
-        height: auto;
-        transform-origin: 60% 50%;
-        display: block;
-        overflow: hidden;
-        border-radius: 20px;
-    }
-
-    .p1prt7 {
-        font-family: 'noto';
-        font-size: 16px;
-        font-weight: 400;
-
-    }
-
-    .card2 {
-        overflow-x: scroll;
-
-
-    }
-
-    .p1prt8 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-
-
-
-
-    .prt8hov {
-        min-width: 270px;
-        margin-right: .5rem !important;
-        margin-left: .5rem !important;
-    }
-
-
-    .scroll-container {
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    .titr {
-        font-size: 32px;
-        font-weight: bold;
-        color: #FD4343;
-        color: #8C8C8C;
-        font-size: 12px;
-        width: 164px;
-
-    }
-
-    .pprt4 {
-        display: none;
-    }
-
-    .inx {
-        width: 50%;
-    }
-
-
-
-
-    #crcl1 {
-        width: 7%;
-
-    }
-
-    #crcl2 {
-        width: 7%;
-
-    }
-    .ktbchng {
-        height: 659px;
-    }
-    #crcl3 {
-        width: 7%;
-
-    }
-
-    .section-8-prt1 img {
-        height: 294px;
     }
-    .section-8-prt1 {
-        height: 316px;
-    }
-
-    .section-8-prt1-p{
-        height: 97px;
-    }
-
-}
