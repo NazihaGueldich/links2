@@ -499,7 +499,7 @@
             <p class="text-center">튀니지 내 필수 방문도시들과 경로를 확인해보세요.</p>
             <div class="wrap-trips-routes">
                 <div class="img-container" style="display: inline-block; position: relative;">
-                    <img src="{{ asset('images/trips-routes/map-tour1.jpg') }}" alt="trips-routes" width="596" height="842">
+                    <img src="{{ asset('images/trips-routes/map-tour1.svg') }}" alt="trips-routes" width="596" height="842">
                     <div class="wrap-single-zone zone-tunis" style="left: 57.07%; top: 17.58%;" href='tunis-zone'>
                         @include('pages.zones.tunis-zone')
                     </div>
