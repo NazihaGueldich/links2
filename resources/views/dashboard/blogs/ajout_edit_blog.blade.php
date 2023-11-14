@@ -25,6 +25,12 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Titer</label>
+                <div class="col-sm-10">
+                    <input  type="text" class="form-control" id="titer" name="titer" value="{{ $action === 'Modifier' ? $blog->titer : 'ajouter un titre' }}">
+                </div>
+            </div>
+            <div class="form-group row">
                 <label for="colFormLabel" class="col-sm-2 col-form-label">Texte</label>
                 <div class="col-sm-10">
                     <textarea type="text" class="form-control" id="texte" name="texte"  rows="3">

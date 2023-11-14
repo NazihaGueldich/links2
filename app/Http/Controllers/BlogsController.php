@@ -13,9 +13,7 @@ class BlogsController extends Controller
         return view("dashboard.blogs.blogs",compact('blogs'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
+   
     public function create()
     {
         $action='Ajouter';
@@ -38,10 +36,6 @@ class BlogsController extends Controller
     }
 
     
-    public function show(Blogs $blogs)
-    {
-        //
-    }
 
     
     public function edit($id)
@@ -67,9 +61,7 @@ class BlogsController extends Controller
         return redirect()->route('blogs.index'); 
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
+    
     public function destroy($id)
     {
         $blog=Blogs::find($id);

@@ -13,6 +13,7 @@
                     <thead>
                         <tr>
                             <th>Image</th>
+                            <th>Titre</th>
                             <th>Texte</th>
                             <th>Actions</th>
                         </tr>
@@ -24,6 +25,7 @@
                                     <img src="{{ asset('images') }}/{{ $blog->image }}" alt="Pas de photo"
                                         class="image-blog" width="100" height="100">
                                 </td>
+                                <td>{{ $blog->titer }}</td>
                                 <td>{{ $blog->texte }}</td>
                                 <td>
                                     <a type="button" class="btn btn-warning"
