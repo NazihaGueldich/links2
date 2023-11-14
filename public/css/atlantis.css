@@ -9,15 +9,22 @@ body.tunisiatrip {
 
 @media (max-width: 767px) {
     .section-1 {
+        padding:0px 0;
+    }
+}
 
-        margin-top:0px;
-        padding:0px;
+@media (max-width: 767px) {
+    .city-top {
+        padding-top: 5px;
+        padding: 0px;
     }
 }
 .radius-20 {
     border-radius: 20px;
 }
-
+.city-top{
+    padding-top: 5px;
+}
 body p {
     font-size: 1rem;
 }
