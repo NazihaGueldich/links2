@@ -276,6 +276,34 @@
 }
 
 /* section 5 */
+#page-subpage #section5 .one-time-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#page-subpage #section5 .one-time-slide img{
+    cursor: pointer;
+    border-radius: 20px !important;
+    height: 97%;
+}
+#page-subpage #section5 .sess1direct img {
+    margin-right: 10px;
+}
+#page-subpage #section5 .sess1direct{
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#page-subpage #section5 #imgsess1{
+    border-radius: 20px;
+    border: 1px solid #347EFF;
+    width: 100%;
+    height: 508px;
+    margin-top: 50px;
+}
+
+
 .wrap-trips-routes {
     display: flex;
     gap: 50px;
@@ -333,7 +361,6 @@
 .wrap-trips-routes-infos .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
 }
 
@@ -345,17 +372,8 @@
     margin-right: 10px;
 }
 
-.wrap-trips-routes-infos .bottom-long-description .wrap-img-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-}
 
-.wrap-trips-routes-infos .bottom-long-description img {
-    border-radius: 10px;
-    border: 1px solid #347EFF;
-}
+
 
 .tag-info {
     border: 1px solid #B5D0FF;
@@ -383,10 +401,6 @@
     }
     .wrap-trips-routes-infos .top-long-description {
         margin-bottom: 35px;
-    }
-    .wrap-trips-routes-infos .bottom-long-description .wrap-img-section {
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
 
