@@ -481,9 +481,10 @@
                                 placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group text-right mt-lg-4 button-formulaire">
-                            <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
-                                onclick="viderchapm()">취소</button>
+                          
                             <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
+                            <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
+                            onclick="viderchapm()">취소</button>
                         </div>
                     </form>
                 </div>
