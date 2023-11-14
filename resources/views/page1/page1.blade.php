@@ -461,8 +461,6 @@
                         <p><strong>이메일:</strong> atlantis@atlantis.tn</p>
                         <p><strong>연락처:</strong> +216 52 924 322</p>
                     </div>
-                    <div class="form-group text-right mt-lg-4 button-formulaire">
-                    </div>
                 </div>
 
                 <div class="col-md-6 m-lg-0 pl-lg-3 form-mobil">
