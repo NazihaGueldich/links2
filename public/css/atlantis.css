@@ -39,6 +39,7 @@ body p {
     font-size: 1.3rem;
     font-weight: 700;
     margin: 5px 0 20px 0;
+    font-weight: 700;
 }
 
 .sub-sub-title {
@@ -106,8 +107,8 @@ body p {
     height: auto;
     width:150px;
 }
-.btn.btn-outline-primary.btn-main:hover {
-    color: #ffffff;
+body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:active{
+    color: #ffffff ;
     background-color: #347EFF;
 }
 
@@ -266,6 +267,7 @@ body#page-atlantis .sub-title {
     font-weight: 700;
     margin: 0px 0 0px 0;
     text-align: center;
+    font-weight: 700;
 }
 
 /* section 3 */

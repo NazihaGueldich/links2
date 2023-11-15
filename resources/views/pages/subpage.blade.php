@@ -319,7 +319,7 @@
             <div class=" mt-5 section4-part2 section4-part2-web">
                 <div class="row">
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 1</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 1</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 5</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 5</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -339,7 +339,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 2</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 2</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -349,7 +349,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 6</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 6</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -359,7 +359,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 3</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 3</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -369,7 +369,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 7</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 7</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -379,7 +379,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 4</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 4</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -389,7 +389,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex h-100">
-                        <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 8</button>
+                        <button type="button" class="btn btn-outline-primary  radius-20 btnday ">DAY 8</button>
                         <div class='sect4crd ml-lg-3 w-100'>
                             <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                             <div class="pl-lg-3">
@@ -404,7 +404,7 @@
                 <div class="slick-section4">
                     <div class="row">
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 1</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 1</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -414,7 +414,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 2</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 2</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -424,7 +424,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 3</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 3</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -434,7 +434,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 4</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 4</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -446,7 +446,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 5</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 5</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -456,7 +456,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 6</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 6</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -466,7 +466,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 7</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 7</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">
@@ -476,7 +476,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex h-100">
-                            <button type="button" class="btn btn-outline-primary  radius-20 ">DAY 8</button>
+                            <button type="button" class="btn btn-outline-primary  radius-20 btnday">DAY 8</button>
                             <div class='sect4crd ml-lg-3 w-100'>
                                 <img src="{{ asset('images/RectangleSect4.png') }}" alt="Rectangle" class="h-100">
                                 <div class="pl-lg-3">

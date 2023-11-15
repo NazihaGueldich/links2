@@ -300,7 +300,7 @@
             <div class=" scroll-container w-100">
                 <div class="d-flex gap-20 mt-4">
                     <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
+                        <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1" alt='Sidi Bou Saïd'
                             {{-- onclick="changeImage1()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p " id='crd2h1'>튀니스</span>
@@ -316,7 +316,7 @@
                     </div>
 
                     <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
+                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2" alt="Sahara"
                             {{-- onclick="changeImage2()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p2" id='crd2h2'>두즈</span>
@@ -329,7 +329,7 @@
                     </div>
 
                     <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3"
+                        <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3" 
                             alt='The Great Mosque of Kairouan' {{-- onclick="changeImage3()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p3" id='crd2h3'>카이루안</span>
@@ -371,8 +371,8 @@
                         <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center BG">
-                                    <img id="imgwj1" src="{{ asset('images/BG (3).png') }}">
-                                    <img id="imgwj12" src="{{ asset('images/imgwj1.png') }}">
+                                    <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'>
+                                    <img id="imgwj12" src="{{ asset('images/imgwj1.png') }}" alt='girl'>
                                 </div>
                                 <div class="col-md-10">
                                     <div class="card-body d-flex flex-column justify-content-center textecard">
@@ -389,9 +389,9 @@
                         <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <img id="imgwj1" src="{{ asset('images/BG (2).png') }}"
+                                    <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
                                         style="width: 91.88px; height: 91.88px;">
-                                    <img id="imgwj12" src="{{ asset('images/imgwj2.png') }}">
+                                    <img id="imgwj12" src="{{ asset('images/imgwj2.png') }}" alt='boy'>
                                 </div>
                                 <div class="col-md-10">
                                     <div class="card-body d-flex flex-column justify-content-center textecard2">
@@ -409,9 +409,9 @@
                         <div class="card mx-auto justify-content-center">
                             <div class="row no-gutters">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}"
+                                    <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
                                         style="width: 91.88px; height: 91.88px;">
-                                    <img id="imgwj12" src="{{ asset('images/imgwj3.png') }}"
+                                    <img id="imgwj12" src="{{ asset('images/imgwj3.png') }}" alt="homme"
                                         style="width: 115px; height: 125px;">
                                 </div>
                                 <div class="col-md-10">
@@ -436,7 +436,7 @@
         <div class="container" style="display: flex; align-items: center; justify-content: space-around;">
             <div class="divundf">
                 <span class="textbas">여기에 더 많은 의견</span>
-                <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}">
+                <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}" alt="faces">
             </div>
             <hr class="lignes" style="margin: 10px;">
             <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
@@ -454,7 +454,7 @@
                         <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
                     </div>
                     <div class="img-Contact">
-                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}">
+                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}" alt="Atlantis logo">
                     </div>
                     <div class="PContact">
                         <p><strong>주소:</strong> Tunis, Japan St, Imm Fatma</p>
@@ -480,9 +480,10 @@
                         </div>
                         <div class="form-group text-right mt-lg-4 button-formulaire">
                           
-                            <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
                             <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
                             onclick="viderchapm()">취소</button>
+                            <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
+
                         </div>
                     </form>
                 </div>
@@ -533,17 +534,17 @@
                                 <h5 id='tit44' class="tit2inactv">1번째 대학</h5>
                             </a></li>
                     </ul>
-                    <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg">
+                    <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg" alt="Peoples">
                     <p id="txt1" class="txtactv"> 튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로 이루어져있어요. 이 중
                         이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
-                    <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg">
+                    <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg" alt='Touriste'>
                     <p id="txt2" class="txtinactv">2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다. 아름다운 지중해 해안,
                         역사적 유산 및 다양한 명소로 전 세계의 방문객들을 끌어들이고 있습니다.</p>
-                    <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg">
+                    <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg" alt="Historique">
                     <p id="txt3" class="txtinactv">튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의 카르타고부터 로마 시대
                         유적까지, 다양한 문화와 역동적인 역사를 자랑하는 매력적인 관광지로 알려져 있습니다.</p>
 
-                    <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg">
+                    <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg" alt="Books">
                     <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적
                         발전에 대한 헌신을 보여줍니다.</p>
                 </div>

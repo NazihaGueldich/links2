@@ -2,8 +2,7 @@
     <div class="container justify-content-between">
         <div id="myTopnav">
             <a href="/">
-                <img id="logimg" src="{{ asset('images/LogoProk.svg') }}">
-
+                <img id="logimg" src="{{ asset('images/LogoProk.svg') }}" alt='Tunisia Trip'>
             </a>
         </div>
 
@@ -15,7 +14,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav" style="height:33px">
                 <li class="nav-item active d-flex align-items-center li1" id="tun-time">
-                    <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns'>
+                    <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns' alt="Tunisia">
                     <span class="nav-link" href="#" id="tunis-time"></span>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
@@ -48,7 +47,7 @@
                     <div class="position-relative">
                         <input type="text" class="input-search" style="border-radius:8px">
                         <i class="icon-search">
-                            <img src="{{ asset('images/search.svg') }}">
+                            <img src="{{ asset('images/search.svg') }}" alt="Search">
                         </i>
                     </div>
                 </li>

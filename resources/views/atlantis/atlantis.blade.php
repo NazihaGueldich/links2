@@ -53,10 +53,10 @@
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
-                            <img src="{{ asset('images/Atlantis_logo_temporary.png') }}" class="w-100 mr-3"
+                            <img src="{{ asset('images/Atlantis_logo_temporary.png') }}" class="w-100 mr-3" alt="Atlantis Logo"
                                 style="max-width: 150px;">
                             <div class="separator"></div>
-                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
+                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3" alt="CWT"
                                 style="max-width: 130px;">
                         </div>
 
@@ -79,13 +79,13 @@
                             튀니지 곳곳을 탐험해 보시는 건 어떨까요?</p>
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/Atlantis-Space.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb">
+                        <img src="{{ asset('images/Atlantis-Space.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess1kb" alt="Atlantis Space">
                         <div class="dirct" style="display: block">
-                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)">
-                            <img id='crclsess1' src="{{ asset('images/pt.png') }}">
-                            <img id='crclsess2' src="{{ asset('images/crcl.png') }}">
-                            <img id='crclsess3' src="{{ asset('images/crcl.png') }}">
-                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess1(1)">
+                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)" alt="Arrow Left">
+                            <img id='crclsess1' src="{{ asset('images/pt.png') }}" alt="Point">
+                            <img id='crclsess2' src="{{ asset('images/crcl.png') }}" alt="Cercle">
+                            <img id='crclsess3' src="{{ asset('images/crcl.png') }}" alt="Cercle">
+                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess1(1)" alt="Arrow Right">
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                         <h2 class="sub-title">Kamel Lagha</h2>
                         <p>CEO of the agency</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2 "><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>Kamel@atlantis.tn</span>
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2" ><span>Kamel@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                         <h2 class="sub-title">Heidi Jung</h2>
                         <p>Korean department</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2">
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2">
                             <span>jh.heidi.j@gmail.com</span></div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                         <h2 class="sub-title">Meriem Zoghlami</h2>
                         <p>Executive management</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>atlantis@atlantis.tn</span>
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                         <h2 class="sub-title">Sonia Ben Amor</h2>
                         <p>Tiketing Department</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
-                                src="{{ asset('images/emil.png') }}"> <span>Sonia.Benamor@atlantis.tn</span></div>
+                                src="{{ asset('images/emil.png') }}" alt="Email"> <span>Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                         <h2 class="sub-title p-1">Kamel Lagha</h2>
                         <p class="p-1 mb-0">CEO of the agency</p>
                         <div class="d-flex align-items-center justify-content-center "><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2"><span
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2"><span
                                 id='crd1eml'>Kamel@atlantis.tn</span></div>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
                         <h2 class="sub-title p-1">Heidi Jung</h2>
                         <p class="p-1 mb-0">Korean department</p>
                         <div class="d-flex align-items-center justify-content-center "><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2">
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2">
                             <span>jh.heidi.j@gmail.com</span></div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
                         <h2 class="sub-title p-1">Meriem Zoghlami</h2>
                         <p class="p-1 mb-0">Executive management</p>
                         <div class="d-flex align-items-center justify-content-center"><img
-                                src="{{ asset('images/emil.png') }}" class="pr-2"><span>atlantis@atlantis.tn</span>
+                                src="{{ asset('images/emil.png') }}" alt="Email" class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                         <h2 class="sub-title p-1">Sonia Ben Amor</h2>
                         <p class="p-1 mb-0">Tiketing Department</p>
                         <div class="d-flex align-items-center justify-content-center "><img
-                                src="{{ asset('images/emil.png') }}"> <span>Sonia.Benamor@atlantis.tn</span></div>
+                                src="{{ asset('images/emil.png') }}" alt="Email"> <span>Sonia.Benamor@atlantis.tn</span></div>
                     </div>
                 </div>
             </div>
@@ -285,18 +285,18 @@
                         <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
                             alt="Four Seasons Tunis">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd1p">Tunis, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
@@ -305,18 +305,18 @@
                         <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
                             alt="Anantara Tozeur">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
@@ -325,18 +325,18 @@
                         <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
                             alt="Movenpick Sousse">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
@@ -345,18 +345,18 @@
                         <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}" class="img-fluid"
                             alt="The Residence Tunis">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
@@ -365,18 +365,18 @@
                         <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
                             alt="Le Kasbah Kairouan">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
@@ -384,18 +384,18 @@
                     <div class="mask-image">
                         <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
                             alt="Pansy KSAR Ghilene">
-                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd6p"> Douz, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
                 </div>
@@ -406,18 +406,18 @@
                         <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
                             alt="Four Seasons Tunis">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd1p">HAMMAMET, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
                 </div>
@@ -426,18 +426,18 @@
                         <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
                             alt="Anantara Tozeur">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd2p"> TOZEUR, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
                 </div>
@@ -446,18 +446,18 @@
                         <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
                             alt="Movenpick Sousse">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd3p"> SOUSSE, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
@@ -466,18 +466,18 @@
                         <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}" class="img-fluid"
                             alt="The Residence Tunis">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd4p"> TUNIS, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
                 </div>
@@ -486,18 +486,18 @@
                         <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
                             alt="Le Kasbah Kairouan">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd5p"> KAIROUAN, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
                 </div>
@@ -505,18 +505,18 @@
                     <div class="mask-image">
                         <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
                             alt="Pansy KSAR Ghilene">
-                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p id="sess5crd6p"> TUNIS, Tunisia</p>
                     </div>
                     <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
-                        <img src="{{ asset('images/review_Star.svg') }}" >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star' >
                     </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
                 </div>
@@ -551,10 +551,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
                             alt="Dar Ben Gacem">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p>Medina of Tunis</p>
                     </div>
 
@@ -566,10 +566,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
                             alt="Sidi bou said">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2" alt="">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2" alt="">
                         <p>Sidi bou said</p>
                     </div>
 
@@ -580,10 +580,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
                             alt="Dar ellamma">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
 
@@ -596,10 +596,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p>Medina of Tunis</p>
                     </div>
 
@@ -611,10 +611,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p>Sidi bou said</p>
                     </div>
 
@@ -625,10 +625,10 @@
                         <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
                             alt="Carthage">
                     </div>
-                    <img src="{{ asset('images/sess6crd1crcl.png') }}" class="cercle-img">
+                    <img src="{{ asset('images/sess6crd1crcl.png') }}"  alt='cercle blue' class="cercle-img">
                     <p class="text-img">링크</p>
                     <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" class="mr-2">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                         <p>Bizerte, tunisia</p>
                     </div>
 

@@ -391,7 +391,7 @@ body {
     padding: 3px;
 }
 
-.btn.btn-outline-primary.btn-main:hover {
+body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:active {
     color: #ffffff;
     background-color: #347EFF;
 }
@@ -454,7 +454,7 @@ body {
 
     margin: 0px 0 0px 0;
     text-align: left;
-
+    font-weight: 700;
 }
 
 .btn.btn-outline-primary.btn1-main2 {
@@ -1158,7 +1158,7 @@ body.tunisiatrip .card5 {
     box-shadow: none;
 }
 
-.btn.btn-outline-primary:not(:disabled):not(.disabled):active,
+#section-2 .btn.btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn.btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color: transparent;

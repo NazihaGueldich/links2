@@ -30,14 +30,14 @@
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
-                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;">
-                    <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;">
-                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;" alt="Kasr Il Jamm">
+                    <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;" alt="Ojja">
+                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;" alt="Sidi Bou Said">
                 </div>
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
-                    <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;">
-                    <img src="{{ asset('images/Group 63.png') }}" style="width: 93px; height: 62px;">
-                    <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;">
+                    <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;" alt="">
+                    <img src="{{ asset('images/Group 63.png') }}" style="width: 93px; height: 62px;" alt="">
+                    <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;" alt="">
                 </div>
             </div>
         </div>
@@ -47,17 +47,17 @@
     <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
         <div class="row">
             <div class="text-left col-lg-4 image-footer-1">
-                <img src="{{ asset('images/Rectangle2.svg') }}">
-                <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
-                <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
+                <img src="{{ asset('images/Rectangle2.svg') }}" alt="Tunisia Trip">
+                <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;" alt="Atlantis Voyage">
+                <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;" alt="Inspiring Tunisia">
             </div>
             <div class="col-lg-4 text-center image-footer-1">
                 <span>All rights reserved ©</span>
             </div>
             <div class="col-lg-4 text-right image-footer-1">
-                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook">
+                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme">
+                <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;" alt="Youtyoub">
             </div>
         </div>
     </div>

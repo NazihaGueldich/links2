@@ -1202,7 +1202,7 @@ ul {
     box-shadow: none;
 }
 
-.btn.btn-outline-primary.btn-main:hover {
+body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:active{
     color: #ffffff;
     background-color: #347EFF;
 }

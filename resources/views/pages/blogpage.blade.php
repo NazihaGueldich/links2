@@ -81,14 +81,14 @@
                     <div id='crd1'>
                         <p class="sub-title">Discover Tunisia</p>
                         <button class="btn">Play Video <img
-                                src="{{ asset('images/Arrow Right Blue.png') }}"></button>
+                                src="{{ asset('images/Arrow Right Blue.png') }}" alt="Arrow Right Blue"></button>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div id='crd2'>
                         <p class="sub-title">Korean Content Creator Visits Tunisia</p>
                         <button class="btn">Play Video <img
-                                src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                             <p> 특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어세계 최대의 모자이크 전시관으로 유명합니다.</p>
                             <div>
                                 <button class="btn">Play Video <img
-                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                        src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                             <p> 택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 지급 방식이 달라요..</p>
                             <div>
                                 <button class="btn">Play Video <img
-                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                        src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             <p>듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
                             <div>
                                 <button class="btn">Play Video <img
-                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                        src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                             <p>마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
                             <div>
                                 <button class="btn">Play Video <img
-                                        src="{{ asset('images/Arrow Right white.png') }}"></button>
+                                        src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
                     </div>

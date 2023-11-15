@@ -219,7 +219,7 @@
     #page-subpage #section4 #section4-part1 .section4-part1-part1 .sub-title {
         margin-bottom: 0;
         padding-bottom: 7%;
-
+        font-weight: 700;
     }
 }
 
@@ -274,6 +274,12 @@
         padding-top: 3%;
     }
 }
+
+#page-subpage #section4  .section4-part2  .btnday:active{
+    border: 1px solid #347EFF;
+    color: #347EFF;
+}
+
 
 /* section 5 */
 #page-subpage #section5 .one-time-slide{
