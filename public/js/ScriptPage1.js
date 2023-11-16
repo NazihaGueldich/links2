@@ -29,7 +29,7 @@ function handleClick(crd) {
             crd.style.backgroundImage = "url('../images/teste2.png')";
             img1 = 1;
         } else {
-            crd.style.backgroundImage = "url('../images/image 4.png')";
+            crd.style.backgroundImage = "url('../images/El-Jem.png')";
             img1 = 0;
         }
     } else {
