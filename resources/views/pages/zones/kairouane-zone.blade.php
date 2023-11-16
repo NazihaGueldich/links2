@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Kairouane Some descriptions</p>
+    <p>카이로우안</p>
     <ul>
-        <li>카이로우안</li>
         <li>4대 이슬람 성지</li>
         <li>그랜드 모스크</li>
         <li>카펫 수공예품</li>

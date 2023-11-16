@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>두즈</p>
     <ul>
-        <li>두즈</li>
         <li>사하라로 가는 관문</li>
         <li>낙타체험</li>
         <li>유목민 사막 문화</li>

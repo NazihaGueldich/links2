@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>엘젬</p>
     <ul>
-        <li>엘젬</li>
         <li>로마 원형경기장</li>
         <li>올리브 생산</li>
         <li>국제 교향악 페스티벌</li>

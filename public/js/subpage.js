@@ -83,12 +83,6 @@ $(document).ready(function(){
        let position = $(this);
        $('.wrap-trips-routes .wrap-single-zone').css('z-index', '2');
        position.css('z-index', '9');
-       setTimeout(function() {
-           position.css('color', '#fff');
-       }, 320)
-   }).on('mouseleave', function (){
-       let position = $(this);
-       position.css('color', 'transparent');
    });
 });
 // JavaScript pour afficher/masquer les descriptions lorsque le bouton est cliqué

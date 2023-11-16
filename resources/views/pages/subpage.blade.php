@@ -503,9 +503,9 @@
                     <div class="wrap-single-zone zone-tunis" style="left: 57.07%; top: 17.58%;" href='tunis-zone'>
                         @include('pages.zones.tunis-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kerkouane" style="left: 69.57%; top: 15.1%;" >
+                    <div class="wrap-single-zone zone-kerkouane" style="left: 40%;top: 56.1%;" >
                         <a href="#" title=""></a>
-                        @include('pages.zones.kerkouane-zone')
+                        @include('pages.zones.douz-zone')
                     </div>
                     <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 28.7%;" href='zone-sousse'>
                         @include('pages.zones.sousse-zone')
@@ -513,8 +513,8 @@
                     <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 30.7%;" href='zone-kairouane'>
                         @include('pages.zones.kairouane-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sufetela" style="left: 42.37%; top: 35.78%;" href='zone-sufetela'>
-                        @include('pages.zones.sufetela-zone')
+                    <div class="wrap-single-zone zone-sufetela" style="left: 43.55%; top: 20.78%;" href='zone-dogga'>
+                        @include('pages.zones.dogga-zone')
                     </div>
                     <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur'>
                         <a href="#" title="Tozeur"></a>
@@ -525,6 +525,12 @@
                     </div>
                     <div class="wrap-single-zone zone-djerba" style="left: 66.17%; top: 52.8%;" href='zone-djerba'>
                         @include('pages.zones.djerba-zone')
+                    </div>
+                    <div class="wrap-single-zone zone-eljem" style="left: 64.17%;top: 35%;" href='zone-eljem'>
+                        @include('pages.zones.eljem-zone')
+                    </div>
+                    <div class="wrap-single-zone zone-sfax" style="left: 64.17%;top: 41%;" href='zone-sfax'>
+                        @include('pages.zones.sfax-zone')
                     </div>
 
                 </div>

@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>튀니스</p>
     <ul>
-        <li>튀니스</li>
         <li>카르타고 유적지</li>
         <li>시디부사이드</li>
         <li>메디나 구시가지</li>

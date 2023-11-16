@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>마트마타</p>
     <ul>
-        <li>마트마타</li>
         <li>세계에서 가장 큰 지하마을</li>
         <li>동굴 가옥</li>
         <li>베르베르인들</li>

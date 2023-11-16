@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>ㅜ스팍스</p>
     <ul>
-        <li>ㅜ스팍스</li>
         <li>주요 상업 항구</li>
         <li>제2의 도시</li>
         <li>케르케나섬</li>

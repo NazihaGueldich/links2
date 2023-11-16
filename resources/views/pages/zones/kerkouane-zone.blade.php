@@ -1,9 +1,10 @@
 <div class="zone-note">
     <p>Some descriptions 2</p>
     <ul>
-        <li>2 Description 1</li>
-        <li>2 Description 2</li>
-        <li>2 Description 3</li>
+        <li>4대 이슬람 성지</li>
+        <li>그랜드 모스크</li>
+        <li>카펫 수공예품</li>
+        <li>유네스코 세계 문화유산</li>
     </ul>
 </div>
 

@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>토주르</p>
     <ul>
-        <li>토주르</li>
         <li>베르베르인의 도시</li>
         <li>오아시스 페스티벌</li>
         <li>쇼트 엘 제리드 소금호수</li>

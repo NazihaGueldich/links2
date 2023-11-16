@@ -334,9 +334,8 @@
     overflow: hidden;
     border-radius: 20px;
     transition: all .3s ease;
-    border: 2px solid #d3ee10;
+    border: 2px solid #347EFF;
     opacity: 1;
-    background: #494949b0;
     color: transparent;
     padding: 7px 10px;
     line-height: 1.15;
@@ -349,6 +348,8 @@
     height: 220px;
     overflow-y: auto;
     border-radius: 10px;
+    background: #ffffff;
+    color: #000000;
 }
 
 .zone-long-description {

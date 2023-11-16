@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Sousse descriptions</p>
+    <p>수스</p>
     <ul>
-        <li>수스</li>
         <li>휴양도시</li>
         <li>수스 메디나</li>
         <li>고고학 박물관</li>

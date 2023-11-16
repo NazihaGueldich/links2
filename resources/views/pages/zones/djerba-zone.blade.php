@@ -1,7 +1,6 @@
 <div class="zone-note">
-    <p>Some descriptions</p>
+    <p>제르바</p>
     <ul>
-        <li>제르바</li>
         <li>그림같은 마을</li>
         <li>종교적 다양성</li>
         <li>유대교 회당 엘 그리바</li>
