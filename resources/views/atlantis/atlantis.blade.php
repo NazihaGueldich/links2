@@ -53,11 +53,11 @@
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
-                            <img src="{{ asset('images/Atlantis_logo_temporary.png') }}" class="w-100 mr-3"
+                            <img src="{{ asset('images/Atlantis_logo_temporary.svg') }}" class="w-100 mr-3"
                                 alt="Atlantis Logo" style="max-width: 150px;">
                             <div class="separator"></div>
                             <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
-                                alt="CWT" style="max-width: 130px;">
+                                alt="CWT" style="max-width: 119px;">
                         </div>
 
 
