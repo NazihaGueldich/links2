@@ -335,7 +335,7 @@ body#page-atlantis .session6-slick-mobile {
 }
 
 #crcl1,
-#crcl1sess5 {
+#crcl1sess5,#PAcrcl1sess6 {
     width: 20px;
     background-image: url("../images/ptbl.svg");
     background-repeat: no-repeat;
@@ -346,7 +346,7 @@ body#page-atlantis .session6-slick-mobile {
 #crcl2,
 #crcl3,
 #crcl2sess5,
-#crcl3sess5 {
+#crcl3sess5 ,#PAcrcl2sess6,#PAcrcl3sess6{
     width: 20px;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
@@ -621,8 +621,14 @@ body#page-atlantis .card-session4-spns .card-body {
 
 /* section 6 */
 
-
-
+.scrllsess6{
+    display: block;
+}
+@media (max-width: 767px) {
+    .scrllsess6{
+        display: none;
+    }
+}
 /* **** */
 section {
     padding: 0;

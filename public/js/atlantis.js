@@ -47,31 +47,31 @@ function chngcontsess4(x) {
     var choix1 = document.getElementById('choix1');
     var choix2 = document.getElementById('choix2');
     var choix3 = document.getElementById('choix3');
-    var dirct =document.getElementById('dirct');
+    var dirct = document.getElementById('dirct');
     if (x == 0) {
         choix0.classList = 'p-2 btn btnactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display='none';
+        dirct.style.display = 'none';
     } else if (x == 1) {
         choix1.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display='block';
+        dirct.style.display = 'block';
     } else if (x == 2) {
         choix2.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display='none';
+        dirct.style.display = 'none';
     } else if (x == 3) {
         choix3.classList = 'p-2 btn btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
-        dirct.style.display='none';
+        dirct.style.display = 'none';
     }
 
 
@@ -83,7 +83,7 @@ function chngcontsess4(x) {
     ];
     var h1 = ['places 1-4', "places Max 22 (최대 22명)", "Places Max 53 (최대 53명)", "Places Max 8 "];
     var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내"];
-    var img = ['Car.jpg', 'Mini-bus-2.jpg', 'bus.png', 'van1.jpg' ];
+    var img = ['Car.jpg', 'Mini-bus-2.jpg', 'bus.png', 'van1.jpg'];
 
     document.getElementById('psess4').innerHTML = p[x];
     document.getElementById('h1sess4').innerHTML = h1[x];
@@ -163,12 +163,12 @@ function srllcrdssess5(x) {
     var crcl2sess5 = document.getElementById('crcl2sess5');
     if (z === 0) {
         crcl1sess5.style.backgroundImage = "url(../images/ptbl.svg)";
-        crcl1sess5.style.backgroundSize="auto";
+        crcl1sess5.style.backgroundSize = "auto";
         crcl2sess5.style.backgroundImage = "url(../images/ftbl.svg)";
     } else if (z === 1) {
         crcl1sess5.style.backgroundImage = "url(../images/ftbl.svg)";
         crcl2sess5.style.backgroundImage = "url(../images/ptbl.svg)";
-        crcl2sess5.style.backgroundSize="auto";
+        crcl2sess5.style.backgroundSize = "auto";
     }
 
     //declaration des cnst
@@ -176,12 +176,12 @@ function srllcrdssess5(x) {
     var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan', 'Pansy KSAR Ghilene'];
     var p0 = ['Tunis, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Douz, Tunisia'];
     var img0 = ['Four-Seasons-Tunis.jpeg', 'Anantara-Tozeur.jpeg', 'Movenpick-Sousse.jpeg', 'The-Residence-Tunis.jpeg', 'Le-Kasbah-Kairouan.jpeg', 'Pansy-KSAR-Ghilene.jpeg'];
-    var alt0=['Four Seasons Tunis',"Anantara Tozeur","Movenpick Sousse","The Residence Tunis","Le Kasbah Kairouan","Pansy KSAR Ghilene"]
+    var alt0 = ['Four Seasons Tunis', "Anantara Tozeur", "Movenpick Sousse", "The Residence Tunis", "Le Kasbah Kairouan", "Pansy KSAR Ghilene"]
     //seconde crcl
     var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
     var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
     var img1 = ['Radisson-Sfax.jpeg', 'Sheraton.jpeg', 'Africa.jpeg', 'Movenpick-Lac-2.jpeg', 'Mouradi-gammarth-2.jpeg'];
-    var alt1=['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth']
+    var alt1 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth']
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
@@ -199,12 +199,12 @@ function srllcrdssess5(x) {
             h2 = h20[ind];
             p = p0[ind];
             img = '../images/' + img0[ind];
-            alt =alt0[ind];
+            alt = alt0[ind];
         } else if (z === 1) {
             h2 = h21[ind];
             p = p1[ind];
             img = '../images/' + img1[ind];
-            alt =alt1[ind];
+            alt = alt1[ind];
         }
         ind++;
 
@@ -282,7 +282,7 @@ function chngimgsess1(x) {
         "../images/Bureau-Atlantis.jpg",
     ];
 
-    var alt=['Atlantis Space','Teems Atlantis','Bureau Atlantis']
+    var alt = ['Atlantis Space', 'Teems Atlantis', 'Bureau Atlantis']
 
     if (x == -1 && idimg > 0) {
         idimg--;
@@ -312,7 +312,109 @@ function chngimgsess1(x) {
     }
 
     document.getElementById('imgsess1kb').src = img[idimg];
-    document.getElementById('imgsess1kb').alt=alt[idimg];
+    document.getElementById('imgsess1kb').alt = alt[idimg];
 
 
+}
+
+var indxcrd = 0;
+
+function PAsrllcrdssess6(x) {
+    if (x == -1 && indxcrd > 0) {
+        indxcrd--;
+    } else if (x == 1 && indxcrd < 2) {
+        indxcrd++;
+    } else if (x == -1 && indxcrd == 0) {
+        indxcrd = 2;
+    } else {
+        indxcrd = 0;
+    }
+    console.log('indxcrd ', indxcrd);
+
+    var ind = 1;
+    for (var i = 0; i < 3; i++) {
+        var idcrcl = "PAcrcl" + ind + "sess6";
+        var crcl = document.getElementById(idcrcl);
+        if (i == indxcrd) {
+            console.log('ind ', ind);
+            crcl.style.backgroundImage = "url(../images/ptbl.svg)";
+            crcl.style.backgroundSize = 'auto'
+        } else {
+            crcl.style.backgroundImage = "url(../images/ftbl.svg)";
+        }
+        ind++;
+    }
+
+    //declaration des cnst
+    //first crcl
+    var h20 = ['Dar Ben Gacem', 'Dar Fatma', 'Dar ellamma'];
+    var p0 = ['Medina of Tunis', 'Sidi bou said', 'Bizerte, tunisia'];
+    var img0 = ['dar_bel_gesem.jpg', 'dar_fatma.jpg', 'guesthouse-_bizerte-_dar_Ellamma.jpg'];
+    var alt0 = ['Dar ellamma', "Dar Belgecem", "Dar Fatma", ];
+    //seconde crcl
+    var h21 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
+    var p1 = ['Médina de Sousse', ' Tozeur', 'Tozeur'];
+    var img1 = ['dar_antonia.jpg', 'diar-abou-habibi.jpg', 'dar_saida_baya.jpg'];
+    var alt1 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
+    //3rd crcl
+    var h22 = ['Dar Dhiafa'];
+    var p2 = ['Djerba'];
+    var img2 = ['dar_dhiafa.jpg'];
+    var alt2 = ['Dar Dhiafa'];
+    //3ayatt lil section ili bch n5dm aliha wfara8tha
+    var section = document.getElementById('sess6-crds');
+    section.innerHTML = '';
+    var ind = 0;
+    var tailltab = 0;
+    if (indxcrd === 0) {
+        tailltab = h20.length;
+    } else if (indxcrd === 1) {
+        tailltab = h21.length;
+    } else {
+        tailltab = h22.length;
+    }
+    //action sur les card
+    for (i = 0; i < tailltab; i++) {
+        if (indxcrd === 0) {
+            h2 = h20[ind];
+            p = p0[ind];
+            img = '../images/' + img0[ind];
+            alt = alt0[ind];
+        } else if (indxcrd === 1) {
+            h2 = h21[ind];
+            p = p1[ind];
+            img = '../images/' + img1[ind];
+            alt = alt1[ind];
+        } else {
+            h2 = h22[ind];
+            p = p2[ind];
+            img = '../images/' + img2[ind];
+            alt = alt2[ind];
+        }
+        ind++;
+        console.log(h2);
+        let sectionContent = '';
+
+        if (i == 0 || i == 3) {
+            sectionContent += `<div class="col-lg-3 offset-lg-1 sess6crd radius-20">`;
+        } else {
+            sectionContent += `<div class="col-lg-3 sess6crd radius-20">`;
+        }
+
+        sectionContent += `
+            <div class="mask-image">
+                <img class="sess6crdimg" src="../images/` + img + `" class="img-fluid" alt="` + alt + `">
+            </div>
+            <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
+            <p class="text-img">링크</p>
+            <div class="posit">
+                <img src="../images/gps.png" alt='gps' class="mr-2">
+                <p>` + p + `</p>
+            </div>
+            <h2 class="sub-title sess6h2">` + h2 + `</h2>
+        </div>`;
+
+        section.innerHTML += sectionContent;
+
+    }
 }
