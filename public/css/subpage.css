@@ -286,6 +286,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 #page-subpage #section5 .one-time-slide img{
     cursor: pointer;
@@ -307,6 +308,7 @@
     width: 100%;
     height: 508px;
     margin-top: 50px;
+    object-fit: cover;
 }
 
 
@@ -369,6 +371,10 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.wrap-trips-routes-infos .top-long-description  {
+    height:  320px;
 }
 
 .wrap-trips-routes-infos .top-long-description .wrap-btn-action {

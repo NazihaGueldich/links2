@@ -19,14 +19,14 @@
     </div>
     <div class="bottom-long-description">
         <div class="col-lg-12  one-time-slide">
-            <img src="" class="w-100" id='imgsess1' alt="Matmata Tunisie">
-            <div class="d-flex sccgrp p-lg-3 sess1direct align-items-center" id="dirct">
-                <img src="{{ asset('images/flr.png') }}" {{-- onclick="SPChangImgSess5(-1)" --}} alt="Arrow left">
+            <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="w-100" id='imgsess1' alt="Matmata Tunisie">
+           {{--  <div class="d-flex sccgrp p-lg-3 sess1direct align-items-center" id="dirct">
+                <img src="{{ asset('images/flr.png') }}" alt="Arrow left">
                 <img id='sess1crc1' src="{{ asset('images/pt.png') }}" alt="Point">
                 <img id='sess1crc2' src="{{ asset('images/crcl.png') }}" alt="Cercle">
                 <img id='sess1crc3' src="{{ asset('images/crcl.png') }}"  alt="Cercle">
-                <img src="{{ asset('images/fll.png') }}" {{-- onclick="SPChangImgSess5(1)" --}} alt="Arrow Right">
-            </div>
+                <img src="{{ asset('images/fll.png') }}" alt="Arrow Right">
+            </div> --}}
         </div>
     </div>
 </div>
