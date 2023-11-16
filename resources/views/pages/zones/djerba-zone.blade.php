@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>제르바</li>
+        <li>그림같은 마을</li>
+        <li>종교적 다양성</li>
+        <li>유대교 회당 엘 그리바</li>
+        <li>유네스코 문화유산</li>
     </ul>
 </div>
 

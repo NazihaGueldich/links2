@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>ㅜ스팍스</li>
+        <li>주요 상업 항구</li>
+        <li>제2의 도시</li>
+        <li>케르케나섬</li>
+        <li>해산물 맛집</li>
     </ul>
 </div>
 <div class="zone-long-description">

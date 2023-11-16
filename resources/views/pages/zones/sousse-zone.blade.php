@@ -1,9 +1,10 @@
 <div class="zone-note">
     <p>Sousse descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>수스</li>
+        <li>휴양도시</li>
+        <li>수스 메디나</li>
+        <li>고고학 박물관</li>
     </ul>
 </div>
 <div class="zone-long-description">

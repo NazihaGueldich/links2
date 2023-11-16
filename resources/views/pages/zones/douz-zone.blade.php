@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>두즈</li>
+        <li>사하라로 가는 관문</li>
+        <li>낙타체험</li>
+        <li>유목민 사막 문화</li>
+        <li>두즈 사하라 축제</li>
     </ul>
 </div>
 <div class="zone-long-description">

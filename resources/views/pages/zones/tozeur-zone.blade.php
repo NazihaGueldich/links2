@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>토주르</li>
+        <li>베르베르인의 도시</li>
+        <li>오아시스 페스티벌</li>
+        <li>쇼트 엘 제리드 소금호수</li>
+        <li>대추야자 특산물</li>
     </ul>
 </div>
 <div class="zone-long-description">

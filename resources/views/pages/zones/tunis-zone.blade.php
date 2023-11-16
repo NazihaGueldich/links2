@@ -1,9 +1,10 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>튀니스</li>
+        <li>카르타고 유적지</li>
+        <li>시디부사이드</li>
+        <li>메디나 구시가지</li>
     </ul>
 </div>
 <div class="zone-long-description">

@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>마트마타</li>
+        <li>세계에서 가장 큰 지하마을</li>
+        <li>동굴 가옥</li>
+        <li>베르베르인들</li>
+        <li>스타워즈 촬영지</li>
     </ul>
 </div>
 <div class="zone-long-description">

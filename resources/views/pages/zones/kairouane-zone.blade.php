@@ -1,9 +1,11 @@
 <div class="zone-note">
     <p>Kairouane Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>카이로우안</li>
+        <li>4대 이슬람 성지</li>
+        <li>그랜드 모스크</li>
+        <li>카펫 수공예품</li>
+        <li>유네스코 세계 문화유산</li>
     </ul>
 </div>
 <div class="zone-long-description">

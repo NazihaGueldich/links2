@@ -1,9 +1,10 @@
 <div class="zone-note">
     <p>Some descriptions</p>
     <ul>
-        <li>Description 1</li>
-        <li>Description 2</li>
-        <li>Description 3</li>
+        <li>엘젬</li>
+        <li>로마 원형경기장</li>
+        <li>올리브 생산</li>
+        <li>국제 교향악 페스티벌</li>
     </ul>
 </div>
 
