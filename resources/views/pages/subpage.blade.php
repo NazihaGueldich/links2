@@ -5,7 +5,7 @@
     @include('layouts.front.header')
     {{-- session 1 --}}
     <section id="section1">
-        <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1" alt="Tunisie Sahara">
+        <img src="{{ asset('images/img-cov-subpage.png') }}" class="img1" alt="Tunisie Sahara">
         <div class="overlay-content">
             <img id='icnav' src="{{ asset('images/avion.png') }}" alt="Avion"
                 class=" d-flex align-items-center justify-content-center">
@@ -47,7 +47,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 11시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -57,7 +57,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 6시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -73,13 +73,13 @@
                         </div>
                         <div class="crdsess3prt2">
                             <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">인천<strong> 한국</strong></p>
+                                <p class="mb-0 pb-0">도하 <strong> 카타르</strong></p>
                             </div>
                             <div class="col-3 p-0 route">
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 12시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -89,7 +89,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 3시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -111,7 +111,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 14시간 30분</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -121,7 +121,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 2시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -143,7 +143,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 10시간 30분</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -153,7 +153,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 7시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
