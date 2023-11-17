@@ -80,8 +80,9 @@
                 <div class="col-lg-6">
                     <div id='crd1'>
                         <p class="sub-title">Discover Tunisia</p>
+                        <a  href="https://www.youtube.com/watch?v=GxIAwcVpvKM&ab_channel=DiscoverTunisia">
                         <button class="btn">Play Video <img
-                                src="{{ asset('images/Arrow Right Blue.png') }}" alt="Arrow Right Blue"></button>
+                                src="{{ asset('images/Arrow Right Blue.png') }}" alt="Arrow Right Blue"></button></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
