@@ -161,86 +161,44 @@
 
 
         <section id="section-5">
-            <div class="text-center mb-3">
-                <span class="main-title">Weather</span>
-                <div class="ligne-separtion"></div>
+            <div class="text-center mb-3 d-flex flex-column align-items-center">
+                <h2 class="main-title " >Weather</h2>
+
+                <p class=" parghraphe1">
+                    튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월
+                            평균
+                            최고 기온은 33 ̊C입니다.
+                </p>
             </div>
-            <div class="variable-width">
-                <div class="row ">
-                    <div class="col-lg-4 d-flex flex-column justify-content-start pt-4 ">
-                        <img src="{{ asset('images/chammousa.png') }}" class="img-fluid img3" alt="Sun">
-
-
-
-                    </div>
-
-                    <div class="col-lg-8 pt-4" style="padding: 0px">
-                        <p class="parghraphe">
-                            튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월
-                            평균
-                            최고 기온은 33 ̊C입니다.
-                        </p>
-
-                        <span class="titre-1" id='scrlltitr'> 6월부터 9월:</span><br>
-
-                        <p class="parghraphe my-3" id="scrllp">
-                            튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는 덥고 건조하며 남부로 내려갈수록 기온이 더
-                            올라가며
-                            건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을 챙기는 게
-                            좋습니다.
-                        </p>
-                    </div>
+            <div class="mt-lg-5 d-flex flex-column  align-items-center ">
+                <div class=" buttons ">
+                    <button id='btn0sect5' class="p-2 btn btnactv" onclick="changtextSect3(0)">여름은</button>
+                    <button id='btn1sect5' class="p-2 btninactv" onclick="changtextSect3(1)">겨울</button>
+                    <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">봄 과 가을</button>
                 </div>
-                <div class="row ">
-                    <div class="col-lg-4 d-flex flex-column justify-content-start pt-4 ">
-
-                        <img src="{{ asset('images/mtarr.png') }}" class="img-fluid img3">
+                <div class="ktbchng text-center" >
 
 
-
+                    <div class="row">
+                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
+                            <div class="para-section">
+                                <p class="mt-3 mt-lg-5" id='sec3titrp5'>6월부터 9월:</p>
+                                <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는 덥고 건조하며 남부로 내려갈수록 기온이 더
+                                    올라가며
+                                    건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을 챙기는 게
+                                    좋습니다.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <img src="{{ asset('images/chammousa.png') }}" alt="Sun" class="mt-lg-5 p-lg-4"
+                                id="sec3img">
+                        </div>
                     </div>
 
-                    <div class="col-lg-8 pt-4" style="padding: 0px">
-                        <p class="parghraphe">
-                            튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월
-                            평균
-                            최고 기온은 33 ̊C입니다.
-                        </p>
-
-                        <span class="titre-1" id='scrlltitr'>12월부터 2월 : 겨울</span><br>
-
-                        <p class="parghraphe my-3" id="scrllp">
-                            튀니지에도 겨울이 있습니다. 더운 여름만 생각하셨다면 꽤 매서운 추위를 경험할 텐데요. 영하로 내려가는 추위는 아니지만, 한국의 초겨울 날씨를 보입니다.<br>
-                            12월 평균기온은 11 ̊C예요. 겨울에는 오히려 북부가 신선하고 습하며, 남부는 온화하고 건조합니다.<br> 겨울철 난방을 위한 실내 설계가 잘 안되어 있는 경우가
-                            있으니 겨울철 방문을 준비 중이라면 전기장판, 경량 패딩, 목도리, 수면 바지, 수면 양말 등을 챙기길 추천해 드려요. 또한 겨울철에는 비가 오는 경우가 많으니 작은
-                            우산이나 우비도 잊지 마세요!
-                        </p>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-lg-4 d-flex flex-column justify-content-start pt-4 ">
-                        <img src="{{ asset('images/msa77ba.png') }}" class="img-fluid img3">
-
-
-                    </div>
-
-                    <div class="col-lg-8 pt-4" style="padding: 0px">
-                        <p class="parghraphe">
-                            튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월
-                            평균
-                            최고 기온은 33 ̊C입니다.
-                        </p>
-
-                        <span class="titre-1" id='scrlltitr'> 봄(3~5월)과 가을(10~11월)</span><br>
-
-                        <p class="parghraphe my-3" id="scrllp">
-                            봄과 가을에는 평균기온이 약 20C에서 25 C를 웃도는 날씨를 유지합니다. 한국의 봄가을과 비슷한 날씨를 생각하면 되고, 일교차가 있으니 가벼운 겉옷을 늘 챙겨
-                            다니는 게 좋습니다.<br>해안지역은 바닷바람 때문에 조금 더 춥다고 느낄 수 있어요. 한편 남부 사막을 여행 하기에 딱 좋은 날씨이니 사막여행을 계획 중인
-                            분들이라면 봄가을 시기를 추천합니다.
-                        </p>
-                    </div>
                 </div>
             </div>
+
+            
         </section>
     </div>
 

@@ -1,4 +1,3 @@
-
 $('section .slick-slide').slick({
     infinite: true,
     slidesToShow: 1,
@@ -8,10 +7,10 @@ $('section .slick-slide').slick({
     infinite: true,
     speed: 500,
     cssEase: 'linear'
-  });
+});
 
 
-  $('.slick-section-10').slick({
+$('.slick-section-10').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -20,7 +19,7 @@ $('section .slick-slide').slick({
     infinite: true,
     speed: 500,
     cssEase: 'linear'
-  });
+});
 
 var indx = 0;
 
@@ -42,10 +41,10 @@ function srllimg(x) {
         indx--;
     } else if (x == 1 && indx < 2) {
         indx++;
-    }else if(x == -1 && indx ==0){
-        indx= 2;
-    }else{
-        indx= 0;
+    } else if (x == -1 && indx == 0) {
+        indx = 2;
+    } else {
+        indx = 0;
     }
 
     if (indx === 0) {
@@ -123,17 +122,17 @@ function changelement(x) {
         elm--;
     } else if (x == 1 && elm < 2) {
         elm++;
-    }else if(x == -1 && elm ==0){
-        elm= 2;
-    }else{
-        elm= 0;
+    } else if (x == -1 && elm == 0) {
+        elm = 2;
+    } else {
+        elm = 0;
     }
 
     var img = ["../images/Kairouan-Great.png ",
         "../images/Judaism.png",
         "../images/Christianity.png"
     ];
-    var alt=['Kairouan Great Tunisia','Judaism Tunisia','Christianity Tunisia'];
+    var alt = ['Kairouan Great Tunisia', 'Judaism Tunisia', 'Christianity Tunisia'];
     var h = ['이슬람', '유대교', '기독교'];
     var p = [
         '국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종 권유, 포교는 법적 제한을 받아요.',
@@ -143,9 +142,9 @@ function changelement(x) {
     ];
     var txtindx = ['유대교', '기독교', '이슬람'];
 
-    var crcl11=document.getElementById('crcl11');
-    var crcl22=document.getElementById('crcl22');
-    var crcl33=document.getElementById('crcl33');
+    var crcl11 = document.getElementById('crcl11');
+    var crcl22 = document.getElementById('crcl22');
+    var crcl33 = document.getElementById('crcl33');
 
     if (elm === 0) {
         crcl11.style.backgroundImage = "url(../images/ptbl.svg)";
@@ -161,27 +160,27 @@ function changelement(x) {
         crcl33.style.backgroundImage = "url(../images/ptbl.svg)";
     }
     console.log(elm);
-    fade(document.getElementById('img44'), img[elm],0);
-    fade(document.getElementById('h4prt6'), h[elm],1);
-    fade(document.getElementById('pprt6'), p[elm],1);
-    fade(document.getElementById('txtindx'), txtindx[elm],1);
+    fade(document.getElementById('img44'), img[elm], 0);
+    fade(document.getElementById('h4prt6'), h[elm], 1);
+    fade(document.getElementById('pprt6'), p[elm], 1);
+    fade(document.getElementById('txtindx'), txtindx[elm], 1);
 
     document.getElementById('h4prt6').innerHTML = h[elm];
     document.getElementById('pprt6').innerHTML = p[elm];
     document.getElementById('txtindx').innerHTML = txtindx[elm];
-    document.getElementById('img44').alt=alt[elm];
+    document.getElementById('img44').alt = alt[elm];
 }
 
-function fade(element, value,type) {
+function fade(element, value, type) {
     var op = 1;
-    var timer = setInterval(function() {
+    var timer = setInterval(function () {
         if (op <= 0.1) {
             clearInterval(timer);
             element.style.display = 'none';
-            if(type==0){
+            if (type == 0) {
                 element.src = value;
                 console.log(element);
-            }else{
+            } else {
                 element.innerHTML = value;
             }
 
@@ -196,7 +195,7 @@ function fade(element, value,type) {
 function unfade(element) {
     var op = 0.1; // initial opacity
     element.style.display = 'block';
-    var timer = setInterval(function() {
+    var timer = setInterval(function () {
         if (op >= 1) {
             clearInterval(timer);
         }
@@ -249,16 +248,17 @@ setInterval(updateClock, 1000);
 
 
 /* session 1 change img */
-var indimgsess1=0;
-function ChangImgSess1(x){
+var indimgsess1 = 0;
+
+function ChangImgSess1(x) {
     if (x == -1 && indimgsess1 > 0) {
         indimgsess1--;
     } else if (x == 1 && indimgsess1 < 4) {
         indimgsess1++;
-    }else if(x == -1 && indimgsess1 ==0){
-        indimgsess1= 4;
-    }else{
-        indimgsess1= 0;
+    } else if (x == -1 && indimgsess1 == 0) {
+        indimgsess1 = 4;
+    } else {
+        indimgsess1 = 0;
     }
 
     var img = ["../images/Matmata.jpg",
@@ -268,13 +268,13 @@ function ChangImgSess1(x){
         "../images/Tamerza-oasis.jpg"
     ];
 
-    var alt=['Matmata Tunisie','Douz Tunisia','Historic Tour Bardo Museum Tunisia','Djerba Tunisia','Tamerza Tunisia']
+    var alt = ['Matmata Tunisie', 'Douz Tunisia', 'Historic Tour Bardo Museum Tunisia', 'Djerba Tunisia', 'Tamerza Tunisia']
 
-    var sess1crc1=document.getElementById('sess1crc1');
-    var sess1crc2=document.getElementById('sess1crc2');
-    var sess1crc3=document.getElementById('sess1crc3');
-    var sess1crc4=document.getElementById('sess1crc4');
-    var sess1crc5=document.getElementById('sess1crc5');
+    var sess1crc1 = document.getElementById('sess1crc1');
+    var sess1crc2 = document.getElementById('sess1crc2');
+    var sess1crc3 = document.getElementById('sess1crc3');
+    var sess1crc4 = document.getElementById('sess1crc4');
+    var sess1crc5 = document.getElementById('sess1crc5');
 
     if (indimgsess1 === 0) {
         sess1crc1.src = "../images/pt.png";
@@ -294,13 +294,13 @@ function ChangImgSess1(x){
         sess1crc1.src = "../images/crcl.png";
         sess1crc4.src = "../images/crcl.png";
         sess1crc5.src = "../images/crcl.png";
-    }else if (indimgsess1 === 3) {
+    } else if (indimgsess1 === 3) {
         sess1crc4.src = "../images/pt.png";
         sess1crc2.src = "../images/crcl.png";
         sess1crc3.src = "../images/crcl.png";
         sess1crc1.src = "../images/crcl.png";
         sess1crc5.src = "../images/crcl.png";
-    }else if (indimgsess1 === 4) {
+    } else if (indimgsess1 === 4) {
         sess1crc5.src = "../images/pt.png";
         sess1crc2.src = "../images/crcl.png";
         sess1crc3.src = "../images/crcl.png";
@@ -308,8 +308,43 @@ function ChangImgSess1(x){
         sess1crc1.src = "../images/crcl.png";
     }
 
-    var imgchn=document.getElementById('imgsess1');
-    imgchn.src="../images/"+img[indimgsess1];
+    var imgchn = document.getElementById('imgsess1');
+    imgchn.src = "../images/" + img[indimgsess1];
     //fade(imgchn, img[indimgsess1],0);
-    imgchn.alt=alt[indimgsess1];
+    imgchn.alt = alt[indimgsess1];
+}
+
+
+function changtextSect3(indx) {
+    for(var i=0;i<3;i++) {
+        var idbtn='btn'+i+'sect5';
+        var btn=document.getElementById(idbtn);console.log(btn);
+        if(i == indx){
+            if (btn.classList.contains('btninactv')) {
+                btn.classList.replace('btninactv', 'btnactv');
+            }
+        }else{
+            if (btn.classList.contains('btnactv')) {
+                btn.classList.replace('btnactv', 'btninactv');
+            }
+        }
+    }
+    var titr = ["6월부터 9월:", "12월부터 2월 : 겨울", " 봄(3~5월)과 가을(10~11월)"];
+    var p = [
+        "튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는 덥고 건조하며 남부로 내려갈수록 기온이 더올라가며건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을 챙기는 게 좋습니다.",
+        "튀니지에도 겨울이 있습니다. 더운 여름만 생각하셨다면 꽤 매서운 추위를 경험할 텐데요. 영하로 내려가는 추위는 아니지만, 한국의 초겨울 날씨를 보입니다.<br>12월 평균기온은 11 ̊C예요. 겨울에는 오히려 북부가 신선하고 습하며, 남부는 온화하고 건조합니다.<br> 겨울철 난방을 위한 실내 설계가 잘 안되어 있는 경우가있으니 겨울철 방문을 준비 중이라면 전기장판, 경량 패딩, 목도리, 수면 바지, 수면 양말 등을 챙기길 추천해 드려요. 또한 겨울철에는 비가 오는 경우가 많으니 작은우산이나 우비도 잊지 마세요!",
+        "봄과 가을에는 평균기온이 약 20C에서 25 C를 웃도는 날씨를 유지합니다. 한국의 봄가을과 비슷한 날씨를 생각하면 되고, 일교차가 있으니 가벼운 겉옷을 늘 챙겨다니는 게 좋습니다.<br>해안지역은 바닷바람 때문에 조금 더 춥다고 느낄 수 있어요. 한편 남부 사막을 여행 하기에 딱 좋은 날씨이니 사막여행을 계획 중인분들이라면 봄가을 시기를 추천합니다."
+    ];
+    var img = [
+        "../images/chammousa.png",
+        "../images/mtarr.png",
+        "../images/msa77ba.png",
+    ];
+    var alt=['Sun','Rain','lkij']
+
+    document.getElementById('sec3titrp5').innerHTML = titr[indx];
+    document.getElementById('sec3spnprt5').innerHTML = p[indx];
+    document.getElementById('sec3img').src = img[indx];
+    document.getElementById('sec3img').alt = alt[indx];
+
 }

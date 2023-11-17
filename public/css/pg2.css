@@ -14,7 +14,7 @@ body.tunisiatrip a {
     transition: all .3s ease;
     text-decoration: none;
 }
-#section-6 .parghraphe1{
+#section-6 .parghraphe1,#section-5 .parghraphe1{
     width: 55%;
 }
 main {
@@ -140,6 +140,12 @@ section {
     object-fit: contain;
     width: 100%;
     height: 384px;
+}
+
+#sec3img {
+    object-fit: contain;
+    width: 100%;
+    height: 292px;
 }
 
 .titre-1 {
@@ -722,7 +728,7 @@ body {
 }
 
 
-.ktbchng #titrp5 {
+.ktbchng #titrp5,.ktbchng #sec3titrp5 {
 
     padding-bottom: 3%;
 
