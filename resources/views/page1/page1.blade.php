@@ -101,12 +101,13 @@
             <div class="row reverse m-0">
                 {{-- image 1 --}}
                 <div class="col-6 r-image1">
-                    <div class="image-1 box-shadox" id="image-1">
-                        <a class="weatherwidget-io" href="https://forecast7.com/en/33d899d54/tunisia/" data-label_1="TUNISIA" data-label_2="WEATHER" data-textcolor="white" style="pointer-events: none;box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, .2);border-radius: 20px 20px 0 0;">TUNISIA WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-                    </div> 
+                    <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
+                        <div class="ml-4">
+                            <div class="d-flex flex-column align-items-start">
+                                <button class="btn btn-outline-primary mt-4 r-btn1 mr-6">고고학 유적지</button>
+                            </div>
+                        </div>
+                    </div>
                 
                 
                 </div>

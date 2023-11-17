@@ -44,7 +44,11 @@
         {{-- section 1 --}}
         <section id='section1'>
             <h2 class="main-title text-center">Hear from the Korean Ambassador in Tunisia</h2>
-            <img src="{{ asset('images/Play.png') }}" class="w-100">
+            <div class="wrap-video w-100">
+                <video id="my-video" class="video-js" controls preload="auto" poster="images/Image Placeholder.png">
+                    <source src="images/TunKaur.mp4" type="video/mp4" />
+                </video>
+            </div>
         </section>
     </div>
     {{-- section 2 --}}
