@@ -564,6 +564,11 @@
                 <span id='crcl4sess6'></span>
                 <span id='crcl5sess6'></span>
                 <span id='crcl6sess6'></span>
+                <span id='crcl7sess6'></span>
+                <span id='crcl8sess6'></span>
+                <span id='crcl9sess6'></span>
+                <span id='crcl10sess6'></span>
+                <span id='crcl11sess6'></span>
                 <a class="carousel-control-next flch"  role="button"
                     data-slide="next" onclick="srllcrdssess6(1)">
                     <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>

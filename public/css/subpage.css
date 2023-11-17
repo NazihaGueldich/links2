@@ -474,7 +474,11 @@
 #page-subpage #section6 #crcl4sess6,
 #page-subpage #section6 #crcl5sess6,
 #page-subpage #section6 #crcl6sess6,
-#page-subpage #section6 #crcl7sess6 {
+#page-subpage #section6 #crcl7sess6 ,
+#page-subpage #section6 #crcl8sess6 ,
+#page-subpage #section6 #crcl9sess6 ,
+#page-subpage #section6 #crcl10sess6, 
+#page-subpage #section6 #crcl11sess6 {
     width: 20px;
     background-image: url("../images/ftbl.svg");
     background-repeat: no-repeat;
