@@ -53,7 +53,7 @@
                                 </h1>
 
                                 <h2 class="main-title dm-sans text-center mt-lg-5">Common Expressions</h2>
-                                <p class="sub-title text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
+                                <p class=" text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
                             </div>
                         </div>
                     </div>
@@ -119,24 +119,24 @@
                        <div class="col-md-12">
                            <div class="section-header">
                                <h2 class="main-title dm-sans text-center">Culinary Recommendations</h2>
-                               <p class="sub-title text-center">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요.<br>
+                               <p class=" text-center">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요.<br>
                                    역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.<br>
                                    올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.
                                </p>
                                <br>
-                               <p class="sub-title text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
+                               <p class=" text-center">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                            </div>
                        </div>
                    </div> -->
                     <div class="col-md-12">
                         <div class="section-header">
                             <h2 class="main-title dm-sans text-center">Culinary recomendation</h2>
-                            <p class="sub-title m-auto text-center col-lg-6">튀니지 음식은 동서양 요리 양식이  혼합된 형태예요.
+                            <p class=" m-auto text-center col-lg-6">튀니지 음식은 동서양 요리 양식이  혼합된 형태예요.
 
                                 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.
 
                                 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
-                            <p class="sub-title text-center pt-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
+                            <p class=" text-center pt-3">튀니지에서 꼭 먹어봐야 할 음식들을 소개할게요.</p>
                         </div>
                     </div>
                     <div class="row wrap-culinary-card">
@@ -316,7 +316,7 @@
                         <div class="col-md-12">
                             <div class="section-header">
                                 <h2 class="main-title dm-sans text-center">Museums</h2>
-                                <p class="sub-title text-center mb-lg-0">튀니지 박물관은 대부분 월요일이 휴관일이에요.<br>
+                                <p class=" text-center mb-lg-0">튀니지 박물관은 대부분 월요일이 휴관일이에요.<br>
                                     영업시간은 계절에 따라 차이가 있으므로 확인 후 방문하시길 추천해 드립니다.
                                 </p>
                                 <br>
