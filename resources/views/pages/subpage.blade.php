@@ -534,7 +534,7 @@
                     </div>
 
                 </div>
-                <div class="wrap-trips-routes-infos">
+                <div id="sectionDescription" class="wrap-trips-routes-infos">
                     <div class="content" id="sadok"></div>
                 </div>
             </div>

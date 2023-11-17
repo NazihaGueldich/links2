@@ -88,6 +88,30 @@ $(document).ready(function(){
        $('.wrap-trips-routes .wrap-single-zone').css('z-index', '2');
        position.css('z-index', '9');
    });
+
+    if (isMobileDevice()) {
+        $('.wrap-single-zone').on('click', () => {
+            scrollToDescriptionSection();
+        });
+    }
+
+    function scrollToDescriptionSection() {
+        // Animation de défilement vers la deuxième section
+        $('html, body').animate({
+            scrollTop: $('#sectionDescription').offset().top - 60
+        }, 600); // La durée de l'animation en millisecondes (ajustez selon vos besoins)
+    }
+    // Mobile device detection //TODO : deplacer cette fonction dans le js general du site
+    function isMobileDevice() {
+        // Responsive design check
+        const isResponsive = $(window).width() <= 767;
+
+        // User agent check
+        const isUserAgentMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+        // Combine the checks based on your specific requirements
+        return isResponsive || isUserAgentMobile;
+    }
 });
 // JavaScript pour afficher/masquer les descriptions lorsque le bouton est cliqué
 const images = document.querySelectorAll('.image1-2');
@@ -102,6 +126,8 @@ buttons.forEach((button, index) => {
         }
     });
 });
+
+
 
 
 
