@@ -98,8 +98,7 @@
 
     <section id="section-2">
         <div class="container mt-5">
-            <div class="row reverse m-0">
-                {{-- image 1 --}}
+            {{-- <div class="row reverse m-0">
                 <div class="col-6 r-image1">
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
                         <div class="ml-4">
@@ -108,10 +107,9 @@
                             </div>
                         </div>
                     </div>
-                
-                
+
+
                 </div>
-                {{-- bloc 1 --}}
                 <div class="col-6 d-flex flex-column justify-content-between p-0 pr-0">
                     <div class="d-flex gap-30">
                         <div class="w-50">
@@ -172,10 +170,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-
-            <div class="row slick-slide1">
+            {{-- <div class="row slick-slide1">
                 <div class="col-md-4 my-4">
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
                         <div class="d-flex flex-column align-items-center">
@@ -226,7 +223,53 @@
                         </div>
                     </div>
                 </div>
+            </div> --}}
+
+            <div class="row block-cards" id="slicksect2">
+                <div class="col-lg-3 section-2-hover">
+                    <div class="links_box-1">
+                        <button type="button" class="btn btn-outline-primary button-main">메디나 역사지구</button>
+                    </div>
+                    <div class="height-p-card">
+                        <p class="p1prt7 ">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
+                            곳에서
+                            기념품도 구매할 수 있어요.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 section-2-hover">
+                    <div class="links_box-2">
+                        <button type="button" class="btn btn-outline-primary button-main">튀니지 미식 체험</button>
+                    </div>
+                    <div class="height-p-card">
+                        <p class="p1prt7 ">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
+                            페니키아,
+                            로마, 오스만제국을 거쳐 프랑스의
+                            영향도 많이 받았어요. 올리브 오일, 향신료, 토마토, 해산물, 닭고기나 양고기를 기반으로 한 요리가 많아요.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 section-2-hover">
+                    <div class="links_box-3">
+                        <button type="button" class="btn btn-outline-primary button-main">인기 목적지</button>
+                    </div>
+                    <div class="height-p-card">
+                        <p class="p1prt7 ">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
+                            있어요.
+                            과거와 현대가 공존하고 유럽과
+                            아프리카, 아랍의 다양한 색깔이 함께하는 튀니지의 여러 도시들을 방문해보세요.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 section-2-hover">
+                    <div class="links_box-4">
+                        <button type="button" class="btn btn-outline-primary button-main">즐길거리</button>
+                    </div>
+                    <div class="height-p-card">
+                        <p class="p1prt7 ">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한
+                            액티비티를 즐길
+                            수 있어요.</p>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -719,6 +762,32 @@
             fade: true,
             cssEase: 'linear',
             appendArrows: $('#mySlickCarousel'),
+        });
+
+        window.addEventListener('resize', function() {
+            if (window.innerWidth <= 767) {
+                var itemsDiv = document.getElementById('slicksect2');
+                if (!itemsDiv.classList.contains('slick-sess2')) {
+                    itemsDiv.classList.add('slick-sess2');
+                }
+            } else {
+                var itemsDiv = document.getElementById('items');
+                if (itemsDiv.classList.contains('slick-sess2')) {
+                    itemsDiv.classList.remove('slick-sess2');
+                }
+            }
+        });
+        window.dispatchEvent(new Event('resize'));
+
+        $('#section-2 .slick-sess2').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
         });
     </script>
 
