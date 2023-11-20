@@ -528,7 +528,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     background-position: center;
 }
 .wrap-video {
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
