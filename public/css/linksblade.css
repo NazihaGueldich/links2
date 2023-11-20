@@ -13,7 +13,7 @@
     #linksblade .navbar  {
         height: 71px;
         padding: 15px 22px 5px 10px !important;
-    }    
+    }
 }
 
 #linksblade .navbar #myTopnav {
@@ -31,7 +31,7 @@
     #linksblade .navbar #myTopnav img {
         height: 30px;
         width: auto;
-    }  
+    }
 }
 
 
@@ -49,11 +49,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+
     #linksblade .secc-cont  {
         background-size: 126%;
         height: 597px;
-        } 
+        background-position: top;
+
+        }
     }
 
 #linksblade .secc-cont  h1 {
@@ -65,7 +67,7 @@
     #linksblade .secc-cont  h1 {
         font-size: 2rem;
         padding-top: 10%;
-    } 
+    }
 }
 #linksblade .secc-cont  #def {
     font-size: 14px;
@@ -80,7 +82,7 @@
     #linksblade .secc-cont  #def {
         width: 94%;
         font-size: 0.9rem;
-    } 
+    }
 }
 
 #linksblade .secc-cont h5 {
@@ -91,7 +93,7 @@
     #linksblade .secc-cont h5 {
         font-size: 1rem;
         padding-top: 6%;
-    } 
+    }
 }
 
 #linksblade .secc-cont .input-wrapper {
@@ -104,7 +106,7 @@
 @media screen and (max-width: 768px) {
     #linksblade .secc-cont .input-wrapper {
         width: 86%;
-    } 
+    }
 }
 
 #linksblade .secc-cont  input {
@@ -125,10 +127,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+
 #linksblade .secc-cont  input,#linksblade .secc-cont button {
     height: 38px;
-    } 
+    }
 }
 
 #linksblade .secc-cont .socmed {
