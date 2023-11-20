@@ -25,7 +25,7 @@
 </head>
 
 <body id="linksblade">
-    <nav class="navbar navbar-expand-lg  fixed-top" style="padding: 0 !important;height: 60px;">
+    <nav class="navbar navbar-expand-lg  fixed-top" >
         <div class="container justify-content-between">
             <div id="myTopnav">
                 <img src="{{ asset('images/links.png') }}" alt='Links'>
@@ -38,22 +38,26 @@
 
     <div class="container ">
         <section class="secc-cont">
-        <h1>Welcome to LINKS STATION</h1>
-        <p id='def'>We're crafting a new digital experience to propel your business forward.
-            In the meantime, please feel free to contact us to learn more about our services.
-            We would be happy to help you get started on your digital journey.</p>
-        <h5>Stay connected with us, join our mailing list</h5>
-        <div class="input-wrapper w-75">
-            <input type="text" id="bladeInput" class="form-control">
-            <button type="button" class="btn">Send</button>
-        </div>
-        <div class="socmed">
-            <img src="{{ asset('images/instagramme.png') }}" alt='Instagrame'>
-            <img src="{{ asset('images/facebook.png') }}" alt='Facebook'>
-            <img src="{{ asset('images/linkedin.png') }}" alt='Linkedin'>
-            <img src="{{ asset('images/youtyoub.png') }}" alt='Youtub'>
-        </div>
-        <p>contact@linksprod.com</p>
+            <div  class="text-center">
+                <h1>Welcome to LINKS STATION</h1>
+                <p id='def'>We're crafting a new digital experience to propel your business forward.
+                    In the meantime, please feel free to contact us to learn more about our services.
+                    We would be happy to help you get started on your digital journey.</p>
+                <h5>Stay connected with us, join our mailing list</h5>
+                <div class="input-wrapper ">
+                    <input type="text" id="bladeInput" class="form-control">
+                    <button type="button" class="btn">Send</button>
+                </div>
+            </div>
+            <div>
+                <div class="socmed gap-2">
+                    <img src="{{ asset('images/instagramme.png') }}" alt='Instagrame'>
+                    <img src="{{ asset('images/facebook.png') }}" alt='Facebook'>
+                    <img src="{{ asset('images/linkedin.png') }}" alt='Linkedin'>
+                    <img src="{{ asset('images/youtyoub.png') }}" alt='Youtub'>
+                </div>
+                <p>contact@linksprod.com</p>
+            </div>
         </section>
     </div>
 
