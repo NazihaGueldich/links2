@@ -43,7 +43,9 @@
         </div>
         {{-- section 1 --}}
         <section id='section1'>
-            <h2 class="main-title text-center">Hear from the Korean Ambassador in Tunisia</h2>
+            <h2 class="main-title text-center">
+                <span class="title-new"  >New</span> To the Unknown Beauties of Tunisia with Hae In Jung
+              </h2>
             <div class="wrap-video w-100">
                 <video id="my-video" class="video-js" controls preload="auto" poster="images/Image Placeholder.png">
                     <source src="images/TunKaur.mp4" type="video/mp4" />
@@ -118,7 +120,7 @@
                             <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
                             <p> 특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어세계 최대의 모자이크 전시관으로 유명합니다.</p>
                             <div>
-                                <button class="btn">Play Video <img
+                                <button class="btn">Read more <img
                                         src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>

@@ -52,7 +52,9 @@
         padding-bottom: 3px;
     }
 }
-
+.title-new{
+    font-size: 80%; color: blue;
+}
 #blog-page #section2 .btnsect2 img {
     width: 32px;
     margin-right: 10px;
