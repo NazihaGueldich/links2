@@ -1,3 +1,7 @@
+html ,body{
+
+    background: radial-gradient(circle, #37373c 1%, #000000 100%);
+}
 #linksstation .navbar #myTopnav {
     display: flex;
     align-items: center;
@@ -7,4 +11,16 @@
 #linksstation .navbar #myTopnav img{
     height: 40px;
     width:auto;
+}
+#section-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section-image {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
 }

@@ -32,24 +32,25 @@
 
 <body id="linksstation" class="tunisiatrip">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;height: 60px;">
+    <nav class="navbar navbar-expand-lg  fixed-top" style="padding: 0 !important;height: 60px;">
         <div class="container justify-content-between">
             <div id="myTopnav">
-                <img  src="{{ asset('images/links.png') }}" alt='Links'>
+                <img src="{{ asset('images/links.png') }}" alt='Links'>
             </div>
             <div id="myTopnav">
-                <img  src="{{ asset('images/logoo.png') }}" alt=''>
+                <img src="{{ asset('images/logoo.png') }}" alt=''>
             </div>
         </div>
     </nav>
 
     <div class="container">
         <section id='section-cont'>
-            <img  src="{{ asset('images/pap.png') }}" alt=''>
+            <img src="{{ asset('images/pap.png') }}" alt='' class="section-image">
         </section>
     </div>
 
-    
+</body>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -57,3 +58,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 </body>
+
+</html>
