@@ -503,7 +503,7 @@
                         <p class="text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p>
                     </div>
                     <div class="img-Contact">
-                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.png') }}"
+                        <img class="img-Contact" src="{{ asset('images/Atlantis_logo_temporary.svg') }}"
                             alt="Atlantis logo">
                     </div>
                     <div class="PContact">

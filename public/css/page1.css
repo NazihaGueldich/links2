@@ -528,13 +528,13 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     background-position: center;
 }
 .wrap-video {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin: 0 auto;
 }
 .video-js {
     height: auto;
-    width: 100%;
+ 
     border-radius: 20px;
 }
 
