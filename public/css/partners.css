@@ -26,8 +26,9 @@
     border-radius: 20px;
     display: flex !important;
     justify-content: center;
-    height: 220px;
-    max-width: 99%;
+    height: 135px;
+    max-width: 72%;
+
 }
 
 #partners #partners-cont .paragraphe {
@@ -52,6 +53,7 @@
 
 #partners #partners-cont #partnerspartweb {
     display: block;
+    padding-left: 11%;
 }
 #partners #partners-cont #partnerspartmob {
     display: none;
