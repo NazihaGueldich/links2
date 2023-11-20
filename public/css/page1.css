@@ -528,7 +528,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     background-position: center;
 }
 .wrap-video {
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -801,7 +801,7 @@ footer h3 {
     background-color: #347EFF;
     color: #ffffff;
     border: none;
-    font-weight: bold;
+
 
     font-family: noto;
 
@@ -1194,7 +1194,7 @@ body.tunisiatrip .card5 {
     background-color: #B3B3B3;
     transition: none;
     box-shadow: none;
-    font-weight: bold;
+
     border-radius: 30px;
     color: #ffffff;
     font-size: 0.7rem;

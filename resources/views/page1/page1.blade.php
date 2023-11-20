@@ -96,7 +96,7 @@
 
 
 
-    <section id="section-2">
+    <section id="section-2" >
         <div class="container mt-5">
             {{-- <div class="row reverse m-0">
                 <div class="col-6 r-image1">
@@ -231,7 +231,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b ">메디나 역사지구</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">메디나 역사지구</button>
                         <p class="p1prt7 ">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
                             곳에서
                             기념품도 구매할 수 있어요.</p>
@@ -242,7 +242,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b">튀니지 미식 체험</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">튀니지 미식 체험</button>
                         <p class="p1prt7 ">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
                             페니키아,
                             로마, 오스만제국을 거쳐 프랑스의
@@ -254,7 +254,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b">인기 목적지</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b " style="width: 100px">인기 목적지</button>
                         <p class="p1prt7 ">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
                             있어요.
                             과거와 현대가 공존하고 유럽과
@@ -266,7 +266,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b">즐길거리</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">즐길거리</button>
                         <p class="p1prt7 ">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한
                             액티비티를 즐길
                             수 있어요.</p>
@@ -738,6 +738,7 @@
 
         });
     </script>
+
     <script>
         function toggleNavbarBackground() {
             var body = document.querySelector('body');

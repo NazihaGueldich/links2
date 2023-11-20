@@ -180,20 +180,7 @@
         width: 100%;
     }
 
-    .btn1-b,
-    .btn1-b1,
-    .btn1-b2,
-    .btn1-b3,
-    .btn1-b4,
-    .btn2,
-    .btn2-b,
-    .btn3,
-    .btn2-b,
-    .btn4,
-    .btn3-b,
-    .btn4-b {
-        display: none;
-    }
+
 
 
 
@@ -600,20 +587,6 @@
         width: 100%;
     }
 
-    .btn1-b,
-    .btn1-b1,
-    .btn1-b2,
-    .btn1-b3,
-    .btn1-b4,
-    .btn2,
-    .btn2-b,
-    .btn3,
-    .btn2-b,
-    .btn4,
-    .btn3-b,
-    .btn4-b {
-        display: none;
-    }
 
     .scroll-container {
         overflow-x: auto;

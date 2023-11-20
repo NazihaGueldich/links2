@@ -136,7 +136,7 @@
                             <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.</p>
                             <p> 택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 지급 방식이 달라요..</p>
                             <div>
-                                <button class="btn">Play Video <img
+                                <button class="btn">Read more <img
                                         src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                             <p class="sub-title ">쿠스쿠스</p>
                             <p>듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
                             <div>
-                                <button class="btn">Play Video <img
+                                <button class="btn">Read more <img
                                         src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                             <p class="sub-title ">라블라비</p>
                             <p>마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
                             <div>
-                                <button class="btn">Play Video <img
+                                <button class="btn">Read more <img
                                         src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
                             </div>
                         </div>
