@@ -1,0 +1,66 @@
+#linksblade  {
+    background: radial-gradient(circle, #37373c 1%, #000000 100%);
+    color: #FFF;
+}
+
+
+#linksblade .navbar #myTopnav {
+    display: flex;
+    align-items: center;
+}
+
+
+#linksblade .navbar #myTopnav img {
+    height: 40px;
+    width: auto;
+}
+
+#linksblade .secc-cont {
+    background-image: url("../images/pap.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#linksblade .secc-cont  #def {
+    font-size: 14px;
+    margin-top: 6%;
+}
+
+#linksblade .secc-cont .input-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#linksblade .secc-cont  input {
+    border-radius: 20px;
+    padding-right: 40px;
+}
+
+#linksblade .secc-cont button {
+    border-radius: 20px;
+    border: 1px solid #5537DC;
+    color: #5537DC;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#linksblade .secc-cont .socmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linksblade .secc-cont .socmed img {
+    height: 32px;
+    object-fit: contain;
+}
