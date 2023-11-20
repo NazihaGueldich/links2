@@ -80,14 +80,18 @@
         {{-- section 4 --}}
         <section id='section4'>
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
-            <div class="row">
+            <div class="row mt-lg-5">
                 <div class="col-lg-6">
-                    <div id='crd1'>
-                        <p class="sub-title">Discover Tunisia</p>
-                        <a  href="https://www.youtube.com/watch?v=GxIAwcVpvKM&ab_channel=DiscoverTunisia">
-                        <button class="btn">Play Video <img
-                                src="{{ asset('images/Arrow Right Blue.png') }}" alt="Arrow Right Blue"></button></a>
+                    <div class="wrap-video ">
+                        <video id="-video" class="video-js" controls preload="auto" poster="images/Creator-Talking-Tunisia.png">
+                            <source src="images/Tozeur.mp4" type="video/mp4" />
+                        </video>
+                        <div id="video-overlay">
+                            <p id="video-title" class="sub-title">Discover Tunisia</p>
+                            <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png" alt="Arrow Right Blue"></button>
+                        </div>
                     </div>
+
                 </div>
                 <div class="col-lg-6">
                     <div id='crd2'>
@@ -185,4 +189,24 @@
             </div>
         </section>
     </div>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const playButton = document.getElementById('play-btn');
+    const video = document.getElementById('-video');
+    const videoTitle = document.getElementById('video-title');
+
+    playButton.addEventListener('click', function() {
+        video.play();
+        playButton.style.display = 'none';
+        videoTitle.style.display = 'none';
+    });
+
+    video.addEventListener('play', function() {
+        playButton.style.display = 'none';
+        videoTitle.style.display = 'none';
+    });
+});
+
+    </script>
     @include('layouts.front.footer')
+
