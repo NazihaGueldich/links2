@@ -31,20 +31,22 @@ $('#section4 .slick-section4').slick({
     cssEase: 'linear'
 });
 
-var indses6=0;
-function srllcrdssess6(x){
+var indses6 = 0;
+
+function srllcrdssess6(x) {
 
     if (x == -1 && indses6 > 0) {
         indses6--;
     } else if (x == 1 && indses6 < 10) {
         indses6++;
-    }else if(x == -1 && indses6 ==0){
-        indses6= 10;
-    }else{
-        indses6= 0;
-    }console.log(indses6);
+    } else if (x == -1 && indses6 == 0) {
+        indses6 = 10;
+    } else {
+        indses6 = 0;
+    }
+    console.log(indses6);
 
-    var h = ['어떤 어댑터를 사용하나요?', '튀니지에 약을 가지고 들어갈 수 있나요?', '튀니지에 대한민국 대사관이 있나요?','튀니지 내 한식당이 있나요?', '튀니지 방문 시 비자를 발급받아야 하나요?', '어떤 통화(화폐)를 쓰나요?','튀니지에서 술이 허용되나요?','주말에 박물관 방문이 가능한가요?','튀니지도 다른 이슬람 국가들처럼 금요일, 토요일이 주말인가요?','튀니지에 히잡을 써야하나요?','한국에서 핸드폰 유심을 사서 갈 수 있나요?'];
+    var h = ['어떤 어댑터를 사용하나요?', '튀니지에 약을 가지고 들어갈 수 있나요?', '튀니지에 대한민국 대사관이 있나요?', '튀니지 내 한식당이 있나요?', '튀니지 방문 시 비자를 발급받아야 하나요?', '어떤 통화(화폐)를 쓰나요?', '튀니지에서 술이 허용되나요?', '주말에 박물관 방문이 가능한가요?', '튀니지도 다른 이슬람 국가들처럼 금요일, 토요일이 주말인가요?', '튀니지에 히잡을 써야하나요?', '한국에서 핸드폰 유심을 사서 갈 수 있나요?'];
     var p = [
         '튀니지에서는 한국과 동일한 220v 전압을 사용합니다. 따로 변환 플러그나 어댑터가 없어도 된다는 게 장점이에요.',
         '튀니지로 의약품을 반입할 수 있지만 모르핀이 포함된 의약품이 있다면 의약품 처방전을 지참해 오세요.',
@@ -58,36 +60,37 @@ function srllcrdssess6(x){
         '튀니지는 이슬람 국가 중에서도 개방적인 나라에 속하며, 히잡착용은 개인의 자유입니다.',
         '튀니지 공항에 도착하시면 심카드를 구매할 수 있는 매장이 있습니다. 공항 내 Ooredoo 매장에서 심카드를 구매하는 걸 추천드려요.'
     ];
-    var j=1;
-    for(var i=0;i<11;i++){
-        var idcrcl='crcl'+j+'sess6';
+    var j = 1;
+    for (var i = 0; i < 11; i++) {
+        var idcrcl = 'crcl' + j + 'sess6';
         var crcl = document.getElementById(idcrcl);
-        if(i==indses6){
+        if (i == indses6) {
             crcl.style.backgroundImage = "url(../images/ptbl.svg)";
-            crcl.style.backgroundSize="auto";
-        }else{
+            crcl.style.backgroundSize = "auto";
+        } else {
             crcl.style.backgroundImage = "url(../images/ftbl.svg)";
+            crcl.style.backgroundSize = "contain";
         }
         j++;
     }
-    document.getElementById('section6h2').innerHTML=h[indses6];
-    document.getElementById('section6p').innerHTML=p[indses6];
+    document.getElementById('section6h2').innerHTML = h[indses6];
+    document.getElementById('section6p').innerHTML = p[indses6];
 }
 
 // Section 5
-$(document).ready(function(){
+$(document).ready(function () {
     let firstLongContent = $('.wrap-trips-routes .wrap-single-zone.zone-tunis').find('.zone-long-description').html();
     $('.wrap-trips-routes-infos .content').html(firstLongContent);
 
-   $('.wrap-trips-routes .img-container .wrap-single-zone').on('click', function(e){
-       e.preventDefault();
-       let longDescriptionZone = $(this).find('.zone-long-description').html();
-       $('.wrap-trips-routes-infos .content').html(longDescriptionZone);
-   }).on('mouseenter', function(e){
-       let position = $(this);
-       $('.wrap-trips-routes .wrap-single-zone').css('z-index', '2');
-       position.css('z-index', '9');
-   });
+    $('.wrap-trips-routes .img-container .wrap-single-zone').on('click', function (e) {
+        e.preventDefault();
+        let longDescriptionZone = $(this).find('.zone-long-description').html();
+        $('.wrap-trips-routes-infos .content').html(longDescriptionZone);
+    }).on('mouseenter', function (e) {
+        let position = $(this);
+        $('.wrap-trips-routes .wrap-single-zone').css('z-index', '2');
+        position.css('z-index', '9');
+    });
 
     if (isMobileDevice()) {
         $('.wrap-single-zone').on('click', () => {
@@ -126,8 +129,3 @@ buttons.forEach((button, index) => {
         }
     });
 });
-
-
-
-
-

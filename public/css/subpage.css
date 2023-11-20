@@ -6,11 +6,12 @@
     background-color: #F2F7FF;
 }
 
-.sub-title2-3{
+.sub-title2-3 {
 
     padding-bottom: 10px;
 
 }
+
 #page-subpage .ligne-separtion {
     border: 1px solid #B5D0FF;
     position: relative;
@@ -240,7 +241,7 @@
         display: block;
     }
 
-    #page-subpage #section4 .section4-part2-mobil .slick-section4 .row .col-lg-6{
+    #page-subpage #section4 .section4-part2-mobil .slick-section4 .row .col-lg-6 {
         padding-left: 0;
         padding-right: 1%;
     }
@@ -275,34 +276,37 @@
     }
 }
 
-#page-subpage #section4  .section4-part2  .btnday:active{
+#page-subpage #section4 .section4-part2 .btnday:active {
     border: 1px solid #347EFF;
     color: #347EFF;
 }
 
 
 /* section 5 */
-#page-subpage #section5 .one-time-slide{
+#page-subpage #section5 .one-time-slide {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
 }
-#page-subpage #section5 .one-time-slide img{
+
+#page-subpage #section5 .one-time-slide img {
     cursor: pointer;
     border-radius: 20px !important;
     height: 97%;
 }
+
 #page-subpage #section5 .sess1direct img {
     margin-right: 10px;
 }
-#page-subpage #section5 .sess1direct{
+
+#page-subpage #section5 .sess1direct {
     position: absolute;
     bottom: 20px;
     z-index: 1;
 }
 
-#page-subpage #section5 #imgsess1{
+#page-subpage #section5 #imgsess1 {
     border-radius: 20px;
     border: 1px solid #347EFF;
     width: 100%;
@@ -320,13 +324,16 @@
     border-radius: 20px;
     margin-top: 65px;
 }
+
 .wrap-trips-routes .img-container {
     position: relative;
 
 }
+
 .wrap-trips-routes .img-container img {
     border-radius: 20px;
 }
+
 .wrap-trips-routes .wrap-single-zone {
     position: absolute;
     width: 24px;
@@ -356,7 +363,7 @@
 }
 
 .zone-long-description {
-    display: none!important;
+    display: none !important;
 }
 
 .wrap-trips-routes .wrap-trips-routes-infos .main-title {
@@ -374,8 +381,8 @@
     height: 100%;
 }
 
-.wrap-trips-routes-infos .top-long-description  {
-    height:  320px;
+.wrap-trips-routes-infos .top-long-description {
+    height: 320px;
 }
 
 .wrap-trips-routes-infos .top-long-description .wrap-btn-action {
@@ -419,13 +426,21 @@
 }
 
 .wrap-trips-routes .wrap-single-zone:hover:before {
-    opacity: 0!important;
+    opacity: 0 !important;
 }
 
 @keyframes flash {
-    0%   {opacity: 0;}
-    50%   {opacity: 0.65;}
-    100% {opacity: 0;}
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.65;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -433,20 +448,25 @@
         flex-direction: column;
         padding: 0px;
     }
+
     .wrap-trips-routes .img-container img {
         max-width: 100%;
         height: auto;
     }
+
     .wrap-trips-routes .wrap-trips-routes-infos {
         padding: 15px;
     }
+
     .wrap-trips-routes-infos .top-long-description {
         margin-bottom: 35px;
     }
+
     #page-subpage #section5 #imgsess1 {
         height: 235px;
         margin-top: 0;
     }
+
     .wrap-trips-routes .wrap-single-zone {
         width: 16px;
         height: 16px;
@@ -458,8 +478,8 @@
 #page-subpage #section6 #section6cont {
     border: 2px solid #347EFF;
     border-radius: 20px;
-    height: 452.94px;
-    padding: 8%;
+    height: 332px;
+    padding: 6%;
 }
 
 @media all and (max-width: 767px) {
@@ -507,9 +527,9 @@
 #page-subpage #section6 #crcl4sess6,
 #page-subpage #section6 #crcl5sess6,
 #page-subpage #section6 #crcl6sess6,
-#page-subpage #section6 #crcl7sess6 ,
-#page-subpage #section6 #crcl8sess6 ,
-#page-subpage #section6 #crcl9sess6 ,
+#page-subpage #section6 #crcl7sess6,
+#page-subpage #section6 #crcl8sess6,
+#page-subpage #section6 #crcl9sess6,
 #page-subpage #section6 #crcl10sess6,
 #page-subpage #section6 #crcl11sess6 {
     width: 20px;
@@ -522,16 +542,26 @@
 
 @media all and (max-width: 767px) {
     #page-subpage #section6 #section6cont {
-        height: 205.94px;
+        height: 291.94px;
     }
 
-    #page-subpage #section6 #crcl1sess6,
     #page-subpage #section6 #crcl2sess6,
     #page-subpage #section6 #crcl3sess6,
     #page-subpage #section6 #crcl4sess6,
     #page-subpage #section6 #crcl5sess6,
     #page-subpage #section6 #crcl6sess6,
-    #page-subpage #section6 #crcl7sess6 {
+    #page-subpage #section6 #crcl7sess6,
+    #page-subpage #section6 #crcl8sess6,
+    #page-subpage #section6 #crcl9sess6,
+    #page-subpage #section6 #crcl10sess6,
+    #page-subpage #section6 #crcl11sess6 {
         margin: 0px 3px;
+        width: 15px;
+        background-size: contain ;
+    }
+    #page-subpage #section6 #crcl1sess6{
+        margin: 0px 3px;
+        width: 15px;
+        background-size: auto;
     }
 }
