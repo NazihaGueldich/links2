@@ -466,7 +466,7 @@
 }
 
 .wrap-trips-routes .wrap-single-zone:hover:before {
-    opacity: 0 !important;
+    animation-name: none;
 }
 
 @keyframes flash {
