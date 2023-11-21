@@ -33,13 +33,20 @@ $('#section4 .slick-section4').slick({
 
 $('#section6 .section6-slick').slick({
     infinite: true,
+    speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    cssEase: 'linear'
+    arrows: true,
+    dots: false,
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
 });
 
 // Section 5
