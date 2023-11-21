@@ -18,16 +18,16 @@
                     <span class="nav-link" href="#" id="tunis-time"></span>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/"> 홈</a>
+                    <a class="nav-link" id='home' href="/"> 홈</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/about-tunisia">튀니지</a>
+                    <a class="nav-link" id='aboute' href="/about-tunisia">튀니지</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/about-atlantis">아틀란티스</a>
+                    <a class="nav-link"  id="aboutatlnts" href="/about-atlantis">아틀란티스</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link" href="/travel-information">여행정보</a>
+                    <a class="nav-link" id="travel" href="/travel-information">여행정보</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center  txtnav">
                     <div class="dropdown">
@@ -36,9 +36,9 @@
                             보다 더
                         </button>
                         <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="/sub-page">추천일정</a>
-                            <a class="dropdown-item" href="/blog-page">뉴스레터</a>
-                            <a class="dropdown-item" href="/partners">파트너</a>                           
+                            <a class="dropdown-item" id='sub' href="/sub-page">추천일정</a>
+                            <a class="dropdown-item" id='blog' href="/blog-page">뉴스레터</a>
+                            <a class="dropdown-item" id='part' href="/partners">파트너</a>                           
                         </div>
                     </div>
                 </li>

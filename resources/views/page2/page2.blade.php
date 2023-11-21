@@ -595,7 +595,52 @@
                 $(this).find('.parag-img').css('opacity', '0');
                 console.log("h2")
             }
-        })
+        });
+
+        $(document).ready(function() {
+        //54it il lien connecter
+        var currentURL = window.location.href;
+        var parts = currentURL.split('/');
+        var routeValue = parts[parts.length - 1];
+        var home=document.getElementById('home') ;
+        var aboute=document.getElementById('aboute');
+        var aboutatlnts=document.getElementById('aboutatlnts');
+        var travel=document.getElementById('travel');
+        var more=document.getElementById('dropdownMenuButton');
+
+        console.log(routeValue);
+        if(routeValue==''){
+            home.style.color = '#347EFF';
+            aboute.style.color = '#000';
+            aboutatlnts.style.color = '#000';
+            travel.style.color = '#000';
+            more.style.color = '#000';
+        }else if(routeValue=='about-tunisia'){
+            aboute.style.color = '#347EFF';
+            home.style.color = '#000';
+            aboutatlnts.style.color = '#000';
+            travel.style.color = '#000';
+            more.style.color = '#000';
+        }else if(routeValue=='about-atlantis'){
+            aboutatlnts.style.color = '#347EFF';
+            aboute.style.color = '#000';
+            home.style.color = '#000';
+            travel.style.color = '#000';
+            more.style.color = '#000';
+        }else if(routeValue=='travel-information'){
+            travel.style.color = '#347EFF';
+            aboute.style.color = '#000';
+            aboutatlnts.style.color = '#000';
+            home.style.color = '#000';
+            more.style.color = '#000';
+        }else{
+            more.style.color = '#347EFF';
+            aboute.style.color = '#000';
+            aboutatlnts.style.color = '#000';
+            travel.style.color = '#000';
+            home.style.color = '#000';
+        }
+    });
     </script>
 </body>
 
