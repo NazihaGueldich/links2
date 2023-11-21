@@ -129,3 +129,40 @@ buttons.forEach((button, index) => {
         }
     });
 });
+
+var indimgsess4 = 0;
+function ChangImgSess4(x){
+    if (x == -1 && indimgsess4 > 0) {
+        indimgsess4--;
+    } else if (x == 1 && indimgsess4 < 14) {
+        indimgsess4++;
+    } else if (x == -1 && indimgsess4 == 0) {
+        indimgsess4 = 14;
+    } else {
+        indimgsess4 = 0;
+    }
+
+    var img = ["../images/Tunsi_medina-Tunisatrip.png",
+        "../images/Archaeological_Museum_of_Sousse_Tunisiatrip.png",
+        "../images/Djerba_Sidi_Jmour_mosque_tunisiatrip.png",
+        "../images/Dougga_Tunisiatrip.png",
+        "../images/Djerba-beach_tunisiatrip.png",
+        "../images/douz_sahara_tunisiatrip.png",
+        '../images/Kerkennah_Sunset_tunisaitrip.png',
+        '../images/matmata_tunisiatrip.png',
+        '../images/sahara_tunisiatrip.png',
+        "../images/sousse-ribat.png",
+        "../images/Sousse-tunisiatrip.png",
+        '../images/star_wars_touzer_-_tunisiatrip.png',
+        "../images/starwars_tatouine-tunisa-tunisiatrip.png",
+        '../images/Tunisiatrip_Amphitheatre_el_djem.png',
+        '../images/tamerza-oasis-tunisiatrip.png'
+    ];
+
+    var alt = ['Tunsi medina', 'Archaeological Museum of Sousse', 'Djerba Sidi Jmour mosque', 'Dougga Tunisiatrip','Djerba beach','Douz sahara','Kerkennah Sunset',"Matmata",'Sahara','Sousse Ribat','Sousse','Star wars touzer','Star wars tatouine','Amphitheatre el djem','Tamerza Oasis']
+
+    console.log(indimgsess4);
+    var imgchn = document.getElementById('imgsesss4');
+    imgchn.src = "../images/" + img[indimgsess4];
+    imgchn.alt = alt[indimgsess4];
+}
