@@ -586,7 +586,7 @@
                         <li onclick="changContai(5)"><a class="show-paragraph" data-paragraph="ahla15">
                                 <h5 id='tit5' class="tit1inactv"> 9
                                 </h5>
-                                <h5 id='tit55' class="tit2inactv">세계유산목록에 등재된 장소</h5>
+                                <h5 id='tit55' class="tit2inactv">유네스코 세계유산</h5>
                             </a></li>
                     </ul>
                     <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg" alt="Peoples">
