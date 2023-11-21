@@ -95,6 +95,20 @@
     }
 }
 
+#section6 .slick-prev {
+    left: -35px;
+    margin: 0;
+}
+
+#section6 .slick-next {
+    right: -30px;
+    margin: 0;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-size: 28px;
+    color: #347EFF;
+}
 #page-subpage #section2 .btnsect2 img {
     width: 32px;
     margin-right: 10px;
@@ -452,7 +466,7 @@
 }
 
 .wrap-trips-routes .wrap-single-zone:hover:before {
-    opacity: 0 !important;
+    animation-name: none;
 }
 
 @keyframes flash {

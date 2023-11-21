@@ -30,11 +30,9 @@
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
-                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;"
-                        alt="Kasr Il Jamm">
+                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;" alt="Kasr Il Jamm">
                     <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;" alt="Ojja">
-                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;"
-                        alt="Sidi Bou Said">
+                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;" alt="Sidi Bou Said">
                 </div>
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
                     <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;" alt="">
@@ -57,10 +55,8 @@
                 <span>All rights reserved ©</span>
             </div>
             <div class="col-lg-4 text-right image-footer-1">
-                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;"
-                    alt="Facebook">
-                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;"
-                    alt="Instagramme">
+                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook">
+                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme">
                 <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;" alt="Youtyoub">
             </div>
         </div>
@@ -84,14 +80,14 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="{{ asset('assets/js/custom.js') }}"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
 <script src="{{ asset('js/subpage.js') }}"></script>
 <script src="{{ asset('js/blogpage.js') }}"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-{{-- <script src="{{ asset('js/ScriptPage1.js') }}"></script> --}}
+{{--<script src="{{ asset('js/ScriptPage1.js') }}"></script>--}}
 <script type="text/javascript">
     // Code JavaScript pour gérer l'affichage/cachage du menu
     const toggleButton = document.getElementById('toggleButton');
@@ -132,50 +128,50 @@
         }
     })
 
-    /* navbar */
-    function updateClock() {
-        const tunisTime = new Date();
+     /* navbar */
+     function updateClock() {
+            const tunisTime = new Date();
 
-        let hours = tunisTime.getHours();
-        const minutes = tunisTime.getMinutes();
-        const seconds = tunisTime.getSeconds();
+            let hours = tunisTime.getHours();
+            const minutes = tunisTime.getMinutes();
+            const seconds = tunisTime.getSeconds();
 
-        let amOrPm = hours >= 12 ? 'pm' : 'am';
-        hours = hours % 12;
-        hours = hours ? hours : 12;
+            let amOrPm = hours >= 12 ? 'pm' : 'am';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
 
-        const timeString =
-            `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
+            const timeString =
+                `${(hours < 10 ? '0' : '') + hours}:${(minutes < 10 ? '0' : '') + minutes}:${(seconds < 10 ? '0' : '') + seconds} ${amOrPm}`;
 
-        const tunisTimeElement = document.getElementById("tunis-time");
-        if (tunisTimeElement) {
-            tunisTimeElement.textContent = timeString;
+            const tunisTimeElement = document.getElementById("tunis-time");
+            if (tunisTimeElement) {
+                tunisTimeElement.textContent = timeString;
+            }
         }
-    }
 
-    updateClock();
+        updateClock();
 
-    setInterval(updateClock, 1000);
-
-    /* icons */
-    function changeImage(isMouseOver, id) {
-        var imgId = 'img' + id;
-        var pId = 'p' + id;
-        var img = document.getElementById(imgId);
-        var p = document.getElementById(pId);
-        var src;
-        if (isMouseOver) {
-            src = "../images/Icon_" + id + "_First_Animation.gif";
-            p.style.fontWeight = 'bolder';
-        } else {
-            src = "../images/Icon_" + id + "_Second_Animation.gif";
-            p.style.fontWeight = '';
+        setInterval(updateClock, 1000);
+        
+        /* icons */
+        function changeImage(isMouseOver, id) {
+            var imgId = 'img' + id;
+            var pId = 'p' + id;
+            var img = document.getElementById(imgId);
+            var p = document.getElementById(pId);
+            var src;
+            if (isMouseOver) {
+                src = "../images/Icon_" + id + "_First_Animation.gif";
+                p.style.fontWeight = 'bolder';
+            } else {
+                src = "../images/Icon_" + id + "_Second_Animation.gif";
+                p.style.fontWeight = '';
+            }
+            img.src = src;
         }
-        img.src = src;
-    }
 
 
-    $(document).ready(function() {
+        $(document).ready(function() {
         //54it il lien connecter
         var currentURL = window.location.href;
         var parts = currentURL.split('/');
@@ -185,7 +181,6 @@
         var aboutatlnts = document.getElementById('aboutatlnts');
         var travel = document.getElementById('travel');
         var more = document.getElementById('dropdownMenuButton');
-
         console.log(routeValue);
         if (routeValue == '') {
             home.style.color = '#347EFF';
@@ -217,11 +212,9 @@
             aboutatlnts.style.color = '#000';
             travel.style.color = '#000';
             home.style.color = '#000';
-
             var sub = document.getElementById('sub');
             var blog = document.getElementById('blog');
             var part = document.getElementById('part');
-
             if (routeValue == 'sub-page') {
                 sub.style.color = '#347EFF';
                 blog.style.color = '#000';
