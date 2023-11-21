@@ -51,19 +51,19 @@
                             <img src="{{ asset('images/casa-de-una planta-vector.png') }}"
                                 alt="Casa de una planta vector">
                         </div>
-                       
+
                     </div>
                     <div class="col-lg-4">
                         <div class="img p-3">
                             <img src="{{ asset('images/JSM.png') }}" alt="JSM">
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-4">
                         <div class="img p-3">
                             <img src="{{ asset('images/wonderful-tours-laos.png') }}" alt="Wonderful tours laos">
                         </div>
-                      
+
                     </div>
                 </div>
             </div>
@@ -72,15 +72,15 @@
                             <img src="{{ asset('images/casa-de-una planta-vector.png') }}"
                                 alt="Casa de una planta vector" id='img1'>
                         </div>
-                       
+
                         <div class="img p-3">
                             <img src="{{ asset('images/JSM.png') }}" alt="JSM">
                         </div>
-                       
+
                         <div class="img p-3">
                             <img src="{{ asset('images/wonderful-tours-laos.png') }}" alt="Wonderful tours laos">
                         </div>
-                        
+
             </div>
         </section>
     </div>
@@ -97,5 +97,5 @@
              infinite: true,
              speed: 500,
              cssEase: 'linear'
-         }); 
+         });
  </script>

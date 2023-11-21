@@ -84,8 +84,8 @@
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
             <div class="row mt-lg-5">
                 <div class="col-lg-6">
-                    <div class="wrap-video ">
-                        <video id="-video" class="video-js" controls preload="auto" poster="images/Creator-Talking-Tunisia.png">
+                    <div class="wrap-video">
+                        <video id="-video" class="video-js" preload="auto" poster="images/Creator-Talking-Tunisia.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
                         <div id="video-overlay">
@@ -93,6 +93,7 @@
                             <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png" alt="Arrow Right Blue"></button>
                         </div>
                     </div>
+
 
                 </div>
                 <div class="col-lg-6">
@@ -192,6 +193,22 @@
         </section>
     </div>
     <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var myVideo = document.getElementById('-video');
+    var playButton = document.getElementById('play-btn');
+
+    myVideo.controls = false;
+
+
+    function playVideo() {
+        myVideo.play();
+        myVideo.controls = true;
+    }
+
+    playButton.addEventListener('click', playVideo);
+});
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const playButton = document.getElementById('play-btn');
     const video = document.getElementById('-video');
@@ -210,5 +227,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
     </script>
+
     @include('layouts.front.footer')
 
