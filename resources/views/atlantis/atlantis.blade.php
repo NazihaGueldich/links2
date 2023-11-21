@@ -57,7 +57,7 @@
                                 alt="Atlantis Logo" style="max-width: 150px;">
                             <div class="separator"></div>
                             <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
-                                alt="CWT" style="max-width: 55px;">
+                                alt="CWT" style="max-width: 80px;">
                         </div>
 
 

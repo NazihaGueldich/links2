@@ -41,9 +41,11 @@
     background-color: transparent;
     height: 61px;
 }
+
 .tab-content img {
     border-radius: 20px;
 }
+
 .dm-sans {
     font-family: "DM Sans", sans-serif;
 }
@@ -246,7 +248,7 @@ body .wrap-custom-card .custom-card .custom-card-title {
 }
 
 body .wrap-custom-card .custom-card .custom-card-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.15;
@@ -301,11 +303,13 @@ body .wrap-culinary-card .culinary-card .card-body .card-text {
     font-style: normal;
     font-weight: 100;
 }
-#logimg{
+
+#logimg {
 
     height: auto;
-    width:150px;
+    width: 150px;
 }
+
 /* body #p3-section3,
 body #p3-section4,
 body #p3-section5 {
@@ -326,7 +330,8 @@ body #p3-section5>.container>.row {
     margin: 0 -15px;
     gap: 55px;
 }
-#p3-section4 img{
+
+#p3-section4 img {
     border-radius: 20px;
 }
 
@@ -468,6 +473,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card {
     border: 2px solid #347EFF;
     border-radius: 20px;
 }
+
 .checkbox {
     opacity: 0;
     position: absolute;
@@ -510,26 +516,35 @@ input:checked+.label:before {
 .checkbox:checked+.label .ball {
     transform: translateX(24px);
 }
-audio::-webkit-media-controls-play-button,
-     audio::-webkit-media-controls-panel {
-     background-color: #fff;
-     color: blue;
-     }
 
-     audio{
-        border: 1px solid #E177FB;
-         border-radius: 20px;
-     }
+audio::-webkit-media-controls-panel {
+    background-color: #fff;
+    color: blue;
+}
+
+audio {
+    border: 1px solid #E177FB;
+    border-radius: 20px;
+}
 
 
-      audio::-webkit-media-controls-play-button {
-        border: 1px solid #E177FB;
-        border-radius: 50%;
-      }
+audio::-webkit-media-controls-play-button {
+    border: 1px solid #EF34FF;
+    border-radius: 50%;
+    background-image: url(../../images/uil_play.svg);
+}
+audio::-webkit-media-controls-play-button:hover {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display,audio::-webkit-media-controls-time-remaining-display{
+    color: #515151;
+}
+audio::-webkit-media-controls-timeline{
+    color: #D2D2D2 !important;
+}
 
-      audio::-webkit-media-controls-play-button:hover {
-        border: 1px solid #E177FB;
-      }
+
 .fa-moon {
     color: #ffffff;
 }
@@ -537,6 +552,7 @@ audio::-webkit-media-controls-play-button,
 .fa-sun {
     color: #ffffff;
 }
+
 body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
     width: 40%;
     margin-right: 5%;
@@ -650,25 +666,25 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card {
     justify-content: center;
 }
 
-body .wrap-souvenir-card .list-souvenir-card .crd1{
+body .wrap-souvenir-card .list-souvenir-card .crd1 {
     background-image: url("../../images/Couscous.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-body .wrap-souvenir-card .list-souvenir-card .crd2{
+body .wrap-souvenir-card .list-souvenir-card .crd2 {
     background-image: url("../../images/ceramic.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-body .wrap-souvenir-card .list-souvenir-card .crd3{
+body .wrap-souvenir-card .list-souvenir-card .crd3 {
     background-image: url("../../images/Olive_oil.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-body .wrap-souvenir-card .list-souvenir-card .crd4{
+body .wrap-souvenir-card .list-souvenir-card .crd4 {
     background-image: url("../../images/Wine.jpg");
     background-repeat: no-repeat;
     background-position: center;
