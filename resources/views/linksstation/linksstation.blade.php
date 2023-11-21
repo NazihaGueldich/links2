@@ -28,10 +28,10 @@
     <nav class="navbar navbar-expand-lg  fixed-top" >
         <div class="container justify-content-between">
             <div id="myTopnav">
-                <img src="{{ asset('images/links.png') }}" alt='Links'>
+                <img src="/images/links.png" alt='Links'>
             </div>
             <div id="myTopnav">
-                <img src="{{ asset('images/logoo.png') }}" alt=''>
+                <img src="/images/logoo.png" alt=''>
             </div>
         </div>
     </nav>
@@ -51,10 +51,12 @@
             </div>
             <div>
                 <div class="socmed gap-2">
-                    <img src="{{ asset('images/instagramme.png') }}" alt='Instagrame'>
-                    <img src="{{ asset('images/facebook.png') }}" alt='Facebook'>
-                    <img src="{{ asset('images/linkedin.png') }}" alt='Linkedin'>
-                    <img src="{{ asset('images/youtyoub.png') }}" alt='Youtub'>
+                    <img src="/images/facebook.png" alt='Facebook'>
+                    <img src="/images/linkedin.png" alt='LinkedIn'>
+                    <img src="/images/youtyoub.png" alt='YouTube'>
+                    <img src="/images/instagramme.png" alt='Instagrame'>
+
+
                 </div>
                 <p>contact@linksprod.com</p>
             </div>
