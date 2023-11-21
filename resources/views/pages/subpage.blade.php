@@ -302,16 +302,20 @@
             <h2 class="main-title text-center">Our Most Popular Tour</h2>
             <p class="text-center">아틀란티스가 제안하는 8일 튀니지 추천 여행 일정</p>
             <div id="section4-part1" class="mt-lg-5">
-                <div class="row p-4 mr-0">
-                    <div class="col-lg-6 py-lg-4 section4-part1-part1">
+                <div class="row p-lg-4 py-2 mr-0">
+                    <div class="col-lg-4 py-lg-4 section4-part1-part1">
                         <h2 class="sub-title">튀니지 5성급 일주 </h2>
                         <p>- 사하라사막 포함 </p>
                         <p>- 스타워즈 촬영지 방문</p>
                         <p>- 프리미엄 호텔 숙박 </p>
                         <p>- 영어 가이드 동행</p>
                     </div>
-                    <div class="col-lg-6">
-                        <img id='imgsesss4' src="{{ asset('images/cont.png') }}" alt="Tunisie Sahara">
+                    <div class="col-lg-8  one-time-slide">
+                        <img id='imgsesss4' src="{{ asset('images/Tunsi_medina-Tunisatrip.png') }}" alt="Tunsi medina">
+                        <div class="d-flex sccgrp p-lg-3 sess1direct w-100 justify-content-between" id="dirct">
+                            <img src="{{ asset('images/flr.png') }}" onclick="ChangImgSess4(-1)" alt='Arrow left'>
+                            <img src="{{ asset('images/fll.png') }}" onclick="ChangImgSess4(1)" alt='Arrow right'>
+                        </div>
                     </div>
                 </div>
             </div>
