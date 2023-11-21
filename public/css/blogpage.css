@@ -141,7 +141,7 @@
 
 
 #blog-page #section4 .wrap-video .video-js {
-    height: 318px;
+    height: 320px;
     object-fit: inherit;
     width: 100%;
     border-radius: 20px;
@@ -155,7 +155,7 @@
 #blog-page #section4 .wrap-video #video-overlay {
     position: absolute;
     top: 28%;
-    left: 34%;
+    left: 21%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
@@ -179,7 +179,7 @@
 #blog-page #section4 .wrap-video .sub-title {
     display: block;
     color: #FFF;
-    padding-top: 88%;
+    padding-top: 85%;
 }
 
 #blog-page #section4 .wrap-video button {
@@ -190,7 +190,7 @@
     border-radius: 20px;
     color: #347EFF;
     font-size: 1rem;
-    margin-top: 18%;
+    margin-top: 22%;
 }
 
 #blog-page #section4 #crd2 {
@@ -198,16 +198,16 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    height: 318px;
+    height: 320px;
     background-size: cover;
 }
 
 
 #blog-page #section4 #crd2 .sub-title {
     color: #347EFF;
-    padding-top: 17%;
+    padding-top:17%;
     margin-right: 34%;
-    padding-left: 9%;
+    padding-left: 9%
 }
 
 #blog-page #section4 #crd2 button {

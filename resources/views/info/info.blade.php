@@ -585,43 +585,51 @@
                             <ul class="list-souvenir-card p-0">
                                 <li>
                                     <div class="souvenir-card crd1" >
-                                        <h5 class="card-title">쿠스쿠스</h5>
+
                                     </div>
+                                    <h5 button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">쿠스쿠스</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd2" >
-                                        <h5 class="card-title">도자기</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">도자기</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd3">
-                                        <h5 class="card-title">올리브오일</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">올리브오일</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd4" >
-                                        <h5 class="card-title">튀니지산 와인</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">튀니지산 와인</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd1" >
-                                        <h5 class="card-title">쿠스쿠스</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">쿠스쿠스</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd2" >
-                                        <h5 class="card-title">도자기</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">도자기</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd3">
-                                        <h5 class="card-title">올리브오일</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">올리브오일</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd4" >
-                                        <h5 class="card-title">튀니지산 와인</h5>
+
                                     </div>
+                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">튀니지산 와인</button>
                                 </li>
 
                             </ul>

@@ -100,7 +100,8 @@
                     <div id='crd2'>
                         <p class="sub-title">Korean Content Creator Visits Tunisia</p>
                         <button class="btn">Play Video <img
-                                src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white"></button>
+                                src="{{ asset('images/Arrow Right white.png') }}" alt="Arrow Right white">
+                            </button>
                     </div>
                 </div>
             </div>

@@ -470,7 +470,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card {
 }
 
 body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
-    width: 50%;
+    width: 40%;
     margin-right: 5%;
 }
 
@@ -585,25 +585,25 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card {
 body .wrap-souvenir-card .list-souvenir-card .crd1{
     background-image: url("../../images/Couscous.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 body .wrap-souvenir-card .list-souvenir-card .crd2{
     background-image: url("../../images/ceramic.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 body .wrap-souvenir-card .list-souvenir-card .crd3{
     background-image: url("../../images/Olive_oil.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 body .wrap-souvenir-card .list-souvenir-card .crd4{
     background-image: url("../../images/Wine.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
