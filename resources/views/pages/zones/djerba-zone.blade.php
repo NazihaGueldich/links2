@@ -19,7 +19,7 @@
     </div>
     <div class="bottom-long-description">
         <div class="col-lg-12  one-time-slide">
-            <img src="" class="w-100" id='imgsess1' alt="Matmata Tunisie">
+            <img src="{{ asset('images/Djerba_Sidi_Jmour_mosque_tunisiatrip.jpg') }}" class="w-100" id='imgsess1' alt="Djerba Sidi Jmour mosque">
             <div class="d-flex sccgrp p-lg-3 sess1direct align-items-center" id="dirct">
                 <img src="{{ asset('images/flr.png') }}" {{-- onclick="SPChangImgSess5(-1)" --}} alt="Arrow left">
                 <img id='sess1crc1' src="{{ asset('images/pt.png') }}" alt="Point">

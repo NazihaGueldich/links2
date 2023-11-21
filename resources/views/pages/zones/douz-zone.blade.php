@@ -18,7 +18,7 @@
     </div>
     <div class="bottom-long-description">
         <div class="col-lg-12  one-time-slide">
-            <img src="{{ asset('images/Rectangle 821.png') }}" class="w-100" id='imgsess1' alt="Matmata Tunisie">
+            <img src="{{ asset('images/douz_sahara_tunisiatrip.jpg') }}" class="w-100" id='imgsess1' alt="Douz Tunisie">
             
         </div>
     </div>
