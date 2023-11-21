@@ -669,7 +669,7 @@
                     <div class="row w-100">
                         <div class="col-md-12">
                             <div class="section-header">
-                                <h2 class="main-title dm-sans text-center">What to buy in Tunisia</h2>
+                                <h2 class="main-title dm-sans text-center">Buy something special</h2>
                             </div>
                         </div>
                     </div>
