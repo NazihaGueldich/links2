@@ -6,7 +6,7 @@
 
         <div class="wrapper">
             <section id="p3-section1">
-                <div class="container" style="max-width: 1400px">
+                <div class="container" >
                     {{-- icons --}}
                     <div class="flex-container pt-5 sessicn">
                         <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">

@@ -6,7 +6,9 @@
     color: #515151;
 }
 
-
+#page-info .container{
+    max-width: 1400px
+}
 
 .btnactv {
     border-radius: 20px;
@@ -605,7 +607,7 @@ body .wrap-festival-card .col-md-4 {
 }
 
 body .wrap-festival-card .custom-card {
-    height: 346px;
+    height: 364px;
     width: 330px;
     max-width: 100%;
     position: relative;
@@ -637,8 +639,8 @@ body .wrap-festival-card .custom-card .custom-card-title {
 
 body .wrap-festival-card .custom-card .custom-card-text {
     position: absolute;
-    right: 33px;
-    top: 60%;
+    right: 20px;
+    top: 55%;
     font-size: 1rem;
     line-height: 2.15;
 }
