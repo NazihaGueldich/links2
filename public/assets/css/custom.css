@@ -480,7 +480,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card {
 }
 
 .label {
-    background-color: #ec1cd7;
+    background-color: blue;
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -494,7 +494,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card {
 }
 
 input:checked+.label {
-    background-color: blue;
+    background-color: #ec1cd7;
 }
 
 input:checked+.label:before {
@@ -523,7 +523,8 @@ audio::-webkit-media-controls-panel {
 }
 
 audio {
-    border: 1px solid #E177FB;
+    /* border: 1px solid #E177FB; */
+    border: 1px solid blue;
     border-radius: 20px;
 }
 
