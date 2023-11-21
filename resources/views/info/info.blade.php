@@ -61,9 +61,27 @@
                         <div class="col-md-4">
                             <div class="custom-card">
                                 <h5 class="custom-card-title dm-sans">‘Aslema!’</h5>
-                                <p class="custom-card-text">안녕하세요(만났을 때)</p>
-                                <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}"
-                                    alt="Aslema">
+                                <p class="custom-card-text ">안녕하세요(만났을 때)</p>
+                                <div class="d-flex flex-column justify-content-end align-items-center">
+                                    <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}"
+                                        alt="Aslema">
+
+
+                                    <div class="one-quarter mt-4" id="switch">
+                                        <input type="checkbox" class="checkbox" id="chk" />
+                                        <label class="label" for="chk">
+                                            <i class="fas fa-venus" style="color: #ffffff"></i>
+                                            <i class="fas fa-mars" style="color: #ffffff"></i>
+                                            <div class="ball"></div>
+                                        </label>
+                                    </div>
+                                    <figure class="mt-4">
+                                        <audio controls src="/audio/F_Aslema.mp3">
+                                          <a href="/audio/F_Aslema.mp3">Download audio</a>
+                                        </audio>
+                                      </figure>
+
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -131,7 +149,7 @@
                     <div class="col-md-12">
                         <div class="section-header">
                             <h2 class="main-title dm-sans text-center">Culinary recomendation</h2>
-                            <p class=" m-auto text-center col-lg-6">튀니지 음식은 동서양 요리 양식이  혼합된 형태예요.
+                            <p class=" m-auto text-center col-lg-6">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요.
 
                                 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.
 
@@ -298,8 +316,8 @@
                                                 제르바섬으로 이동하는 노선을 운영합니다.</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="{{ asset('img/Trans_Ferry.jpg') }}"
-                                                class="img-fluid" alt="taxi">
+                                            <img src="{{ asset('img/Trans_Ferry.jpg') }}" class="img-fluid"
+                                                alt="taxi">
                                         </div>
                                     </div>
                                 </div>
@@ -324,12 +342,12 @@
                         </div>
                     </div>
                     <div class="row wrap-museums-card">
-                        <div class="col-md-12 " >
+                        <div class="col-md-12 ">
                             <ul class="list-museums-card p-0 mb-lg-0">
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('images/Bardo_museum.jpg') }}" alt="Bardo Museum Tunisia"
-                                           >
+                                        <img class="card-img-top" src="{{ asset('images/Bardo_museum.jpg') }}"
+                                            alt="Bardo Museum Tunisia">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">바르도 박물관</h5>
                                             <div class="card-text">
@@ -341,8 +359,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('images/Carthage_Museum.jpg') }}" alt="Carthage Museum Tunisia"
-                                           >
+                                        <img class="card-img-top" src="{{ asset('images/Carthage_Museum.jpg') }}"
+                                            alt="Carthage Museum Tunisia">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">카르타고 박물관</h5>
                                             <div class="card-text">
@@ -355,8 +373,8 @@
                                 </li>
                                 <li>
                                     <div class="museums-card">
-                                        <img class="card-img-top" src="{{ asset('images/Borguiba_museum.jpg') }}" alt="Borguiba Museum Tunisia"
-                                          >
+                                        <img class="card-img-top" src="{{ asset('images/Borguiba_museum.jpg') }}"
+                                            alt="Borguiba Museum Tunisia">
                                         <div class="card-body p-0">
                                             <h5 class="card-title">하비브 부르기바 박물관</h5>
                                             <div class="card-text">
@@ -451,7 +469,8 @@
                         <div class="col-md-3 offset-lg-1">
                             <div class="custom-card">
                                 <div class="mask-image">
-                                    <img src="{{ asset('images/JCC (1).png') }}" class="img-fluid w-100" alt="Carthage">
+                                    <img src="{{ asset('images/JCC (1).png') }}" class="img-fluid w-100"
+                                        alt="Carthage">
                                 </div>
                                 {{-- <div class="note">
                                    <img src="{{ asset('images/review_Star.svg') }}" >
@@ -510,7 +529,8 @@
                         <div class="col-md-3 offset-lg-1">
                             <div class="custom-card">
                                 <div class="mask-image">
-                                    <img src="{{ asset('images/Jazz_Tabarka.png') }}" class="img-fluid w-100" alt="Carthage">
+                                    <img src="{{ asset('images/Jazz_Tabarka.png') }}" class="img-fluid w-100"
+                                        alt="Carthage">
                                 </div>
                                 {{-- <div class="note">
                                    <img src="{{ asset('images/review_Star.svg') }}" >
@@ -529,7 +549,8 @@
                         <div class="col-md-3">
                             <div class="custom-card">
                                 <div class="mask-image">
-                                    <img src="{{ asset('images/Douz_Sahara_Fest.png') }}" class="img-fluid w-100" alt="Carthage">
+                                    <img src="{{ asset('images/Douz_Sahara_Fest.png') }}" class="img-fluid w-100"
+                                        alt="Carthage">
                                 </div>
                                 {{-- <div class="note">
                                    <img src="{{ asset('images/review_Star.svg') }}" >
@@ -584,52 +605,60 @@
                         <div class="col-md-12">
                             <ul class="list-souvenir-card p-0">
                                 <li>
-                                    <div class="souvenir-card crd1" >
+                                    <div class="souvenir-card crd1">
 
                                     </div>
-                                    <h5 button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">쿠스쿠스</button>
+                                    <h5 button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">쿠스쿠스</button>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card crd2" >
+                                    <div class="souvenir-card crd2">
 
                                     </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">도자기</button>
-                                </li>
-                                <li>
-                                    <div class="souvenir-card crd3">
-
-                                    </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">올리브오일</button>
-                                </li>
-                                <li>
-                                    <div class="souvenir-card crd4" >
-
-                                    </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">튀니지산 와인</button>
-                                </li>
-                                <li>
-                                    <div class="souvenir-card crd1" >
-
-                                    </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">쿠스쿠스</button>
-                                </li>
-                                <li>
-                                    <div class="souvenir-card crd2" >
-
-                                    </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">도자기</button>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">도자기</button>
                                 </li>
                                 <li>
                                     <div class="souvenir-card crd3">
 
                                     </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">올리브오일</button>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">올리브오일</button>
                                 </li>
                                 <li>
-                                    <div class="souvenir-card crd4" >
+                                    <div class="souvenir-card crd4">
 
                                     </div>
-                                    <button  type="button" class="btn btn-outline-primary btn1-b mt-3" style="width: 100px">튀니지산 와인</button>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">튀니지산 와인</button>
+                                </li>
+                                <li>
+                                    <div class="souvenir-card crd1">
+
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">쿠스쿠스</button>
+                                </li>
+                                <li>
+                                    <div class="souvenir-card crd2">
+
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">도자기</button>
+                                </li>
+                                <li>
+                                    <div class="souvenir-card crd3">
+
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">올리브오일</button>
+                                </li>
+                                <li>
+                                    <div class="souvenir-card crd4">
+
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary btn1-b mt-3"
+                                        style="width: 100px">튀니지산 와인</button>
                                 </li>
 
                             </ul>
@@ -647,8 +676,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <script>
-               window.addEventListener('resize', function() {
+        const chk = document.getElementById('chk');
+
+        chk.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
+        });
+
+        const floating_btn = document.querySelector('.floating-btn');
+        const close_btn = document.querySelector('.close-btn');
+        const social_panel_container = document.querySelector('.social-panel-container');
+
+        floating_btn.addEventListener('click', () => {
+            social_panel_container.classList.toggle('visible')
+        });
+
+        close_btn.addEventListener('click', () => {
+            social_panel_container.classList.remove('visible')
+        });
+        window.addEventListener('resize', function() {
             var itemsDiv = document.getElementById('btns');
             var crds = document.getElementById('crdssess1');
             var crdssess5 = document.getElementById('crdssess5');
@@ -708,22 +758,19 @@
         });
 
 
-function changbtn(x) {
-             var btn;
-             var btnId;
-             for (var index = 0; index < 6; index++) {
-                 btnId = 'btn' + index;
-                 btn = document.getElementById(btnId);
-                 if (x == index) {
-                     btn.classList.replace("btninactv","btnactv");
-                 } else {
-                     btn.classList.replace("btnactv",'btninactv');
-                     btn.classList.remove("active");
-                 }
-             }
-         }
-
-
-
+        function changbtn(x) {
+            var btn;
+            var btnId;
+            for (var index = 0; index < 6; index++) {
+                btnId = 'btn' + index;
+                btn = document.getElementById(btnId);
+                if (x == index) {
+                    btn.classList.replace("btninactv", "btnactv");
+                } else {
+                    btn.classList.replace("btnactv", 'btninactv');
+                    btn.classList.remove("active");
+                }
+            }
+        }
     </script>
     @include('layouts.front.footer')
