@@ -55,13 +55,7 @@ Route::get('/partners', function () {
     return view('pages.partners');
 });
 
-Route::get('/linksstationn', function () {
-    return view('pages.linksstation');
-});
 
-Route::get('/linksstation', function () {
-    return view('linksstation.linksstation');
-});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

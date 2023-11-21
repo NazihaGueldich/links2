@@ -423,7 +423,7 @@
                     <div class="d-flex flex-column prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">스포츠</button>
-                            <img src="{{ asset('images/football.png') }}" class="img-fluid img6" style="z-index: -1;"
+                            <img src="{{ asset('images/Sport_fun.jpg') }}" class="img-fluid img6" style="z-index: -1;"
                                 alt="Football Tunisie">
 
                         </div>
