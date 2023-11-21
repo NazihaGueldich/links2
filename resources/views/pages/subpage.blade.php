@@ -73,7 +73,7 @@
                         </div>
                         <div class="crdsess3prt2">
                             <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">도하 <strong> 카타르</strong></p>
+                                <p class="mb-0 pb-0">인천 <strong> 한국</strong></p>
                             </div>
                             <div class="col-3 p-0 route">
                                 <hr class="lignedisc">
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">도하 <strong> 카타르</strong></p>
+                                <p class="mb-0 pb-0">이스탄불 <strong> 튀르키예</strong></p>
                             </div>
                             <div class="col-3 p-0 route">
                                 <hr class="lignedisc">
