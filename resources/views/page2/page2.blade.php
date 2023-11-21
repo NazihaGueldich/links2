@@ -170,7 +170,7 @@
                             최고 기온은 33 ̊C입니다.
                 </p>
             </div>
-            <div class="mt-lg-5 d-flex flex-column  align-items-center ">
+            <div class="mt-lg-5 d-flex flex-column  align-items-center  allsec">
                 <div class=" buttons ">
                     <button id='btn0sect5' class="p-2 btn btnactv" onclick="changtextSect3(0)">여름은</button>
                     <button id='btn1sect5' class="p-2 btninactv" onclick="changtextSect3(1)">겨울</button>
@@ -180,7 +180,7 @@
 
 
                     <div class="row">
-                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
+                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
                             <div class="para-section">
                                 <p class="mt-3 mt-lg-5" id='sec3titrp5'>6월부터 9월:</p>
                                 <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는 덥고 건조하며 남부로 내려갈수록 기온이 더
@@ -213,7 +213,7 @@
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
                 </p>
             </div>
-            <div class="mt-5 d-flex flex-column  align-items-center ">
+            <div class="mt-5 d-flex flex-column  align-items-center allsec">
                 <div class=" buttons ">
                     <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>

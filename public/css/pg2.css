@@ -47,9 +47,7 @@ main {
     margin-bottom: 19px;
 }
 
-#section-6 {
-background: #d6dfef17;
-}
+
 #section-10 .ligne-separtion {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
@@ -753,6 +751,12 @@ body {
     padding-left: 6%;
     width: 100%;
     text-align: left;
+}
+
+.allsec{
+    border: 1px solid #347EFF;
+    border-radius: 20px;
+    padding-top: 10px;
 }
 
 .inx {
