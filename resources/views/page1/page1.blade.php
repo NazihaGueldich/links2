@@ -605,6 +605,7 @@
                     <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적
                         발전에 대한 헌신을 보여줍니다.</p>
 
+                    <img id='img5Cnt' class='imginactv' src="images/UNSCO.png" alt="Usnco">
                     <p id="txt5" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적
                         발전에 대한 헌신을 보여줍니다.</p>
                 </div>
