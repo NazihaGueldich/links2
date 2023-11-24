@@ -65,9 +65,16 @@
         display: none;
     }
     #partners #partners-cont #partnerspartmob {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #partners #partners-cont #img1{
-        height: 156px;
+        height: 66px;
+    }
+     #partners #partners-cont .img{
+        height: 96px;
+    width: 200px;
+    margin-bottom: 2%;
     }
 }

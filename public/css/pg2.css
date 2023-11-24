@@ -671,7 +671,7 @@ body {
 /* part 5 */
 
 .buttons{
-    width: 83.333333%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

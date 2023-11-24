@@ -103,7 +103,7 @@
         display: block !important;
     }
     .button-formulaire{
-        padding-right: 7%;
+        text-align: center;
     }
     #myCarousel {
         height: 100%;
@@ -232,17 +232,13 @@
     .imageB3,
     .imageB4 {
         width: 100%;
-        height: 70px;
-        border-radius: 10px;
+        height: 236px;
+        border-radius: 20px;
         background-size: 100% 100%;
         object-fit: cover;
     }
 
-    .text-p {
-        font-size: 1rem;
-        font-weight: bold;
-        color: #347EFF;
-    }
+    
 
     .text-p2,
     .text-p3,
@@ -508,7 +504,7 @@
     }
 
     #section-8 .card2 {
-        width: 95%;
+        width: 100%;
     }
 
     .btn.btn-outline-primary.btn1-main2 {
@@ -556,16 +552,7 @@
         align-items: center;
     }
 
-    #btn1,
-    #btn1-b,
-    #btn2,
-    #btn2-b,
-    #btn3,
-    #btn3-b,
-    #btn4,
-    #btn4-b {
-        display: none;
-    }
+    
 
     .text2 {
         margin-left: 0px;
@@ -588,10 +575,7 @@
     }
 
 
-    .scroll-container {
-        overflow-x: auto;
-    }
-
+ 
     .scroll-container>div {
         display: inline-block;
     }
@@ -791,12 +775,12 @@
     .txt1 {
 
         height: 50px;
-        border-radius: 25px;
+        border-radius: 20px;
     }
 
     .txt2 {
         height: 300px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
 }
@@ -832,19 +816,19 @@
     }
 
     .cardul li {
-        flex: 0 0 25%;
+        flex: 0 0 20%;
         height: 50px;
     }
 
     .tit1actv {
-        font-size: 15px !important;
+        font-size: 12px !important;
         color: #347EFF !important;
         text-align: center !important;
         font-family: noto !important;
     }
 
     .tit2actv {
-        font-size: 11px !important;
+        font-size: 10px !important;
         color: black !important;
         text-align: center !important;
         font-family: noto !important;
@@ -897,7 +881,7 @@
     .affmob {
         display: flex !important;
         flex-direction: column !important;
-        align-items: center !important;
+        align-items: flex-start !important;
     }
 
     .sess3 {
@@ -913,5 +897,17 @@
 
     footer {
         padding: 15px;
+    }
+
+
+    .sess3-web{
+        display: none!important;
+    }
+    .sess3-mob{
+        display: block !important;
+    }
+
+    .block-cards .col-lg-3{
+        padding: 0;
     }
 }

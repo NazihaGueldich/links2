@@ -1522,3 +1522,11 @@ section .block-cards {
     font-size: 20px;
     border: 1px solid #fff;
 }
+
+
+.sess3-web{
+    display: block;
+}
+.sess3-mob{
+    display: none !important;
+}

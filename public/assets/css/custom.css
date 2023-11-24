@@ -741,6 +741,13 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     .note img {
         padding-right: 20%;
     }
+
+    #p3-section1 .col-md-4,#p3-section2 .col-md-12,#p3-section2 .col-lg-6{
+        padding: 0;
+    }
+    body .wrap-culinary-card .slick-list .slick-track{
+        gap: 1px;
+    }
 }
 
 /*# sourceMappingURL=custom.css.map */

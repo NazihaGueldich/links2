@@ -562,3 +562,15 @@ function viderchapm() {
     $("#email").val('');
     $("#contenue").val('');
 }
+
+
+$('.sess3-mob').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});

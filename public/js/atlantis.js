@@ -411,46 +411,61 @@ function PAsrllcrdssess6(x) {
     }
 }
 
-        $('.session3-slick-mobile').slick({
-            infinite: true,
+$('.session3-slick-mobile').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
+$('.session5-slick-mobile').slick({
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: true,
+            dots: false,
             slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-        $('.session5-slick-mobile').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-        $('.session6-slick-mobile').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-        function toggleNavbarBackground() {
-            var body = document.querySelector('body');
-            body.classList.toggle('navbar-toggled');
+            slidesToScroll: 1
         }
-        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
-            if ($(this).find('.parag-img').css('opacity', '0')) {
-                $(this).find('.parag-img').css('opacity', '1')
-                console.log("h1")
-            } else {
-                $(this).find('.parag-img').css('opacity', '0');
-                console.log("h2")
-            }
-        });
+    }]
+});
+$('.session6-slick-mobile').slick({
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: true,
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});
+
+function toggleNavbarBackground() {
+    var body = document.querySelector('body');
+    body.classList.toggle('navbar-toggled');
+}
+$('#image-2, #image-3, #image-4, #image-5').on('click', function () {
+    if ($(this).find('.parag-img').css('opacity', '0')) {
+        $(this).find('.parag-img').css('opacity', '1')
+        console.log("h1")
+    } else {
+        $(this).find('.parag-img').css('opacity', '0');
+        console.log("h2")
+    }
+});

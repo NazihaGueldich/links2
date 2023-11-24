@@ -95,7 +95,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">아프리카 최북단</h5>
-                            <img src="{{ asset('images/afrique.svg') }}" class="img2-section3 mt-n3" alt="Afrique">
+                            <img src="{{ asset('images/map2-02-05_2.svg') }}" class="img2-section3 mt-n3" alt="Afrique">
                             <p class="parghraphe1">아프리카 대륙의 최북단에 위치하며, 아틀라스 산맥을 따라 자리 잡은 나라들 중 가장 작은 국가예요.</p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">북아프리카</h5>
-                            <img src="{{ asset('images/PointAfrique.svg') }}" class="img1-section3 mt-n3" alt="Point Afrique">
+                            <img src="{{ asset('images/map2-02-03_2.svg') }}" class="img1-section3 mt-n3" alt="Point Afrique">
                             <p class="parghraphe1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와 국경을
                                 접하고
                                 있어요.</p>
@@ -115,7 +115,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">지중해</h5>
-                            <img src="{{ asset('images/Mer-image.svg') }}"class="img3-section3 mt-n3" >
+                            <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3 mt-n3" >
                             <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 관문이기도 해요.</p>
                         </div>
                     </div>
@@ -462,7 +462,7 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81">
                                 <button class="btn btn-outline-primary button-main">스포츠</button>
-                                <img src="{{ asset('images/football.png') }}" class="img-fluid img6"
+                                <img src="{{ asset('images/Sport_fun.jpg') }}" alt="Football" class="img-fluid img6"
                                     style="z-index: -1;" alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구

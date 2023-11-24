@@ -432,7 +432,7 @@
         .buttons{
             padding-right: 0;
             padding-left: 0;
-            width: 100%;
+            width: 95%;
         }
 
         .btninactv,
@@ -518,6 +518,7 @@
 
         .col-lg-6.d-flex {
             margin-top: 0px;
+            padding: 0;
         }
 
         #pprt6 {
@@ -534,7 +535,7 @@
         }
 
         #section-1 .one-time-slide {
-            margin-bottom: 50px;
+            padding: 0;
         }
 
         #txtindx {
@@ -638,7 +639,7 @@
         }
 
         .ktbchng {
-            height: 659px;
+            height: 570px;
             width: 100%;
         }
 
@@ -653,10 +654,21 @@
 
         .section-8-prt1 {
             height: 316px;
+            padding: 0;
         }
 
         .section-8-prt1-p {
             height: 97px;
+        }
+
+        .slick-section-10 img{
+            height: 340px;
+        }
+
+        #section-9  .col-lg-4,#section-10  .col-lg-4
+        ,#section-3  .col-lg-4
+        ,#section-1  .col-lg-4{
+            padding: 0;
         }
 
     }

@@ -96,7 +96,7 @@
 
 
 
-    <section id="section-2" >
+    <section id="section-2">
         <div class="container mt-5">
             {{-- <div class="row reverse m-0">
                 <div class="col-6 r-image1">
@@ -231,7 +231,8 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">메디나 역사지구</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">메디나
+                            역사지구</button>
                         <p class="p1prt7 ">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
                             곳에서
                             기념품도 구매할 수 있어요.</p>
@@ -242,7 +243,8 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">튀니지 미식 체험</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">튀니지 미식
+                            체험</button>
                         <p class="p1prt7 ">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
                             페니키아,
                             로마, 오스만제국을 거쳐 프랑스의
@@ -254,7 +256,8 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b " style="width: 100px">인기 목적지</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b " style="width: 100px">인기
+                            목적지</button>
                         <p class="p1prt7 ">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
                             있어요.
                             과거와 현대가 공존하고 유럽과
@@ -266,7 +269,8 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">즐길거리</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b"
+                            style="width: 100px">즐길거리</button>
                         <p class="p1prt7 ">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한
                             액티비티를 즐길
                             수 있어요.</p>
@@ -347,7 +351,63 @@
                 </div>
             </div>
             <div class=" scroll-container w-100">
-                <div class="d-flex gap-20 mt-4">
+                <div class="d-flex gap-20 mt-4 sess3-web">
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
+                            alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p " id='crd2h1'>튀니스</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn1-b text-center mr"
+                                    id="btn1">수도</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
+                                    id="btn1-b">동쪽</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
+                            alt="Sahara" {{-- onclick="changeImage2()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p2" id='crd2h2'>두즈</span>
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3"
+                            alt='The Great Mosque of Kairouan' {{-- onclick="changeImage3()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p3" id='crd2h3'>카이루안</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn3 text-center" id="btn3">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
+                                    id="btn3-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4"
+                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>마트마타</span>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
+                                    id="btn4-b">남쪽</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" sess3-mob">
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
                             alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
@@ -405,7 +465,6 @@
                 </div>
             </div>
 
-        </div>
         </div>
     </section>
 
@@ -528,7 +587,7 @@
                             <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" style="resize: none;"
                                 placeholder="문의사항 " required></textarea>
                         </div>
-                        <div class="form-group text-right mt-lg-4 button-formulaire">
+                        <div class="form-group text-lg-right mt-lg-4 button-formulaire">
 
                             <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
                                 onclick="viderchapm()">취소</button>
@@ -797,49 +856,49 @@
         });
 
         $(document).ready(function() {
-        //54it il lien connecter
-        var currentURL = window.location.href;
-        var parts = currentURL.split('/');
-        var routeValue = parts[parts.length - 1];
-        var home=document.getElementById('home') ;
-        var aboute=document.getElementById('aboute');
-        var aboutatlnts=document.getElementById('aboutatlnts');
-        var travel=document.getElementById('travel');
-        var more=document.getElementById('dropdownMenuButton');
+            //54it il lien connecter
+            var currentURL = window.location.href;
+            var parts = currentURL.split('/');
+            var routeValue = parts[parts.length - 1];
+            var home = document.getElementById('home');
+            var aboute = document.getElementById('aboute');
+            var aboutatlnts = document.getElementById('aboutatlnts');
+            var travel = document.getElementById('travel');
+            var more = document.getElementById('dropdownMenuButton');
 
-        console.log(routeValue);
-        if(routeValue==''){
-            home.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='about-tunisia'){
-            aboute.style.color = '#347EFF';
-            home.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='about-atlantis'){
-            aboutatlnts.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            home.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='travel-information'){
-            travel.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            home.style.color = '#000';
-            more.style.color = '#000';
-        }else{
-            more.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            home.style.color = '#000';
-        }
-    });
+            console.log(routeValue);
+            if (routeValue == '') {
+                home.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'about-tunisia') {
+                aboute.style.color = '#347EFF';
+                home.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'about-atlantis') {
+                aboutatlnts.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                home.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'travel-information') {
+                travel.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                home.style.color = '#000';
+                more.style.color = '#000';
+            } else {
+                more.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                home.style.color = '#000';
+            }
+        });
     </script>
 
 
