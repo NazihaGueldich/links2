@@ -411,7 +411,7 @@
                 </div>
             </div>
             <div class="row sess5-crds  session5-slick-mobile">
-                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                <div class="col-lg-3  sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
                             alt="Four Seasons Tunis">
@@ -471,7 +471,7 @@
                     </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
-                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                <div class="col-lg-3  sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}"
                             class="img-fluid" alt="The Residence Tunis">
@@ -529,6 +529,101 @@
                         <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                     </div>
                     <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <div class="mask-image">
+                        <img id='sess5crd6img' src="{{ asset('images/Radisson-Sfax.jpeg') }}"
+                            class="img-fluid" alt="Radisson Sfax">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                        <p id="sess5crd6p"> Sfax, Tunisia</p>
+                    </div>
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                    </div>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Radisson Sfax</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <div class="mask-image">
+                        <img id='sess5crd6img' src="{{ asset('images/Sheraton.jpeg') }}"
+                            class="img-fluid" alt="Sheraton">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                        <p id="sess5crd6p"> Hammamet, Tunisia</p>
+                    </div>
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                    </div>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <div class="mask-image">
+                        <img id='sess5crd6img' src="{{ asset('images/Africa.jpeg') }}"
+                            class="img-fluid" alt="Africa">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                        <p id="sess5crd6p">Tunis, Tunisia</p>
+                    </div>
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                    </div>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Africa</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <div class="mask-image">
+                        <img id='sess5crd6img' src="{{ asset('images/Movenpick-Lac-2.jpeg') }}"
+                            class="img-fluid" alt="Movenpick Lac 2">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                        <p id="sess5crd6p">Tunis, Tunisia</p>
+                    </div>
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                    </div>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Movenpick Lac 2</h2>
+                </div>
+                <div class="col-lg-3 sess5crd radius-20">
+                    <div class="mask-image">
+                        <img id='sess5crd6img' src="{{ asset('images/Mouradi-gammarth-2.jpeg') }}"
+                            class="img-fluid" alt="Mouradi Gammarth">
+                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
+                    <p class="text-img">링크</p>
+                    <div class="posit">
+                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                        <p id="sess5crd6p">Tunis, Tunisia</p>
+                    </div>
+                    <div class="note">
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                    </div>
+                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Mouradi Gammarth</h2>
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp">

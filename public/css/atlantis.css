@@ -498,6 +498,14 @@ body#page-atlantis .card-session4-spns .card-body {
     width: 24%;
 }
 
+
+@media (max-width: 767px) {
+    .sess5crd,
+    .sess6crd {
+        width:100%;
+    }
+}
+
 .mask-image {
     -webkit-mask-image: url("../assets/img/masque.svg");
     mask-image: url("../assets/img/masque.svg");
