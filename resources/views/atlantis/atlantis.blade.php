@@ -290,7 +290,7 @@
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
             <div class="row sess5-crds  session5-slick-web" id='sess5-crds'>
-                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                <div class="col-lg-3  sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
                             alt="Four Seasons Tunis">
@@ -350,7 +350,7 @@
                     </div>
                     <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
                 </div>
-                <div class="col-lg-3 offset-lg-1 sess5crd radius-20">
+                <div class="col-lg-3  sess5crd radius-20">
                     <div class="mask-image">
                         <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}"
                             class="img-fluid" alt="The Residence Tunis">
@@ -649,7 +649,7 @@
             </div>
             <div class="row sess6-crds session6-slick-web mb-5" id="sess6-crds">
 
-                <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
+                <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
                             alt="Dar Ben Gacem">
@@ -695,7 +695,7 @@
 
             </div>
             <div class="row sess6-crds session6-slick-mobile">
-                <div class="col-lg-3 offset-lg-1 sess6crd radius-20">
+                <div class="col-lg-3  sess6crd radius-20">
                     <div class="mask-image">
                         <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
                             alt="Dar Belgecem">
@@ -815,55 +815,5 @@
 
     </div>
     @include('layouts.front.footer')
-
-    <script src="{{ asset('js/atlantis.js') }}"></script>
-    <script>
-        $('.session3-slick-mobile').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-        $('.session5-slick-mobile').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-        $('.session6-slick-mobile').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            cssEase: 'linear'
-        });
-    </script>
-    <script>
-        function toggleNavbarBackground() {
-            var body = document.querySelector('body');
-            body.classList.toggle('navbar-toggled');
-        }
-        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
-            if ($(this).find('.parag-img').css('opacity', '0')) {
-                $(this).find('.parag-img').css('opacity', '1')
-                console.log("h1")
-            } else {
-                $(this).find('.parag-img').css('opacity', '0');
-                console.log("h2")
-            }
-        })
-    </script>
-</body>
 
 </html>

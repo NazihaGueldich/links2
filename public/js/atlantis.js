@@ -209,11 +209,7 @@ function srllcrdssess5(x) {
         ind++;
 
         var divElement = document.createElement('div');
-        if (i == 0 || i == 3) {
-            divElement.className = 'col-lg-3 offset-lg-1 sess5crd radius-20';
-        } else {
-            divElement.className = 'col-lg-3 sess5crd radius-20';
-        }
+        divElement.className = 'col-lg-3 sess5crd radius-20';
 
         // hna sna3t div nta3 il taswira bil masque
         const maskDivElement = document.createElement('div');
@@ -395,11 +391,7 @@ function PAsrllcrdssess6(x) {
         console.log(h2);
         let sectionContent = '';
 
-        if (i == 0 || i == 3) {
-            sectionContent += `<div class="col-lg-3 offset-lg-1 sess6crd radius-20">`;
-        } else {
-            sectionContent += `<div class="col-lg-3 sess6crd radius-20">`;
-        }
+        sectionContent += `<div class="col-lg-3 sess6crd radius-20">`;
 
         sectionContent += `
             <div class="mask-image">
@@ -419,3 +411,46 @@ function PAsrllcrdssess6(x) {
     }
 }
 
+        $('.session3-slick-mobile').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
+        });
+        $('.session5-slick-mobile').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
+        });
+        $('.session6-slick-mobile').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            cssEase: 'linear'
+        });
+        function toggleNavbarBackground() {
+            var body = document.querySelector('body');
+            body.classList.toggle('navbar-toggled');
+        }
+        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
+            if ($(this).find('.parag-img').css('opacity', '0')) {
+                $(this).find('.parag-img').css('opacity', '1')
+                console.log("h1")
+            } else {
+                $(this).find('.parag-img').css('opacity', '0');
+                console.log("h2")
+            }
+        });

@@ -84,6 +84,7 @@
 <script src="{{asset('assets/js/custom.js')}}"></script>
 <script src="{{ asset('js/subpage.js') }}"></script>
 <script src="{{ asset('js/blogpage.js') }}"></script>
+<script src="{{ asset('js/atlantis.js') }}"></script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

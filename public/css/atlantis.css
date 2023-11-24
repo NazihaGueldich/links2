@@ -488,7 +488,13 @@ body#page-atlantis .card-session4-spns .card-body {
     margin-right: 10px;
 }
 
+
 /* session 5 */
+
+#page-atlantis  .row{
+    justify-content: center;
+    margin-right: 0px;
+}
 
 .sess5crd,
 .sess6crd {
@@ -522,8 +528,9 @@ body#page-atlantis .card-session4-spns .card-body {
 #sess5crd5img,
 #sess5crd6img,
 .sess6crdimg {
-    height: 285px;
+    height: 288px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .sess5crd img,
