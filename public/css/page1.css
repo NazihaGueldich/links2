@@ -1158,26 +1158,6 @@ body.tunisiatrip .card5 {
     box-shadow: none;
 }
 
-#section-2 .btn.btn-outline-primary:not(:disabled):not(.disabled):active,
-.show>.btn.btn-outline-primary.dropdown-toggle {
-    color: #fff;
-    background-color: transparent;
-    border-color: #ffffff;
-    transition: none;
-    box-shadow: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .btn.btn-outline-primary.btn1-b1,
 .btn.btn-outline-primary.btn3,
@@ -1189,17 +1169,15 @@ body.tunisiatrip .card5 {
 .btn.btn-outline-primary.btn1-b4 ,
 .btn.btn-outline-primary.btn1-b,
 .btn.btn-outline-primary.btn1-b1{
-    width: 63px;
-    height: 18px;
-    background-color: #B3B3B3;
-    transition: none;
+    border-radius: 20px;
+    background-color: #fff !important;
+    width: auto;
+    color: #347EFF !important;
+    border: 1px solid #347EFF !important;
+    font-weight: 500;
+    font-size: .7rem;
+    margin-bottom: 5px;
     box-shadow: none;
-
-    border-radius: 30px;
-    color: #ffffff;
-    font-size: 0.7rem;
-    border: none !important;
-    line-height: 0;
 }
 
 
@@ -1480,10 +1458,11 @@ section .block-cards {
     height: 280px;
     cursor: pointer;
     border-radius: 20px;
-    margin: 15px 0px;
+    margin: 5px 0px;
     padding: 15px;
     background-size: cover;
     background-position: bottom;
+    
 }
 
 .section-2-hover .links_box-1 {

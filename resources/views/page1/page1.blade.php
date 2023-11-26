@@ -231,7 +231,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">메디나
+                        <button type="button" class="btn btn-outline-primary btn1-b">메디나
                             역사지구</button>
                         <p class="p1prt7 ">메디나 전통시장에서 역사적 정취를 느끼고,튀니지의 문화를 체험해보세요. 이
                             곳에서
@@ -243,7 +243,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b" style="width: 100px">튀니지 미식
+                        <button type="button" class="btn btn-outline-primary btn1-b">튀니지 미식
                             체험</button>
                         <p class="p1prt7 ">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요. 역사적으로 고대
                             페니키아,
@@ -256,7 +256,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b " style="width: 100px">인기
+                        <button type="button" class="btn btn-outline-primary btn1-b ">인기
                             목적지</button>
                         <p class="p1prt7 ">시디부사이드, 엘젬, 두가, 수스 등 매력이 각기 다른 인기 목적지가
                             있어요.
@@ -269,8 +269,7 @@
 
                     </div>
                     <div class="height-p-card">
-                        <button type="button" class="btn btn-outline-primary btn1-b"
-                            style="width: 100px">즐길거리</button>
+                        <button type="button" class="btn btn-outline-primary btn1-b">즐길거리</button>
                         <p class="p1prt7 ">사하라사막에서의 낙타 타기 체험, 지중해 바다에서의 서핑 등 다양한
                             액티비티를 즐길
                             수 있어요.</p>
@@ -303,10 +302,23 @@
 
     </section>
 
+    <section id="section-9" class="background-section">
+        <div class="container sess3mobvid text-center">
+            <div class="text2">
+                <h2 class="main-title">Tunisia live weather</h2>
+            </div>
+            <div id="tunis-weather">
+                <div id="ww_46630ac66b7b2" v='1.3' loc='id' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_46630ac66b7b2_u" target="_blank">Météo 20 jours</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_46630ac66b7b2"></script>
+            </div>
+        </div>
+
+    </section>
+
     {{--    <div class="lignes"></div> --}}
 
     <section id="section-4">
         <h2 class="main-title12">Tunisia's main cities</h2>
+
         <div class="container sess3">
             <div class="city-section">
                 <div class="w-100">
