@@ -19,9 +19,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/mobilePage2.css') }}">
 
-    <title>Tunisiatrip By Atlantis</title>
-    <meta name="description" content=" | 아틀란티스 여행사
-    튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
+    <title>Tunisiatrip | About Tunisia</title>
+    <meta name="description" content="Embark on a journey through Tunisia with tunisiatrip.com. Uncover the rich history, diverse culture, and stunning landscapes of the Republic of Tunisia. Learn about its official languages, Arabic and French, and its predominant religion, Islam. Experience Tunisia’s vibrant culture, famous for soccer, delicious food like couscous and spicy harissa, and intricate ceramics and mosaic works. Start your Tunisian adventure with us today!">
+    <meta name="keywords" content="About Tunisia, Tunisia Overview, Republic of Tunisia, Tunisia Population, Tunisia GDP, Tunisia Languages, Tunisia Climate, Tunisia Government, Tunisia Religion, Tunisia Culture">
 </head>
 
 <body>

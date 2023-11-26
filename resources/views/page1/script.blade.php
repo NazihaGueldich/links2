@@ -18,9 +18,9 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
 
-    <title>Tunisiatrip By Atlantis</title>
-    <meta name="description" content=" | 아틀란티스 여행사
-    튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
+    <title>Tunisiatrip</title>
+    <meta name="description" content="Welcome to www.tunisiatrip.com, your all-in-one guide to Tunisia. Discover its history, culture, and cities. Hear from fellow travelers and get quick facts about Tunisia. Start your Tunisian adventure today.">
+    <meta name="keywords" content="Tunisiatrip, visite Tunisia, travel to Tunisia, Tunisia Travel Guide, Tunisia Reviews, Discover Tunisia">
 </head>
 
 <body>

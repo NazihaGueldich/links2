@@ -303,12 +303,35 @@
     </section>
 
     <section id="section-9" class="background-section">
-        <div class="container sess3mobvid text-center">
+        <div class="container text-center">
             <div class="text2">
                 <h2 class="main-title">Tunisia live weather</h2>
             </div>
+            <div class=" buttons py-3">
+                <button id='btnTunis' class="p-2 btn btnactv mx-1">튀니스</button>
+                <button id='btnSfax' class="p-2 btninactv mx-1">스팍스</button>
+                <button id='btnKairouan' class="p-2 btninactv mx-1">카이로우안</button>
+            </div>
             <div id="tunis-weather">
-                <div id="ww_46630ac66b7b2" v='1.3' loc='id' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_46630ac66b7b2_u" target="_blank">Météo 20 jours</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_46630ac66b7b2"></script>
+                <div id="ww_51f06295ce562" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                    a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                    More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_51f06295ce562_u"
+                        target="_blank">Prévisions météo 20 jours</a></div>
+                <script async src="https://app2.weatherwidget.org/js/?id=ww_51f06295ce562"></script>
+            </div>
+            <div id="sfax-weather" style="display: none">
+                <div id="ww_a4fcd1b6e1551" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                    a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3361"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                    More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_a4fcd1b6e1551_u"
+                        target="_blank">Prévisions météo 20 jours</a></div>
+                <script async src="https://app2.weatherwidget.org/js/?id=ww_a4fcd1b6e1551"></script>
+            </div>
+            <div id="kairouan-weather" style="display: none">
+                <div id="ww_2939843357c77" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                    a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1701"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                    More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_2939843357c77_u"
+                        target="_blank">Prévisions météo 20 jours</a></div>
+                <script async src="https://app2.weatherwidget.org/js/?id=ww_2939843357c77"></script>
             </div>
         </div>
 
@@ -808,6 +831,40 @@
             document.getElementById('paragraph3').style.display = "none";
             document.getElementById('paragraph4').style.display = "none";
 
+            $("#btnTunis").on('click', function() {
+                $(this).addClass("btnactv");
+                $(this).removeClass("btninactv");
+                $("#btnSfax").removeClass("btnactv");
+                $("#btnSfax").addClass("btninactv");
+                $("#btnKairouan").removeClass("btnactv");
+                $("#btnKairouan").addClass("btninactv");
+                document.getElementById("tunis-weather").style.display="block";
+                document.getElementById("sfax-weather").style.display="none";
+                document.getElementById("kairouan-weather").style.display="none";
+            });
+            $("#btnSfax").on('click', function() {
+                $(this).addClass("btnactv");
+                $(this).removeClass("btninactv");
+                $("#btnTunis").removeClass("btnactv");
+                $("#btnTunis").addClass("btninactv");
+                $("#btnKairouan").removeClass("btnactv");
+                $("#btnKairouan").addClass("btninactv");
+                document.getElementById("tunis-weather").style.display="none";
+                document.getElementById("sfax-weather").style.display="block";
+                document.getElementById("kairouan-weather").style.display="none";
+            });
+            $("#btnKairouan").on('click', function() {
+                $(this).addClass("btnactv");
+                $(this).removeClass("btninactv");
+                $("#btnTunis").removeClass("btnactv");
+                $("#btnTunis").addClass("btninactv");
+                $("#btnSfax").removeClass("btnactv");
+                $("#btnSfax").addClass("btninactv");
+                document.getElementById("tunis-weather").style.display="none";
+                document.getElementById("sfax-weather").style.display="none";
+                document.getElementById("kairouan-weather").style.display="block";
+            });
+            
         });
     </script>
 
