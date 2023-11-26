@@ -1107,7 +1107,6 @@ ul {
     margin: 52px;
 }
 .ktbchng .row{
-    margin-top: 3%;
     background-color: white;
     border-radius: 20px;
 
@@ -1222,7 +1221,7 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
 }
 
 .height-p-card {
-    min-height: 285px;
+    min-height: 240px;
 }
 
 #crcl11 {
