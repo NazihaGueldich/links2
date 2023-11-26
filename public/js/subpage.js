@@ -138,3 +138,13 @@ function ChangImgSess4(x){
     imgchn.src = "../images/" + img[indimgsess4];
     imgchn.alt = alt[indimgsess4];
 }
+
+function chngMpImg() {
+    var img = document.getElementById('imgMap');
+    var nomimg=img.src.split('/').pop();
+    if(nomimg==="map-tour1.svg"){
+        img.src="../images/tunisia_interactive_map.svg";
+    }else{
+        img.src="../images/trips-routes/map-tour1.svg";
+    }
+}
