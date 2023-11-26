@@ -513,14 +513,16 @@
 }
 
 #page-subpage #section5 .btnchngimg{
-    left: 88%;
-    bottom: 7%;
-    position: relative;
+    right: 3%;
+    bottom: 3%;
+    position: absolute;
 }
 #page-subpage #section5 .btnchngimg .btnimgbl{
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #347EFF;
     color: #347EFF;
+    width: 60px;
+    height: 50px;
 }
 #page-subpage #section5 .btnchngimg .btnimgred{
     border-radius: 20px;

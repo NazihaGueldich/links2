@@ -145,13 +145,7 @@ function chngMpImg() {
     var nomimg=img.src.split('/').pop();
     if(nomimg==="map-tour1.svg"){
         img.src="../images/tunisia_interactive_map.svg";
-        if (btn.classList.contains('btnimgbl')) {
-            btn.classList.replace("btnimgbl", "btnimgred");
-        }
     }else{
         img.src="../images/trips-routes/map-tour1.svg";
-        if (btn.classList.contains('btnimgred')){
-            btn.classList.replace("btnimgred", "btnimgbl");
-        }
     }
 }
