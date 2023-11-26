@@ -141,10 +141,17 @@ function ChangImgSess4(x){
 
 function chngMpImg() {
     var img = document.getElementById('imgMap');
+    var btn = document.getElementById('btnchngMpImg');
     var nomimg=img.src.split('/').pop();
     if(nomimg==="map-tour1.svg"){
         img.src="../images/tunisia_interactive_map.svg";
+        if (btn.classList.contains('btnimgbl')) {
+            btn.classList.replace("btnimgbl", "btnimgred");
+        }
     }else{
         img.src="../images/trips-routes/map-tour1.svg";
+        if (btn.classList.contains('btnimgred')){
+            btn.classList.replace("btnimgred", "btnimgbl");
+        }
     }
 }

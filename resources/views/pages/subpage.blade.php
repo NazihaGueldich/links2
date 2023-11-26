@@ -537,7 +537,7 @@
                         @include('pages.zones.sfax-zone')
                     </div>
                     <div class="btnchngimg">
-                        <button class="btn btn-primary" onclick="chngMpImg()"><i class="fas fa-forward"></i>
+                        <button class="btn btnimgbl" id="btnchngMpImg" onclick="chngMpImg()"><i class="fas fa-forward"></i>
                         </button>
                     </div>
                 </div>

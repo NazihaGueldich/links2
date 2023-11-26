@@ -517,8 +517,15 @@
     bottom: 7%;
     position: relative;
 }
-#page-subpage #section5 .btnchngimg button{
+#page-subpage #section5 .btnchngimg .btnimgbl{
     border-radius: 20px;
+    border: 1px solid #347EFF;
+    color: #347EFF;
+}
+#page-subpage #section5 .btnchngimg .btnimgred{
+    border-radius: 20px;
+    border: 1px solid orange;
+    color: orange;
 }
 /* section 6 */
 #page-subpage #section6 #section6cont {
