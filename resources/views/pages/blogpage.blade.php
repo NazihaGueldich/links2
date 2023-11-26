@@ -47,9 +47,8 @@
                 <span class="title-new"  >New</span> To the Unknown Beauties of Tunisia with Hae In Jung
               </h2>
             <div class="wrap-video w-100">
-                <video id="my-video" class="video-js" controls preload="auto" poster="images/Image Placeholder.png">
-                    <source src="images/TunKaur.mp4" type="video/mp4" />
-                </video>
+                <iframe class="video-js" src="https://www.youtube.com/embed/21r1M3L-yqM?si=4nA-T16uk1ekfLQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
             </div>
         </section>
     </div>

@@ -174,7 +174,7 @@
     margin-bottom: 20px;
 }
 
-.wrap-video video {
+.wrap-video iframe {
     position: absolute;
     top: 0;
     left: 0;
