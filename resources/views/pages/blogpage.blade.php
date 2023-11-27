@@ -135,7 +135,8 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <i class="fas fa-arrow-right"></i>
+                            <img class='crdsess5-img' src="{{ asset('images/kouskous-with-osban.png') }}"
+                            alt="kouskous with osban">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">택시</p>
@@ -150,7 +151,7 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <i class="fas fa-arrow-right"></i>
+                            <img class='crdsess5-img' src="{{ asset('images/hot hatch.png') }}" alt="Hot hatch">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">쿠스쿠스</p>
