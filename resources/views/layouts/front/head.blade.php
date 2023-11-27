@@ -12,6 +12,10 @@
     <title>Tunisiatrip By Atlantis</title>
     <meta name="description" content=" | 아틀란티스 여행사
     튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
+<!-- Inclusion de Font Awesome via CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="..." crossorigin="anonymous">
 
     <!-- Style CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
