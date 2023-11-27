@@ -34,7 +34,7 @@
             <h2 class="main-title text-center">How to get from KOREA to TUNISIA</h2>
             <p class="text-center">한국에서 튀니지로 여행하는 주요 3가지 방법은 다음과 같습니다</p>
             <div id='slick-section3-web' class="slick-section3-web">
-                <div class="pr-lg-3">
+                <div class="pr-lg-2">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Qatar Airways</p>
@@ -508,7 +508,7 @@
                         @include('pages.zones.tunis-zone')
                     </div>
                     <div class="wrap-single-zone zone-kerkouane" style="left: 40%;top: 56.1%;" >
-                        <a href="#" title=""></a>
+                        <a  title=""></a>
                         @include('pages.zones.douz-zone')
                     </div>
                     <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 28.7%;" href='zone-sousse'>
@@ -521,7 +521,7 @@
                         @include('pages.zones.dogga-zone')
                     </div>
                     <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur'>
-                        <a href="#" title="Tozeur"></a>
+                        <a  title="Tozeur"></a>
                         @include('pages.zones.tozeur-zone')
                     </div>
                     <div class="wrap-single-zone zone-matmata" style="left: 51.17%; top: 56.6%;" href='zone-matmata'>
