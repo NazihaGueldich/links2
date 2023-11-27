@@ -48,7 +48,7 @@
               </h2>
             <div class="wrap-video w-100">
                 <iframe class="video-js" src="https://www.youtube.com/embed/21r1M3L-yqM?si=4nA-T16uk1ekfLQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
+
             </div>
         </section>
     </div>
@@ -83,7 +83,7 @@
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
             <div class="row mt-lg-5">
                 <div class="col-lg-6">
-                    <div class="wrap-video">
+                    <div class="wrap-video pb-lg-0">
                         <video id="-video" class="video-js" preload="auto" poster="images/Creator-Talking-Tunisia.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>

@@ -112,23 +112,31 @@
     color: #347EFF;
     border: 1px solid #347EFF;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size:1.2rem;
 }
 
 @media all and (max-width: 767px) {
     #blog-page #section3 .item-inactv {
         width: 100px !important;
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
 
     #blog-page #section3 .item-actv {
         width: 100px !important;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     #blog-page #section3 .items button {
         padding-right: 0;
         padding-left: 0;
+    }
+    #blog-page #section4 .wrap-video #video-overlay {
+        position: absolute;
+        top: 11%;
+        left: 21%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
     }
 }
 
@@ -259,6 +267,7 @@
     }
     #blog-page #section4 .wrap-video #video-overlay{
         left: 27%;
+        top: 10%;
     }
 }
 
@@ -321,6 +330,12 @@
 
     #blog-page #section4 .wrap-video {
         width: auto;
+        padding-bottom: 10%;
+    }
+    .slick-dots li button:before {
+        margin-top: -230%;
+        font-size: 20px;
+        margin-left: -70%;
     }
 }
 
