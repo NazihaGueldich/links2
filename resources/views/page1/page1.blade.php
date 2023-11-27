@@ -307,7 +307,7 @@
             <div class="text2">
                 <h2 class="main-title">Tunisia live weather</h2>
             </div>
-            <div class=" buttons py-3">
+            <div class=" buttons py-lg-3">
                 <button id='btnTunis' class="p-2 btn btnactv mx-1">튀니스</button>
                 <button id='btnSfax' class="p-2 btninactv mx-1">스팍스</button>
                 <button id='btnKairouan' class="p-2 btninactv mx-1">카이로우안</button>
