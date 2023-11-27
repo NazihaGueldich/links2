@@ -167,7 +167,6 @@
 .wrap-video {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
     overflow: hidden;
     max-width: 100%;
     height: auto;
@@ -211,7 +210,7 @@
 
 #blog-page #section4 #crd2 .sub-title {
     color: #347EFF;
-    padding-top: 17%;
+    padding-top: 15%;
     margin-right: 34%;
     padding-left: 9%
 }
