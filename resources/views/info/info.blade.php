@@ -772,7 +772,7 @@
         close_btn.addEventListener('click', () => {
             social_panel_container.classList.remove('visible')
         });
-        
+
         $('.slick-sess1').slick({
             infinite: true,
             slidesToShow: 1,
@@ -817,7 +817,7 @@
     var y =x-1;
     var idaud = 'aud' + x;
     var aud = document.getElementById(idaud);
-    
+
     if (aud.src.includes(audTabF[y])) {
         aud.src = audTabM[y];
         aud.style.border = "1px solid blue";
@@ -825,10 +825,10 @@
         aud.src = audTabF[y];
         aud.style.border = "1px solid #E177FB";
     }
-    
+
     var iddow = 'dw' + x;
     var dow = document.getElementById(iddow);
-    
+
     if (dow.href.includes(audTabM[y])) {
         dow.href = audTabF[y];
     } else {

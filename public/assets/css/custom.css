@@ -172,6 +172,15 @@ ul {
     .sessicn {
         display: none;
     }
+    #page-info .slick-next {
+        right: -8px !important;
+        margin: 0;
+    }
+
+    #page-info .slick-prev {
+        left: -14px !important;
+        margin: 0;
+    }
 }
 
 
@@ -345,8 +354,6 @@ body #p3-section5>.container>.row {
 
     body #p3-section3 .btninactv {
         font-size: 0.9rem;
-        padding: 0 !important;
-        line-height: 21px;
     }
 }
 
@@ -589,6 +596,8 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
     body .wrap-museums-card ul.list-museums-card li .museums-card {
         flex-direction: column;
         padding: 15px;
+        width: 92%;
+        margin-left: 4%;
     }
 
     body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
