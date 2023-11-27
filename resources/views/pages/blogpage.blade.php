@@ -136,7 +136,7 @@
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
                             <img class='crdsess5-img' src="{{ asset('images/kouskous-with-osban.png') }}"
-                            alt="kouskous with osban">
+                                alt="kouskous with osban">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">택시</p>
