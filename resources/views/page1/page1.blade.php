@@ -601,7 +601,7 @@
                             alt="Atlantis logo">
                     </div>
                     <div class="PContact">
-                        <p><strong>주소:</strong> Tunis, Japan St, Imm Fatma</p>
+                        <p><strong>주소:</strong> 29, AV.du,Japon, Imm. Fatma 1002 Montplaisir - Tunis</p>
                         <p><strong>이메일:</strong> atlantis@atlantis.tn</p>
                         <p><strong>연락처:</strong> +216 52 924 322</p>
                     </div>
@@ -864,7 +864,7 @@
                 document.getElementById("sfax-weather").style.display="none";
                 document.getElementById("kairouan-weather").style.display="block";
             });
-            
+
         });
     </script>
 
