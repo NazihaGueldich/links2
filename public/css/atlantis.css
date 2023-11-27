@@ -441,6 +441,14 @@ body#page-atlantis .card-session4 {
     body#page-atlantis .card-session4 {
         border: 1px solid #C8C8C8;
     }
+
+    #page-atlantis #section-4 .btnactv,#page-atlantis #section-4 .btnactv {
+        font-size: 0.9rem;
+        font-weight: bolder;
+        height: 50px;
+        padding: 0 !important;
+        width: 25%;
+    }
 }
 
 body#page-atlantis .card-session4-spns .card-body {
