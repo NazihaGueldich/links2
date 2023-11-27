@@ -94,12 +94,12 @@
 }
 
 #section6 .slick-prev {
-    left: -35px;
+    left: -10px;
     margin: 0;
 }
 
 #section6 .slick-next {
-    right: -30px;
+    right: -5px;
     margin: 0;
 }
 
@@ -539,7 +539,9 @@
 
 @media all and (max-width: 767px) {
     #page-subpage #section6 #section6cont {
-        height: 205.94px;
+        height: 205.94px !important;
+        margin-left: 19px;
+        width: 90% !important;
     }
 }
 

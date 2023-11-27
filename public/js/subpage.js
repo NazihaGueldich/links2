@@ -41,8 +41,8 @@ $('#section6 .section6-slick').slick({
     responsive: [{
         breakpoint: 480,
         settings: {
-            arrows: false,
-            dots: true,
+            arrows: true,
+            dots: false,
             slidesToShow: 1,
             slidesToScroll: 1
         }
