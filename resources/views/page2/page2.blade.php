@@ -220,7 +220,7 @@
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
                 </div>
             </div>
-            <div class="mt-5 d-flex flex-column  align-items-center allsec">
+            <div class=" d-flex flex-column  align-items-center allsec">
 
                 <div class="ktbchng text-center" >
 
@@ -228,7 +228,7 @@
                     <div class="row">
                         <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes">
                             <div class="para-section">
-                                <p class="mt-5" id='titrp5'>튀니지의 아랍어</p>
+                                <p class="mt-lg-5" id='titrp5'>튀니지의 아랍어</p>
                                 <p id='spnprt5'>2011년 시민혁명 이후 제정된 튀니지 헌법 제1조는 아랍어를 ‘국가의 언어’로 규정하고 있어요. 또한 헌법
                                     제39조에는 아랍 정체성과
                                     아랍어 사용 교육의 보편화가 규정되어 있기도 합니다.<br>튀니지 아랍어는 국경을 마주하는 알제리나 모로코 방언과 비슷해요. 표준 아랍어와는 차이가
