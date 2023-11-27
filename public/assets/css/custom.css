@@ -345,6 +345,8 @@ body #p3-section5>.container>.row {
 
     body #p3-section3 .btninactv {
         font-size: 0.9rem;
+        padding: 0 !important;
+        line-height: 21px;
     }
 }
 
