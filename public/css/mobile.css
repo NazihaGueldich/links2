@@ -36,7 +36,7 @@
         width: 30%;
         font-size: 0.9rem;
     }
-    
+
 }
 
 @media all and (max-width: 767px) {
@@ -93,7 +93,7 @@
     }
 
     body section {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 
     .row {
@@ -251,7 +251,7 @@
         object-fit: cover;
     }
 
-    
+
 
     .text-p2,
     .text-p3,
@@ -565,7 +565,7 @@
         align-items: center;
     }
 
-    
+
 
     .text2 {
         margin-left: 0px;
@@ -588,7 +588,7 @@
     }
 
 
- 
+
     .scroll-container>div {
         display: inline-block;
     }
