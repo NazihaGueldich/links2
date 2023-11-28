@@ -181,6 +181,14 @@ ul {
         left: -14px !important;
         margin: 0;
     }
+    #page-info #p3-section5 .slick-prev {
+        left: 9px !important;
+        margin: 0;
+    }
+    #page-info #p3-section5 .slick-next {
+        right: 24px !important;
+        margin: 0;
+    }
 }
 
 
@@ -356,10 +364,7 @@ body #p3-section5>.container>.row {
         font-size: 0.9rem;
     }
 
-    #page-info #p3-section5 #crdssess5 .col-md-3{
-        padding: 0;
-    margin-left: -15px;
-    }
+
 }
 
 body .wrap-nav-transportation {
@@ -624,7 +629,7 @@ body .wrap-festival-card .col-md-4 {
 
 body .wrap-festival-card .custom-card {
     height: 364px;
-    width: 330px;
+    width: 330px !important;
     max-width: 100%;
     position: relative;
     background-size: 100% auto;

@@ -529,7 +529,7 @@
             </section>
             <div class="separateur"></div>
 
-            <section id="p3-section5">
+            <section id="p3-section5" >
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -540,7 +540,7 @@
                     </div>
                     <div class="row wrap-festival-card" id='crdssess5'>
                         <div class="col-md-3 offset-lg-1">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2" >
                                 <div class="mask-image">
                                     <img src="{{ asset('images/JCC (1).png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -560,7 +560,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/carthage.png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -580,7 +580,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/el_Djem_Symphony.png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -600,7 +600,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 offset-lg-1">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/Jazz_Tabarka.png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -620,7 +620,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/Douz_Sahara_Fest.png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -640,7 +640,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="custom-card">
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/Tozeur_oasis_fest.png') }}" class="img-fluid w-100"
                                         alt="Carthage">
