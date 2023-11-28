@@ -161,7 +161,7 @@
 
 
         <section id="section-5">
-            <div class="text-center mb-3 d-flex flex-column align-items-center">
+            <div class="text-center mb-2 d-flex flex-column align-items-center">
                 <h2 class="main-title " >Weather</h2>
 
                 <p class=" parghraphe1">
@@ -175,7 +175,7 @@
                     <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">봄 과 가을</button>
                 </div>
             </div>
-            <div class="mt-lg-5 d-flex flex-column  align-items-center  allsec">
+            <div class="d-flex flex-column  align-items-center  allsec">
 
                 <div class="ktbchng text-center" >
 
@@ -207,7 +207,7 @@
     <section id="section-6">
         <div class="container">
 
-            <div class="text-center mb-3 d-flex flex-column align-items-center">
+            <div class="text-center mb-2 d-flex flex-column align-items-center">
                 <h2 class="main-title " >Language</h2>
 
                 <p class=" parghraphe1">
