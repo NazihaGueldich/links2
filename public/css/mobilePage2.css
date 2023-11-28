@@ -639,8 +639,13 @@
         }
 
         .ktbchng {
-            height: 520px;
+            height: auto;
             width: 100%;
+        }
+
+        .txt1 {
+            font-size: 0.95rem;
+            margin-bottom: 2%;
         }
 
         #crcl3 {

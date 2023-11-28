@@ -148,6 +148,7 @@ $('.slick-sess5').slick({
     slidesToScroll: 1,
     dots: false,
     arrows: true,
+    
     infinite: true,
     speed: 500,
     cssEase: 'linear'
