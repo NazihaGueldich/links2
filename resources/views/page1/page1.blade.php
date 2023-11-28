@@ -760,9 +760,9 @@
                         <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
                         <ul>
                             <li><a href="#">역사</a> |</li>
-                            <li><a href="#">음식</a> |</li>
-                            <li><a href="#">문화</a> |</li>
-                            <li><a href="#">목적지</a> |</li>
+                            <li><a href="travel-information#Culinary-recomendation">음식</a> |</li>
+                            <li><a href="about-tunisia#section-10">문화</a> |</li>
+                            <li><a href="#section-4">목적지</a> |</li>
                             <li><a href="about-tunisia#spotlight-section">활동</a> |</li>
                             <li><a href="about-tunisia#section-1">경제</a> |</li>
                             <li><a href="#">업적</a></li>
@@ -771,13 +771,13 @@
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title"> 여행 정보</h3>
                         <ul>
-                            <li><a href="#">공항</a> |</li>
-                            <li><a href="#">호텔</a> |</li>
-                            <li><a href="#">통화</a> |</li>
-                            <li><a href="#">계절</a></li>
-                            <li><a href="#">최고의 제안</a> |</li>
-                            <li><a href="#">우리가 도울 수 있는 방법</a> |</li>
-                            <li><a href="#">비상</a></li>
+                            <li><a href="sub-page#section3">공항</a> |</li>
+                            <li><a href="about-atlantis#section-5">호텔</a> |</li>
+                            <li><a href="about-tunisia#section-1">경제</a> |</li>
+
+
+                            <li><a href="#section-7">우리가 도울 수 있는 방법</a> </li>
+
                         </ul>
                     </div>
 
