@@ -6,7 +6,7 @@
     color: #515151;
 }
 
-#page-info .container{
+#page-info .container {
     max-width: 1400px
 }
 
@@ -172,6 +172,7 @@ ul {
     .sessicn {
         display: none;
     }
+
     #page-info .slick-next {
         right: -8px !important;
         margin: 0;
@@ -181,10 +182,12 @@ ul {
         left: -14px !important;
         margin: 0;
     }
+
     #page-info #p3-section5 .slick-prev {
         left: 9px !important;
         margin: 0;
     }
+
     #page-info #p3-section5 .slick-next {
         right: 24px !important;
         margin: 0;
@@ -556,14 +559,18 @@ audio::-webkit-media-controls-play-button {
     border-radius: 50%;
     background-image: url(../../images/uil_play.svg);
 }
+
 audio::-webkit-media-controls-play-button:hover {
     border: 1px solid black;
     border-radius: 50%;
 }
-audio::-webkit-media-controls-current-time-display,audio::-webkit-media-controls-time-remaining-display{
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
     color: #515151;
 }
-audio::-webkit-media-controls-timeline{
+
+audio::-webkit-media-controls-timeline {
     color: #D2D2D2 !important;
 }
 
@@ -668,13 +675,19 @@ body .wrap-festival-card .custom-card .custom-card-text {
 
 @media screen and (max-width: 768px) {
     body .wrap-festival-card .custom-card .custom-card-text {
-        top: 60%;
+        top: 56%;
+        left: 66%;
+    }
+
+    body .wrap-festival-card .custom-card .custom-card-text {
+        font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width: 1280px) {
     body .wrap-festival-card .custom-card {
-        width: 100%;
+        width: 86% !important;
+        height: 305px;
     }
 }
 
@@ -763,10 +776,13 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         padding-right: 20%;
     }
 
-    #p3-section1 .col-md-4,#p3-section2 .col-md-12,#p3-section2 .col-lg-6{
+    #p3-section1 .col-md-4,
+    #p3-section2 .col-md-12,
+    #p3-section2 .col-lg-6 {
         padding: 0;
     }
-    body .wrap-culinary-card .slick-list .slick-track{
+
+    body .wrap-culinary-card .slick-list .slick-track {
         gap: 1px;
     }
 }
