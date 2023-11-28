@@ -355,6 +355,11 @@ body #p3-section5>.container>.row {
     body #p3-section3 .btninactv {
         font-size: 0.9rem;
     }
+
+    #page-info #p3-section5 #crdssess5 .col-md-3{
+        padding: 0;
+    margin-left: -15px;
+    }
 }
 
 body .wrap-nav-transportation {

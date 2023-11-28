@@ -141,3 +141,14 @@ $('.slick-sess3').slick({
     speed: 500,
     cssEase: 'linear'
 });
+
+$('.slick-sess5').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
