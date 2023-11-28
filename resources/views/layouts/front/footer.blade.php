@@ -30,10 +30,12 @@
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
+                    <a href="sub-page#section4">
                     <div class="part2">
                         <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
                         <p>항공편 및 공항</p>
                     </div>
+                    </a>
                     <div class="part2">
                         <img src="{{ asset('images/oja.png') }}" alt="Ojja">
                         <p>항공편 및 공항</p>
