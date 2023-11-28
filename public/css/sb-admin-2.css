@@ -2332,10 +2332,7 @@ textarea.form-control {
   }
 }
 
-.btn:hover {
-  color: #858796;
-  text-decoration: none;
-}
+
 
 .btn:focus, .btn.focus {
   outline: 0;
@@ -3248,10 +3245,6 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
 }
 
-.btn-group > .btn:hover,
-.btn-group-vertical > .btn:hover {
-  z-index: 1;
-}
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
 .btn-group-vertical > .btn:focus,

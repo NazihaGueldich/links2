@@ -243,7 +243,7 @@
                 <h2 class="main-title">Car services</h2>
             </div>
             <div class="col-12 d-flex justify-content-around button1 mt-lg-5">
-                <button id='choix0' class="p-2 btn btnactv" onclick="chngcontsess4(0)">Car</button>
+                <button id='choix0' class="p-2  btnactv" onclick="chngcontsess4(0)">Car</button>
                 <button id='choix1' class="p-2 btninactv" onclick="chngcontsess4(1)">Mini-Bus</button>
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
