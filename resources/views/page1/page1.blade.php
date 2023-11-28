@@ -6,7 +6,7 @@
     <main>
         <div id="mySlickCarousel">
             <div class="slick-slider">
-                <div class="slick-slide">
+                <div class="slick-slide" >
                     <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1" alt="Tunisie Sahara">
                     <div class="overlay-content">
                         <div class="text-center">
@@ -752,8 +752,8 @@
                             <li><a href="#">음식</a> |</li>
                             <li><a href="#">문화</a> |</li>
                             <li><a href="#">목적지</a> |</li>
-                            <li><a href="#">활동</a> |</li>
-                            <li><a href="#">경제</a> |</li>
+                            <li><a href="about-tunisia#spotlight-section">활동</a> |</li>
+                            <li><a href="about-tunisia#section-1">경제</a> |</li>
                             <li><a href="#">업적</a></li>
                         </ul>
                     </div>

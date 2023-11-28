@@ -9,7 +9,7 @@
                         <li><a href="#">음식</a> |</li>
                         <li><a href="#">문화</a> |</li>
                         <li><a href="#">목적지</a> |</li>
-                        <li><a href="#">활동</a> |</li>
+                        <li><a href="#spotlight-section">활동</a> |</li>
                         <li><a href="#">경제</a> |</li>
                         <li><a href="#">업적</a></li>
                     </ul>
@@ -171,7 +171,7 @@
         updateClock();
 
         setInterval(updateClock, 1000);
-        
+
         /* icons */
         function changeImage(isMouseOver, id) {
             var imgId = 'img' + id;

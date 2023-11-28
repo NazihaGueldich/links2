@@ -47,9 +47,9 @@
 
 
     <div class="container">
-        <section id="section-1">
+        <section id="section-1" >
             <div class="text-center">
-                <h2 class="main-title">Tunisia overview</h2>
+                <h2 class="main-title" >Tunisia overview</h2>
             </div>
 
             <div class="row">
@@ -341,7 +341,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="main-title">Spotlight</h2>
+            <h2 class="main-title" id="spotlight-section">Spotlight</h2>
 
             <div class="row block-cards">
                 <div class="col-lg-4 section-9-hover">
