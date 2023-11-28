@@ -309,9 +309,9 @@
                 <h2 class="main-title">Tunisia live weather</h2>
             </div>
             <div class=" buttons btn-section-9">
-                <button id='btnTunis' class="p-2 btn btnactv mx-1">튀니스</button>
-                <button id='btnSfax' class="p-2 btninactv mx-1">스팍스</button>
-                <button id='btnKairouan' class="p-2 btninactv mx-1">카이로우안</button>
+                <button id='btnTunis' class="p-2  btnactv mx-4">튀니스</button>
+                <button id='btnSfax' class="p-2 btninactv mx-4">스팍스</button>
+                <button id='btnKairouan' class="p-2 btninactv mx-4">카이로우안</button>
             </div>
             <div id="tunis-weather">
                 <div id="ww_51f06295ce562" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'

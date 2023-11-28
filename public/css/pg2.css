@@ -691,42 +691,37 @@ body {
 }
 
 .btninactv {
+    border: 1px solid #347EFF !important;
     width: 14%;
     border-radius:30px;
     font-size: 1.1rem;
     font-weight: 600;
-    line-height: 41px;
-    letter-spacing: 0em;
+
+
     text-align: center;
-    color: #C4C2D4;
-    border: transparent;
-    box-shadow: none !important;
-    outline: none !important;
+    color: #347EFF;
+
+
     background-color: transparent;
-    height: 61px;
+    height: 45px;
 }
 
 
-.btninactv:hover {
-    color: #347EFF !important;
-    border: 2px solid #347EFF !important;
-}
 
 
 .btnactv {
     width: 14%;
-    font-size: 1.1rem;
+
     border-radius:30px;
-    font-weight: 600;
-    line-height: 41px;
-    letter-spacing: 0em;
+
+
     padding: 0px 36px !important;
     text-align: center;
-    color: #347EFF !important;
-    box-shadow: none !important;
-    outline: none !important;
-    border: 2px solid #347EFF !important;
-    background-color: #ffffff !important;
+    color: #FFF !important;
+    background-color: #347EFF !important;
+    border: 1px solid #347EFF;
+    font-weight: 700;
+    font-size: 1.2rem;
     height: 45px;
 }
 
@@ -1229,9 +1224,6 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
     background-color: #347EFF;
 }
 
-.btn.btn-outline-primary.btn-main:focus {
-    border: 1px solid #347EFF !important;
-}
 
 .height-p-card {
     min-height: 240px;

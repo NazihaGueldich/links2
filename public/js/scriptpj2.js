@@ -93,25 +93,25 @@ function changtext(indx) {
     var btn3 = document.getElementById('btn3');
 
     if (indx == 0) {
-        btn0.classList = 'p-2 btn btnactv';
+        btn0.classList = 'p-2  btnactv';
         btn1.classList = 'p-2 btninactv';
         btn2.classList = 'p-2 btninactv';
         btn3.classList = 'p-2 btninactv';
     } else if (indx == 1) {
         btn0.classList = 'p-2 btninactv';
-        btn1.classList = 'p-2 btn btnactv';
+        btn1.classList = 'p-2  btnactv';
         btn2.classList = 'p-2 btninactv';
         btn3.classList = 'p-2 btninactv';
     } else if (indx == 2) {
         btn0.classList = 'p-2 btninactv';
         btn1.classList = 'p-2 btninactv';
-        btn2.classList = 'p-2 btn btnactv';
+        btn2.classList = 'p-2  btnactv';
         btn3.classList = 'p-2 btninactv';
     } else {
         btn0.classList = 'p-2 btninactv';
         btn1.classList = 'p-2 btninactv';
         btn2.classList = 'p-2 btninactv';
-        btn3.classList = 'p-2 btn btnactv';
+        btn3.classList = 'p-2  btnactv';
     }
 }
 

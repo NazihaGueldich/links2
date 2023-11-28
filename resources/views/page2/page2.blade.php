@@ -169,8 +169,8 @@
                             평균
                             최고 기온은 33 ̊C입니다.
                 </p>
-                <div class=" buttons ">
-                    <button id='btn0sect5' class="p-2 btn btnactv" onclick="changtextSect3(0)">여름은</button>
+                <div class=" buttons">
+                    <button id='btn0sect5' class="p-2  btnactv" onclick="changtextSect3(0)">여름은</button>
                     <button id='btn1sect5' class="p-2 btninactv" onclick="changtextSect3(1)">겨울</button>
                     <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">봄 과 가을</button>
                 </div>
@@ -214,7 +214,7 @@
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
                 </p>
                 <div class=" buttons ">
-                    <button id='btn0' class="p-2 btn btnactv" onclick="changtext(0)">아랍어</button>
+                    <button id='btn0' class="p-2 btnactv" onclick="changtext(0)">아랍어</button>
                     <button id='btn1' class="p-2 btninactv" onclick="changtext(1)">프랑스어</button>
                     <button id='btn2' class="p-2 btninactv" onclick="changtext(2)">영어</button>
                     <button id='btn3' class="p-2 btninactv" onclick="changtext(3)">아마지그어</button>
