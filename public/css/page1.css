@@ -534,7 +534,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
 }
 .video-js {
     height: auto;
- 
+
     border-radius: 20px;
 }
 
@@ -1202,7 +1202,9 @@ body.tunisiatrip .card5 {
     background-color: #ffffff !important;
     height: 45px;
 }
-
+.video-page1{
+    width: 70%;
+}
 .btninactv {
     width: 14%;
     border-radius:30px;
@@ -1505,7 +1507,7 @@ section .block-cards {
     padding: 15px;
     background-size: cover;
     background-position: bottom;
-    
+
 }
 
 .section-2-hover .links_box-1 {

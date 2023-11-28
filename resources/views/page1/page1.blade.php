@@ -292,7 +292,7 @@
                 <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
             <div class="wrap-video">
-                <video id="my-video" class="video-js" controls preload="auto" poster="images/sahrouch.png">
+                <video id="my-video" class="video-js video-page1" controls preload="auto" poster="images/sahrouch.png" >
                     <source src="images/vd.mp4" type="video/mp4" />
                 </video>
             </div>
