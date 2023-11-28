@@ -114,7 +114,26 @@
     right: -35px;
     margin: 0;
 }
+#section1-slick .slick-dots li button:before {
+    font-family: 'slick';
+    margin-top: -463%;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+#section1-slick .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffffff;
+}
 .slick-next::before, .slick-prev::before {
     font-size: 28px;
     color: #347EFF;
