@@ -88,8 +88,8 @@
                             poster="images/Creator-Talking-Tunisia.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
-                        <div id="video-overlay">
-                            <p id="video-title" class="sub-title">Discover Tunisia</p>
+                        <div class="video-overlay">
+                            <p id="video-title" class="sub-title">Discover Tozeur</p>
                             <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png"
                                     alt="Arrow Right Blue"></button>
                         </div>
@@ -98,11 +98,16 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <div id='crd2'>
-                        <p class="sub-title">Korean Content Creator Visits Tunisia</p>
-                        <button class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
+                    <div class="wrap-video pb-lg-0">
+                        <video id="-video2" class="video-js" preload="auto"
+                            poster="images/Creator-Talking-Tunisia 2.png">
+                            <source src="images/video2.mp4" type="video/mp4" /> 
+                        </video>
+                        <div class="video-overlay" id='crd2'>
+                            <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
                                 alt="Arrow Right white">
                         </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,7 +120,7 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <img class='crdsess5-img' src="{{ asset('images/bardo-national-museum.png') }}"
+                            <img class='crdsess5-img' src="{{ asset('images/Bardo_museum.jpg') }}"
                                 alt="Bardo National Museum">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
@@ -132,8 +137,7 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <img class='crdsess5-img' src="{{ asset('images/kouskous-with-osban.png') }}"
-                                alt="kouskous with osban">
+                            <img class='crdsess5-img' src="{{ asset('img/Trans_Taxi.jpg') }}" alt="Hot hatch">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">택시</p>
@@ -148,7 +152,8 @@
                 <div class="crdsess5  p-lg-5 mt-lg-5">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
-                            <img class='crdsess5-img' src="{{ asset('images/hot hatch.png') }}" alt="Hot hatch">
+                            <img class='crdsess5-img' src="{{ asset('images/Couscous.jpg') }}"
+                            alt="kouskous with osban">
                         </div>
                         <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                             <p class="sub-title ">쿠스쿠스</p>
@@ -222,6 +227,36 @@
             video.addEventListener('play', function() {
                 playButton.style.display = 'none';
                 videoTitle.style.display = 'none';
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var myVideo = document.getElementById('-video2');
+            var playButton = document.getElementById('play-btn2');
+
+            myVideo.controls = false;
+
+
+            function playVideo() {
+                myVideo.play();
+                myVideo.controls = true;
+            }
+
+            playButton.addEventListener('click', playVideo);
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const playButton = document.getElementById('play-btn2');
+            const video = document.getElementById('-video2');
+
+            playButton.addEventListener('click', function() {
+                video.play();
+                playButton.style.display = 'none';
+            });
+
+            video.addEventListener('play', function() {
+                playButton.style.display = 'none';
             });
         });
     </script>

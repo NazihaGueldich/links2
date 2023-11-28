@@ -70,6 +70,8 @@
     width: 100px;
 }
 
+
+
 @media all and (max-width: 767px) {
     #page-subpage #section1 #icnav {
         width: 50px;

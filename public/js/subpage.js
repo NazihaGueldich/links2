@@ -149,3 +149,17 @@ function chngMpImg() {
         img.src="../images/trips-routes/map-tour1.svg";
     }
 }
+
+$('#page-subpage #section1 #section1-slick').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    prevArrow: null,
+    nextArrow: null,
+    fade: true,
+    cssEase: 'linear',
+    appendArrows: $('#mySlickCarousel'),
+});
