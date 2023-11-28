@@ -35,4 +35,6 @@
     <link rel="stylesheet" href="{{ asset('css/subpage.css') }}">
     <link rel="stylesheet" href="{{ asset('css/blogpage.css') }}">
     <link rel="stylesheet" href="{{ asset('css/partners.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+
 </head>
