@@ -152,11 +152,11 @@
 
 
 #blog-page #section4 .wrap-video .video-js {
-    height: 320px;
-    object-fit: inherit;
+    height: 438px;
     width: 100%;
     border-radius: 20px;
     margin-top: 1%;
+    object-fit: cover;
 }
 
 #blog-page #section4 .wrap-video .video-container {
@@ -213,7 +213,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    height: 320px;
+    height: 438px;
     background-size: cover;
 }
 

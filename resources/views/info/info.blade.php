@@ -6,7 +6,7 @@
 
         <div class="wrapper">
             <section id="p3-section1">
-                <div class="container" >
+                <div class="container">
                     {{-- icons --}}
                     <div class="flex-container pt-5 sessicn">
                         <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
@@ -65,20 +65,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}"
                                         alt="Aslema">
-
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk1" onclick="chngeAud(1)" />
-                                        <label class="label" for="chk1">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk1"
+                                                    onclick="chngeAud(1)" />
+                                                <label class="label" for="chk1">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Aslema.mp3" id='aud1'>
+                                                    <a href="/audio/M_Aslema.mp3" id='dw1'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Aslema.mp3" id='aud1'>
-                                            <a href="/audio/M_Aslema.mp3" id='dw1'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -89,19 +95,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Bqadesh_icon.svg') }}"
                                         alt="Aslema">
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk2" onclick="chngeAud(2)" />
-                                        <label class="label" for="chk2">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk2"
+                                                    onclick="chngeAud(2)" />
+                                                <label class="label" for="chk2">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Bqadech.mp3" id='aud2'>
+                                                    <a href="/audio/M_Bqadech.mp3" id='dw2'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Bqadech.mp3" id='aud2'>
-                                            <a href="/audio/M_Bqadech.mp3" id='dw2'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -112,19 +125,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Yaaychek_icon.svg') }}"
                                         alt="Aslema">
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk3" onclick="chngeAud(3)"/>
-                                        <label class="label" for="chk3">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk3"
+                                                    onclick="chngeAud(3)" />
+                                                <label class="label" for="chk3">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Yaaychek.mp3" id='aud3'>
+                                                    <a href="/audio/M_Yaaychek.mp3" id='dw3'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Yaaychek.mp3" id='aud3'>
-                                            <a href="/audio/M_Yaaychek.mp3" id='dw3'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -135,19 +155,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Aatini_icon.svg') }}"
                                         alt="Aslema">
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk4" onclick="chngeAud(4)"/>
-                                        <label class="label" for="chk4">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk4"
+                                                    onclick="chngeAud(4)" />
+                                                <label class="label" for="chk4">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Aatini.mp3" id='aud4'>
+                                                    <a href="/audio/M_Aatini.mp3" id='dw4'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Aatini.mp3" id='aud4'>
-                                            <a href="/audio/M_Aatini.mp3" id='dw4'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -158,19 +185,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Beslema_icon.svg') }}"
                                         alt="Aslema">
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk5" onclick="chngeAud(5)"/>
-                                        <label class="label" for="chk5">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk5"
+                                                    onclick="chngeAud(5)" />
+                                                <label class="label" for="chk5">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Beslema.mp3" id='aud5'>
+                                                    <a href="/audio/M_Beslema.mp3" id='dw5'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Beslema.mp3" id='aud5'>
-                                            <a href="/audio/M_Beslema.mp3" id='dw5'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -181,19 +215,26 @@
                                 <div class="d-flex flex-column justify-content-end align-items-center">
                                     <img class="custom-card-img" src="{{ asset('assets/img/Mahlek_icon.svg') }}"
                                         alt="Aslema">
-                                    <div class="one-quarter mt-4" id="switch">
-                                        <input type="checkbox" class="checkbox" id="chk6" onclick="chngeAud(6)"/>
-                                        <label class="label" for="chk6">
-                                            <i class="fas fa-venus" style="color: #ffffff"></i>
-                                            <i class="fas fa-mars" style="color: #ffffff"></i>
-                                            <div class="ball"></div>
-                                        </label>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="one-quarter mt-2" id="switch">
+                                                <input type="checkbox" class="checkbox" id="chk6"
+                                                    onclick="chngeAud(6)" />
+                                                <label class="label" for="chk6">
+                                                    <i class="fas fa-venus" style="color: #ffffff"></i>
+                                                    <i class="fas fa-mars" style="color: #ffffff"></i>
+                                                    <div class="ball"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <figure >
+                                                <audio controls src="/audio/M_Mahlek.mp3" id='aud6'>
+                                                    <a href="/audio/M_Mahlek.mp3" id='dw6'>Download audio</a>
+                                                </audio>
+                                            </figure>
+                                        </div>
                                     </div>
-                                    <figure class="mt-4">
-                                        <audio controls src="/audio/M_Mahlek.mp3" id='aud6'>
-                                            <a href="/audio/M_Mahlek.mp3" id='dw6'>Download audio</a>
-                                        </audio>
-                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -529,7 +570,7 @@
             </section>
             <div class="separateur"></div>
 
-            <section id="p3-section5" >
+            <section id="p3-section5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -540,7 +581,7 @@
                     </div>
                     <div class="row wrap-festival-card" id='crdssess5'>
                         <div class="col-md-3 offset-lg-1">
-                            <div class="custom-card ml-2" >
+                            <div class="custom-card ml-2">
                                 <div class="mask-image">
                                     <img src="{{ asset('images/JCC (1).png') }}" class="img-fluid w-100"
                                         alt="Carthage">
@@ -812,28 +853,32 @@
 
 
         function chngeAud(x) {
-    var audTabF = ['/audio/F_Aslema.mp3', '/audio/F_Bqadech.mp3', '/audio/F_Yaaychek.mp3', '/audio/F_Aatini.mp3', '/audio/F_Beslema.mp3', '/audio/F_Mahlek.mp3'];
-    var audTabM = ['/audio/M_Aslema.mp3', '/audio/M_Bqadech.mp3', '/audio/M_Yaaychek.mp3', '/audio/M_Aatini.mp3', '/audio/M_Beslema.mp3', '/audio/M_Mahlek.mp3'];
-    var y =x-1;
-    var idaud = 'aud' + x;
-    var aud = document.getElementById(idaud);
+            var audTabF = ['/audio/F_Aslema.mp3', '/audio/F_Bqadech.mp3', '/audio/F_Yaaychek.mp3', '/audio/F_Aatini.mp3',
+                '/audio/F_Beslema.mp3', '/audio/F_Mahlek.mp3'
+            ];
+            var audTabM = ['/audio/M_Aslema.mp3', '/audio/M_Bqadech.mp3', '/audio/M_Yaaychek.mp3', '/audio/M_Aatini.mp3',
+                '/audio/M_Beslema.mp3', '/audio/M_Mahlek.mp3'
+            ];
+            var y = x - 1;
+            var idaud = 'aud' + x;
+            var aud = document.getElementById(idaud);
 
-    if (aud.src.includes(audTabF[y])) {
-        aud.src = audTabM[y];
-        aud.style.border = "1px solid blue";
-    } else {
-        aud.src = audTabF[y];
-        aud.style.border = "1px solid #E177FB";
-    }
+            if (aud.src.includes(audTabF[y])) {
+                aud.src = audTabM[y];
+                aud.style.border = "1px solid blue";
+            } else {
+                aud.src = audTabF[y];
+                aud.style.border = "1px solid #E177FB";
+            }
 
-    var iddow = 'dw' + x;
-    var dow = document.getElementById(iddow);
+            var iddow = 'dw' + x;
+            var dow = document.getElementById(iddow);
 
-    if (dow.href.includes(audTabM[y])) {
-        dow.href = audTabF[y];
-    } else {
-        dow.href = audTabM[y];
-    }
-}
+            if (dow.href.includes(audTabM[y])) {
+                dow.href = audTabF[y];
+            } else {
+                dow.href = audTabM[y];
+            }
+        }
     </script>
     @include('layouts.front.footer')
