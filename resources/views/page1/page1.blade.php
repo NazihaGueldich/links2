@@ -288,11 +288,12 @@
         <div class="container sess3mobvid text-center">
             <div class="text2">
                 <h2 class="main-title">Promotional video</h2>
-                <div class="ligne-separtion"></div>
+
                 <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
             <div class="wrap-video">
-                <video id="my-video" class="video-js video-page1" controls preload="auto" poster="images/sahrouch.png" >
+                <video id="my-video" class="video-js video-page1" controls preload="auto"
+                    poster="images/sahrouch.png">
                     <source src="images/vd.mp4" type="video/mp4" />
                 </video>
             </div>
@@ -307,7 +308,7 @@
             <div class="text2">
                 <h2 class="main-title">Tunisia live weather</h2>
             </div>
-            <div class=" buttons py-lg-3">
+            <div class=" buttons btn-section-9">
                 <button id='btnTunis' class="p-2 btn btnactv mx-1">튀니스</button>
                 <button id='btnSfax' class="p-2 btninactv mx-1">스팍스</button>
                 <button id='btnKairouan' class="p-2 btninactv mx-1">카이로우안</button>
@@ -344,7 +345,7 @@
 
         <div class="container sess3">
             <div class="city-section">
-                <div class="w-100">
+                <div class="w-100 ">
                     <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
                         background-position: 50% 55%;"
                         class="image1-2 links_box-shadox" id="imageCov1">
@@ -385,8 +386,8 @@
                         특히 스타워즈의 농가 장면이 촬영지인 시디 드리스 호텔(Sidi Driss Hotel)이 유명합니다.</p>
                 </div>
             </div>
-            <div class=" scroll-container w-100">
-                <div class="d-flex gap-20 mt-4 sess3-web">
+            <div class=" scroll-container w-100 ">
+                <div class="d-flex gap-20 mt-4 sess3-web variable-width">
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
                             alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
@@ -441,8 +442,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class=" sess3-mob">
+
+
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
                             alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
@@ -497,7 +498,40 @@
                             </div>
                         </div>
                     </div>
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Sousse-tunisiatrip.jpg') }}" class="imageB5" id="imageB4"
+                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>수스</span>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Sfax_tunisaitrip.jpg') }}" class="imageB6" id="imageB4"
+                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>스팍스</span>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/Djerba_Sidi_Jmour_mosque_tunisiatrip.jpg') }}" class="imageB4"
+                            id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>제르바</span>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column affmob">
+                        <img src="{{ asset('images/star_wars_touzer-tunisiatrip.jpg') }}" class="imageB7"
+                            id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <div class="d-flex flex-column align-items-start">
+                            <span class="text-p4" id='crd2h4'>토주르</span>
+
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
         </div>
@@ -508,7 +542,7 @@
     <section id="section-5">
         <div class="container">
             <h2 class="main-title text-center">Visitor Reviews</h2>
-            <div class="container mt-5 cm">
+            <div class="container cm">
                 <div class="row justify-content-center">
                     <div class="wrap-avis">
                         <div class="card mx-auto justify-content-center">
@@ -808,6 +842,18 @@
         });
     </script>
     <script>
+        $(document).ready(function() {
+            $('.variable-width').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
+            });
+        });
+    </script>
+    <script>
         jQuery(document).ready(function() {
             jQuery("#toggleButton").click(function() {
                 jQuery(".custom-navbar").toggleClass("toggled");
@@ -838,9 +884,9 @@
                 $("#btnSfax").addClass("btninactv");
                 $("#btnKairouan").removeClass("btnactv");
                 $("#btnKairouan").addClass("btninactv");
-                document.getElementById("tunis-weather").style.display="block";
-                document.getElementById("sfax-weather").style.display="none";
-                document.getElementById("kairouan-weather").style.display="none";
+                document.getElementById("tunis-weather").style.display = "block";
+                document.getElementById("sfax-weather").style.display = "none";
+                document.getElementById("kairouan-weather").style.display = "none";
             });
             $("#btnSfax").on('click', function() {
                 $(this).addClass("btnactv");
@@ -849,9 +895,9 @@
                 $("#btnTunis").addClass("btninactv");
                 $("#btnKairouan").removeClass("btnactv");
                 $("#btnKairouan").addClass("btninactv");
-                document.getElementById("tunis-weather").style.display="none";
-                document.getElementById("sfax-weather").style.display="block";
-                document.getElementById("kairouan-weather").style.display="none";
+                document.getElementById("tunis-weather").style.display = "none";
+                document.getElementById("sfax-weather").style.display = "block";
+                document.getElementById("kairouan-weather").style.display = "none";
             });
             $("#btnKairouan").on('click', function() {
                 $(this).addClass("btnactv");
@@ -860,9 +906,9 @@
                 $("#btnTunis").addClass("btninactv");
                 $("#btnSfax").removeClass("btnactv");
                 $("#btnSfax").addClass("btninactv");
-                document.getElementById("tunis-weather").style.display="none";
-                document.getElementById("sfax-weather").style.display="none";
-                document.getElementById("kairouan-weather").style.display="block";
+                document.getElementById("tunis-weather").style.display = "none";
+                document.getElementById("sfax-weather").style.display = "none";
+                document.getElementById("kairouan-weather").style.display = "block";
             });
 
         });

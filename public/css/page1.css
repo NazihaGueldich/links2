@@ -92,9 +92,15 @@ body.tunisiatrip button, body.tunisiatrip a {
     position: relative;
     z-index: 2;
 }
+.btn-section-9{
+    margin: 5px 0 20px 0;
+}
 .main-title {
     font-size: 1.55rem;
     font-weight: 600;
+    margin: 5px 0 20px 0;
+}
+#tunis-weather{
     margin: 5px 0 20px 0;
 }
 body.tunisiatrip .card {
@@ -150,7 +156,7 @@ body.tunisiatrip .card-body {
 
 
 .cm {
-    margin-right: 30%;
+    margin: 20px 0 20px 20px;
 }
 
 .card {
@@ -211,7 +217,7 @@ html {
     height: 100%;
 }
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 section.background-section {
     background: #d6dfef17;
@@ -379,6 +385,21 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.scroll-container .slick-next::before, .slick-prev::before {
+    font-size: 28px;
+    color: #347EFF;
+}
+.scroll-container .slick-next::before, .slick-prev::before {
+    font-size: 28px !important;
+    color: #347EFF !important;
+}
+.scroll-container .slick-next {
+    right: -115px;
+}
+.scroll-container .slick-prev {
+    left: -115px !important;
+}
+
 
 .btn.btn-outline-primary.btn-main {
     height: 33px;
@@ -560,7 +581,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     font-weight: 400;
     font-size: 1.25rem;
     color: #000000;
-    margin: 0 auto 25px;
+    margin: 0 auto 20px;
 }
 
 .text3 {
@@ -574,7 +595,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     text-align: center;
     font-size: 1.55rem;
     font-weight: 600;
-    margin:20px 0 20px 0;
+    margin:5px 0 20px 0;
 }
 
   .city-section {
@@ -610,7 +631,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
 .imageB1,
 .imageB2,
 .imageB3,
-.imageB4 {
+.imageB4,.imageB5,.imageB6,.imageB7 {
     width: 100%;
     height: 207.02px;
     border-radius: 30px;
