@@ -21,7 +21,7 @@ function changSection6(index) {
             <div class="crdsess5 p-lg-5 mt-lg-5">
                 <div class="row">
                     <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="../images/bardo-national-museum.png" alt="Bardo National Museum">
+                        <img class='crdsess5-img' src="../images/Bardo_museum.jpg" alt="Bardo National Museum">
                     </div>
                     <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
                         <p class="sub-title">바르도 박물관</p>

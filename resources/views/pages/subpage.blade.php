@@ -5,7 +5,13 @@
     @include('layouts.front.header')
     {{-- session 1 --}}
     <section id="section1">
-        <img src="{{ asset('images/img-cov-subpage.png') }}" class="img1" alt="Tunisie Sahara">
+        <div id='section1-slick'>
+            <img src="{{ asset('images/carthage_tunisatrip.png') }}" class="img1" alt="Carthage">
+            <img src="{{ asset('images/tozeur_tunisatrip.png') }}" class="img1" alt="Tozeur">
+            <img src="{{ asset('images/hamamet_tunisiatrip.png') }}" class="img1" alt="Hamamet">
+            <img src="{{ asset('images/dogga_tunisatrip.png') }}" class="img1" alt="Dogga">
+            <img src="{{ asset('images/Monastir_-_tunisiatrip.png') }}" class="img1" alt="Monastir">
+        </div>
         <div class="overlay-content">
             <img id='icnav' src="{{ asset('images/avion.png') }}" alt="Avion"
                 class=" d-flex align-items-center justify-content-center">

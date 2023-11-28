@@ -30,14 +30,32 @@
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
-                    <img src="{{ asset('images/Group (3).png') }}" style="width: 93px; height: 62px;" alt="Kasr Il Jamm">
-                    <img src="{{ asset('images/Group (4).png') }}" style="width: 93px; height: 62px;" alt="Ojja">
-                    <img src="{{ asset('images/Group 52.png') }}" style="width: 93px; height: 62px;" alt="Sidi Bou Said">
+                    <div class="part2">
+                        <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
+                        <p>항공편 및 공항</p>
+                    </div>
+                    <div class="part2">
+                        <img src="{{ asset('images/oja.png') }}" alt="Ojja">
+                        <p>항공편 및 공항</p>
+                    </div>
+                    <div class="part2">
+                        <img src="{{ asset('images/Visite_touristique.png') }}" alt="Visite touristique">
+                        <p>관광</p>
+                    </div>
                 </div>
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
-                    <img src="{{ asset('images/Group 62.png') }}" style="width: 93px; height: 62px;" alt="">
-                    <img src="{{ asset('images/Group 63.png') }}" style="width: 93px; height: 62px;" alt="">
-                    <img src="{{ asset('images/Group 39589.png') }}" style="width: 93px; height: 62px;" alt="">
+                    <div class="part2">
+                        <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara">
+                        <p>호텔과 리조트</p>
+                    </div>
+                    <div class="part2">
+                        <img src="{{ asset('images/Équipage.png') }}" alt="Équipage">
+                        <p>크루</p>
+                    </div>
+                    <div class="part2">
+                        <img src="{{ asset('images/Visite_touristique2.png') }}" alt="Visite touristique">
+                        <p>관광</p>
+                    </div>
                 </div>
             </div>
         </div>
