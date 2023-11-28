@@ -49,25 +49,25 @@ function chngcontsess4(x) {
     var choix3 = document.getElementById('choix3');
     var dirct = document.getElementById('dirct');
     if (x == 0) {
-        choix0.classList = 'p-2 btn btnactv';
+        choix0.classList = 'p-2  btnactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
         dirct.style.display = 'none';
     } else if (x == 1) {
-        choix1.classList = 'p-2 btn btnactv';
+        choix1.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
         dirct.style.display = 'block';
     } else if (x == 2) {
-        choix2.classList = 'p-2 btn btnactv';
+        choix2.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
         dirct.style.display = 'none';
     } else if (x == 3) {
-        choix3.classList = 'p-2 btn btnactv';
+        choix3.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
