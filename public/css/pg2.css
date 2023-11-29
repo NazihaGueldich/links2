@@ -17,9 +17,9 @@ body.tunisiatrip {
 }
 
 .part2 img{
-    width: 93px;
-    height: 62px;
-    border-radius: 10px;
+    width: 196px !important;
+    height: 89px !important;
+    border-radius: 10px !important;
 }
 
 body.tunisiatrip button,

@@ -520,46 +520,38 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                    <div class="d-flex justify-content-evenly mb-4 gap-10">
+                <div class="col-lg-6 mt-4 mt-lg-0 ">
+                    <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
                         <a href="sub-page#section4">
                         <div class="part2">
-                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
-                            <p>항공편 및 공항</p>
+                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover">
+                            <p>음식</p>
                         </div>
                         </a>
                         <a href="travel-information#Culinary-recomendation">
                         <div class="part2">
-                            <img src="{{ asset('images/oja.png') }}" alt="Ojja">
-                            <p>항공편 및 공항</p>
+                            <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
+                            <p>목적지</p>
                         </div>
                         </a>
                         <a href="/#section-4">
-                        <div class="part2">
-                            <img src="{{ asset('images/Visite_touristique.png') }}" alt="Visite touristique">
-                            <p>관광</p>
-                        </div>
+
                         </a>
                     </div>
                     <a href="sub-page#section5">
-                    <div class="d-flex justify-content-evenly mb-4 gap-10">
+                    <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
                         <div class="part2">
-                            <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara">
-                            <p>호텔과 리조트</p>
+                            <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara" class="object-fit-cover">
+                            <p>활동</p>
                         </div>
                     </a>
                     <a href="sub-page#section5">
                         <div class="part2">
-                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage">
-                            <p>크루</p>
+                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover">
+                            <p>호텔과 리조트</p>
                         </div>
                     </a>
-                    <a href="about-tunisia#section-1">
-                        <div class="part2">
-                            <img src="{{ asset('images/Visite_touristique2.png') }}" alt="Visite touristique">
-                            <p>관광</p>
-                        </div>
-                    </a>
+
 
                 </div>
 
