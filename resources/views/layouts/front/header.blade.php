@@ -56,3 +56,27 @@
         </div>
     </div>
 </nav>
+<style>
+    .dropdown-menu a {
+    width: 100px !important;
+    white-space: nowrap;
+}
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 100px;
+        z-index: 1000;
+    }
+
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+
+    .dropdown-menu a {
+        width: 150px;
+        white-space: nowrap; /
+    }
+    </style>
