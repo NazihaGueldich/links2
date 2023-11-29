@@ -27,7 +27,11 @@
         font-size: 0.8rem;
     }
 }
+#section5 ul{
 
+    line-height: 25px;
+
+}
 /* section 1 */
 #page-subpage #section1 {
     position: relative;
@@ -73,11 +77,12 @@
 
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
     #page-subpage #section1 #icnav {
         width: 50px;
         padding-bottom: 0;
     }
+
 }
 
 /* section 2 */
@@ -440,7 +445,7 @@
 
 .wrap-trips-routes .wrap-single-zone:hover {
     opacity: 1;
-    width: 128px;
+    width: 185px;
     height: 210px;
     overflow-y: auto;
     border-radius: 10px;
@@ -448,7 +453,13 @@
     color: #000000;
     animation-play-state: paused !important;
 }
+@media all and (max-width: 767px) {
+.wrap-trips-routes .wrap-single-zone:hover {
 
+    width: 123px;
+
+}
+}
 .zone-long-description {
     display: none !important;
 }

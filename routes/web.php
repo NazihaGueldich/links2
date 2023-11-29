@@ -22,6 +22,9 @@ Route::get('/', function () {
     return view('page1.page1');
 })->name('page1');
 
+Route::get('/', function () {
+    return redirect(url()->previous().'#section-7');
+})->name('page11');
 
 Route::get('/about-tunisia', function () {
     return view('page2.page2');

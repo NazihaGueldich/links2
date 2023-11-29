@@ -38,7 +38,7 @@
                         <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" id='sub' href="/sub-page">추천일정</a>
                             <a class="dropdown-item" id='blog' href="/blog-page">뉴스레터</a>
-                            <a class="dropdown-item" id='part' href="/partners">파트너</a>                           
+                            <a class="dropdown-item" id='part' href="/partners">파트너</a>
                         </div>
                     </div>
                 </li>

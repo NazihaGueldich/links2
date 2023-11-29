@@ -27,10 +27,13 @@
                     <p class="sub-title sub-title2-3">아틀란티스가 함께합니다.</p>
                 </div>
                 <div class="button-sub">
-                <button type="button"
-                    class="btn btn-outline-primary d-flex align-items-center btnsect2 radius-20 pr-lg-4 pl-lg-4">
-                    <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">문의하기</button>
+
+                        <button type="button" class="btn btn-outline-primary d-flex align-items-center btnsect2 radius-20 pr-lg-4 pl-lg-4">
+                            <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">문의하기
+                        </button>
+                  
                 </div>
+
             </section>
         </div>
     </div>
@@ -520,7 +523,7 @@
                     <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 26%;" href='zone-sousse'>
                         @include('pages.zones.sousse-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 38%;" href='zone-kairouane'>
+                    <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 28%;" href='zone-kairouane'>
                         @include('pages.zones.kairouane-zone')
                     </div>
                     <div class="wrap-single-zone zone-sufetela" style="left: 44%; top: 18.78%;" href='zone-dogga'>

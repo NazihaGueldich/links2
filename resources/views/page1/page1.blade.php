@@ -582,8 +582,8 @@
         </div>
     </section>
     <section id="section-7" class="background-section">
-        <div class="container ">
-            <h2 class="main-title text-center">Contact Us</h2>
+        <div class="container " id="contact-us-section">
+            <h2 class="main-title text-center" >Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
             <div class="row pt-lg-4">
@@ -825,6 +825,16 @@
             navbarNav.classList.toggle('show');
         });
     </script>
+    <script>
+        $(document).ready(function() {
+            $('#scrollToContact').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $('#contact-us-section').offset().top
+                }, 'slow');
+            });
+        });
+        </script>
+
     <script>
         $(document).ready(function() {
             $('.variable-width').slick({
