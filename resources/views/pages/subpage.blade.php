@@ -526,7 +526,7 @@
                     <div class="wrap-single-zone zone-sufetela" style="left: 44%; top: 18.78%;" href='zone-dogga'>
                         @include('pages.zones.dogga-zone')
                     </div>
-                    <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur'>
+                    <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur' id="tozeur">
                         <a  title="Tozeur"></a>
                         @include('pages.zones.tozeur-zone')
                     </div>

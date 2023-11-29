@@ -8,7 +8,7 @@
                         <li><a href="#">역사</a> |</li>
                         <li><a href="travel-information#Culinary-recomendation">음식</a> |</li>
                         <li><a href="about-tunisia#section-10">문화</a> |</li>
-                        <li><a href="#section-4">목적지</a> |</li>
+                        <li><a href="/#section-4">목적지</a> |</li>
                         <li><a href="about-tunisia#spotlight-section">활동</a> |</li>
                         <li><a href="about-tunisia#section-1">경제</a> |</li>
                         <li><a href="#">업적</a></li>
@@ -22,7 +22,7 @@
                         <li><a href="about-tunisia#section-1">경제</a> |</li>
 
 
-                        <li><a href="#section-7">우리가 도울 수 있는 방법</a> </li>
+                        <li><a href="/#section-7">우리가 도울 수 있는 방법</a> </li>
 
                     </ul>
                 </div>
@@ -30,33 +30,45 @@
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
+                    <a href="sub-page#section4">
                     <div class="part2">
                         <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
                         <p>항공편 및 공항</p>
                     </div>
+                    </a>
+                    <a href="travel-information#Culinary-recomendation">
                     <div class="part2">
                         <img src="{{ asset('images/oja.png') }}" alt="Ojja">
                         <p>항공편 및 공항</p>
                     </div>
+                    </a>
+                    <a href="/#section-4">
                     <div class="part2">
                         <img src="{{ asset('images/Visite_touristique.png') }}" alt="Visite touristique">
                         <p>관광</p>
                     </div>
+                    </a>
                 </div>
+                <a href="sub-page#section5">
                 <div class="d-flex justify-content-evenly mb-4 gap-10">
                     <div class="part2">
                         <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara">
                         <p>호텔과 리조트</p>
                     </div>
+                </a>
+                <a href="sub-page#section5">
                     <div class="part2">
                         <img src="{{ asset('images/Équipage.png') }}" alt="Équipage">
                         <p>크루</p>
                     </div>
+                </a>
+                <a href="about-tunisia#section-1">
                     <div class="part2">
                         <img src="{{ asset('images/Visite_touristique2.png') }}" alt="Visite touristique">
                         <p>관광</p>
                     </div>
-                </div>
+                </a>
+
             </div>
         </div>
 

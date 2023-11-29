@@ -275,7 +275,7 @@
                    </div> -->
                     <div class="col-md-12">
                         <div class="section-header">
-                            <h2 class="main-title dm-sans text-center">Culinary recomendation</h2>
+                            <h2 class="main-title dm-sans text-center" id="Culinary-recomendation">Culinary recomendation</h2>
                             <p class=" m-auto text-center col-lg-6">튀니지 음식은 동서양 요리 양식이 혼합된 형태예요.
 
                                 역사적으로 고대 페니키아, 로마, 오스만제국을 거쳐 프랑스의 영향도 많이 받았어요.
