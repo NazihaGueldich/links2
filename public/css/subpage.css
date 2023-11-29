@@ -138,6 +138,16 @@
     font-size: 28px;
     color: #347EFF;
 }
+
+#slick-section3-web .slick-dots{
+    padding-right: 1rem!important;
+}
+
+#slick-section3-web .slick-dots li button:before{
+    left: 0;
+}
+
+
 #page-subpage #section2 .btnsect2 img {
     width: 32px;
     margin-right: 10px;

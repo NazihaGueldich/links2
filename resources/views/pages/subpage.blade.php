@@ -40,7 +40,7 @@
             <h2 class="main-title text-center">How to get from KOREA to TUNISIA</h2>
             <p class="text-center">한국에서 튀니지로 여행하는 주요 3가지 방법은 다음과 같습니다</p>
             <div id='slick-section3-web' class="slick-section3-web">
-                <div class="pr-lg-2">
+                <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Qatar Airways</p>
@@ -183,7 +183,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 11시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -193,7 +193,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 6시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -209,23 +209,23 @@
                         </div>
                         <div class="crdsess3prt2">
                             <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">인천<strong> 한국</strong></p>
+                                <p class="mb-0 pb-0">인천 <strong> 한국</strong></p>
                             </div>
                             <div class="col-3 p-0 route">
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 12시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">도하 <strong> 카타르</strong></p>
+                                <p class="mb-0 pb-0">이스탄불 <strong> 튀르키예</strong></p>
                             </div>
                             <div class="col-3 p-0 route">
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 3시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -247,7 +247,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 14시간 30분</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -257,7 +257,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">5 hours</p>
+                                    <p class="mb-0">약 2시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -279,7 +279,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 10시간 30분</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
@@ -289,7 +289,7 @@
                                 <hr class="lignedisc">
                                 <div>
                                     <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">4 hours</p>
+                                    <p class="mb-0">약 7시간</p>
                                 </div>
                             </div>
                             <div class="col-2 p-0">
