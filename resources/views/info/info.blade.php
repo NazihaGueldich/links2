@@ -350,17 +350,17 @@
                     <div class="row wrap-nav-transportation">
                         <div class="col-md-12">
                             <div class="col-12 d-flex justify-content-center button1" style="gap: 7px;" id="btns">
-                                <button id='btn0' data-toggle="tab" href="#domav" class="p-2 btnactv"
+                                <button id='btn0' data-toggle="tab" href="#domav" class="btnactv"
                                     onclick="changbtn(0)">Domestic Aviation</button>
-                                <button id='btn1' data-toggle="tab" href="#carnt" class="p-2 btninactv"
+                                <button id='btn1' data-toggle="tab" href="#carnt" class="btninactv"
                                     onclick="changbtn(1)">Car Rent</button>
-                                <button id='btn2' data-toggle="tab" href="#taxi" class="p-2 btninactv"
+                                <button id='btn2' data-toggle="tab" href="#taxi" class="btninactv"
                                     onclick="changbtn(2)">Taxi</button>
-                                <button id='btn3' data-toggle="tab" href="#loug" class="p-2 btninactv"
+                                <button id='btn3' data-toggle="tab" href="#loug" class="btninactv"
                                     onclick="changbtn(3)">Louage</button>
-                                <button id='btn4' data-toggle="tab" href="#trnmet" class="p-2 btninactv"
+                                <button id='btn4' data-toggle="tab" href="#trnmet" class="btninactv"
                                     onclick="changbtn(4)">Train/Metro</button>
-                                <button id='btn5' data-toggle="tab" href="#ferr" class="p-2 btninactv"
+                                <button id='btn5' data-toggle="tab" href="#ferr" class="btninactv"
                                     onclick="changbtn(5)">Ferry</button>
                             </div>
                             <div class="tab-content">

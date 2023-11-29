@@ -406,34 +406,28 @@ body#page-atlantis .card-session4 {
 }
 
 .btnactv {
-    width: 14%;
-
+    width: auto;
     border-radius:30px;
-
-
-    padding: 0px 36px !important;
+    padding: 0px 20px !important;
     text-align: center;
     color: #FFF !important;
     background-color: #347EFF;
     border: 1px solid #347EFF;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     height: 45px;
 }
 
 
 .btninactv {
     border: 1px solid #347EFF !important;
-    width: 14%;
+    width: auto;
     border-radius:30px;
+    padding: 0px 20px !important;
     font-size: 1.1rem;
     font-weight: 600;
-
-
     text-align: center;
     color: #347EFF;
-
-
     background-color: transparent;
     height: 45px;
 }

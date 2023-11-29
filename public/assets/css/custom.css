@@ -10,62 +10,60 @@
     max-width: 1400px
 }
 
-#page-info .custom-card .row{
+#page-info .custom-card .row {
     padding-left: 5%;
     margin-top: 6%;
     width: 100%;
 }
 
-#page-info .custom-card .custom-card-img{
+#page-info .custom-card .custom-card-img {
     margin-top: 8%;
 }
 
-#page-info .custom-card .custom-card-text{
+#page-info .custom-card .custom-card-text {
     margin-top: 4%;
 }
 
-#page-info .custom-card audio{
+#page-info .custom-card audio {
     height: 40px;
     width: 100%;
 }
 
 .btnactv {
-    width: 14%;
-
-    border-radius:30px;
-line-height: normal;
-
-    padding: 0px 36px !important;
+    width: auto;
+    border-radius: 30px;
+    line-height: normal;
+    padding: 0px 20px !important;
     text-align: center;
     color: #FFF !important;
     background-color: #347EFF;
     border: 1px solid #347EFF;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     height: 45px;
 }
 
 
-#page-info  a{
+#page-info a {
     text-decoration: none;
     color: black;
 }
-#page-info a:hover{
+
+#page-info a:hover {
     text-decoration: none;
     color: #0056b3;
 }
+
 .btninactv {
     border: 1px solid #347EFF !important;
-    width: 14%;
-    border-radius:30px;
+    width: auto;
+    border-radius: 30px;
     font-size: 1.1rem;
     font-weight: 600;
     line-height: normal;
-
+    padding: 0px 20px !important;
     text-align: center;
     color: #347EFF;
-
-
     background-color: transparent;
     height: 45px;
 }
