@@ -6,7 +6,7 @@
     <main>
         <div id="mySlickCarousel">
             <div class="slick-slider">
-                <div class="slick-slide" >
+                <div class="slick-slide">
                     <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1" alt="Tunisie Sahara">
                     <div class="overlay-content">
                         <div class="text-center">
@@ -52,56 +52,56 @@
     </main>
 
     <div class="container icons-none">
-    <div class="flex-container pt-5 sessicn">
-        <a href="about-atlantis#section-5">
-            <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
-                <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
-                <p id="p1" class="txticns">호텔</p>
-            </div>
-        </a>
-        <div class=" ligne1 m-4 lg">|</div>
-        <a href="sub-page#section3">
-            <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
-                    id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
-                <p id="p2" class="txticns">항공편</p>
-            </div>
-        </a>
-        <div class="ligne1 m-4 lg">|</div>
-        <a href="travel-information#p3-section5">
-            <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
-                    id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
-                <p id="p3" class="txticns">축제</p>
-            </div>
-        </a>
-        <div class="ligne1 m-4 lg">|</div>
-        <a href="about-tunisia#section-9">
-            <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
-                    id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
-                <p id="p4" class="txticns">활동</p>
-            </div>
-        </a>
-        <div class="ligne1 m-4 lg">|</div>
-        <a href="about-atlantis#section-4">
-            <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
-                    id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
-                <p id="p5" class="txticns">자동차 서비스</p>
-            </div>
-        </a>
-        <div class="ligne1 m-4 lg">|</div>
-        <a href="sub-page#section4">
-            <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
-                    id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
-                <p id="p6" class="txticns">크루즈</p>
-            </div>
-        </a>
-        <div class="ligne1 m-4 lg">|</div>
-        <a href="travel-information#p3-section4">
-            <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
-                    id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
-                <p id="p7" class="txticns">박물관</p>
-            </div>
-        </a>
-    </div>
+        <div class="flex-container pt-5 sessicn">
+            <a href="about-atlantis#section-5">
+                <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
+                    <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p1" class="txticns">호텔</p>
+                </div>
+            </a>
+            <div class=" ligne1 m-4 lg">|</div>
+            <a href="sub-page#section3">
+                <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
+                        id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p2" class="txticns">항공편</p>
+                </div>
+            </a>
+            <div class="ligne1 m-4 lg">|</div>
+            <a href="travel-information#p3-section5">
+                <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
+                        id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p3" class="txticns">축제</p>
+                </div>
+            </a>
+            <div class="ligne1 m-4 lg">|</div>
+            <a href="about-tunisia#section-9">
+                <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
+                        id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p4" class="txticns">활동</p>
+                </div>
+            </a>
+            <div class="ligne1 m-4 lg">|</div>
+            <a href="about-atlantis#section-4">
+                <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
+                        id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p5" class="txticns">자동차 서비스</p>
+                </div>
+            </a>
+            <div class="ligne1 m-4 lg">|</div>
+            <a href="sub-page#section4">
+                <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
+                        id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p6" class="txticns">크루즈</p>
+                </div>
+            </a>
+            <div class="ligne1 m-4 lg">|</div>
+            <a href="travel-information#p3-section4">
+                <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
+                        id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
+                    <p id="p7" class="txticns">박물관</p>
+                </div>
+            </a>
+        </div>
     </div>
 
 
@@ -696,7 +696,8 @@
                         발전에 대한 헌신을 보여줍니다.</p>
 
                     <img id='img5Cnt' class='imginactv' src="images/UNSCO.png" alt="Usnco">
-                    <p id="txt5" class="txtinactv">역사적, 문화적 유산이 풍부한 튀니지는 튀니스와 수스의 메디나, 카이로안, 카르타고 유적, 엘젬 원형극장 등 총 9개의 유네스코 세계문화유산을 보유하고 있습니다.</p>
+                    <p id="txt5" class="txtinactv">역사적, 문화적 유산이 풍부한 튀니지는 튀니스와 수스의 메디나, 카이로안, 카르타고 유적, 엘젬 원형극장 등 총
+                        9개의 유네스코 세계문화유산을 보유하고 있습니다.</p>
                 </div>
             </div>
         </div>
@@ -735,30 +736,30 @@
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="d-flex justify-content-evenly mb-4 gap-10">
                         <a href="sub-page#section4">
-                        <div class="part2">
-                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
-                            <p>항공편 및 공항</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm">
+                                <p>항공편 및 공항</p>
+                            </div>
                         </a>
                         <a href="travel-information#Culinary-recomendation">
-                        <div class="part2">
-                            <img src="{{ asset('images/oja.png') }}" alt="Ojja">
-                            <p>항공편 및 공항</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/oja.png') }}" alt="Ojja">
+                                <p>항공편 및 공항</p>
+                            </div>
                         </a>
                         <a href="/#section-4">
-                        <div class="part2">
-                            <img src="{{ asset('images/Visite_touristique.png') }}" alt="Visite touristique">
-                            <p>관광</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/Visite_touristique.png') }}" alt="Visite touristique">
+                                <p>관광</p>
+                            </div>
                         </a>
                     </div>
                     <a href="sub-page#section5">
-                    <div class="d-flex justify-content-evenly mb-4 gap-10">
-                        <div class="part2">
-                            <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara">
-                            <p>호텔과 리조트</p>
-                        </div>
+                        <div class="d-flex justify-content-evenly mb-4 gap-10">
+                            <div class="part2">
+                                <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara">
+                                <p>호텔과 리조트</p>
+                            </div>
                     </a>
                     <a href="sub-page#section5">
                         <div class="part2">
@@ -835,12 +836,13 @@
     <script>
         $(document).ready(function() {
             $('.variable-width').slick({
-                dots: false,
                 infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                centerMode: true,
-                variableWidth: true
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+
+
+                cssEase: 'linear',
             });
         });
     </script>
