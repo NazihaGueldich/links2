@@ -220,7 +220,7 @@
     <section id="section-6">
         <div class="container">
 
-            <div class="text-center mb-2 d-flex flex-column align-items-center">
+            <div class="text-center mb-3 d-flex flex-column align-items-center">
                 <h2 class="main-title " >Language</h2>
 
                 <p class=" parghraphe1">

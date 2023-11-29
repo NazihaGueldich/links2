@@ -109,6 +109,10 @@ body.tunisiatrip button, body.tunisiatrip a {
 .btn-section-9{
     margin: 5px 0 20px 0;
 }
+
+#section-9{
+    max-height: 400px;
+}
 .main-title {
     font-size: 1.55rem;
     font-weight: 600;
@@ -233,9 +237,7 @@ html {
 section {
     padding: 30px 0;
 }
-section.background-section {
-    background: #d6dfef17;
-}
+
 body {
     width: 100%;
     background-color: #fff !important;
@@ -647,11 +649,11 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
 .imageB3,
 .imageB4,.imageB5,.imageB6,.imageB7 {
     width: 100%;
-    height: 207.02px;
+    height: 250px;
     border-radius: 30px;
-    background-size: 100% 100%;
     margin-bottom: 10px;
     border: 2px solid transparent;
+    object-fit: cover;
 }
 
 .text4 {
@@ -1219,38 +1221,38 @@ body.tunisiatrip .card5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: .5rem;
 }
 
 .btnactv {
-    width: 14%;
-
+    width: auto;
     border-radius:30px;
-
-
-    padding: 0px 36px !important;
+    padding: 0px 20px !important;
     text-align: center;
     color: #FFF !important;
     background-color: #347EFF;
     border: 1px solid #347EFF;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     height: 45px;
 }
 .video-page1{
-    width: 70%;
+    width: 90%;
 }
+
+section.background-section {
+    background: #d6dfef17;
+}
+
 .btninactv {
     border: 1px solid #347EFF !important;
-    width: 14%;
+    width: auto;
+    padding: 0px 20px !important;
     border-radius:30px;
     font-size: 1.1rem;
     font-weight: 600;
-
-
     text-align: center;
     color: #347EFF;
-
-
     background-color: transparent;
     height: 45px;
 
@@ -1526,7 +1528,8 @@ section .block-cards {
 
 .section-2-hover:hover .links_box-1,
 .section-2-hover:hover .links_box-2,
-.section-2-hover:hover .links_box-3 {
+.section-2-hover:hover .links_box-3,
+.section-2-hover:hover .links_box-4  {
     border: 2px solid #347EFF;
 }
 

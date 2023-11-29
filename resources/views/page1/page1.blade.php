@@ -295,12 +295,13 @@
 
     {{--    <div class="lignes"></div> --}}
 
-    <section id="section-3" class="background-section">
+    <section id="section-3">
         <div class="container sess3mobvid text-center">
             <div class="text2">
                 <h2 class="main-title">Promotional video</h2>
 
-                <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
+                <p>튀니지의 매력을 영상으로 확인해보세요.사하라 사막부터 역사가 살아숨쉬는 도시까지.<br>
+                    북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
             <div class="wrap-video">
                 <video id="my-video" class="video-js video-page1" controls preload="auto"
@@ -320,26 +321,26 @@
                 <h2 class="main-title">Tunisia live weather</h2>
             </div>
             <div class=" buttons btn-section-9">
-                <button id='btnTunis' class="p-2  btnactv mx-4">튀니스</button>
-                <button id='btnSfax' class="p-2 btninactv mx-4">스팍스</button>
-                <button id='btnKairouan' class="p-2 btninactv mx-4">카이로우안</button>
+                <button id='btnTunis' class="p-2  btnactv">튀니스</button>
+                <button id='btnSfax' class="p-2 btninactv">스팍스</button>
+                <button id='btnKairouan' class="p-2 btninactv">카이로우안</button>
             </div>
             <div id="tunis-weather">
-                <div id="ww_51f06295ce562" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                <div id="ww_51f06295ce562" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_51f06295ce562_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_51f06295ce562"></script>
             </div>
             <div id="sfax-weather" style="display: none">
-                <div id="ww_a4fcd1b6e1551" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                <div id="ww_a4fcd1b6e1551" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3361"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_a4fcd1b6e1551_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_a4fcd1b6e1551"></script>
             </div>
             <div id="kairouan-weather" style="display: none">
-                <div id="ww_2939843357c77" style="max-width: 741px;border-radius: 20px" v='1.3' loc='id'
+                <div id="ww_2939843357c77" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1701"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_2939843357c77_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
@@ -398,8 +399,8 @@
                 </div>
             </div>
             <div class=" scroll-container w-100 ">
-                <div class="d-flex gap-20 sess3-web variable-width">
-                    <div class="d-flex flex-column affmob">
+                <div class="sess3-web variable-width">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
                             alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -415,7 +416,7 @@
 
                     </div>
 
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
                             alt="Sahara" {{-- onclick="changeImage2()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -428,7 +429,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3"
                             alt='The Great Mosque of Kairouan' {{-- onclick="changeImage3()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -441,7 +442,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4"
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -454,13 +455,7 @@
                         </div>
                     </div>
 
-
-
-
-
-
-
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Sousse-tunisiatrip.jpg') }}" class="imageB5" id="imageB4"
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -468,7 +463,7 @@
 
                         </div>
                     </div>
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Sfax_tunisaitrip.jpg') }}" class="imageB6" id="imageB4"
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -476,7 +471,7 @@
 
                         </div>
                     </div>
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/Djerba_Sidi_Jmour_mosque_tunisiatrip.jpg') }}" class="imageB4"
                             id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -484,7 +479,7 @@
 
                         </div>
                     </div>
-                    <div class="d-flex flex-column affmob">
+                    <div class="d-flex flex-column affmob pr-lg-3">
                         <img src="{{ asset('images/star_wars_touzer-tunisiatrip.jpg') }}" class="imageB7"
                             id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
@@ -581,7 +576,7 @@
             <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
         </div>
     </section>
-    <section id="section-7" class="background-section">
+    <section id="section-7">
         <div class="container " id="contact-us-section">
             <h2 class="main-title text-center">Contact Us</h2>
 
@@ -841,11 +836,9 @@
         $(document).ready(function() {
             $('.variable-width').slick({
                 infinite: true,
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 dots: false,
-
-
                 cssEase: 'linear',
             });
         });

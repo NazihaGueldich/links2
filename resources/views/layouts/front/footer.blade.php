@@ -1,6 +1,6 @@
 <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
     <div class=" container">
-        <div class="row my-5">
+        <div class="row">
             <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
                 <div class="col-lg-12">
                     <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
