@@ -301,11 +301,11 @@
             </div>
         </section>
 
-        <div class="ligne-separtion"></div>
+        <div class="ligne-separtion" id="Popular-Tour"></div>
 
         {{-- session 4 --}}
         <section id='section4'>
-            <h2 class="main-title text-center">Our Most Popular Tour</h2>
+            <h2 class="main-title text-center" >Our Most Popular Tour</h2>
             <p class="text-center">아틀란티스가 제안하는 8일 튀니지 추천 여행 일정</p>
             <div id="section4-part1" >
                 <div class="row p-lg-4 py-2 mr-0">

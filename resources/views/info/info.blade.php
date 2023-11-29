@@ -44,7 +44,7 @@
                             </div>
                         </a>
                         <div class="ligne1 m-4 lg">|</div>
-                        <a href="sub-page#section4">
+                        <a href="sub-page#Popular-Tour">
                             <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
                                     id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
                                 <p id="p6" class="txticns">크루즈</p>
