@@ -55,7 +55,7 @@
             </a>
         </div>
         <section id='partners-cont'>
-            <h2 class="main-title text-center mb-lg-5">Atlantis Partnership</h2>
+            <h2 class="main-title text-center ">Atlantis Partnership</h2>
             <p style="text-align: center">아틀란티스는 전 세계 다양한 에이전시와의 파트너십을 통해 한 단계 높은 여행경험을 선사합니다.</p>
             <div id='partnerspartweb'>
                 <div class="row" >
