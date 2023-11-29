@@ -696,8 +696,7 @@
                         발전에 대한 헌신을 보여줍니다.</p>
 
                     <img id='img5Cnt' class='imginactv' src="images/UNSCO.png" alt="Usnco">
-                    <p id="txt5" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은 튀니지의 교육 수준과 지적
-                        발전에 대한 헌신을 보여줍니다.</p>
+                    <p id="txt5" class="txtinactv">역사적, 문화적 유산이 풍부한 튀니지는 튀니스와 수스의 메디나, 카이로안, 카르타고 유적, 엘젬 원형극장 등 총 9개의 유네스코 세계문화유산을 보유하고 있습니다.</p>
                 </div>
             </div>
         </div>
