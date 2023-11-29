@@ -155,7 +155,7 @@ $('#page-subpage #section1 #section1-slick').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    autoplay: true,
+   
     autoplaySpeed: 4000,
     prevArrow: null,
     nextArrow: null,

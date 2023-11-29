@@ -32,6 +32,7 @@
 #page-subpage #section1 {
     position: relative;
     padding-bottom: 0;
+    margin-top: 30px;
 }
 
 #page-subpage #section1 .img1 {
@@ -114,6 +115,11 @@
     right: -35px;
     margin: 0;
 }
+#section1-slick .slick-dots  {
+    z-index: 5;
+
+}
+
 #section1-slick .slick-dots li button:before {
     font-family: 'slick';
     margin-top: -463%;
@@ -225,7 +231,7 @@
 
 #page-subpage #section3 .slick-section3-web {
     display: block;
-   
+
 }
 
 #page-subpage #section3 .slick-section3-mobil {
@@ -403,7 +409,7 @@
     border: 1px solid #347EFF;
     border-radius: 20px;
     margin-top: 20px;
-    height:800px;  
+    height:800px;
 }
 
 .wrap-trips-routes .img-container {
