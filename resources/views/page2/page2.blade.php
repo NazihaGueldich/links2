@@ -5,7 +5,7 @@
     @include('layouts.front.header')
     <main>
         <div class="container ">
-        <div class="flex-container pt-5 sessicn">
+        <div class="flex-container pt-2 sessicn">
             <a href="about-atlantis#section-5">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                     <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
@@ -409,7 +409,7 @@
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">Culture</h2>
-               
+
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며,<br> 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
