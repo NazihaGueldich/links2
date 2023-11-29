@@ -51,7 +51,7 @@
 
     </main>
 
-    <div class="container mt-5">
+    <div class="container ">
     <div class="flex-container pt-5 sessicn">
         <a href="about-atlantis#section-5">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
@@ -108,7 +108,7 @@
 
 
     <section id="section-2">
-        <div class="container mt-5">
+        <div class="container mt-2">
             {{-- <div class="row reverse m-0">
                 <div class="col-6 r-image1">
                     <div class="image-1 box-shadox" onclick="handleClick(1)" id="image-1">
@@ -455,60 +455,11 @@
                     </div>
 
 
-                    <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
-                            alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
-                        <div class="d-flex flex-column align-items-start">
-                            <span class="text-p " id='crd2h1'>튀니스</span>
-                            <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn1-b text-center mr"
-                                    id="btn1">수도</button>
-                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
-                                    id="btn1-b">동쪽</button>
-                            </div>
 
-                        </div>
 
-                    </div>
 
-                    <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
-                            alt="Sahara" {{-- onclick="changeImage2()" --}}>
-                        <div class="d-flex flex-column align-items-start">
-                            <span class="text-p2" id='crd2h2'>두즈</span>
-                            <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
-                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
-                                    id="btn2-b">남쪽</button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Kairuan.png') }}" class="imageB3" id="imageB3"
-                            alt='The Great Mosque of Kairouan' {{-- onclick="changeImage3()" --}}>
-                        <div class="d-flex flex-column align-items-start">
-                            <span class="text-p3" id='crd2h3'>카이루안</span>
-                            <div class="d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn3 text-center" id="btn3">따뜻한</button>
-                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
-                                    id="btn3-b">남쪽</button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="d-flex flex-column affmob">
-                        <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4"
-                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
-                        <div class="d-flex flex-column align-items-start">
-                            <span class="text-p4" id='crd2h4'>마트마타</span>
-                            <div class="d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
-                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
-                                    id="btn4-b">남쪽</button>
-                            </div>
-                        </div>
-                    </div>
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sousse-tunisiatrip.jpg') }}" class="imageB5" id="imageB4"
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>

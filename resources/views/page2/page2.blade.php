@@ -4,7 +4,7 @@
 <body id="about-tunisia" class="tunisiatrip">
     @include('layouts.front.header')
     <main>
-        <div class="container mt-5">
+        <div class="container ">
         <div class="flex-container pt-5 sessicn">
             <a href="about-atlantis#section-5">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
@@ -265,14 +265,14 @@
             <div class="text-center ">
                 <div class="d-flex flex-column align-items-center">
                     <p class="main-title">Religion</p>
-                    <div class="ligne-separtion"></div>
+
                     <div class="parghraphe">
                         <span>튀니지의 국교는 이슬람교!<br>
                             튀니지는 헌법에서 종교가 이슬람교임을 명시적으로 밝히고 있는 이슬람교 국가예요.
                         </span>
                     </div>
                 </div>
-                <div class="row mt-5 ">
+                <div class="row mt-3 ">
                     <div class="col-lg-6 section-8-prt1">
                         <img src="{{ asset('images/Kairouan-Great.png') }}" class="img-fluid img4" id='img44' alt="Kairouan Great Tunisia">
                     </div>
@@ -409,7 +409,7 @@
         <section id="section-10">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">Culture</h2>
-                <div class="ligne-separtion"></div>
+               
                 <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며,<br> 그 예술은 복잡한 도자기와 모자이크 작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
@@ -563,7 +563,7 @@
 
                 </div>
 
-            
+
 
         </div>
 

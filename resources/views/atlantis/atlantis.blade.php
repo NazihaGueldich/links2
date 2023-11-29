@@ -60,9 +60,9 @@
         {{-- section 1 --}}
         <section id="section-1">
             <div class="text-center city-top">
-                <h2 class="main-title pt-5">Atlantis agency</h2>
+                <h2 class="main-title pt-3">Atlantis agency</h2>
             </div>
-            <div class="card card-session1 radius-20 mt-lg-5">
+            <div class="card card-session1 radius-20 ">
                 <div class="card-body mr-0 py-lg-4 row">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
@@ -113,7 +113,7 @@
             <div class="text-center">
                 <h2 class="main-title">A Message From our CEO</h2>
             </div>
-            <div class="card-session2  radius-20 mt-lg-5">
+            <div class="card-session2  radius-20 ">
                 <div class=" row mx-0  p-4 my-0 w-100">
                     <div class="col-lg-6 sect2-prt1 px-0 h-100 p-lg-3">
                         <img src="{{ asset('images/Kamel-Lagha.jpg') }}" class="w-100 h-100 radius-20"
@@ -148,7 +148,7 @@
                 <h2 class="main-title">Meet our Team Members</h2>
             </div>
             <div class="row session3-slick-web">
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/Kamel.png') }}" class="imgface" alt="Kamel Lagha">
                         <h2 class="sub-title">카멜 라가 </h2>
@@ -160,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3  col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/Heidi.png') }}" class="imgface" alt="Heidi Jung">
                         <h2 class="sub-title">정지혜</h2>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/Mariem.png') }}" class="imgface" alt="Meriem Zoghlami">
                         <h2 class="sub-title">마리엠 조그라미</h2>
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3 mt-lg-4">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center ">
                         <img src="{{ asset('images/dunno.png') }}" class="imgface" alt="Sonia Ben Amor">
                         <h2 class="sub-title">소니아 벤 아모르 </h2>
@@ -199,7 +199,7 @@
             </div>
 
             <div class="row session3-slick-mobile">
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center p-3 ">
                         <img src="{{ asset('images/Kamel.png') }}" class="imgface">
                         <h2 class="sub-title p-1">카멜 라가 </h2>
@@ -210,7 +210,7 @@
                                 id='crd1eml'>Kamel@atlantis.tn</span></div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center p-3">
                         <img src="{{ asset('images/Heidi.png') }}" class="imgface">
                         <h2 class="sub-title p-1">정지혜</h2>
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center p-3 ">
                         <img src="{{ asset('images/Mariem.png') }}" class="imgface">
                         <h2 class="sub-title p-1">마리엠 조그라미</h2>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-session3  mt-lg-5 col-lg-3">
+                <div class="card card-session3   col-lg-3">
                     <div class="card-body  row radius-20 text-center p-3">
                         <img src="{{ asset('images/dunno.png') }}" class="imgface">
                         <h2 class="sub-title p-1">소니아 벤 아모르 </h2>
@@ -257,14 +257,14 @@
             <div class="text-center">
                 <h2 class="main-title">Car services</h2>
             </div>
-            <div class="col-12 d-flex justify-content-around button1 mt-lg-5">
+            <div class="col-12 d-flex justify-content-around button1 mt-lg-3">
                 <button id='choix0' class="p-2  btnactv" onclick="chngcontsess4(0)">Car</button>
                 <button id='choix1' class="p-2 btninactv" onclick="chngcontsess4(1)">Mini-Bus</button>
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
             </div>
-            <div class="card card-session4-cnt radius-20 mt-lg-5 p-lg-5 mt-3">
-                <div class="card-body p-lg-5 row">
+            <div class="card card-session4-cnt radius-20  p-lg-5 mt-3">
+                <div class="card-body  row">
                     <div class="col-lg-5  h-100 pr-lg-5">
                         <input hidden value=0 id='numcrd'>
                         <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
@@ -301,7 +301,7 @@
 
         {{-- section 5 --}}
         <section id="section-5">
-            <div class="text-center pb-lg-5">
+            <div class="text-center ">
                 <h2 class="main-title">Hotels & Resorts</h2>
             </div>
             <div class="row sess5-crds  session5-slick-web" id='sess5-crds'>
@@ -659,7 +659,7 @@
 
         {{-- section 6 --}}
         <section id="section-6">
-            <div class="text-center pb-lg-5">
+            <div class="text-center ">
                 <h2 class="main-title">Guest houses</h2>
             </div>
             <div class="row sess6-crds session6-slick-web mb-5" id="sess6-crds">

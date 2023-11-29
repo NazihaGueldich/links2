@@ -94,7 +94,7 @@
         {{-- section 4 --}}
         <section id='section4'>
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
-            <div class="row mt-lg-5">
+            <div class="row ">
                 <div class="col-lg-6">
                     <div class="wrap-video pb-lg-0">
                         <video id="-video" class="video-js" preload="auto"
@@ -114,7 +114,7 @@
                     <div class="wrap-video pb-lg-0">
                         <video id="-video2" class="video-js" preload="auto"
                             poster="images/Creator-Talking-Tunisia 2.png">
-                            <source src="images/video2.mp4" type="video/mp4" /> 
+                            <source src="images/video2.mp4" type="video/mp4" />
                         </video>
                         <div class="video-overlay" id='crd2'>
                             <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
@@ -130,7 +130,7 @@
         <section id='section5'>
             <h2 class="main-title text-center">Articles</h2>
             <div id='section5-cont'>
-                <div class="crdsess5  p-lg-5 mt-lg-5">
+                <div class="crdsess5  p-lg-5 mt-lg-3">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
                             <img class='crdsess5-img' src="{{ asset('images/Bardo_museum.jpg') }}"

@@ -307,7 +307,7 @@
         <section id='section4'>
             <h2 class="main-title text-center">Our Most Popular Tour</h2>
             <p class="text-center">아틀란티스가 제안하는 8일 튀니지 추천 여행 일정</p>
-            <div id="section4-part1" class="mt-lg-5">
+            <div id="section4-part1" >
                 <div class="row p-lg-4 py-2 mr-0">
                     <div class="col-lg-4 py-lg-4 section4-part1-part1">
                         <h2 class="sub-title">튀니지 5성급 일주 </h2>
@@ -561,47 +561,47 @@
             <p class="text-center">자주 하는 질문을 확인하고 여행을 준비해 보세요.</p>
 
             <div class="section6-slick">
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>어떤 어댑터를 사용하나요?</h2>
                     <p id="section6p">튀니지에서는 한국과 동일한 220v 전압을 사용합니다. 따로 변환 플러그나 어댑터가 없어도 된다는 게 장점이에요.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지에 약을 가지고 들어갈 수 있나요?</h2>
                     <p id="section6p">튀니지로 의약품을 반입할 수 있지만 모르핀이 포함된 의약품이 있다면 의약품 처방전을 지참해 오세요.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지에 대한민국 대사관이 있나요?</h2>
                     <p id="section6p">네, 대한민국 대사관이 있습니다.<br>공관주소 및 연락처<br>주소: Immeuble BLUE SQUARE, Avenue de la Bourse, Les Berges du Lac 2, 1053 Tunis, Tunisie<br>전화: +216-71- 198- 595 / 71-198-596 / 71-198-597<br>팩스: +216-71-198-598<br>E-Mail : tunisie@mofa.go.kr<br>비상 연락처(사건, 사고 등 24시간 긴급 당직전화) : +216-99 -567-040</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지 내 한식당이 있나요?h2>
                     <p id="section6p">네, 튀니스 내 한인이 직접 운영하는 한식당과 튀니지인이 운영하는 한식당이 있습니다.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지 방문 시 비자를 발급받아야 하나요?</h2>
                     <p id="section6p">튀니지 방문시 비자를 받지 않아도 됩니다. 최대 90일간 무비자 체류가 가능합니다.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>어떤 통화(화폐)를 쓰나요?</h2>
                     <p id="section6p">통화는 튀니지 디나르입니다. 현금 자동 인출기를 쉽게 찾을 수 있고, 공항이나 호텔이나 은행, 환전소, 우체국에서 달러 혹은 유로 현금을 현지 통화로 교환할 수 있어요.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지에서 술이 허용되나요?</h2>
                     <p id="section6p">튀니지에서 술을 마실 수 있습니다. 하지만 이슬람의 영향으로 금요일에는 술 판매가 금지되며 길거리에서 술을 마시는 것도 불법입니다.튀니지산 맥주 브랜드인 셀티아(Celtia)와 와인 브랜드인 마공(Magon)이 유명합니다.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>주말에 박물관 방문이 가능한가요?</h2>
                     <p id="section6p">대부분의 튀니지 박물관은 토요일, 일요일에 운영하며 월요일이 휴무입니다. 하지만 미리 확인 후 방문하시는 걸 추천드려요.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지도 다른 이슬람 국가들처럼 금요일, 토요일이 주말인가요?</h2>
                     <p id="section6p">튀니지는 토요일, 일요일을 주말로 채택하고 있습니다.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>튀니지에 히잡을 써야하나요?</h2>
                     <p id="section6p">튀니지는 이슬람 국가 중에서도 개방적인 나라에 속하며, 히잡착용은 개인의 자유입니다.</p>
                 </div>
-                <div id="section6cont" class="mt-lg-5">
+                <div id="section6cont" >
                     <h2 class="sub-title" id='section6h2'>한국에서 핸드폰 유심을 사서 갈 수 있나요?</h2>
                     <p id="section6p">튀니지 공항에 도착하시면 심카드를 구매할 수 있는 매장이 있습니다. 공항 내 Ooredoo 매장에서 심카드를 구매하는 걸 추천드려요.</p>
                 </div>
