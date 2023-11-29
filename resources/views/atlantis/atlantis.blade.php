@@ -83,7 +83,7 @@
                             칼슨 와곤릿 트래블(CWT) 튀니지 지사를 담당하고
                             있기도 합니다.</p>
 
-                        <p class="mb-lg-4">기업의 출장 규정에 적합한 트래블 컨설팅을 통해
+                        <p class="mb-lg-4">기업의 출장 규정에 적합한 트래블 컨설팅을 통해c
                             효율적인 프로그램을 제안하고 있어요.
                             매년 아틀란티스를 통해 튀니지를 찾는 관광객은
                             늘어나고 있습니다.</p>
@@ -257,7 +257,7 @@
             <div class="text-center">
                 <h2 class="main-title">Car services</h2>
             </div>
-            <div class="col-12 d-flex justify-content-around button1 mt-lg-3">
+            <div class="col-12 d-flex justify-content-center button1 mt-lg-3">
                 <button id='choix0' class="p-2  btnactv" onclick="chngcontsess4(0)">Car</button>
                 <button id='choix1' class="p-2 btninactv" onclick="chngcontsess4(1)">Mini-Bus</button>
                 <button id='choix2' class="p-2 btninactv" onclick="chngcontsess4(2)">Bus</button>
