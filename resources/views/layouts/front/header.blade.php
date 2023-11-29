@@ -77,6 +77,6 @@
 
     .dropdown-menu a {
         width: 150px;
-        white-space: nowrap; /
+        white-space: nowrap; 
     }
     </style>
