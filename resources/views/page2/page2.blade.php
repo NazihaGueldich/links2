@@ -174,7 +174,7 @@
 
 
         <section id="section-5">
-            <div class="text-center mb-2 d-flex flex-column align-items-center">
+            <div class="text-center mb-3 d-flex flex-column align-items-center">
                 <h2 class="main-title " >Weather</h2>
 
                 <p class=" parghraphe1">

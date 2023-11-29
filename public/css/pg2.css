@@ -684,9 +684,10 @@ body {
 /* part 5 */
 
 .buttons{
+    gap: .5rem;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
