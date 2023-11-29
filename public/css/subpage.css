@@ -518,6 +518,7 @@
     .wrap-trips-routes {
         flex-direction: column;
         padding: 0px;
+        height: auto;
     }
 
     .wrap-trips-routes .img-container img {
