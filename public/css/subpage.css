@@ -568,6 +568,8 @@
     border-radius: 20px;
     height: 332px;
     padding: 6%;
+    width: 95% !important;
+    margin-left: 3%;
 }
 
 @media all and (max-width: 767px) {

@@ -34,8 +34,8 @@ $('#section4 .slick-section4').slick({
 $('#section6 .section6-slick').slick({
     infinite: true,
     speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 2,
     arrows: true,
     dots: false,
     responsive: [{
