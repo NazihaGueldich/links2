@@ -398,7 +398,7 @@
                 </div>
             </div>
             <div class=" scroll-container w-100 ">
-                <div class="d-flex gap-20 mt-4 sess3-web variable-width">
+                <div class="d-flex gap-20 sess3-web variable-width">
                     <div class="d-flex flex-column affmob">
                         <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" class="imageB1" id="imageB1"
                             alt='Sidi Bou Saïd' {{-- onclick="changeImage1()" --}}>
@@ -582,7 +582,7 @@
         </div>
     </section>
     <section id="section-7" class="background-section">
-        <div class="container mt-5 bb">
+        <div class="container ">
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
