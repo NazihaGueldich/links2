@@ -13,6 +13,7 @@
 #page-info .custom-card .row{
     padding-left: 5%;
     margin-top: 6%;
+    width: 100%;
 }
 
 #page-info .custom-card .custom-card-img{
@@ -25,6 +26,7 @@
 
 #page-info .custom-card audio{
     height: 40px;
+    width: 100%;
 }
 
 .btnactv {
@@ -596,6 +598,11 @@ audio::-webkit-media-controls-time-remaining-display {
 
 audio::-webkit-media-controls-timeline {
     color: #D2D2D2 !important;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
 
 
