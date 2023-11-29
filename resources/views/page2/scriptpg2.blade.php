@@ -2,7 +2,6 @@
 <html lang="ko">
 
 <head>
-
     <meta charset="UTF-8">
     <link rel="icon" href="/TunisiaTrip_Favicon.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Inclure Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/pg2.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/mobilePage2.css') }}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/pg2.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/mobilePage2.css') }}">
 
     <title>Tunisiatrip | About Tunisia</title>
     <meta name="description" content="Embark on a journey through Tunisia with tunisiatrip.com. Uncover the rich history, diverse culture, and stunning landscapes of the Republic of Tunisia. Learn about its official languages, Arabic and French, and its predominant religion, Islam. Experience Tunisia’s vibrant culture, famous for soccer, delicious food like couscous and spicy harissa, and intricate ceramics and mosaic works. Start your Tunisian adventure with us today!">

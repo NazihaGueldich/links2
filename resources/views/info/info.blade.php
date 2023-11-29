@@ -3,7 +3,6 @@
 <body id="page-info">
     @include('layouts.front.header')
     <main>
-
         <div class="wrapper">
             <section id="p3-section1">
                 <div class="container">

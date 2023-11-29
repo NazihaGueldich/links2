@@ -24,7 +24,7 @@
                     <a class="nav-link" id='aboute' href="/about-tunisia">튀니지</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
-                    <a class="nav-link"  id="aboutatlnts" href="/about-atlantis">아틀란티스</a>
+                    <a class="nav-link" id="aboutatlnts" href="/about-atlantis">아틀란티스</a>
                 </li>
                 <li class="nav-item active d-flex align-items-center txtnav">
                     <a class="nav-link" id="travel" href="/travel-information">여행정보</a>
@@ -35,7 +35,7 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             보다 더
                         </button>
-                        <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" id='sub' href="/sub-page">추천일정</a>
                             <a class="dropdown-item" id='blog' href="/blog-page">뉴스레터</a>
                             <a class="dropdown-item" id='part' href="/partners">파트너</a>
@@ -58,9 +58,10 @@
 </nav>
 <style>
     .dropdown-menu a {
-    width: 100px !important;
-    white-space: nowrap;
-}
+        width: 100px !important;
+        white-space: nowrap !important;
+    }
+
     .dropdown-menu {
         display: none;
         position: absolute;
@@ -74,9 +75,12 @@
         display: block;
     }
 
-
-    .dropdown-menu a {
-        width: 150px;
-        white-space: nowrap; 
+    .dropdown-menu:hover {
+        display: block;
     }
-    </style>
+
+    .dropdown-menu {
+        border-radius: 0 0 10px 10px !important;
+        border: none !important;
+    }
+</style>

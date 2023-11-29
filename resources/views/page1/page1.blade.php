@@ -583,7 +583,7 @@
     </section>
     <section id="section-7" class="background-section">
         <div class="container " id="contact-us-section">
-            <h2 class="main-title text-center" >Contact Us</h2>
+            <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
             <div class="row pt-lg-4">
@@ -736,27 +736,29 @@
                 <div class="col-lg-6 mt-4 mt-lg-0 ">
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
                         <a href="sub-page#section4">
-                        <div class="part2">
-                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover">
-                            <p>음식</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm"
+                                    class="object-fit-cover">
+                                <p>음식</p>
+                            </div>
                         </a>
                         <a href="travel-information#Culinary-recomendation">
-                        <div class="part2">
-                            <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
-                            <p>목적지</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
+                                <p>목적지</p>
+                            </div>
                         </a>
                         <a href="/#section-4">
 
                         </a>
                     </div>
                     <a href="sub-page#section5">
-                    <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
-                        <div class="part2">
-                            <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara" class="object-fit-cover">
-                            <p>활동</p>
-                        </div>
+                        <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
+                            <div class="part2">
+                                <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara"
+                                    class="object-fit-cover">
+                                <p>활동</p>
+                            </div>
                     </a>
                     <a href="sub-page#section5">
                         <div class="part2">
@@ -833,7 +835,7 @@
                 }, 'slow');
             });
         });
-        </script>
+    </script>
 
     <script>
         $(document).ready(function() {
@@ -906,6 +908,11 @@
                 document.getElementById("kairouan-weather").style.display = "block";
             });
 
+            if (window.location.href.indexOf("#section-7") > -1) {
+                console.log("dz");
+                $("html,body").animate({scrollTop: 3650}, 1000);
+            }
+
         });
     </script>
 
@@ -977,7 +984,7 @@
             var more = document.getElementById('dropdownMenuButton');
 
             console.log(routeValue);
-            if (routeValue == '') {
+            if (routeValue == '' || routeValue=="#section-7") {
                 home.style.color = '#347EFF';
                 aboute.style.color = '#000';
                 aboutatlnts.style.color = '#000';
