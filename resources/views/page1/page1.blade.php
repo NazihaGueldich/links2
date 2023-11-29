@@ -51,7 +51,7 @@
 
     </main>
 
-    <div class="container ">
+    <div class="container icons-none">
     <div class="flex-container pt-5 sessicn">
         <a href="about-atlantis#section-5">
             <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
