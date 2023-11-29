@@ -161,5 +161,5 @@ $('#page-subpage #section1 #section1-slick').slick({
     nextArrow: null,
     fade: true,
     cssEase: 'linear',
-    appendArrows: $('#mySlickCarousel'),
+    appendArrows: $('#page-subpage'),
 });
