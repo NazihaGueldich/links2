@@ -460,7 +460,12 @@
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>수스</span>
-
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn1-b text-center mr"
+                                    id="btn1">따뜻한</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
+                                    id="btn1-b">동쪽</button>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column affmob pr-lg-3">
@@ -468,7 +473,11 @@
                             alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>스팍스</span>
-
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column affmob pr-lg-3">
@@ -476,7 +485,11 @@
                             id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>제르바</span>
-
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column affmob pr-lg-3">
@@ -484,7 +497,11 @@
                             id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>토주르</span>
-
+                            <div class=" d-flex justify-content-between">
+                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
+                                    id="btn2-b">남쪽</button>
+                            </div>
                         </div>
                     </div>
                 </div>
