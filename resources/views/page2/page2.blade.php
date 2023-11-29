@@ -6,14 +6,14 @@
     <main>
         <div class="container ">
         <div class="flex-container pt-2 sessicn">
-            <a href="about-atlantis#section-5">
+            <a href="about-atlantis#ligne-section-5">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
                     <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
                     <p id="p1" class="txticns">호텔</p>
                 </div>
             </a>
             <div class=" ligne1 m-4 lg">|</div>
-            <a href="sub-page#section3">
+            <a href="sub-page#ligne-section3">
                 <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
                         id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
                     <p id="p2" class="txticns">항공편</p>
@@ -27,14 +27,14 @@
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
-            <a href="about-tunisia#section-9">
+            <a href="about-tunisia#ligne-section9">
                 <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
                         id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
                     <p id="p4" class="txticns">활동</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
-            <a href="about-atlantis#section-4">
+            <a href="about-atlantis#to-section-4">
                 <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
                         id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
                     <p id="p5" class="txticns">자동차 서비스</p>
@@ -307,6 +307,7 @@
                     </div>
                 </div>
             </div>
+            <div id="ligne-section9"></div>
         </section>
 
         <section id="section-9">
@@ -509,8 +510,8 @@
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title"> 여행 정보</h3>
                         <ul>
-                            <li><a href="sub-page#section3">공항</a> |</li>
-                            <li><a href="about-atlantis#section-5">호텔</a> |</li>
+                            <li><a href="sub-page#ligne-section3">공항</a> |</li>
+                            <li><a href="about-atlantis#ligne-section-5">호텔</a> |</li>
                             <li><a href="about-tunisia#section-1">경제</a> |</li>
 
 
@@ -522,7 +523,7 @@
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0 ">
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
-                        <a href="sub-page#section4">
+                        <a href="sub-page#Popular-Tour">
                         <div class="part2">
                             <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover">
                             <p>음식</p>
@@ -538,14 +539,14 @@
 
                         </a>
                     </div>
-                    <a href="sub-page#section5">
+                    <a href="sub-page#to-main routes">
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
                         <div class="part2">
                             <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara" class="object-fit-cover">
                             <p>활동</p>
                         </div>
                     </a>
-                    <a href="sub-page#section5">
+                    <a href="sub-page#to-main routes">
                         <div class="part2">
                             <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover">
                             <p>호텔과 리조트</p>

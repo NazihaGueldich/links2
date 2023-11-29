@@ -33,12 +33,14 @@
                         <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">
                         문의하기
                     </a>
-
+                    <div id="ligne-section3"></div>
                 </div>
 
             </section>
         </div>
+
     </div>
+
     <div class="container">
         {{-- session 3 --}}
         <section id='section3'>
@@ -507,7 +509,7 @@
         </section>
 
 
-        <div class="ligne-separtion"></div>
+        <div class="ligne-separtion" id="to-main routes"></div>
 
         {{-- session 5 --}}
         <section id='section5'>
