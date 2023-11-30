@@ -33,8 +33,9 @@
                         <img src="{{ asset('images/enveloppe.png') }}" alt="Enveloppe">
                         문의하기
                     </a>
-                    <div id="ligne-section3"></div>
                 </div>
+                    <div id="ligne-section3"></div>
+
 
             </section>
         </div>
@@ -629,3 +630,20 @@
     </div>
 
     @include('layouts.front.footer')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.btnsect2').on('click', function(e) {
+            e.preventDefault(); // Empêche le comportement par défaut du lien
+
+            var targetSection = $('/#section-7');
+
+            if (targetSection.length) {
+                $('html, body').animate({
+                    scrollTop: targetSection.offset().top // Fait défiler jusqu'à la section ciblée
+                }, 1000); // Durée de l'animation en millisecondes (ici, 1 seconde)
+            }
+        });
+    });
+</script>

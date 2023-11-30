@@ -19,7 +19,18 @@
     border-radius: 10px !important;
 
 }
+@media screen and (max-width: 991px) {
+    .part2 img {
 
+        padding: 5px 6px;
+        width: 155px !important;
+        height: 86px !important;
+        border-radius: 10px !important;
+        margin-bottom: -12px;
+
+
+    }
+}
 main{
     margin-top:60px ;
 }
