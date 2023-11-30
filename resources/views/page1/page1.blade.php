@@ -511,77 +511,43 @@
         </div>
     </section>
 
-    {{--    <div class="lignes"></div> --}}
+
 
     <section id="section-5">
         <div class="container">
             <h2 class="main-title text-center">Visitor Reviews</h2>
-            <div class="container cm">
-                <div class="row justify-content-center">
-                    <div class="wrap-avis">
-                        <div class="card mx-auto justify-content-center">
-                            <div class="row no-gutters">
-                                <div class="col-md-2 d-flex align-items-center justify-content-center BG">
-                                    <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'>
-                                    <img id="imgwj12" src="{{ asset('images/imgwj1.png') }}" alt='girl'>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body d-flex flex-column justify-content-center textecard">
-                                        <h5 class="card-title title">오OO</h5>
-                                        <p class="card-text text-left textecard">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를
-                                            배경으로 하는
-                                            시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-line"></div>
-                        <div class="card mx-auto justify-content-center">
-                            <div class="row no-gutters">
-                                <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                                        style="width: 91.88px; height: 91.88px;">
-                                    <img id="imgwj12" src="{{ asset('images/imgwj2.png') }}" alt='boy'>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body d-flex flex-column justify-content-center textecard2">
-                                        <h5 class="card-title title">임OO </h5>
-                                        <p class="card-text text-left textecard2">튀니지를 도착했을때 아 이곳이 북아프리카구나，
-                                            했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요．
-                                            갔다 와 보시면 아실거예요．.
-                                            죽기 전에 꼭 다시 한번 와보고 싶다 하는것을！II 매일 점심마다 400원 주고 ...
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vertical-line"></div>
-                        <div class="card mx-auto justify-content-center">
-                            <div class="row no-gutters">
-                                <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
-                                        style="width: 91.88px; height: 91.88px;">
-                                    <img id="imgwj12" src="{{ asset('images/imgwj3.png') }}" alt="homme"
-                                        style="width: 115px; height: 125px;">
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body d-flex flex-column justify-content-center textecard3">
-                                        <h5 class="card-title title">오OO</h5>
-                                        <p class="card-text text-left textecard3 ">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．
-                                            지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">오OO</h5>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．</p>
                         </div>
                     </div>
                 </div>
-
-
+                <div class="col-md-4">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">임OO</h5>
+                            <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나， 했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요． 갔다 와 보시면 아실거예요． 죽기 전에 꼭 다시 한번 와보고 싶다 하는것을！II 매일 점심마다 400원 주고 ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">오OO</h5>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지． 지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <section id="section-6">
         <div class="container" style="display: flex; align-items: center; justify-content: space-around;">
@@ -598,7 +564,7 @@
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
-            <div class="row pt-lg-4">
+            <div class="row">
                 <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
