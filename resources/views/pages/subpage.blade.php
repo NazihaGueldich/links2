@@ -590,7 +590,7 @@
                         당직전화) : +216-99 -567-040</p>
                 </div>
                 <div id="section6cont">
-                    <h2 class="sub-title" id='section6h2'>튀니지 내 한식당이 있나요?h2>
+                    <h2 class="sub-title" id='section6h2'>튀니지 내 한식당이 있나요?</h2>
                         <p id="section6p">네, 튀니스 내 한인이 직접 운영하는 한식당과 튀니지인이 운영하는 한식당이 있습니다.</p>
                 </div>
                 <div id="section6cont">
