@@ -77,8 +77,8 @@
                 <span>All rights reserved ©</span>
             </div>
             <div class="col-lg-4 text-right image-footer-1">
-                <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook">
-                <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme">
+                <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
+                <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
                 <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;" alt="Youtyoub">
             </div>
         </div>

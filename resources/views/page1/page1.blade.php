@@ -717,7 +717,7 @@
 
     <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
         <div class=" container">
-            <div class="row my-5">
+            <div class="row">
                 <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
@@ -796,8 +796,8 @@
                     <span>All rights reserved ©</span>
                 </div>
                 <div class="col-lg-4 text-right image-footer-1">
-                    <img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
-                    <img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;">
+                    <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
                     <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
                 </div>
             </div>
