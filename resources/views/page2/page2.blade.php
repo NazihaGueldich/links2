@@ -514,7 +514,7 @@
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
                         <a href="sub-page#Popular-Tour">
                         <div class="part2">
-                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover">
+                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover cover-img">
                             <p>음식</p>
                         </div>
                         </a>
@@ -537,7 +537,7 @@
                     </a>
                     <a href="sub-page#to-main routes">
                         <div class="part2">
-                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover">
+                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover cover-img">
                             <p>호텔과 리조트</p>
                         </div>
                     </a>

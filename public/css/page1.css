@@ -1430,7 +1430,9 @@ section.background-section {
     font-weight: 900;
 }
 
-
+.cover-img{
+    object-position: bottom;
+}
 .tit1actv{
     font-size: 1.3rem !important;
     color: #347EFF !important;

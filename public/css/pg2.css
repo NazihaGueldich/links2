@@ -799,7 +799,9 @@ body {
     width: 40%
 }
 
-
+.cover-img{
+    object-position: bottom;
+}
 .titrsghyr {
     font-family: 'noto';
     font-size: 20px;
