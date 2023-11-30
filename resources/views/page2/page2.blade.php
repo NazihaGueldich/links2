@@ -263,48 +263,37 @@
     <div class="container">
         <section id="section-8">
             <div class="text-center ">
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center mb-3">
                     <p class="main-title">Religion</p>
 
-                    <div class="parghraphe">
-                        <span>튀니지의 국교는 이슬람교!<br>
+
+                        <p class="parghraphe1">튀니지의 국교는 이슬람교!<br>
                             튀니지는 헌법에서 종교가 이슬람교임을 명시적으로 밝히고 있는 이슬람교 국가예요.
-                        </span>
-                    </div>
+                        </p>
+
+
+
+                <div class="buttons-8">
+                    <button id='btn00' class="p-2 btnactv" onclick="changeElement(0)">이슬람</button>
+                    <button id='btn11' class="p-2 btninactv" onclick="changeElement(1)">유대교</button>
+                    <button id='btn22' class="p-2 btninactv" onclick="changeElement(2)">기독교</button>
                 </div>
-                <div class="row mt-3 ">
+            </div>
+                <div class="row allsec">
                     <div class="col-lg-6 section-8-prt1">
-                        <img src="{{ asset('images/Kairouan-Great.png') }}" class="img-fluid img4" id='img44' alt="Kairouan Great Tunisia">
+                        <img src="images/Kairouan-Great.png" class="img-fluid img4" id='img44' alt="Kairouan Great Tunisia">
                     </div>
 
-                    <div
-                        class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum">
-                        <div class="pt-lg-5">
+                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum">
+                        <div class="pt-lg-5 para-section">
                             <h4 id='h4prt6'>이슬람</h4>
                             <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종
                                 권유, 포교는 법적 제한을 받아요.</p>
                         </div>
-                        <div class="d-flex justify-content-between  pb-5">
-                            <div class="d-flex  mr-lg-5 sccgrp p-lg-3">
-                                <a class="carousel-control-prev flch"
-                                    role="button" data-slide="prev" onclick="changelement(-1)">
-                                    <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <span id='crcl11'></span>
-                                <span id='crcl22'></span>
-                                <span id='crcl33'></span>
-                                <a class="carousel-control-next flch"
-                                    role="button" data-slide="next" onclick="changelement(1)">
-                                    <span class="carousel-control-prev-icon-droite" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-
-                            <p id='txtindx' class="mb-0 main-title">유대교</p>
-                        </div>
-
                     </div>
+                </div>
+
+
                 </div>
             </div>
             <div id="ligne-section9"></div>

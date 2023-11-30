@@ -38,7 +38,7 @@ body.tunisiatrip a {
     transition: all .3s ease;
     text-decoration: none;
 }
-#section-6 .parghraphe1,#section-5 .parghraphe1{
+#section-6 .parghraphe1,#section-5 .parghraphe1,#pprt6{
     width: 55%;
 }
 main {
@@ -89,6 +89,9 @@ main {
     margin-bottom: 19px;
 }
 
+#section-8 .row{
+    flex-direction: row-reverse;
+}
 #section-8 .ligne-separtion {
     border-bottom: 1.5px solid #b1afaf;
     position: relative;
@@ -695,13 +698,21 @@ body {
 /* part 5 */
 
 .buttons{
+    padding-top: 14px;
     gap: .5rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.buttons-8{
+    padding-top: 14px;
+    gap: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btninactv {
     border: 1px solid #347EFF !important;
     width: auto;
@@ -741,6 +752,17 @@ body {
 
 
 .ktbchng #titrp5,.ktbchng #sec3titrp5 {
+
+    padding-bottom: 3%;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#h4prt6 {
 
     padding-bottom: 3%;
 
@@ -797,7 +819,7 @@ body {
 }
 
 .img4 {
-    width: 724px;
+    width: 413px;
     height: 100%;
     border-radius: 20px;
 }
@@ -811,13 +833,7 @@ body {
     color: black;
 }
 
-#pprt6 {
-    font-family: 'noto';
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: start;
-}
+
 #logimg{
 
     height: auto;
@@ -997,14 +1013,16 @@ body #section-10 .slick-section-10 {
 
 
 .section-8-prt1{
-    height: 531px;
+    padding-top: 34px;
+
+    height: 376px;
 }
 
 .section-8-prt1 img{
     object-fit: cover;
     opacity: 1.08347;
     display: block;
-    height: 530px;
+    height: 304px;
     border-radius: 20px;
 }
 
