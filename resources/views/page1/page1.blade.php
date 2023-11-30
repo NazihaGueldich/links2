@@ -594,7 +594,7 @@
         </div>
     </section>
     <section id="section-7">
-        <div class="container " id="contact-us-section">
+        <div class="container " >
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
@@ -727,7 +727,7 @@
                             <li><a href="about-tunisia#section-10">문화</a> |</li>
                             <li><a href="/#section-4">목적지</a> |</li>
                             <li><a href="about-tunisia#spotlight-section">활동</a> |</li>
-                            <li><a href="about-tunisia#section-1">경제</a> |</li>
+                            <li><a href="about-tunisia#Tunisia-over">경제</a> |</li>
                             <li><a href="#">업적</a></li>
                         </ul>
                     </div>

@@ -59,7 +59,7 @@
     </main>
 
 
-    <div class="container">
+    <div class="container" id="Tunisia-over">
         <section id="section-1" >
             <div class="text-center">
                 <h2 class="main-title" >Tunisia overview</h2>
@@ -503,7 +503,7 @@
                             <li><a href="about-tunisia#section-10">문화</a> |</li>
                             <li><a href="/#section-4">목적지</a> |</li>
                             <li><a href="about-tunisia#spotlight-section">활동</a> |</li>
-                            <li><a href="about-tunisia#section-1">경제</a> |</li>
+                            <li><a href="about-tunisia#Tunisia-over">경제</a> |</li>
                             <li><a href="#">업적</a></li>
                         </ul>
                     </div>
