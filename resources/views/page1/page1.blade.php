@@ -513,10 +513,10 @@
 
 
 
-    <section id="section-5">
+    <section id="section-5 ">
         <div class="container">
             <h2 class="main-title text-center">Visitor Reviews</h2>
-            <div class="row">
+            <div class="row slick-slider-section-3">
                 <div class="col-md-4">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
@@ -815,6 +815,24 @@
         });
     </script>
 
+<script>
+    $(document).ready(function() {
+        if ($(window).width() < 997) {
+        $('.slick-slider-section-3').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+
+         
+            prevArrow: null,
+            nextArrow: null,
+            fade: true,
+            cssEase: 'linear',
+        });
+    }
+    });
+</script>
     <script>
         $(document).ready(function() {
             $('.variable-width').slick({

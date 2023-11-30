@@ -93,7 +93,7 @@
     }
 
     body section {
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     .row {
@@ -502,6 +502,7 @@
 
     #section-5 .wrap-avis .card .card-text {
         text-align: center !important;
+        font-size: 0.8rem;
     }
 
     #section-5 {
@@ -629,10 +630,10 @@
     }
 
     #imgwj1 {
-        margin-right: 75%;
+
         width: 76.88px !important;
         height: 79.88px !important;
-        margin-top: 8%;
+
     }
 
     #imgwj12 {
@@ -654,10 +655,10 @@
 
     .title {
         font-weight: 700;
-        margin-top: -40%;
-        font-size: 22px;
+
+        font-size: 0.9rem;
         font-weight: bold;
-        margin-left: 12%;
+
 
     }
 
