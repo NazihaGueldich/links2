@@ -328,8 +328,8 @@
                         <img id='imgsesss4' src="{{ asset('images/Tunsi_medina-Tunisatrip.png') }}"
                             alt="Tunsi medina">
                         <div class="d-flex sccgrp p-lg-3 sess1direct w-100 justify-content-between" id="dirct">
-                            <img src="{{ asset('images/flr.png') }}" onclick="ChangImgSess4(-1)" alt='Arrow left'>
-                            <img src="{{ asset('images/fll.png') }}" onclick="ChangImgSess4(1)" alt='Arrow right'>
+                            <img src="{{ asset('images/lftbl.svg') }}" onclick="ChangImgSess4(-1)" alt='Arrow left'>
+                            <img src="{{ asset('images/rgtbl.svg') }}" onclick="ChangImgSess4(1)" alt='Arrow right'>
                         </div>
                     </div>
                 </div>
