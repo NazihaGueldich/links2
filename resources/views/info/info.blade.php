@@ -78,7 +78,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk1"
                                                     onclick="chngeAud(1)" />
@@ -89,7 +89,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Aslema.mp3" id='aud1'>
                                                     <a href="/audio/M_Aslema.mp3" id='dw1'>Download audio</a>
@@ -108,7 +108,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Bqadesh_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk2"
                                                     onclick="chngeAud(2)" />
@@ -119,7 +119,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Bqadech.mp3" id='aud2'>
                                                     <a href="/audio/M_Bqadech.mp3" id='dw2'>Download audio</a>
@@ -138,7 +138,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Yaaychek_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk3"
                                                     onclick="chngeAud(3)" />
@@ -149,7 +149,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Yaaychek.mp3" id='aud3'>
                                                     <a href="/audio/M_Yaaychek.mp3" id='dw3'>Download audio</a>
@@ -168,7 +168,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Aatini_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk4"
                                                     onclick="chngeAud(4)" />
@@ -179,7 +179,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Aatini.mp3" id='aud4'>
                                                     <a href="/audio/M_Aatini.mp3" id='dw4'>Download audio</a>
@@ -198,7 +198,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Beslema_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk5"
                                                     onclick="chngeAud(5)" />
@@ -209,7 +209,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Beslema.mp3" id='aud5'>
                                                     <a href="/audio/M_Beslema.mp3" id='dw5'>Download audio</a>
@@ -228,7 +228,7 @@
                                     <img class="custom-card-img" src="{{ asset('assets/img/Mahlek_icon.svg') }}"
                                         alt="Aslema">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex justify-content-center">
                                             <div class="one-quarter mt-2" id="switch">
                                                 <input type="checkbox" class="checkbox" id="chk6"
                                                     onclick="chngeAud(6)" />
@@ -239,7 +239,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-8">
+                                        <div class="col-8 pl-0 pr-4">
                                             <figure >
                                                 <audio controls src="/audio/M_Mahlek.mp3" id='aud6'>
                                                     <a href="/audio/M_Mahlek.mp3" id='dw6'>Download audio</a>
