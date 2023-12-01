@@ -738,7 +738,7 @@
                                 <p>활동</p>
                             </div>
                     </a>
-                    <a href="sub-page#to-main routes">
+                    <a href="about-atlantis#ligne-section-5">
                         <div class="part2">
                             <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover cover-img">
                             <p>호텔과 리조트</p>
