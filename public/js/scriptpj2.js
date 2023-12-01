@@ -139,20 +139,38 @@ function changeElement(index) {
     heading.textContent = headings[index];
     description.textContent = descriptions[index];
 
-    var btn0 = document.getElementById('btn00');
-    var btn1 = document.getElementById('btn11');
-    var btn2 = document.getElementById('btn22');
+    var btns = document.querySelectorAll('.buttons-8 button');
 
-    btn0.classList = 'p-2 btninactv';
-    btn1.classList = 'p-2 btninactv';
-    btn2.classList = 'p-2 btninactv';
 
-    if (index === 0) {
-        btn0.classList = 'p-2 btnactv';
-    } else if (index === 1) {
-        btn1.classList = 'p-2 btnactv';
-    } else if (index === 2) {
-        btn2.classList = 'p-2 btnactv';
+    document.getElementById('h4prt6').innerHTML = titr[index];
+    document.getElementById('pprt6').innerHTML = p[index];
+    document.getElementById('img44').src = img[index];
+
+    var btn0 = document.getElementById('btn0');
+    var btn1 = document.getElementById('btn1');
+    var btn2 = document.getElementById('btn2');
+
+
+    if (index == 0) {
+        btn0.classList = 'p-2  btnactv';
+        btn1.classList = 'p-2 btninactv';
+        btn2.classList = 'p-2 btninactv';
+        btn3.classList = 'p-2 btninactv';
+    } else if (index == 1) {
+        btn0.classList = 'p-2 btninactv';
+        btn1.classList = 'p-2  btnactv';
+        btn2.classList = 'p-2 btninactv';
+        btn3.classList = 'p-2 btninactv';
+    } else if (index == 2) {
+        btn0.classList = 'p-2 btninactv';
+        btn1.classList = 'p-2 btninactv';
+        btn2.classList = 'p-2  btnactv';
+        btn3.classList = 'p-2 btninactv';
+    } else {
+        btn0.classList = 'p-2 btninactv';
+        btn1.classList = 'p-2 btninactv';
+        btn2.classList = 'p-2 btninactv';
+        btn3.classList = 'p-2  btnactv';
     }
 }
 

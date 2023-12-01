@@ -555,7 +555,25 @@ function changContai(indx) {
             img4.classList.replace('imgactv', 'imginactv');
         }
     }
+    const buttons = document.querySelectorAll('.cardul button');
+    const paragraphs = document.querySelectorAll('[data-paragraph]');
+
+    buttons.forEach((button, index) => {
+        const isActive = index === indx - 1;
+        button.classList.toggle('btnactv1', isActive);
+        button.classList.toggle('btninactv1', !isActive);
+    });
+
+    paragraphs.forEach((paragraph, index) => {
+        const isActive = index === indx - 1;
+        const titles = paragraph.querySelectorAll('h5');
+        titles[0].classList.toggle('tit1actv', isActive);
+        titles[0].classList.toggle('tit1inactv', !isActive);
+        titles[1].classList.toggle('tit2actv', isActive);
+        titles[1].classList.toggle('tit2inactv', !isActive);
+    });
 }
+
 
 function viderchapm() {
     $("#nom").val('');
@@ -568,6 +586,33 @@ $('.sess3-mob').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
+
+
+window.addEventListener('resize', function() {
+    var itemsDiv = document.getElementById('btnchng');
+
+    if (window.innerWidth <= 767) {
+        if (!itemsDiv.classList.contains('slick-sess8')) {
+            itemsDiv.classList.add('slick-sess8');
+        }
+    } else {
+        if (itemsDiv.classList.contains('slick-sess8')) {
+            itemsDiv.classList.remove('slick-sess8');
+        }
+    }
+});
+window.dispatchEvent(new Event('resize'));
+
+$('.slick-sess8').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     dots: true,
     arrows: false,
     infinite: true,

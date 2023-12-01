@@ -104,6 +104,9 @@
         padding-top: 0;
     }
 
+    .slick-dots {
+        bottom: -40px;
+    }
     .navbar-toggled .nav-item {
         text-align: center;
         background-color: white;
@@ -519,8 +522,24 @@
 
     #section-8 .card2 {
         width: 100%;
+        margin-top: 12%;
     }
-
+    .slick-dots li button:before {
+        margin-left: -82%;
+        font-family: 'slick';
+        margin-top: -242%;
+        font-size: 20px;
+        line-height: 20px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: #347EFF;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
     .btn.btn-outline-primary.btn1-main2 {
         position: absolute;
         bottom: 15%;
@@ -700,6 +719,18 @@
 
 
     }
+    .btninactv1 {
+        border: 1px solid #347EFF;
+        width: 80% !important;
+        padding: 0px 20px !important;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        text-align: center;
+        color: #347EFF;
+        background-color: transparent;
+        height: 69px;
+        margin-left: 10%;
+    }
 
     .title2 {
         margin-top: -40%;
@@ -820,7 +851,7 @@
     }
 
 
-    .cardul {
+   /*  .cardul {
         display: flex !important;
         flex-wrap: nowrap !important;
         justify-content: center !important;
@@ -828,27 +859,29 @@
         padding: 0;
         max-width: 100%;
         overflow: hidden;
-    }
+    } */
 
-    .cardul li {
+    /* .cardul li {
         flex: 0 0 20%;
         height: 50px;
-    }
+    } */
 
-    .tit1actv {
+/*     .tit1actv {
         font-size: 12px !important;
         color: #347EFF !important;
         text-align: center !important;
         font-family: noto !important;
-    }
+    } */
 
-    .tit2actv {
+/*     .tit2actv {
         font-size: 10px !important;
         color: black !important;
         text-align: center !important;
         font-family: noto !important;
+    } */
+    .tit1actv{
+        margin-bottom: 0;
     }
-
     .txtactv {
         margin: 15px 25px !important;
         display: block !important;
@@ -857,14 +890,13 @@
         font-family: noto !important;
     }
 
-    .tit1inactv {
-        font-size: 12px !important;
-        color: #B3B3B3 !important;
+    .tit1inactv{
+        margin: 0px;
+        font-size: 1.1rem !important;
         text-align: center !important;
         font-family: noto !important;
         font-weight: bold !important;
     }
-
     .imgactv {
         display: block;
         width: 90%;
@@ -878,8 +910,8 @@
     }
 
     .tit2inactv {
-        font-size: 10px !important;
-        color: #D9D9D9 !important;
+        font-size:0.9rem !important;
+
         text-align: center !important;
         font-family: noto !important;
     }
@@ -897,6 +929,11 @@
         display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
+    }
+
+    .btnactv1 {
+        width: 80% !important;
+        margin-left: 10%;
     }
 
     .sess3 {

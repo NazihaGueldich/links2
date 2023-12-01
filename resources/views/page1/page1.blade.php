@@ -519,28 +519,34 @@
             <div class="row slick-slider-section-3">
                 <div class="col-md-4">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
+                        <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
+                            class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">오OO</h5>
-                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．</p>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것
+                                같습니다．</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">임OO</h5>
-                            <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나， 했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요． 갔다 와 보시면 아실거예요． 죽기 전에 꼭 다시 한번 와보고 싶다 하는것을！II 매일 점심마다 400원 주고 ...</p>
+                            <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나， 했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요． 갔다 와 보시면
+                                아실거예요． 죽기 전에 꼭 다시 한번 와보고 싶다 하는것을！II 매일 점심마다 400원 주고 ...</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">오OO</h5>
-                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지． 지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것 같습니다．</p>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지． 지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것
+                                같습니다．</p>
                         </div>
                     </div>
                 </div>
@@ -560,7 +566,7 @@
         </div>
     </section>
     <section id="section-7">
-        <div class="container " >
+        <div class="container ">
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
@@ -621,42 +627,32 @@
     <section id="section-8">
         <div class="container">
             <h2 class="main-title text-center">Tunisia in numbers</h2>
+            <div class="cardul d-flex justify-content-center gap-2 pb-lg-3" id='btnchng'>
+                <button onclick="changContai(1)" class="p-2  btnactv1" data-paragraph="ahla1" id="btn0">
+                    <p id='tit1' class="tit1actv mt-1">+12 M</h5>
+                    <p id='tit11' class="tit2actv">2023년 인구</h5>
+                </button>
+                <button onclick="changContai(2)" class="p-2 btninactv1" data-paragraph="ahla12" id="btn1">
+                    <h5 id='tit2' class="tit1inactv">2M</h5>
+                    <h5 id='tit22' class="tit2inactv">관광객 200만명</h5>
+                </button>
+                <button onclick="changContai(3)" class="p-2 btninactv1" data-paragraph="ahla13" id="btn2">
+                    <h5 id='tit3' class="tit1inactv">700</h5>
+                    <h5 id='tit33' class="tit2inactv">역사적인 장소</h5>
+                </button>
+                <button onclick="changContai(4)" class="p-2 btninactv1" data-paragraph="ahla14" id="btn3">
+                    <h5 id='tit4' class="tit1inactv">1</h5>
+                    <h5 id='tit44' class="tit2inactv">1번째 대학</h5>
+                </button>
+                <button onclick="changContai(5)" class="p-2 btninactv1" data-paragraph="ahla15" id="btn4">
+                    <h5 id='tit5' class="tit1inactv">9</h5>
+                    <h5 id='tit55' class="tit2inactv">유네스코 세계유산</h5>
+                </button>
+            </div>
             <div class="card2 pt-3">
                 <div class="op">
-                    <ul class="cardul d-flex justify-content-around" style="list-style-type: none">
-                        <li onclick="changContai(1)"><a class="show-paragraph" data-paragraph="ahla1">
-                                <h5 id='tit1' class="tit1actv">
-                                    +12 M
-                                </h5>
-                                <h5 id='tit11' class="tit2actv"> 2023년
-                                    인구
-                                </h5>
-                            </a></li>
-                        <li onclick="changContai(2)"><a class="show-paragraph" data-paragraph="ahla12">
-                                <h5 id='tit2' class="tit1inactv"> 2M
-                                </h5>
-                                <h5 id='tit22' class="tit2inactv"> 관광객
-                                    200만명
-                                </h5>
-                            </a></li>
-                        <li onclick="changContai(3)"><a class="show-paragraph" data-paragraph="ahla13">
-                                <h5 id='tit3' class="tit1inactv"> 700
-                                </h5>
-                                <h5 id='tit33' class="tit2inactv"> 역사적인
-                                    장소
-                                </h5>
-                            </a></li>
-                        <li onclick="changContai(4)"><a class="show-paragraph" data-paragraph="ahla14">
-                                <h5 id='tit4' class="tit1inactv"> 1
-                                </h5>
-                                <h5 id='tit44' class="tit2inactv">1번째 대학</h5>
-                            </a></li>
-                        <li onclick="changContai(5)"><a class="show-paragraph" data-paragraph="ahla15">
-                                <h5 id='tit5' class="tit1inactv"> 9
-                                </h5>
-                                <h5 id='tit55' class="tit2inactv">유네스코 세계유산</h5>
-                            </a></li>
-                    </ul>
+
+
                     <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg" alt="Peoples">
                     <p id="txt1" class="txtactv"> 튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로 이루어져있어요. 이 중
                         이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
@@ -716,7 +712,7 @@
                         <a href="sub-page#Popular-Tour">
                             <div class="part2">
                                 <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm"
-                                    class="object-fit-cover cover-img" >
+                                    class="object-fit-cover cover-img">
                                 <p>목적지</p>
                             </div>
                         </a>
@@ -740,7 +736,8 @@
                     </a>
                     <a href="about-atlantis#ligne-section-5">
                         <div class="part2">
-                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover cover-img">
+                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage"
+                                class="object-fit-cover cover-img">
                             <p>호텔과 리조트</p>
                         </div>
                     </a>
@@ -762,8 +759,12 @@
                     <span>All rights reserved ©</span>
                 </div>
                 <div class="col-lg-4 text-right image-footer-1">
-                    <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
+                    <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
+                            src="{{ asset('images/fb.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
+                            src="{{ asset('images/ig.svg') }}"
+                            style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
                     <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
                 </div>
             </div>
@@ -815,24 +816,24 @@
         });
     </script>
 
-<script>
-    $(document).ready(function() {
-        if ($(window).width() < 997) {
-        $('.slick-slider-section-3').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
+    <script>
+        $(document).ready(function() {
+            if ($(window).width() < 997) {
+                $('.slick-slider-section-3').slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
 
 
-            prevArrow: null,
-            nextArrow: null,
-            fade: true,
-            cssEase: 'linear',
+                    prevArrow: null,
+                    nextArrow: null,
+                    fade: true,
+                    cssEase: 'linear',
+                });
+            }
         });
-    }
-    });
-</script>
+    </script>
     <script>
         $(document).ready(function() {
             $('.variable-width').slick({
@@ -904,7 +905,9 @@
 
             if (window.location.href.indexOf("#section-7") > -1) {
                 console.log("dz");
-                $("html,body").animate({scrollTop: 3650}, 1000);
+                $("html,body").animate({
+                    scrollTop: 3650
+                }, 1000);
             }
 
         });
@@ -978,7 +981,7 @@
             var more = document.getElementById('dropdownMenuButton');
 
             console.log(routeValue);
-            if (routeValue == '' || routeValue=="#section-7") {
+            if (routeValue == '' || routeValue == "#section-7") {
                 home.style.color = '#347EFF';
                 aboute.style.color = '#000';
                 aboutatlnts.style.color = '#000';

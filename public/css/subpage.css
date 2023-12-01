@@ -136,14 +136,14 @@
     content: '•';
     text-align: center;
     opacity: .25;
-    color: #ffffff;
+    color: #347EFF;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 #section1-slick .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: #ffffff;
+    color: #347EFF;
 }
 .slick-next::before, .slick-prev::before {
     font-size: 28px;
