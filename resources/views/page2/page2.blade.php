@@ -300,6 +300,7 @@
         </section>
 
         <section id="section-9">
+            <div class="container">
             <div class="row slick-slide">
                 <div class="col-lg-4">
                     <div class="links_box-1">
@@ -391,12 +392,13 @@
                 </div>
             </div>
 
-
+            </div>
         </section>
 
 
         {{-- part 8 --}}
         <section id="section-10">
+            <div class="container">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">Culture</h2>
 
@@ -404,7 +406,7 @@
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
             <div class="crdd">
-                <div class="d-flex flex-row justify-content-evenly crd8 slick-block-section-10">
+                <div class="d-flex flex-row justify-content-between crd8 slick-block-section-10">
                     <div class="d-flex flex-column  prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">예술</button>
@@ -475,6 +477,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
