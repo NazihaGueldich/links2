@@ -39,7 +39,7 @@ body.tunisiatrip a {
     text-decoration: none;
 }
 #section-6 .parghraphe1,#section-5 .parghraphe1,#pprt6{
-    width: 55%;
+    width: 100%;
 }
 main {
     margin-top: 100px;
@@ -336,7 +336,12 @@ section .block-cards {
     background-position: bottom;
     background-image: url('../images/rec.png');
 }
+@media screen and (max-width: 991px) {
+    #section-9 .links_box-1,.links_box-2,.links_box-3 {
+        width: 95%;
 
+        margin: 10px 0px 0px 10px !important;
+    }}
 #section-9 .links_box-2 {
     position: relative;
     height: 280px;
@@ -934,6 +939,15 @@ body {
     font-weight: 400;
     text-align: center;
 }
+@media screen and (max-width: 991px) {
+#pprt8 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 94%;
+}
+}
+
 
 body #section-10 .slick-block-section-10 {
     display: flex;
