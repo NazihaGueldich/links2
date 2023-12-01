@@ -717,13 +717,13 @@
                             <div class="part2">
                                 <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm"
                                     class="object-fit-cover cover-img" >
-                                <p>음식</p>
+                                <p>목적지</p>
                             </div>
                         </a>
                         <a href="travel-information#Culinary-recomendation">
                             <div class="part2">
                                 <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
-                                <p>목적지</p>
+                                <p>음식</p>
                             </div>
                         </a>
                         <a href="/#section-4">
