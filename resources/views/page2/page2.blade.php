@@ -404,7 +404,7 @@
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
             <div class="crdd">
-                <div class="d-flex flex-row justify-content-between crd8 slick-block-section-10">
+                <div class="d-flex flex-row justify-content-evenly crd8 slick-block-section-10">
                     <div class="d-flex flex-column  prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">예술</button>
