@@ -1097,12 +1097,6 @@ body.tunisiatrip .card5 {
     border: 1px solid #B3B3B3;
 }
 
-.card2 {
-    border-radius: 20px;
-    border: 1px solid #c9cbcb;
-    background-color: #ffffff;
-
-}
 
 .show-paragraph h5 {
     font-family: noto;
@@ -1489,7 +1483,42 @@ section.background-section {
     text-align: Center !important;
     font-family: noto !important;
 } */
+.op {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+  @media (min-width: 768px) {
+    .op {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-img-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-img-container img {
+        width: 100%;
+    }
+    .text-container {
+
+        align-items: center;
+        justify-content: space-between;
+      }
+
+
+  }
 .txtactv{
     display: block !important;
     text-align: start !important;
@@ -1498,12 +1527,13 @@ section.background-section {
     font-family: noto !important;
 }
 
-.imgactv{
+.imgactv {
     display: block;
-    width: 98%;
-    margin: 0 1% !important;
+    width: 61%;
+    margin: 0px 21px 13px 0px !important;
     object-fit: cover;
     border-radius: 20px;
+    height: 154px;
 }
 
 .tit1inactv{
@@ -1546,6 +1576,7 @@ body .slick-slide1{
     width: 66%;
     margin: 0 auto;
     border: 1px solid #347EFF;
+    border-radius: 20px;
 }
 
 .btnmodal{
