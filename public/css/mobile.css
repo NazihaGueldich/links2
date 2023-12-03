@@ -886,8 +886,9 @@
         margin: 15px 25px !important;
         display: block !important;
         text-align: start !important;
-        font-size: 9px !important;
+        font-size: 1rem !important;
         font-family: noto !important;
+        line-height: 25px;
     }
 
     .tit1inactv{
