@@ -1525,6 +1525,7 @@ section.background-section {
     font-size: 1.2rem  !important;
     margin: 37px 43px !important;
     font-family: noto !important;
+    line-height: 50px;
 }
 
 .imgactv {
@@ -1533,7 +1534,7 @@ section.background-section {
     margin: 0px 21px 13px 0px !important;
     object-fit: cover;
     border-radius: 20px;
-    height: 154px;
+    height: 160px;
 }
 
 .tit1inactv{
@@ -1577,6 +1578,7 @@ body .slick-slide1{
     margin: 0 auto;
     border: 1px solid #347EFF;
     border-radius: 20px;
+    height: 344px;
 }
 
 .btnmodal{
