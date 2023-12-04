@@ -1576,9 +1576,13 @@ body .slick-slide1{
 #section-8 .card2 {
    
     margin: 0 auto;
-    border: 1px solid #347EFF;
+    border: 1px solid #B3B3B3;
     border-radius: 20px;
     height: 344px;
+}
+
+#section-8 .card2:hover{
+    border: 1px solid #347EFF;
 }
 
 .btnmodal{

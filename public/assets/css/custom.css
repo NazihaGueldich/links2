@@ -156,6 +156,7 @@ ul {
     margin: 0;
 }
 
+
 /* icons */
 .flex-container {
     display: flex;
@@ -191,7 +192,6 @@ ul {
     color: rgb(197, 196, 198);
     min-height: 50px;
 }
-
 @media (max-width: 767px) {
     .sessicn {
         display: none;
