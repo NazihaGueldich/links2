@@ -359,7 +359,7 @@
             <h2 class="main-title" id="spotlight-section">Spotlight</h2>
 
             <div class="row block-cards">
-                <div class="col-lg-4 section-9-hover">
+                <div class="col-lg-4 section-9-hover p-0">
                     <div class="links_box-1">
                         <button type="button" class="btn btn-outline-primary button-main">올리브</button>
                     </div>
@@ -371,7 +371,7 @@
                             있습니다.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 section-9-hover">
+                <div class="col-lg-4 section-9-hover p-0">
                     <div class="links_box-2">
 
                         <button type="button" class="btn btn-outline-primary button-main">쿠스쿠스</button>
@@ -385,7 +385,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 section-9-hover">
+                <div class="col-lg-4 section-9-hover p-0">
                     <div class="links_box-3">
                         <button type="button" class="btn btn-outline-primary button-main">카이루안</button>
                     </div>
@@ -415,7 +415,7 @@
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
             <div class="crdd">
-                <div class="crd8 d-flex flex-row gap-lg-2 justify-content-center slick-block-section-10">
+                <div class="crd8 d-flex flex-row">
                     <div class="d-flex flex-column  prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">예술</button>

@@ -949,16 +949,14 @@ body {
 }
 
 
-body #section-10 .slick-block-section-10 {
-    display: flex;
-}
+
 
 body #section-10 .slick-section-10 {
     display: none;
 }
 
 .img6 {
-    width: 413.17px;
+    width: 434px;
     height: 456.04px;
     object-fit: cover;
     border-radius: 20px;
@@ -1006,7 +1004,8 @@ body #section-10 .slick-section-10 {
 
 
 .prt8hov {
-    max-width: 433px;
+    max-width: 459px;
+    padding: 0 20px 0 20px !important;
 }
 
 .indxprt8 {
@@ -1327,3 +1326,8 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+#about-tunisia #section-9 .block-cards .col-lg-4{
+    padding: 0 20px 0 20px !important;
+} 
