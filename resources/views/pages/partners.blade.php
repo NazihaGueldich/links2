@@ -2,8 +2,7 @@
 
 <body id="partners">
     @include('layouts.front.header')
-    <div class="container mt-5">
-        {{-- icons --}}
+<main class="container part-1">
         <div class="flex-container pt-5 sessicn">
             <a href="about-atlantis#ligne-section-5">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
@@ -54,6 +53,7 @@
                 </div>
             </a>
         </div>
+</main>
         <section id='partners-cont'>
             <h2 class="main-title text-center ">Atlantis Partnership</h2>
             <p style="text-align: center">아틀란티스는 전 세계 다양한 에이전시와의 파트너십을 통해 한 단계 높은 여행경험을 선사합니다.</p>
@@ -96,7 +96,7 @@
 
             </div>
         </section>
-    </div>
+
 
 
     @include('layouts.front.footer')
