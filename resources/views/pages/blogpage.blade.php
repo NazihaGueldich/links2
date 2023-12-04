@@ -2,8 +2,9 @@
 
 <body id="blog-page">
     @include('layouts.front.header')
-    <div class="container mt-5">
+
         {{-- icons --}}
+        <main class="container">
         <div class="flex-container pt-5 sessicn">
             <a href="about-atlantis#ligne-section-5">
                 <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
@@ -54,6 +55,7 @@
                 </div>
             </a>
         </div>
+        </main>
         {{-- section 1 --}}
         <section id='section1'>
             <h2 class="main-title text-center">
@@ -208,7 +210,7 @@
                 </div> --}}
             </div>
         </section>
-    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var myVideo = document.getElementById('-video');

@@ -222,7 +222,12 @@
     top: 50%;
 }
 
-
+#p1,#p2,#p3,#p4,#p5,#p6,#p7{
+    margin-top: 1%;
+}
+#p5{
+    margin-top: 0%;
+}
 
 #blog-page #section4 #crd2 .sub-title {
     color: #347EFF;
