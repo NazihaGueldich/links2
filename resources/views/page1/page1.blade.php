@@ -570,7 +570,7 @@
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
-            <div class="row">
+            <div class="row mr-0" >
                 <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
@@ -587,7 +587,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 m-lg-0 pl-lg-3 form-mobil">
+                <div class="col-md-6 m-lg-0 pl-lg-3 form-mobil pr-lg-0">
                     <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
                         @csrf
                         <div class="form-group">
