@@ -371,6 +371,7 @@
                 </div>
         </section>
         <section id="p3-section5">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-header">
@@ -500,6 +501,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section id="p3-section6">
                 <div class="row w-100">
