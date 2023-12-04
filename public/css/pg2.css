@@ -1030,8 +1030,9 @@ body #section-10 .slick-section-10 {
 
 .section-8-prt1{
     padding-top: 34px;
-
     height: 376px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section-8-prt1 img{

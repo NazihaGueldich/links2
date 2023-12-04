@@ -704,14 +704,15 @@
                     </div>
                     <div class="text-container ">
                         <div class="row">
+                            <div class="col-lg-7">
+                                <img id='img5Cnt' class='imginactv' src="images/UNSCO.png" alt="Usnco">
+                            </div>
                             <div class="col-lg-5">
                                 <p id="txt5" class="txtinactv">역사적, 문화적 유산이 풍부한 튀니지는 튀니스와 수스의 메디나, 카이로안, 카르타고 유적,
                                     엘젬 원형극장
                                     등 총 9개의 유네스코 세계문화유산을 보유하고 있습니다.</p>
                             </div>
-                            <div class="col-lg-7">
-                                <img id='img5Cnt' class='imginactv' src="images/UNSCO.png" alt="Usnco">
-                            </div>
+
                         </div>
                     </div>
                 </div>
