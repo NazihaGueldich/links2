@@ -1,7 +1,7 @@
 @include('layouts.front.head')
 <body id="page-info" class="tunisiatrip">
     @include('layouts.front.header')
-    
+
     <div class="container mt-5">
         {{-- icons --}}
         <main>

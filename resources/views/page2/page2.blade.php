@@ -186,9 +186,9 @@
                     최고 기온은 33 ̊C입니다.
                 </p>
                 <div class=" buttons">
-                    <button id='btn0sect5' class="p-2  btnactv" onclick="changtextSect3(0)">여름은</button>
+                    <button id='btn0sect5' class="p-2  btnactv" onclick="changtextSect3(0)">여름</button>
                     <button id='btn1sect5' class="p-2 btninactv" onclick="changtextSect3(1)">겨울</button>
-                    <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">봄 과 가을</button>
+                    <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">봄/가을</button>
                 </div>
             </div>
             <div class="d-flex flex-column  align-items-center  allsec">
