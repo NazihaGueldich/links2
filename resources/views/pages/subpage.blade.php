@@ -4,7 +4,7 @@
 <body id="page-subpage">
     @include('layouts.front.header')
     {{-- session 1 --}}
-    <section >
+    <section id="section1">
         <div id='section1-slick'>
             <img src="{{ asset('images/MicrosoftTeams-image_(11).png') }}" class="img1" alt="Carthage">
             <img src="{{ asset('images/MicrosoftTeams-image_(12).png') }}" class="img1" alt="Tozeur">
