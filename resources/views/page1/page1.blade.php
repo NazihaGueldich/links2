@@ -11,8 +11,6 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">사하라 사막의 시작</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                 </div>
@@ -21,8 +19,6 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">살아 숨쉬는 고대 역사</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                 </div>
@@ -31,8 +27,6 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">스타워즈의 발자취를 찾아</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                 </div>
@@ -41,8 +35,6 @@
                     <div class="overlay-content">
                         <div class="text-center">
                             <span class="text1">파란 하늘, 푸른 바다</span>
-                            <button type="button"
-                                class="btn btn-outline-primary btn1-main d-flex align-items-center justify-content-center">더보기</button>
                         </div>
                     </div>
                 </div>
