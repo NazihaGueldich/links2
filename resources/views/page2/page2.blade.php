@@ -5,64 +5,64 @@
     @include('layouts.front.header')
     <main>
         <div class="container ">
-        <div class="flex-container pt-2 sessicn">
-            <a href="about-atlantis#ligne-section-5">
-                <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
-                    <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p1" class="txticns">호텔</p>
-                </div>
-            </a>
-            <div class=" ligne1 m-4 lg">|</div>
-            <a href="sub-page#ligne-section3">
-                <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
-                        id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p2" class="txticns">항공편</p>
-                </div>
-            </a>
-            <div class="ligne1 m-4 lg">|</div>
-            <a href="travel-information#p3-section5">
-                <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
-                        id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p3" class="txticns">축제</p>
-                </div>
-            </a>
-            <div class="ligne1 m-4 lg">|</div>
-            <a href="about-tunisia#ligne-section9">
-                <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
-                        id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p4" class="txticns">활동</p>
-                </div>
-            </a>
-            <div class="ligne1 m-4 lg">|</div>
-            <a href="about-atlantis#to-section-4">
-                <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
-                        id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p5" class="txticns">자동차 서비스</p>
-                </div>
-            </a>
-            <div class="ligne1 m-4 lg">|</div>
-            <a href="sub-page#Popular-Tour">
-                <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
-                        id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p6" class="txticns">크루즈</p>
-                </div>
-            </a>
-            <div class="ligne1 m-4 lg">|</div>
-            <a href="travel-information#p3-section4">
-                <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
-                        id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
-                    <p id="p7" class="txticns">박물관</p>
-                </div>
-            </a>
-        </div>
+            <div class="flex-container pt-2 sessicn">
+                <a href="about-atlantis#ligne-section-5">
+                    <div class="icns" onmouseenter="changeImage(true,1)" onmouseleave="changeImage(false,1)">
+                        <img id='img1' src="{{ asset('images/Icon_1_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p1" class="txticns">호텔</p>
+                    </div>
+                </a>
+                <div class=" ligne1 m-4 lg">|</div>
+                <a href="sub-page#ligne-section3">
+                    <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
+                            id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p2" class="txticns">항공편</p>
+                    </div>
+                </a>
+                <div class="ligne1 m-4 lg">|</div>
+                <a href="travel-information#p3-section5">
+                    <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
+                            id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p3" class="txticns">축제</p>
+                    </div>
+                </a>
+                <div class="ligne1 m-4 lg">|</div>
+                <a href="about-tunisia#ligne-section9">
+                    <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
+                            id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p4" class="txticns">활동</p>
+                    </div>
+                </a>
+                <div class="ligne1 m-4 lg">|</div>
+                <a href="about-atlantis#to-section-4">
+                    <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
+                            id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p5" class="txticns">자동차 서비스</p>
+                    </div>
+                </a>
+                <div class="ligne1 m-4 lg">|</div>
+                <a href="sub-page#Popular-Tour">
+                    <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
+                            id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p6" class="txticns">크루즈</p>
+                    </div>
+                </a>
+                <div class="ligne1 m-4 lg">|</div>
+                <a href="travel-information#p3-section4">
+                    <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
+                            id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
+                        <p id="p7" class="txticns">박물관</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </main>
 
 
     <div class="container" id="Tunisia-over">
-        <section id="section-1" >
+        <section id="section-1">
             <div class="text-center">
-                <h2 class="main-title" >Tunisia overview</h2>
+                <h2 class="main-title">Tunisia overview</h2>
             </div>
 
             <div class="row">
@@ -108,7 +108,8 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">아프리카 최북단</h5>
-                            <img src="{{ asset('images/map2-02-05_2.svg') }}" class="img2-section3 mt-n3" alt="Afrique">
+                            <img src="{{ asset('images/map2-02-05_2.svg') }}" class="img2-section3 mt-n3"
+                                alt="Afrique">
                             <p class="parghraphe1">아프리카 대륙의 최북단에 위치하며, 아틀라스 산맥을 따라 자리 잡은 나라들 중 가장 작은 국가예요.</p>
                         </div>
                     </div>
@@ -117,7 +118,8 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">북아프리카</h5>
-                            <img src="{{ asset('images/map2-02-03_2.svg') }}" class="img1-section3 mt-n3" alt="Point Afrique">
+                            <img src="{{ asset('images/map2-02-03_2.svg') }}" class="img1-section3 mt-n3"
+                                alt="Point Afrique">
                             <p class="parghraphe1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와 국경을
                                 접하고
                                 있어요.</p>
@@ -128,7 +130,7 @@
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">지중해</h5>
-                            <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3 mt-n3" >
+                            <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3 mt-n3">
                             <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 관문이기도 해요.</p>
                         </div>
                     </div>
@@ -153,7 +155,8 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="titre-2">북아프리카</h5>
                             <img src="{{ asset('images/map2-02-03_2.svg') }}" class="img1-section3">
-                            <p class="parghraphe1 par1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와 국경을
+                            <p class="parghraphe1 par1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와
+                                국경을
                                 접하고
                                 있어요.</p>
                         </div>
@@ -163,7 +166,7 @@
                     <div class="card">
                         <div class="card-body d-flex flex-column">
                             <h5 class="titre-2">지중해</h5>
-                            <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3" >
+                            <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3">
                             <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 관문이기도 해요.</p>
                         </div>
                     </div>
@@ -175,12 +178,12 @@
 
         <section id="section-5">
             <div class="text-center mb-3 d-flex flex-column align-items-center">
-                <h2 class="main-title " >Weather</h2>
+                <h2 class="main-title ">Weather</h2>
 
                 <p class=" parghraphe1">
                     튀니지는 제법 뚜렷한 봄, 여름, 가을, 겨울의 4계절이 있어요. 여행 시기에 맞춰 적절한 의복을 챙기는 게 좋습니다. 튀니지 1월 평균 최저 기온은 6 ̊C, 8월
-                            평균
-                            최고 기온은 33 ̊C입니다.
+                    평균
+                    최고 기온은 33 ̊C입니다.
                 </p>
                 <div class=" buttons">
                     <button id='btn0sect5' class="p-2  btnactv" onclick="changtextSect3(0)">여름은</button>
@@ -190,16 +193,19 @@
             </div>
             <div class="d-flex flex-column  align-items-center  allsec">
 
-                <div class="ktbchng text-center" >
+                <div class="ktbchng text-center">
 
 
                     <div class="row">
-                        <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
+                        <div
+                            class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
                             <div class="para-section">
                                 <p class="mt-3 mt-lg-5" id='sec3titrp5'>6월부터 9월:</p>
-                                <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는 덥고 건조하며 남부로 내려갈수록 기온이 더
+                                <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는
+                                    덥고 건조하며 남부로 내려갈수록 기온이 더
                                     올라가며
-                                    건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을 챙기는 게
+                                    건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을
+                                    챙기는 게
                                     좋습니다.</p>
                             </div>
                         </div>
@@ -221,7 +227,7 @@
         <div class="container">
 
             <div class="text-center mb-3 d-flex flex-column align-items-center">
-                <h2 class="main-title " >Language</h2>
+                <h2 class="main-title ">Language</h2>
 
                 <p class=" parghraphe1">
                     튀니지의 공용어는 아랍어예요.표준아랍어와는 차이가 있는 튀니지 방언 아랍어를 주로 사용하고요 프랑스 식민 지배의 영향으로 제2공용어로 프랑스어를 사용하고 있어요.
@@ -235,7 +241,7 @@
             </div>
             <div class=" d-flex flex-column  align-items-center allsec">
 
-                <div class="ktbchng text-center" >
+                <div class="ktbchng text-center">
 
 
                     <div class="row">
@@ -250,8 +256,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 ">
-                            <img src="{{ asset('images/arabe-langue.png') }}" alt="Arabe Language"
-                                id="img-langue">
+                            <img src="{{ asset('images/arabe-langue.png') }}" alt="Arabe Language" id="img-langue">
                         </div>
                     </div>
 
@@ -267,40 +272,46 @@
                     <p class="main-title">Religion</p>
 
 
-                        <p class="parghraphe1">튀니지의 국교는 이슬람교!<br>
-                            튀니지는 헌법에서 종교가 이슬람교임을 명시적으로 밝히고 있는 이슬람교 국가예요.
-                        </p>
+                    <p class="parghraphe1">튀니지의 국교는 이슬람교!<br>
+                        튀니지는 헌법에서 종교가 이슬람교임을 명시적으로 밝히고 있는 이슬람교 국가예요.
+                    </p>
 
 
 
-                <div class="buttons-8">
-                    <button id='btn00' class="p-2 btnactv" onclick="changeElement(0)">이슬람</button>
-                    <button id='btn11' class="p-2 btninactv" onclick="changeElement(1)">유대교</button>
-                    <button id='btn22' class="p-2 btninactv" onclick="changeElement(2)">기독교</button>
-                </div>
-            </div>
-                <div class="row allsec">
-                    <div class="col-lg-6 section-8-prt1">
-                        <img src="images/Kairouan-Great.png" class="img-fluid img4" id='img44' alt="Kairouan Great Tunisia">
+                    <div class="buttons-8">
+                        <button id='btn00' class="p-2 btnactv" onclick="changeElement(0)">이슬람</button>
+                        <button id='btn11' class="p-2 btninactv" onclick="changeElement(1)">유대교</button>
+                        <button id='btn22' class="p-2 btninactv" onclick="changeElement(2)">기독교</button>
                     </div>
+                </div>
+                <div class="align-items-center allsec d-flex flex-column">
+                    <div class="ktbchng text-center">
+                        <div class="row">
+                            <div class="col-lg-6 section-8-prt1">
+                                <img src="images/Kairouan-Great.png" class="img-fluid img4" id='img44'
+                                    alt="Kairouan Great Tunisia">
+                            </div>
 
-                    <div class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum">
-                        <div class="pt-lg-5 para-section">
-                            <h4 id='h4prt6'>이슬람</h4>
-                            <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가 보장됩니다. 다만 개종
-                                권유, 포교는 법적 제한을 받아요.</p>
+                            <div
+                                class="align-items-start col-lg-6 d-flex flex-column justify-content-around pl-lg-5 pb-lg-3 section-costum">
+                                <div class="pt-lg-5 para-section">
+                                    <h4 class="mt-lg-5" id='h4prt6'>이슬람</h4>
+                                    <p id='pprt6'>국민의 98.2%가 수니파 이슬람을 믿는 무슬림입니다. 그렇지만 1988년 국가 헌장에 따라 종교의 자유가
+                                        보장됩니다. 다만 개종
+                                        권유, 포교는 법적 제한을 받아요.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-
-                </div>
             </div>
-            <div id="ligne-section9"></div>
-        </section>
+    </div>
+    <div id="ligne-section9"></div>
+    </section>
 
-        <section id="section-9">
-            <div class="container">
+    <section id="section-9">
+        <div class="container">
             <div class="row slick-slide">
                 <div class="col-lg-4">
                     <div class="links_box-1">
@@ -392,17 +403,18 @@
                 </div>
             </div>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
 
-        {{-- part 8 --}}
-        <section id="section-10">
-            <div class="container">
+    {{-- part 8 --}}
+    <section id="section-10">
+        <div class="container">
             <div class="d-flex flex-column align-items-center">
                 <h2 class="main-title">Culture</h2>
 
-                <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며,<br> 그 예술은 복잡한 도자기와 모자이크 작품에서
+                <p id='pprt8'>튀니지 문화는 축구와 같은 스포츠를 경험하고 다양하고 맛있는 음식인 쿠스쿠스와 매콤한 하리사로 유명하며,<br> 그 예술은 복잡한 도자기와 모자이크
+                    작품에서
                     이슬람, 지중해 및 지역 문화의 결합을 나타냅니다.</p>
             </div>
             <div class="crdd">
@@ -410,7 +422,8 @@
                     <div class="d-flex flex-column  prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">예술</button>
-                            <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6" alt="Culture Tunisia">
+                            <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6"
+                                alt="Culture Tunisia">
                         </div>
                         <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등 수공예품이
                             유명합니다.
@@ -430,8 +443,8 @@
                     <div class="d-flex flex-column prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">스포츠</button>
-                            <img src="{{ asset('images/Sport_fun.jpg') }}" class="img-fluid img6" style="z-index: -1;"
-                                alt="Football Tunisie">
+                            <img src="{{ asset('images/Sport_fun.jpg') }}" class="img-fluid img6"
+                                style="z-index: -1;" alt="Football Tunisie">
 
                         </div>
                         <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구 국가대표팀은
@@ -446,7 +459,8 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81 ">
                                 <button class="btn btn-outline-primary button-main">예술</button>
-                                <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6" alt="Image">
+                                <img src="{{ asset('images/Culture-Tunisia.png') }}" class="img-fluid img6"
+                                    alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">튀니지에는 세계 고고학과 건축 연구에 중요한 많은 역사적 유적지가 있어요. 또한 카펫, 도자기, 가죽제품, 모자이크 등
                                 수공예품이 유명합니다.</p>
@@ -478,8 +492,8 @@
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
 
     </div>
@@ -516,31 +530,34 @@
                 <div class="col-lg-6 mt-4 mt-lg-0 ">
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
                         <a href="sub-page#Popular-Tour">
-                        <div class="part2">
-                            <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm" class="object-fit-cover cover-img">
-                            <p>목적지</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm"
+                                    class="object-fit-cover cover-img">
+                                <p>목적지</p>
+                            </div>
                         </a>
                         <a href="travel-information#Culinary-recomendation">
-                        <div class="part2">
-                            <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
-                            <p>음식</p>
-                        </div>
+                            <div class="part2">
+                                <img src="{{ asset('images/oja.png') }}" alt="Ojja" class="object-fit-cover">
+                                <p>음식</p>
+                            </div>
                         </a>
                         <a href="/#section-4">
 
                         </a>
                     </div>
                     <a href="sub-page#to-main routes">
-                    <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
-                        <div class="part2">
-                            <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara" class="object-fit-cover">
-                            <p>활동</p>
-                        </div>
+                        <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
+                            <div class="part2">
+                                <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara"
+                                    class="object-fit-cover">
+                                <p>활동</p>
+                            </div>
                     </a>
                     <a href="sub-page#to-main routes">
                         <div class="part2">
-                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage" class="object-fit-cover cover-img">
+                            <img src="{{ asset('images/Équipage.png') }}" alt="Équipage"
+                                class="object-fit-cover cover-img">
                             <p>호텔과 리조트</p>
                         </div>
                     </a>
@@ -550,25 +567,29 @@
 
 
 
-        </div>
+            </div>
 
-        <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
-            <div class="row">
-                <div class="text-left col-lg-4 image-1">
-                    <img src="{{ asset('images/Rectangle2.svg') }}">
-                    <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
-                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
-                </div>
-                <div class="col-lg-4 text-center image-2">
-                    <span>All rights reserved ©</span>
-                </div>
-                <div class="col-lg-4 text-right image-3">
-                    <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/fb.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img src="{{ asset('images/ig.svg') }}" style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
-                    <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+            <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
+                <div class="row">
+                    <div class="text-left col-lg-4 image-1">
+                        <img src="{{ asset('images/Rectangle2.svg') }}">
+                        <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
+                        <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
+                    </div>
+                    <div class="col-lg-4 text-center image-2">
+                        <span>All rights reserved ©</span>
+                    </div>
+                    <div class="col-lg-4 text-right image-3">
+                        <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
+                                src="{{ asset('images/fb.svg') }}"
+                                style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
+                                src="{{ asset('images/ig.svg') }}"
+                                style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
+                        <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -629,49 +650,49 @@
         });
 
         $(document).ready(function() {
-        //54it il lien connecter
-        var currentURL = window.location.href;
-        var parts = currentURL.split('/');
-        var routeValue = parts[parts.length - 1];
-        var home=document.getElementById('home') ;
-        var aboute=document.getElementById('aboute');
-        var aboutatlnts=document.getElementById('aboutatlnts');
-        var travel=document.getElementById('travel');
-        var more=document.getElementById('dropdownMenuButton');
+            //54it il lien connecter
+            var currentURL = window.location.href;
+            var parts = currentURL.split('/');
+            var routeValue = parts[parts.length - 1];
+            var home = document.getElementById('home');
+            var aboute = document.getElementById('aboute');
+            var aboutatlnts = document.getElementById('aboutatlnts');
+            var travel = document.getElementById('travel');
+            var more = document.getElementById('dropdownMenuButton');
 
-        console.log(routeValue);
-        if(routeValue==''){
-            home.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='about-tunisia'){
-            aboute.style.color = '#347EFF';
-            home.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='about-atlantis'){
-            aboutatlnts.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            home.style.color = '#000';
-            travel.style.color = '#000';
-            more.style.color = '#000';
-        }else if(routeValue=='travel-information'){
-            travel.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            home.style.color = '#000';
-            more.style.color = '#000';
-        }else{
-            more.style.color = '#347EFF';
-            aboute.style.color = '#000';
-            aboutatlnts.style.color = '#000';
-            travel.style.color = '#000';
-            home.style.color = '#000';
-        }
-    });
+            console.log(routeValue);
+            if (routeValue == '') {
+                home.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'about-tunisia') {
+                aboute.style.color = '#347EFF';
+                home.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'about-atlantis') {
+                aboutatlnts.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                home.style.color = '#000';
+                travel.style.color = '#000';
+                more.style.color = '#000';
+            } else if (routeValue == 'travel-information') {
+                travel.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                home.style.color = '#000';
+                more.style.color = '#000';
+            } else {
+                more.style.color = '#347EFF';
+                aboute.style.color = '#000';
+                aboutatlnts.style.color = '#000';
+                travel.style.color = '#000';
+                home.style.color = '#000';
+            }
+        });
     </script>
 </body>
 
