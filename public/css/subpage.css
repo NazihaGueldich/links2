@@ -85,6 +85,11 @@
 
 }
 
+#page-subpage .slick-track {
+    width: 22315px !important;
+    margin-left: -1%;
+}
+
 /* section 2 */
 #page-subpage #section2 {
     display: flex;
