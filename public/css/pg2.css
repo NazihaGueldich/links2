@@ -117,7 +117,12 @@ main {
     margin: 5px 0 20px 0;
     text-align: center;
 }
-
+#p1,#p2,#p3,#p4,#p5,#p6,#p7{
+    margin-top: -4%;
+}
+#p5{
+    margin-top: -2%;
+}
 .links_box-shadox {
     position: relative;
     cursor: pointer;
@@ -1330,4 +1335,4 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
 
 #about-tunisia #section-9 .block-cards .col-lg-4{
     padding: 0 20px 0 20px !important;
-} 
+}
