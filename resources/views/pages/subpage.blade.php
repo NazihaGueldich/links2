@@ -4,13 +4,13 @@
 <body id="page-subpage">
     @include('layouts.front.header')
     {{-- session 1 --}}
-    <section id="section1">
+    <section >
         <div id='section1-slick'>
-            <img src="{{ asset('images/carthage_tunisatrip.png') }}" class="img1" alt="Carthage">
-            <img src="{{ asset('images/tozeur_tunisatrip.png') }}" class="img1" alt="Tozeur">
-            <img src="{{ asset('images/hamamet_tunisiatrip.png') }}" class="img1" alt="Hamamet">
-            <img src="{{ asset('images/dogga_tunisatrip.png') }}" class="img1" alt="Dogga">
-            <img src="{{ asset('images/Monastir_-_tunisiatrip.png') }}" class="img1" alt="Monastir">
+            <img src="{{ asset('images/MicrosoftTeams-image_(11).png') }}" class="img1" alt="Carthage">
+            <img src="{{ asset('images/MicrosoftTeams-image_(12).png') }}" class="img1" alt="Tozeur">
+            <img src="{{ asset('images/MicrosoftTeams-image_(13).png') }}" class="img1" alt="Hamamet">
+            <img src="{{ asset('images/MicrosoftTeams-image_(14).png') }}" class="img1" alt="Dogga">
+            <img src="{{ asset('images/MicrosoftTeams-image_(15).png') }}" class="img1" alt="Monastir">
         </div>
         <div class="overlay-content">
             <img id='icnav' src="{{ asset('images/avion.png') }}" alt="Avion"
