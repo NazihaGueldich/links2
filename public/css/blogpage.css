@@ -271,6 +271,12 @@
 
 @media all and (max-width: 767px) {
 
+    .wrap-video-sect1 {
+        width: 100% !important;
+        height: 279px;
+        margin-left: 0;
+    }
+
     #blog-page #section4 .wrap-video .video-js,
     #blog-page #section4 #crd2 {
         height: 182px;
@@ -284,10 +290,11 @@
     #blog-page #section4 #crd2 button {
         height: 35px;
         font-size: 0.8rem;
+        margin-top: 43%
     }
 
     #blog-page #section4 #crd2 button {
-        margin-top: 9%;
+        margin-top: 123% !important;
     }
 
     #blog-page #section4 .wrap-video button img,
@@ -295,6 +302,10 @@
         width: 15px;
     }
 
+    #blog-page #section4 .wrap-video #play-btn3 {
+        margin-top: 213px;
+    }
+    
     #blog-page #section4 #crd2 .sub-title {
         padding-top: 15%;
         margin-bottom: 0;
