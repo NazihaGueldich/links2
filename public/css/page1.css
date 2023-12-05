@@ -582,8 +582,8 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     margin: 0 auto;
 }
 .video-js {
-    height: auto;
-
+    width: 70%;
+    height: 560px;
     border-radius: 20px;
 }
 
@@ -1574,7 +1574,7 @@ body .slick-slide1{
 }
 
 #section-8 .card2 {
-   
+
     margin: 0 auto;
     border: 1px solid #B3B3B3;
     border-radius: 20px;

@@ -211,7 +211,7 @@
     border-radius: 20px;
     color: #347EFF;
     font-size: 1rem;
-    margin-top: 22%;
+    margin-top:43%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -221,12 +221,12 @@
     margin-top: 0;
 }
 #blog-page #section4 .wrap-video #play-btn3 {
-    margin-top:  237px;
+    margin-top:  238px;
 }
 
-#blog-page #section4 #crd2{
+/* #blog-page #section4 #crd2{
     top: 50%;
-}
+} */
 
 #p1,#p2,#p3,#p4,#p5,#p6,#p7{
     margin-top: 1%;
@@ -249,7 +249,7 @@
     border-radius: 20px;
     margin-left: 10%;
     font-size: 1rem;
-    margin-top: 2%;
+    margin-top: 237px !important;
     background-color: #347EFF;
     width: 132px;
     display: flex;
