@@ -176,12 +176,14 @@ function srllcrdssess5(x) {
     var h20 = ['Four Seasons Tunis', 'Anantara Tozeur', 'Movenpick Sousse', 'The Residence Tunis', 'Le Kasbah Kairouan', 'Pansy KSAR Ghilene'];
     var p0 = ['Tunis, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Douz, Tunisia'];
     var img0 = ['Four-Seasons-Tunis.jpeg', 'Anantara-Tozeur.jpeg', 'Movenpick-Sousse.jpeg', 'The-Residence-Tunis.jpeg', 'Le-Kasbah-Kairouan.jpeg', 'Pansy-KSAR-Ghilene.jpeg'];
-    var alt0 = ['Four Seasons Tunis', "Anantara Tozeur", "Movenpick Sousse", "The Residence Tunis", "Le Kasbah Kairouan", "Pansy KSAR Ghilene"]
+    var alt0 = ['Four Seasons Tunis', "Anantara Tozeur", "Movenpick Sousse", "The Residence Tunis", "Le Kasbah Kairouan", "Pansy KSAR Ghilene"];
+    var a0 = ['https://www.fourseasons.com/tunis/', 'https://www.anantara.com/en/sahara-tozeur', 'https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html', 'https://www.residencetunis.com/fr/', 'https://www.goldenyasmin.com/fr/', 'https://www.facebook.com/reservationpansy/'];
     //seconde crcl
     var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
     var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
     var img1 = ['Radisson-Sfax.jpeg', 'Sheraton.jpeg', 'Africa.jpeg', 'Movenpick-Lac-2.jpeg', 'Mouradi-gammarth-2.jpeg'];
-    var alt1 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth']
+    var alt1 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
+    var a1 = ['https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax', 'https://sheraton.hammamet-hotels-tn.com/fr/', 'https://hotel-africa-tunis.h-rez.com/', 'https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html', 'https://www.elmouradi.com/'];
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
@@ -200,72 +202,43 @@ function srllcrdssess5(x) {
             p = p0[ind];
             img = '../images/' + img0[ind];
             alt = alt0[ind];
+            a = a0[ind];
         } else if (z === 1) {
             h2 = h21[ind];
             p = p1[ind];
             img = '../images/' + img1[ind];
             alt = alt1[ind];
+            a = a1[ind];
         }
-        ind++;
+        ind++;console.log(a);
 
-        var divElement = document.createElement('div');
-        divElement.className = 'col-lg-3 sess5crd radius-20';
+        let sectionContent = '';
 
-        // hna sna3t div nta3 il taswira bil masque
-        const maskDivElement = document.createElement('div');
-        maskDivElement.classList.add('mask-image');
-        // hna 7atit itaswira
-        const imgElement = document.createElement('img');
-        imgElement.setAttribute('id', 'sess5crd1img');
-        imgElement.setAttribute('src', img);
-        imgElement.setAttribute('alt', alt);
-        imgElement.classList.add('img-fluid');
-        imgElement.setAttribute('alt', 'Carthage');
-        maskDivElement.appendChild(imgElement);
-        //zdt etaswira lil div masque
-        divElement.appendChild(maskDivElement);
-        // ilba9iya nta3 il crd
-        //linna cercl
-        const imgElement1 = document.createElement('img');
-        imgElement1.setAttribute('src', "../images/sess5crd1crcl.png");
-        imgElement1.classList.add('cercle-img');
-        divElement.appendChild(imgElement1);
-        //linna il txt fel crcl
-        const pElement = document.createElement('p');
-        pElement.classList.add('text-img');
-        pElement.textContent = '링크';
-        divElement.appendChild(pElement);
-        //linna div position
-        const divElement2 = document.createElement('div');
-        divElement2.classList.add('posit');
-        //li taswira wel position
-        const imgElement2 = document.createElement('img');
-        imgElement2.setAttribute('src', "../images/gps.png");
-        imgElement2.classList.add('mr-2');
-        divElement2.appendChild(imgElement2);
-        const pElement2 = document.createElement('p');
-        pElement2.setAttribute('id', 'sess5crd1p');
-        pElement2.textContent = p;
-        divElement2.appendChild(pElement2);
-        //zstha lil div position
-        divElement.appendChild(divElement2);
-        //inejmet
-        const divnote = document.createElement('div');
-        divnote.classList.add('note');
-        for (j = 0; j < 5; j++) {
-            var imgElement3 = document.createElement('img');
-            imgElement3.setAttribute('src', "../images/review_Star.svg");
-            divnote.appendChild(imgElement3);
-            divElement.appendChild(divnote);
-        }
-        //ism l'hotel
-        const h2Element = document.createElement('h2');
-        h2Element.setAttribute('id', 'sess5crd1h2');
-        h2Element.classList.add('sub-title', 'sess5h2');
-        h2Element.textContent = h2;
-        divElement.appendChild(h2Element);
-        //zdthom ilkoll lil div fel blade mte3i
-        section.appendChild(divElement);
+
+        sectionContent += `
+        <div class="col-lg-3  sess5crd radius-20">
+        <div class="mask-image">
+            <a id="sess5crd1href" href="` + a + `">
+            <img id='sess5crd1img' src="../images/` + img + `" class="img-fluid"
+                alt="` + alt + `"></a>
+        </div>
+        <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
+        <p class="text-img">링크</p>
+        <div class="posit">
+            <img src="../images/gps.png" alt='gps' class="mr-2">
+            <p id="sess5crd1p">` + p + `</p>
+        </div>
+        <div class="note">
+            <img src="../images/review_Star.svg" alt='star'>
+            <img src="../images/review_Star.svg" alt='star'>
+            <img src="../images/review_Star.svg" alt='star'>
+            <img src="../images/review_Star.svg" alt='star'>
+            <img src="../images/review_Star.svg" alt='star'>
+        </div>
+        <h2 id="sess5crd1h2" class="sub-title sess5h2">` + h2 + `</h2>
+    </div>`;
+
+        section.innerHTML += sectionContent;
     }
 }
 
@@ -347,16 +320,19 @@ function PAsrllcrdssess6(x) {
     var p0 = ['Medina of Tunis', 'Sidi bou said', 'Bizerte, tunisia'];
     var img0 = ['dar_bel_gesem.jpg', 'dar_fatma.jpg', 'guesthouse-_bizerte-_dar_Ellamma.jpg'];
     var alt0 = ['Dar ellamma', "Dar Belgecem", "Dar Fatma", ];
+    var a0=["https://darbengacem.com/","https://darfatma.com/","https://www.darellamma.com/"];
     //seconde crcl
     var h21 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
     var p1 = ['Médina de Sousse', ' Tozeur', 'Tozeur'];
     var img1 = ['dar_antonia.jpg', 'diar-abou-habibi.jpg', 'dar_saida_baya.jpg'];
     var alt1 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
+    var a1=["about:blank","https://www.diarhabibi.com/","http://www.darsaidabeya.com/"];
     //3rd crcl
     var h22 = ['Dar Dhiafa'];
     var p2 = ['Djerba'];
     var img2 = ['dar_dhiafa.jpg'];
     var alt2 = ['Dar Dhiafa'];
+    var a2=["https://www.facebook.com/dar.dhiafa/"];
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess6-crds');
     section.innerHTML = '';
@@ -376,16 +352,19 @@ function PAsrllcrdssess6(x) {
             p = p0[ind];
             img = '../images/' + img0[ind];
             alt = alt0[ind];
+            a = a0[ind];
         } else if (indxcrd === 1) {
             h2 = h21[ind];
             p = p1[ind];
             img = '../images/' + img1[ind];
             alt = alt1[ind];
+            a = a1[ind];
         } else {
             h2 = h22[ind];
             p = p2[ind];
             img = '../images/' + img2[ind];
             alt = alt2[ind];
+            a = a2[ind];
         }
         ind++;
         console.log(h2);
@@ -395,7 +374,9 @@ function PAsrllcrdssess6(x) {
 
         sectionContent += `
             <div class="mask-image">
+            <a href="` + a + `" id="sess6crd1href">
                 <img class="sess6crdimg" src="../images/` + img + `" class="img-fluid" alt="` + alt + `">
+                </a>
             </div>
             <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
             <p class="text-img">링크</p>
