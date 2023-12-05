@@ -110,3 +110,21 @@ $('#blog-page #section5 .section5-mobil').slick({
     speed: 500,
     cssEase: 'linear'
 });
+
+
+$('.slick-sect4').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
+});

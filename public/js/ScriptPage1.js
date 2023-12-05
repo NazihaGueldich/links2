@@ -594,6 +594,7 @@ $('.sess3-mob').slick({
 });
 
 
+
 window.addEventListener('resize', function() {
     var itemsDiv = document.getElementById('btnchng');
 

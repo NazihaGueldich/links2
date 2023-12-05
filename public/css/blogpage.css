@@ -212,10 +212,16 @@
     color: #347EFF;
     font-size: 1rem;
     margin-top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #blog-page #section4 .wrap-video #play-btn2 {
     margin-top: 0;
+}
+#blog-page #section4 .wrap-video #play-btn3 {
+    margin-top:  237px;
 }
 
 #blog-page #section4 #crd2{
@@ -245,7 +251,10 @@
     font-size: 1rem;
     margin-top: 2%;
     background-color: #347EFF;
-    width: 126px;
+    width: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media all and (max-width: 767px) {

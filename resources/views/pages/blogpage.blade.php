@@ -96,8 +96,8 @@
         {{-- section 4 --}}
         <section id='section4'>
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
-            <div class="row ">
-                <div class="col-lg-6">
+            <div class=" slick-sect4">
+                <div >
                     <div class="wrap-video pb-lg-0">
                         <video id="-video" class="video-js" preload="auto"
                             poster="images/Creator-Talking-Tunisia.png">
@@ -112,7 +112,7 @@
 
 
                 </div>
-                <div class="col-lg-6">
+                <div >
                     <div class="wrap-video pb-lg-0">
                         <video id="-video2" class="video-js" preload="auto"
                             poster="images/Creator-Talking-Tunisia 2.png">
@@ -121,6 +121,19 @@
                         <div class="video-overlay" id='crd2'>
                             <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
                                 alt="Arrow Right white">
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap-video pb-lg-0">
+                        <video id="-video3" class="video-js" preload="auto"
+                            poster="images/sahrouch.png">
+                            <source src="images/vd.mp4" type="video/mp4" />
+                        </video>
+                        <div class="video-overlay" id='crd3'>
+                                <button id="play-btn3" class="btn">Play Video <img src="{{ asset('images/Arrow Right Blue.png') }}"
+                                    alt="Arrow Right white">
                         </button>
                         </div>
                     </div>
@@ -274,6 +287,40 @@
                 playButton.style.display = 'none';
             });
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var myVideo = document.getElementById('-video3');
+            var playButton = document.getElementById('play-btn3');
+
+            myVideo.controls = false;
+
+
+            function playVideo() {
+                myVideo.play();
+                myVideo.controls = true;
+            }
+
+            playButton.addEventListener('click', playVideo);
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const playButton = document.getElementById('play-btn3');
+            const video = document.getElementById('-video3');
+
+            playButton.addEventListener('click', function() {
+                video.play();
+                playButton.style.display = 'none';
+                videoTitle.style.display = 'none';
+            });
+
+            video.addEventListener('play', function() {
+                playButton.style.display = 'none';
+                videoTitle.style.display = 'none';
+            });
+        });
+
+        
     </script>
 
     @include('layouts.front.footer')
