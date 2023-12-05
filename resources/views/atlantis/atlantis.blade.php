@@ -393,7 +393,7 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <a id="sess5crd5href" href="">
+                        <a id="sess5crd5href" href="https://www.goldenyasmin.com/fr/">
                         <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
                             alt="Le Kasbah Kairouan"></a>
                     </div>
@@ -520,7 +520,7 @@
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
                     <div class="mask-image">
-                        <a href="">
+                        <a href="https://www.goldenyasmin.com/fr/">
                         <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}"
                             class="img-fluid" alt="Le Kasbah Kairouan"></a>
                     </div>

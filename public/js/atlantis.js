@@ -177,7 +177,7 @@ function srllcrdssess5(x) {
     var p0 = ['Tunis, Tunisia', 'Tozeur, Tunisia', 'Sousse, Tunisia', 'Tunis, Tunisia', 'Kairouan, Tunisia', 'Douz, Tunisia'];
     var img0 = ['Four-Seasons-Tunis.jpeg', 'Anantara-Tozeur.jpeg', 'Movenpick-Sousse.jpeg', 'The-Residence-Tunis.jpeg', 'Le-Kasbah-Kairouan.jpeg', 'Pansy-KSAR-Ghilene.jpeg'];
     var alt0 = ['Four Seasons Tunis', "Anantara Tozeur", "Movenpick Sousse", "The Residence Tunis", "Le Kasbah Kairouan", "Pansy KSAR Ghilene"];
-    var a0 = ['https://www.fourseasons.com/tunis/', 'https://www.anantara.com/en/sahara-tozeur', 'https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html', 'https://www.residencetunis.com/fr/', '', 'https://www.facebook.com/reservationpansy/'];
+    var a0 = ['https://www.fourseasons.com/tunis/', 'https://www.anantara.com/en/sahara-tozeur', 'https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html', 'https://www.residencetunis.com/fr/', 'https://www.goldenyasmin.com/fr/', 'https://www.facebook.com/reservationpansy/'];
     //seconde crcl
     var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
     var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
