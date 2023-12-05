@@ -297,8 +297,8 @@
             </div>
             <div class="wrap-video">
                 <video id="my-video" class="video-js video-page1" controls preload="auto"
-                    poster="images/sahrouch.png">
-                    <source src="images/vd.mp4" type="video/mp4" />
+                    {{-- poster="images/sahrouch.png" --}}>
+                    <source src="images/TunKaur.mp4" type="video/mp4" />
                 </video>
             </div>
 
