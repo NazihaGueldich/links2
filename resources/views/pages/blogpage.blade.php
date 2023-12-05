@@ -223,6 +223,23 @@
                 </div> --}}
             </div>
         </section>
+        <script>
+            const videos = document.querySelectorAll('video');
+
+            videos.forEach(video => {
+                video.addEventListener('play', () => {
+                    pauseOtherVideos(video);
+                });
+            });
+
+            function pauseOtherVideos(currentVideo) {
+                videos.forEach(video => {
+                    if (video !== currentVideo && !video.paused && !video.ended) {
+                        video.pause();
+                    }
+                });
+            }
+        </script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -320,7 +337,7 @@
             });
         });
 
-        
+
     </script>
 
     @include('layouts.front.footer')
