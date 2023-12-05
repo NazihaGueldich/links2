@@ -1,7 +1,7 @@
 @include('layouts.front.head')
 <body id="page-info" class="tunisiatrip">
     @include('layouts.front.header')
-    
+
     <div class="container mt-5">
         {{-- icons --}}
         <main>
@@ -395,8 +395,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">JCC 카르타고 영화제</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">10월 말-11월 초</li>
+                                <li class="icone-place">튀니스 카르타고</li>
                             </ul>
                         </div>
                     </div>
@@ -415,8 +415,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">카르타고 국제 페스티벌</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">매년 7월-8월</li>
+                                <li class="icone-place">튀니스 카르타고</li>
                             </ul>
                         </div>
                     </div>
@@ -435,8 +435,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">엘젬 국제 교향악 페스티벌</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">매년 7월-8월</li>
+                                <li class="icone-place">엘젬</li>
                             </ul>
                         </div>
                     </div>
@@ -455,8 +455,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">타바르카 재즈 페스티벌</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">매년 7월</li>
+                                <li class="icone-place">타바르카</li>
                             </ul>
                         </div>
                     </div>
@@ -475,8 +475,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">두즈 사하라 국제 페스티벌</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">매년 12월</li>
+                                <li class="icone-place">두즈</li>
                             </ul>
                         </div>
                     </div>
@@ -495,8 +495,8 @@
                            </div> --}}
                             <h5 class="custom-card-title dm-sans">토주르 국제 오아시스 페스티벌</h5>
                             <ul class="custom-card-text">
-                                <li class="icone-date">축제일</li>
-                                <li class="icone-place">축제의 장소</li>
+                                <li class="icone-date">매년 12월</li>
+                                <li class="icone-place">토주르</li>
                             </ul>
                         </div>
                     </div>
