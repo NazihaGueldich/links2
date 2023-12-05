@@ -115,7 +115,7 @@ $('#blog-page #section5 .section5-mobil').slick({
 $('.slick-sect4').slick({
     infinite: true,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
     dots: true,
     responsive: [{
