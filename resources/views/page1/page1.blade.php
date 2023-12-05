@@ -657,40 +657,40 @@
                     </div>
                     <div class="text-container ">
                         <div class="row">
+                            <div class="col-lg-7">
+                                <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg"
+                                    alt='Touriste'>
+                            </div>
                             <div class="col-lg-5">
                                 <p id="txt2" class="txtinactv">2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다.
                                     아름다운 지중해
                                     해안, 역사적 유산 및 다양한 명소로 전 세계의 방문객들을 끌어들이고 있습니다.</p>
                             </div>
-                            <div class="col-lg-7">
-                                <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg"
-                                    alt='Touriste'>
-                            </div>
                         </div>
                     </div>
                     <div class="text-container ">
                         <div class="row">
+                            <div class="col-lg-7">
+                                <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg"
+                                    alt="Historique">
+                            </div>
                             <div class="col-lg-5">
                                 <p id="txt3" class="txtinactv">튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의
                                     카르타고부터 로마 시대
                                     유적까지, 다양한 문화와 역동적인 역사를 자랑하는 매력적인 관광지로 알려져 있습니다.</p>
                             </div>
-                            <div class="col-lg-7">
-                                <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg"
-                                    alt="Historique">
-                            </div>
                         </div>
                     </div>
                     <div class="text-container ">
                         <div class="row">
+                            <div class="col-lg-7">
+                                <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg"
+                                    alt="Books">
+                            </div>
                             <div class="col-lg-5">
                                 <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은
                                     튀니지의 교육
                                     수준과 지적 발전에 대한 헌신을 보여줍니다.</p>
-                            </div>
-                            <div class="col-lg-7">
-                                <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg"
-                                    alt="Books">
                             </div>
                         </div>
                     </div>
