@@ -311,7 +311,7 @@
             </div>
         </section>
 
-        <div class="ligne-separtion" id="Popular-Tour"></div>
+        <div id="Popular-Tour"></div>
 
         {{-- session 4 --}}
         <section id='section4'>
@@ -512,7 +512,7 @@
         </section>
 
 
-        <div class="ligne-separtion" id="to-main routes"></div>
+        <div  id="to-main routes"></div>
 
         {{-- session 5 --}}
         <section id='section5'>
@@ -568,7 +568,6 @@
             </div>
         </section>
 
-        <div class="ligne-separtion"></div>
 
         {{-- session 6 --}}
         <section id='section6'>
