@@ -296,7 +296,10 @@
                     북아프리카의 보석 튀니지의 풍부한 문화가 당신을 기다립니다.</p>
             </div>
             <div class="wrap-video w-100">
-                <iframe class="video-js" src="https://www.youtube.com/embed/21r1M3L-yqM?si=4nA-T16uk1ekfLQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video-js" src="https://www.youtube.com/embed/21r1M3L-yqM?si=4nA-T16uk1ekfLQ6"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
 
         </div>
@@ -496,6 +499,7 @@
 
             </div>
 
+
         </div>
     </section>
 
@@ -558,7 +562,7 @@
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
-            <div class="row mr-0" >
+            <div class="row mr-0">
                 <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
@@ -875,6 +879,15 @@
                 slidesToScroll: 1,
                 dots: false,
                 cssEase: 'linear',
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
             });
         });
     </script>
