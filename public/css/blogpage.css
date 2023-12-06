@@ -320,6 +320,12 @@
 }
 
 /* section 5 */
+
+@media all and (max-width: 767px) {
+#blog-page #section5 .crdsess5 {
+    margin-left: -10px;
+}
+}
 #blog-page #section5 .crdsess5 {
     background-color: #F1F4F8;
     border-radius: 20px;
@@ -384,7 +390,7 @@
     .slick-dots li button:before {
         margin-top: -118%;
         font-size: 20px;
-        margin-left: -70%;
+        margin-left: 47%;
     }
 }
 
