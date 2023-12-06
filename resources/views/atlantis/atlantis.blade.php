@@ -1,6 +1,24 @@
 @include('layouts.front.head')
-<head>
     <meta name="description" content="튀니지에서 가장 유명한 여행사인 아틀란티스 여행사를 소개합니다. 아틀란티스 여행사에 대한 간략한 설명과 함께 아틀란티스가 제공하는 차량 서비스, 호텔 및 게스트하우스 정보를 안내합니다.">
+    <meta name="keywords" content="아틀란티스 여행사
+
+    CWT
+    
+    튀니지 여행사
+    
+    튀니지 여행
+    
+    튀니지 차량
+    
+    차량 서비스
+    
+    튀니지 호텔
+    
+    튀니지 리조트
+    
+    튀니지 게스트하우스
+    
+    호텔">
 </head>
 <body id="page-atlantis" class="tunisiatrip">
     {{-- nav bar --}}

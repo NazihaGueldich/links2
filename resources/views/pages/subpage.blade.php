@@ -1,6 +1,28 @@
 @include('layouts.front.head')
-<head>
     <meta name="description" content="튀니지 여행을 할 수 있는 방법을 제시합니다. 한국에서 튀니지까지의 항공편 정보를 제공하고, 튀니지 일주 시 최적의 여행경로를 공유합니다. 튀니지 지도를 통해 주요 도시를 소개합니다.">
+    <meta name="keywords" content="튀니지 공항
+
+    튀니지 여행
+    
+    여행 일정
+    
+    튀니지 추천일정
+    
+    튀니지 일주
+    
+    사하라 사막
+    
+    스타워즈
+    
+    튀니지 전압
+    
+    대한민국 대사관
+    
+    시디부사이드
+    
+    카이루완
+    
+    튀니지 비자">
 </head>
 
 <body id="page-subpage">
