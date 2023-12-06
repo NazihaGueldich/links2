@@ -385,6 +385,7 @@ body #p3-section5>.container>.row {
 @media screen and (max-width: 1280px) {
     body #p3-section3 .btnactv {
         font-size: 1rem;
+        height: 55px;
     }
 
     body #p3-section3 .btninactv {
@@ -393,6 +394,28 @@ body #p3-section5>.container>.row {
 
     #page-info .custom-card .custom-card-text {
         margin-top: -5%;
+    }
+
+    #page-info #p3-section3 .slick-track{
+        align-items: center;
+    }
+    #page-info #p3-section3 .slick-dotted.slick-slider {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #page-info #p3-section3  .slick-list .slick-track {
+        gap: 15px;
+    }
+    body .main-title {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        margin-top: 63px;
+    }
+    body .wrap-nav-transportation {
+        margin-top: 11px !important;
+    }
+    body .wrap-museums-card {
+        margin-top: 0px !important;
     }
 
 }
@@ -524,6 +547,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card {
     padding: 35px;
     border: 2px solid #347EFF;
     border-radius: 20px;
+    height: 621px;
 }
 
 .checkbox {
