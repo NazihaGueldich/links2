@@ -80,7 +80,7 @@
         {{-- section 1 --}}
         <section id="section-1">
             <div class="text-center city-top">
-                <h2 class="main-title pt-3">Atlantis agency</h2>
+                <h2 class="main-title mt-lg-5">Atlantis agency</h2>
             </div>
             <div class="card card-session1 radius-20 ">
                 <div class="card-body mr-0 py-lg-4 row">
@@ -273,7 +273,7 @@
         
 
         {{-- section 4 --}}
-        <section id="section-4" class="mt-5">
+        <section id="section-4" class="mt-lg-5">
             <div class="text-center">
                 <h2 class="main-title mt-lg-5">Car services</h2>
             </div>
@@ -317,7 +317,6 @@
             </div>
         </section>
         <div id="ligne-section-5"></div>
-        <div class="ligne-separtion" id="ligne-section-5"></div>
 
         {{-- section 5 --}}
         <section id="section-5">
