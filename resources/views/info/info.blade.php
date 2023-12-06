@@ -1,4 +1,7 @@
 @include('layouts.front.head')
+<head>
+    <meta name="description" content="튀니지 여행 시에 참고하면 좋은 사항들을 소개합니다. 꼭 먹어봐야 하는 전통음식을 소개하고, 여행과 관련한 튀니지 아랍어를 알려주며 박물관 및 페스티벌 정보, 튀니지에서만 살 수 있는 기념품 정보도 제공합니다.">
+</head>
 <body id="page-info" class="tunisiatrip">
     @include('layouts.front.header')
 

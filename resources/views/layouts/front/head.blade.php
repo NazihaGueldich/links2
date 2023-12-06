@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Tunisiatrip By Atlantis</title>
-    <meta name="description" content=" | 아틀란티스 여행사
-    튀니지 | 튀니지 여행 | 아틀란티스 | 아틀란티스 여행사 | 북아프리카 | 사막 |사하라사막 | 시디부사이드 | 아프리카 여행">
+   
 <!-- Font Awesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
 <!-- Inclusion de Font Awesome via CDN -->

@@ -1,5 +1,7 @@
 @include('layouts.front.head')
-
+<head>
+    <meta name="description" content="튀니지와 관련된 최신 정보들을 동영상, 뉴스 기사를 통해 제시합니다. 튀니지 관광청과 현대자동차그룹이 함께 제작한 튀니지 홍보영상을 볼 수 있습니다.">
+</head>
 <body id="blog-page">
     @include('layouts.front.header')
 

@@ -1,5 +1,7 @@
 @include('page2.scriptpg2')
-
+<head>
+    <meta name="description" content="튀니지에 대한 개괄적인 정보를 제공합니다. 튀니지 위치, 날씨, 언어, 종교, 문화까지 튀니지 전반적인 내용을 소개합니다.">
+</head>
 
 <body id="about-tunisia" class="tunisiatrip">
     @include('layouts.front.header')
