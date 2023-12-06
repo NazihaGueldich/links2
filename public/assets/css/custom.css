@@ -53,7 +53,15 @@
     text-decoration: none;
     color: #0056b3;
 }
+@media (max-width: 767px) {
+.wrap-souvenir-card{
+    margin-left: -21px
 
+}
+.b-left{
+    margin-left: 4px;
+}
+}
 .btninactv {
     border: 1px solid #347EFF !important;
     width: auto;
