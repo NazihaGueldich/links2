@@ -103,7 +103,7 @@
                             poster="images/Creator-Talking-Tunisia.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
-                        <div class="video-overlay">
+                        <div class="video-overlay vd-bg">
                             <p id="video-title" class="sub-title">Discover Tozeur</p>
                             <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png"
                                     alt="Arrow Right Blue"></button>
