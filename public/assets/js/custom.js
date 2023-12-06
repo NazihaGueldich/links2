@@ -105,15 +105,11 @@ dropdown.onclick = function () {
 
 window.addEventListener('resize', function() {
     var itemsDiv = document.getElementById('btns');
-    var crds = document.getElementById('crdssess1');
     var crdssess5 = document.getElementById('crdssess5');
 
     if (window.innerWidth <= 767) {
         if (!itemsDiv.classList.contains('slick-sess3')) {
             itemsDiv.classList.add('slick-sess3');
-        }
-        if (!crds.classList.contains('slick-sess1')) {
-            crds.classList.add('slick-sess1');
         }
         if (!crdssess5.classList.contains('slick-sess5')) {
             crdssess5.classList.add('slick-sess5');
@@ -121,9 +117,6 @@ window.addEventListener('resize', function() {
     } else {
         if (itemsDiv.classList.contains('slick-sess3')) {
             itemsDiv.classList.remove('slick-sess3');
-        }
-        if (!crds.classList.contains('slick-sess1')) {
-            crds.classList.remove('slick-sess1');
         }
         if (!crdssess5.classList.contains('slick-sess5')) {
             crdssess5.classList.remove('slick-sess5');

@@ -391,6 +391,9 @@ body #p3-section5>.container>.row {
         font-size: 0.9rem;
     }
 
+    #page-info .custom-card .custom-card-text {
+        margin-top: -5%;
+    }
 
 }
 
@@ -706,10 +709,7 @@ body .wrap-festival-card .custom-card .custom-card-text {
     body .wrap-festival-card .custom-card .custom-card-text {
         top: 56%;
         left: 66%;
-    }
-
-    body .wrap-festival-card .custom-card .custom-card-text {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -777,6 +777,10 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 
     .slick-dots li button::before {
         top: 10px;
+    }
+
+    #p3-section6 .section-header h2{
+        margin-top: 19%;
     }
 }
 
