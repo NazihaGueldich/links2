@@ -223,6 +223,7 @@
                 </div> --}}
             </div>
         </section>
+    </div>
         <script>
             const videos = document.querySelectorAll('video');
 
