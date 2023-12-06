@@ -586,7 +586,9 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     height: 560px;
     border-radius: 20px;
 }
-
+#section-8 h6{
+    width: 116px;
+}
 .text-sm {
     align-items: center;
     display: flex;
