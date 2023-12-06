@@ -400,10 +400,18 @@ body #p3-section5>.container>.row {
         font-size: 0.9rem;
     }
 
-    #page-info .custom-card .custom-card-text {
+/*     #page-info .custom-card .custom-card-text {
         margin-top: -5%;
-    }
+    } */
 
+    @media screen and (max-width: 1280px) {
+    #page-info #crdssess5 li {
+       width:100px;
+       margin-top: 9px;
+
+
+    }
+}
     #page-info #p3-section3 .slick-track{
         align-items: center;
     }
@@ -736,7 +744,13 @@ body .wrap-festival-card .custom-card .custom-card-text {
     font-size: 1rem;
     line-height: 2.15;
 }
-
+@media screen and (max-width: 768px) {
+body .wrap-festival-card .custom-card .custom-card-title {
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 700;
+}
+}
 @media screen and (max-width: 768px) {
     body .wrap-festival-card .custom-card .custom-card-text {
         top: 56%;
