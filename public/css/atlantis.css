@@ -11,6 +11,13 @@ body.tunisiatrip {
     .section-1 {
         padding: 0px 0;
     }
+    #page-atlantis .btninactv {
+        font-size: 0.8rem;
+        padding: 0px 15px !important;
+    }
+    #page-atlantis #section-4 .col-12{
+        align-items: center;
+    }
 }
 
 @media (max-width: 767px) {
