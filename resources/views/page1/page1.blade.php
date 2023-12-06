@@ -617,24 +617,24 @@
             <h2 class="main-title text-center">Tunisia in numbers</h2>
             <div class="cardul d-flex justify-content-center gap-2 pb-lg-3" id='btnchng'>
                 <button onclick="changContai(1)" class="p-2  btnactv1" data-paragraph="ahla1" id="btn0">
-                    <p id='tit1' class="tit1actv mt-1">+12 M</h5>
-                    <p id='tit11' class="tit2actv">2023년 인구</h5>
+                    <h6 id='tit1' class="tit1actv mt-1">+12 M</h6>
+                    <h6 id='tit11' class="tit2actv">2023년 인구</h6>
                 </button>
                 <button onclick="changContai(2)" class="p-2 btninactv1" data-paragraph="ahla12" id="btn1">
-                    <h5 id='tit2' class="tit1inactv">2M</h5>
-                    <h5 id='tit22' class="tit2inactv">관광객 200만명</h5>
+                    <h6 id='tit2' class="tit1inactv">2M</h6>
+                    <h6 id='tit22' class="tit2inactv">관광객 200만명</h6>
                 </button>
                 <button onclick="changContai(3)" class="p-2 btninactv1" data-paragraph="ahla13" id="btn2">
-                    <h5 id='tit3' class="tit1inactv">700</h5>
-                    <h5 id='tit33' class="tit2inactv">역사적인 장소</h5>
+                    <h6 id='tit3' class="tit1inactv">700</h6>
+                    <h6 id='tit33' class="tit2inactv">역사적인 장소</h6>
                 </button>
                 <button onclick="changContai(4)" class="p-2 btninactv1" data-paragraph="ahla14" id="btn3">
-                    <h5 id='tit4' class="tit1inactv">1</h5>
-                    <h5 id='tit44' class="tit2inactv">1번째 대학</h5>
+                    <h6 id='tit4' class="tit1inactv">1</h6>
+                    <h6 id='tit44' class="tit2inactv">1번째 대학</h6>
                 </button>
                 <button onclick="changContai(5)" class="p-2 btninactv1" data-paragraph="ahla15" id="btn4">
-                    <h5 id='tit5' class="tit1inactv">9</h5>
-                    <h5 id='tit55' class="tit2inactv">유네스코 세계유산</h5>
+                    <h6 id='tit5' class="tit1inactv">9</h6>
+                    <h6 id='tit55' class="tit2inactv">유네스코 세계유산</h6>
                 </button>
             </div>
             <div class="card2 pt-3">
