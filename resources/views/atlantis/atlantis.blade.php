@@ -106,7 +106,7 @@
             </div>
         </section>
 
-        <div class="ligne-separtion"></div>
+        
 
         {{-- section 2 --}}
         <section id="section-2">
@@ -140,7 +140,7 @@
             </div>
         </section>
 
-        <div class="ligne-separtion"></div>
+        
 
         {{-- section 3 --}}
         <section id="section-3">
@@ -250,7 +250,7 @@
 
         </section>
         <div id="to-section-4"></div>
-        <div class="ligne-separtion"></div>
+        
 
         {{-- section 4 --}}
         <section id="section-4" class="mt-5">
@@ -674,7 +674,7 @@
             </div>
         </section>
 
-        <div class="ligne-separtion"></div>
+        
 
         {{-- section 6 --}}
         <section id="section-6">
