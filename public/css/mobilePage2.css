@@ -16,7 +16,9 @@
             height: 177px;
         }
 
-
+        .crd8{
+            display: none !important;
+        }
         #section-1 .links_box {
             margin-bottom: 30px;
             height: 400px;

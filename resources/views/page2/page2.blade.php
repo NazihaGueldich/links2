@@ -312,6 +312,8 @@
 
     <section id="section-9">
         <div class="container">
+            <h2 class="main-title" id="spotlight-section">Spotlight</h2>
+
             <div class="row slick-slide">
                 <div class="col-lg-4">
                     <div class="links_box-1">
@@ -356,7 +358,6 @@
                     </div>
                 </div>
             </div>
-            <h2 class="main-title" id="spotlight-section">Spotlight</h2>
 
             <div class="row block-cards">
                 <div class="col-lg-4 section-9-hover p-0">
