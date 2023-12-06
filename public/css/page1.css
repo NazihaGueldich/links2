@@ -587,7 +587,8 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     border-radius: 20px;
 }
 #section-8 h6{
-    width: 116px;
+    width: 123px;
+    margin: 0px 0 0 -5px;
 }
 .text-sm {
     align-items: center;
