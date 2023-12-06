@@ -91,8 +91,7 @@
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">쿠스쿠스</h5>
-                                    <p class="card-text">듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든
-                                        요리예요.</p>
+                                    <p class="card-text">듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
                                 </div>
                             </div>
                         </li>
@@ -102,9 +101,7 @@
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">브릭</h5>
-                                    <p class="card-text">얇은 반죽 피에 달걀, 양파, 참치, 감자, 파슬리 등을 속으로 채워 튀긴 튀니지의 대표적인
-                                        튀김
-                                        요리예요.</p>
+                                    <p class="card-text">얇은 반죽 피에 달걀, 양파, 참치, 감자, 파슬리 등을 속으로 채워 튀긴 튀니지의 대표적인 튀김 요리예요.</p>
                                 </div>
                             </div>
                         </li>
@@ -124,9 +121,7 @@
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">오짜</h5>
-                                    <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선
-                                        등을
-                                        넣기도 해요.</p>
+                                    <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선 등을 넣기도 해요.</p>
                                 </div>
                             </div>
                         </li>
