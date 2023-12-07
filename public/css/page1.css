@@ -1548,19 +1548,8 @@ section.background-section {
     height: 260px;
 }
 
-.tit1inactv{
-    margin: 0px;
-    font-size: 1.1rem !important;
-    text-align: center !important;
-    font-family: noto !important;
-    font-weight: bold !important;
-}
 
-.tit2inactv{
-    font-size: 1.1rem !important;
-    text-align: center !important;
-    font-family: noto !important;
-}
+
 
 .txtinactv{
     display: none !important;
