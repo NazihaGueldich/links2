@@ -724,7 +724,7 @@
 
 
     }
-    .btninactv1 {
+/*     .btninactv1 {
         border: 1px solid #347EFF;
         width: 80% !important;
         padding: 0px 20px !important;
@@ -735,7 +735,7 @@
         background-color: transparent;
         height: 69px;
         margin-left: 10%;
-    }
+    } */
 
     .title2 {
         margin-top: -40%;
@@ -854,7 +854,7 @@
     .vertical-line{
         margin-left: 50%;
     }
-
+ 
 
    /*  .cardul {
         display: flex !important;
@@ -898,10 +898,10 @@
 
     .tit1inactv{
         margin: 0px;
-        font-size: 1.1rem !important;
+        font-size: 0.9rem !important;
         text-align: center !important;
         font-family: noto !important;
-        font-weight: bold !important;
+
     }
 
   .text-container {
@@ -943,10 +943,7 @@
         align-items: flex-start !important;
     }
 
-    .btnactv1 {
-        width: 80% !important;
-        margin-left: 10%;
-    }
+
 
     .sess3 {
         display: flex;

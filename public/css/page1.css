@@ -596,10 +596,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
     height: 560px;
     border-radius: 20px;
 }
-#section-8 h6{
-    width: 160px;
-    margin: 0px 0 0 -5px;
-}
+
 .text-sm {
     align-items: center;
     display: flex;
@@ -1292,7 +1289,7 @@ section.background-section {
 
 
 .btnactv1 {
-    width: auto !important;
+    width: 13%!important;
     border-radius: 20px;
     padding: 0px 20px !important;
     text-align: center;
@@ -1305,7 +1302,7 @@ section.background-section {
 
 .btninactv1 {
     border: 1px solid #347EFF;
-    width: auto;
+    width: 13% !important;
     padding: 0px 30px !important;
     border-radius: 20px;
     font-size: 1.1rem;
@@ -1314,8 +1311,11 @@ section.background-section {
     background-color: transparent;
     height: 69px;
 }
-
-
+@media (max-width: 997px) {
+.btninactv1,.btnactv1 {
+    width: 90% !important;
+}
+}
 .btn.btn-outline-primary.btn1-b:hover,
 .btn.btn-outline-primary.btn3:hover {
     color: #347EFF;
