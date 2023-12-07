@@ -555,14 +555,21 @@ function changContai(indx) {
             img4.classList.replace('imgactv', 'imginactv');
         }
     }
-    const buttons = document.querySelectorAll('.cardul button');
     const paragraphs = document.querySelectorAll('[data-paragraph]');
+    const buttons = document.querySelectorAll('.cardul button');
 
     buttons.forEach((button, index) => {
-        const isActive = index === indx - 1;
-        button.classList.toggle('btnactv1', isActive);
-        button.classList.toggle('btninactv1', !isActive);
+        button.addEventListener('click', () => {
+            buttons.forEach(btn => {
+                btn.classList.remove('btnactv1');
+                btn.classList.add('btninactv1');
+            });
+    
+            button.classList.remove('btninactv1');
+            button.classList.add('btnactv1');
+        });
     });
+    
 
     paragraphs.forEach((paragraph, index) => {
         const isActive = index === indx - 1;
