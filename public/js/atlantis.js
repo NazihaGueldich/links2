@@ -42,36 +42,30 @@ function changeImage(isMouseOver, id) {
 
 /* section  change cards */
 function chngcontsess4(x) {
-    changeCircl(0);
     var choix0 = document.getElementById('choix0');
     var choix1 = document.getElementById('choix1');
     var choix2 = document.getElementById('choix2');
     var choix3 = document.getElementById('choix3');
-    var dirct = document.getElementById('dirct');
     if (x == 0) {
         choix0.classList = 'p-2  btnactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display = 'none';
     } else if (x == 1) {
         choix1.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display = 'block';
     } else if (x == 2) {
         choix2.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix3.classList = 'p-2 btninactv';
-        dirct.style.display = 'none';
     } else if (x == 3) {
         choix3.classList = 'p-2  btnactv';
         choix0.classList = 'p-2 btninactv';
         choix1.classList = 'p-2 btninactv';
         choix2.classList = 'p-2 btninactv';
-        dirct.style.display = 'none';
     }
 
 
@@ -83,68 +77,59 @@ function chngcontsess4(x) {
     ];
     var h1 = ['places 1-4', "places Max 22 (최대 22명)", "Places Max 53 (최대 53명)", "Places Max 8 "];
     var h2 = ['Fee 상담 후 메일 안내', "Fee 상담 후 메일 안내  ", "Fee 상담 후 메일 안내", "Fee 상담 후 메일 안내"];
-    var img = ['Car.jpg', 'Mini-bus-2.jpg', 'bus.png', 'van1.jpg'];
 
     document.getElementById('psess4').innerHTML = p[x];
     document.getElementById('h1sess4').innerHTML = h1[x];
     document.getElementById('h2sess4').innerHTML = h2[x];
     document.getElementById('numcrd').value = x;
-    document.getElementById('imgsess4kb').src = '../images/' + img[x];
-}
-
-function changeCircl(elm) {
-    var crcl11 = document.getElementById('crcl11');
-    var crcl22 = document.getElementById('crcl22');
-    var crcl33 = document.getElementById('crcl33');
-    if (elm === 0) {
-        crcl11.src = "../images/pt.png";
-        crcl22.src = "../images/crcl.png";
-        crcl33.src = "../images/crcl.png";
-    } else if (elm === 1) {
-        crcl11.src = "../images/crcl.png";
-        crcl22.src = "../images/pt.png";
-        crcl33.src = "../images/crcl.png";
-    } else if (elm === 2) {
-        crcl11.src = "../images/crcl.png";
-        crcl22.src = "../images/crcl.png";
-        crcl33.src = "../images/pt.png";
-    }
-}
-
-var elm = 0;
-
-function chngimgsess4(x) {
-    if (x == -1 && elm > 0) {
-        elm--;
-    } else if (x == 1 && elm < 2) {
-        elm++;
-    } else if (x == -1 && elm == 0) {
-        elm = 2;
-    } else {
-        elm = 0;
-    }
-
-
-    var crd1 = ['Van 2.jpg'];
-    var crd2 = ['Mini-bus-2.jpg', 'Mini-bus-3.jpg', 'Mini bus 5.jpg'];
+    var crd1 = ['Car.jpg'];
     var crd3 = ['bus.png'];
     var crd4 = ['van1.jpg'];
 
-    changeCircl(elm);
     var numcrd = document.getElementById('numcrd').value;
-    var images = document.getElementById('imgsess4kb');
-    var dirct = document.getElementById('dirct');
+    var secImg = document.getElementById('PAS4I1');
 
+    var PAS4I1=document.getElementById('PAS4I1');
+    var PAS4I2=document.getElementById('PAS4I2');
+    secImg.innerHTML = '';
     if (numcrd == 0) {
-        images.src = '../images/' + crd1[elm];
+        for (var i = 0; i < crd1.length; i++) {
+            secImg.innerHTML += `
+                <img class='w-100 imgsess4 radius-20' src="../images/` + crd1[i] + `" alt="Bardo National Museum">
+        `;
+        }
+        PAS4I1.style.display='block';
+        PAS4I2.style.display='none';
     } else if (numcrd == 1) {
-        images.src = '../images/' + crd2[elm];
+        PAS4I1.style.display='none';
+        PAS4I2.style.display='block';
     } else if (numcrd == 2) {
-        images.src = '../images/' + crd3[elm];
+        for (var i = 0; i < crd3.length; i++) {
+            secImg.innerHTML += `
+                <img class='w-100 imgsess4 radius-20' src="../images/` + crd3[i] + `" alt="Bardo National Museum">
+        `;
+        }
+        PAS4I1.style.display='block';
+        PAS4I2.style.display='none';
     } else if (numcrd == 3) {
-        images.src = '../images/' + crd4[elm];
+        for (var i = 0; i < crd4.length; i++) {
+            secImg.innerHTML += `
+                <img class='w-100 imgsess4 radius-20' src="../images/` + crd4[i] + `" alt="Bardo National Museum">
+        `;
+        }
+        PAS4I1.style.display='block';
+        PAS4I2.style.display='none';
     }
 }
+$('#PAS4I2').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+});
+
 
 z = 0;
 
@@ -210,7 +195,8 @@ function srllcrdssess5(x) {
             alt = alt1[ind];
             a = a1[ind];
         }
-        ind++;console.log(a);
+        ind++;
+        console.log(a);
 
         let sectionContent = '';
 
@@ -280,19 +266,19 @@ function PAsrllcrdssess6(x) {
     var p0 = ['Medina of Tunis', 'Sidi bou said', 'Bizerte, tunisia'];
     var img0 = ['dar_bel_gesem.jpg', 'dar_fatma.jpg', 'guesthouse-_bizerte-_dar_Ellamma.jpg'];
     var alt0 = ['Dar ellamma', "Dar Belgecem", "Dar Fatma", ];
-    var a0=["https://darbengacem.com/","https://darfatma.com/","https://www.darellamma.com/"];
+    var a0 = ["https://darbengacem.com/", "https://darfatma.com/", "https://www.darellamma.com/"];
     //seconde crcl
     var h21 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
     var p1 = ['Médina de Sousse', ' Tozeur', 'Tozeur'];
     var img1 = ['dar_antonia.jpg', 'diar-abou-habibi.jpg', 'dar_saida_baya.jpg'];
     var alt1 = ['Dar Antonia', 'Diar Abou Habibi', 'Dar Saida Baya'];
-    var a1=["about:blank","https://www.diarhabibi.com/","http://www.darsaidabeya.com/"];
+    var a1 = ["about:blank", "https://www.diarhabibi.com/", "http://www.darsaidabeya.com/"];
     //3rd crcl
     var h22 = ['Dar Dhiafa'];
     var p2 = ['Djerba'];
     var img2 = ['dar_dhiafa.jpg'];
     var alt2 = ['Dar Dhiafa'];
-    var a2=["https://www.facebook.com/dar.dhiafa/"];
+    var a2 = ["https://www.facebook.com/dar.dhiafa/"];
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess6-crds');
     section.innerHTML = '';

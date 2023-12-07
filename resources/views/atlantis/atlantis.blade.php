@@ -301,16 +301,18 @@
                     </div>
 
 
-                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
-                        <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" id="imgsess4kb"
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I1'>
+                        <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" alt="Car">
+
+                    </div>
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I2'>
+                        <img src="{{ asset('images/Mini-bus-2.jpg') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">
-                        <div class="dirct" id="dirct">
-                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess4(-1)">
-                            <img id='crcl11' src="{{ asset('images/pt.png') }}">
-                            <img id='crcl22' src="{{ asset('images/crcl.png') }}">
-                            <img id='crcl33' src="{{ asset('images/crcl.png') }}">
-                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess4(1)">
-                        </div>
+                        <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
+                            alt="Car">
+                        <img src="{{ asset('images/Mini bus 5.jpg') }}" class=" w-100 imgsess4 radius-20"
+                            alt="Car">
+
                     </div>
 
                 </div>
