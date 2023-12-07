@@ -1279,7 +1279,7 @@ section.background-section {
 .btninactv {
     border: 1px solid #347EFF !important;
     width: auto;
-    padding: 0px 20px !important;
+    padding: 0px 30px !important;
     border-radius:30px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -1306,7 +1306,7 @@ section.background-section {
 .btninactv1 {
     border: 1px solid #347EFF;
     width: auto;
-    padding: 0px 20px !important;
+    padding: 0px 30px !important;
     border-radius: 20px;
     font-size: 1.1rem;
     text-align: center;

@@ -671,6 +671,26 @@
                     <p id="section6p">튀니지 공항에 도착하시면 심카드를 구매할 수 있는 매장이 있습니다. 공항 내 Ooredoo 혹은 Orange 매장에서 심카드를 구매하는 걸 추천드려요.</p>
                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
                 </div>
+                {{-- ajouter autre card --}}
+                <div id="section6cont">
+                    <h2 class="sub-title" id='section6h2'>튀니지 디나르를 다시 달러나 유로로 재환전할 수 있나요?</h2>
+                    <p id="section6p">네, 외환을 디나르로 환전할 때 받은 환전증을 제시하면 가능합니다. 튀니지 디나르는 입반출 금지 물품으로서 신고여부와 관계없이 입반출 자체가 제한됩니다.</p>
+{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+ --}}
+             </div>
+             <div id="section6cont">
+                <h2 class="sub-title" id='section6h2'>외화 반출입 관련 유의사항이 있나요?</h2>
+                <p id="section6p">튀니지 당국은 출국시 외환 불법 반출 여부를 철저히 단속중인바, 모든 여행객은 외화 입반출 가능 상한액을 확인하고 입출국 시 세관에 신고해야 합니다.
+                아래 대사관 홈페이지 참고 https://overseas.mofa.go.kr/tn-ko/brd/m_21401/view.do?seq=1321109&page=2</p>
+{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+--}}
+         </div>
+         <div id="section6cont">
+            <h2 class="sub-title" id='section6h2'>기념품은 어디서 구매할 수 있나요?</h2>
+            <p id="section6p">각 도시의 메디나(구시가지) 시장 혹은 관광지 근처에서 살 수 있습니다. 수공예품의 경우, 마르사에 위치한 컨셉스토어에서도 구매할 수 있습니다.</p>
+{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+--}}
+     </div>
             </div>
 
 
