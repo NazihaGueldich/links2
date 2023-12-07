@@ -526,40 +526,127 @@
 
 
 
-    <section id="section-5 ">
+    <section id="section-5">
         <div class="container">
             <h2 class="main-title text-center">Visitor Reviews</h2>
-            <div class="row slick-slider-section-3">
-                <div class="col-md-4">
+            <div class="row slick-slider-visitRev">
+                <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
                             class="card-img-top">
                         <div class="card-body text-center">
-                            <h5 class="card-title title">오OO</h5>
-                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지．지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것
-                                같습니다．</p>
+                            <h5 class="card-title title">진OO</h5>
+                            <p class="card-text">머리는 유럽에, 가슴은 아랍에, 발은 아프리카에 있는 나라. 수도에서 조금만 나가보시면 수수하지만 절대 밋밋하지는 않은 매력을
+                                가진 관광지들이 있습니다. 켈리비야나 하와리야에 가보시는 걸 추천합니다! 마치 히든 플레이스에 오신 기분이 들겁니다!</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
                             style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">백OO</h5>
+                            <p class="card-text">튀니지 사람들은 친절해요!! 눈 마주치면 꼭 인사를 해줍니다^___^ ‘하리싸’가 들어간 음식이 많아서 매운음식 생각날때
+                                맛있게 먹었어요! 튀니지 빵이 정말 맛있어요! 아침 베이커리에서 갓구운 빵은 꼭 먹어보세요 여름은 햇빛이 정말 강해서 선크림, 선글라스는 필수지만 습도가 높지
+                                않아서 그늘에 있으면 시원합니다!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">박OO</h5>
+                            <p class="card-text">전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
+                                국가지만 개방적인 편이라 무슬림이 아니어도 생활하는데 큰 어려움은 없었어요. 물론 인종차별도 있고 한국인에게 과한 관심을 보일 때도 종종 있었지만 위협적으로
+                                느껴질 만큼은 아니었어요. 튀니지에 간다면 시디 부 사이드, 메디나에 방문해보시는 걸 추천드려요. 시디 부 사이드에서는 탁 트인 바다를 볼 수 있고
+                                메디나에서는 튀니지 전통시장 분위기를 느낄 수 있어요. 또 튀니스를 벗어나서 수스, 모나스티르에서 휴양을 즐기는 것도 좋았고 사하라 사막 여행도 잊지 못할
+                                경험이었으니 여유 있게 일정 짜셔서 튀니스 말고도 여러 군데 가보시면 좋을 것 같아요:)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
+                            class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">전OO</h5>
+                            <p class="card-text">지중해 국가 여행을 색다르게 해보고 싶다면 튀니지는 분명히 매력적으로 다가올 것 같아요. 그리스 산토리니를 연상케하는 시디 부
+                                사이드에서 파란색과 흰색의 조화와 함께 이슬람 분위기까지 동시에 느낄 수 있어요. 튀니지 남부에 위치한 두즈에는 사막이 있어 낙타 탑승과 모터사이클 체험에
+                                사막에서 1박하기까지! 사막에서 베드윈족과 함께 그들의 생활양식을 체험할 수 있다는 경험 자체가 설레지 않을까요?? 푸른 지중해와 이색적인 사막을 모두 즐기고
+                                싶다면 튀니지로 오세요 :)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">마OO</h5>
+                            <p class="card-text">사람들이 친절하고 역사가 깊은 튀니지 ! 고대 로마 유적지를 눈 앞에서 볼 수 있고 밤발로니, 쿠스쿠스, 하리사 등
+                                한국사람한테 입맛이 정말 딱 맞는 음식들 사랑해요</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">오OO</h5>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지. 지중해를 배경으로하는 시디부사이드의 모습은 아직도 잊지 못할 것
+                                같습니다. 사람들도 친절했고 음식도 맛있었고 좋은 기억만 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
+                            class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">임OO</h5>
-                            <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나， 했던 생각들이 이주일 뒤엔 이곳이 그리스인가？ 하고 바뀌었어요． 갔다 와 보시면
-                                아실거예요． 죽기 전에 꼭 다시 한번 와보고 싶다 하는것을！II 매일 점심마다 400원 주고 ...</p>
+                            <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나~ 했던 생각들이 이주일 뒤엔 이곳이 그리스인가? 하고 바뀌었어요. 갔다 와 보시면
+                                아실거예요.. 죽기 전에 꼭 다시 한번 와보고 싶다 하는것을!!! 매일 점심마다 400원 주고 먹었던 고급 음식 샤와르마가 눈에 아른 거리네요
+
+                                다들 꼭 와보세요 세상 많은 나라를 다녔지만 튀니지 진짜 강추입니다!/p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img id="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
                             style="width: 91.88px; height: 91.88px;" class="card-img-top">
                         <div class="card-body text-center">
-                            <h5 class="card-title title">오OO</h5>
-                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지． 지중해를 배경으로 하는 시디부사이드의 모습은 아직도 잊지 못할 것
-                                같습니다．</p>
+                            <h5 class="card-title title">이OO</h5>
+                            <p class="card-text">튀니지는 여행지가 진짜 매력적인 나라라고 생각합니다. 감마르트, 수스, 함마메트 등 꼭 가봐야하는 여행지가 매우 많습니다.
+                                아름다운 지중해 바다의 매력을 푹 느낄 수 있는 나라입니다. 튀니지 사람들도 한국인에게 대체로 호의적인 편이었다고 생각합니다. 튀니지 해산물 요리 한번
+                                도전해보시길 추천드립니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">송OO</h5>
+                            <p class="card-text">튀니지는 예쁜 해변이 많아서 여름에 수영하기 좋아요. 튀니지에 여러 유명한 바다가 있지만 가장 최고는 비제르트입니다. 이곳에
+                                한번 왔다가면 다른 곳의 바다는 눈에 들어오지도 않을정도랍니다. 관광객이 적고 현지인들만 아는 진짜 사파이어 바다를 경험해보시길 바라요. 수영을 하고 나선
+                                베네치아 느낌이 나는 항구 옆에 자리잡은 메디나를 천천히 구경하면서 예쁜 옷과 가방을 사는 것도 추천드립니다!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">정OO</h5>
+                            <p class="card-text">튀니지의 사하라사막에서의 하룻밤은 평생 기억에 남을거예요. 쏟아지는 별을 보다가 자고, 또 아침 일출을 보면서 튀니지에 온 걸
+                                참 잘했다고 생각했어요. 한번쯤 방문해보세요!</p>
                         </div>
                     </div>
                 </div>

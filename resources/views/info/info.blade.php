@@ -76,7 +76,203 @@
                     </div>
                 </a>
             </div>
-        </main>
+        </main>      <div class="row">
+            <div class="col-md-12">
+                <div class="section-header">
+                    <h1 class="text-center pt-5 ">
+                        Travel Information
+                    </h1>
+
+                    <h2 class="main-title dm-sans text-center mt-lg-5">Common Expressions</h2>
+                    <p class=" text-center">여행에 필요한 튀니지 아랍어, 잠깐 배워볼까요?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row wrap-custom-card" id='crdssess1'>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘Aslema!’</h5>
+                    <p class="custom-card-text ">안녕하세요(만났을 때)</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk1"
+                                        onclick="chngeAud(1)" />
+                                    <label class="label" for="chk1">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Aslema.mp3" id='aud1'>
+                                        <a href="/audio/M_Aslema.mp3" id='dw1'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘Bqadech?’</h5>
+                    <p class="custom-card-text">얼마예요?</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Bqadesh_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk2"
+                                        onclick="chngeAud(2)" />
+                                    <label class="label" for="chk2">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Bqadech.mp3" id='aud2'>
+                                        <a href="/audio/M_Bqadech.mp3" id='dw2'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘Yaaychek’</h5>
+                    <p class="custom-card-text">고맙습니다</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Yaaychek_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk3"
+                                        onclick="chngeAud(3)" />
+                                    <label class="label" for="chk3">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Yaaychek.mp3" id='aud3'>
+                                        <a href="/audio/M_Yaaychek.mp3" id='dw3'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘A-atini _’</h5>
+                    <p class="custom-card-text">___ 주세요</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Aatini_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk4"
+                                        onclick="chngeAud(4)" />
+                                    <label class="label" for="chk4">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Aatini.mp3" id='aud4'>
+                                        <a href="/audio/M_Aatini.mp3" id='dw4'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘Beslema!’</h5>
+                    <p class="custom-card-text">안녕히 가세요/ 계세요(헤어질 때)</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Beslema_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk5"
+                                        onclick="chngeAud(5)" />
+                                    <label class="label" for="chk5">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Beslema.mp3" id='aud5'>
+                                        <a href="/audio/M_Beslema.mp3" id='dw5'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <h5 class="custom-card-title dm-sans">‘Mahlek!’</h5>
+                    <p class="custom-card-text">예뻐요, 좋아요 등</p>
+                    <div class="d-flex flex-column justify-content-end align-items-center">
+                        <img class="custom-card-img" src="{{ asset('assets/img/Mahlek_icon.svg') }}"
+                            alt="Aslema">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center">
+                                <div class="one-quarter mt-2" id="switch">
+                                    <input type="checkbox" class="checkbox" id="chk6"
+                                        onclick="chngeAud(6)" />
+                                    <label class="label" for="chk6">
+                                        <i class="fas fa-venus" style="color: #ffffff"></i>
+                                        <i class="fas fa-mars" style="color: #ffffff"></i>
+                                        <div class="ball"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 pl-0 pr-4">
+                                <figure >
+                                    <audio controls src="/audio/M_Mahlek.mp3" id='aud6'>
+                                        <a href="/audio/M_Mahlek.mp3" id='dw6'>Download audio</a>
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
         <section id="p3-section2">
             <!--                     <div class="row">
                    <div class="col-md-12">

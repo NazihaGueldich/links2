@@ -435,9 +435,7 @@ body #p3-section5>.container>.row {
 
 }
 
-body .wrap-nav-transportation {
-    margin-top: 40px;
-}
+
 
 body .wrap-nav-transportation .nav-tabs {
     padding: 0 15px;
@@ -545,9 +543,6 @@ body .wrap-nav-transportation .tab-content p {
     }
 }
 
-body .wrap-museums-card {
-    margin-top: 60px;
-}
 
 body .wrap-museums-card .slick-list .slick-track {
     gap: 0;

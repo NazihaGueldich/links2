@@ -564,12 +564,12 @@ function changContai(indx) {
                 btn.classList.remove('btnactv1');
                 btn.classList.add('btninactv1');
             });
-    
+
             button.classList.remove('btninactv1');
             button.classList.add('btnactv1');
         });
     });
-    
+
 
     paragraphs.forEach((paragraph, index) => {
         const isActive = index === indx - 1;
@@ -602,7 +602,7 @@ $('.sess3-mob').slick({
 
 
 
-window.addEventListener('resize', function() {
+window.addEventListener('resize', function () {
     var itemsDiv = document.getElementById('btnchng');
 
     if (window.innerWidth <= 767) {
@@ -626,4 +626,21 @@ $('.slick-sess8').slick({
     infinite: true,
     speed: 500,
     cssEase: 'linear'
+});
+$('.slick-slider-visitRev').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    dots: true,
+    cssEase: 'linear',
+    responsive: [{
+        breakpoint: 480,
+        settings: {
+            arrows: true,
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }]
 });
