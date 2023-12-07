@@ -142,7 +142,11 @@
         margin-top: 0;
         margin-bottom: 1rem;
     }
+    .slick-dots li button:before {
 
+        margin-top: -294% !important;
+
+    }
     .image-footer-1 {
 
         padding-bottom: 15px;
@@ -854,7 +858,7 @@
     .vertical-line{
         margin-left: 50%;
     }
- 
+
 
    /*  .cardul {
         display: flex !important;
