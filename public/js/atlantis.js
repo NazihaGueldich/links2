@@ -244,47 +244,7 @@ function srllcrdssess5(x) {
 
 var idimg = 0;
 
-function chngimgsess1(x) {
-    var img = [
-        "../images/Atlantis-Space.jpg",
-        "../images/Teems-Atlantis.jpg",
-        "../images/Bureau-Atlantis.jpg",
-    ];
 
-    var alt = ['Atlantis Space', 'Teems Atlantis', 'Bureau Atlantis']
-
-    if (x == -1 && idimg > 0) {
-        idimg--;
-    } else if (x == 1 && idimg < 2) {
-        idimg++;
-    } else if (x == -1 && idimg == 0) {
-        idimg = 2;
-    } else {
-        idimg = 0;
-    }
-
-    var crcl1 = document.getElementById('crclsess1');
-    var crcl2 = document.getElementById('crclsess2');
-    var crcl3 = document.getElementById('crclsess3');
-    if (idimg === 0) {
-        crcl1.src = "../images/pt.png";
-        crcl2.src = "../images/crcl.png";
-        crcl3.src = "../images/crcl.png";
-    } else if (idimg === 1) {
-        crcl1.src = "../images/crcl.png";
-        crcl2.src = "../images/pt.png";
-        crcl3.src = "../images/crcl.png";
-    } else if (idimg === 2) {
-        crcl1.src = "../images/crcl.png";
-        crcl2.src = "../images/crcl.png";
-        crcl3.src = "../images/pt.png";
-    }
-
-    document.getElementById('imgsess1kb').src = img[idimg];
-    document.getElementById('imgsess1kb').alt = alt[idimg];
-
-
-}
 
 var indxcrd = 0;
 
@@ -398,6 +358,16 @@ $('.session3-slick-mobile').slick({
     slidesToScroll: 1,
     dots: true,
     arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
+$('.AT-SS-S1').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: true,
     infinite: true,
     speed: 500,
     cssEase: 'linear'

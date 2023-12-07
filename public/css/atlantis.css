@@ -204,6 +204,15 @@ body#page-atlantis .card-session1 {
     border: 2px solid #f1f1f1bf;
 }
 
+#page-atlantis  .slick-next {
+    right: -15px;
+    margin-right: 0;
+}
+#page-atlantis  .slick-prev {
+    left: -6px;
+    margin-left: 0;
+}
+
 
 
 
@@ -489,7 +498,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .imgsess4 {
-        height: 290px;
+        object-fit: contain;
+        border-radius: 20px;
     }
 
     .psess4 {

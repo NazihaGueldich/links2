@@ -86,7 +86,7 @@
                 <h2 class="main-title mt-lg-5">Atlantis agency</h2>
             </div>
             <div class="card card-session1 radius-20 ">
-                <div class="card-body mr-0 py-lg-4 row">
+                <div class="card-body mr-0 py-lg-4 row  w-100">
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
                             <img src="{{ asset('images/Atlantis_logo_temporary.svg') }}" class="w-100 mr-3"
@@ -114,16 +114,13 @@
                         <p class="mb-lg-4"> 명실상부 튀니지를 대표하는 여행사인 아틀란티스와
                             튀니지 곳곳을 탐험해 보시는 건 어떨까요?</p>
                     </div>
-                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0">
+                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 AT-SS-S1">
                         <img src="{{ asset('images/Atlantis-Space.jpg') }}" class=" w-100 imgsess4 radius-20"
-                            id="imgsess1kb" alt="Atlantis Space">
-                        <div class="dirct" style="display: block">
-                            <img src="{{ asset('images/flr.png') }}" onclick="chngimgsess1(-1)" alt="Arrow Left">
-                            <img id='crclsess1' src="{{ asset('images/pt.png') }}" alt="Point">
-                            <img id='crclsess2' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                            <img id='crclsess3' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                            <img src="{{ asset('images/fll.png') }}" onclick="chngimgsess1(1)" alt="Arrow Right">
-                        </div>
+                            class="imgsess1kb" alt="Atlantis Space">
+                        <img src="{{ asset('images/Teems-Atlantis.jpg') }}" class=" w-100 imgsess4 radius-20"
+                            class="imgsess1kb" alt="Teems Atlantis">
+                        <img src="{{ asset('images/Bureau-Atlantis.jpg') }}" class=" w-100 imgsess4 radius-20"
+                            class="imgsess1kb" alt="Bureau Atlantis">
                     </div>
                 </div>
             </div>
@@ -462,8 +459,8 @@
 
             </div>
             <div class="row sess5-crds  session5-slick-mobile">
-                    <div class="col-lg-3  sess5crd radius-20">
-                        <a href="https://www.fourseasons.com/tunis/">
+                <div class="col-lg-3  sess5crd radius-20">
+                    <a href="https://www.fourseasons.com/tunis/">
                         <div class="mask-image">
                             <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}"
                                 class="img-fluid" alt="Four Seasons Tunis">
@@ -482,10 +479,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd1h2" class="sub-title sess5h2">Four Seasons Tunis</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://www.anantara.com/en/sahara-tozeur">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://www.anantara.com/en/sahara-tozeur">
                         <div class="mask-image">
                             <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}"
                                 class="img-fluid" alt="Anantara Tozeur">
@@ -504,10 +502,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd2h2" class="sub-title sess5h2">Anantara Tozeur</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html">
 
                         <div class="mask-image">
                             <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}"
@@ -527,10 +526,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd3h2" class="sub-title sess5h2">Movenpick Sousse</h2>
-                    </a>     </div>
-               
-                    <div class="col-lg-3  sess5crd radius-20">
-                        <a href="https://www.residencetunis.com/fr/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3  sess5crd radius-20">
+                    <a href="https://www.residencetunis.com/fr/">
 
                         <div class="mask-image">
                             <img id='sess5crd4img' src="{{ asset('images/The-Residence-Tunis.jpeg') }}"
@@ -550,10 +550,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd4h2" class="sub-title sess5h2">The Residence Tunis</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://www.goldenyasmin.com/fr/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://www.goldenyasmin.com/fr/">
 
                         <div class="mask-image">
                             <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}"
@@ -573,10 +574,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd5h2" class="sub-title sess5h2">Le Kasbah Kairouan</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://www.facebook.com/reservationpansy/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://www.facebook.com/reservationpansy/">
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}"
                                 class="img-fluid" alt="Pansy KSAR Ghilene">
@@ -595,10 +597,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax">
 
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Radisson-Sfax.jpeg') }}" class="img-fluid"
@@ -618,10 +621,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Radisson Sfax</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://sheraton.hammamet-hotels-tn.com/fr/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://sheraton.hammamet-hotels-tn.com/fr/">
 
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Sheraton.jpeg') }}" class="img-fluid"
@@ -641,10 +645,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Sheraton</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://hotel-africa-tunis.h-rez.com/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://hotel-africa-tunis.h-rez.com/">
 
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Africa.jpeg') }}" class="img-fluid"
@@ -664,10 +669,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Africa</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html">
 
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Movenpick-Lac-2.jpeg') }}"
@@ -687,10 +693,11 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Movenpick Lac 2</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3 sess5crd radius-20">
-                        <a href="https://www.elmouradi.com/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 sess5crd radius-20">
+                    <a href="https://www.elmouradi.com/">
 
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Mouradi-gammarth-2.jpeg') }}"
@@ -710,8 +717,9 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Mouradi Gammarth</h2>
-                    </a>    </div>
-                
+                    </a>
+                </div>
+
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp">
                 <a class="carousel-control-prev flch" role="button" data-slide="prev" onclick="srllcrdssess5(-1)">
@@ -735,8 +743,8 @@
                 <h2 class="main-title mt-lg-5">Guest houses</h2>
             </div>
             <div class="row sess6-crds session6-slick-web mb-5" id="sess6-crds">
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://darbengacem.com/" id="sess6crd1href">
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://darbengacem.com/" id="sess6crd1href">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}"
@@ -750,10 +758,11 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar Ben Gacem </h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://darfatma.com/" id="sess6crd2href">
+                    </a>
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://darfatma.com/" id="sess6crd2href">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
@@ -767,10 +776,11 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar Fatma</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://www.darellamma.com/" id="sess6crd3href">
+                    </a>
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://www.darellamma.com/" id="sess6crd3href">
 
                         <div class="mask-image">
                             <img class="sess6crdimg"
@@ -785,12 +795,13 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar ellamma</h2>
-                    </a>    </div>
-                
+                    </a>
+                </div>
+
             </div>
             <div class="row sess6-crds session6-slick-mobile">
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://darbengacem.com/">
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://darbengacem.com/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}"
@@ -804,10 +815,11 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar Ben Gacem </h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://darfatma.com/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://darfatma.com/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_fatma.jpg') }}" class="img-fluid"
@@ -821,10 +833,11 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar Fatma</h2>
-                    </a>     </div>
-               
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://www.darellamma.com/">
+                    </a>
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://www.darellamma.com/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg"
@@ -839,11 +852,12 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar ellamma</h2>
-                    </a>    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
+                    </a>
+                </div>
 
-                        <a href='about:blank'>
+                <div class="col-lg-3  sess6crd radius-20">
+
+                    <a href='about:blank'>
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_antonia.jpg') }}" class="img-fluid"
@@ -858,10 +872,10 @@
 
                         <h2 class="sub-title sess6h2">Dar Antonia</h2>
                     </a>
-                    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://www.diarhabibi.com/">
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://www.diarhabibi.com/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/diar-abou-habibi.jpg') }}"
@@ -876,10 +890,10 @@
 
                         <h2 class="sub-title sess6h2">Diar Abou Habibi</h2>
                     </a>
-                    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="http://www.darsaidabeya.com/">
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="http://www.darsaidabeya.com/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_saida_baya.jpg') }}"
@@ -894,10 +908,10 @@
 
                         <h2 class="sub-title sess6h2">Dar Saida Baya</h2>
                     </a>
-                    </div>
-                
-                    <div class="col-lg-3  sess6crd radius-20">
-                        <a href="https://www.facebook.com/dar.dhiafa/">
+                </div>
+
+                <div class="col-lg-3  sess6crd radius-20">
+                    <a href="https://www.facebook.com/dar.dhiafa/">
 
                         <div class="mask-image">
                             <img class="sess6crdimg" src="{{ asset('images/dar_dhiafa.jpg') }}" class="img-fluid"
@@ -911,8 +925,9 @@
                         </div>
 
                         <h2 class="sub-title sess6h2">Dar Dhiafa</h2>
-                    </a>   </div>
-               
+                    </a>
+                </div>
+
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp mb-5 scrllsess6">
                 <a class="carousel-control-prev flch" role="button" data-slide="prev"
