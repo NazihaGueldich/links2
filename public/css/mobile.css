@@ -12,6 +12,11 @@
 }
 
 @media all and (max-width: 900px) {
+    .crdrev {
+    height: 644px;
+    width: 86% !important;
+    margin-left: 8%;
+}
     #section-2>.container>.row {
         flex-direction: column;
     }
