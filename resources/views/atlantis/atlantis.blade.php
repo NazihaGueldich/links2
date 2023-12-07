@@ -1,5 +1,25 @@
 @include('layouts.front.head')
+    <meta name="description" content="튀니지에서 가장 유명한 여행사인 아틀란티스 여행사를 소개합니다. 아틀란티스 여행사에 대한 간략한 설명과 함께 아틀란티스가 제공하는 차량 서비스, 호텔 및 게스트하우스 정보를 안내합니다.">
+    <meta name="keywords" content="아틀란티스 여행사
 
+    CWT
+    
+    튀니지 여행사
+    
+    튀니지 여행
+    
+    튀니지 차량
+    
+    차량 서비스
+    
+    튀니지 호텔
+    
+    튀니지 리조트
+    
+    튀니지 게스트하우스
+    
+    호텔">
+</head>
 <body id="page-atlantis" class="tunisiatrip">
     {{-- nav bar --}}
     @include('layouts.front.header')
@@ -60,7 +80,7 @@
         {{-- section 1 --}}
         <section id="section-1">
             <div class="text-center city-top">
-                <h2 class="main-title pt-3">Atlantis agency</h2>
+                <h2 class="main-title mt-lg-5">Atlantis agency</h2>
             </div>
             <div class="card card-session1 radius-20 ">
                 <div class="card-body mr-0 py-lg-4 row">
@@ -111,7 +131,7 @@
         {{-- section 2 --}}
         <section id="section-2">
             <div class="text-center">
-                <h2 class="main-title">A Message From our CEO</h2>
+                <h2 class="main-title mt-lg-5">A Message From our CEO</h2>
             </div>
             <div class="card-session2  radius-20 ">
                 <div class=" row mx-0  p-4 my-0 w-100">
@@ -145,7 +165,7 @@
         {{-- section 3 --}}
         <section id="section-3">
             <div class="text-center">
-                <h2 class="main-title">Meet our Team Members</h2>
+                <h2 class="main-title mt-lg-5">Meet our Team Members</h2>
             </div>
             <div class="row session3-slick-web">
                 <div class="card card-session3   col-lg-3">
@@ -253,9 +273,9 @@
         
 
         {{-- section 4 --}}
-        <section id="section-4" class="mt-5">
+        <section id="section-4" class="mt-lg-5">
             <div class="text-center">
-                <h2 class="main-title">Car services</h2>
+                <h2 class="main-title mt-lg-5">Car services</h2>
             </div>
             <div class="col-12 d-flex justify-content-center button1 mt-lg-3">
                 <button id='choix0' class="p-2  btnactv" onclick="chngcontsess4(0)">Car</button>
@@ -297,12 +317,11 @@
             </div>
         </section>
         <div id="ligne-section-5"></div>
-        <div class="ligne-separtion" id="ligne-section-5"></div>
 
         {{-- section 5 --}}
         <section id="section-5">
             <div class="text-center ">
-                <h2 class="main-title">Hotels & Resorts</h2>
+                <h2 class="main-title mt-lg-5">Hotels & Resorts</h2>
             </div>
             <div class="row sess5-crds  session5-slick-web" id='sess5-crds'>
                 <div class="col-lg-3  sess5crd radius-20">
@@ -679,7 +698,7 @@
         {{-- section 6 --}}
         <section id="section-6">
             <div class="text-center ">
-                <h2 class="main-title">Guest houses</h2>
+                <h2 class="main-title mt-lg-5">Guest houses</h2>
             </div>
             <div class="row sess6-crds session6-slick-web mb-5" id="sess6-crds">
 

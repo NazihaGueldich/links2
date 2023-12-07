@@ -18,8 +18,5 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
 
     <title>Tunisiatrip</title>
-    <meta name="description" content="Welcome to www.tunisiatrip.com, your all-in-one guide to Tunisia. Discover its history, culture, and cities. Hear from fellow travelers and get quick facts about Tunisia. Start your Tunisian adventure today.">
-    <meta name="keywords" content="Tunisiatrip, visite Tunisia, travel to Tunisia, Tunisia Travel Guide, Tunisia Reviews, Discover Tunisia">
-</head>
 
-<body>
+

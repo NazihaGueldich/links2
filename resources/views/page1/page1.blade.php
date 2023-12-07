@@ -1,5 +1,26 @@
 @include('page1.script')
+<meta name="keywords" content="튀니지
 
+메디나
+
+낙타체험
+
+북아프리카 보석
+
+지중해 진주
+
+자이투나
+
+튀니지 관광
+
+페니키아
+
+로마 유적지
+
+오스만">
+
+    <meta name="description" content="튀니지 여행과 관련한 홍보영상, 방문객 후기, 주요 튀니지 도시들을 안내하며 여행 관련 질문을 남길 수 있는 문의하기 창이 있습니다.">
+</head>
 <body id="index" class="tunisiatrip">
     @include('layouts.front.header')
 

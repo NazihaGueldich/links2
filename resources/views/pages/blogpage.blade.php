@@ -1,5 +1,27 @@
 @include('layouts.front.head')
+    <meta name="description" content="튀니지와 관련된 최신 정보들을 동영상, 뉴스 기사를 통해 제시합니다. 튀니지 관광청과 현대자동차그룹이 함께 제작한 튀니지 홍보영상을 볼 수 있습니다.">
+    <meta name="keywords" content="정해인
 
+    튀니지 홍보영상
+    
+    튀니지 관광청
+    
+    현대모터그룹
+    
+    카멜 사장
+    
+    튀니지 식당
+    
+    쿠스쿠스
+    
+    튀니지 전통
+    
+    정해인 튀니지
+    
+    튀니지 여행팁
+    
+    튀니지 택시">
+</head>
 <body id="blog-page">
     @include('layouts.front.header')
 
