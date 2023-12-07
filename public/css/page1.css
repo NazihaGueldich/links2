@@ -1279,7 +1279,7 @@ section.background-section {
 .btninactv {
     border: 1px solid #347EFF !important;
     width: auto;
-    padding: 0px 30px !important;
+    padding: 0px 20px !important;
     border-radius:30px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -1293,13 +1293,12 @@ section.background-section {
 
 .btnactv1 {
     width: auto !important;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 0px 20px !important;
     text-align: center;
     color: #FFF !important;
     background-color: #347EFF;
     border: 1px solid #347EFF;
-    font-weight: 700;
     font-size: 1.1rem;
     height: 69px;
 }
@@ -1308,9 +1307,8 @@ section.background-section {
     border: 1px solid #347EFF;
     width: auto;
     padding: 0px 20px !important;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 1.1rem;
-
     text-align: center;
     color: #347EFF;
     background-color: transparent;
@@ -1559,7 +1557,7 @@ section.background-section {
 }
 
 .tit2inactv{
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     text-align: center !important;
     font-family: noto !important;
 }
