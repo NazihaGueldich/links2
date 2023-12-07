@@ -9,6 +9,17 @@ $('section .slick-slide').slick({
     cssEase: 'linear'
 });
 
+$('.one-time-slide').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear'
+});
+
 
 $('.slick-section-10').slick({
     infinite: true,
@@ -228,73 +239,6 @@ updateClock();
 
 setInterval(updateClock, 1000);
 
-
-/* session 1 change img */
-var indimgsess1 = 0;
-
-function ChangImgSess1(x) {
-    if (x == -1 && indimgsess1 > 0) {
-        indimgsess1--;
-    } else if (x == 1 && indimgsess1 < 4) {
-        indimgsess1++;
-    } else if (x == -1 && indimgsess1 == 0) {
-        indimgsess1 = 4;
-    } else {
-        indimgsess1 = 0;
-    }
-
-    var img = ["../images/Matmata.jpg",
-        "../images/Douz.jpg",
-        "../images/Historic-Tour-Bardo-Museum.jpg",
-        "../images/djerba_5.jpg",
-        "../images/Tamerza-oasis.jpg"
-    ];
-
-    var alt = ['Matmata Tunisie', 'Douz Tunisia', 'Historic Tour Bardo Museum Tunisia', 'Djerba Tunisia', 'Tamerza Tunisia']
-
-    var sess1crc1 = document.getElementById('sess1crc1');
-    var sess1crc2 = document.getElementById('sess1crc2');
-    var sess1crc3 = document.getElementById('sess1crc3');
-    var sess1crc4 = document.getElementById('sess1crc4');
-    var sess1crc5 = document.getElementById('sess1crc5');
-
-    if (indimgsess1 === 0) {
-        sess1crc1.src = "../images/pt.png";
-        sess1crc2.src = "../images/crcl.png";
-        sess1crc3.src = "../images/crcl.png";
-        sess1crc4.src = "../images/crcl.png";
-        sess1crc5.src = "../images/crcl.png";
-    } else if (indimgsess1 === 1) {
-        sess1crc2.src = "../images/pt.png";
-        sess1crc1.src = "../images/crcl.png";
-        sess1crc3.src = "../images/crcl.png";
-        sess1crc4.src = "../images/crcl.png";
-        sess1crc5.src = "../images/crcl.png";
-    } else if (indimgsess1 === 2) {
-        sess1crc3.src = "../images/pt.png";
-        sess1crc2.src = "../images/crcl.png";
-        sess1crc1.src = "../images/crcl.png";
-        sess1crc4.src = "../images/crcl.png";
-        sess1crc5.src = "../images/crcl.png";
-    } else if (indimgsess1 === 3) {
-        sess1crc4.src = "../images/pt.png";
-        sess1crc2.src = "../images/crcl.png";
-        sess1crc3.src = "../images/crcl.png";
-        sess1crc1.src = "../images/crcl.png";
-        sess1crc5.src = "../images/crcl.png";
-    } else if (indimgsess1 === 4) {
-        sess1crc5.src = "../images/pt.png";
-        sess1crc2.src = "../images/crcl.png";
-        sess1crc3.src = "../images/crcl.png";
-        sess1crc4.src = "../images/crcl.png";
-        sess1crc1.src = "../images/crcl.png";
-    }
-
-    var imgchn = document.getElementById('imgsess1');
-    imgchn.src = "../images/" + img[indimgsess1];
-    //fade(imgchn, img[indimgsess1],0);
-    imgchn.alt = alt[indimgsess1];
-}
 
 
 function changtextSect3(indx) {

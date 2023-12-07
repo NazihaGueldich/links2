@@ -91,16 +91,11 @@
 
             <div class="row">
                 <div class="col-lg-7  one-time-slide">
-                    <img src="{{ asset('images/Matmata.jpg') }}" class="w-100" id='imgsess1' alt="Matmata Tunisie">
-                    <div class="d-flex sccgrp p-lg-3 sess1direct align-items-center" id="dirct">
-                        <img src="{{ asset('images/flr.png') }}" onclick="ChangImgSess1(-1)" alt='Arrow left'>
-                        <img id='sess1crc1' src="{{ asset('images/pt.png') }}" alt="Point">
-                        <img id='sess1crc2' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                        <img id='sess1crc3' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                        <img id='sess1crc4' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                        <img id='sess1crc5' src="{{ asset('images/crcl.png') }}" alt="Cercle">
-                        <img src="{{ asset('images/fll.png') }}" onclick="ChangImgSess1(1)" alt='Arrow right'>
-                    </div>
+                    <img src="{{ asset('images/Matmata.jpg') }}" class="w-100"  alt="Matmata Tunisie">
+                    <img src="{{ asset('images/Douz.jpg') }}" class="w-100" alt="Douz Tunisia">
+                    <img src="{{ asset('images/Historic-Tour-Bardo-Museum.jpg') }}" class="w-100"  alt="Historic Tour Bardo Museum Tunisia">
+                    <img src="{{ asset('images/djerba_5.jpg') }}" class="w-100"  alt="Djerba Tunisia">
+                    <img src="{{ asset('images/Tamerza-oasis.jpg') }}" class="w-100"  alt="Tamerza Tunisia">
                 </div>
                 <div class="col-lg-4 ml-lg-3 pt-3">
                     <p class="txt1"><strong>공식명칭: </strong>튀니지 공화국(Republic of Tunisia) </p>
