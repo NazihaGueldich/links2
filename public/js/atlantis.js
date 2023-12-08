@@ -99,27 +99,36 @@ function chngcontsess4(x) {
         `;
         }
         PAS4I1.style.opacity=1;
-        PAS4I2.style.opacity=0;
-    } else if (numcrd == 1) {
-        PAS4I1.style.opacity=0;
-        PAS4I2.style.opacity=1;
-    } else if (numcrd == 2) {
-        for (var i = 0; i < crd3.length; i++) {
-            secImg.innerHTML += `
-                <img class='w-100 imgsess4 radius-20' src="../images/` + crd3[i] + `" alt="Bardo National Museum">
-        `;
-        }
-        PAS4I1.style.opacity=1;
-        PAS4I2.style.opacity=0;
-    } else if (numcrd == 3) {
-        for (var i = 0; i < crd4.length; i++) {
-            secImg.innerHTML += `
-                <img class='w-100 imgsess4 radius-20' src="../images/` + crd4[i] + `" alt="Bardo National Museum">
-        `;
-        }
-        PAS4I1.style.opacity=1;
-        PAS4I2.style.opacity=0;
-    }
+                PAS4I1.style.position='relative';
+                PAS4I2.style.opacity=0;
+                PAS4I2.style.position='absolute';
+            } else if (numcrd == 1) {
+                PAS4I1.style.opacity=0;
+                PAS4I1.style.position='absolute';
+                PAS4I2.style.opacity=1;
+                PAS4I2.style.position='relative';
+               
+            } else if (numcrd == 2) {
+                for (var i = 0; i < crd3.length; i++) {
+                    secImg.innerHTML += `
+                        <img class='w-100 imgsess4 radius-20' src="../images/` + crd3[i] + `" alt="Bardo National Museum">
+                `;
+                }
+                PAS4I1.style.opacity=1;
+                PAS4I1.style.position='relative';
+                PAS4I2.style.opacity=0;
+                PAS4I2.style.position='absolute';
+            } else if (numcrd == 3) {
+                for (var i = 0; i < crd4.length; i++) {
+                    secImg.innerHTML += `
+                        <img class='w-100 imgsess4 radius-20' src="../images/` + crd4[i] + `" alt="Bardo National Museum">
+                `;
+                }
+                PAS4I1.style.opacity=1;
+                PAS4I1.style.position='relative';
+                PAS4I2.style.opacity=0;
+                PAS4I2.style.position='absolute';
+            }
 }
 $('#PAS4I2').slick({
     slidesToShow: 1,
@@ -164,11 +173,11 @@ function srllcrdssess5(x) {
     var alt0 = ['Four Seasons Tunis', "Anantara Tozeur", "Movenpick Sousse", "The Residence Tunis", "Le Kasbah Kairouan", "Pansy KSAR Ghilene"];
     var a0 = ['https://www.fourseasons.com/tunis/', 'https://www.anantara.com/en/sahara-tozeur', 'https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html', 'https://www.residencetunis.com/fr/', 'https://www.goldenyasmin.com/fr/', 'https://www.facebook.com/reservationpansy/'];
     //seconde crcl
-    var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
-    var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia'];
-    var img1 = ['Radisson-Sfax.jpeg', 'Sheraton.jpeg', 'Africa.jpeg', 'Movenpick-Lac-2.jpeg', 'Mouradi-gammarth-2.jpeg'];
-    var alt1 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth'];
-    var a1 = ['https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax', 'https://sheraton.hammamet-hotels-tn.com/fr/', 'https://hotel-africa-tunis.h-rez.com/', 'https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html', 'https://www.elmouradi.com/'];
+    var h21 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth','Camp Mars'];
+    var p1 = ['Sfax, Tunisia', 'Hammamet, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia', 'Tunis, Tunisia','Douz, Tunisia'];
+    var img1 = ['Radisson-Sfax.jpeg', 'Sheraton.jpeg', 'Africa.jpeg', 'Movenpick-Lac-2.jpeg', 'Mouradi-gammarth-2.jpeg','mars2.jpg'];
+    var alt1 = ['Radisson Sfax', 'Sheraton', 'Africa', 'Movenpick Lac 2', 'Mouradi Gammarth','Camp Mars'];
+    var a1 = ['https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax', 'https://sheraton.hammamet-hotels-tn.com/fr/', 'https://hotel-africa-tunis.h-rez.com/', 'https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html', 'https://www.elmouradi.com/','https://camp-mars.com/'];
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
     var section = document.getElementById('sess5-crds');
