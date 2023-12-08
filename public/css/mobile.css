@@ -33,13 +33,14 @@
         justify-content: space-evenly;
     }
     #index #section-9 .btnactv{
-        width: 30%;
-        padding: 0px 10px !important;
+        width: 33%;
+        padding: 0px !important;
         font-size: 0.9rem;
     }
     #index #section-9 .btninactv{
-        width: 41%;
+        width: 33%;
         font-size: 0.8rem;
+        padding: 0px !important;
     }
 
 }
