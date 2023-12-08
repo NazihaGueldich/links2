@@ -146,6 +146,14 @@
         text-align: center;
         z-index: 1;
     }
+    #section4 .slick-dots li button:before{
+        margin-top: -50% !important
+    }
+
+    #section5 .slick-dots li button:before{
+
+        margin-top: -50% !important
+    }
 }
 
 /* section 4 */
@@ -164,6 +172,7 @@
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
+    padding-left: 12px;
 }
 
 #blog-page #section4 .wrap-video .video-container {
@@ -309,7 +318,7 @@
     #blog-page #section4 #crd2 button {
         height: 35px;
         font-size: 0.8rem;
-        margin-top: 43%
+        margin-top: 123%
     }
 
     #blog-page #section4 #crd2 button {
@@ -420,6 +429,9 @@
         margin-top: -118%;
         font-size: 20px;
         margin-left: 0%;
+    }
+    #section3 .slick-dots li button:before{
+        margin-top: 15px !important;
     }
 }
 
