@@ -32,10 +32,10 @@ $('#section4 .slick-section4').slick({
 });
 
 $('#section6 .section6-slick').slick({
-    infinite: true,
+    infinite: false,
     speed: 600,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     arrows: true,
     dots: false,
     responsive: [{
@@ -155,7 +155,7 @@ $('#page-subpage #section1 #section1-slick').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-   
+
     autoplaySpeed: 4000,
     prevArrow: null,
     nextArrow: null,

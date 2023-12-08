@@ -1297,6 +1297,12 @@ section.background-section {
     height: 45px;
 
 }
+.ktbchng{
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 344px;
+    border: 1px solid #B3B3B3;
+}
 
 
 .btnactv1 {

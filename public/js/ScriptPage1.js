@@ -644,3 +644,38 @@ $('.slick-slider-visitRev').slick({
         }
     }]
 });
+function changtextSect3(indx) {
+    for(var i=0;i<5;i++) {
+        var idbtn='btn'+i+'sect5';
+        var btn=document.getElementById(idbtn);console.log(btn);
+        if(i == indx){
+            if (btn.classList.contains('btninactv')) {
+                btn.classList.replace('btninactv', 'btnactv');
+            }
+        }else{
+            if (btn.classList.contains('btnactv')) {
+                btn.classList.replace('btnactv', 'btninactv');
+            }
+        }
+    }
+    var titr = ["", "", "","",""];
+    var p = [
+        "튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로 이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.",
+        "2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다.아름다운 지중해해안, 역사적 유산 및 다양한 명소로 전 세계의 방문객들을 끌어들이고 있습니다.",
+        "튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의카르타고부터 로마 시대유적까지, 다양한 문화와 역동적인 역사를 자랑하는 매력적인 관광지로 알려져 있습니다.",
+        "튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은튀니지의 교육 수준과 지적 발전에 대한 헌신을 보여줍니다.",
+          "역사적, 문화적 유산이 풍부한 튀니지는 튀니스와 수스의 메디나, 카이로안, 카르타고 유적,엘젬 원형극장 등 총 9개의 유네스코 세계문화유산을 보유하고 있습니다."
+    ];
+    var img = [
+        "../images/tmp_1697673169545.jpg",
+        "../images/tmp_1697673121691.jpg",
+        "../images/tmp_1697673183049.jpg",
+        "../images/tmp_1697673154452.jpg",
+        "../images/UNSCO.png",
+    ];
+    var alt=['Sun','Rain','lkij']
+    document.getElementById('sec3titrp5').innerHTML = titr[indx];
+    document.getElementById('sec3spnprt5').innerHTML = p[indx];
+    document.getElementById('sec3img').src = img[indx];
+    document.getElementById('sec3img').alt = alt[indx];
+}
