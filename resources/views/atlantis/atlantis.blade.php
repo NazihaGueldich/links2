@@ -439,23 +439,25 @@
                     </a>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
-                    <div class="mask-image">
-                        <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
-                            alt="Pansy KSAR Ghilene">
-                    </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
-                    <p class="text-img">링크</p>
-                    <div class="posit">
-                        <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
-                        <p id="sess5crd6p"> Douz, Tunisia</p>
-                    </div>
-                    <div class="note">
-                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                        <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                    </div>
-                    <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
+                    <a id="sess5crd6href" href="https://www.facebook.com/reservationpansy/">
+                        <div class="mask-image">
+                            <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}"
+                                class="img-fluid" alt="Pansy KSAR Ghilene">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
+                            class="cercle-img">
+                        <p class="text-img">링크</p>
+                        <div class="posit">
+                            <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
+                            <p id="sess5crd6p"> Douz, Tunisia</p>
+                        </div>
+                        <div class="note">
+                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        </div>
+                        <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
                     </a>
                 </div>
 
