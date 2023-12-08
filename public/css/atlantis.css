@@ -7,7 +7,7 @@ body.tunisiatrip {
     font-family: 'noto', sans-serif;
 }
 
-body{
+body {
     word-break: keep-all
 }
 
@@ -15,11 +15,13 @@ body{
     .section-1 {
         padding: 0px 0;
     }
+
     #page-atlantis .btninactv {
         font-size: 0.8rem;
         padding: 0px 15px !important;
     }
-    #page-atlantis #section-4 .col-12{
+
+    #page-atlantis #section-4 .col-12 {
         align-items: center;
     }
 }
@@ -156,9 +158,11 @@ body .btn.btn-outline-primary.btn-main:hover,
     right: 14px;
     pointer-events: none;
 }
-.button1{
-    gap:7px;
+
+.button1 {
+    gap: 7px;
 }
+
 /* icons */
 .flex-container {
     display: flex;
@@ -208,11 +212,11 @@ body#page-atlantis .card-session1 {
     border: 2px solid #f1f1f1bf;
 }
 
-#page-atlantis  .slick-next {
+#page-atlantis .slick-next {
     right: -63px;
 }
 
-#page-atlantis  .slick-prev {
+#page-atlantis .slick-prev {
     left: -70px;
 }
 
@@ -234,12 +238,15 @@ body#page-atlantis .card-session1 {
         margin: 20px auto;
         width: 220px;
     }
-    #page-atlantis  .slick-prev {
+
+    #page-atlantis .slick-prev {
         left: -30px;
     }
+
     #page-atlantis #section-1 .slick-prev {
         left: -47px;
     }
+
     #section-3 .slick-track {
         position: relative;
         top: 0;
@@ -248,7 +255,8 @@ body#page-atlantis .card-session1 {
         margin-left: auto;
         margin-right: auto;
     }
-    #section-6  .slick-next {
+
+    #section-6 .slick-next {
         right: -20px;
     }
 }
@@ -441,19 +449,20 @@ body#page-atlantis .card-session4 {
     border: 1px solid #C8C8C8;
     height: auto;
 }
-body#page-atlantis #PAS4I1{
-position: relative;
-opacity: 1;
+
+body#page-atlantis #PAS4I1 {
+    position: relative;
+    opacity: 1;
 }
 
-body#page-atlantis #PAS4I2{
+body#page-atlantis #PAS4I2 {
     position: absolute;
     opacity: 0;
 }
 
 
 
-#page-atlantis  .slick-dots {
+#page-atlantis .slick-dots {
     position: absolute;
     bottom: -83px;
     display: block;
@@ -465,7 +474,7 @@ body#page-atlantis #PAS4I2{
     text-align: center;
 }
 
-#page-atlantis  .slick-dots li button:before {
+#page-atlantis .slick-dots li button:before {
     font-family: 'slick';
     margin-top: -242%;
     font-size: 20px;
@@ -481,11 +490,12 @@ body#page-atlantis #PAS4I2{
     -moz-osx-font-smoothing: grayscale;
 }
 
-#page-atlantis  .slick-dots li.slick-active button:before {
+#page-atlantis .slick-dots li.slick-active button:before {
     opacity: 1;
 }
+
 .btnactv {
-    border-radius:30px;
+    border-radius: 30px;
     padding: 0px 20px !important;
     text-align: center;
     color: #FFF !important;
@@ -500,7 +510,7 @@ body#page-atlantis #PAS4I2{
 .btninactv {
     border: 1px solid #347EFF !important;
     width: auto;
-    border-radius:30px;
+    border-radius: 30px;
     padding: 0px 20px !important;
     font-size: 1.1rem;
     font-weight: 600;
@@ -515,13 +525,15 @@ body#page-atlantis #PAS4I2{
         border: 1px solid #C8C8C8;
     }
 
-    #page-atlantis #section-4 .btnactv,#page-atlantis #section-4 .btnactv {
+    #page-atlantis #section-4 .btnactv,
+    #page-atlantis #section-4 .btnactv {
         font-size: 0.9rem;
         font-weight: bolder;
         height: 50px;
         padding: 0 !important;
         width: 25%;
     }
+
     .btninactv {
         font-size: 0.9rem;
         line-height: 18px;
@@ -552,7 +564,7 @@ body#page-atlantis .card-session4-spns .card-body {
     height: 620px;
 }
 
-#page-atlantis #PAS4I2 .slick-dots{
+#page-atlantis #PAS4I2 .slick-dots {
     bottom: -21px;
 }
 
@@ -570,15 +582,18 @@ body#page-atlantis .card-session4-spns .card-body {
         border: 2px solid #347EFF;
         height: 528px;
     }
-    #s4prttxt{
+
+    #s4prttxt {
         height: 260px;
     }
+
     .imgsess4 {
         object-fit: cover;
         border-radius: 20px;
         width: 302px !important;
         height: 204px !important;
     }
+
     #page-atlantis #PAS4I2 .slick-dots {
         bottom: -38px;
     }
@@ -586,8 +601,9 @@ body#page-atlantis .card-session4-spns .card-body {
     .psess4 {
         line-height: normal !important;
     }
-    #page-atlantis .slick-next{
-        right: -20px !important;
+
+    #page-atlantis .slick-next {
+        right: -12px !important;
     }
 }
 
@@ -634,11 +650,12 @@ body#page-atlantis .card-session4-spns .card-body {
 
     .sess5crd,
     .sess6crd {
-        width: 99% !important;
+        width: 95% !important;
+        margin-left: 3px;
     }
 
     #section-1 .slick-next {
-        right:-37px !important;
+        right: -37px !important;
     }
 }
 
