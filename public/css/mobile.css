@@ -907,7 +907,13 @@
         font-family: noto !important;
 
     }
+    .slick-slider-visitRev .slick-prev{
+        left: -18px !important;
+    }
 
+    .slick-slider-visitRev .slick-next {
+        right: -19px;
+    }
   .text-container {
     display: contents;
   }
