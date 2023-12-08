@@ -61,6 +61,7 @@
 .b-left{
     margin-left: 4px;
 }
+
 }
 .btninactv {
     border: 1px solid #347EFF !important;
@@ -87,7 +88,12 @@
 .noto {
     font-family: "Noto Sans KR", sans-serif;
 }
-
+#p3-section4 .slick-next{
+    right: -27px !important;
+}
+#p3-section6 .slick-next{
+    right: -27px !important;
+}
 ul {
     list-style: none;
 }
