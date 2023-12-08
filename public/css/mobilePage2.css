@@ -444,7 +444,7 @@
         .btninactv,
         .btninactv {
 
-            padding: 0;
+            padding: 0 !important;
             width: 100%;
             font-size: 0.8rem;
 
@@ -452,11 +452,15 @@
             height: 45px;
         }
 
-        .btnactv {
-
-            padding: 0px 10px !important;
-
+        #about-tunisia .slick-dots li.slick-active button:before {
+            opacity: 1;
+            color: #347EFF;
         }
+
+        #about-tunisia .slick-dots {
+            bottom: -61px;
+        }
+
 
         .ktbchng #titrp5 {
 
