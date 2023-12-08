@@ -649,12 +649,12 @@ function changtextSect3(indx) {
         var idbtn='btn'+i+'sect5';
         var btn=document.getElementById(idbtn);console.log(btn);
         if(i == indx){
-            if (btn.classList.contains('btninactv')) {
-                btn.classList.replace('btninactv', 'btnactv');
+            if (btn.classList.contains('btninactv1')) {
+                btn.classList.replace('btninactv1', 'btnactv1');
             }
         }else{
-            if (btn.classList.contains('btnactv')) {
-                btn.classList.replace('btnactv', 'btninactv');
+            if (btn.classList.contains('btnactv1')) {
+                btn.classList.replace('btnactv1', 'btninactv1');
             }
         }
     }
@@ -679,3 +679,27 @@ function changtextSect3(indx) {
     document.getElementById('sec3img').src = img[indx];
     document.getElementById('sec3img').alt = alt[indx];
 }
+
+$(document).ready(function () {
+    function initSlick() {
+        if ($(window).width() <= 767) {
+            $('#s8ssm').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                dots: true,
+                arrows: false,
+                infinite: true,
+                speed: 500,
+                cssEase: 'linear'
+            });
+        } else {
+            if ($('#s8ssm').hasClass('slick-initialized')) {
+                $('#s8ssm').slick('unslick');
+            }
+        }
+    }
+
+    initSlick();
+    $(window).resize(initSlick);
+});

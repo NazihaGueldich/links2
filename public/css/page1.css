@@ -1251,7 +1251,7 @@ body.tunisiatrip .card5 {
     gap: .5rem;
 }
 
-.img-fluid {
+#index .img-fluid {
     max-width: 88%;
     height: auto;
 }
@@ -1308,7 +1308,14 @@ section.background-section {
     height: 344px;
     border: 1px solid #B3B3B3;
 }
-
+.imgactv {
+    display: block;
+    width: 100%;
+    margin: 30px 0px 30px 25px !important;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 260px;
+}
 
 .btnactv1 {
     width: 13%!important;
@@ -1318,7 +1325,7 @@ section.background-section {
     color: #FFF !important;
     background-color: #347EFF;
     border: 1px solid #347EFF;
-    font-size: 1.1rem;
+    font-size: 1rem;
     height: 69px;
 }
 
@@ -1327,8 +1334,9 @@ section.background-section {
     width: 13% !important;
     padding: 0px 20px !important;
     border-radius: 20px;
-    font-size: 1.1rem;
+    font-size: 1.10rem;
     text-align: center;
+    font-weight: 400;
     color: #347EFF;
     background-color: transparent;
     height: 69px;
@@ -1559,6 +1567,7 @@ section.background-section {
     margin: 30px 43px !important;
     font-family: noto !important;
     line-height: 50px;
+    padding-bottom: 26%;
 }
 
 .imgactv {

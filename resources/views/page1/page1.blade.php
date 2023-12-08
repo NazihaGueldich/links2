@@ -683,7 +683,7 @@
                     <div class="PContact">
                         <p><strong>주소:</strong> 29, AV.du,Japon, Imm. Fatma 1002 Montplaisir - Tunis</p>
                         <p><strong>이메일:</strong> atlantis@atlantis.tn</p>
-                        <p><strong>연락처:</strong> +216 52 924 322</p>
+                        <p><strong>연락처:</strong> +216 31 31 8000</p>
                     </div>
                 </div>
 
@@ -725,35 +725,36 @@
 
 
 
-    <section id="container section-8">
+    <section id="section-8">
         <div class="container">
-        <div class="container text-center mb-3 d-flex flex-column align-items-center">
+        <div class=" text-center mb-3 d-flex flex-column align-items-center">
             <h2 class="main-title ">Tunisia in numbers</h2>
 
-            <div class=" buttons">
-                <button id='btn0sect5' class="p-2  btnactv" onclick="changtextSect3(0)">+12 M  <br>2023년 인구</button>
-                <button id='btn1sect5' class="p-2 btninactv" onclick="changtextSect3(1)">2M<br>관광객 200만명</button>
-                <button id='btn2sect5' class="p-2 btninactv" onclick="changtextSect3(2)">700<br>역사적인 장소</button>
-                <button id='btn3sect5' class="p-2 btninactv" onclick="changtextSect3(3)">1<br>1번째 대학</button>
-                <button id='btn4sect5' class="p-2 btninactv" onclick="changtextSect3(4)">9<br>유네스코 세계유산</button>
+            <div class=" buttons" id="s8ssm">
+                <button id='btn0sect5' class="p-2  btnactv1" onclick="changtextSect3(0)">+12 M  <br>2023년 인구</button>
+                <button id='btn1sect5' class="p-2 btninactv1" onclick="changtextSect3(1)">2M<br>관광객 200만명</button>
+                <button id='btn2sect5' class="p-2 btninactv1" onclick="changtextSect3(2)">700<br>역사적인 장소</button>
+                <button id='btn3sect5' class="p-2 btninactv1" onclick="changtextSect3(3)">1<br>1번째 대학</button>
+                <button id='btn4sect5' class="p-2 btninactv1" onclick="changtextSect3(4)">9<br>유네스코 세계유산</button>
             </div>
         </div>
         <div class="d-flex flex-column  align-items-center  allsec">
             <div class="ktbchng text-center">
 
                 <div class="row">
-                    <div
-                        class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
-                        <div class="para-section">
-                            <p class="mt-3 mt-lg-5" id='sec3titrp5'></p>
-                            <p id='sec3spnprt5'>튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로
-                                이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
-                        </div>
-                    </div>
+
                     <div class="col-lg-6 ">
-                        <img src="{{ asset('images/tmp_1697673169545.jpg') }}" alt="Sun" 
-                            id="sec3img">
+                        <img src="{{ asset('images/tmp_1697673169545.jpg') }}" alt="Sun"
+                            id="sec3img" class="imgactv">
                     </div>
+                    <div
+                    class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
+                    <div class="para-section">
+                        <p class="mt-3 mt-lg-5" id='sec3titrp5'></p>
+                        <p id='sec3spnprt5' class="txtactv">튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로
+                            이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>

@@ -534,9 +534,9 @@
         margin-top: 12%;
     }
     .slick-dots li button:before {
-        margin-left: -82%;
+        margin-left: 21% !important;
         font-family: 'slick';
-        margin-top: -242%;
+        margin-top: -20% !important;
         font-size: 20px;
         line-height: 20px;
         position: absolute;
