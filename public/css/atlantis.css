@@ -205,7 +205,11 @@ body#page-atlantis .card-session1 {
 }
 
 #page-atlantis  .slick-next {
-    right: -22px;
+    right: -63px;
+}
+
+#page-atlantis  .slick-prev {
+    left: -70px;
 }
 
 
