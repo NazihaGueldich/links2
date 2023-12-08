@@ -233,6 +233,17 @@ body#page-atlantis .card-session1 {
     #page-atlantis  .slick-prev {
         left: -45px;
     }
+    #section-3 .slick-track {
+        position: relative;
+        top: 0;
+        left: 11px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section-6  .slick-next {
+        right: -20px;
+    }
 }
 
 /* section 2 */
@@ -553,14 +564,18 @@ body#page-atlantis .card-session4-spns .card-body {
     height: 490px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 997px) {
     .imgsess4 {
         object-fit: contain;
         border-radius: 20px;
+        top: -69%;
     }
 
     .psess4 {
         line-height: normal !important;
+    }
+    #section-5 #page-atlantis .slick-next{
+        right: 10px !important;
     }
 }
 
@@ -610,7 +625,7 @@ body#page-atlantis .card-session4-spns .card-body {
         width: 99% !important;
     }
 
-    #page-atlantis .slick-next {
+    #section-1 .slick-next {
         right:-37px !important;
     }
 }
