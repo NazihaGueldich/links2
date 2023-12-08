@@ -5,21 +5,21 @@
     content="아틀란티스 여행사
 
     CWT
-    
+
     튀니지 여행사
-    
+
     튀니지 여행
-    
+
     튀니지 차량
-    
+
     차량 서비스
-    
+
     튀니지 호텔
-    
+
     튀니지 리조트
-    
+
     튀니지 게스트하우스
-    
+
     호텔">
 </head>
 
@@ -306,7 +306,7 @@
 
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I2'>
-                        <img src="{{ asset('images/Mini-bus-2.jpg') }}" class=" w-100 imgsess4 radius-20"
+                        <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">
                         <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">
