@@ -203,10 +203,11 @@ function srllcrdssess5(x) {
 
         sectionContent += `
         <div class="col-lg-3  sess5crd radius-20">
+        <a id="sess5crd1href" href="` + a + `">
         <div class="mask-image">
-            <a id="sess5crd1href" href="` + a + `">
+            
             <img id='sess5crd1img' src="../images/` + img + `" class="img-fluid"
-                alt="` + alt + `"></a>
+                alt="` + alt + `">
         </div>
         <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
         <p class="text-img">링크</p>
@@ -222,6 +223,7 @@ function srllcrdssess5(x) {
             <img src="../images/review_Star.svg" alt='star'>
         </div>
         <h2 id="sess5crd1h2" class="sub-title sess5h2">` + h2 + `</h2>
+        </a>
     </div>`;
 
         section.innerHTML += sectionContent;
@@ -319,10 +321,11 @@ function PAsrllcrdssess6(x) {
         sectionContent += `<div class="col-lg-3 sess6crd radius-20">`;
 
         sectionContent += `
+        <a href="` + a + `" id="sess6crd1href">
             <div class="mask-image">
-            <a href="` + a + `" id="sess6crd1href">
+            
                 <img class="sess6crdimg" src="../images/` + img + `" class="img-fluid" alt="` + alt + `">
-                </a>
+                
             </div>
             <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
             <p class="text-img">링크</p>
@@ -331,6 +334,7 @@ function PAsrllcrdssess6(x) {
                 <p>` + p + `</p>
             </div>
             <h2 class="sub-title sess6h2">` + h2 + `</h2>
+            </a>
         </div>`;
 
         section.innerHTML += sectionContent;
