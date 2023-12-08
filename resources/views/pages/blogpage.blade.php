@@ -3,23 +3,23 @@
     <meta name="keywords" content="정해인
 
     튀니지 홍보영상
-    
+
     튀니지 관광청
-    
+
     현대모터그룹
-    
+
     카멜 사장
-    
+
     튀니지 식당
-    
+
     쿠스쿠스
-    
+
     튀니지 전통
-    
+
     정해인 튀니지
-    
+
     튀니지 여행팁
-    
+
     튀니지 택시">
 </head>
 <body id="blog-page">
@@ -122,11 +122,10 @@
                 <div >
                     <div class="wrap-video pb-lg-0">
                         <video id="-video" class="video-js" preload="auto"
-                            poster="images/Creator-Talking-Tunisia.png">
+                            poster="images/discover_touzer.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
                         <div class="video-overlay vd-bg">
-                            <p id="video-title" class="sub-title">Discover Tozeur</p>
                             <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png"
                                     alt="Arrow Right Blue"></button>
                         </div>
@@ -137,7 +136,7 @@
                 <div >
                     <div class="wrap-video pb-lg-0">
                         <video id="-video2" class="video-js" preload="auto"
-                            poster="images/Creator-Talking-Tunisia 2.png">
+                            poster="images/vlog.png">
                             <source src="images/video2.mp4" type="video/mp4" />
                         </video>
                         <div class="video-overlay" id='crd2'>
@@ -150,7 +149,7 @@
                 <div>
                     <div class="wrap-video pb-lg-0">
                         <video id="-video3" class="video-js" preload="auto"
-                            poster="images/sahrouch.png">
+                            poster="images/tuni-vd.png">
                             <source src="images/vd.mp4" type="video/mp4" />
                         </video>
                         <div class="video-overlay" id='crd3'>

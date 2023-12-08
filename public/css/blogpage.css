@@ -171,7 +171,7 @@
     height: 438px;
     width: 100%;
     border-radius: 20px;
-    object-fit: cover;
+    object-fit: contain;
     padding-left: 12px;
 }
 
@@ -231,15 +231,16 @@
     border-radius: 20px;
     color: #347EFF;
     font-size: 1rem;
-    margin-top: 43%;
+    margin-top: 211%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 132px;
+    margin-left: -32%;
 }
 
 #blog-page #section4 .wrap-video #play-btn2 {
-    margin-top: 0;
+    margin-top: 90px !important
 }
 
 /* #blog-page #section4 .wrap-video #play-btn3 {
@@ -316,7 +317,7 @@
     #blog-page #section4 #crd2 button {
         height: 35px;
         font-size: 0.8rem;
-        margin-top: 123%
+        margin-top: 160%
     }
 
     #blog-page #section4 #crd2 button {
@@ -329,7 +330,7 @@
     }
 
     #blog-page #section4 .wrap-video #play-btn3 {
-        margin-top: 213px;
+        margin-top: 244px;
     }
 
     #blog-page #section4 #crd2 .sub-title {
@@ -341,8 +342,15 @@
         left: 27%;
         top: 10%;
     }
-}
+    #blog-page #section4 .wrap-video #play-btn2 {
+        margin-top: 185px !important;
+    }
 
+/*     #blog-page #section4 #crd2 button {
+        margin-left: -18%;
+        width: 119px;
+    } */
+    }
 body{
     word-break: keep-all
 }
