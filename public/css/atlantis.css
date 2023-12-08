@@ -231,7 +231,7 @@ body#page-atlantis .card-session1 {
         width: 220px;
     }
     #page-atlantis  .slick-prev {
-        left: -30px;
+        left: -45px;
     }
 }
 
@@ -611,7 +611,7 @@ body#page-atlantis .card-session4-spns .card-body {
     }
 
     #page-atlantis .slick-next {
-        right: -20px !important;
+        right:-37px !important;
     }
 }
 
