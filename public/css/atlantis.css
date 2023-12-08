@@ -206,12 +206,8 @@ body#page-atlantis .card-session1 {
 
 #page-atlantis  .slick-next {
     right: -22px;
-    margin-right: 0;
 }
-#page-atlantis  .slick-prev {
-    left: -30px;
-    margin-left: 0;
-}
+
 
 
 
@@ -230,7 +226,9 @@ body#page-atlantis .card-session1 {
         margin: 20px auto;
         width: 220px;
     }
-
+    #page-atlantis  .slick-prev {
+        left: -30px;
+    }
 }
 
 /* section 2 */
@@ -609,7 +607,7 @@ body#page-atlantis .card-session4-spns .card-body {
     }
 
     #page-atlantis .slick-next {
-        right: -15px;
+        right: -20px !important;
     }
 }
 
