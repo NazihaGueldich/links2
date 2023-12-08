@@ -31,7 +31,7 @@
                     <img src="{{ asset('images/Tunisie-Sahara.png') }}" class="img1" alt="Tunisie Sahara">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">사하라 사막의 시작</span>
+                            <span class="text1" id='text1'>사하라 사막의 시작</span>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                     <img src="{{ asset('images/El-Jem.png') }}" alt="El Jem Tunisie" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">살아 숨쉬는 고대 역사</span>
+                            <span class="text1" id='text2'>살아 숨쉬는 고대 역사</span>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <img src="{{ asset('images/Tataouine.png') }}" class="img1" alt="Tataouine Tunisie">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">스타워즈의 발자취를 찾아</span>
+                            <span class="text1" id='text3'>스타워즈의 발자취를 찾아</span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <img src="{{ asset('images/Sidi-Bou-Saïd.png') }}" alt="Sidi Bou Saïd Tunisie" class="img1">
                     <div class="overlay-content">
                         <div class="text-center">
-                            <span class="text1">파란 하늘, 푸른 바다</span>
+                            <span class="text1" id='text4'>파란 하늘, 푸른 바다</span>
                         </div>
                     </div>
                 </div>
@@ -1125,8 +1125,8 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
+            //autoplay: true,
+            //autoplaySpeed: 4000,
             prevArrow: null,
             nextArrow: null,
             fade: true,

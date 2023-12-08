@@ -9,6 +9,24 @@
     #crdp5 {
         font-size: 12px;
     }
+
+    #mySlickCarousel #text1{
+        bottom: 22%;
+        right: 5%;
+    }
+    #mySlickCarousel #text2{
+        top: 9%;
+        left: 5%;
+    }
+    
+    #mySlickCarousel #text3{
+        top: 1%;
+        left: 5%;
+    }
+    #mySlickCarousel #text4{
+        top: 42%;
+    right: 2%;
+    }
 }
 
 @media all and (max-width: 900px) {
@@ -298,7 +316,6 @@
     .text1 {
         font-size: 1.55rem;
         color: #ffffff;
-        top: 30%;
     }
 
     .navbar-expand-lg>.container,

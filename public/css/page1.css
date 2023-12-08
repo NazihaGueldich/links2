@@ -77,6 +77,23 @@ main{
     right: -99px;
 }
 
+#mySlickCarousel #text1{
+    bottom: 12%;
+    right: 10%;
+}
+#mySlickCarousel #text2{
+    top: 12%;
+    left: 10%;
+}
+
+#mySlickCarousel #text3{
+    top: 12%;
+    left: 10%;
+}
+#mySlickCarousel #text4{
+    top: 34%;
+    right: 10%;
+}
 .slick-slider-visitRev .slick-next:before {
     font-size: 28px !important;
     color: #347EFF !important;
@@ -92,7 +109,7 @@ main{
 }
 .overlay-content {
     position: absolute;
-    top:50px;
+    top:0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -430,9 +447,6 @@ body {
     color: #ffffff;
     text-shadow: 5px 5px 10px #00000038;
     position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .scroll-container .slick-next::before, .slick-prev::before {
     font-size: 28px;
