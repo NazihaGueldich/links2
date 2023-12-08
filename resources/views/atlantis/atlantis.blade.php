@@ -306,7 +306,7 @@
 
                     </div>
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I2'>
-                        <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" w-100 imgsess4 radius-20"
+                        <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" imgsess4 radius-20"
                             alt="Car">
                         <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">

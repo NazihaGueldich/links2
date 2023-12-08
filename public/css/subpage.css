@@ -180,7 +180,27 @@
         width: 25px;
         margin-right: 5px;
     }
-
+    #section1-slick .slick-dots li button:before {
+        font-family: 'slick';
+        margin-top: -51px !important;
+        font-size: 16px;
+        line-height: 20px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: #347EFF;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+  
+.slick-dots li button:before {
+    margin-top: -298% !important;
+    font-size: 20px;
+    margin-left: 46% !important;
+}
 }
 .img-section6{
     margin: 0 auto;
