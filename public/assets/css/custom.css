@@ -219,7 +219,7 @@ ul {
     }
 
     #page-info #p3-section5 .slick-next {
-        right: 30px !important;  
+        right: 30px !important;
     }
 
     #page-info #p3-section6 .slick-dots {
@@ -428,7 +428,7 @@ body #p3-section5>.container>.row {
     }
     body .main-title {
         margin-bottom: 20px;
-        font-size: 1.5rem;   
+        font-size: 1.5rem;
     }
     body .wrap-nav-transportation {
         margin-top: 11px !important;
@@ -754,6 +754,17 @@ body .wrap-festival-card .custom-card .custom-card-title {
         left: 66%;
         font-size: 0.7rem;
     }
+
+#p3-section3 .slick-dots li button::before {
+    top: 65px;
+
+}
+#p3-section6 .slick-dots li button:before{
+    margin-top: -86% !important
+}
+
+
+
 }
 
 @media screen and (max-width: 1280px) {
