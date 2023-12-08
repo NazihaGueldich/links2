@@ -448,7 +448,6 @@ opacity: 1;
 
 body#page-atlantis #PAS4I2{
     position: absolute;
-    margin-left: 586px;
     opacity: 0;
 }
 #page-atlantis #PAS4I2 .slick-slide.slick-current.slick-active{
@@ -560,7 +559,7 @@ body#page-atlantis .card-session4-spns .card-body {
 }
 
 #page-atlantis #PAS4I2 .slick-dots{
-    bottom: 102px;
+    bottom: -21px;
 }
 
 
