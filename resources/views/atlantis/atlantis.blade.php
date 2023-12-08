@@ -454,8 +454,7 @@
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                            
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
                     </a>
