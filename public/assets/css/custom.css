@@ -221,6 +221,13 @@ ul {
     #page-info #p3-section5 .slick-next {
         right: 30px !important;  
     }
+
+    #page-info #p3-section6 .slick-dots {
+        bottom: -36px;
+    }
+    #page-info .slick-dots {
+        bottom: -22px;
+    }
 }
 
 
