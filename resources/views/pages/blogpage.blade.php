@@ -246,6 +246,8 @@
 
           if (video.paused) {
             video.play();
+            video.setAttribute('controls', 'controls');
+
           } else {
             video.pause();
           }
@@ -255,6 +257,7 @@
 
           if (video.paused) {
             video.play();
+            video.setAttribute('controls', 'controls');
           } else {
             video.pause();
           }
@@ -264,6 +267,7 @@
 
           if (video.paused) {
             video.play();
+            video.setAttribute('controls', 'controls'); 
           } else {
             video.pause();
           }
