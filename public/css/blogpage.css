@@ -323,12 +323,20 @@
 /* section 5 */
 
 @media all and (max-width: 767px) {
-    
+
+    #blog-page #section3 .slick-dots {
+        bottom: -33px;
+    }
+
+    #blog-page #section4 .slick-dots {
+        bottom: -17px;
+    }
 #blog-page #section5 .slick-dots {
-    bottom: -81px;
+    bottom: -33px;
 }
 #blog-page #section5 .crdsess5 {
-    margin-left: -10px;
+    margin-left: 0px;
+    height: 383px;
 }
 }
 #blog-page #section5 .crdsess5 {
