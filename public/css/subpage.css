@@ -111,8 +111,7 @@
     }
 
     #section6 .slick-next {
-        right: -1px !important;
-        margin: 0;
+        right: -4px !important;
     }
 }
 #section6 .slick-prev {
