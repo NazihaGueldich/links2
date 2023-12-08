@@ -109,7 +109,7 @@
         padding-top: 0;
     }
 
-    .slick-dots {
+    #index .slick-dots {
         bottom: -40px;
     }
     .navbar-toggled .nav-item {
