@@ -98,27 +98,27 @@ function chngcontsess4(x) {
                 <img class='w-100 imgsess4 radius-20' src="../images/` + crd1[i] + `" alt="Bardo National Museum">
         `;
         }
-        PAS4I1.style.display='block';
-        PAS4I2.style.display='none';
+        PAS4I1.style.opacity=1;
+        PAS4I2.style.opacity=0;
     } else if (numcrd == 1) {
-        PAS4I1.style.display='none';
-        PAS4I2.style.display='block';
+        PAS4I1.style.opacity=0;
+        PAS4I2.style.opacity=1;
     } else if (numcrd == 2) {
         for (var i = 0; i < crd3.length; i++) {
             secImg.innerHTML += `
                 <img class='w-100 imgsess4 radius-20' src="../images/` + crd3[i] + `" alt="Bardo National Museum">
         `;
         }
-        PAS4I1.style.display='block';
-        PAS4I2.style.display='none';
+        PAS4I1.style.opacity=1;
+        PAS4I2.style.opacity=0;
     } else if (numcrd == 3) {
         for (var i = 0; i < crd4.length; i++) {
             secImg.innerHTML += `
                 <img class='w-100 imgsess4 radius-20' src="../images/` + crd4[i] + `" alt="Bardo National Museum">
         `;
         }
-        PAS4I1.style.display='block';
-        PAS4I2.style.display='none';
+        PAS4I1.style.opacity=1;
+        PAS4I2.style.opacity=0;
     }
 }
 $('#PAS4I2').slick({

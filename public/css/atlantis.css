@@ -422,11 +422,14 @@ body#page-atlantis .card-session4 {
     height: auto;
 }
 body#page-atlantis #PAS4I1{
-    display: block;
+position: relative;
+opacity: 1;
 }
 
 body#page-atlantis #PAS4I2{
-    display: none;
+    position: absolute;
+    margin-left: 586px;
+    opacity: 0;
 }
 #page-atlantis #PAS4I2 .slick-slide.slick-current.slick-active{
    width: 734px !important;
@@ -533,12 +536,19 @@ body#page-atlantis .card-session4-spns .card-body {
 
 .card-session4-cnt {
     border: 2px solid #347EFF;
+    height: 620px;
 }
+
+#page-atlantis #PAS4I2 .slick-dots{
+    bottom: 102px;
+}
+
 
 .imgsess4 {
     position: relative;
     z-index: 1;
     object-fit: cover;
+    height: 490px;
 }
 
 @media (max-width: 767px) {
