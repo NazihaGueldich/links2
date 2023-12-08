@@ -147,7 +147,7 @@
         z-index: 1;
     }
     #section4 .slick-dots li button:before{
-        margin-top: -50% !important
+        margin-top:-217% !important
     }
 
     #section5 .slick-dots li button:before{
@@ -431,7 +431,7 @@
         margin-left: 0%;
     }
     #section3 .slick-dots li button:before{
-        margin-top: 15px !important;
+        margin-top: -47px !important;
     }
 }
 
