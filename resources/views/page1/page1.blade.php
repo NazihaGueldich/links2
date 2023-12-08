@@ -750,7 +750,7 @@
                     <div
                     class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
                     <div class="para-section">
-                        <p class="mt-3 mt-lg-5" id='sec3titrp5'></p>
+                        <p id='sec3titrp5'></p>
                         <p id='sec3spnprt5' class="txtactv">튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로
                             이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
                     </div>

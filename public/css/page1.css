@@ -1334,7 +1334,7 @@ section.background-section {
     width: 13% !important;
     padding: 0px 20px !important;
     border-radius: 20px;
-    font-size: 1.10rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 400;
     color: #347EFF;
@@ -1568,6 +1568,7 @@ section.background-section {
     font-family: noto !important;
     line-height: 50px;
     padding-bottom: 26%;
+    width: 74%;
 }
 
 .imgactv {
