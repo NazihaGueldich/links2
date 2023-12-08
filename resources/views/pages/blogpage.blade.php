@@ -120,42 +120,37 @@
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
             <div class=" slick-sect4">
                 <div >
-                    <div class="wrap-video pb-lg-0">
-                        <video id="-video" class="video-js" preload="auto"
-                            poster="images/discover_touzer.png">
-                            <source src="images/Tozeur.mp4" type="video/mp4" />
+                    <div class="wrap-video pb-lg-0" onclick="playVideo()">
+                        <video id="my-video" class="video-js" preload="auto" poster="images/discover_touzer.png">
+                          <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
-                        <div class="video-overlay vd-bg">
-                            <button id="play-btn" class="btn">Play Video <img src="images/Arrow Right Blue.png"
-                                    alt="Arrow Right Blue"></button>
-                        </div>
-                    </div>
+                      </div>
 
 
                 </div>
                 <div >
-                    <div class="wrap-video pb-lg-0">
+                    <div class="wrap-video pb-lg-0" onclick="playVideo1()">
                         <video id="-video2" class="video-js" preload="auto"
                             poster="images/vlog.png">
                             <source src="images/video2.mp4" type="video/mp4" />
                         </video>
-                        <div class="video-overlay" id='crd2'>
+                       {{--  <div class="video-overlay" id='crd2'>
                             <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
                                 alt="Arrow Right white">
                         </button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div>
-                    <div class="wrap-video pb-lg-0">
+                    <div class="wrap-video pb-lg-0" onclick="playVideo2()">
                         <video id="-video3" class="video-js" preload="auto"
                             poster="images/tuni-vd.png">
                             <source src="images/vd.mp4" type="video/mp4" />
                         </video>
-                        <div class="video-overlay" id='crd3'>
+                       {{--  <div class="video-overlay" id='crd3'>
                                 <button id="play-btn3" class="btn">Play Video <img src="{{ asset('images/Arrow Right Blue.png') }}"
                                     alt="Arrow Right white">
-                        </button>
+                        </button> --}}
                         </div>
                     </div>
                 </div>
@@ -245,6 +240,36 @@
             </div>
         </section>
     </div>
+    <script>
+        function playVideo() {
+          var video = document.getElementById('my-video');
+
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+
+        }       function playVideo1() {
+          var video = document.getElementById('-video2');
+
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+
+        }       function playVideo2() {
+          var video = document.getElementById('-video3');
+
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+
+        }
+      </script>
         <script>
             const videos = document.querySelectorAll('video');
 
