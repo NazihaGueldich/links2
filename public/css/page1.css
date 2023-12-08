@@ -69,7 +69,18 @@ main{
     -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-slider-visitRev .slick-prev {
+    left: -103px;
+}
 
+.slick-slider-visitRev .slick-next {
+    right: -99px;
+}
+
+.slick-slider-visitRev .slick-next:before {
+    font-size: 28px !important;
+    color: #347EFF !important;
+}
 #mySlickCarousel .slick-dots li.slick-active button:before {
     opacity: 1;
     color: #ffffff;
@@ -432,7 +443,7 @@ body {
     color: #347EFF !important;
 }
 .scroll-container .slick-next {
-    right: -115px;
+    right: -93px;
 }
 .scroll-container .slick-prev {
     left: -115px !important;

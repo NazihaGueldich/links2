@@ -631,8 +631,8 @@ $('.slick-slider-visitRev').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    arrows: false,
-    dots: true,
+    arrows: true,
+    dots: false,
     cssEase: 'linear',
     responsive: [{
         breakpoint: 480,
