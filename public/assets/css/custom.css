@@ -30,7 +30,6 @@
 }
 
 .btnactv {
-    width: 15%;
     border-radius: 30px;
 
     padding: 0px 20px !important;
@@ -65,7 +64,6 @@
 }
 .btninactv {
     border: 1px solid #347EFF !important;
-    width: 25%;
     border-radius: 30px;
 
     font-size: 1.1rem;

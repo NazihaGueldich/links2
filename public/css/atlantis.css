@@ -450,12 +450,7 @@ body#page-atlantis #PAS4I2{
     position: absolute;
     opacity: 0;
 }
-#page-atlantis #PAS4I2 .slick-slide.slick-current.slick-active{
-   width: 734px !important;
-}
-#page-atlantis #PAS4I2 .slick-track{
-    width: 5138px !important;
-}
+
 
 
 #page-atlantis  .slick-dots {
@@ -490,7 +485,6 @@ body#page-atlantis #PAS4I2{
     opacity: 1;
 }
 .btnactv {
-    width: auto;
     border-radius:30px;
     padding: 0px 20px !important;
     text-align: center;
@@ -568,13 +562,25 @@ body#page-atlantis .card-session4-spns .card-body {
     z-index: 1;
     object-fit: cover;
     height: 490px;
+    width: 727px !important;
 }
 
 @media (max-width: 997px) {
+    .card-session4-cnt {
+        border: 2px solid #347EFF;
+        height: 528px;
+    }
+    #s4prttxt{
+        height: 260px;
+    }
     .imgsess4 {
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 20px;
-        top: -69%;
+        width: 302px !important;
+        height: 204px !important;
+    }
+    #page-atlantis #PAS4I2 .slick-dots {
+        bottom: -38px;
     }
 
     .psess4 {

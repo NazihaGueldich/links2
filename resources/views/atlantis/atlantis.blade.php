@@ -284,8 +284,8 @@
                 <button id='choix3' class="p-2 btninactv" onclick="chngcontsess4(3)">Van</button>
             </div>
             <div class="card card-session4-cnt radius-20  p-lg-5 mt-3">
-                <div class="card-body  row">
-                    <div class="col-lg-5  h-100 pr-lg-5">
+                <div class="card-body  row w-100">
+                    <div class="col-lg-5 pr-lg-5" id='s4prttxt'>
                         <input hidden value=0 id='numcrd'>
                         <p class="mb-lg-4 psess4" id="psess4">고객의 필요에 따라 프라이빗 차량+운전기사 서비스를 이용할 수 있습니다.
 
@@ -305,7 +305,7 @@
                         <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" alt="Car">
 
                     </div>
-                    <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I2'>
+                    <div class="col-lg-7 card-session4-cnt-imgs px-0 " id='PAS4I2'>
                         <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" imgsess4 radius-20"
                             alt="Car">
                         <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
@@ -450,7 +450,7 @@
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                             <p id="sess5crd6p"> Douz, Tunisia</p>
                         </div>
-                        <div class="note">
+                        <div class="note" style="left: 37%">
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
@@ -592,9 +592,7 @@
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                             <p id="sess5crd6p"> TUNIS, Tunisia</p>
                         </div>
-                        <div class="note">
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
+                        <div class="note" style="left: 37%;">
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>

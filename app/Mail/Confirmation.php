@@ -24,7 +24,7 @@ class Confirmation extends Mailable
      */
     public function build()
     {
-        return $this->from('noreply@links.tn')->subject('Confirmation Links')->view('dashboard.mailing.confirmation');
+        return $this->from('contact@tunisiatrip.com')->subject('Contact')->view('dashboard.mailing.confirmation');
 
     }
 }
