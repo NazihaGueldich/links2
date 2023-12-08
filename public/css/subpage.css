@@ -195,7 +195,7 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
-  
+
 .slick-dots li button:before {
     margin-top: -298% !important;
     font-size: 20px;
@@ -307,7 +307,7 @@
 #page-subpage #section3 .crdsess3 .crdsess3prt2 p {
     display: flex;
     flex-direction: column;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
 }
 
 #page-subpage #section3 .slick-section3-web {

@@ -141,38 +141,6 @@
                 <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
-                            <p class="sub-sub-title text-center">Airfrance</p>
-                        </div>
-                        <div class="crdsess3prt2">
-                            <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">인천<strong> 한국</strong></p>
-                            </div>
-                            <div class="col-3 p-0 route">
-                                <hr class="lignedisc">
-                                <div>
-                                    <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">약 14시간 30분</p>
-                                </div>
-                            </div>
-                            <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">파리 <strong>프랑스</strong></p>
-                            </div>
-                            <div class="col-3 p-0 route">
-                                <hr class="lignedisc">
-                                <div>
-                                    <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
-                                    <p class="mb-0">약 2시간</p>
-                                </div>
-                            </div>
-                            <div class="col-2 p-0">
-                                <p class="mb-0 pb-0">튀니스<strong> 튀니지</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pr-lg-3">
-                    <div class="crdsess3">
-                        <div class="crdsess3prt1 m-3">
                             <p class="sub-sub-title text-center">Emirates</p>
                         </div>
                         <div class="crdsess3prt2">
@@ -202,6 +170,39 @@
                         </div>
                     </div>
                 </div>
+                <div class="pr-lg-3">
+                    <div class="crdsess3">
+                        <div class="crdsess3prt1 m-3">
+                            <p class="sub-sub-title text-center">Airfrance</p>
+                        </div>
+                        <div class="crdsess3prt2">
+                            <div class="col-2 p-0">
+                                <p class="mb-0 pb-0">인천<strong> 한국</strong></p>
+                            </div>
+                            <div class="col-3 p-0 route">
+                                <hr class="lignedisc">
+                                <div>
+                                    <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
+                                    <p class="mb-0">약 14시간 30분</p>
+                                </div>
+                            </div>
+                            <div class="col-2 p-0">
+                                <p class="mb-0 pb-0">파리 <strong>프랑스</strong></p>
+                            </div>
+                            <div class="col-3 p-0 route">
+                                <hr class="lignedisc">
+                                <div>
+                                    <img src="{{ asset('images/miniavion.png') }}" alt="Avion">
+                                    <p class="mb-0">약 2시간</p>
+                                </div>
+                            </div>
+                            <div class="col-2 p-0">
+                                <p class="mb-0 pb-0">튀니스<strong> 튀니지</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div id='slick-section3-mobil' class="slick-section3-mobil">
                 <div>
