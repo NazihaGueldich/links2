@@ -69,6 +69,14 @@
         color: #ffffff;
         top: 98%;
     }
+
+    #page-subpage #section1 .slick-dotted.slick-slider{
+        height: 51px;
+        margin-bottom: 92px;
+    }
+    #page-subpage #section1  .slick-dots {
+        bottom: -131px;
+    }
 }
 
 #page-subpage #section1 #icnav {
