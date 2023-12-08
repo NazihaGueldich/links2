@@ -115,8 +115,9 @@ ul {
     gap: 20px;
 }
 
-.slick-list .slick-track {
+#page-info .slick-list .slick-track {
     display: flex;
+    gap: 20px;
 }
 
 .icone-date {
