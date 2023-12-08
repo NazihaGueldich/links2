@@ -231,7 +231,10 @@ body#page-atlantis .card-session1 {
         width: 220px;
     }
     #page-atlantis  .slick-prev {
-        left: -45px;
+        left: -30px;
+    }
+    #page-atlantis #section-1 .slick-prev {
+        left: -47px;
     }
     #section-3 .slick-track {
         position: relative;
@@ -454,7 +457,7 @@ body#page-atlantis #PAS4I2{
 
 #page-atlantis  .slick-dots {
     position: absolute;
-    bottom: -26px;
+    bottom: -83px;
     display: block;
     left: 0;
     width: 100%;
@@ -574,8 +577,8 @@ body#page-atlantis .card-session4-spns .card-body {
     .psess4 {
         line-height: normal !important;
     }
-    #section-5 #page-atlantis .slick-next{
-        right: 10px !important;
+    #page-atlantis .slick-next{
+        right: -20px !important;
     }
 }
 
