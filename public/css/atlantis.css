@@ -7,6 +7,10 @@ body.tunisiatrip {
     font-family: 'noto', sans-serif;
 }
 
+body{
+    word-break: keep-all
+}
+
 @media (max-width: 767px) {
     .section-1 {
         padding: 0px 0;

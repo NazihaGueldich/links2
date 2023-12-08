@@ -83,6 +83,10 @@
     }
 }
 
+body{
+    word-break: keep-all
+}
+
 #page-subpage #section1 #icnav {
     width: 100px;
 }

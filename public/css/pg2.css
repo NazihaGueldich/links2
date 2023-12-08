@@ -453,6 +453,7 @@ body {
     width: 100%;
     background-color: white !important;
     overflow-x: hidden;
+    word-break: keep-all
 }
 
 html,

@@ -6,6 +6,7 @@
     max-width: 1400px;
 }
 
+
 .part2 p{
     font-weight: bolder;
     font-size: 0.7rem;
@@ -118,6 +119,7 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 
 body.tunisiatrip {
     font-family: 'noto', sans-serif;
@@ -288,6 +290,7 @@ body {
     width: 100%;
     background-color: #fff !important;
     overflow-x: hidden;
+    word-break: keep-all
 }
 
 
