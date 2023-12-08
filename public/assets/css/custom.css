@@ -229,7 +229,10 @@ ul {
         bottom: -36px;
     }
     #page-info .slick-dots {
-        bottom: -22px;
+        bottom: -80px;
+    }
+    #page-info #p3-section3 .slick-dots {
+        bottom: -18px;
     }
 }
 
