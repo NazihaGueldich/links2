@@ -869,3 +869,9 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     right: 14px;
     pointer-events: none;
 }
+
+
+#page-info .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
