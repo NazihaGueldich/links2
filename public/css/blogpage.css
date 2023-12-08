@@ -119,7 +119,7 @@
     color: #347EFF;
     border: 1px solid #347EFF;
     font-weight: 500;
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 @media all and (max-width: 767px) {
@@ -137,6 +137,7 @@
         padding-right: 0;
         padding-left: 0;
     }
+
     #blog-page #section4 .wrap-video .video-overlay {
         position: absolute;
         top: 11%;
@@ -223,7 +224,7 @@
     border-radius: 20px;
     color: #347EFF;
     font-size: 1rem;
-    margin-top:43%;
+    margin-top: 43%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -233,6 +234,7 @@
 #blog-page #section4 .wrap-video #play-btn2 {
     margin-top: 0;
 }
+
 /* #blog-page #section4 .wrap-video #play-btn3 {
     margin-top:  238px;
 }
@@ -241,10 +243,17 @@
     top: 50%;
 } */
 
-#p1,#p2,#p3,#p4,#p5,#p6,#p7{
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7 {
     margin-top: 1%;
 }
-#p5{
+
+#p5 {
     margin-top: 0%;
 }
 
@@ -254,9 +263,11 @@
     margin-right: 34%;
     padding-left: 9%
 }
-.vd-bg{
+
+.vd-bg {
     padding-bottom: 27%;
 }
+
 #blog-page #section4 #crd2 button {
     color: #FFF;
     height: 51px;
@@ -270,6 +281,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#blog-page .slick-dots {
+    bottom: -54px;
 }
 
 @media all and (max-width: 767px) {
@@ -314,7 +329,8 @@
         padding-top: 15%;
         margin-bottom: 0;
     }
-    #blog-page #section4 .wrap-video .video-overlay{
+
+    #blog-page #section4 .wrap-video .video-overlay {
         left: 27%;
         top: 10%;
     }
@@ -324,21 +340,20 @@
 
 @media all and (max-width: 767px) {
 
-    #blog-page #section3 .slick-dots {
+    #blog-page .slick-dots {
         bottom: -33px;
     }
 
     #blog-page #section4 .slick-dots {
-        bottom: -17px;
+        bottom: -10px;
     }
-#blog-page #section5 .slick-dots {
-    bottom: -33px;
+
+    #blog-page #section5 .crdsess5 {
+        margin-left: 0px;
+        height: 383px;
+    }
 }
-#blog-page #section5 .crdsess5 {
-    margin-left: 0px;
-    height: 383px;
-}
-}
+
 #blog-page #section5 .crdsess5 {
     background-color: #F1F4F8;
     border-radius: 20px;
@@ -400,6 +415,7 @@
         width: auto;
         padding-bottom: 10%;
     }
+
     .slick-dots li button:before {
         margin-top: -118%;
         font-size: 20px;
