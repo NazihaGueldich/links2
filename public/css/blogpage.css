@@ -307,6 +307,7 @@
     #blog-page #section4 #crd2 {
         height: 182px;
         margin-left: -1%;
+        object-fit: cover;
     }
 
     #blog-page #section4 #crd2 {
