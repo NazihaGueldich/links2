@@ -112,6 +112,9 @@
     #index .slick-dots {
         bottom: -40px;
     }
+    #index #mySlickCarousel .slick-dots {
+        bottom: 30px;
+    }
     .navbar-toggled .nav-item {
         text-align: center;
         background-color: white;
