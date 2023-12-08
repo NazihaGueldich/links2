@@ -47,7 +47,7 @@ Route::get('/travel-information', function () {
     return view('info.info');
 });
 
-Route::get('/sub-page', function () {
+Route::get('/trip-itinerary', function () {
     return view('pages.subpage');
 });
 

@@ -37,7 +37,7 @@
                     </div>
                 </a>
                 <div class=" ligne1 m-4 lg">|</div>
-                <a href="sub-page#ligne-section3">
+                <a href="trip-itinerary#ligne-section3">
                     <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
                             id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
                         <p id="p2" class="txticns">항공편</p>
@@ -65,7 +65,7 @@
                     </div>
                 </a>
                 <div class="ligne1 m-4 lg">|</div>
-                <a href="sub-page#Popular-Tour">
+                <a href="trip-itinerary#Popular-Tour">
                     <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
                             id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
                         <p id="p6" class="txticns">크루즈</p>
@@ -533,7 +533,7 @@
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title"> 여행 정보</h3>
                         <ul>
-                            <li><a href="sub-page#ligne-section3">공항</a> |</li>
+                            <li><a href="trip-itinerary#ligne-section3">공항</a> |</li>
                             <li><a href="about-atlantis#ligne-section-5">호텔</a> |</li>
                             <li><a href="about-tunisia#section-1">경제</a> |</li>
 
@@ -546,7 +546,7 @@
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0 ">
                     <div class="d-flex justify-content-center mb-4 gap-lg-5 ml-lg-5">
-                        <a href="sub-page#Popular-Tour">
+                        <a href="trip-itinerary#Popular-Tour">
                             <div class="part2">
                                 <img src="{{ asset('images/Kasr_Jamm.png') }}" alt="Kasr Il Jamm"
                                     class="object-fit-cover cover-img">
@@ -563,7 +563,7 @@
 
                         </a>
                     </div>
-                    <a href="sub-page#to-main routes">
+                    <a href="trip-itinerary#to-main routes">
                         <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
                             <div class="part2">
                                 <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara"
@@ -571,7 +571,7 @@
                                 <p>활동</p>
                             </div>
                     </a>
-                    <a href="sub-page#to-main routes">
+                    <a href="trip-itinerary#to-main routes">
                         <div class="part2">
                             <img src="{{ asset('images/Équipage.png') }}" alt="Équipage"
                                 class="object-fit-cover cover-img">
