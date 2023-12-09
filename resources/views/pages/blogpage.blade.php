@@ -161,7 +161,7 @@
     </section>
     <div class="ligne-separtion"></div>
     {{-- section 5 --}}
-    <section id='section5'>
+    <section id='section5' class="container">
         <h2 class="main-title text-center">Articles</h2>
         <div id='section5-cont'>
             <div class="crdsess5  p-lg-5 mt-lg-3">
