@@ -24,7 +24,7 @@
                 <tr>
                     <td style="text-align:center;">
                         <a href="https://tunisiatrip.com/" title="logo" target="_blank">
-                            <img width="250" src="{{ asset('images/LogoProk.png') }}" title="logo" alt="logo">
+                            <img width="250" src="{{ asset('images/LogoProk.svg') }}" title="logo" alt="logo">
                         </a>
                     </td>
                 </tr>
@@ -40,13 +40,13 @@
                             </tr>
                             <tr>
                                 <td style="padding:0 35px;">
-                                    <h1 style="color:#1e1e2d; font-weight:500; margin:0;font-size:32px;font-family:'Rubik',sans-serif;">E-mail de confirmation
+                                    <h1 style="color:#1e1e2d; font-weight:500; margin:0;font-size:32px;font-family:'Rubik',sans-serif;">confirmation email
                                         </h1>
                                     <span
                                         style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece; width:100px;"></span>
                                     <div style="text-align:left;">
                                         <p style=" color:#455056; font-size:15px;line-height:24px; margin:0;">
-                                            Votre E-mail est envoyer
+                                            Your message has been sent. THANKS
                                         </p>
 
                                     </div>
