@@ -544,38 +544,36 @@
             <h2 class="main-title text-center">Our Trips’ main routes</h2>
             <p class="text-center">튀니지 내 필수 방문도시들과 경로를 확인해보세요.</p>
             <div class="wrap-trips-routes">
-                <div class="img-container img-section5" >
+                <div class="img-container img-section5">
                     <img id='imgMap' src="{{ asset('images/trips-routes/map-tour1.svg') }}" alt="trips-routes"
                         width="596">
-                    <div class="wrap-single-zone zone-tunis"  href='tunis-zone'>
+                    <div class="wrap-single-zone zone-tunis" href='tunis-zone'>
                         @include('pages.zones.tunis-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kerkouane" >
+                    <div class="wrap-single-zone zone-kerkouane">
                         <a title=""></a>
                         @include('pages.zones.douz-zone')
                     </div>
                     <div class="wrap-single-zone zone-sousse" href='zone-sousse'>
                         @include('pages.zones.sousse-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kairouane"
-                        href='zone-kairouane'>
+                    <div class="wrap-single-zone zone-kairouane" href='zone-kairouane'>
                         @include('pages.zones.kairouane-zone')
                     </div>
                     <div class="wrap-single-zone zone-sufetela" href='zone-dogga'>
                         @include('pages.zones.dogga-zone')
                     </div>
-                    <div class="wrap-single-zone zone-tozeur" href='zone-tozeur'
-                        id="tozeur">
+                    <div class="wrap-single-zone zone-tozeur" href='zone-tozeur' id="tozeur">
                         <a title="Tozeur"></a>
                         @include('pages.zones.tozeur-zone')
                     </div>
-                    <div class="wrap-single-zone zone-matmata"  href='zone-matmata'>
+                    <div class="wrap-single-zone zone-matmata" href='zone-matmata'>
                         @include('pages.zones.matmata-zone')
                     </div>
-                    <div class="wrap-single-zone zone-djerba"  href='zone-djerba'>
+                    <div class="wrap-single-zone zone-djerba" href='zone-djerba'>
                         @include('pages.zones.djerba-zone')
                     </div>
-                    <div class="wrap-single-zone zone-eljem"  href='zone-eljem'>
+                    <div class="wrap-single-zone zone-eljem" href='zone-eljem'>
                         @include('pages.zones.eljem-zone')
                     </div>
                     <div class="wrap-single-zone zone-sfax" href='zone-sfax'>
@@ -583,7 +581,7 @@
                     </div>
                     <div class="btnchngimg">
                         <button class="btn btnimgbl" id="btnchngMpImg" onclick="chngMpImg()"><i
-                                class="fa-temperature-high fas" ></i>
+                                class="fa-temperature-high fas"></i>
                         </button>
                     </div>
                 </div>
@@ -615,21 +613,26 @@
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>튀니지에 대한민국 대사관이 있나요?</h2>
-                    <p id="section6p">네, 대한민국 대사관이 있습니다.<br>공관주소 및 연락처<br>주소: Immeuble BLUE SQUARE, Avenue de la
-                        Bourse, Les Berges du Lac 2, 1053 Tunis, Tunisie<br>전화: +216-71- 198- 595 / 71-198-596 /
-                        71-198-597<br>팩스: +216-71-198-598<br>E-Mail : tunisie@mofa.go.kr<br>비상 연락처(사건, 사고 등 24시간 긴급
-                        당직전화) : +216-99 -567-040</p>
-                   {{--  <img class=" img-section6-4" src="{{ asset('images/ambassade.png') }}"> --}}
+                    <p id="section6p">네, 대한민국 대사관이 있습니다.<br>
+
+                        주소: Immeuble BLUE SQUARE, Avenue de la Bourse, Les Berges du Lac 2, 1053 Tunis, Tunisie<br>
+
+                        전화: +216-71- 198- 595 / 71-198-596 / 71-198-597<br>
+
+                        E-Mail : tunisie@mofa.go.kr<br>
+
+                        비상 연락처 : +216-99 -567-040</p>
+                    {{--  <img class=" img-section6-4" src="{{ asset('images/ambassade.png') }}"> --}}
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>튀니지 내 한식당이 있나요?</h2>
-                    <p id="section6p">네, 튀니스 내 한인이 직접 운영하는 한식당과 튀니지인이 운영하는 한식당이 있습니다.
+                    <p id="section6p">네, 튀니스 내 한인이 직접 운영하는 한식당과 튀니지인이 운영하는 한식당이 있습니다.<br>
 
-                        – 튀니스 중심가: KOKODAK, Kim’s table
+                        – 튀니스 중심가: KOKODAK, Kim’s table<br>
 
-                        – 락2 한국대사관 근처: K-Zip
+                        – 락2 한국대사관 근처: K-Zip<br>
 
-                        – 라 마르사 : KIMCHI
+                        – 라 마르사 : KIMCHI<br>
 
                         – 엔 나스르: Le Bambou</p>
                     <img class=" img-section6" src="{{ asset('images/restaurant.png') }}">
@@ -641,19 +644,19 @@
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>어떤 통화(화폐)를 쓰나요?</h2>
-                    <p id="section6p">통화는 튀니지 디나르입니다. 현금 자동 인출기를 쉽게 찾을 수 있고, 공항이나 호텔이나 은행, 환전소, 우체국에서 달러 혹은 유로 현금을 현지 통화로 교환할 수 있어요.</p>
+                    <p id="section6p">통화는 튀니지 디나르입니다. 현금 자동 인출기를 쉽게 찾을 수 있고, 공항이나 호텔이나 은행, 환전소, 우체국에서 달러 혹은 유로 현금을 현지
+                        통화로 교환할 수 있어요.</p>
                     <img class=" img-section6" src="{{ asset('images/argent.png') }}">
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>튀니지에서 술이 허용되나요?</h2>
                     <p id="section6p">튀니지에서 술을 마실 수 있습니다. 하지만 이슬람의 영향으로 금요일에는 술 판매가 금지되며 길거리에서 술을 마시는 것도 불법입니다.
-                     튀니지산 맥주 브랜드인 셀티아(Celtia)와 와인 브랜드인 마공(Magon)이 유명합니다.</p>
-                    <img class=" img-section6-3"
-                        src="{{ asset('images/alcool.png') }}">
+                        튀니지산 맥주 브랜드인 셀티아(Celtia)와 와인 브랜드인 마공(Magon)이 유명합니다.</p>
+                    <img class=" img-section6-3" src="{{ asset('images/alcool.png') }}">
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>주말에 박물관 방문이 가능한가요?</h2>
-                    <p id="section6p">대부분의 튀니지 박물관은 토요일, 일요일에 운영하며 월요일이 휴무입니다. 하지만 미리 확인 후 방문하시는 걸 추천드려요.</p>
+                    <p id="section6p">대부분의 튀니지 박물관은 토요일, 일요일에 운영하며<br> 월요일이 휴무입니다. 하지만 미리 확인 후 방문하시는 걸 추천드려요.</p>
                     <img class=" img-section6-1" src="{{ asset('images/musuem.png') }}">
 
                 </div>
@@ -669,29 +672,40 @@
                 </div>
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>한국에서 핸드폰 유심을 사서 갈 수 있나요?</h2>
-                    <p id="section6p">튀니지 공항에 도착하시면 심카드를 구매할 수 있는 매장이 있습니다. 공항 내 Ooredoo 혹은 Orange 매장에서 심카드를 구매하는 걸 추천드려요.</p>
+                    <p id="section6p">튀니지 공항에 도착하시면 심카드를 구매할 수 있는 매장이 있습니다. 공항 내 Ooredoo 혹은 Orange 매장에서 심카드를 구매하는 걸
+                        추천드려요.</p>
                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
                 </div>
                 {{-- ajouter autre card --}}
                 <div id="section6cont">
                     <h2 class="sub-title" id='section6h2'>튀니지 디나르를 다시 달러나 유로로 재환전할 수 있나요?</h2>
-                    <p id="section6p">네, 외환을 디나르로 환전할 때 받은 환전증을 제시하면 가능합니다. 튀니지 디나르는 입반출 금지 물품으로서 신고여부와 관계없이 입반출 자체가 제한됩니다.</p>
-{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+                    <p id="section6p">네, 외환을 디나르로 환전할 때 받은 환전증을 제시하면 가능합니다. 튀니지 디나르는 입반출 금지 물품으로서 신고여부와 관계없이 입반출 자체가
+                        제한됩니다.</p>
+                    {{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
  --}}
-             </div>
-             <div id="section6cont">
-                <h2 class="sub-title" id='section6h2'>외화 반출입 관련 유의사항이 있나요?</h2>
-                <p id="section6p">튀니지 당국은 출국시 외환 불법 반출 여부를 철저히 단속중인바, 모든 여행객은 외화 입반출 가능 상한액을 확인하고 입출국 시 세관에 신고해야 합니다.
-                아래 대사관 홈페이지 참고 https://overseas.mofa.go.kr/tn-ko/brd/m_21401/view.do?seq=1321109&page=2</p>
-{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+                </div>
+                <div id="section6cont">
+                    <h2 class="sub-title" id='section6h2'>외화 반출입 관련 유의사항이 있나요?</h2>
+                    <p id="section6p">튀니지 당국은 출국시 외환 불법 반출 여부를 철저히 단속중인바, 모든 여행객은 외화 입반출 가능 상한액을 확인하고 입출국 시 세관에 신고해야
+                        합니다.<br>
+                        아래 대사관 홈페이지 참고 <br>https://overseas.mofa.go.kr/tn-ko/brd/m_21401/view.do?seq=1321109&page=2</p>
+                    {{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
 --}}
-         </div>
-         <div id="section6cont">
-            <h2 class="sub-title" id='section6h2'>기념품은 어디서 구매할 수 있나요?</h2>
-            <p id="section6p">각 도시의 메디나(구시가지) 시장 혹은 관광지 근처에서 살 수 있습니다. 수공예품의 경우, 마르사에 위치한 컨셉스토어에서도 구매할 수 있습니다.</p>
-{{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
+                </div>
+                <div id="section6cont">
+                    <h2 class="sub-title" id='section6h2'>기념품은 어디서 구매할 수 있나요?</h2>
+                    <p id="section6p">각 도시의 메디나(구시가지) 시장 혹은 관광지 근처에서 살 수 있습니다. 수공예품의 경우, 마르사에 위치한 컨셉스토어에서도 구매할 수 있습니다.
+                    </p>
+                    {{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
 --}}
-     </div>
+                </div>
+                <div id="section6cont">
+                    <h2 class="sub-title" id='section6h2'>공항 서비스 이용 시 만남 장소가 어딘가요?
+                    </h2>
+                    <p id="section6p">카르타고 공항의 입국장 지도를 확인하세요.
+                    </p>
+                    {{-- <img class=" img-section6-5" src="{{ asset('images/hijab.png') }}"> --}}
+                </div>
             </div>
 
 

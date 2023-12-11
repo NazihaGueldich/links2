@@ -129,7 +129,7 @@
                             <h5 class="titre-2">아프리카 최북단</h5>
                             <img src="{{ asset('images/map2-02-05_2.svg') }}" class="img2-section3 mt-n3"
                                 alt="Afrique">
-                            <p class="parghraphe1">아프리카 대륙의 최북단에 위치하며, 아틀라스 산맥을 따라 자리 잡은 나라들 중 가장 작은 국가예요.</p>
+                            <p class="parghraphe1">아프리카 대륙의 최북단에 위치하며, 아틀라스 산맥을<br> 따라 자리 잡은 나라들 중 가장 작은 국가예요.</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                             <h5 class="titre-2">북아프리카</h5>
                             <img src="{{ asset('images/map2-02-03_2.svg') }}" class="img1-section3 mt-n3"
                                 alt="Point Afrique">
-                            <p class="parghraphe1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와 남동쪽으로는 리비아와 국경을
+                            <p class="parghraphe1">아랍어로 "해가 지는 땅"이라는 의미의 마그레브 지역에 위치한 튀니지는 서쪽으로 알제리와<br> 남동쪽으로는 리비아와 국경을
                                 접하고
                                 있어요.</p>
                         </div>
@@ -150,7 +150,7 @@
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="titre-2">지중해</h5>
                             <img src="{{ asset('images/map2-02-04_2.svg') }}"class="img3-section3 mt-n3">
-                            <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 관문이기도 해요.</p>
+                            <p class="parghraphe1">지중해 서부 연안에 위치한 아프리카와 유럽의 <br>관문이기도 해요.</p>
                         </div>
                     </div>
                 </div>
@@ -220,10 +220,10 @@
                             class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
                             <div class="para-section">
                                 <p class="mt-3 mt-lg-5" id='sec3titrp5'>6월부터 9월:</p>
-                                <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며, 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는
+                                <p id='sec3spnprt5'>튀니지 현지의 여름은 매우 뜨겁습니다. 8월 평균 기온은 33C이며,<br> 40̊C가 넘을 때도 있어요.<br> 북부 튀니지는
                                     덥고 건조하며 남부로 내려갈수록 기온이 더
-                                    올라가며
-                                    건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을 보이니 일교차에 유념하여 가디건을
+                                    올라가며<br>
+                                    건조해지는 사하라 성 기후를 보입니다.<br> 하지만 아침, 저녁으로 해가 떨어지면 기온이 크게 내려가는 양상을<br> 보이니 일교차에 유념하여 가디건을
                                     챙기는 게
                                     좋습니다.</p>
                             </div>

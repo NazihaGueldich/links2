@@ -672,6 +672,14 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
     padding-top: 140px;
 }
 
+body #p3-section3 .tab-content .card-title{
+    color: #347EFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-top: 140px;
+}
+
 @media screen and (max-width: 1280px) {
     body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
         padding-top: 0;
