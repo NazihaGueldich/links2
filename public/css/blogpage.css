@@ -388,6 +388,10 @@ body{
     object-position: bottom;
 }
 
+#blog-page #section5 .crdsess5 #imgProf{
+    object-position: center;
+}
+
 #blog-page #section5 .crdsess5 .crdsess5-prt2 {
     display: flex;
     flex-direction: column;
