@@ -1,7 +1,9 @@
 #partners section {
     padding: 50px 0;
 }
-
+.text-partners-cont{
+    text-align: center
+}
 @media all and (max-width: 767px) {
     #partners .sub-title {
         font-size: 1rem !important;
