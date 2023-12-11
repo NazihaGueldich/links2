@@ -173,8 +173,24 @@
     border-radius: 20px;
     object-fit: contain;
     padding-left: 12px;
+    position: relative;
 }
 
+#blog-page #section4 .wrap-video:hover .ytblck {
+    opacity: 1;
+}
+#blog-page #section4 .ytblck {
+    height: 69px;
+    position: absolute;
+    opacity: 0;
+}
+#blog-page #section4 .background {
+    position: absolute;
+    height: 384px;
+    top: 0%;
+    left: 1%;
+    border-radius: 20px;
+}
 #blog-page #section4 .wrap-video .video-container {
     position: relative;
 }
@@ -200,11 +216,14 @@
 .wrap-video {
     position: relative;
     width: 100%;
-    padding-bottom: 22.25% !important;
+    padding-bottom: 5% !important;
     overflow: hidden;
     max-width: 100%;
+    display: flex;
     height: auto;
-    margin-bottom: -15%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .wrap-video iframe {
@@ -439,6 +458,7 @@ body{
         width: auto;
         padding-bottom: 10%;
     }
+    
 
     .slick-dots li button:before {
         margin-top: -118%;

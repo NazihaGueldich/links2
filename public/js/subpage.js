@@ -2,8 +2,8 @@ $('#section3 .slick-section3-web').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true,
-    arrows: false,
+    dots: false,
+    arrows: true,
     infinite: true,
     speed: 500,
     cssEase: 'linear'

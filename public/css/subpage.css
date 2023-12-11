@@ -112,6 +112,12 @@
     text-shadow: 5px 5px 10px #00000038;
 }
 
+#page-subpage #section3 .slick-prev {
+    left: -98px;
+}
+#page-subpage #section3 .slick-next {
+    right: -70px;
+}
 @media all and (max-width: 767px) {
     #page-subpage #section1 .text {
         font-size: 1.55rem;

@@ -129,15 +129,15 @@
                         <video id="my-video" class="video-js" preload="auto" poster="images/discover_touzer.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck"> 
                     </div>
-
-
                 </div>
                 <div>
                     <div class="wrap-video pb-lg-0" onclick="playVideo1()">
                         <video id="-video2" class="video-js" preload="auto" poster="images/vlog.png">
                             <source src="images/video2.mp4" type="video/mp4" />
                         </video>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
                         {{--  <div class="video-overlay" id='crd2'>
                             <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
                                 alt="Arrow Right white">
@@ -150,6 +150,7 @@
                         <video id="-video3" class="video-js" preload="auto" poster="images/tuni-vd.png">
                             <source src="images/vd.mp4" type="video/mp4" />
                         </video>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
                         {{--  <div class="video-overlay" id='crd3'>
                                 <button id="play-btn3" class="btn">Play Video <img src="{{ asset('images/Arrow Right Blue.png') }}"
                                     alt="Arrow Right white">
