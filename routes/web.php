@@ -55,6 +55,9 @@ Route::get('/partners', function () {
     return view('pages.partners');
 });
 
+Route::get('/Article', function () {
+    return view('pages.Article');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
