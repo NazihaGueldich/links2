@@ -460,8 +460,8 @@
                     <div class="d-flex flex-column prt8hov">
                         <div class="crd2 crd81">
                             <button class="btn btn-outline-primary button-main">스포츠</button>
-                            <img src="{{ asset('images/Sport_fun.jpg') }}" class="img-fluid img6"
-                                style="z-index: -1;" alt="Football Tunisie">
+                            <img src="{{ asset('images/Sport_fun.jpg') }}" class="img-fluid img6 index"
+                                 alt="Football Tunisie"  >
 
                         </div>
                         <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구 국가대표팀은
@@ -500,8 +500,8 @@
                         <div class="d-flex flex-column prt8hov">
                             <div class="crd2 crd81">
                                 <button class="btn btn-outline-primary button-main">스포츠</button>
-                                <img src="{{ asset('images/Sport_fun.jpg') }}" alt="Football" class="img-fluid img6"
-                                    style="z-index: -1;" alt="Image">
+                                <img src="{{ asset('images/Sport_fun.jpg') }}" alt="Football" class="img-fluid img6 index"
+                                     alt="Image">
                             </div>
                             <p class="p1prt8 pt-4">스포츠는 튀니지에서 점점 더 인기를 얻고 있어요. 특히 축구의 인기가 상당합니다. 2020년 10월, 튀니지 축구
                                 국가대표팀은 FIFA 세계랭킹에서 26위에 오르기도 했어요.</p>
@@ -514,10 +514,10 @@
 
 
     </div>
-    <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
-        <div class=" container ">
+    <footer class="footer" >
+        <div class=" container">
             <div class="row">
-                <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
+                <div class="col-lg-6 text-lg-end"  id='part1'>
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
                         <ul>
@@ -571,7 +571,7 @@
                                 <p>활동</p>
                             </div>
                     </a>
-                    <a href="trip-itinerary#to-main routes">
+                    <a href="about-atlantis#ligne-section-5">
                         <div class="part2">
                             <img src="{{ asset('images/Équipage.png') }}" alt="Équipage"
                                 class="object-fit-cover cover-img">
@@ -581,32 +581,31 @@
 
 
                 </div>
-
-
-
             </div>
 
-            <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
-                <div class="row">
-                    <div class="text-left col-lg-4 image-1">
-                        <img src="{{ asset('images/Rectangle2.svg') }}">
-                        <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
-                        <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
-                    </div>
-                    <div class="col-lg-4 text-center image-2">
-                        <span>All rights reserved ©</span>
-                    </div>
-                    <div class="col-lg-4 text-right image-3">
-                        <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
-                                src="{{ asset('images/fb.svg') }}"
-                                style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
-                                src="{{ asset('images/ig.svg') }}"
-                                style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
-                        <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
-                    </div>
+        </div>
+
+        <div class="w-100 mt-3 pt-2 px-0 container" id='part2'>
+            <div class="row">
+                <div class="text-left col-lg-4 image-footer-1">
+                    <img src="{{ asset('images/Rectangle2.svg') }}">
+                    <img src="{{ asset('images/Untitled-1.png') }}" class="heightimg">
+                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" class="heightimg">
+                </div>
+                <div class="col-lg-4 text-center image-footer-1">
+                    <span>All rights reserved ©</span>
+                </div>
+                <div class="col-lg-4 text-right image-footer-1">
+                    <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
+                            src="{{ asset('images/fb.svg') }}"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
+                            src="{{ asset('images/ig.svg') }}"
+                             alt="Instagramme"></a>
+                    <img src="{{ asset('images/yt.svg') }}"  id='imgyt'>
                 </div>
             </div>
+        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

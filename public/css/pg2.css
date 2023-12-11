@@ -1365,3 +1365,34 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
 #about-tunisia #section-9 .block-cards .col-lg-4{
     padding: 0 20px 0 20px !important;
 }
+
+
+#about-tunisia #section-10 .index{
+    z-index: -1;
+}
+
+#about-tunisia footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-tunisia footer #part1{
+    border-right:1px solid #B3B3B3;
+}
+#about-tunisia footer #part2{
+    border-top:1px solid #B3B3B3;
+}
+
+#about-tunisia footer #part2 .heightimg{
+    height: 24px;
+}
+#about-tunisia footer #part2 .image-footer-1 a{
+    height: 18px; 
+    max-width: 17px; 
+    margin-right: 4%;
+}
+#about-tunisia footer #part2 .image-footer-1 #imgyt{
+    height: 18px; 
+    max-width: 26px;
+}
