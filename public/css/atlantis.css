@@ -800,3 +800,14 @@ body#page-atlantis .card-session4-spns .card-body {
 section {
     padding: 0;
 }
+
+
+#page-atlantis #section-1 #logoat {
+    max-width: 150px;
+}
+#page-atlantis #section-1 #logCWT {
+    max-width: 80px;
+}
+#page-atlantis #section-5 .tret {
+    left: 37% !important;
+}
