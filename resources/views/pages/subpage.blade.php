@@ -544,46 +544,46 @@
             <h2 class="main-title text-center">Our Trips’ main routes</h2>
             <p class="text-center">튀니지 내 필수 방문도시들과 경로를 확인해보세요.</p>
             <div class="wrap-trips-routes">
-                <div class="img-container" style="display: inline-block; position: relative;">
+                <div class="img-container img-section5" >
                     <img id='imgMap' src="{{ asset('images/trips-routes/map-tour1.svg') }}" alt="trips-routes"
-                        width="596" style="height: 100%; object-fit: cover;">
-                    <div class="wrap-single-zone zone-tunis" style="left: 57.07%; top: 13%;" href='tunis-zone'>
+                        width="596">
+                    <div class="wrap-single-zone zone-tunis"  href='tunis-zone'>
                         @include('pages.zones.tunis-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kerkouane" style="left: 40%;top: 56.1%;">
+                    <div class="wrap-single-zone zone-kerkouane" >
                         <a title=""></a>
                         @include('pages.zones.douz-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sousse" style="left: 63.07%; top: 26%;" href='zone-sousse'>
+                    <div class="wrap-single-zone zone-sousse" href='zone-sousse'>
                         @include('pages.zones.sousse-zone')
                     </div>
-                    <div class="wrap-single-zone zone-kairouane" style="left: 55.57%; top: 28%;"
+                    <div class="wrap-single-zone zone-kairouane"
                         href='zone-kairouane'>
                         @include('pages.zones.kairouane-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sufetela" style="left: 44%; top: 18.78%;" href='zone-dogga'>
+                    <div class="wrap-single-zone zone-sufetela" href='zone-dogga'>
                         @include('pages.zones.dogga-zone')
                     </div>
-                    <div class="wrap-single-zone zone-tozeur" style="left: 28.57%; top: 51.2%;" href='zone-tozeur'
+                    <div class="wrap-single-zone zone-tozeur" href='zone-tozeur'
                         id="tozeur">
                         <a title="Tozeur"></a>
                         @include('pages.zones.tozeur-zone')
                     </div>
-                    <div class="wrap-single-zone zone-matmata" style="left: 51.17%; top: 56.6%;" href='zone-matmata'>
+                    <div class="wrap-single-zone zone-matmata"  href='zone-matmata'>
                         @include('pages.zones.matmata-zone')
                     </div>
-                    <div class="wrap-single-zone zone-djerba" style="left: 66.17%; top: 52.8%;" href='zone-djerba'>
+                    <div class="wrap-single-zone zone-djerba"  href='zone-djerba'>
                         @include('pages.zones.djerba-zone')
                     </div>
-                    <div class="wrap-single-zone zone-eljem" style="left: 64.17%;top: 33%;" href='zone-eljem'>
+                    <div class="wrap-single-zone zone-eljem"  href='zone-eljem'>
                         @include('pages.zones.eljem-zone')
                     </div>
-                    <div class="wrap-single-zone zone-sfax" style="left: 64.17%;top: 41%;" href='zone-sfax'>
+                    <div class="wrap-single-zone zone-sfax" href='zone-sfax'>
                         @include('pages.zones.sfax-zone')
                     </div>
                     <div class="btnchngimg">
                         <button class="btn btnimgbl" id="btnchngMpImg" onclick="chngMpImg()"><i
-                                class="fa-temperature-high fas" style="font-size: x-large;"></i>
+                                class="fa-temperature-high fas" ></i>
                         </button>
                     </div>
                 </div>

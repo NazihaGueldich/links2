@@ -9,7 +9,53 @@
 .sub-title2-3 {
     padding-bottom: 10px;
 }
+.img-section5{
+    display: inline-block; position: relative;
 
+}
+#imgMap{
+    height: 100%; object-fit: cover;
+}
+.zone-tunis{
+    left: 57.07%; top: 13%;
+
+}
+.zone-kerkouane{
+    left: 40%;top: 56.1%;
+}
+.zone-sousse{
+    left: 63.07%; top: 26%;
+}
+.zone-kairouane{
+    left: 55.57%; top: 28%;
+}
+.zone-sufetela{
+    left: 44%; top: 18.78%;
+}
+.zone-tozeur{
+    left: 28.57%; top: 51.2%;
+}
+.zone-matmata{
+    left: 51.17%; top: 56.6%;
+
+}
+.zone-matmata
+{
+    left: 51.17%; top: 56.6%;
+
+}
+.zone-djerba{
+    left: 66.17%; top: 52.8%;
+}
+.zone-eljem{
+    left: 64.17%;top: 33%;
+}
+.zone-sfax{
+    left: 64.17%;top: 41%;
+}
+.fa-temperature-high{
+    font-size: x-large;
+}
 #page-subpage .ligne-separtion {
     border: 1px solid #B5D0FF;
     position: relative;
@@ -81,7 +127,7 @@
         bottom: -131px;
     }
     #page-subpage #section1 .overlay-content {
- 
+
         top: 50%;
     }
 }
