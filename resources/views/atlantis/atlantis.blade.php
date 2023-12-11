@@ -734,13 +734,6 @@
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                             <p id="sess5crd6p">Douz, Tunisia</p>
                         </div>
-                        <div class="note">
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                        </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Camp Mars</h2>
                     </a>
                 </div>

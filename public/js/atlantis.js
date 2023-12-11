@@ -211,6 +211,8 @@ function srllcrdssess5(x) {
 
         if(z==0&i==5){
             nbs=3;
+        }else if(z==1&i==5){
+            nbs=0;
         }else{
             nbs=5;
         }
@@ -228,16 +230,19 @@ function srllcrdssess5(x) {
             <img src="../images/gps.png" alt='gps' class="mr-2">
             <p id="sess5crd1p">` + p + `</p>
         </div> ` ;
-        if(nbs==3){
-            sectionContent += ` <div class="note" style="left: 37%;">`
-        }else{
-            sectionContent += ` <div class="note">`
+        if(nbs!=0){
+            if(nbs==3){
+                sectionContent += ` <div class="note" style="left: 37%;">`
+            }else{
+                sectionContent += ` <div class="note">`
+            }
+            for(var j=0;j<nbs;j++){
+                sectionContent += `<img src="../images/review_Star.svg" alt='star'>`
+            }  
+            sectionContent += `</div>`
         }
-        for(var j=0;j<nbs;j++){
-            sectionContent += `<img src="../images/review_Star.svg" alt='star'>`
-        }  
         
-        sectionContent += `</div>
+        sectionContent += `
         <h2 id="sess5crd1h2" class="sub-title sess5h2">` + h2 + `</h2>
         </a>
     </div>`;
