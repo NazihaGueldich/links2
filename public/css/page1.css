@@ -333,6 +333,92 @@ body {
     font-size: 0.85rem;
 }
 
+#index #section-9 #tunis-weather #ww_51f06295ce562{
+    max-width: 100% ;
+    border-radius: 20px ;
+}
+#index #section-9 #sfax-weather{
+    display: none;
+}
+#index #section-9 #sfax-weather #ww_a4fcd1b6e1551{
+    max-width: 100%;
+    border-radius: 20px;
+}
+#index #section-9 #kairouan-weather{
+    display: none;
+}
+#index #section-9 #kairouan-weather #ww_2939843357c77{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#index #section-4 .sess3 #imageCov1{
+    background-image:  url("../images/Sidi-Bou-Saïd.png");
+    background-size: cover;
+    background-position: 50% 55%;
+}
+#index #section-4 .sess3 #imageCov2{
+    background-image:  url("../images/sahhara.png");
+    background-size: cover;
+    background-position: 50% 71%;
+    display:none;
+}
+#index #section-4 .sess3 #imageCov3{
+    background-image:  url("../images/ramadan-tunisia-white-background 1.png");
+    background-size: cover;
+    background-position:  30% 82%;
+    display:none;
+}
+#index #section-4 .sess3 #imageCov4{
+    background-image:  url("../images/Rectangle 8246.png");
+    background-size: cover;
+    background-position:  43% 48%;
+    display:none;
+}
+
+#index #section-5 .crdrev .boy{
+    width: 91.88px; 
+    height: 91.88px;
+}
+
+#index #section-6 .container{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+#index #section-6 .container .lignes{
+    margin: 10px;
+}
+
+#index #section-7 #contenue{
+    resize: none;
+}
+
+#index footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#index footer #part1{
+    border-right:1px solid #B3B3B3;
+}
+#index footer #part2{
+    border-top:1px solid #B3B3B3;
+}
+
+#index footer #part2 .heightimg{
+    height: 24px;
+}
+#index footer #part2 .image-footer-1 a{
+    height: 18px; 
+    max-width: 17px; 
+    margin-right: 4%;
+}
+#index footer #part2 .image-footer-1 #imgyt{
+    height: 18px; 
+    max-width: 26px;
+}
 .input-search:focus {
     width: 147px;
     border: 1px solid #347EFF !important;

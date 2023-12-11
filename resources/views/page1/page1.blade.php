@@ -338,21 +338,21 @@
                 <button id='btnKairouan' class="p-2 btninactv">카이로우안</button>
             </div>
             <div id="tunis-weather">
-                <div id="ww_51f06295ce562" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
+                <div id="ww_51f06295ce562"  v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_51f06295ce562_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_51f06295ce562"></script>
             </div>
-            <div id="sfax-weather" style="display: none">
-                <div id="ww_a4fcd1b6e1551" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
+            <div id="sfax-weather" >
+                <div id="ww_a4fcd1b6e1551"  v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3361"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_a4fcd1b6e1551_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_a4fcd1b6e1551"></script>
             </div>
-            <div id="kairouan-weather" style="display: none">
-                <div id="ww_2939843357c77" style="max-width: 100%;border-radius: 20px" v='1.3' loc='id'
+            <div id="kairouan-weather" >
+                <div id="ww_2939843357c77"  v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1701"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_2939843357c77_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
@@ -370,8 +370,7 @@
         <div class="container sess3">
             <div class="city-section">
                 <div class="w-100 ">
-                    <div style="background-image: url('{{ asset('images/Sidi-Bou-Saïd.png') }}');   background-size: cover;
-                        background-position: 50% 55%;"
+                    <div 
                         class="image1-2 links_box-shadox" id="imageCov1">
                     </div>
                     <p id="paragraph1" class="links_box-p"> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
@@ -379,8 +378,7 @@
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
                         도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
-                    <div style="background-image: url('{{ asset('images/sahhara.png') }}');background-size: cover;
-                            background-position: 50% 71%;display:none"
+                    <div 
                         class="image1-2 links_box-shadox" id="imageCov2">
                     </div>
                     <p id="paragraph2" class="links_box-p">튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의
@@ -389,8 +387,7 @@
                         수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
                         의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
 
-                    <div style="background-image: url('{{ asset('images/ramadan-tunisia-white-background 1.png') }}');   background-size: cover;
-                        background-position: 30% 82%;display:none"
+                    <div 
                         class="image1-2 links_box-shadox" id="imageCov3">
                     </div>
                     <p id="paragraph3" class="links_box-p">튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
@@ -399,8 +396,7 @@
                         모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요.
                         카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
 
-                    <div style="background-image: url('{{ asset('images/Rectangle 8246.png') }}');   background-size: cover;
-                        background-position: 43% 48%;display:none"
+                    <div 
                         class="image1-2 links_box-shadox" id="imageCov4">
                     </div>
 
@@ -542,9 +538,8 @@
                     </div>
                 </div>
                 <div class="crdrev">
-                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center ">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy" >
                         <div class="card-body text-center">
                             <h5 class="card-title title">백OO</h5>
                             <p class="card-text">튀니지 사람들은 친절해요!! 눈 마주치면 꼭 인사를 해줍니다^___^ ‘하리싸’가 들어간 음식이 많아서 매운음식 생각날때
@@ -555,8 +550,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">박OO</h5>
                             <p class="card-text">전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
@@ -582,8 +576,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">마OO</h5>
                             <p class="card-text">사람들이 친절하고 역사가 깊은 튀니지 ! 고대 로마 유적지를 눈 앞에서 볼 수 있고 밤발로니, 쿠스쿠스, 하리사 등
@@ -593,8 +586,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">오OO</h5>
                             <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지. 지중해를 배경으로하는 시디부사이드의 모습은 아직도 잊지 못할 것
@@ -617,8 +609,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">이OO</h5>
                             <p class="card-text">튀니지는 여행지가 진짜 매력적인 나라라고 생각합니다. 감마르트, 수스, 함마메트 등 꼭 가봐야하는 여행지가 매우 많습니다.
@@ -629,8 +620,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">송OO</h5>
                             <p class="card-text">튀니지는 예쁜 해변이 많아서 여름에 수영하기 좋아요. 튀니지에 여러 유명한 바다가 있지만 가장 최고는 비제르트입니다. 이곳에
@@ -641,8 +631,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
-                            style="width: 91.88px; height: 91.88px;" class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">정OO</h5>
                             <p class="card-text">튀니지의 사하라사막에서의 하룻밤은 평생 기억에 남을거예요. 쏟아지는 별을 보다가 자고, 또 아침 일출을 보면서 튀니지에 온 걸
@@ -656,12 +645,12 @@
 
 
     <section id="section-6">
-        <div class="container" style="display: flex; align-items: center; justify-content: space-around;">
+        <div class="container" >
             <div class="divundf">
                 <span class="textbas">여기에 더 많은 의견</span>
                 <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}" alt="faces">
             </div>
-            <hr class="lignes" style="margin: 10px;">
+            <hr class="lignes" >
             <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
         </div>
     </section>
@@ -699,7 +688,7 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group mb-lg-0 form-textaria">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" style="resize: none;"
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" 
                                 placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group text-lg-right mt-lg-4 button-formulaire">
@@ -859,10 +848,10 @@
         </div>
     </section> --}}
 
-    <footer class="footer" style="display: flex;flex-direction: column;align-items: center;">
+    <footer class="footer" >
         <div class=" container">
             <div class="row">
-                <div class="col-lg-6 text-lg-end" style="border-right:1px solid #B3B3B3">
+                <div class="col-lg-6 text-lg-end"  id='part1'>
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
                         <ul>
@@ -930,12 +919,12 @@
 
         </div>
 
-        <div class="w-100 mt-3 pt-2 px-0 container" style="border-top:1px solid #B3B3B3">
+        <div class="w-100 mt-3 pt-2 px-0 container" id='part2'>
             <div class="row">
                 <div class="text-left col-lg-4 image-footer-1">
                     <img src="{{ asset('images/Rectangle2.svg') }}">
-                    <img src="{{ asset('images/Untitled-1.png') }}" style="height: 24px;">
-                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" style="height: 24px;">
+                    <img src="{{ asset('images/Untitled-1.png') }}" class="heightimg">
+                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" class="heightimg">
                 </div>
                 <div class="col-lg-4 text-center image-footer-1">
                     <span>All rights reserved ©</span>
@@ -943,11 +932,11 @@
                 <div class="col-lg-4 text-right image-footer-1">
                     <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
                             src="{{ asset('images/fb.svg') }}"
-                            style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Facebook"></a>
+                            alt="Facebook"></a>
                     <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
                             src="{{ asset('images/ig.svg') }}"
-                            style="height: 18px; max-width: 17px; margin-right: 4%;" alt="Instagramme"></a>
-                    <img src="{{ asset('images/yt.svg') }}" style="height: 18px; max-width: 26px;">
+                             alt="Instagramme"></a>
+                    <img src="{{ asset('images/yt.svg') }}"  id='imgyt'>
                 </div>
             </div>
         </div>
