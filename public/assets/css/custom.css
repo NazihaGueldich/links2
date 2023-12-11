@@ -681,7 +681,10 @@ body #p3-section3 .tab-content .card-title{
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 25px;
-    padding-top: 140px;
+    padding-top: 35px;
+}
+body #p3-section4 .lignhght{
+    line-height: 30px;
 }
 
 @media screen and (max-width: 1280px) {
