@@ -1,5 +1,7 @@
 #blog-page section {
     padding: 30px 0;
+    width: 94%;
+    margin-right: 3%;
 }
 
 #blog-page .ligne-separtion {
@@ -146,11 +148,12 @@
         text-align: center;
         z-index: 1;
     }
-    #section4 .slick-dots li button:before{
-        margin-top:9% !important
+
+    #section4 .slick-dots li button:before {
+        margin-top: 9% !important
     }
 
-    #section5 .slick-dots li button:before{
+    #section5 .slick-dots li button:before {
 
         margin-top: -50% !important
     }
@@ -179,11 +182,13 @@
 #blog-page #section4 .wrap-video:hover .ytblck {
     opacity: 1;
 }
+
 #blog-page #section4 .ytblck {
     height: 69px;
     position: absolute;
     opacity: 0;
 }
+
 #blog-page #section4 .background {
     position: absolute;
     height: 384px;
@@ -191,6 +196,7 @@
     left: 1%;
     border-radius: 20px;
 }
+
 #blog-page #section4 .wrap-video .video-container {
     position: relative;
 }
@@ -314,10 +320,10 @@
     bottom: -54px;
 }
 
-#blog-page #section4 .wrap-video .backround{
+#blog-page #section4 .wrap-video .backround {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     height: 384px;
     width: 688px;
     border-radius: 20px;
@@ -371,12 +377,20 @@
         left: 27%;
         top: 10%;
     }
+
     #blog-page #section4 .wrap-video #play-btn2 {
         margin-top: 185px !important;
     }
 
+    #blog-page #section4 .wrap-video .backround {
+
+        height: 202px;
+        width: 345px;
     }
-body{
+
+}
+
+body {
     word-break: keep-all
 }
 
@@ -412,7 +426,7 @@ body{
     object-position: bottom;
 }
 
-#blog-page #section5 .crdsess5 #imgProf{
+#blog-page #section5 .crdsess5 #imgProf {
     object-position: center;
 }
 
@@ -463,14 +477,15 @@ body{
         width: auto;
         padding-bottom: 10%;
     }
-    
+
 
     .slick-dots li button:before {
         margin-top: -118%;
         font-size: 20px;
         margin-left: 0%;
     }
-    #section3 .slick-dots li button:before{
+
+    #section3 .slick-dots li button:before {
         margin-top: 17px !important
     }
 }
