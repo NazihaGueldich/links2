@@ -1,7 +1,5 @@
 #blog-page section {
     padding: 30px 0;
-    width: 94%;
-    margin-right: 3%;
 }
 
 #blog-page .ligne-separtion {
@@ -12,6 +10,11 @@
 }
 
 @media all and (max-width: 767px) {
+    #blog-page #section4 {
+        width: 94%;
+        margin-right: 4%;
+    }
+
     #blog-page .sub-title {
         font-size: 1rem !important;
 
@@ -338,7 +341,7 @@
         margin-left: 0;
     }
 
-    #blog-page #section4 .wrap-video .video-js{
+    #blog-page #section4 .wrap-video .video-js {
         padding-left: 0;
         height: auto;
     }
@@ -532,7 +535,8 @@ blog-page #section5 #crcl7sess6 {
     blog-page #section5 #crcl7sess6 {
         margin: 0px 3px;
     }
-    #section4{
+
+    #section4 {
         margin: 0 auto;
     }
 }
