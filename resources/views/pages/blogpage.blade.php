@@ -129,7 +129,7 @@
                         <video id="my-video" class="video-js" preload="auto" poster="images/discover_touzer.png">
                             <source src="images/Tozeur.mp4" type="video/mp4" />
                         </video>
-                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck"> 
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
                     </div>
                 </div>
                 <div>
@@ -237,7 +237,7 @@
                         <p>북아프리카의 진주이자 모로코와 더불어 한국인 무비자 입국이 가능한 나라 튀지니.</p>
                         <p>튀니지는 프랑스나 이탈리아, 독일 등 유러피안들에게는 이미 널리 알려진 휴양지이지만 아직 한국에서는 낮선 나라 중 한곳이다.</p>
                         <div>
-                            <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                           <a  href="{{ url('/Article') }}" > <button class="btn">Read more <i class="fas fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
