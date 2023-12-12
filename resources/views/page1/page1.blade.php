@@ -550,18 +550,29 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
+                        <div class="card-body text-center">
+                            <h5 class="card-title title">오OO</h5>
+                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지. 지중해를 배경으로하는 시디부사이드의 모습은 아직도 잊지 못할 것
+                                같습니다. 사람들도 친절했고 음식도 맛있었고 좋은 기억만 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="crdrev" id='crd1'>
+                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">박OO</h5>
-                            <p class="card-text">전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
+                            <p class="card-text" >전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
                                 국가지만 개방적인 편이라 무슬림이 아니어도 생활하는데 큰 어려움은 없었어요. 물론 인종차별도 있고 한국인에게 과한 관심을 보일 때도 종종 있었지만 위협적으로
                                 느껴질 만큼은 아니었어요. 튀니지에 간다면 시디 부 사이드, 메디나에 방문해보시는 걸 추천드려요. 시디 부 사이드에서는 탁 트인 바다를 볼 수 있고
                                 메디나에서는 튀니지 전통시장 분위기를 느낄 수 있어요. 또 튀니스를 벗어나서 수스, 모나스티르에서 휴양을 즐기는 것도 좋았고 사하라 사막 여행도 잊지 못할
                                 경험이었으니 여유 있게 일정 짜셔서 튀니스 말고도 여러 군데 가보시면 좋을 것 같아요:)</p>
+                                <button class="crdlng1" id='btn1' onclick="crdheight(1)">더보기</button>
                         </div>
                     </div>
                 </div>
-                <div class="crdrev">
+                <div class="crdrev" id="crd2">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
                             class="card-img-top">
@@ -571,6 +582,7 @@
                                 사이드에서 파란색과 흰색의 조화와 함께 이슬람 분위기까지 동시에 느낄 수 있어요. 튀니지 남부에 위치한 두즈에는 사막이 있어 낙타 탑승과 모터사이클 체험에
                                 사막에서 1박하기까지! 사막에서 베드윈족과 함께 그들의 생활양식을 체험할 수 있다는 경험 자체가 설레지 않을까요?? 푸른 지중해와 이색적인 사막을 모두 즐기고
                                 싶다면 튀니지로 오세요 :)</p>
+                                <button class="crdlng1" id='btn2' onclick="crdheight(2)">더보기</button>
                         </div>
                     </div>
                 </div>
@@ -584,16 +596,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="crdrev">
-                    <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
-                        <div class="card-body text-center">
-                            <h5 class="card-title title">오OO</h5>
-                            <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지. 지중해를 배경으로하는 시디부사이드의 모습은 아직도 잊지 못할 것
-                                같습니다. 사람들도 친절했고 음식도 맛있었고 좋은 기억만 있습니다.</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'

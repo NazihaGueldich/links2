@@ -703,3 +703,23 @@ $(document).ready(function () {
     initSlick();
     $(window).resize(initSlick);
 });
+
+
+function crdheight(num) {
+    var crdid = 'crd' + num;
+    var crd = document.getElementById(crdid);
+    var btnid='btn'+num;
+    //var btn= document.getElementById(btnid);
+    if (crd.offsetHeight === 343) {
+        if(num==1){
+            crd.style.height='465px';
+        }else{
+            crd.style.height='390px';
+        }
+        //btn.textContent   = '덜 본다';
+    } else {
+        crd.style.height='343px';
+        //btn.textContent   = '더보기';
+    }
+}
+

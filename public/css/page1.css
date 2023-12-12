@@ -246,7 +246,7 @@ body.tunisiatrip .card-body {
     border: none;
 }
 .crdrev{
-    height: 464px;
+    height: 343px;
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -293,7 +293,20 @@ body {
     word-break: keep-all
 }
 
-
+.crdlng1 {
+    position: absolute;
+    color: #347EFF;
+    font-size: .8rem;
+    bottom: 4px;
+    text-align: right;
+    right: 32px;
+    width: 110px;
+    border: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 42%);
+}
+.crdlng1:hover{
+    font-weight: bold;
+}
 .row {
     display: -ms-flexbox;
     display: flex;
