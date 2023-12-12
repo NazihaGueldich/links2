@@ -314,6 +314,15 @@
     bottom: -54px;
 }
 
+#blog-page #section4 .wrap-video .backround{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 384px;
+    width: 688px;
+    border-radius: 20px;
+}
+
 @media all and (max-width: 767px) {
 
     .wrap-video-sect1 {
@@ -366,10 +375,6 @@
         margin-top: 185px !important;
     }
 
-/*     #blog-page #section4 #crd2 button {
-        margin-left: -18%;
-        width: 119px;
-    } */
     }
 body{
     word-break: keep-all

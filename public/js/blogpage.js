@@ -54,16 +54,16 @@ function changSection6(index) {
 }
 
 function BPsrllcrdssess5(indx) {
-    var j=1;
-    for(var i=0;i<3;i++){
-        var idcrcl='crcl'+j+'sess5';
+    var j = 1;
+    for (var i = 0; i < 3; i++) {
+        var idcrcl = 'crcl' + j + 'sess5';
         var crcl = document.getElementById(idcrcl);
-        console.log(crcl    );
-        if(i==indx){
+        console.log(crcl);
+        if (i == indx) {
             crcl.style.backgroundImage = "url(../images/ptbl.svg)";
-            crcl.style.backgroundSize="auto";
+            crcl.style.backgroundSize = "auto";
             console.log(crcl);
-        }else{
+        } else {
             crcl.style.backgroundImage = "url(../images/ftbl.svg)";
             console.log(crcl);
         }
@@ -128,3 +128,30 @@ $('.slick-sect4').slick({
         }
     }]
 });
+
+
+function playvid(numvid) {
+    for (var i = 1; i < 4; i++) {
+        var idback = 'back' + i;
+        var back = document.getElementById(idback);
+        var idyout = 'yt' + i;
+        var yout = document.getElementById(idyout);
+        var idvideo = 'video' + i;
+        var video = document.getElementById(idvideo);
+        if (i == numvid) {
+            if (video.paused) {
+                video.play();
+                back.style.display = 'none';
+                yout.style.display = 'none';
+            } else {
+                video.pause();
+                back.style.display = 'block';
+                yout.style.display = 'block';
+            }
+        }else{
+            back.style.display = 'block';
+            yout.style.display = 'block';
+            video.pause();
+        }
+    }
+}

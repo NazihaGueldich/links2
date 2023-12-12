@@ -125,124 +125,132 @@
             <h2 class="main-title text-center">Videos About TUNISIA</h2>
             <div class=" slick-sect4">
                 <div>
-                    <div class="wrap-video pb-lg-0" onclick="playVideo()">
-                        <video id="my-video" class="video-js" preload="auto" poster="images/discover_touzer.png">
-                            <source src="images/Tozeur.mp4" type="video/mp4" />
-                        </video>
-                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
+                    <div class="wrap-video pb-lg-0" onclick="playvid(1)">
+                        <div>
+                            <video id='video1' class="video-js" preload="auto" poster="">
+                                <source src="images/Tozeur.mp4" type="video/mp4" />
+                            </video>
+                            <img src="{{ asset('images/discover_touzer.png') }}" alt="backround" class="backround"
+                                id="back1">
+                        </div>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck"
+                            id='yt1'>
                     </div>
                 </div>
                 <div>
-                    <div class="wrap-video pb-lg-0" onclick="playVideo1()">
-                        <video id="-video2" class="video-js" preload="auto" poster="images/vlog.png">
-                            <source src="images/video2.mp4" type="video/mp4" />
-                        </video>
-                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
-                        {{--  <div class="video-overlay" id='crd2'>
-                            <button id="play-btn2" class="btn">Play Video <img src="{{ asset('images/Arrow Right white.png') }}"
-                                alt="Arrow Right white">
-                        </button>
-                        </div> --}}
+                    <div class="wrap-video pb-lg-0" onclick="playvid(2)">
+                        <div>
+                            <video id='video2' class="video-js" preload="auto" poster="">
+                                <source src="images/video2.mp4" type="video/mp4" />
+                            </video>
+                            <img src="{{ asset('images/vlog.png') }}" alt="backround" class="backround"
+                                id="back2">
+                        </div>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck"
+                            id='yt2'>
                     </div>
                 </div>
                 <div>
-                    <div class="wrap-video pb-lg-0" onclick="playVideo2()">
-                        <video id="-video3" class="video-js" preload="auto" poster="images/tuni-vd.png">
-                            <source src="images/vd.mp4" type="video/mp4" />
-                        </video>
-                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck">
-                        {{--  <div class="video-overlay" id='crd3'>
-                                <button id="play-btn3" class="btn">Play Video <img src="{{ asset('images/Arrow Right Blue.png') }}"
-                                    alt="Arrow Right white">
-                        </button> --}}
+                    <div class="wrap-video pb-lg-0" onclick="playvid(3)">
+                        <div>
+                            <video id='video3' class="video-js" preload="auto" poster="">
+                                <source src="images/vd.mp4" type="video/mp4" />
+                            </video>
+                            <img src="{{ asset('images/tuni-vd.png') }}" alt="backround" class="backround"
+                                id="back3">
+                        </div>
+                        <img src="{{ asset('images/btnytblck.png') }}" alt="Youtub" class="ytblck"
+                            id='yt3'>
                     </div>
                 </div>
             </div>
-    </div>
-    </section>
-    <div class="ligne-separtion"></div>
-    {{-- section 5 --}}
-    <section id='section5' class="container">
-        <h2 class="main-title text-center">Articles</h2>
-        <div id='section5-cont'>
-            <div class="crdsess5  p-lg-5 mt-lg-3">
-                <div class="row">
-                    <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="{{ asset('images/Bardo_museum.jpg') }}"
-                            alt="Bardo National Museum">
-                    </div>
-                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                        <p class="sub-title ">바르도 박물관</p>
-                        <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
-                        <p> 특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어세계 최대의 모자이크 전시관으로 유명합니다.</p>
-                        <div>
-                            <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+        <div class="ligne-separtion"></div>
+        {{-- section 5 --}}
+        <section id='section5' class="container">
+            <h2 class="main-title text-center">Articles</h2>
+            <div id='section5-cont'>
+                <div class="crdsess5  p-lg-5 mt-lg-3">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/Bardo_museum.jpg') }}"
+                                alt="Bardo National Museum">
                         </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">바르도 박물관</p>
+                            <p>바르도 박물관은 튀니지 전역에서 발굴된 유물들을 비롯해 그리스, 로마, 이집트 유물을 시대별로 전시해 놓았어요.</p>
+                            <p> 특히 고대의 다양한 모자이크 장식품 등이 전시돼 있어세계 최대의 모자이크 전시관으로 유명합니다.</p>
+                            <div>
+                                <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                            </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="crdsess5  p-lg-5 mt-lg-5">
-                <div class="row">
-                    <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="{{ asset('img/Trans_Taxi.jpg') }}" alt="Hot hatch">
-                    </div>
-                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                        <p class="sub-title ">택시</p>
-                        <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.</p>
-                        <p> 택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 지급 방식이 달라요..</p>
-                        <div>
-                            <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="crdsess5  p-lg-5 mt-lg-5">
-                <div class="row">
-                    <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="{{ asset('images/Couscous.jpg') }}"
-                            alt="kouskous with osban">
-                    </div>
-                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                        <p class="sub-title ">쿠스쿠스</p>
-                        <p>듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
-                        <div>
-                            <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('img/Trans_Taxi.jpg') }}" alt="Hot hatch">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">택시</p>
+                            <p>튀니지의 택시는 노란색이라 눈에 쉽게 띈다는 장점이 있어요.</p>
+                            <p> 택시는 미터 택시와 앱 택시로 나눌 수 있고, 둘의 요금 지급 방식이 달라요..</p>
+                            <div>
+                                <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="crdsess5  p-lg-5 mt-lg-5">
-                <div class="row">
-                    <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="{{ asset('images/lablebi.png') }}" alt="Lablebi">
-                    </div>
-                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                        <p class="sub-title ">라블라비</p>
-                        <p>마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
-                        <div>
-                            <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/Couscous.jpg') }}"
+                                alt="kouskous with osban">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">쿠스쿠스</p>
+                            <p>듀럼밀을 갈아서 만든 ‘세몰리나’ 알갱이에 양고기, 생선, 당근과 감자 등을 함께 쪄서 만든 요리예요.</p>
+                            <div>
+                                <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="crdsess5  p-lg-5 mt-lg-5">
-                <div class="row">
-                    <div class="col-lg-6 crdsess5-prt1">
-                        <img class='crdsess5-img' src="{{ asset('images/kaelagha.png') }}" alt="Kamel Il Agha" id='imgProf'>
-                    </div>
-                    <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                        <p class="sub-title ">북아프리카의 진주 ‘튀니지’를 주목하라</p>
-                        <p class="sub-sub-title">카멜 라가 아틀란티스여행 사장 방한, 세일즈콜 </p>
-                        <p>북아프리카의 진주이자 모로코와 더불어 한국인 무비자 입국이 가능한 나라 튀지니.</p>
-                        <p>튀니지는 프랑스나 이탈리아, 독일 등 유러피안들에게는 이미 널리 알려진 휴양지이지만 아직 한국에서는 낮선 나라 중 한곳이다.</p>
-                        <div>
-                           <a  href="{{ url('/Article') }}" > <button class="btn">Read more <i class="fas fa-arrow-right"></i></button></a>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/lablebi.png') }}" alt="Lablebi">
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">라블라비</p>
+                            <p>마늘과 커민 향이 나는 맑은 국물에 마른 병아리콩을 넣어 만든 튀니지 병아리콩 수프예요.</p>
+                            <div>
+                                <button class="btn">Read more <i class="fas fa-arrow-right"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            {{-- <div class="d-flex justify-content-center mt-5 ">
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/kaelagha.png') }}" alt="Kamel Il Agha"
+                                id='imgProf'>
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">북아프리카의 진주 ‘튀니지’를 주목하라</p>
+                            <p class="sub-sub-title">카멜 라가 아틀란티스여행 사장 방한, 세일즈콜 </p>
+                            <p>북아프리카의 진주이자 모로코와 더불어 한국인 무비자 입국이 가능한 나라 튀지니.</p>
+                            <p>튀니지는 프랑스나 이탈리아, 독일 등 유러피안들에게는 이미 널리 알려진 휴양지이지만 아직 한국에서는 낮선 나라 중 한곳이다.</p>
+                            <div>
+                                <a href="{{ url('/Article') }}"> <button class="btn">Read more <i
+                                            class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="d-flex justify-content-center mt-5 ">
                     <a class="carousel-control-prev flch"  role="button"
                         data-slide="prev" onclick="BPsrllcrdssess5(-1)">
                         <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
@@ -257,175 +265,9 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div> --}}
-        </div>
-    </section>
+            </div>
+        </section>
     </div>
-    <script>
-        function playVideo() {
-            var video = document.getElementById('my-video');
-
-            if (video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
-
-            video.onplaying = function() {
-                video.setAttribute('controls', 'controls');
-            };
-
-            video.onpause = function() {
-                video.removeAttribute('controls');
-            };
-        }
-
-        function playVideo1() {
-            var video = document.getElementById('-video2');
-
-            if (video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
-            video.onplaying = function() {
-                video.setAttribute('controls', 'controls');
-            };
-
-            video.onpause = function() {
-                video.removeAttribute('controls');
-            };
-        }
-
-        function playVideo2() {
-            var video = document.getElementById('-video3');
-
-            if (video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
-            video.onplaying = function() {
-                video.setAttribute('controls', 'controls');
-            };
-
-            video.onpause = function() {
-                video.removeAttribute('controls');
-            };
-        }
-    </script>
-    <script>
-        const videos = document.querySelectorAll('video');
-
-        videos.forEach(video => {
-            video.addEventListener('play', () => {
-                pauseOtherVideos(video);
-            });
-        });
-
-        function pauseOtherVideos(currentVideo) {
-            videos.forEach(video => {
-                if (video !== currentVideo && !video.paused && !video.ended) {
-                    video.pause();
-                }
-            });
-        }
-    </script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var myVideo = document.getElementById('-video');
-            var playButton = document.getElementById('play-btn');
-
-            myVideo.controls = false;
-
-
-            function playVideo() {
-                myVideo.play();
-                myVideo.controls = true;
-            }
-
-            playButton.addEventListener('click', playVideo);
-        });
-
-
-        document.addEventListener("DOMContentLoaded", function() {
-            const playButton = document.getElementById('play-btn');
-            const video = document.getElementById('-video');
-            const videoTitle = document.getElementById('video-title');
-
-            playButton.addEventListener('click', function() {
-                video.play();
-                playButton.style.display = 'none';
-                videoTitle.style.display = 'none';
-            });
-
-            video.addEventListener('play', function() {
-                playButton.style.display = 'none';
-                videoTitle.style.display = 'none';
-            });
-        });
-
-        document.addEventListener('DOMContentLoaded', function() {
-            var myVideo = document.getElementById('-video2');
-            var playButton = document.getElementById('play-btn2');
-
-            myVideo.controls = false;
-
-
-            function playVideo() {
-                myVideo.play();
-                myVideo.controls = true;
-            }
-
-            playButton.addEventListener('click', playVideo);
-        });
-
-
-        document.addEventListener("DOMContentLoaded", function() {
-            const playButton = document.getElementById('play-btn2');
-            const video = document.getElementById('-video2');
-
-            playButton.addEventListener('click', function() {
-                video.play();
-                playButton.style.display = 'none';
-            });
-
-            video.addEventListener('play', function() {
-                playButton.style.display = 'none';
-            });
-        });
-
-        document.addEventListener('DOMContentLoaded', function() {
-            var myVideo = document.getElementById('-video3');
-            var playButton = document.getElementById('play-btn3');
-
-            myVideo.controls = false;
-
-
-            function playVideo() {
-                myVideo.play();
-                myVideo.controls = true;
-            }
-
-            playButton.addEventListener('click', playVideo);
-        });
-
-
-        document.addEventListener("DOMContentLoaded", function() {
-            const playButton = document.getElementById('play-btn3');
-            const video = document.getElementById('-video3');
-
-            playButton.addEventListener('click', function() {
-                video.play();
-                playButton.style.display = 'none';
-                videoTitle.style.display = 'none';
-            });
-
-            video.addEventListener('play', function() {
-                playButton.style.display = 'none';
-                videoTitle.style.display = 'none';
-            });
-        });
-    </script>
+ 
 
     @include('layouts.front.footer')
