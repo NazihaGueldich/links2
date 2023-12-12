@@ -294,9 +294,15 @@ body#page-atlantis .sect2-prt1 img {
     }
 
     body#page-atlantis .sect2-prt1 img {
-        height: 290px !important;
+        height: 200px !important;
         object-fit: cover;
         border-radius: 20px;
+    }
+    body#page-atlantis .sect2-prt2 .txt {
+        font-size: 0.95rem;
+        margin-bottom: -4% !important;
+        line-height: 32px;
+        padding-bottom: 0  !important;
     }
 }
 

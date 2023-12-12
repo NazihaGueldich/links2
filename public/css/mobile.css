@@ -128,8 +128,14 @@
         padding-top: 0;
     }
 
-    #index .slick-dots {
-        bottom: -23px;
+    #index #section-2 .slick-dots {
+        bottom: 0px;
+    }
+    #index #section-4 .slick-dots {
+        bottom: -10px;
+    }
+    #index  #section-8 .slick-dots {
+        bottom: -30px;
     }
     #index #mySlickCarousel .slick-dots {
         bottom: 30px;

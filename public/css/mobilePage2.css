@@ -42,14 +42,23 @@
         }
 
         #sec3img {
-            height: 200px;
-    padding: 0 40px 40px 40px;
+            height: 131px;
+            padding: 0 40px 0px 40px;
+            margin-bottom: 7%;
+        }
+        #section-5 .allsec {
+            height: 544px;
+        }
+        #section-6 .allsec {
+            height: 501px;
         }
 
         body section {
             padding: 30px 0;
         }
-
+        #section-8 .allsec{
+            height: 512px;
+        }
 
         #section-5 .ligne-separtion {
             display: none;
@@ -83,6 +92,13 @@
 
         #section-5 .parghraphe {
             font-size: 1rem;
+        }
+
+        #section-5 .row ,#section-6 .row {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
         }
 
         .parghraphe1 {
@@ -652,13 +668,13 @@
         }
 
         .ktbchng {
-            height: auto;
+            height: 100%;
             width: 100%;
         }
 
         .txt1 {
             font-size: 0.95rem;
-            margin-bottom: 2%;
+            margin-bottom: 1%;
         }
 
         #crcl3 {
