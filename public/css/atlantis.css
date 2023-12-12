@@ -300,8 +300,7 @@ body#page-atlantis .sect2-prt1 img {
     }
     body#page-atlantis .sect2-prt2 .txt {
         font-size: 0.95rem;
-        margin-bottom: -4% !important;
-        line-height: 32px;
+        line-height: 28px;
     }
     body#page-atlantis .sect2-prt2 {
         padding-bottom: 0 !important;
@@ -588,11 +587,11 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 997px) {
     .card-session4-cnt {
         border: 2px solid #347EFF;
-        height: 528px;
+        height: 545px;
     }
 
     #s4prttxt {
-        height: 260px;
+        height: 305px;
     }
 
     .imgsess4 {
@@ -608,6 +607,7 @@ body#page-atlantis .card-session4-spns .card-body {
 
     .psess4 {
         line-height: normal !important;
+        margin-bottom: 6px;
     }
 
     #page-atlantis .slick-next {
