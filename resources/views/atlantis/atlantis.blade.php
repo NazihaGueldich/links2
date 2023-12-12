@@ -90,7 +90,7 @@
                     <div class="col-lg-5 h-100 pr-lg-5">
                         <div class="d-flex justify-content-center pb-3 pt-2">
                             <img src="{{ asset('images/Atlantis_logo_temporary.svg') }}" class="w-100 mr-3"
-                                alt="Atlantis Logo"  id='logoat'>
+                                alt="Atlantis Logo" id='logoat'>
                             <div class="separator"></div>
                             <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
                                 alt="CWT" id="logCWT">
@@ -140,20 +140,20 @@
                             alt='Kamel Lagha'>
                     </div>
                     <div class="col-lg-6 h-100 py-3 pl-lg-5 sect2-prt2 ">
-                            <h2 class="sub-title mb-lg-3">"튀니지로 여러분을 초대합니다"</h2>
+                        <h2 class="sub-title mb-lg-3">"튀니지로 여러분을 초대합니다"</h2>
 
-                            <p class="m-0 pt-lg-5 pt-3 txt">반갑습니다,</p>
-                            <p class="m-0 txt">튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
-                            <p class="m-0 txt">유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
-                            <p class="m-0 txt">튀니지는 프랑스 및 이탈리아에 인접하여,
-                                아프리카와 유럽을 이어주는 다리 역할을 하고 있습니다.</p>
-                            <p class="m-0 txt">아틀란티스는 진실한 마음과 오랜 경험을 토대로
-                                튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
-                                최고의 여행을 안내해 드립니다.</p>
-                            <p class="m-0 txt">곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
-                            <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
-                            <p class="txt">아틀란티스 여행사 대표</p>
-                        
+                        <p class="m-0 pt-lg-5 pt-3 txt">반갑습니다,</p>
+                        <p class="m-0 txt">튀니지 아틀란티스 여행사 대표 카멜 라가입니다.</p>
+                        <p class="m-0 txt">유구한 역사와 친절한 사람들로 유명한 튀니지로 여러분을 초대합니다.</p>
+                        <p class="m-0 txt">튀니지는 프랑스 및 이탈리아에 인접하여,
+                            아프리카와 유럽을 이어주는 다리 역할을 하고 있습니다.</p>
+                        <p class="m-0 txt">아틀란티스는 진실한 마음과 오랜 경험을 토대로
+                            튀니지의 아름다운 자연환경과 깊은 역사, 역동적인 현재를 넘나드는
+                            최고의 여행을 안내해 드립니다.</p>
+                        <p class="m-0 txt">곧 아름다운 튀니지에서 여러분을 만날 수 있기를 기대합니다.</p>
+                        <h5 class="sub-sub-title pt-lg-4">카멜 라가,</h5>
+                        <p class="txt">아틀란티스 여행사 대표</p>
+
                     </div>
                 </div>
             </div>
@@ -299,14 +299,12 @@
                         <h5 class="sub-sub-title" id='h2sess4'>Fee 상담 후 메일 안내</h5>
                     </div>
 
-
                     <div class="col-lg-7 h-100 card-session4-cnt-imgs px-0 " id='PAS4I1'>
                         <img src="{{ asset('images/Car.jpg') }}" class=" w-100 imgsess4 radius-20" alt="Car">
 
                     </div>
                     <div class="col-lg-7 card-session4-cnt-imgs px-0 " id='PAS4I2'>
-                        <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" imgsess4 radius-20"
-                            alt="Car">
+                        <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" imgsess4 radius-20" alt="Car">
                         <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">
                         <img src="{{ asset('images/Mini bus 5.jpg') }}" class=" w-100 imgsess4 radius-20"
@@ -449,11 +447,11 @@
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
                             <p id="sess5crd6p"> Douz, Tunisia</p>
                         </div>
-                        <div class="note tret"  >
+                        <div class="note tret">
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
                             <img src="{{ asset('images/review_Star.svg') }}" alt='star'>
-                            
+
                         </div>
                         <h2 id="sess5crd6h2" class="sub-title sess5h2">Pansy KSAR Ghilene</h2>
                     </a>
@@ -724,8 +722,8 @@
                     <a href="https://camp-mars.com/">
 
                         <div class="mask-image">
-                            <img id='sess5crd6img' src="{{ asset('images/mars2.jpg') }}"
-                                class="img-fluid" alt="Camp Mars">
+                            <img id='sess5crd6img' src="{{ asset('images/mars2.jpg') }}" class="img-fluid"
+                                alt="Camp Mars">
                         </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
                             class="cercle-img">
                         <p class="text-img">링크</p>

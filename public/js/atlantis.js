@@ -95,7 +95,7 @@ function chngcontsess4(x) {
     if (numcrd == 0) {
         for (var i = 0; i < crd1.length; i++) {
             secImg.innerHTML += `
-                <img class='w-100 imgsess4 radius-20' src="../images/` + crd1[i] + `" alt="Bardo National Museum">
+                <img class='w-100 imgsess4 radius-20' src="../images/`+ crd1[i] + `" alt="Bardo National Museum">
         `;
         }
         PAS4I1.style.opacity = 1;
@@ -111,9 +111,10 @@ function chngcontsess4(x) {
     } else if (numcrd == 2) {
         for (var i = 0; i < crd3.length; i++) {
             secImg.innerHTML += `
-                        <img class='w-100 imgsess4 radius-20' src="../images/` + crd3[i] + `" alt="Bardo National Museum">
-                `;
+                <img class='w-100 imgsess4 radius-20' src="../images/${crd3[i]}" alt="Bardo National Museum">
+            `;
         }
+
         PAS4I1.style.opacity = 1;
         PAS4I1.style.position = 'relative';
         PAS4I2.style.opacity = 0;
@@ -121,8 +122,8 @@ function chngcontsess4(x) {
     } else if (numcrd == 3) {
         for (var i = 0; i < crd4.length; i++) {
             secImg.innerHTML += `
-                        <img class='w-100 imgsess4 radius-20' src="../images/` + crd4[i] + `" alt="Bardo National Museum">
-                `;
+         <img class='w-100 imgsess4 radius-20' src="../images/`+ crd4[i] + `" alt="Bardo National Museum">
+        `;
         }
         PAS4I1.style.opacity = 1;
         PAS4I1.style.position = 'relative';
@@ -220,7 +221,7 @@ function srllcrdssess5(x) {
         <div class="col-lg-3  sess5crd radius-20">
         <a id="sess5crd1href" href="` + a + `">
         <div class="mask-image">
-            
+
             <img id='sess5crd1img' src="../images/` + img + `" class="img-fluid"
                 alt="` + alt + `">
         </div>
@@ -238,10 +239,10 @@ function srllcrdssess5(x) {
             }
             for(var j=0;j<nbs;j++){
                 sectionContent += `<img src="../images/review_Star.svg" alt='star'>`
-            }  
+            }
             sectionContent += `</div>`
         }
-        
+
         sectionContent += `
         <h2 id="sess5crd1h2" class="sub-title sess5h2">` + h2 + `</h2>
         </a>
@@ -344,9 +345,9 @@ function PAsrllcrdssess6(x) {
         sectionContent += `
         <a href="` + a + `" id="sess6crd1href">
             <div class="mask-image">
-            
+
                 <img class="sess6crdimg" src="../images/` + img + `" class="img-fluid" alt="` + alt + `">
-                
+
             </div>
             <img src="../images/sess6crd1crcl.png" alt='cercle blue' class="cercle-img">
             <p class="text-img">링크</p>
