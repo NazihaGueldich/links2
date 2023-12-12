@@ -24,6 +24,7 @@ body {
     #page-atlantis #section-4 .col-12 {
         align-items: center;
     }
+ 
 }
 
 @media (max-width: 767px) {
@@ -299,8 +300,8 @@ body#page-atlantis .sect2-prt1 img {
         border-radius: 20px;
     }
     body#page-atlantis .sect2-prt2 .txt {
-        font-size: 0.95rem;
-        line-height: 28px;
+        font-size:1rem;
+        line-height:2rem;
     }
     body#page-atlantis .sect2-prt2 {
         padding-bottom: 0 !important;
