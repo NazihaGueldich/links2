@@ -352,6 +352,9 @@ body .wrap-culinary-card .culinary-card .card-body {
     body .wrap-culinary-card .culinary-card .card-body {
         text-align: center;
     }
+    body .wrap-culinary-card {
+        margin: 25px 0 25px 0;
+    }
 }
 
 body .wrap-culinary-card .culinary-card .card-body h5 {
@@ -363,10 +366,12 @@ body .wrap-culinary-card .culinary-card .card-body h5 {
 }
 
 body .wrap-culinary-card .culinary-card .card-body .card-text {
-    color: #515151;
+    /* color: #515151; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
 }
 
 #logimg {
@@ -530,9 +535,11 @@ body .wrap-nav-transportation .tab-content .tab-pane>.row img {
 }
 
 body .wrap-nav-transportation .tab-content p {
-    text-align: justify;
     font-size: 1rem;
-    line-height: 2.2rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
 }
 
 @media screen and (max-width: 1280px) {
@@ -681,7 +688,12 @@ body #p3-section3 .tab-content .card-title{
     padding-top: 35px;
 }
 body #p3-section4 .lignhght{
-    line-height: 30px;
+    font-size: 1rem;
+    color: #000000;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
 }
 
 @media screen and (max-width: 1280px) {
@@ -705,6 +717,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
         flex-direction: column;
         padding: 15px;
         width: 92%;
+        height: 771px;
     }
 
     body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
