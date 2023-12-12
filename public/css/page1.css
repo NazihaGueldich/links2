@@ -377,13 +377,13 @@ body {
 }
 
 #index #section-5 .crdrev .boy{
-    width: 91.88px; 
+    width: 91.88px;
     height: 91.88px;
 }
 
 #index #section-6 .container{
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 #index #section-6 .container .lignes{
@@ -411,12 +411,12 @@ body {
     height: 24px;
 }
 #index footer #part2 .image-footer-1 a{
-    height: 18px; 
-    max-width: 17px; 
+    height: 18px;
+    max-width: 17px;
     margin-right: 4%;
 }
 #index footer #part2 .image-footer-1 #imgyt{
-    height: 18px; 
+    height: 18px;
     max-width: 26px;
 }
 .input-search:focus {
@@ -1408,17 +1408,10 @@ section.background-section {
 .ktbchng{
     margin: 0 auto;
     border-radius: 20px;
-    height: 344px;
+    height: 285px;
     border: 1px solid #B3B3B3;
 }
-.imgactv {
-    display: block;
-    width: 100%;
-    margin: 30px 0px 30px 25px !important;
-    object-fit: cover;
-    border-radius: 20px;
-    height: 260px;
-}
+
 
 .btnactv1 {
     width: 13%!important;
@@ -1677,7 +1670,7 @@ section.background-section {
 .imgactv {
     display: block;
     width: 100%;
-    margin: 30px 0px 30px 25px !important;
+    margin: 10px 0px 30px 25px !important;
     object-fit: cover;
     border-radius: 20px;
     height: 260px;
