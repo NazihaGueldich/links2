@@ -610,7 +610,7 @@ body{
 }
 
 .wrap-trips-routes .wrap-trips-routes-infos p {
-    line-height: 2;
+    line-height: 2rem;
 }
 
 .wrap-trips-routes-infos .content {
