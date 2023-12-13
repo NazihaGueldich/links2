@@ -34,7 +34,12 @@
     height: 455px;
     width: 86% !important;
     margin-left: 8%;
-}
+    }
+    
+    .ktbchng{
+        height: 320px;
+    }
+
     #section-2>.container>.row {
         flex-direction: column;
     }

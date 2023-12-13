@@ -1688,10 +1688,9 @@ section.background-section {
 .imgactv {
     display: block;
     width: 100%;
-    margin: 10px 0px 30px 25px !important;
+    margin: 20px 0px 20px 25px !important;
     object-fit: cover;
     border-radius: 20px;
-    height: 260px;
 }
 
 
@@ -1759,6 +1758,7 @@ body .slick-slide1{
 /* section 2 */
 section .block-cards {
     display: flex;
+    margin-right: 0;
 }
 
 .section-2-hover:hover {
