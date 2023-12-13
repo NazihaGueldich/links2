@@ -58,10 +58,7 @@
     <div class="container pb-lg-5">
         <section id='section-1' class="container">
             <div class="error-container mt-lg-5">
-                <h1>404 - Page Not Found</h1>
-                <p>죄송합니다</p>
-                <p> 일시적으로 사용할 수 없습니다.</p>
-
+                <h1>404 - 페이지를 찾을 수 없음</h1>
             </div>
         </section>
     </div>
