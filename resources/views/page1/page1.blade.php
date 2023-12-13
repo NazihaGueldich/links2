@@ -370,7 +370,7 @@
         <div class="container sess3">
             <div class="city-section">
                 <div class="w-100 ">
-                    <div 
+                    <div
                         class="image1-2 links_box-shadox" id="imageCov1">
                     </div>
                     <p id="paragraph1" class="links_box-p"> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
@@ -378,7 +378,7 @@
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
                         도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
-                    <div 
+                    <div
                         class="image1-2 links_box-shadox" id="imageCov2">
                     </div>
                     <p id="paragraph2" class="links_box-p">튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의
@@ -387,7 +387,7 @@
                         수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
                         의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
 
-                    <div 
+                    <div
                         class="image1-2 links_box-shadox" id="imageCov3">
                     </div>
                     <p id="paragraph3" class="links_box-p">튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
@@ -396,7 +396,7 @@
                         모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요.
                         카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
 
-                    <div 
+                    <div
                         class="image1-2 links_box-shadox" id="imageCov4">
                     </div>
 
@@ -560,32 +560,31 @@
                 </div>
                 <div class="crdrev" id='crd1'>
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">박OO</h5>
-                            <p class="card-text" >전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
+                            <p class="card-text">전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
                                 국가지만 개방적인 편이라 무슬림이 아니어도 생활하는데 큰 어려움은 없었어요. 물론 인종차별도 있고 한국인에게 과한 관심을 보일 때도 종종 있었지만 위협적으로
                                 느껴질 만큼은 아니었어요. 튀니지에 간다면 시디 부 사이드, 메디나에 방문해보시는 걸 추천드려요. 시디 부 사이드에서는 탁 트인 바다를 볼 수 있고
                                 메디나에서는 튀니지 전통시장 분위기를 느낄 수 있어요. 또 튀니스를 벗어나서 수스, 모나스티르에서 휴양을 즐기는 것도 좋았고 사하라 사막 여행도 잊지 못할
                                 경험이었으니 여유 있게 일정 짜셔서 튀니스 말고도 여러 군데 가보시면 좋을 것 같아요:)</p>
-                                <button class="crdlng1" id='btn1' onclick="crdheight(1)">더보기</button>
+                            <button class="crdlng1 btn-toggle" id='btn1' onclick="crdheight(1)">더 보기</button>
                         </div>
                     </div>
-                </div>
-                <div class="crdrev" id="crd2">
+                    </div>
+                    <div class="crdrev" id="crd2">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
-                            class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">전OO</h5>
                             <p class="card-text">지중해 국가 여행을 색다르게 해보고 싶다면 튀니지는 분명히 매력적으로 다가올 것 같아요. 그리스 산토리니를 연상케하는 시디 부
                                 사이드에서 파란색과 흰색의 조화와 함께 이슬람 분위기까지 동시에 느낄 수 있어요. 튀니지 남부에 위치한 두즈에는 사막이 있어 낙타 탑승과 모터사이클 체험에
                                 사막에서 1박하기까지! 사막에서 베드윈족과 함께 그들의 생활양식을 체험할 수 있다는 경험 자체가 설레지 않을까요?? 푸른 지중해와 이색적인 사막을 모두 즐기고
                                 싶다면 튀니지로 오세요 :)</p>
-                                <button class="crdlng1" id='btn2' onclick="crdheight(2)">더보기</button>
+                            <button class="crdlng1 btn-toggle" id='btn2' onclick="crdheight(2)">더 보기</button>
                         </div>
                     </div>
-                </div>
+                    </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
@@ -596,7 +595,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
@@ -691,7 +690,7 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group mb-lg-0 form-textaria">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" 
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl"
                                 placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group text-lg-right mt-lg-4 button-formulaire">
