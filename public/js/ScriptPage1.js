@@ -703,38 +703,30 @@ $(document).ready(function () {
     initSlick();
     $(window).resize(initSlick);
 });
-
-
 function crdheight(num) {
     var crdid = 'crd' + num;
     var crd = document.getElementById(crdid);
-    var btnid='btn'+num;
-    //var btn= document.getElementById(btnid);
+    var btn = crd.querySelector('.btn-toggle');
+
     if (window.innerWidth <= 767) {
-        if (crd.offsetHeight === 455) {
-            if(num==1){
-                crd.style.height='675px';
-            }else{
-                crd.style.height='529px';
-            }
-            //btn.textContent   = '덜 본다';
+        if (crd.classList.contains('collapsed') || crd.clientHeight <= 455) {
+            crd.style.height = 'auto';
+            crd.classList.remove('collapsed');
+            btn.innerText = '덜 보여주기';
         } else {
-            crd.style.height='455px';
-            //btn.textContent   = '더보기';
+            crd.style.height = '455px';
+            crd.classList.add('collapsed');
+            btn.innerText = '더 보기';
         }
     } else {
-        if (crd.offsetHeight === 343) {
-            if(num==1){
-                crd.style.height='465px';
-            }else{
-                crd.style.height='390px';
-            }
-            //btn.textContent   = '덜 본다';
+        if (crd.classList.contains('collapsed') || crd.clientHeight <= 343) {
+            crd.style.height = 'auto';
+            crd.classList.remove('collapsed');
+            btn.innerText = '덜 보여주기';
         } else {
-            crd.style.height='343px';
-            //btn.textContent   = '더보기';
+            crd.style.height = '343px';
+            crd.classList.add('collapsed');
+            btn.innerText = '더 보기';
         }
     }
-    
 }
-
