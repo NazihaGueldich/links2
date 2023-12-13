@@ -10,6 +10,8 @@
     max-width: 1400px
 }
 
+
+
 #page-info .custom-card .row {
 
     margin-top: 6%;
@@ -60,7 +62,6 @@
 .b-left{
     margin-left: 4px;
 }
-
 }
 .btninactv {
     border: 1px solid #347EFF !important;
@@ -440,6 +441,7 @@ body #p3-section5>.container>.row {
     body .main-title {
         margin-bottom: 20px;
         font-size: 1.5rem;
+        margin-top: 35px;
     }
     body .wrap-nav-transportation {
         margin-top: 11px !important;
@@ -913,7 +915,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 
 .icon-search {
     position: absolute;
-    top: 5%;
+    top: 13%;
     right: 14px;
     pointer-events: none;
 }
