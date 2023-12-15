@@ -171,6 +171,24 @@
         <section id='section5' class="container">
             <h2 class="main-title text-center">Articles</h2>
             <div id='section5-cont'>
+                <div class="crdsess5  p-lg-5 mt-lg-5">
+                    <div class="row">
+                        <div class="col-lg-6 crdsess5-prt1">
+                            <img class='crdsess5-img' src="{{ asset('images/Kamel-Lagha.jpg') }}" alt="Kamel Il Agha"
+                                id='imgProf'>
+                        </div>
+                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
+                            <p class="sub-title ">북아프리카의 진주 ‘튀니지’를 주목하라</p>
+                            <p class="sub-sub-title">카멜 라가 아틀란티스여행 사장 방한, 세일즈콜 </p>
+                            <p>북아프리카의 진주이자 모로코와 더불어 한국인 무비자 입국이 가능한 나라 튀지니.</p>
+                            <p>튀니지는 프랑스나 이탈리아, 독일 등 유러피안들에게는 이미 널리 알려진 휴양지이지만 아직 한국에서는 낮선 나라 중 한곳이다.</p>
+                            <div>
+                                <a href="{{ url('/article') }}"> <button class="btn">Read more <i
+                                            class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="crdsess5  p-lg-5 mt-lg-3">
                     <div class="row">
                         <div class="col-lg-6 crdsess5-prt1">
@@ -232,24 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="crdsess5  p-lg-5 mt-lg-5">
-                    <div class="row">
-                        <div class="col-lg-6 crdsess5-prt1">
-                            <img class='crdsess5-img' src="{{ asset('images/kaelagha.png') }}" alt="Kamel Il Agha"
-                                id='imgProf'>
-                        </div>
-                        <div class="col-lg-6 pl-lg-5 crdsess5-prt2">
-                            <p class="sub-title ">북아프리카의 진주 ‘튀니지’를 주목하라</p>
-                            <p class="sub-sub-title">카멜 라가 아틀란티스여행 사장 방한, 세일즈콜 </p>
-                            <p>북아프리카의 진주이자 모로코와 더불어 한국인 무비자 입국이 가능한 나라 튀지니.</p>
-                            <p>튀니지는 프랑스나 이탈리아, 독일 등 유러피안들에게는 이미 널리 알려진 휴양지이지만 아직 한국에서는 낮선 나라 중 한곳이다.</p>
-                            <div>
-                                <a href="{{ url('/Article') }}"> <button class="btn">Read more <i
-                                            class="fas fa-arrow-right"></i></button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 {{-- <div class="d-flex justify-content-center mt-5 ">
                     <a class="carousel-control-prev flch"  role="button"
                         data-slide="prev" onclick="BPsrllcrdssess5(-1)">

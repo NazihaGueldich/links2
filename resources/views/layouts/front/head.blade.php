@@ -35,7 +35,8 @@
     <link rel="stylesheet" href="{{ asset('css/blogpage.css') }}">
     <link rel="stylesheet" href="{{ asset('css/partners.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
-
+    <link rel="stylesheet" href="{{ asset('css/404.css') }}">
+    
     <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     <link rel="stylesheet" href="{{ asset('css/article.css') }}">
 

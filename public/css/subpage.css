@@ -136,6 +136,46 @@
 
         top: 50%;
     }
+    .zone-tunis{
+        left: 57.07%; top: 17%;
+
+    }
+    .zone-kerkouane{
+        left: 40%;top: 56.1%;
+    }
+    .zone-sousse{
+        left: 63.07%; top: 28%;
+    }
+    .zone-kairouane{
+        left: 55.57%; top: 30%;
+    }
+    .zone-sufetela{
+        left: 44%; top: 21.78%;
+    }
+    .zone-tozeur{
+        left: 28.57%; top: 51.2%;
+    }
+    .zone-matmata{
+        left: 51.17%; top: 56.6%;
+
+    }
+    .zone-matmata
+    {
+        left: 51.17%; top: 56.6%;
+
+    }
+    .zone-djerba{
+        left: 66.17%; top: 52.8%;
+    }
+    .zone-eljem{
+        left: 64.17%;top: 35%;
+    }
+    .zone-sfax{
+        left: 64.17%;top: 41%;
+    }
+    .fa-temperature-high{
+        font-size: x-large;
+    }
 }
 
 body{
