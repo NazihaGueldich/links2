@@ -340,9 +340,10 @@ body .wrap-culinary-card .culinary-card {
 }
 
 body .wrap-culinary-card .culinary-card .card-img-top {
-    width: auto;
     width: 100%;
-    height: auto;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 body .wrap-culinary-card .culinary-card .card-body {

@@ -304,7 +304,7 @@
                     <ul class="list-culinary-card p-0 mb-lg-0">
                         <li>
                             <div class="culinary-card">
-                                <img class="card-img-top" src="{{ asset('assets/img/culinary1.png') }}"
+                                <img class="card-img-top" src="{{ asset('assets/img/couscous.jpg') }}"
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">쿠스쿠스</h5>
@@ -314,7 +314,7 @@
                         </li>
                         <li>
                             <div class="culinary-card">
-                                <img class="card-img-top" src="{{ asset('assets/img/culinary2.png') }}"
+                                <img class="card-img-top" src="{{ asset('assets/img/brick.jpg') }}"
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">브릭</h5>
@@ -324,7 +324,7 @@
                         </li>
                         <li>
                             <div class="culinary-card">
-                                <img class="card-img-top" src="{{ asset('assets/img/culinary3.png') }}"
+                                <img class="card-img-top" src="{{ asset('assets/img/Lablaby.jpg') }}"
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">라블라비</h5>
@@ -334,11 +334,81 @@
                         </li>
                         <li>
                             <div class="culinary-card">
-                                <img class="card-img-top" src="{{ asset('assets/img/culinary4.png') }}"
+                                <img class="card-img-top" src="{{ asset('assets/img/Ojja_2.jpg') }}"
                                     alt="Card image cap">
                                 <div class="card-body p-0">
                                     <h5 class="card-title">오짜</h5>
                                     <p class="card-text">반숙 달걀과 감자, 토마토, 양파, 마늘, 향신료를 올리브 오일로 조리하고, 메르게즈나 생선 등을 넣기도 해요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/macarona.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">마카로나</h5>
+                                    <p class="card-text">튀니지의 스파게티로 하리사 양념을 넣은 소스에 닭고기나 양고기 등을 곁들여요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/kafteji.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">케프테지</h5>
+                                    <p class="card-text">튀긴 채소로 만든 전통 요리로 가금류나 생선과 곁들여 먹어요. 주로 피망, 감자, 가지, 토마토, 호박 등의 잘게 썬 채소를 튀긴 뒤 양념과 달걀을 넣어요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/Fricassee.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">프리카세</h5>
+                                    <p class="card-text">완숙 달걀, 참치, 케이퍼, 튀니지 올리브, 삶은 감자와 하리사로 만든 튀긴 샌드위치예요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/bambalouni.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">밤발로니</h5>
+                                    <p class="card-text">도넛의 튀니지 버전이라고 할 수 있어요. 밀가루 반죽을 기름에 튀긴 뒤 설탕을 뿌려 먹어요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/makroudh.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">마크루드</h5>
+                                    <p class="card-text">세몰리나 쿠키로, 대추야자 페이스트리를 반죽에 채워 기름에 튀긴 인기 간식이에요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/salata_meechiwa.jpg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">슬라따 마슈위야</h5>
+                                    <p class="card-text">양파, 마늘, 토마토, 고추 등의 채소를 구운 뒤 올리브유, 참치 등과 섞고 삶은 달걀과 올리브를 고명으로 올려 먹어요.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="culinary-card">
+                                <img class="card-img-top" src="{{ asset('assets/img/mint_tea.jpeg') }}"
+                                    alt="Card image cap">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title">민트차</h5>
+                                    <p class="card-text">끓는 물에 녹차와 박하잎을 우려서 만들어요. 잣, 아몬드, 캐슈너트와 같은 견과류를 함께 즐기기도 해요.</p>
                                 </div>
                             </div>
                         </li>
