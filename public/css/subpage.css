@@ -358,6 +358,11 @@ body{
 }
 }
 
+
+#page-subpage #section3 .imgAirways{
+    height: 50px;
+}
+
 #page-subpage #section3 .crdsess3 .crdsess3prt1 {
     background-image: url("../images/kourtotunis.png");
     background-repeat: no-repeat;
@@ -365,11 +370,13 @@ body{
     border-radius: 20px;
     height: 222.23px;
     box-shadow: inset 0 0 0 1000px rgb(52, 126, 255, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#page-subpage #section3 .crdsess3 .crdsess3prt1 p {
-    padding-top: 88px;
-}
+
 
 #page-subpage #section3 .crdsess3 .crdsess3prt2 {
     display: flex;

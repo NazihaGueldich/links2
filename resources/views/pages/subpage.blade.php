@@ -77,6 +77,7 @@
                 <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
+                            <img  src="{{ asset('images/Qatar.svg') }}" alt="Airways" class="imgAirways">
                             <p class="sub-sub-title text-center">Qatar Airways</p>
                         </div>
                         <div class="crdsess3prt2">
@@ -109,6 +110,7 @@
                 <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
+                            <img  src="{{ asset('images/Turkish.svg') }}" alt="Airways" class="imgAirways">
                             <p class="sub-sub-title text-center">Turkish airlines</p>
                         </div>
                         <div class="crdsess3prt2">
@@ -141,6 +143,7 @@
                 <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
+                            <img  src="{{ asset('images/emirates.svg') }}" alt="Airways" class="imgAirways">
                             <p class="sub-sub-title text-center">Emirates</p>
                         </div>
                         <div class="crdsess3prt2">
@@ -173,6 +176,7 @@
                 <div class="pr-lg-3">
                     <div class="crdsess3">
                         <div class="crdsess3prt1 m-3">
+                            <img  src="{{ asset('images/Airfrance.svg') }}" alt="Airways" class="imgAirways">
                             <p class="sub-sub-title text-center">Airfrance</p>
                         </div>
                         <div class="crdsess3prt2">
