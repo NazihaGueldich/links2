@@ -232,7 +232,7 @@ body#page-atlantis .card-session1 {
     width: 221px;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
     .ligne-separtion {
         border: 1px solid #B5D0FF;
         position: relative;
@@ -288,7 +288,7 @@ body#page-atlantis .sect2-prt1 img {
     object-fit: cover;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
     body#page-atlantis .sect2-prt1 {
         padding: 0;
         border-radius: 20px 20px 0 0;
@@ -336,7 +336,7 @@ body#page-atlantis .card-session3 {
     padding: 0 20px;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
     body#page-atlantis .card-session3 {
         padding: 0;
         margin-left: -3%;
@@ -359,7 +359,7 @@ body#page-atlantis .card-session3 .card-body .imgface {
 }
 
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
     body#page-atlantis .card-session3 .card-body {
         height: auto;
         margin: 0;
@@ -377,7 +377,7 @@ body#page-atlantis .session6-slick-mobile {
     display: none;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
     body#page-atlantis .sccgrp {
         display: none !important;
     }
@@ -387,6 +387,7 @@ body#page-atlantis .session6-slick-mobile {
     body#page-atlantis .session6-slick-web {
         display: none;
     }
+    
 
     body#page-atlantis .session3-slick-mobile,
     body#page-atlantis .session5-slick-mobile,
@@ -598,7 +599,7 @@ body#page-atlantis .card-session4-spns .card-body {
     .imgsess4 {
         object-fit: cover;
         border-radius: 20px;
-        width: 302px !important;
+        width: 325px !important;
         height: 204px !important;
     }
 
@@ -819,4 +820,89 @@ section {
 }
 #page-atlantis #section-5 .tret {
     left: 37% !important;
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    nav .container.justify-content-between {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .txticns {
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+    }
+    .imgicns {
+        max-width: 50px !important;
+        height: 50px !important;
+        opacity: 1 !important;
+    }
+    .imgsess4{
+        object-fit: cover;
+    width: 100% !important;
+    height: 295px !important;
+    }
+    #page-atlantis #section-1 .slick-prev {
+        left: -16px;
+    }
+    body#page-atlantis .card-session2 .row{
+        height: auto;
+    }
+    body#page-atlantis .session3-slick-web,
+    body#page-atlantis .session5-slick-web,
+    body#page-atlantis .session6-slick-web {
+        display: flex;
+    }
+
+    body#page-atlantis .session3-slick-mobile,
+    body#page-atlantis .session5-slick-mobile,
+    body#page-atlantis .session6-slick-mobile {
+        display: none !important;
+    }
+    body#page-atlantis .card-session3 {
+        margin: 1%;
+        width: 285px;
+        height: 330px;
+    }
+    #s4prttxt {
+        height: 215px;
+    }
+    body#page-atlantis .sccgrp {
+        display: flex !important;
+    }
+    .sess5crd, .sess6crd {
+        width: 28%;
+        height: 250px;
+    }
+    .cercle-img {
+        position: absolute;
+        left: 11%;
+        top: 42%;
+        width: 56px !important;
+    }
+    .text-img {
+        left: 19%;
+        top: 52%;
+    }
+    .posit {
+        left: 50%;
+        top: 57%;
+    }
+    .note {
+        left: 18% !important;
+        top: 78%;
+    }
+    #page-atlantis #section-5 .tret {
+        left: 30% !important;
+    }
+    .sess5-crds, .sess6-crds {
+        gap: 35px;
+    }
+    .posit img {
+        width: 14px;
+    }
+    body#page-atlantis .sect2-prt1 img{
+        height: 255px !important;
+    }
 }
