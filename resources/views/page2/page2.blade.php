@@ -215,7 +215,7 @@
                 <div class="ktbchng text-center">
 
 
-                    <div class="row">
+                    <div class="row align-content-between">
                         <div
                             class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
                             <div class="para-section">
@@ -339,7 +339,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">올리브</button>
                     </div>
                     <div class="height-p-card">
-                        <p class="p1prt7 ">튀니지는 다양한 올리브 품종으로 유명한 세계적인 올리브 생산국 중 하나입니다. 이 나라는 기후와 토양이 올리브 재배에 이상적이어서
+                        <p class="p1prt7 pt-4">튀니지는 다양한 올리브 품종으로 유명한 세계적인 올리브 생산국 중 하나입니다. 이 나라는 기후와 토양이 올리브 재배에 이상적이어서
                             고품질의 올리브
                             생산을 자랑합니다. 현지에서는 올리브 생산 과정을 직접 관찰하고 현지 농부로부터 전통적인 농업 기술을 배울 수 있으며, 튀니지의 올리브와 관련된 풍부한 문화를
                             체험할 수
@@ -353,7 +353,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">쿠스쿠스</button>
                     </div>
                     <div class="height-p-card">
-                        <p class="p1prt7">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기,
+                        <p class="p1prt7 pt-4">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기,
                             채소, 향신료로
                             만든 풍미 있는 스튜와 함께 제공됩니다. 튀니지의 다양한 지역 스타일로 만들어진 쿠스쿠스를 현지 레스토랑이나 시장에서 맛보세요. 이렇게 튀니지의 다양한
                             음식문화를 경험할 수
@@ -367,7 +367,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">카이루안</button>
                     </div>
                     <div class="height-p-card">
-                        <p class="p1prt7">튀니지의 카이루안은 유네스코에 등재된 도시로, 풍부한 역사와 문화적 유산으로 유명합니다. 카이루안의 메디나는 좁은 길과 시장이 있는
+                        <p class="p1prt7 pt-4">튀니지의 카이루안은 유네스코에 등재된 도시로, 풍부한 역사와 문화적 유산으로 유명합니다. 카이루안의 메디나는 좁은 길과 시장이 있는
                             붐변한 곳으로
                             현지 생활을 경험할 수 있으며, 아글라비드 제반스와 같은 고대 기술을 보여주는 곳을 탐험할 수 있습니다. 이 도시는 역사, 문화, 그리고 현지 매력을 결합하여
                             튀니지의
@@ -384,7 +384,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">올리브</button>
                     </div>
                     <div class="height-p-card">
-                        <p class="p1prt7 ">튀니지는 다양한 올리브 품종으로 유명한 세계적인 올리브 생산국 중 하나입니다. 이 나라는 기후와 토양이 올리브 재배에 이상적이어서
+                        <p class="p1prt7 pt-4">튀니지는 다양한 올리브 품종으로 유명한 세계적인 올리브 생산국 중 하나입니다. 이 나라는 기후와 토양이 올리브 재배에 이상적이어서
                             고품질의 올리브
                             생산을 자랑합니다. 현지에서는 올리브 생산 과정을 직접 관찰하고 현지 농부로부터 전통적인 농업 기술을 배울 수 있으며, 튀니지의 올리브와 관련된 풍부한 문화를
                             체험할 수
@@ -397,7 +397,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">쿠스쿠스</button>
                     </div>
                     <div class="height-p-card ">
-                        <p class="p1prt7">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기,
+                        <p class="p1prt7 pt-4">튀니지에서는 관광객에게 꼭 시식해보아야 할 전통 음식인 쿠스쿠스가 있습니다. 이 음식은 증기로 익힌 세몰리나 밀 가루와 고기,
                             채소, 향신료로
                             만든 풍미 있는 스튜와 함께 제공됩니다. 튀니지의 다양한 지역 스타일로 만들어진 쿠스쿠스를 현지 레스토랑이나 시장에서 맛보세요. 이렇게 튀니지의 다양한
                             음식문화를 경험할 수
@@ -410,7 +410,7 @@
                         <button type="button" class="btn btn-outline-primary button-main">카이루안</button>
                     </div>
                     <div class="height-p-card">
-                        <p class="p1prt7">튀니지의 카이루안은 유네스코에 등재된 도시로, 풍부한 역사와 문화적 유산으로 유명합니다. 카이루안의 메디나는 좁은 길과 시장이 있는
+                        <p class="p1prt7 pt-4">튀니지의 카이루안은 유네스코에 등재된 도시로, 풍부한 역사와 문화적 유산으로 유명합니다. 카이루안의 메디나는 좁은 길과 시장이 있는
                             붐변한 곳으로
                             현지 생활을 경험할 수 있으며, 아글라비드 제반스와 같은 고대 기술을 보여주는 곳을 탐험할 수 있습니다. 이 도시는 역사, 문화, 그리고 현지 매력을 결합하여
                             튀니지의

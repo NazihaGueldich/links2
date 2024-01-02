@@ -181,8 +181,8 @@ function srllcrdssess5(x) {
     var a1 = ['https://www.radissonhotels.com/fr-fr/hotels/radisson-sfax', 'https://sheraton.hammamet-hotels-tn.com/fr/', 'https://hotel-africa-tunis.h-rez.com/', 'https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html', 'https://www.elmouradi.com/', 'https://camp-mars.com/'];
 
     //3ayatt lil section ili bch n5dm aliha wfara8tha
-    var section = document.getElementById('sess5-crds');
-    section.innerHTML = '';
+        var section = document.getElementById('sess5-crds');
+        section.innerHTML = '';
     var ind = 0;
     var tailltab = 0;
     if (z === 0) {

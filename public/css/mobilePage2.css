@@ -16,15 +16,17 @@
             height: 177px;
         }
 
-        .crd8{
+        .crd8 {
             display: none !important;
         }
+
         #section-1 .links_box {
             margin-bottom: 30px;
             height: 400px;
         }
 
-        #section-6 .parghraphe1,#section-5 .parghraphe1 {
+        #section-6 .parghraphe1,
+        #section-5 .parghraphe1 {
             width: 100%;
         }
 
@@ -46,13 +48,16 @@
             padding: 0 40px 0px 40px;
             margin-bottom: 7%;
         }
+
         #section-5 .allsec {
             height: 544px;
         }
+
         body section {
             padding: 30px 0;
         }
-        #section-8 .allsec{
+
+        #section-8 .allsec {
             height: 512px;
         }
 
@@ -90,7 +95,8 @@
             font-size: 1rem;
         }
 
-        #section-5 .row ,#section-6 .row {
+        #section-5 .row,
+        #section-6 .row {
             display: flex !important;
             flex-direction: column;
             justify-content: space-between;
@@ -262,7 +268,7 @@
             color: black;
             bottom: 0;
             position: absolute;
-            margin-left:16px
+            margin-left: 16px
         }
 
         #h4prt6 {
@@ -444,7 +450,7 @@
             display: none;
         }
 
-        .buttons{
+        .buttons {
             padding-right: 0;
             padding-left: 0;
             width: 95%;
@@ -616,10 +622,11 @@
 
 
 
-.btninactv1{
-    font-size: 1.0rem;
+        .btninactv1 {
+            font-size: 1.0rem;
 
-}
+        }
+
         .prt8hov {
             min-width: 270px;
             margin-right: .5rem !important;
@@ -692,14 +699,130 @@
             height: 97px;
         }
 
-        .slick-section-10 img{
+        .slick-section-10 img {
             height: 340px;
         }
 
-        #section-9  .col-lg-4,#section-10  .col-lg-4
-        ,#section-3  .col-lg-4
-        ,#section-1  .col-lg-4{
+        #section-9 .col-lg-4,
+        #section-10 .col-lg-4,
+        #section-3 .col-lg-4,
+        #section-1 .col-lg-4 {
             padding: 0;
         }
 
+    }
+
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+        nav .container.justify-content-between {
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .txticns {
+            font-family: noto;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .imgicns {
+            max-width: 50px;
+            height: 50px;
+            opacity: 1;
+        }
+        #section-1 .slick-list div {
+            height: 362px;
+        }
+        #section-1 .slick-dotted.slick-slider {
+            margin-bottom: 0px;
+        }
+        #section-3 .slick-slide {
+            display: block;
+        }
+        #section-3 .block-cards {
+            display: none ;
+        }
+        body #section-3 {
+            display: flex;
+            flex-direction: column-reverse; 
+        }
+        .para-section {
+            padding-bottom: 0px; 
+        }
+        .ktbchng #titrp5, .ktbchng #sec3titrp5, .allsec #h4prt6  {
+            padding-bottom: 0%; 
+        }
+        #sec3img {
+            height: 130px;
+        }
+        .allsec {
+            height: 440px;
+        }
+        .buttons {
+            padding-top: 0px; 
+        }
+        .btnactv,.btninactv {
+            height: 35px;
+        }
+        #section-5 .row{
+            height: 100%;
+        }
+        .ktbchng {
+            height: 100%;
+            margin-bottom: 4%;
+        }
+        #img-langue {
+            height: 225px;
+        }
+        .buttons-8 {
+            padding-top: 0px;
+        }
+        .section-8-prt1 {
+            padding-top: 5px;
+            height: 295px;
+            width: 100%;
+            display: block;
+        }
+        .section-8-prt1 img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+        section .block-cards {
+            display: none !important;
+        }
+        #section-9{
+            height: 540px;
+        }
+        #section-9 .slick-slide {
+            display: block;
+        }
+        body #section-10 .crd8{
+            display: none !important;
+        }
+
+        body #section-10 .slick-section-10 {
+            display: block;
+        }
+        .prt8hov {
+            max-width: 100%;
+        }
+        #section-10 .slick-slide img {
+            display: block;
+            width: 100%;
+            height: 280px;
+        }
+        #about-tunisia .slick-dots li.slick-active button:before {
+            opacity: 1;
+            color: #347EFF;
+        }
+        #section-10{
+            padding-top: 5%;
+        }
+        .slick-dots {
+            bottom: -65px  !important;
+        }
+        #section-3 .slick-dots {
+            bottom: -90px !important;
+        }
     }
