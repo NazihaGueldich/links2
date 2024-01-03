@@ -991,7 +991,29 @@
 
     <script>
         $(document).ready(function() {
-            if ($(window).width() < 997) {
+    if ($(window).width() <1024) {
+        $('.slick-slider-visitRev').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            arrows: true,
+            dots: true,
+            cssEase: 'linear',
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+    }
+});
+
+        $(document).ready(function() {
+            if ($(window).width() < 1024) {
                 $('.slick-slider-section-3').slick({
                     infinite: true,
                     slidesToShow: 1,
@@ -1009,11 +1031,12 @@
     </script>
     <script>
         $(document).ready(function() {
+
             $('.variable-width').slick({
                 infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                dots: false,
+                dots: true,
                 cssEase: 'linear',
                 responsive: [{
                     breakpoint: 480,
@@ -1025,6 +1048,7 @@
                     }
                 }]
             });
+
         });
     </script>
     <script>
@@ -1126,7 +1150,7 @@
         });
 
         window.addEventListener('resize', function() {
-            if (window.innerWidth <= 767) {
+            if (window.innerWidth <= 1024) {
                 var itemsDiv = document.getElementById('slicksect2');
                 if (!itemsDiv.classList.contains('slick-sess2')) {
                     itemsDiv.classList.add('slick-sess2');
