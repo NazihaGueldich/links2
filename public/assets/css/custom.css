@@ -557,7 +557,7 @@ body .wrap-nav-transportation .tab-content p {
     body .wrap-festival-card .custom-card .custom-card-text {
         right: -6px !important;
         top: 49% !important;
-        line-height: 25px;      
+        line-height: 25px;
     }
     #page-info .slick-prev {
         left: -70px;
@@ -970,7 +970,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         margin-left: 5%;
     }
     #page-info .slick-prev {
-        left: -45px;
+        left: -54px;
     }
     body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6{
         width: 100%;
@@ -982,7 +982,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         width: 100%;
     }
     #page-info .slick-next {
-        right: -15px !important;
+        right: -24px !important;
     }
     body #p3-section3>.container>.row, body #p3-section4>.container>.row, body #p3-section5>.container>.row {
         margin: 0 -15px;
@@ -995,6 +995,9 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     body .wrap-festival-card .custom-card {
         width: 100% !important;
         height: 255px;
+    }
+    body .wrap-culinary-card {
+        margin: 25px 0 25px 4px !important;
     }
     #page-info .custom-card .custom-card-text {
         margin-top: -1%;
