@@ -24,7 +24,14 @@ body {
     #page-atlantis #section-4 .col-12 {
         align-items: center;
     }
- 
+    .navbar-toggled .nav-item {
+        text-align: center;
+        background-color: white;
+        width: 114%;
+        padding-left: 4%;
+        padding-bottom: 12px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -387,7 +394,7 @@ body#page-atlantis .session6-slick-mobile {
     body#page-atlantis .session6-slick-web {
         display: none;
     }
-    
+
 
     body#page-atlantis .session3-slick-mobile,
     body#page-atlantis .session5-slick-mobile,
@@ -827,8 +834,47 @@ section {
         padding-right: 3%;
     }
     section {
+        margin: 0px 36px;
         padding: 20px 0;
     }
+    .navbar-toggled .nav-item {
+        text-align: center;
+        background-color: white;
+        width: 114%;
+        padding-left: 4%;
+        padding-bottom: 12px;
+    }
+    #myTopnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    #logimg {
+        margin-left: 7%;
+        margin-top: 8%;
+        display: block;
+    }
+
+    #toggleButton {
+        margin-top: 2%;
+        position: fixed;
+        top: 0;
+        margin-right: 4%;
+        right: 0;
+        z-index: 999;
+    }
+
+    .navbar-nav {
+        margin-top:8%;
+    }
+
+
+    #tunis-time {
+        margin-left: 2%;
+    }
+
     .txticns {
         font-weight: 500 !important;
         font-size: 0.9rem !important;
@@ -841,7 +887,7 @@ section {
     .imgsess4{
         object-fit: cover;
     width: 100% !important;
-    height: 225px !important;
+    height: 374px !important;
     }
     #page-atlantis #section-1 .slick-prev {
         left: -16px;
@@ -853,6 +899,7 @@ section {
     body#page-atlantis .session5-slick-web,
     body#page-atlantis .session6-slick-web {
         display: flex;
+        margin-top: 99px;
     }
 
     body#page-atlantis .session3-slick-mobile,
@@ -865,7 +912,7 @@ section {
         width: 285px;
         height: 255px;
     }
-    
+
     body#page-atlantis .card-session3 .card-body .imgface {
         height: 125px;
     }
@@ -880,8 +927,8 @@ section {
         margin-top: 1rem!important;
     }
     .sess5crd, .sess6crd {
-        width: 28%;
-        height: 240px;
+        width: 31%;
+        height: 291px;
     }
     .cercle-img {
         position: absolute;
