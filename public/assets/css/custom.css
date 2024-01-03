@@ -927,7 +927,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     height: auto;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 830px) and (max-width: 1024px) {
     nav .container.justify-content-between {
         padding-left: 3%;
         padding-right: 3%;
