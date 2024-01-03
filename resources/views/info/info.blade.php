@@ -426,7 +426,7 @@
                 </div>
                 <div class="row wrap-nav-transportation">
                     <div class="col-md-12">
-                        <div class="col-12 d-flex justify-content-center button1" style="gap: 7px;" id="btns">
+                        <div class="col-12 d-flex justify-content-center align-items-center button1" style="gap: 7px;" id="btns">
                             <button id='btn0' data-toggle="tab" href="#domav" class="btnactv"
                                 onclick="changbtn(0)">Domestic Aviation</button>
                             <button id='btn1' data-toggle="tab" href="#carnt" class="btninactv"
