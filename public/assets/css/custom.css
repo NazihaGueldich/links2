@@ -545,7 +545,7 @@ body .wrap-nav-transportation .tab-content p {
     text-align: left;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 819px) {
     body .wrap-nav-transportation .nav-tabs {
         padding: 5px 15px;
     }
@@ -554,8 +554,16 @@ body .wrap-nav-transportation .tab-content p {
         padding: 15px;
     }
 
-    body .wrap-nav-transportation .tab-content .tab-pane>.row {
-        flex-direction: column-reverse;
+    body .wrap-festival-card .custom-card .custom-card-text {
+        right: -6px !important;
+        top: 49% !important;
+        line-height: 25px;      
+    }
+    #page-info .slick-prev {
+        left: -70px;
+    }
+    #p3-section4 .slick-next {
+        right: 25px !important;
     }
 
     body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
@@ -927,7 +935,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     height: auto;
 }
 
-@media all and (min-width: 830px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
     nav .container.justify-content-between {
         padding-left: 3%;
         padding-right: 3%;
@@ -950,6 +958,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     }
     body .wrap-custom-card>.col-md-4 {
         width: 248px;
+        height: 255px;
     }
     figure {
         margin: 0px 0 1rem 9%;
@@ -977,10 +986,10 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     }
     body #p3-section3>.container>.row, body #p3-section4>.container>.row, body #p3-section5>.container>.row {
         margin: 0 -15px;
-        gap: 35px;
+        gap: 14px;
     }
     .col-md-3 {
-        width: 47%;
+        width: 32%;
         padding-left: 0;
     }
     body .wrap-festival-card .custom-card {
@@ -988,10 +997,83 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         height: 255px;
     }
     #page-info .custom-card .custom-card-text {
-        margin-top: -12%;
-        margin-left: -17%;
+        margin-top: -1%;
+    margin-left: -21%;
+    font-size: 0.9rem;
+    line-height: 1;
     }
     body .wrap-festival-card .custom-card .mask-image{
-        height: 166px;
+        height: 190px;
+    }
+    body .wrap-custom-card .custom-card .custom-card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    #page-info .custom-card .custom-card-img {
+        margin-top: 8%;
+        height: 90px;
+    }
+    .label {
+        height: 20px;
+        width: 43px;
+    }
+    .label .ball {
+        top: 2px;
+        left: 2px;
+        height: 15px;
+        width: 15px;
+    }
+    #page-info .custom-card audio {
+        height: 33px;
+    }
+    body .wrap-custom-card .custom-card {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    body .wrap-culinary-card .culinary-card .card-img-top {
+        height: 210px;
+    }
+    body .wrap-culinary-card .culinary-card {
+        height: 425px;
+    }
+    body #p3-section3 .btnactv {
+        font-size: 0.9rem;
+        height: 40px;
+    }
+    body #p3-section3 .btninactv {
+        font-size: 0.8rem;
+        height: 35px;
+    }
+    body .wrap-nav-transportation .tab-content{
+        margin-top: 10px;
+        padding: 0px;
+    }
+    #page-info .img-fluid {
+        height: 200px;
+    }
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
+        padding: 10px !important;
+    }
+    body #p3-section3 .tab-content .card-title {
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    body .wrap-nav-transportation .tab-content p {
+        line-height: 20px;
+    }
+    #page-info .img-fluid {
+        height: 255px;
+    }
+    .icone-date:before,.icone-place:before  {
+        height: 15px;
+    }
+    #page-info #crdssess5 li {
+        font-size: 0.8rem;
+    }
+    body .wrap-festival-card .custom-card .custom-card-title {
+        padding-left: 3%;
+    }
+    #page-info #crdssess1 .custom-card .custom-card-text {
+        margin-left: 0%;
     }
 }
