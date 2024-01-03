@@ -841,7 +841,7 @@ section {
     .imgsess4{
         object-fit: cover;
     width: 100% !important;
-    height: 295px !important;
+    height: 225px !important;
     }
     #page-atlantis #section-1 .slick-prev {
         left: -16px;
@@ -863,27 +863,35 @@ section {
     body#page-atlantis .card-session3 {
         margin: 1%;
         width: 285px;
-        height: 330px;
+        height: 255px;
+    }
+    
+    body#page-atlantis .card-session3 .card-body .imgface {
+        height: 125px;
+    }
+    .card-session4-cnt {
+        height: 487px;
     }
     #s4prttxt {
         height: 215px;
     }
     body#page-atlantis .sccgrp {
         display: flex !important;
+        margin-top: 1rem!important;
     }
     .sess5crd, .sess6crd {
         width: 28%;
-        height: 250px;
+        height: 240px;
     }
     .cercle-img {
         position: absolute;
-        left: 11%;
-        top: 42%;
+        left: 12%;
+    top: 47%;
         width: 56px !important;
     }
     .text-img {
         left: 19%;
-        top: 52%;
+        top: 55%;
     }
     .posit {
         left: 50%;
@@ -891,13 +899,13 @@ section {
     }
     .note {
         left: 18% !important;
-        top: 78%;
+        top: 76% !important;
     }
     #page-atlantis #section-5 .tret {
         left: 30% !important;
     }
     .sess5-crds, .sess6-crds {
-        gap: 35px;
+        gap: 20px;
     }
     .posit img {
         width: 14px;

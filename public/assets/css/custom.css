@@ -926,3 +926,72 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     max-width: 100%;
     height: auto;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    nav .container.justify-content-between {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    main {
+        width:744px;
+    }
+    section {
+        padding: 20px 0;
+        width: 720px;
+    }
+    .txticns {
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+    }
+    .imgicns {
+        max-width: 50px !important;
+        height: 50px !important;
+        opacity: 1 !important;
+    }
+    body .wrap-custom-card>.col-md-4 {
+        width: 248px;
+    }
+    figure {
+        margin: 0px 0 1rem 9%;
+    }
+    .custom-card .row .col-8.pl-0.pr-4 {
+        padding-right: 0px  !important;
+    }
+    #page-info .custom-card .row {
+        margin-left: 5%;
+    }
+    #page-info .slick-prev {
+        left: -45px;
+    }
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6{
+        width: 100%;
+    }
+    #page-info .img-fluid{
+        height: 345px;
+    }
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        width: 100%;
+    }
+    #page-info .slick-next {
+        right: -15px !important;
+    }
+    body #p3-section3>.container>.row, body #p3-section4>.container>.row, body #p3-section5>.container>.row {
+        margin: 0 -15px;
+        gap: 35px;
+    }
+    .col-md-3 {
+        width: 47%;
+        padding-left: 0;
+    }
+    body .wrap-festival-card .custom-card {
+        width: 100% !important;
+        height: 255px;
+    }
+    #page-info .custom-card .custom-card-text {
+        margin-top: -12%;
+        margin-left: -17%;
+    }
+    body .wrap-festival-card .custom-card .mask-image{
+        height: 166px;
+    }
+}

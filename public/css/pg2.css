@@ -11,7 +11,7 @@ body.tunisiatrip {
 
 #section-1 .slick-dots {
     position: absolute;
-    bottom: -26px;
+    margin-bottom: 4% !important;
     display: block;
     left: 0;
     width: 100%;
