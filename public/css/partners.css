@@ -94,3 +94,37 @@ body{
         margin-bottom: 3%;
     }
 }
+@media all and (min-width: 768px) and (max-width: 819px) {
+    nav .container.justify-content-between {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    main {
+        width:744px;
+    }
+    section {
+        padding: 20px 0;
+        width: 720px;
+    }
+    .txticns {
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+    }
+    .imgicns {
+        max-width: 50px !important;
+        height: 50px !important;
+        opacity: 1 !important;
+    }
+    .sessicn {
+        text-align: none;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+    }
+    section {
+        width: 720px;
+    }
+    footer{
+        width: 100%;
+    }
+}
