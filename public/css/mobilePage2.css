@@ -720,6 +720,49 @@
         #Tunisia-over #section-1 .slick-dots {
             padding-bottom: 1% !important;
         }
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+        .nav-item {
+
+            margin-right: 23px;
+        }
+        #logimg {
+            margin-left: 7%;
+            margin-top: 8%;
+            display: block;
+        }
+
+        #toggleButton {
+            margin-top: 2%;
+            position: fixed;
+            top: 0;
+            margin-right: 4%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-nav {
+            margin-top: 7%;
+        }
+
+
+        #tunis-time {
+            margin-left: 2%;
+        }
+
+        .navbar-toggled .nav-item {
+            text-align: center;
+            background-color: white;
+            width: 114%;
+            padding-left: 4%;
+            padding-bottom: 12px;
+        }
+
+
         nav .container.justify-content-between {
             padding-left: 3%;
             padding-right: 3%;
@@ -751,13 +794,13 @@
         }
         body #section-3 {
             display: flex;
-            flex-direction: column-reverse; 
+            flex-direction: column-reverse;
         }
         .para-section {
-            padding-bottom: 0px; 
+            padding-bottom: 0px;
         }
         .ktbchng #titrp5, .ktbchng #sec3titrp5, .allsec #h4prt6  {
-            padding-bottom: 0%; 
+            padding-bottom: 0%;
         }
         #sec3img {
             height: 130px;
@@ -766,7 +809,7 @@
             height: 440px;
         }
         .buttons {
-            padding-top: 0px; 
+            padding-top: 0px;
         }
         .btnactv,.btninactv {
             height: 35px;
@@ -832,4 +875,46 @@
         #section-3 .slick-dots {
             bottom: -90px !important;
         }
+    }
+    @media (width: 820px) and (height:1180px) {
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        #logimg {
+            margin-left: 7%;
+            margin-top: 8%;
+            display: block;
+        }
+
+        #toggleButton {
+            margin-top: 2%;
+            position: fixed;
+            top: 0;
+            margin-right: 4%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-nav {
+            margin-top: 7%;
+        }
+
+
+        #tunis-time {
+            margin-left: 2%;
+        }
+
+        .navbar-toggled .nav-item {
+            text-align: center;
+            background-color: white;
+            width: 114%;
+            padding-left: 4%;
+            padding-bottom: 12px;
+        }
+
+
     }
