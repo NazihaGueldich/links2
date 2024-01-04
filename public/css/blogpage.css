@@ -541,19 +541,41 @@ blog-page #section5 #crcl7sess6 {
     }
 }
 @media all and (min-width: 768px) and (max-width: 800px) {
-    .sessicn{
+    nav .container.justify-content-between {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    section {
+        margin: 0px 36px;
+        padding: 20px 0;
+    }
+
+    .navbar-toggled .nav-item {
         text-align: center;
-        margin-left: 26% !important;
-        width: 100% !important;
-        height: 100% !important;
+        background-color: white;
+        width: 114%;
+        padding-left: 4%;
+        padding-bottom: 12px;
+    }
+
+    #myTopnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    #logimg {
+        margin-left: 7%;
+        margin-top: 8%;
+        display: block;
     }
     #blog-page #section1 {
         padding: 30px 0;
-        margin-left: 25%;
     }
     #blog-page section {
         padding: 30px 0;
-        margin-left: 13%;
     }
 
 
@@ -584,17 +606,16 @@ blog-page #section5 #crcl7sess6 {
 
     #blog-page .sec2-col {
         background-color: #F2F7FF;
-        width: 62rem;
     }
     #blog-page #section3 .items {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        font-size: 22px;
         align-items: normal;
         gap: 8px;
-        margin-left: -10%;
-
+    }
+    #blog-page #section3 .items button {
+        padding: 10px 15px;
+        font-size: 1rem;
     }
     #blog-page #section5 .crdsess5 .crdsess5-img {
         height: 317.94px;
@@ -615,7 +636,9 @@ blog-page #section5 #crcl7sess6 {
         background-color: #F1F4F8;
         border-radius: 20px;
         margin-top: 20px;
-        width: 800px;
+    }
+    footer {
+        width: 100% !important;
     }
     #blog-page #section5 .crdsess5 button {
         color: #FFF !important;
@@ -635,11 +658,9 @@ blog-page #section5 #crcl7sess6 {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 70rem !important;
     }
     #blog-page #section4 {
         padding: 30px 0;
-        margin-left: 23%;
     }
 
 }
@@ -753,7 +774,6 @@ blog-page #section5 #crcl7sess6 {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 51rem;
     }
     #blog-page #section4 {
         padding: 30px 0;

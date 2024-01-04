@@ -1031,12 +1031,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {
-    .sessicn {
-        text-align: none !important;
-        margin-left: 0 !important;
-        width: auto !important;
-        height: auto !important;
-    }
+    
     body #p3-section4 .lignhght {
         line-height: 25px;
     }

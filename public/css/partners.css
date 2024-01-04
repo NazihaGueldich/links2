@@ -114,12 +114,6 @@ body{
         height: 50px !important;
         opacity: 1 !important;
     }
-    .sessicn {
-        text-align: none;
-        margin-left: 0;
-        width: auto;
-        height: auto;
-    }
     section {
         width: 720px;
     }
