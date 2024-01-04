@@ -1130,7 +1130,7 @@
     .section-2-hover .links_box-3,
     .section-2-hover .links_box-4 {
         position: relative;
-        height: 452px;
+        height: 350px;
         cursor: pointer;
         border-radius: 20px;
         margin: 5px 0px;
@@ -1138,6 +1138,8 @@
         background-size: cover;
         background-position: center 52%;
     }
+    .crdrev {
+        height: 440px;}
 
     .slick-dots li button:before {
 
