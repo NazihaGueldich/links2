@@ -543,11 +543,14 @@ blog-page #section5 #crcl7sess6 {
 @media all and (min-width: 768px) and (max-width: 800px) {
     .sessicn{
         text-align: center;
-        margin-left:35%;
-        width: 71%;
-        height: 50%;
+        margin-left: 26% !important;
+        width: 100% !important;
+        height: 100% !important;
     }
-
+    #blog-page #section1 {
+        padding: 30px 0;
+        margin-left: 25%;
+    }
     #blog-page section {
         padding: 30px 0;
         margin-left: 13%;
@@ -632,7 +635,7 @@ blog-page #section5 #crcl7sess6 {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 68rem;
+        width: 70rem !important;
     }
     #blog-page #section4 {
         padding: 30px 0;
@@ -643,14 +646,17 @@ blog-page #section5 #crcl7sess6 {
 @media all and (min-width: 820px) and (max-width: 1000px) {
     .sessicn{
         text-align: center;
-        margin-left: 20%;
-        width: 71%;
-        height: 50%;
-    }
 
-    #blog-page section {
+
+    }
+    .imgicns {
+        max-width: 50px !important;
+        height: 50px !important;
+        opacity: 1 !important;
+    }
+    #blog-page #section1 {
         padding: 30px 0;
-        margin-left:5%;
+        margin-left: 0%;
     }
     #blog-page #section2 {
         display: flex;
@@ -668,7 +674,7 @@ blog-page #section5 #crcl7sess6 {
     }
     #blog-page #section3 {
         padding: 30px 0;
-        margin-left: 5%;
+
     }
     .wrap-video-sect1 {
         position: relative;
@@ -697,7 +703,7 @@ blog-page #section5 #crcl7sess6 {
 
     #blog-page .sec2-col {
         background-color: #F2F7FF;
-        width: 62rem;
+        width: 52rem;
     }
     #blog-page #section3 .items {
         display: flex;
@@ -747,7 +753,7 @@ blog-page #section5 #crcl7sess6 {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 68rem;
+        width: 51rem;
     }
     #blog-page #section4 {
         padding: 30px 0;
