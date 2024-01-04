@@ -19,6 +19,7 @@ body {
     #page-atlantis .btninactv {
         font-size: 0.8rem;
         padding: 0px 0px !important;
+        height: 32px;
     }
 
     #page-atlantis #section-4 .col-12 {
@@ -540,6 +541,15 @@ body#page-atlantis #PAS4I2 {
 }
 
 @media (max-width: 767px) {
+    #page-atlantis #section-1 #logoat {
+        max-width: 100px !important;
+    }
+    #page-atlantis #section-1 #logCWT {
+        max-width: 64px !important;
+    }
+    .separator {
+        height: 40px;
+    }
     body#page-atlantis .card-session4 {
         border: 1px solid #C8C8C8;
     }
@@ -548,7 +558,7 @@ body#page-atlantis #PAS4I2 {
     #page-atlantis #section-4 .btnactv {
         font-size: 0.9rem;
         font-weight: bolder;
-        height: 50px;
+        height: 32px;
         padding: 0 !important;
         width: 25%;
     }
@@ -599,7 +609,7 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .card-session4-cnt {
         border: 2px solid #347EFF;
-        height: 545px;
+        height: 496px;
     }
 
     #s4prttxt {
@@ -609,8 +619,8 @@ body#page-atlantis .card-session4-spns .card-body {
     .imgsess4 {
         object-fit: cover;
         border-radius: 20px;
-        width: 325px !important;
-        height: 204px !important;
+        width: 342px !important;
+        height: 160px !important;
     }
 
     #page-atlantis #PAS4I2 .slick-dots {
@@ -675,7 +685,7 @@ body#page-atlantis .card-session4-spns .card-body {
     }
 
     #section-1 .slick-next {
-        right: -37px !important;
+        right: -39px !important;
     }
 }
 
@@ -722,8 +732,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .cercle-img {
-        left: 14%;
-        top: 50%;
+        left: 16%;
+    top: 54%;
     }
 }
 
@@ -737,8 +747,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .text-img {
-        left: 20%;
-        top: 56%;
+        left: 22%;
+    top: 61%;
     }
 }
 
@@ -922,7 +932,7 @@ section {
     .imgsess4 {
         object-fit: cover;
         width: 100% !important;
-        height: 240px !important;
+        height: 225px !important;
     }
 
     #page-atlantis #section-1 .slick-prev {
@@ -962,7 +972,7 @@ section {
     }
 
     #s4prttxt {
-        height: 215px;
+        height: 230px;
     }
 
     body#page-atlantis .sccgrp {
@@ -1020,12 +1030,28 @@ section {
     footer .col-lg-12 {
         text-align: center;
     }
+    #page-atlantis #section-1 .slick-next {
+        right: -12px;
+    }
+    .psess4 {
+        line-height: 30px;
+    }
 }
 @media all and (min-width: 820px) and (max-width: 1023px) {
     #page-atlantis .slick-next {
         right: -58px;
     }
     .imgsess4 {
-        width: 609px !important;
+        width: 615px !important;
+    }
+    .cercle-img {
+        top: 45%;
+    }
+    .text-img {
+        left: 21%;
+        top: 52%;
+    }
+    .posit {
+        top: 51%;
     }
 }
