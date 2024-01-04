@@ -54,15 +54,17 @@
     text-decoration: none;
     color: #0056b3;
 }
-@media (max-width: 767px) {
-.wrap-souvenir-card{
-    margin-left: -21px
 
+@media (max-width: 767px) {
+    .wrap-souvenir-card {
+        margin-left: -21px
+    }
+
+    .b-left {
+        margin-left: 4px;
+    }
 }
-.b-left{
-    margin-left: 4px;
-}
-}
+
 .btninactv {
     border: 1px solid #347EFF !important;
     border-radius: 30px;
@@ -86,12 +88,15 @@
 .noto {
     font-family: "Noto Sans KR", sans-serif;
 }
-#p3-section4 .slick-next{
+
+#p3-section4 .slick-next {
     right: -27px !important;
 }
-#p3-section6 .slick-next{
+
+#p3-section6 .slick-next {
     right: -27px !important;
 }
+
 ul {
     list-style: none;
 }
@@ -203,6 +208,7 @@ ul {
     color: rgb(197, 196, 198);
     min-height: 50px;
 }
+
 @media (max-width: 767px) {
     .sessicn {
         display: none;
@@ -229,9 +235,11 @@ ul {
     #page-info #p3-section6 .slick-dots {
         bottom: -36px;
     }
+
     #page-info .slick-dots {
         bottom: -80px;
     }
+
     #page-info #p3-section3 .slick-dots {
         bottom: -18px;
     }
@@ -354,6 +362,7 @@ body .wrap-culinary-card .culinary-card .card-body {
     body .wrap-culinary-card .culinary-card .card-body {
         text-align: center;
     }
+
     body .wrap-culinary-card {
         margin: 25px 0 25px 0;
     }
@@ -417,36 +426,42 @@ body #p3-section5>.container>.row {
         font-size: 0.9rem;
     }
 
-/*     #page-info .custom-card .custom-card-text {
+    /*     #page-info .custom-card .custom-card-text {
         margin-top: -5%;
     } */
 
     @media screen and (max-width: 1280px) {
-    #page-info #crdssess5 li {
-       width:100px;
-       margin-top: 9px;
+        #page-info #crdssess5 li {
+            width: 100px;
+            margin-top: 9px;
 
 
+        }
     }
-}
-    #page-info #p3-section3 .slick-track{
+
+    #page-info #p3-section3 .slick-track {
         align-items: center;
     }
+
     #page-info #p3-section3 .slick-dotted.slick-slider {
         padding-left: 0;
         padding-right: 0;
     }
-    #page-info #p3-section3  .slick-list .slick-track {
+
+    #page-info #p3-section3 .slick-list .slick-track {
         gap: 15px;
     }
+
     body .main-title {
         margin-bottom: 20px;
         font-size: 1.5rem;
         margin-top: 35px;
     }
+
     body .wrap-nav-transportation {
         margin-top: 11px !important;
     }
+
     body .wrap-museums-card {
         margin-top: 0px !important;
     }
@@ -545,7 +560,7 @@ body .wrap-nav-transportation .tab-content p {
     text-align: left;
 }
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 767px) {
     body .wrap-nav-transportation .nav-tabs {
         padding: 5px 15px;
     }
@@ -554,16 +569,14 @@ body .wrap-nav-transportation .tab-content p {
         padding: 15px;
     }
 
-    body .wrap-festival-card .custom-card .custom-card-text {
-        right: -6px !important;
-        top: 49% !important;
-        line-height: 25px;
-    }
+
+
     #page-info .slick-prev {
         left: -70px;
     }
-    #p3-section4 .slick-next {
-        right: 25px !important;
+
+    #page-info #p3-section4 .slick-next {
+        right: 7px !important;
     }
 
     body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
@@ -691,14 +704,15 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
     margin: 25px 0;
 }
 
-body #p3-section3 .tab-content .card-title{
+body #p3-section3 .tab-content .card-title {
     color: #347EFF;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 25px;
     padding-top: 35px;
 }
-body #p3-section4 .lignhght{
+
+body #p3-section4 .lignhght {
     font-size: 1rem;
     color: #000000;
     font-style: normal;
@@ -711,7 +725,8 @@ body #p3-section4 .lignhght{
     body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
         padding-top: 0;
     }
-    body #p3-section3 .tab-content .card-title{
+
+    body #p3-section3 .tab-content .card-title {
         padding-top: 15px;
     }
 }
@@ -786,27 +801,35 @@ body .wrap-festival-card .custom-card .custom-card-text {
     font-size: 1rem;
     line-height: 2.15;
 }
-@media screen and (max-width: 768px) {
-body .wrap-festival-card .custom-card .custom-card-title {
-    font-family: DM Sans;
-    font-size: 1rem;
-    font-weight: 700;
+
+@media screen and (max-width: 767px) {
+    body .wrap-festival-card .custom-card .custom-card-title {
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
 }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
     body .wrap-festival-card .custom-card .custom-card-text {
-        top: 56%;
+        top: 53% !important;
         left: 66%;
         font-size: 0.7rem;
     }
 
-#p3-section3 .slick-dots li button::before {
-    top: 65px;
+    body .wrap-festival-card .custom-card {
+        height: 345px !important;
+    }
 
-}
-#p3-section6 .slick-dots li button:before{
-    margin-top: -86% !important
-}
+    #p3-section3 .slick-dots li button::before {
+        top: 65px;
+
+    }
+
+    #p3-section6 .slick-dots li button:before {
+        margin-top: -86% !important
+    }
 
 
 
@@ -878,7 +901,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         top: 10px;
     }
 
-    #p3-section6 .section-header h2{
+    #p3-section6 .section-header h2 {
         margin-top: 19%;
     }
 }
@@ -936,147 +959,237 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {
+    body #p3-section4 .lignhght {
+        line-height: 25px;
+    }
+
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
+        margin: 5px 0;
+    }
+
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
+        margin: 0px 0 15px;
+        height: 200px;
+    }
+
     nav .container.justify-content-between {
         padding-left: 3%;
         padding-right: 3%;
     }
+
     main {
-        width:744px;
+        width: 744px;
     }
+
     section {
         padding: 20px 0;
         width: 720px;
     }
+
     .txticns {
         font-weight: 500 !important;
         font-size: 0.9rem !important;
     }
+
     .imgicns {
         max-width: 50px !important;
         height: 50px !important;
         opacity: 1 !important;
     }
+
     body .wrap-custom-card>.col-md-4 {
         width: 248px;
         height: 255px;
     }
+
     figure {
         margin: 0px 0 1rem 9%;
     }
+
     .custom-card .row .col-8.pl-0.pr-4 {
-        padding-right: 0px  !important;
+        padding-right: 0px !important;
     }
+
     #page-info .custom-card .row {
         margin-left: 5%;
     }
+
     #page-info .slick-prev {
-        left: -54px;
+        left: -46px;
     }
-    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6{
+
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
         width: 100%;
     }
-    #page-info .img-fluid{
+
+    #page-info .img-fluid {
         height: 345px;
     }
+
     body .wrap-museums-card ul.list-museums-card li .museums-card {
         width: 100%;
+        height: 495px;
     }
+
     #page-info .slick-next {
-        right: -24px !important;
+        right: -16px !important;
     }
-    body #p3-section3>.container>.row, body #p3-section4>.container>.row, body #p3-section5>.container>.row {
+
+    body #p3-section3>.container>.row,
+    body #p3-section4>.container>.row,
+    body #p3-section5>.container>.row {
         margin: 0 -15px;
         gap: 14px;
     }
+
     .col-md-3 {
         width: 32%;
         padding-left: 0;
     }
+
     body .wrap-festival-card .custom-card {
         width: 100% !important;
         height: 255px;
     }
+
     body .wrap-culinary-card {
         margin: 25px 0 25px 4px !important;
     }
+
     #page-info .custom-card .custom-card-text {
         margin-top: -1%;
-    margin-left: -21%;
-    font-size: 0.9rem;
-    line-height: 1;
+        margin-left: -21%;
+        font-size: 0.9rem;
+        line-height: 1;
+        left: 67%;
     }
-    body .wrap-festival-card .custom-card .mask-image{
+
+    #page-info #p3-section6 .slick-next {
+        right: -19px !important;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -17px !important;
+    }
+
+    body .wrap-festival-card .custom-card .mask-image {
         height: 190px;
     }
+
     body .wrap-custom-card .custom-card .custom-card-title {
         font-size: 1.2rem;
         font-weight: 600;
     }
+
     #page-info .custom-card .custom-card-img {
         margin-top: 8%;
         height: 90px;
     }
+
     .label {
         height: 20px;
         width: 43px;
     }
+
     .label .ball {
         top: 2px;
         left: 2px;
         height: 15px;
         width: 15px;
     }
+
     #page-info .custom-card audio {
         height: 33px;
     }
+
     body .wrap-custom-card .custom-card {
         padding: 10px;
         margin-bottom: 15px;
     }
+
     body .wrap-culinary-card .culinary-card .card-img-top {
         height: 210px;
     }
+
     body .wrap-culinary-card .culinary-card {
         height: 425px;
     }
+
     body #p3-section3 .btnactv {
         font-size: 0.9rem;
         height: 40px;
     }
+
     body #p3-section3 .btninactv {
         font-size: 0.8rem;
         height: 35px;
     }
-    body .wrap-nav-transportation .tab-content{
+
+    body .wrap-nav-transportation .tab-content {
         margin-top: 10px;
         padding: 0px;
     }
+
     #page-info .img-fluid {
         height: 200px;
     }
+
     body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
         padding: 10px !important;
     }
+
     body #p3-section3 .tab-content .card-title {
         padding-top: 5px;
         margin-bottom: 5px;
     }
+
     body .wrap-nav-transportation .tab-content p {
         line-height: 20px;
     }
+
     #page-info .img-fluid {
         height: 255px;
     }
-    .icone-date:before,.icone-place:before  {
+
+    .icone-date:before,
+    .icone-place:before {
         height: 15px;
     }
+
     #page-info #crdssess5 li {
         font-size: 0.8rem;
     }
+
     body .wrap-festival-card .custom-card .custom-card-title {
         padding-left: 3%;
     }
+
     #page-info #crdssess1 .custom-card .custom-card-text {
         margin-left: 0%;
+    }
+}
+
+@media all and (min-width: 820px) and (max-width: 1023px) {
+    #page-info #p3-section2 .slick-prev {
+        left: -72px !important;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -19px !important;
+    }
+    #page-info .custom-card .custom-card-text {
+        margin-top: -12% !important;
+        left: 49% !important;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    #page-info #p3-section2 .slick-next {
+        right: -24px !important;
+    }
+
+    body .wrap-festival-card .custom-card .custom-card-text {
+        margin-top: 2%;
+        left: 159px;
     }
 }
