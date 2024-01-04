@@ -467,7 +467,7 @@
             font-size: 0.8rem;
 
             margin: 0 auto;
-            height: 45px;
+            height: 35px;
         }
 
         #about-tunisia .slick-dots li.slick-active button:before {
@@ -710,9 +710,16 @@
             padding: 0;
         }
 
+        #Tunisia-over #section-1 .slick-dots {
+            padding-bottom: 8% !important;
+        }
+
     }
 
     @media all and (min-width: 768px) and (max-width: 819px) {
+        #Tunisia-over #section-1 .slick-dots {
+            padding-bottom: 1% !important;
+        }
         nav .container.justify-content-between {
             padding-left: 3%;
             padding-right: 3%;

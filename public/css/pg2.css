@@ -46,6 +46,9 @@ body.tunisiatrip {
     text-align: center;
     padding-top: 5%;
 }
+#Tunisia-over #section-1 .slick-dots {
+    padding-bottom: 4% !important;
+}
 
 .part2 img{
     width: 196px !important;
