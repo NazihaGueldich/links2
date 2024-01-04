@@ -1031,6 +1031,12 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {
+    .sessicn {
+        text-align: none !important;
+        margin-left: 0 !important;
+        width: auto !important;
+        height: auto !important;
+    }
     body #p3-section4 .lignhght {
         line-height: 25px;
     }
@@ -1130,7 +1136,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 
     #page-info .custom-card .custom-card-text {
         margin-top: -1%;
-        margin-left: -21%;
+        margin-left: -20%;
         font-size: 0.9rem;
         line-height: 1;
         left: 67%;
@@ -1184,7 +1190,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     }
 
     body .wrap-culinary-card .culinary-card {
-        height: 425px;
+        height: 475px;
     }
 
     body #p3-section3 .btnactv {
