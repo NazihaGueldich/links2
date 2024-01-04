@@ -19,8 +19,9 @@
 
 오스만">
 
-    <meta name="description" content="튀니지 여행과 관련한 홍보영상, 방문객 후기, 주요 튀니지 도시들을 안내하며 여행 관련 질문을 남길 수 있는 문의하기 창이 있습니다.">
+<meta name="description" content="튀니지 여행과 관련한 홍보영상, 방문객 후기, 주요 튀니지 도시들을 안내하며 여행 관련 질문을 남길 수 있는 문의하기 창이 있습니다.">
 </head>
+
 <body id="index" class="tunisiatrip">
     @include('layouts.front.header')
 
@@ -338,21 +339,21 @@
                 <button id='btnKairouan' class="p-2 btninactv">카이로우안</button>
             </div>
             <div id="tunis-weather">
-                <div id="ww_51f06295ce562"  v='1.3' loc='id'
+                <div id="ww_51f06295ce562" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2977"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_51f06295ce562_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_51f06295ce562"></script>
             </div>
-            <div id="sfax-weather" >
-                <div id="ww_a4fcd1b6e1551"  v='1.3' loc='id'
+            <div id="sfax-weather">
+                <div id="ww_a4fcd1b6e1551" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3361"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_a4fcd1b6e1551_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
                 <script async src="https://app2.weatherwidget.org/js/?id=ww_a4fcd1b6e1551"></script>
             </div>
-            <div id="kairouan-weather" >
-                <div id="ww_2939843357c77"  v='1.3' loc='id'
+            <div id="kairouan-weather">
+                <div id="ww_2939843357c77" v='1.3' loc='id'
                     a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1701"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
                     More forecasts: <a href="https://oneweather.org/fr/paris/20_jours/" id="ww_2939843357c77_u"
                         target="_blank">Prévisions météo 20 jours</a></div>
@@ -370,16 +371,14 @@
         <div class="container sess3">
             <div class="city-section">
                 <div class="w-100 ">
-                    <div
-                        class="image1-2 links_box-shadox" id="imageCov1">
+                    <div class="image1-2 links_box-shadox" id="imageCov1">
                     </div>
                     <p id="paragraph1" class="links_box-p"> 튀니스는 튀니지 북부에 있는 도시이자 수도로, 튀니지 최대도시예요.
                         대표적인 관광지인 고대 카르타고 유적과 중세 구시가지 메디나는 유네스코 세계문화유산에 등재됐고요.
                         외곽에 위치한 시디 부 사이드는 튀니스 만 위 절벽에 높게 자리잡은 작고 예쁘게 하얀 색칠을 한 마을로 꼭 방문해야할 명소입니다.
                         도시 자체가 지닌 오랜 역사에 프랑스 지배로 인한 유럽풍까지 더해 여러 매력이 공존하는 도시예요!</p>
 
-                    <div
-                        class="image1-2 links_box-shadox" id="imageCov2">
+                    <div class="image1-2 links_box-shadox" id="imageCov2">
                     </div>
                     <p id="paragraph2" class="links_box-p">튀니스에서 105km 남서쪽에 있는 두가는 한 때 번영했던 고대 로마의 도시 중 하나예요,. 두가의
                         로마유적은
@@ -387,8 +386,7 @@
                         수천 년의 세월이 담긴 역사성과 보존의 탁월함을 인정받아 인정받아 1997년 유네스코 문화유산에 등재 되었구요.
                         의사당과 포럼, 원형 극장과 공중목욕탕 등 로마 제국 변방에 있던 작은 도시의 모습을 보여주는 인상적인 유적들을 확인할 수 있습니다.</p>
 
-                    <div
-                        class="image1-2 links_box-shadox" id="imageCov3">
+                    <div class="image1-2 links_box-shadox" id="imageCov3">
                     </div>
                     <p id="paragraph3" class="links_box-p">튀니지 중심부에 위치한 카이로우안은 성도이자 이슬람의 정신적 수도 중 하나예요.
                         메카, 메디나, 예루살렘에 이어 이슬람교에서 네 번째 성지로 매우 중요한 지위를 차지합니다.
@@ -396,8 +394,7 @@
                         모스크 외에도 수공예품이 유명하며 카펫 수공업의 규모가 커요.
                         카이로우안(Kairouan)는 튀니지의 유네스코 세계 문화유산으로 1988년에 등재되었습니다.</p>
 
-                    <div
-                        class="image1-2 links_box-shadox" id="imageCov4">
+                    <div class="image1-2 links_box-shadox" id="imageCov4">
                     </div>
 
                     <p id="paragraph4" class="links_box-p">과거 베르베르인들이 과거 침략으로부터 자신들을 보호하기 위해 건설했던 세계에서 가장 큰 지하마을이에요.
@@ -539,7 +536,8 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center ">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy" >
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">백OO</h5>
                             <p class="card-text">튀니지 사람들은 친절해요!! 눈 마주치면 꼭 인사를 해줍니다^___^ ‘하리싸’가 들어간 음식이 많아서 매운음식 생각날때
@@ -550,7 +548,8 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">오OO</h5>
                             <p class="card-text">유럽같으면서 아랍적인 독특한 매력을 가진 나라 튀니지. 지중해를 배경으로하는 시디부사이드의 모습은 아직도 잊지 못할 것
@@ -560,7 +559,8 @@
                 </div>
                 <div class="crdrev" id='crd1'>
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">박OO</h5>
                             <p class="card-text">전 6개월 간 튀니지 튀니스에서 지냈는데 낯설고 새로운 나라였지만 즐겁게 생활했습니다. 생각보다 안전하기도 했고 이슬람교
@@ -571,10 +571,11 @@
                             <button class="crdlng1 btn-toggle" id='btn1' onclick="crdheight(1)">더 보기</button>
                         </div>
                     </div>
-                    </div>
-                    <div class="crdrev" id="crd2">
+                </div>
+                <div class="crdrev" id="crd2">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
+                            class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">전OO</h5>
                             <p class="card-text">지중해 국가 여행을 색다르게 해보고 싶다면 튀니지는 분명히 매력적으로 다가올 것 같아요. 그리스 산토리니를 연상케하는 시디 부
@@ -584,10 +585,11 @@
                             <button class="crdlng1 btn-toggle" id='btn2' onclick="crdheight(2)">더 보기</button>
                         </div>
                     </div>
-                    </div>
+                </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">마OO</h5>
                             <p class="card-text">사람들이 친절하고 역사가 깊은 튀니지 ! 고대 로마 유적지를 눈 앞에서 볼 수 있고 밤발로니, 쿠스쿠스, 하리사 등
@@ -611,7 +613,8 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">이OO</h5>
                             <p class="card-text">튀니지는 여행지가 진짜 매력적인 나라라고 생각합니다. 감마르트, 수스, 함마메트 등 꼭 가봐야하는 여행지가 매우 많습니다.
@@ -622,7 +625,8 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">송OO</h5>
                             <p class="card-text">튀니지는 예쁜 해변이 많아서 여름에 수영하기 좋아요. 튀니지에 여러 유명한 바다가 있지만 가장 최고는 비제르트입니다. 이곳에
@@ -633,7 +637,8 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme" class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG1 (2).png') }}" alt="homme"
+                            class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">정OO</h5>
                             <p class="card-text">튀니지의 사하라사막에서의 하룻밤은 평생 기억에 남을거예요. 쏟아지는 별을 보다가 자고, 또 아침 일출을 보면서 튀니지에 온 걸
@@ -647,12 +652,12 @@
 
 
     <section id="section-6">
-        <div class="container" >
+        <div class="container">
             <div class="divundf">
                 <span class="textbas">여기에 더 많은 의견</span>
                 <img class='imgwjhmob' src="{{ asset('images/Property 1=Default.png') }}" alt="faces">
             </div>
-            <hr class="lignes" >
+            <hr class="lignes">
             <button class="btn btn-outline-primary button3">여기에서 더 많은 의견을 확인하세요</button>
         </div>
     </section>
@@ -661,7 +666,7 @@
             <h2 class="main-title text-center">Contact Us</h2>
 
             {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
-            <div class="row mr-0">
+            <div class="row mr-0 card-contact">
                 <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
                         <div class="sub-title">1:1 문의하기</div>
@@ -690,8 +695,8 @@
                                 placeholder="이메일" required>
                         </div>
                         <div class="form-group mb-lg-0 form-textaria">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl"
-                                placeholder="문의사항 " required></textarea>
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" placeholder="문의사항 "
+                                required></textarea>
                         </div>
                         <div class="form-group text-lg-right mt-lg-4 button-formulaire">
 
@@ -718,40 +723,42 @@
 
     <section id="section-8">
         <div class="container">
-        <div class=" text-center mb-3 d-flex flex-column align-items-center">
-            <h2 class="main-title ">Tunisia in numbers</h2>
+            <div class=" text-center mb-3 d-flex flex-column align-items-center">
+                <h2 class="main-title ">Tunisia in numbers</h2>
 
-            <div class=" buttons" id="s8ssm">
-                <button id='btn0sect5' class="p-2  btnactv1" onclick="changtextSect3(0)">+12 M  <br>2023년 인구</button>
-                <button id='btn1sect5' class="p-2 btninactv1" onclick="changtextSect3(1)">2M<br>관광객 200만명</button>
-                <button id='btn2sect5' class="p-2 btninactv1" onclick="changtextSect3(2)">700<br>역사적인 장소</button>
-                <button id='btn3sect5' class="p-2 btninactv1" onclick="changtextSect3(3)">1<br>1번째 대학</button>
-                <button id='btn4sect5' class="p-2 btninactv1" onclick="changtextSect3(4)">9<br>유네스코 세계유산</button>
-            </div>
-        </div>
-        <div class="d-flex flex-column  align-items-center  allsec">
-            <div class="ktbchng text-center">
-
-                <div class="row">
-
-                    <div class="col-lg-6 ">
-                        <img src="{{ asset('images/tmp_1697673169545.jpg') }}" alt="Sun"
-                            id="sec3img" class="imgactv">
-                    </div>
-                    <div
-                    class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
-                    <div class="para-section">
-                        <p id='sec3titrp5'></p>
-                        <p id='sec3spnprt5' class="txtactv">튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로
-                            이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
-                    </div>
-                </div>
+                <div class=" buttons" id="s8ssm">
+                    <button id='btn0sect5' class="p-2  btnactv1" onclick="changtextSect3(0)">+12 M <br>2023년
+                        인구</button>
+                    <button id='btn1sect5' class="p-2 btninactv1" onclick="changtextSect3(1)">2M<br>관광객
+                        200만명</button>
+                    <button id='btn2sect5' class="p-2 btninactv1" onclick="changtextSect3(2)">700<br>역사적인 장소</button>
+                    <button id='btn3sect5' class="p-2 btninactv1" onclick="changtextSect3(3)">1<br>1번째 대학</button>
+                    <button id='btn4sect5' class="p-2 btninactv1" onclick="changtextSect3(4)">9<br>유네스코 세계유산</button>
                 </div>
             </div>
-        </div>
+            <div class="d-flex flex-column  align-items-center  allsec">
+                <div class="ktbchng text-center">
+
+                    <div class="row">
+
+                        <div class="col-lg-6 ">
+                            <img src="{{ asset('images/tmp_1697673169545.jpg') }}" alt="Sun" id="sec3img"
+                                class="imgactv">
+                        </div>
+                        <div
+                            class="align-items-start col-lg-6 d-flex flex-column justify-content-around text-alignes  ">
+                            <div class="para-section">
+                                <p id='sec3titrp5'></p>
+                                <p id='sec3spnprt5' class="txtactv">튀니지의 인구는 약 1,200만 명(2023년 기준)이며 국민의 대부분은 튀니지인으로
+                                    이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-{{--
+    {{--
     <section id="section-8">
         <div class="container">
             <h2 class="main-title text-center">Tunisia in numbers</h2>
@@ -850,10 +857,10 @@
         </div>
     </section> --}}
 
-    <footer class="footer" >
+    <footer class="footer">
         <div class=" container">
             <div class="row">
-                <div class="col-lg-6 text-lg-end"  id='part1'>
+                <div class="col-lg-6 text-lg-end" id='part1'>
                     <div class="col-lg-12">
                         <h3 class="justify-content-center justify-content-lg-end main-title">튀니지에 대해서</h3>
                         <ul>
@@ -933,12 +940,10 @@
                 </div>
                 <div class="col-lg-4 text-right image-footer-1">
                     <a href="https://www.facebook.com/tunisiatrip.atlantis/" target="_blanc"><img
-                            src="{{ asset('images/fb.svg') }}"
-                            alt="Facebook"></a>
+                            src="{{ asset('images/fb.svg') }}" alt="Facebook"></a>
                     <a href="https://www.instagram.com/tunisiatrip.atlantis/" target="_blanc"><img
-                            src="{{ asset('images/ig.svg') }}"
-                             alt="Instagramme"></a>
-                    <img src="{{ asset('images/yt.svg') }}"  id='imgyt'>
+                            src="{{ asset('images/ig.svg') }}" alt="Instagramme"></a>
+                    <img src="{{ asset('images/yt.svg') }}" id='imgyt'>
                 </div>
             </div>
         </div>
@@ -988,30 +993,78 @@
             });
         });
     </script>
+ <script>
+    $(document).ready(function() {
+        var windowWidth = $(window).width();
+        var windowHeight = $(window).height();
 
+        if (windowWidth === 768 && windowHeight === 1024) {
+            $('.slick-slider-visitRev').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true,
+                dots: false,
+                cssEase: 'linear'
+            });
+        } else if (windowWidth < 1024) {
+            $('.slick-slider-visitRev').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                arrows: true,
+                dots: false,
+                cssEase: 'linear',
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+    });
+
+    $(window).resize(function() {
+        var windowWidth = $(window).width();
+        var windowHeight = $(window).height();
+
+        if (windowWidth === 768 && windowHeight === 1024) {
+            $('.slick-slider-visitRev').slick('unslick');
+            $('.slick-slider-visitRev').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true,
+                dots: false,
+                cssEase: 'linear'
+            });
+        } else if (windowWidth < 1024) {
+            $('.slick-slider-visitRev').slick('unslick');
+            $('.slick-slider-visitRev').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                arrows: true,
+                dots: false,
+                cssEase: 'linear',
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+    });
+</script>
     <script>
-        $(document).ready(function() {
-    if ($(window).width() <1024) {
-        $('.slick-slider-visitRev').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            arrows: true,
-            dots: true,
-            cssEase: 'linear',
-            responsive: [{
-                breakpoint: 480,
-                settings: {
-                    arrows: true,
-                    dots: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }]
-        });
-    }
-});
-
         $(document).ready(function() {
             if ($(window).width() < 1024) {
                 $('.slick-slider-section-3').slick({
