@@ -120,4 +120,13 @@ body{
     footer{
         width: 100%;
     }
+    #partners .col-lg-4 {
+        width: 33%;
+    }
+    #partners #partners-cont .img {
+        max-width: 100%;
+    }
+    #partners #partners-cont #partnerspartweb {
+        padding-left: 0; 
+    }
 }
