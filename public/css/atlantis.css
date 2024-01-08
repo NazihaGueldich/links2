@@ -845,7 +845,7 @@ section {
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {
-   
+
     nav .container.justify-content-between {
         padding-left: 3%;
         padding-right: 3%;
@@ -1053,5 +1053,43 @@ section {
     }
     .posit {
         top: 51%;
+    }
+}  @media (width: 820px) and (height:1180px) {
+    .card-session1{
+        margin: 5%;
+    }
+
+    .imgsess4 {
+        margin-left: 25px;
+    }
+    #page-atlantis .slick-prev {
+        left: -41px;
+    }
+    body#page-atlantis .card-session2 .row {
+        height: 100%;
+    }
+    body#page-atlantis .sect2-prt1 img {
+        object-fit: cover;
+        height: 41rem;
+    }
+    body#page-atlantis .card-session3 .card-body {
+
+        width: 63%;
+        margin: 0 auto;
+        height: 329px;
+
+    }
+    body#page-atlantis .card-session3 {
+
+        margin: 8px;
+    }
+    .imgsess4 {
+        height: 306px;
+        width: 611px !important;
+        margin-left: 79px;
+    }
+    .sess5crd, .sess6crd {
+
+        width: 37%;
     }
 }
