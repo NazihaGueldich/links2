@@ -962,4 +962,9 @@
             margin-top: 0;
             margin-bottom: 1rem;
         }
+        .txticns {
+            font-family: noto;
+            font-weight: 500;
+            font-size: 12px;
+        }
     }
