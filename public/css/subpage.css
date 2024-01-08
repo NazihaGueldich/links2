@@ -1156,9 +1156,8 @@ body {
     }
     #page-subpage #section4 #section4-part1 #imgsesss4 {
         height: 356.8px;
-        width: 94%;
         border-radius: 20px;
-        margin: 0 auto;
+        margin-left: 11px;
     }
     .wrap-trips-routes {
         display: flex;

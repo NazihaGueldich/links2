@@ -1061,7 +1061,7 @@ section {
     }
 
     .imgsess4 {
-        margin-left: 77px;
+        margin-left: 20px;
     }
     #page-atlantis .slick-prev {
         left: -41px;
@@ -1072,6 +1072,11 @@ section {
     body#page-atlantis .sect2-prt1 img {
         object-fit: cover;
         height: 41rem;
+    }
+    .card-session4-cnt {
+
+        height: 100%;
+        width: 100%;
     }
     body#page-atlantis .card-session3 .card-body {
 
@@ -1085,9 +1090,8 @@ section {
         margin: 8px;
     }
     .imgsess4 {
-        height: 306px;
-        width: 611px !important;
-
+        height: 319px;
+        width: 685px !important;
     }
     .sess5crd, .sess6crd {
 
