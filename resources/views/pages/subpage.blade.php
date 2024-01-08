@@ -692,7 +692,7 @@
                     <h2 class="sub-title" id='section6h2'>외화 반출입 관련 유의사항이 있나요?</h2>
                     <p id="section6p">튀니지 당국은 출국시 외환 불법 반출 여부를 철저히 단속중인바, 모든 여행객은 외화 입반출 가능 상한액을 확인하고 입출국 시 세관에 신고해야
                         합니다.<br>
-                        아래 대사관 홈페이지 참고 <br>https://overseas.mofa.go.kr/tn-ko/brd/m_21401/view.do?seq=1321109&page=2</p>
+                        아래 대사관 홈페이지 참고 <br>https://overseas.mofa.go.kr/tn-<br>ko/brd/m_21401/view.do?seq=1321109&page=2</p>
                     {{--                     <img class=" img-section6-6" src="{{ asset('images/sim.png') }}">
 --}}
                 </div>

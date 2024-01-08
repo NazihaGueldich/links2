@@ -1125,4 +1125,73 @@ body {
     #section6 .slick-next {
         right: -10px;
     }
-}   
+}
+@media (width: 820px) and (height:1180px) {
+    #page-subpage #section3 .crdsess3 .crdsess3prt2 img {
+        width: 33px;
+        z-index: 1;
+        padding-left: 5px;
+        margin-left: 22px;
+    }
+    #page-subpage #section3 .crdsess3 .crdsess3prt2 .route div p {
+        position: absolute;
+        bottom: -28px;
+    }
+    #page-subpage #section3 .crdsess3 {
+        border: 1px solid #347EFF;
+        border-radius: 20px;
+        height: 372px;
+        width: 89%;
+        margin: 0 auto;
+    }
+    #page-subpage #section3 .slick-next {
+        right: -46px;
+    }
+    #page-subpage #section3 .slick-prev {
+        left: -52px;
+    }
+    #page-subpage #section4 #section4-part1 .section4-part1-part1 {
+        padding-left: 72px;
+        padding-top: 0px !important;
+    }
+    #page-subpage #section4 #section4-part1 #imgsesss4 {
+        height: 356.8px;
+        width: 94%;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .wrap-trips-routes {
+        display: flex;
+        gap: 50px;
+        padding: 20px;
+        border: 1px solid #347EFF;
+        border-radius: 20px;
+        margin-top: 20px;
+        height: 107rem;
+        align-content: stretch;
+        flex-direction: column;
+    }
+    .wrap-trips-routes .img-container {
+        position: relative;
+        margin: 0 auto;
+    }
+    .wrap-trips-routes-infos .top-long-description {
+        height: 243px;
+    }
+    .slick-next::before, .slick-prev::before {
+        font-size: 19px;
+        color: #347EFF;
+    }
+    .slick-next::before, .slick-prev::before {
+        font-size: 16px !important;
+        color: #347EFF;
+    }
+    #section6 .slick-next {
+        right: -14px;
+    }
+    #section6 .slick-prev {
+        left: -10px;
+    }
+
+
+}
