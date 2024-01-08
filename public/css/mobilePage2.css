@@ -930,11 +930,7 @@
             padding-left: 4%;
             padding-bottom: 12px;
         }
-        .section-8-prt1 img {
 
-            margin-right: 22%;
-
-        }
         .block-cards{
             margin: 0 8px;
         }
@@ -944,7 +940,7 @@
         }
 
         .crd81 {
-            width: 233px;
+            width: 227px;
         }
         #section-3 .block-cards {
             margin: 10px auto;
@@ -967,4 +963,15 @@
             font-weight: 500;
             font-size: 12px;
         }
+        .section-8-prt1 img {
+            object-fit: cover;
+            opacity: 1.08347;
+            display: block;
+            height: 322px;
+            border-radius: 20px;
+            width: 100%;
+            background-position: center;
+            background-size: 40%;
+        }
+
     }
