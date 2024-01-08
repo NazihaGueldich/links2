@@ -1310,7 +1310,10 @@
 
         top: -26px;
     }
+    .button-formulaire{
 
+        margin-left: 9%;
+    }
     .video-js {
         width: 100%;
         height: 409px;
@@ -1463,10 +1466,15 @@
     }
     .nav-item {
         color: #000;
-     
+
         font-family: noto;
         margin-right: 0px;
     }
+
+    .button4-cancel {
+        margin-right: 9% !important;
+    }
+
 }
 
 
