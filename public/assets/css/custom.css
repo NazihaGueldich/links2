@@ -1325,5 +1325,13 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     #p3-section4 .slick-next {
         right: -16px !important;
     }
+    body .wrap-nav-transportation .tab-content p {
 
+        line-height: 1.3rem;
+
+    }
+    body #p3-section3 .tab-content .card-title {
+
+        padding-top: 0px;
+    }
 }
