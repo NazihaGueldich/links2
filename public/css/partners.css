@@ -127,6 +127,19 @@ body{
         max-width: 100%;
     }
     #partners #partners-cont #partnerspartweb {
-        padding-left: 0; 
+        padding-left: 0;
+    }
+}
+@media (width: 820px) and (height:1180px) {
+
+
+    #partners #partners-cont .img {
+        border: 1px solid #347EFF;
+        border-radius: 20px;
+        display: flex !important;
+        justify-content: center;
+        height: 135px;
+        max-width: 50%;
+        margin: 10px auto;
     }
 }
