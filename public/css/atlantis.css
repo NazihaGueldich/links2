@@ -1054,7 +1054,8 @@ section {
     .posit {
         top: 51%;
     }
-}  @media (width: 820px) and (height:1180px) {
+}
+ @media (width: 820px) and (height:1180px) {
     .card-session1{
         margin: 5%;
     }

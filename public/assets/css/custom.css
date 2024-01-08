@@ -480,9 +480,9 @@ body #p3-section5>.container>.row {
     }
 }
 @media screen and (max-width: 1280px) {
-    
 
-    
+
+
     #page-info #p3-section3 .slick-track {
         align-items: center;
     }
@@ -502,7 +502,7 @@ body #p3-section5>.container>.row {
         margin-top: 35px;
     }
 
-   
+
 
     body .wrap-museums-card {
         margin-top: 0px !important;
@@ -800,7 +800,7 @@ body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-t
         height: 771px;
     }
 
-   
+
 }
 
 body .wrap-festival-card {
@@ -872,7 +872,7 @@ body .wrap-festival-card .custom-card .custom-card-text {
         font-size: 1rem;
         font-weight: 700;
     }
-    
+
     body #p3-section3 .tab-content .card-title {
         padding-top: 0;
         margin-bottom: 10px;
@@ -1031,7 +1031,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {
-    
+
     body #p3-section4 .lignhght {
         line-height: 25px;
     }
@@ -1252,7 +1252,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     }
 
     #page-info .custom-card .custom-card-text {
-        margin-top: -12% !important;
+
         left: 49% !important;
     }
 }
@@ -1262,8 +1262,68 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         right: -24px !important;
     }
 
-    body .wrap-festival-card .custom-card .custom-card-text {
-        margin-top: 2%;
-        left: 159px;
+
+}
+@media (width: 820px) and (height:1180px) {
+    body .wrap-custom-card .custom-card .custom-card-title {
+
+        margin-bottom: 33px;
     }
+    #page-info .custom-card audio {
+        height: 40px;
+        width: 120px;
+        margin: 0 26px;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -17px !important;
+    }
+    #page-info #p3-section2 .slick-prev {
+        left: -53px !important;
+    }
+    body .wrap-museums-card {
+        margin-top: 0px !important;
+        margin-left: 16px;
+    }
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        width: 100%;
+        height: 739px;
+    }
+    #page-info .slick-prev {
+        left: -64px;
+    }
+    body .wrap-festival-card .custom-card .custom-card-title {
+        font-family: DM Sans;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    body .wrap-festival-card .custom-card {
+   width:100% !important;
+    }
+    body .wrap-souvenir-card {
+        margin: 0 auto;
+    }
+    #page-info .slick-prev {
+        left: -48px;
+    }
+    #p3-section6 .slick-next {
+        right: -15px !important;
+    }
+    #page-info #crdssess5 li {
+        width: 143px !important;
+
+    }
+    body .wrap-festival-card {
+
+        width: 56rem;
+    }
+    #page-info .custom-card .custom-card-text {
+
+        left: 18% !important;
+    }
+    #p3-section4 .slick-next {
+        right: -16px !important;
+    }
+
 }
