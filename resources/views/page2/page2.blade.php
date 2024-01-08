@@ -159,7 +159,7 @@
                 <h2 class="main-title">Location</h2>
                 <img src="{{ asset('images/mapppp_finaaallllll-02.svg') }}" class="img2" alt="Map">
             </div>
-            <div class="row block-cards">
+            <div class="row block-cards ">
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body d-flex flex-column">
@@ -373,7 +373,7 @@
                             튀니지의
                             독특한 경험을 제공합니다.
                         </p>
-                       
+
                     </div>
                 </div>
             </div>

@@ -906,8 +906,23 @@
 
         #tunis-time {
             margin-left: 2%;
+        }.ktbchng .row {
+            height: 100%;
         }
-
+        #sec3img {
+            object-fit: contain;
+            width: 86%;
+            height: 203px;
+            padding: 5px;
+        }
+        #img-langue {
+            object-fit: contain;
+            width: 100%;
+            height: 300px;
+        }
+        .ktbchng {
+            width: 100%;
+        }
         .navbar-toggled .nav-item {
             text-align: center;
             background-color: white;
@@ -915,6 +930,31 @@
             padding-left: 4%;
             padding-bottom: 12px;
         }
+        .section-8-prt1 img {
 
+            margin-right: 22%;
 
+        }
+        .block-cards{
+            margin: 0 8px;
+        }
+        .img6 {
+            height: 319.04px;
+
+        }
+
+        .crd81 {
+            width: 233px;
+        }
+        #section-3 .block-cards {
+            margin: 10px auto;
+            width: 89%;
+        }
+        #section-3 .block-cards .card {
+            transition: all .3s ease;
+            cursor: pointer;
+            border: 3px solid #f1f1f1bf;
+            padding: 5px 15px;
+            margin: 2%;
+        }
     }
