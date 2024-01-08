@@ -781,3 +781,20 @@ blog-page #section5 #crcl7sess6 {
     }
 
 }
+@media (width: 820px) and (height:1180px) {
+
+    #blog-page #section5 .crdsess5 {
+        background-color: #F1F4F8;
+        border-radius: 20px;
+        margin-top: 20px;
+        width: 643px;
+        margin: 20px auto;
+    }
+
+    #blog-page #section4 {
+       
+        margin: 0 auto;
+    }
+
+}
+
