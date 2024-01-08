@@ -1289,9 +1289,7 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         width: 100%;
         height: 739px;
     }
-    #page-info .slick-prev {
-        left: -64px;
-    }
+
     body .wrap-festival-card .custom-card .custom-card-title {
         font-family: DM Sans;
         font-size: 0.8rem;
@@ -1301,14 +1299,10 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
     body .wrap-festival-card .custom-card {
    width:100% !important;
     }
-    body .wrap-souvenir-card {
-        margin: 0 auto;
-    }
-    #page-info .slick-prev {
-        left: -48px;
-    }
+
+
     #p3-section6 .slick-next {
-        right: -15px !important;
+        right: -30px !important;
     }
     #page-info #crdssess5 li {
         width: 143px !important;
@@ -1330,8 +1324,16 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
         line-height: 1.3rem;
 
     }
+    #page-info .slick-prev {
+        left: -60px;
+
+    }
     body #p3-section3 .tab-content .card-title {
 
         padding-top: 0px;
+    }
+    body .wrap-souvenir-card {
+        margin-top: 10px;
+        margin-left: 6px;
     }
 }
