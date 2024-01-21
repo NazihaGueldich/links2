@@ -226,20 +226,15 @@
         margin-top: 16%;
     }
 
-
     #tunis-time {
         margin-left: 2%;
     }
-
-
 
     .btn-main {
         padding: 40%;
     }
 
-
     .card2 {
-
         width: 100%;
     }
 
@@ -247,27 +242,20 @@
         width: 100%;
     }
 
-
-
-
-
-
     .btn.btn-outline-primary.button3 {
-        width: 126px;
+        width: auto;
+        max-width: 90%;
+        margin: 15px auto 0;
         height: 41px;
         background-color: #ffffff;
         transition: none;
         box-shadow: none;
         font-weight: 400;
-
-        font-size: 10px;
+        font-size: 12px;
         font-family: noto;
-
         color: #347EFF;
         border-radius: 36px;
-
         border-color: #347EFF !important;
-
     }
 
     .btn.btn-outline-primary.button4 {
@@ -290,9 +278,33 @@
 
     }
 
+    #section-7 .card-contact {
+        flex-direction: column-reverse;
+    }
+
+    #section-7 .card-contact .right-Contact {
+        margin-top: 25px;
+    }
+
+    #index footer #part1 {
+        border: none;
+    }
+
+    body#page-atlantis .card-session1 {
+        line-height: 1.5;
+        padding: 0;
+    }
+    .card-session4-cnt-imgs {
+        padding: 15px !important;
+    }
+
     .form-mobil {
         padding: 0;
         margin-top: 1rem;
+    }
+
+    .border-md-right {
+        border-right:none !important;
     }
 
     .imageB1,
@@ -305,8 +317,6 @@
         background-size: 100% 100%;
         object-fit: cover;
     }
-
-
 
     .text-p2,
     .text-p3,
@@ -862,6 +872,10 @@
         order: 1;
         /* Place le titre en haut sur les téléphones */
     }
+    .btn.btn-outline-primary.btn1-b,
+    .btn.btn-outline-primary.btn1-b1 {
+        margin: 15px 0;
+    }
 
 
 }
@@ -887,7 +901,6 @@
     }
 
 }
-
 
 @media (max-width: 769px) {
     .card2 {
@@ -1203,8 +1216,6 @@
         height: 55px;
     }
 }
-
-
 
 @media (width: 820px) and (height:1180px) {
     #crcltuns {

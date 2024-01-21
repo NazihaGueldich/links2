@@ -931,9 +931,9 @@
         <div class="w-100 mt-3 pt-2 px-0 container" id='part2'>
             <div class="row">
                 <div class="text-left col-lg-4 image-footer-1">
-                    <img src="{{ asset('images/Rectangle2.svg') }}">
-                    <img src="{{ asset('images/Untitled-1.png') }}" class="heightimg">
-                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" class="heightimg">
+                    <img src="{{ asset('images/Rectangle2.svg') }}" alt="Tunisiatrip">
+                    <img src="{{ asset('images/Untitled-1.png') }}" class="heightimg" alt="Atlantis voyages">
+                    <img src="{{ asset('images/Inspiring_tunisia.png') }}" class="heightimg" alt="Tunisia Inspiring">
                 </div>
                 <div class="col-lg-4 text-center image-footer-1">
                     <span>All rights reserved ©</span>

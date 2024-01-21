@@ -374,7 +374,25 @@ body#page-atlantis .card-session3 .card-body .imgface {
     body#page-atlantis .card-session3 .card-body {
         height: auto;
         margin: 0;
-        padding: 0;
+        padding: 30px !important;
+        line-height: 2;
+    }
+    body#page-atlantis .card-session3 .card-body .imgface {
+        margin-bottom: 10px;
+    }
+
+    body.tunisiatrip .card-session4-cnt .card-body {
+        padding: 15px 0 0;
+    }
+    body.tunisiatrip .card-session4-cnt .card-body > div {
+        pointer-events: none;
+        padding: 0!important;
+        height: auto!important;
+        margin: 0 0 25px !important;
+    }
+    body#page-atlantis #PAS4I1
+    {
+        padding: 0 !important;
     }
 
 }
@@ -609,11 +627,12 @@ body#page-atlantis .card-session4-spns .card-body {
 @media (max-width: 767px) {
     .card-session4-cnt {
         border: 2px solid #347EFF;
-        height: 496px;
+        height: auto;
     }
 
     #s4prttxt {
-        height: 305px;
+        height: auto;
+        padding-bottom: 40px;
     }
 
     .imgsess4 {

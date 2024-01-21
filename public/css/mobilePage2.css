@@ -101,6 +101,13 @@
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+            background: transparent;
+        }
+        .ktbchng .row {
+            background: transparent;
+        }
+        #about-tunisia footer #part1 {
+            border: none;
         }
 
         .parghraphe1 {

@@ -44,7 +44,7 @@
             <span class="text">지중해의 보석 튀니지로 떠나요!</span>
         </div>
     </section>
-    <div class="sec-con pb-1 pt-4">
+    <div class="sec-con pb-4 pt-4">
         <div class="container">
             {{-- section 2 --}}
             <section id='section2'>

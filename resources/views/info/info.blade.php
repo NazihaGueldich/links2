@@ -5,21 +5,21 @@
     content="튀니지 음식
 
     전통음식
-    
+
     하리사
-    
+
     라블라비
-    
+
     튀니지 택시
-    
+
     튀니지 박물관
-    
+
     바르도
-    
+
     바르도 박물관
-    
+
     카르타고 페스티벌
-    
+
     올리브 오일">
 </head>
 
@@ -100,7 +100,7 @@
                     <div class="d-flex flex-column justify-content-end align-items-center">
                         <img class="custom-card-img" src="{{ asset('assets/img/Aslema_icon.svg') }}" alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk1" onclick="chngeAud(1)" />
                                     <label class="label" for="chk1">
@@ -128,7 +128,7 @@
                     <div class="d-flex flex-column justify-content-end align-items-center">
                         <img class="custom-card-img" src="{{ asset('assets/img/Bqadesh_icon.svg') }}" alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk2" onclick="chngeAud(2)" />
                                     <label class="label" for="chk2">
@@ -157,7 +157,7 @@
                         <img class="custom-card-img" src="{{ asset('assets/img/Yaaychek_icon.svg') }}"
                             alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk3" onclick="chngeAud(3)" />
                                     <label class="label" for="chk3">
@@ -185,7 +185,7 @@
                     <div class="d-flex flex-column justify-content-end align-items-center">
                         <img class="custom-card-img" src="{{ asset('assets/img/Aatini_icon.svg') }}" alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk4" onclick="chngeAud(4)" />
                                     <label class="label" for="chk4">
@@ -214,7 +214,7 @@
                         <img class="custom-card-img" src="{{ asset('assets/img/Beslema_icon.svg') }}"
                             alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk5" onclick="chngeAud(5)" />
                                     <label class="label" for="chk5">
@@ -242,7 +242,7 @@
                     <div class="d-flex flex-column justify-content-end align-items-center">
                         <img class="custom-card-img" src="{{ asset('assets/img/Mahlek_icon.svg') }}" alt="Aslema">
                         <div class="row">
-                            <div class="col-4 d-flex justify-content-center">
+                            <div class="col-md-4 d-flex justify-content-center">
                                 <div class="one-quarter mt-2" id="switch">
                                     <input type="checkbox" class="checkbox" id="chk6" onclick="chngeAud(6)" />
                                     <label class="label" for="chk6">

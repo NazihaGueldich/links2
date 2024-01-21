@@ -158,17 +158,21 @@
     }
 
     #page-subpage #section1 .slick-dotted.slick-slider {
-        height: 51px;
-        margin-bottom: 92px;
+        height: 250px;
+        margin-bottom: 75px;
     }
 
     #page-subpage #section1 .slick-dots {
-        bottom: -131px;
+        bottom: -85px;
     }
 
     #page-subpage #section1 .overlay-content {
+        top: 30px;
+        height: calc(100% - 30px);
+    }
 
-        top: 50%;
+    #page-subpage #section1 .img1 {
+        height: 250px;
     }
 
     .zone-tunis {
@@ -818,7 +822,7 @@ body {
     }
 
     .wrap-trips-routes-infos .top-long-description {
-        margin-bottom: 35px;
+        margin-bottom: 60px;
     }
 
     #page-subpage #section5 #imgsess1 {

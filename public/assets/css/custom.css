@@ -827,6 +827,7 @@ body .wrap-festival-card .custom-card {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
+    overflow: hidden;
 }
 
 body .wrap-festival-card .custom-card .mask-image {

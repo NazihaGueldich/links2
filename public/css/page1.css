@@ -1657,22 +1657,17 @@ section.background-section {
         display: flex;
         flex-direction: column;
     }
-
     .text-img-container {
         display: flex;
         flex-direction: column;
     }
-
     .text-img-container img {
         width: 100%;
     }
     .text-container {
-
         align-items: center;
         justify-content: space-between;
-      }
-
-
+    }
   }
 .txtactv{
     display: block !important;
@@ -1786,19 +1781,19 @@ section .block-cards {
 }
 
 .section-2-hover .links_box-1 {
-    background-image: url('../images/Rectangle (2).png');
+    background-image: url('../images/historique-medina.jpg');
 }
 
 .section-2-hover .links_box-2 {
-    background-image: url('../images/Asset 6@2x 1.png');
+    background-image: url('../images/cuisine-tunisienne.png');
 }
 
 .section-2-hover .links_box-3 {
-    background-image: url('../images/tiniseeee.jpg');
+    background-image: url('../images/sidi-bousaid.jpg');
 }
 
 .section-2-hover .links_box-4 {
-    background-image: url('../images/sahhara.png');
+    background-image: url('../images/desert.png');
 }
 
 .section-2-hover .p1prt7 {
