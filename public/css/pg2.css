@@ -516,7 +516,6 @@ body {
     height: 33.64px;
     border-radius: 8px;
     border: 1px solid #347EFF;
-    font-family: 'noto';
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
@@ -561,7 +560,6 @@ body {
 }
 
 .txt1 {
-    font-family: 'noto';
     font-size: 16px;
     font-weight: 400;
     height: 29px;
@@ -674,7 +672,6 @@ body {
 }
 
 .titr4 {
-    font-family: 'noto';
     font-size: 36px;
     font-weight: 500;
     line-height: 52px;
@@ -684,7 +681,6 @@ body {
 }
 
 .titr5 {
-    font-family: 'noto';
     font-size: 36px;
     font-weight: 500;
     line-height: 52px;
@@ -694,7 +690,6 @@ body {
 }
 
 .prt3p {
-    font-family: 'noto';
     font-size: 23px;
     font-weight: 400;
     line-height: 33px;
@@ -731,8 +726,6 @@ body {
 
 /* part4 */
 .pprt4 {
-
-    font-family: 'noto';
     font-size: 23px;
     font-weight: 400;
     line-height: 33px;
@@ -820,7 +813,6 @@ body {
 }
 
 .ktbchng span {
-    font-family: 'noto';
     font-size: 1rem;
     font-weight: 400;
     line-height: 33px;
@@ -848,7 +840,6 @@ body {
     object-position: bottom;
 }
 .titrsghyr {
-    font-family: 'noto';
     font-size: 20px;
     font-weight: 700;
     line-height: 29px;
@@ -857,7 +848,6 @@ body {
 }
 
 .pgsghyra {
-    font-family: 'noto';
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
@@ -872,7 +862,6 @@ body {
 }
 
 #h4prt6 {
-    font-family: 'noto';
     font-size: 1.20rem;
     font-weight: 900;
     letter-spacing: 0em;
@@ -916,7 +905,6 @@ body {
 }
 
 .p1prt7 {
-    font-family: 'noto';
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -925,7 +913,6 @@ body {
 }
 
 .p2prt7 {
-    font-family: 'noto';
     font-size: 1.20rem;
     font-weight: 700;
     line-height: 35px;
@@ -947,7 +934,6 @@ body {
     border-radius: 33px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
-    font-family: 'noto';
     font-size: 30px;
     font-weight: 500;
     line-height: 43px;
@@ -1003,7 +989,6 @@ body #section-10 .slick-section-10 {
 }
 
 .p1prt8 {
-    font-family: 'noto';
     font-size: 16px;
     font-weight: 500;
     line-height: 33px;
@@ -1391,11 +1376,11 @@ body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:
     height: 24px;
 }
 #about-tunisia footer #part2 .image-footer-1 a{
-    height: 18px; 
-    max-width: 17px; 
+    height: 18px;
+    max-width: 17px;
     margin-right: 4%;
 }
 #about-tunisia footer #part2 .image-footer-1 #imgyt{
-    height: 18px; 
+    height: 18px;
     max-width: 26px;
 }

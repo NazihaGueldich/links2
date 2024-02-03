@@ -1,6 +1,12 @@
 /*
  * This file is for all generic CSS classes
  */
+body.tunisiatrip,
+body#page-subpage,
+body#partners,
+body#blog-page {
+    font-family: 'noto', sans-serif;
+}
 #logtitre {
     opacity: 1;
     width: auto;

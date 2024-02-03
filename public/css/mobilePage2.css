@@ -188,7 +188,6 @@
         }
 
         .col-lg-5 span {
-            font-family: 'noto';
             width: 50% !important;
             font-size: 74%;
             text-align: center;
@@ -209,7 +208,6 @@
 
         .titr3 {
             margin: 0 auto;
-            font-family: 'noto';
             font-size: 20px;
             font-weight: 700;
             line-height: 52px;
@@ -222,7 +220,6 @@
 
         .titr5 {
             margin-top: 5%;
-            font-family: 'noto';
             font-size: 35px;
             font-weight: 700;
             line-height: 52px;
@@ -237,7 +234,6 @@
         }
 
         .card:hover .titr3 {
-            font-family: 'noto';
             font-size: 25px;
             font-weight: 700;
             line-height: 60px;
@@ -251,7 +247,6 @@
         }
 
         .pg3 {
-            font-family: 'noto';
             font-size: 12px;
             font-weight: 400;
             letter-spacing: 0em;
@@ -275,7 +270,6 @@
         }
 
         .p2prt7 {
-            font-family: 'noto';
             font-size: 1.10rem;
             font-weight: 700;
             line-height: 35px;
@@ -403,7 +397,6 @@
         .prt3p {
             margin: 0 auto;
             font-weight: 500;
-            font-family: 'noto';
             font-size: 16px;
             text-align: center;
             margin-top: 0%;
@@ -411,7 +404,6 @@
 
 
         .titr1 {
-            font-family: 'noto';
             font-size: 40px;
             font-weight: 900;
             line-height: 58px;
@@ -454,7 +446,6 @@
 
         .titr4 {
             margin-top: 90%;
-            font-family: 'noto';
             font-size: 35px;
             font-weight: 700;
             line-height: 52px;
@@ -616,7 +607,6 @@
         }
 
         .p1prt7 {
-            font-family: 'noto';
             font-size: 16px;
             font-weight: 400;
             width: 92%;

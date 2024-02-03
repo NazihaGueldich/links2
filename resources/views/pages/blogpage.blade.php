@@ -95,7 +95,7 @@
     </section>
     </div>
     {{-- section 2 --}}
-    <div class="sec2-col">
+    <div class="sec2-col my-4">
         <section id='section2' class="container">
             <div>
                 <p class="mt-4">꿈에 그리던 튀니지 여행을 맞춤화하려면 저희에게 연락하세요.</p>
@@ -110,7 +110,7 @@
     </div>
     <div class="container">
         {{-- section 3 --}}
-        <section id='section3'>
+        <section id="section3" class="my-4">
             <div class="items" id="items">
                 <button id='itm0' class="item-actv" onclick="changSection6(0)">All</button>
                 <button id='itm1' class="item-inactv" onclick="changSection6(1)">Popular</button>
