@@ -520,9 +520,11 @@
 
 
     .video-js {
-        width: 100% !important;
-        height: 100%;
+        width: 360px !important;
+        height: 190px;
         border-radius: 20px;
+        margin: 0 auto;
+        max-width: 100%;
     }
 
     .ligne1 {
@@ -816,8 +818,6 @@
 
 }
 
-
-
 @media (max-width: 576px) {
 
     .txt1,
@@ -877,20 +877,12 @@
         margin: 15px 0;
     }
 
-
-}
-
-@media (max-width: 768px) {
-
     .txt1,
     .txt2 {
         width: 100%;
-
-
     }
 
     .txt1 {
-
         height: 50px;
         border-radius: 20px;
     }
@@ -900,6 +892,9 @@
         border-radius: 20px;
     }
 
+    .ktbchng {
+        padding: 15px 5px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -956,12 +951,15 @@
     }
 
     .txtactv {
-        margin: -18px 20px !important;
+        margin: 0 !important;
         display: block !important;
         text-align: start !important;
         font-size: 1rem !important;
-        font-family: noto !important;
+        font-family: noto, sans-serif !important;
         line-height: 25px;
+        width: 100%;
+        height: 125px;
+        overflow: auto;
     }
 
     .tit1inactv {
@@ -986,11 +984,11 @@
 
     .imgactv {
         display: block;
-        width: 92%;
-        margin: 18px auto !important;
+        width: 100%;
+        margin: 0 0 15px 0 !important;
         object-fit: cover;
         border-radius: 10px;
-        height: 127px;
+        height: auto;
     }
 
     .show-paragraph h5 {

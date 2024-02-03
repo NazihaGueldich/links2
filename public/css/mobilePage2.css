@@ -50,7 +50,7 @@
         }
 
         #section-5 .allsec {
-            height: 544px;
+            height: auto;
         }
 
         body section {
@@ -91,6 +91,16 @@
             width: 100%;
         }
 
+        .para-section p:last-child {
+            height: 315px;
+            overflow: auto;
+        }
+
+        #section-6 .para-section p:last-child {
+            height: 250px;
+            overflow: auto;
+        }
+
         #section-5 .parghraphe {
             font-size: 1rem;
         }
@@ -118,21 +128,20 @@
         .img2-section3 {
             text-align: left;
             padding: 0;
-            height: 33%;
+            height: 60px;
         }
 
         .img1-section3 {
             display: block;
-            height: 49px;
+            height: 60px;
             margin: auto;
             padding-bottom: 1%;
+            margin-bottom: 10px;
         }
 
         .img3-section3 {
-            display: block;
-            height: 56px;
-            margin: auto;
-
+            height: 60px;
+            margin-bottom: 10px;
         }
 
         .navbar {
@@ -434,7 +443,7 @@
 
 
         .card {
-            height: 200px;
+            height: auto;
         }
 
         .lignesfrk {

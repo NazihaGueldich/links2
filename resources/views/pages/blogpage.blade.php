@@ -81,7 +81,7 @@
         </div>
     </main>
     {{-- section 1 --}}
-    <section id='section1' class="container">
+    <section id='section1' class="container pt-lg-4">
         <h2 class="main-title text-center">
             <span class="title-new">New</span> To the Unknown Beauties of Tunisia with Hae In Jung
         </h2>
@@ -269,6 +269,6 @@
             </div>
         </section>
     </div>
- 
+
 
     @include('layouts.front.footer')

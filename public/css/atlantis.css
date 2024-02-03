@@ -385,7 +385,6 @@ body#page-atlantis .card-session3 .card-body .imgface {
         padding: 15px 0 0;
     }
     body.tunisiatrip .card-session4-cnt .card-body > div {
-        pointer-events: none;
         padding: 0!important;
         height: auto!important;
         margin: 0 0 25px !important;
@@ -394,11 +393,7 @@ body#page-atlantis .card-session3 .card-body .imgface {
     {
         padding: 0 !important;
     }
-
 }
-
-
-
 
 body#page-atlantis .session3-slick-mobile,
 body#page-atlantis .session5-slick-mobile,
@@ -638,7 +633,7 @@ body#page-atlantis .card-session4-spns .card-body {
     .imgsess4 {
         object-fit: cover;
         border-radius: 20px;
-        width: 342px !important;
+        width: 100% !important;
         height: 160px !important;
     }
 
@@ -751,8 +746,8 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .cercle-img {
-        left: 16%;
-    top: 54%;
+        left: 15%;
+        top: 48%;
     }
 }
 
@@ -766,8 +761,9 @@ body#page-atlantis .card-session4-spns .card-body {
 
 @media (max-width: 767px) {
     .text-img {
-        left: 22%;
-    top: 61%;
+        left: 21.4%;
+        top: 55.3%;
+        margin: 0;
     }
 }
 
@@ -857,10 +853,6 @@ section {
 
 #page-atlantis #section-1 #logCWT {
     max-width: 80px;
-}
-
-#page-atlantis #section-5 .tret {
-    left: 37% !important;
 }
 
 @media all and (min-width: 768px) and (max-width: 819px) {

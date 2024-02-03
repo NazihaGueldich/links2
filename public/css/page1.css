@@ -167,7 +167,7 @@ body.tunisiatrip .card {
     transition: all .3s ease;
     cursor: pointer;
     border: 3px solid #f1f1f1bf;
-    padding: 5px 15px;
+    padding: 15px;
 }
 body.tunisiatrip .card-body {
     padding: 15px;
@@ -1426,7 +1426,7 @@ section.background-section {
 .ktbchng{
     margin: 0 auto;
     border-radius: 20px;
-    height: 344px;
+    height: auto;
     border: 1px solid #B3B3B3;
 }
 
@@ -1456,9 +1456,11 @@ section.background-section {
     height: 65px;
 }
 @media (max-width: 997px) {
-.btninactv1,.btnactv1 {
-    width: 90% !important;
-}
+    .btninactv1,.btnactv1 {
+        width: 90% !important;
+        padding: 5px !important;
+        font-size: 0.85rem;
+    }
 }
 .btn.btn-outline-primary.btn1-b:hover,
 .btn.btn-outline-primary.btn3:hover {
@@ -1676,7 +1678,6 @@ section.background-section {
     margin: 30px 43px !important;
     font-family: noto !important;
     line-height: 50px;
-    padding-bottom: 26%;
     width: 74%;
 }
 

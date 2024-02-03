@@ -611,6 +611,14 @@ body .wrap-nav-transportation .tab-content p {
         margin-top: 0 ;
     }
 
+    body .wrap-nav-transportation #btns {
+        margin-bottom: 70px;
+    }
+
+    body#page-info #p3-section3 .wrap-nav-transportation #btns .slick-dots {
+        bottom: -40px;
+    }
+
     body #p3-section3 .btninactv {
         font-size: 0.8rem;
         height: 40px;
@@ -981,29 +989,22 @@ body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
 
 .note {
     position: absolute;
-    left: 27%;
+    left: 50%;
     top: 81%;
-    width: 38px !important;
+    width: 95px !important;
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    transform: translateX(-50%);
+    height: 15px;
 }
 
 .note img {
-    padding-right: 10%;
-    width: 77%;
+    padding-right: 5px;
+    width: auto;
 }
 
 @media (max-width: 767px) {
-    .note {
-        left: 30%;
-        top: 84%;
-        width: 38px !important;
-    }
-
-    .note img {
-        padding-right: 20%;
-    }
-
     #p3-section1 .col-md-4,
     #p3-section2 .col-md-12,
     #p3-section2 .col-lg-6 {
