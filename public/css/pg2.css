@@ -475,9 +475,7 @@ body {
 
 .nav-item {
     color: #000;
-    font-size: 17;
-    font-family: noto;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .navbar-nav li.nav-item a.nav-link {
@@ -1231,10 +1229,6 @@ ul {
 
 }
 
-.navbar-nav {
-    height: 33px !important;
-}
-
 .drptin {
     width: 24px;
     object-fit: cover;
@@ -1261,8 +1255,8 @@ ul {
     font-weight: 400;
 }
 #crcltuns {
-    width: 15.09px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 
 }
 .txtnav {

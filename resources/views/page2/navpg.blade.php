@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="padding: 0 !important;">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container justify-content-between">
         <div id="myTopnav" >
             <img id="logimg" src="{{ asset('images/logo2.png') }}">
@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav" style="height:33px">
+            <ul class="navbar-nav">
                 <li class="nav-item active d-flex align-items-center li1" id="tun-time">
                     <img src="{{ asset('images/Flag_of_Tunisia.svg') }}" class="mr-1" id='crcltuns'>
                     <span class="nav-link" href="#" id="tunis-time"></span>

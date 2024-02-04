@@ -89,9 +89,7 @@ body p {
 
 .nav-item {
     color: #000;
-    font-size: 17;
-    font-family: noto;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .navbar-nav li.nav-item a.nav-link {
@@ -112,19 +110,12 @@ body p {
     font-weight: 400;
 }
 
-#crcltuns {
-    width: 15px;
-    height: 15px;
-
-}
-
 .btn.btn-outline-primary.btn-main {
     height: 33px;
     border-radius: 8px;
     background-color: #ffffff;
     color: #347EFF;
     border: 1px solid #347EFF;
-    font-family: noto;
     font-size: 17px;
     padding: 3px;
 }
@@ -199,7 +190,6 @@ body .btn.btn-outline-primary.btn-main:hover,
 }
 
 .txticns {
-    font-family: noto;
     font-weight: 400;
     font-size: 20px;
 }

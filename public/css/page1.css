@@ -530,9 +530,7 @@ body {
 
 .nav-item {
     color: #000;
-    font-size: 17;
-    font-family: noto;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .rounded-8 {
@@ -626,7 +624,7 @@ body .btn.btn-outline-primary.btn-main:hover,.btn.btn-outline-primary.btn-main:a
 }
 
 .nav-item .d-flex .align-items-center {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .collapse.navbar-collapse.justify-content-center .navbar-nav li {
