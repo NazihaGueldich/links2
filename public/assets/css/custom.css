@@ -31,6 +31,10 @@
     width: 100%;
 }
 
+.cursor-auto {
+    cursor: auto;
+}
+
 .btnactv {
     border-radius: 30px;
 
@@ -856,9 +860,9 @@ body .wrap-festival-card .custom-card .custom-card-title {
 
 body .wrap-festival-card .custom-card .custom-card-text {
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 55%;
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 2.15;
 }
 

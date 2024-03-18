@@ -165,7 +165,6 @@ body.tunisiatrip button, body.tunisiatrip a {
 }
 body.tunisiatrip .card {
     transition: all .3s ease;
-    cursor: pointer;
     border: 3px solid #f1f1f1bf;
     padding: 15px;
 }
@@ -990,29 +989,22 @@ footer h3 {
     background-color: #347EFF;
     color: #ffffff;
     border: none;
-
-
-    font-family: noto;
-
+    cursor: auto!important;
+    font-family: noto, sans-serif;
     font-size: 16px;
 }
 
 .btn1-b1 {
     width: 52.32px;
     height: 29px;
+    cursor: auto!important;
     border-radius: 30px;
     background-color: #347EFF;
     color: #ffffff;
     border: none;
-
-
-    font-family: noto;
-
+    font-family: noto, sans-serif;
     font-size: 20px;
 }
-
-
-
 
 .btn2 {
     width: 63.95px;
@@ -1022,27 +1014,21 @@ footer h3 {
     color: #ffffff;
     border: none;
     font-weight: bold;
-
-    font-family: noto;
-
+    font-family: noto, sans-serif;
     font-size: 16px;
 }
 
 .btn1-b2 {
     width: 52.32px;
     height: 29px;
+    cursor: auto!important;
     border-radius: 30px;
     background-color: #B3B3B3;
     color: #ffffff;
     border: none;
-
-
-    font-family: noto;
-
+    font-family: noto, sans-serif;
     font-size: 20px;
 }
-
-
 
 .btn3 {
     width: 72.26px;
@@ -1052,26 +1038,21 @@ footer h3 {
     color: #ffffff;
     border: none;
     font-weight: bold;
-
     font-family: noto;
-
     font-size: 16px;
 }
 
 .btn1-b3 {
     width: 52.32px;
     height: 29px;
+    cursor: auto!important;
     border-radius: 30px;
     background-color: #B3B3B3;
     color: #ffffff;
     border: none;
-
-
-    font-family: noto;
-
+    font-family: noto, sans-serif;
     font-size: 20px;
 }
-
 
 .btn4 {
     width: 63.95px;
@@ -1081,23 +1062,19 @@ footer h3 {
     color: #ffffff;
     border: none;
     font-weight: bold;
-
     font-family: noto;
-
     font-size: 16px;
 }
 
 .btn1-b4 {
     width: 52.32px;
     height: 29px;
+    cursor: auto!important;
     border-radius: 30px;
     background-color: #B3B3B3;
     color: #ffffff;
     border: none;
-
-
     font-family: noto;
-
     font-size: 20px;
 }
 
@@ -1611,6 +1588,8 @@ section.background-section {
 .card-text {
     font-family: noto;
     font-size: 1rem;
+    max-height: 145px;
+    overflow: auto;
 }
 
 .divundf:hover .textbas {
@@ -1756,7 +1735,7 @@ section .block-cards {
 }
 
 .section-2-hover:hover {
-    cursor: pointer;
+    cursor: auto;
 }
 
 
@@ -1770,7 +1749,7 @@ section .block-cards {
 .section-2-hover .links_box-1,.section-2-hover .links_box-2,.section-2-hover .links_box-3,.section-2-hover .links_box-4 {
     position: relative;
     height: 280px;
-    cursor: pointer;
+    cursor: auto;
     border-radius: 20px;
     margin: 5px 0px;
     padding: 15px;

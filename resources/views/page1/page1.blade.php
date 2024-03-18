@@ -427,7 +427,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p2" id='crd2h2'>두즈</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class="btn btn-outline-primary btn2 text-center btn1-b" id="btn2">따뜻한</button>
                                 <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
                                     id="btn2-b">남쪽</button>
                             </div>
@@ -440,7 +440,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p3" id='crd2h3'>카이루안</span>
                             <div class="d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn3 text-center" id="btn3">따뜻한</button>
+                                <button class="btn btn-outline-primary btn3 text-center btn1-b" id="btn3">따뜻한</button>
                                 <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
                                     id="btn3-b">남쪽</button>
                             </div>
@@ -453,7 +453,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>마트마타</span>
                             <div class="d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn4 text-center" id="btn4">따뜻한</button>
+                                <button class="btn btn-outline-primary btn4 text-center btn1-b" id="btn4">따뜻한</button>
                                 <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
                                     id="btn4-b">남쪽</button>
                             </div>
@@ -466,7 +466,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>수스</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn1-b text-center mr"
+                                <button class="btn btn-outline-primary btn1-b text-center mr btn1-b"
                                     id="btn1">따뜻한</button>
                                 <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
                                     id="btn1-b">동쪽</button>
@@ -479,7 +479,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>스팍스</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class="btn btn-outline-primary btn2 text-center btn1-b" id="btn2">따뜻한</button>
                                 <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
                                     id="btn2-b">남쪽</button>
                             </div>
@@ -491,7 +491,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>제르바</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class="btn btn-outline-primary btn2 text-center btn1-b" id="btn2">따뜻한</button>
                                 <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
                                     id="btn2-b">남쪽</button>
                             </div>
@@ -503,7 +503,7 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>토주르</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn2 text-center" id="btn2">따뜻한</button>
+                                <button class="btn btn-outline-primary btn2 text-center btn1-b" id="btn2">따뜻한</button>
                                 <button class=" btn btn-outline-primary btn1-b2 ml-2 text-center"
                                     id="btn2-b">남쪽</button>
                             </div>
